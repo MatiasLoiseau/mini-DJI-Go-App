@@ -1,0 +1,2 @@
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:64
+-keep class com.dji.videostreamdecodingsample.VideoDecodingApplication { <init>(...); }

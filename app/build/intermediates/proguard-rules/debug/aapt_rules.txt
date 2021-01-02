@@ -1,0 +1,103 @@
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:81
+-keep class com.dji.videostreamdecodingsample.ConnectionActivity { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:97
+-keep class com.dji.videostreamdecodingsample.MainActivity { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:64
+-keep class com.dji.videostreamdecodingsample.VideoDecodingApplication { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:124
+-keep class com.mapzen.android.lost.internal.DwellIntentService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:116
+-keep class com.mapzen.android.lost.internal.FusedLocationProviderService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119
+-keep class com.mapzen.android.lost.internal.GeofencingIntentService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:107
+-keep class dji.logic.receiver.DJIPilotStartupReceiver { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:103
+-keep class dji.sdk.sdkmanager.DJIGlobalService { <init>(...); }
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\dji_dialog_login.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_barcode_scanner.xml:5
+-keep class com.dji.scan.qr.BarcodeView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_capture.xml:23
+-keep class com.dji.scan.qr.DecoratedBarcodeView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_barcode_scanner.xml:16
+-keep class com.dji.scan.qr.ViewfinderView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\dji_dialog_login.xml:8
+-keep class dji.internal.useraccount.view.LollipopFixedWebView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\Android-VideoStreamDecodingSample-master\android-videostreamdecodingsample\app\src\main\res\layout\activity_main.xml:51
+-keepclassmembers class * { *** onClick(...); }
+
