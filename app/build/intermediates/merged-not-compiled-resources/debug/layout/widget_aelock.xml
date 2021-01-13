@@ -1,0 +1,26 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/image_button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_1112"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView
+        android:id="@+id/imageview_lock"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/camera_controll_aelock_unlock"/>
+
+    <TextView
+        android:id="@+id/textview_lock_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/white"
+        android:text="@string/camera_control_ae"/>
+</merge>

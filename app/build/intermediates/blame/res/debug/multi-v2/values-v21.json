@@ -4,6 +4,25 @@
             "outputFile": "C:\\Users\\Equipo\\Desktop\\Android App\\My Apps\\mdga\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v21\\values-v21.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Equipo\\.gradle\\caches\\transforms-2\\files-2.1\\25fdecf121b7f31f33fd92f0d84f7323\\res\\values-v21\\values-v21.xml",
+                    "from": {
+                        "startLines": "2,5,8,11",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,223,386,554",
+                        "endLines": "4,7,10,13",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "218,381,549,716"
+                    },
+                    "to": {
+                        "startLines": "265,268,272,276",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "19504,19672,19961,20257",
+                        "endLines": "267,270,274,278",
+                        "endColumns": "12,12,12,12",
+                        "endOffsets": "19667,19830,20124,20419"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Equipo\\.gradle\\caches\\transforms-2\\files-2.1\\bfd3e72f0c763c0073c6d6e138745439\\res\\values-v21\\values-v21.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,17,19,20,21,22,24,26,27,28,29,30,32,34,36,38,40,42,43,48,50,52,53,54,56,58,59,60,61,62,63,107,110,154,157,160,162,164,166,169,171,174,175,176,179,180,181,182,183,184,187,188,190,192,194,196,200,202,203,204,205,207,211,213,215,216,217,218,219,221,222,223,233,234,235,247",
@@ -33,12 +52,12 @@
                         "endOffsets": "154,218,285,349,465,591,717,845,1017,1355"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,263,264,265,266,267,270",
+                        "startLines": "2,3,4,5,263,264,271,275,279,282",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,159,223,290,19262,19378,19504,19630,19758,19930",
-                        "endLines": "2,3,4,5,263,264,265,266,269,274",
+                        "startOffsets": "55,159,223,290,19262,19378,19835,20129,20424,20596",
+                        "endLines": "2,3,4,5,263,264,271,275,281,286",
                         "endColumns": "103,63,66,63,115,125,125,127,12,12",
-                        "endOffsets": "154,218,285,349,19373,19499,19625,19753,19925,20263"
+                        "endOffsets": "154,218,285,349,19373,19499,19956,20252,20591,20929"
                     }
                 }
             ]

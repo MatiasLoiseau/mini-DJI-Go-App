@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/format_aircraft_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/format_aircraft"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:padding="@dimen/dp_5_in_sw320dp"
+        android:textSize="@dimen/text_size_normal_medium"
+        android:textStyle="bold"/>
+
+    <View
+        android:id="@+id/header_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="@dimen/dp_10_in_sw320dp"
+        android:gravity="center_horizontal"
+        android:background="@color/lighter_gray"/>
+
+    <TextView
+        android:id="@+id/format_aircraft"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/format_aircraft_confirmation"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/text_size_normal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttonsize_height"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/access_locker_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/dlg_btn_bg"
+            android:gravity="center"
+            android:text="@string/app_cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal_medium"/>
+
+        <ImageView
+            android:id="@+id/imageview_divider"
+            android:layout_width="1px"
+            android:layout_height="match_parent"
+            android:background="@color/white_medium_transparent"
+            android:contentDescription="@string/app_name"/>
+
+        <TextView
+            android:id="@+id/access_locker_format_aircraft"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.0"
+            android:background="@drawable/dlg_btn_bg"
+            android:gravity="center"
+            android:text="@string/format_button"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_normal_medium"/>
+    </LinearLayout>
+</LinearLayout>

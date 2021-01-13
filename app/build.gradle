@@ -92,6 +92,7 @@ dependencies {
     implementation 'androidx.recyclerview:recyclerview:1.0.0'
     implementation 'androidx.lifecycle:lifecycle-extensions:2.0.0-rc01'
     implementation 'androidx.annotation:annotation:1.0.0'
+    implementation 'com.dji:dji-uxsdk:4.13'
 }
 
 // Please uncomment the following code if you use your own sdk version.

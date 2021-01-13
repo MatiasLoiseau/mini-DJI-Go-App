@@ -1,6 +1,6 @@
 <resources>
-    <string name="app_name_decoding_sample">Video Stream Decoding Sample</string>
-    <string name="title_main_activity">Video Stream Decoding Sample</string>
+    <string name="app_name">mini-DJI-Go-App</string>
+    <string name="title_main_activity">mini-DJI-Go-App</string>
     <string name="product_information">Product Information</string>
     <string name="connection_loose">Status: No Product Connected</string>
     <string name="model_not_available">Model Not Available</string>

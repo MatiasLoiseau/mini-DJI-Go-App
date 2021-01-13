@@ -1,0 +1,35 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageview_gps_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:src="@drawable/ic_topbar_gps_nor"
+        android:contentDescription="@string/icon"/>
+
+    <TextView
+        android:id="@+id/textview_satellite_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_tiny"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:id="@+id/imageview_gps_signal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:src="@drawable/ic_topbar_signal_level_0"
+        android:contentDescription="@string/icon"/>
+
+    <TextView
+        android:id="@+id/textview_gps_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_tiny"
+        android:textColor="@color/white"
+        android:text=""/>
+
+</merge>

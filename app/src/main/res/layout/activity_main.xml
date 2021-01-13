@@ -1,26 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.dji.mini_dji_go_app.MainActivity">
-
-    <RelativeLayout
-        android:id="@+id/main_title_rl"
-        android:layout_width="fill_parent"
-        android:layout_height="40dp"
-        android:background="@color/title_dark">
-
-        <TextView
-            android:id="@+id/title_tv"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:textColor="@android:color/white"
-            android:text="@string/title_main_activity"/>
-
-    </RelativeLayout>
+    tools:context="jcg.mini_dji_go_app.MainActivity">
 
     <TextureView
         android:id="@+id/livestream_preview_ttv"
@@ -29,8 +14,7 @@
         android:layout_centerInParent="true"
         android:layout_gravity="center"
         android:alpha="50"
-        android:visibility="visible"
-        android:layout_below="@id/main_title_rl"/>
+        android:visibility="visible"/>
 
     <SurfaceView
         android:id="@+id/livestream_preview_sf"
@@ -38,51 +22,26 @@
         android:layout_height="180dp"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:visibility="gone"
-        android:layout_below="@id/main_title_rl"/>
+        android:visibility="gone"/>
+
+    <Button
+        android:id="@+id/activity_main_screen_shot"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="260dp"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="YUV Screen Shot" />
 
     <LinearLayout
         android:layout_width="150dp"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
-        android:layout_below="@id/main_title_rl"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/activity_main_screen_texture"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="Demo TextureView"
-            android:clickable="true"
-            android:onClick="onClick"
-            android:gravity="center"  />
-
-        <Button
-            android:id="@+id/activity_main_screen_surface_with_own_decoder"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="Demo custom decoder"
-            android:clickable="true"
-            android:onClick="onClick"
-            android:gravity="center" />
-
-        <Button
-            android:id="@+id/activity_main_screen_surface"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="Demo SurfaceView"
-            android:onClick="onClick"
-            android:gravity="center" />
-
-
-        <Button
-            android:id="@+id/activity_main_screen_shot"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:text="YUV Screen Shot"
-            android:clickable="true"
-            android:onClick="onClick"
-            android:gravity="center" />
 
     </LinearLayout>
     <TextView
@@ -93,11 +52,172 @@
         android:background="@color/title_dark"
         android:layout_toRightOf="@id/activity_main_screen_shot"
         android:layout_alignParentRight="true"
-        android:layout_below="@id/main_title_rl"
         android:textColor="@color/colorWhite"
         android:visibility="invisible"
         android:scrollbars="vertical"
         android:gravity="bottom"
         />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background_blue"
+        android:orientation="horizontal"
+        tools:context=".MainActivity">
+
+        <!-- Widgets in top status bar -->
+        <LinearLayout
+            android:id="@+id/signal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:background="@color/dark_gray"
+            android:orientation="horizontal">
+
+            <dji.ux.widget.PreFlightStatusWidget
+                android:layout_width="238dp"
+                android:layout_height="25dp" />
+
+            <dji.ux.widget.FlightModeWidget
+                android:layout_width="103dp"
+                android:layout_height="22dp" />
+
+            <dji.ux.widget.GPSSignalWidget
+                android:layout_width="44dp"
+                android:layout_height="22dp" />
+
+            <dji.ux.widget.VisionWidget
+                android:layout_width="22dp"
+                android:layout_height="22dp" />
+
+            <dji.ux.widget.RemoteControlSignalWidget
+                android:layout_width="38dp"
+                android:layout_height="22dp" />
+
+            <dji.ux.widget.VideoSignalWidget
+                android:layout_width="38dp"
+                android:layout_height="22dp" />
+
+            <dji.ux.widget.WiFiSignalWidget
+                android:layout_width="22dp"
+                android:layout_height="20dp" />
+
+            <dji.ux.widget.BatteryWidget
+                android:layout_width="96dp"
+                android:layout_height="22dp"
+                custom:excludeView="singleVoltage" />
+
+            <dji.ux.widget.ConnectionWidget
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_marginTop="3dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/camera"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="@color/dark_gray"
+            android:orientation="horizontal">
+
+            <dji.ux.widget.AutoExposureLockWidget
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.FocusExposureSwitchWidget
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.FocusModeWidget
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigISOAndEIWidget
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigShutterWidget
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigApertureWidget
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigEVWidget
+                android:layout_width="60dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigWBWidget
+                android:layout_width="70dp"
+                android:layout_height="30dp" />
+
+            <dji.ux.widget.config.CameraConfigStorageWidget
+                android:layout_width="130dp"
+                android:layout_height="30dp" />
+        </LinearLayout>
+
+        <dji.ux.widget.ManualFocusWidget
+            android:layout_width="42dp"
+            android:layout_height="218dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="RtlHardcoded" />
+
+        <dji.ux.widget.RemainingFlightTimeWidget
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dp"
+            android:background="@color/transparent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <dji.ux.widget.dashboard.DashboardWidget
+                android:id="@+id/Compass"
+                android:layout_width="405dp"
+                android:layout_height="91dp"
+                android:layout_marginRight="12dp"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+
+        <!--Take off and return home buttons on left -->
+        <LinearLayout
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="12dp"
+            android:orientation="vertical">
+
+            <dji.ux.widget.TakeOffWidget
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginBottom="12dp" />
+
+            <dji.ux.widget.ReturnHomeWidget
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="12dp" />
+        </LinearLayout>
+
+
+        <!-- Pre-flight checklist panel -->
+
+        <dji.ux.panel.PreFlightCheckListPanel
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            custom:excludeItem="ESCStatus" />
+
+    </RelativeLayout>
 
 </RelativeLayout>

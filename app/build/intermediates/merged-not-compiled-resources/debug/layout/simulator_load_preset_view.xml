@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/simulator_preset_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/preset_list_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simulator_save_preset_list"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/preset_header_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lighter_gray" />
+
+    <TextView
+        android:id="@+id/preset_list_empty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/simulator_save_preset_list_empty" />
+
+    <LinearLayout
+        android:id="@+id/simulator_preset_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+</LinearLayout>

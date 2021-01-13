@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/radar_forward_disabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/radar_forward_disabled"/>
+
+    <ImageView
+        android:id="@+id/radar_forward_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_forward_0"/>
+
+    <ImageView
+        android:id="@+id/radar_forward_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_forward_1"/>
+
+    <ImageView
+        android:id="@+id/radar_forward_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_forward_2"/>
+
+    <ImageView
+        android:id="@+id/radar_forward_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_forward_3"/>
+
+    <ImageView
+        android:id="@+id/forward_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_arrow"/>
+
+    <TextView
+        android:id="@+id/forward_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/widget_radar_distance_txt"/>
+
+    <TextView
+        android:id="@+id/backward_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/widget_radar_distance_txt"/>
+
+    <ImageView
+        android:id="@+id/backward_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="180"
+        android:src="@drawable/ic_arrow"/>
+
+    <ImageView
+        android:id="@+id/radar_backward_disabled"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:src="@drawable/radar_backward_disabled"/>
+
+    <ImageView
+        android:id="@+id/radar_backward_0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_backward_0"/>
+
+    <ImageView
+        android:id="@+id/radar_backward_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_backward_1"/>
+
+    <ImageView
+        android:id="@+id/radar_backward_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_backward_2"/>
+
+    <ImageView
+        android:id="@+id/radar_backward_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_backward_3"/>
+
+    <ImageView
+        android:id="@+id/radar_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_left"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/left_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="270"
+        android:src="@drawable/ic_arrow"/>
+
+    <TextView
+        android:id="@+id/left_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/widget_radar_distance_txt"/>
+
+    <TextView
+        android:id="@+id/right_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/widget_radar_distance_txt"/>
+
+    <ImageView
+        android:id="@+id/right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rotation="90"
+        android:src="@drawable/ic_arrow"/>
+
+    <ImageView
+        android:id="@+id/radar_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/radar_right"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:id="@+id/avoid_up"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/avoid_up"
+        android:visibility="gone"/>
+
+</merge>

@@ -160,7 +160,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         screenShot = (Button) findViewById(R.id.activity_main_screen_shot);
         screenShot.setSelected(false);
 
-        titleTv = (TextView) findViewById(R.id.title_tv);
         videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
         videostreamPreviewSf = (SurfaceView) findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSf.setClickable(true);
@@ -555,29 +554,15 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         if (v.getId() == R.id.activity_main_screen_shot) {
             handleYUVClick();
-        } else {
-            DemoType newDemoType = null;
-            if (v.getId() == R.id.activity_main_screen_texture) {
-                newDemoType = DemoType.USE_TEXTURE_VIEW;
-            } else if (v.getId() == R.id.activity_main_screen_surface) {
-                newDemoType = DemoType.USE_SURFACE_VIEW;
-            } else if (v.getId() == R.id.activity_main_screen_surface_with_own_decoder) {
-                newDemoType = DemoType.USE_SURFACE_VIEW_DEMO_DECODER;
+            if (mCodecManager != null) {
+                mCodecManager.cleanSurface();
+                mCodecManager.destroyCodec();
+                mCodecManager = null;
             }
-
-            if (newDemoType != null && newDemoType != demoType) {
-                // Although finish will trigger onDestroy() is called, but it is not called before OnCreate of new activity.
-                if (mCodecManager != null) {
-                    mCodecManager.cleanSurface();
-                    mCodecManager.destroyCodec();
-                    mCodecManager = null;
-                }
-                demoType = newDemoType;
-                finish();
-                overridePendingTransition(0, 0);
-                startActivity(getIntent());
-                overridePendingTransition(0, 0);
-            }
+            finish();
+            overridePendingTransition(0, 0);
+            startActivity(getIntent());
+            overridePendingTransition(0, 0);
         }
     }
 

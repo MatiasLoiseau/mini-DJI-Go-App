@@ -1,0 +1,51 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textview_ev_title"
+        style="@style/camera_exposure_settings_title"
+        android:text="@string/camera_exposure_ev_title"/>
+
+    <View
+        android:id="@+id/imageview_camera_settings_ev_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/black_light"/>
+
+    <ImageView
+        android:id="@+id/imagebutton_ev_setting_minus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_cycle_button_background"
+        android:src="@drawable/camera_decrement_minus"/>
+
+    <TextView
+        android:id="@+id/textview_setting_ev_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="gravity"
+        android:textColor="@color/blue_highlight"/>
+
+    <TextView
+        android:id="@+id/textview_setting_ev_status_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textAlignment="gravity"/>
+
+    <dji.ux.internal.StripeView
+        android:id="@+id/stripeview_setting_ev_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/imagebutton_ev_setting_plus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_cycle_button_background"
+        android:src="@drawable/camera_imcrement_plus"/>
+
+</merge>

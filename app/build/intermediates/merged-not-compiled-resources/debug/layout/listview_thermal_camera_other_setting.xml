@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <dji.ux.internal.ParentChildrenViewAnimator
+        android:id="@+id/camera_other_setting_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true">
+
+        <dji.ux.internal.RecyclerListView
+            android:id="@+id/listview_camera_other"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/gray_divider_line"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="false"
+            android:listSelector="@null"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbars="vertical" />
+
+        <dji.ux.internal.advance.ThermalROIListWidget
+            android:id="@+id/thermal_camera_roi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <dji.ux.internal.advance.ThermalPaletteListWidget
+            android:id="@+id/thermal_camera_palette"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <dji.ux.internal.advance.ThermalSceneListWidget
+            android:id="@+id/thermal_camera_scene"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <dji.ux.internal.advance.ThermalGainModeListWidget
+            android:id="@+id/thermal_camera_gain_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <dji.ux.internal.advance.ThermalFFCModeListWidget
+            android:id="@+id/thermal_camera_ffc_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </dji.ux.internal.ParentChildrenViewAnimator>
+
+</merge>

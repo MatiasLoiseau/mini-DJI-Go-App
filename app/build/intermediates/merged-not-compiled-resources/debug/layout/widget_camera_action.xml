@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/widget_camera_menu_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/selector_camera_menu_bg"/>
+
+    <TextView
+        android:id="@+id/widget_camera_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="@string/camera_menu"/>
+    <View
+        android:id="@+id/top_line_camera_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white_medium_transparent"/>
+    <View
+        android:id="@+id/bot_line_camera_panel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white_medium_transparent"/>
+
+    <dji.ux.widget.controls.PictureVideoSwitch
+        android:id="@+id/widget_camera_capture_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <dji.ux.widget.controls.CameraCaptureWidget
+        android:id="@+id/widget_camera_capture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/widget_camera_exposure_status_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/selector_camera_exposure_status_bg"/>
+
+    <dji.ux.widget.controls.ExposureSettingsMenu
+        android:id="@+id/widget_camera_exposure_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</merge>

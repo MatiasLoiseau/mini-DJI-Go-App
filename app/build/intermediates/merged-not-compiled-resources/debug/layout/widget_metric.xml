@@ -1,0 +1,38 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@android:color/transparent">
+
+    <TextView
+        android:id="@+id/textview_metrics_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"/>
+
+
+    <ImageView
+        android:id="@+id/imageview_metrics_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:gravity="left"
+        android:contentDescription="@string/icon"/>
+
+    <TextView
+        android:id="@+id/textview_metrics_unit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:textColor="@color/light_gray"
+        android:text="@string/miles_h"/>
+
+    <TextView
+        android:id="@+id/textview_metrics_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lighter_gray"
+        android:gravity="right"
+        android:text="@string/vertical"/>
+
+</merge>

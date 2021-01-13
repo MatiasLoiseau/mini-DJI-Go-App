@@ -1,0 +1,77 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/imageview_battery_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:gravity="left"
+        android:src="@drawable/ic_topbar_battery_nor" />
+
+    <ImageView
+        android:id="@+id/imageview_multi_battery_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:src="@drawable/ic_topbar_double_battery_nor"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview_battery1_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal_medium"
+        android:textColor="@color/light_gray"
+        android:text="@string/string_default_value"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview_battery_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal_medium"
+        android:textColor="@color/light_gray"
+        android:text="@string/string_default_value"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textview_battery2_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal_medium"
+        android:textColor="@color/light_gray"
+        android:text="@string/string_default_value"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textview_battery1_voltage"
+        style="@style/widget_battery_voltage_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/string_default_value"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textview_battery_voltage"
+        style="@style/widget_battery_voltage_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/string_default_value"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/textview_battery2_voltage"
+        style="@style/widget_battery_voltage_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="@string/string_default_value"
+        android:visibility="gone"/>
+
+
+</merge>

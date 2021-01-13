@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <dji.ux.internal.ParentChildrenViewAnimator
+        android:id="@+id/camera_photo_setting_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:animateFirstView="true">
+
+        <dji.ux.internal.RecyclerListView
+            android:id="@+id/listview_camera_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/gray_divider_line"
+            android:dividerHeight="1dp"
+            android:drawSelectorOnTop="false"
+            android:fadingEdgeLength="0dp"
+            android:listSelector="@null"
+            android:overScrollMode="ifContentScrolls"
+            android:scrollbars="vertical"/>
+
+        <dji.ux.internal.advance.CameraPhotoModeListWidget
+            android:id="@+id/camera_photo_setting_photo_mode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <dji.ux.internal.advance.CameraImageFormatListWidget
+            android:id="@+id/camera_photo_setting_photo_format"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </dji.ux.internal.ParentChildrenViewAnimator>
+</merge>

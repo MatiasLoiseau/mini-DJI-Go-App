@@ -30,7 +30,7 @@
     <application
         android:name="jcg.mini_dji_go_app.VideoDecodingApplication"
         android:allowBackup="true"
-        android:label="@string/app_name_decoding_sample"
+        android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
