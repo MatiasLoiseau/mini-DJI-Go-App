@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.dji.videostreamdecodingsample" >
+    package="jcg.mini_dji_go_app" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -79,7 +79,7 @@
 
         <meta-data
             android:name="com.dji.sdk.API_KEY"
-            android:value="fa412df945bf25e25be7d98c" />
+            android:value="b6d0c26c05e708f7007a254c" />
 
         <activity
             android:name="jcg.mini_dji_go_app.ConnectionActivity"
@@ -139,7 +139,7 @@
 
         <provider
             android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-            android:authorities="com.dji.videostreamdecodingsample.lifecycle-process"
+            android:authorities="jcg.mini_dji_go_app.lifecycle-process"
             android:exported="false"
             android:multiprocess="true" />
     </application>

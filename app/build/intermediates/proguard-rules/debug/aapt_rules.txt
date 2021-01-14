@@ -1,24 +1,24 @@
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140
 -keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129
 -keep class com.mapbox.services.android.telemetry.service.TelemetryService { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127
 -keep class com.mapzen.android.lost.internal.DwellIntentService { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119
 -keep class com.mapzen.android.lost.internal.FusedLocationProviderService { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122
 -keep class com.mapzen.android.lost.internal.GeofencingIntentService { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110
 -keep class dji.logic.receiver.DJIPilotStartupReceiver { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:106
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:106
 -keep class dji.sdk.sdkmanager.DJIGlobalService { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84
 -keep class jcg.mini_dji_go_app.ConnectionActivity { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100
 -keep class jcg.mini_dji_go_app.MainActivity { <init>(...); }
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67
 -keep class jcg.mini_dji_go_app.VideoDecodingApplication { <init>(...); }
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_title_material.xml:56
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:52
@@ -256,73 +256,73 @@
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:26
 -keep class dji.ux.internal.exposure.CameraShutterSettingWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:215
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:215
 -keep class dji.ux.panel.PreFlightCheckListPanel { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:125
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:125
 -keep class dji.ux.widget.AutoExposureLockWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:104
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:104
 -keep class dji.ux.widget.BatteryWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:109
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:109
 -keep class dji.ux.widget.ConnectionWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:80
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:80
 -keep class dji.ux.widget.FlightModeWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:129
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:129
 -keep class dji.ux.widget.FocusExposureSwitchWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:133
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:133
 -keep class dji.ux.widget.FocusModeWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:84
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:84
 -keep class dji.ux.widget.GPSSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:162
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:162
 -keep class dji.ux.widget.ManualFocusWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:76
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:76
 -keep class dji.ux.widget.PreFlightStatusWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:169
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:169
 -keep class dji.ux.widget.RemainingFlightTimeWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:92
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:92
 -keep class dji.ux.widget.RemoteControlSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:206
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:206
 -keep class dji.ux.widget.ReturnHomeWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:201
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:201
 -keep class dji.ux.widget.TakeOffWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:96
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:96
 -keep class dji.ux.widget.VideoSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:88
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:88
 -keep class dji.ux.widget.VisionWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:100
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:100
 -keep class dji.ux.widget.WiFiSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:145
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:145
 -keep class dji.ux.widget.config.CameraConfigApertureWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:149
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:149
 -keep class dji.ux.widget.config.CameraConfigEVWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:137
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:137
 -keep class dji.ux.widget.config.CameraConfigISOAndEIWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:141
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:141
 -keep class dji.ux.widget.config.CameraConfigShutterWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:157
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:157
 -keep class dji.ux.widget.config.CameraConfigStorageWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:153
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:153
 -keep class dji.ux.widget.config.CameraConfigWBWidget { <init>(...); }
 
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_action.xml:34
@@ -340,7 +340,7 @@
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:11
 -keep class dji.ux.widget.dashboard.CompassWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:183
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:183
 -keep class dji.ux.widget.dashboard.DashboardWidget { <init>(...); }
 
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:21
@@ -355,6 +355,6 @@
 # Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:31
 -keep class dji.ux.widget.dashboard.VerticalVelocityWidget { <init>(...); }
 
-# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:27
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:27
 -keepclassmembers class * { *** onClick(...); }
 

@@ -10,7 +10,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        applicationId "com.dji.videostreamdecodingsample"
+        applicationId "jcg.mini_dji_go_app"
         minSdkVersion 16
         targetSdkVersion 28
         multiDexEnabled true
