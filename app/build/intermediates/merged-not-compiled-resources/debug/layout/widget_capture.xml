@@ -1,0 +1,33 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/image_button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_cam_capture_border"
+        android:contentDescription="@string/app_name" />
+
+    <ImageView
+        android:id="@+id/image_button_foreground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/btn_cam_capture_released" />
+
+    <ImageView
+        android:id="@+id/image_button_foreground_top"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"/>
+
+    <TextView
+        android:id="@+id/textview_camera_controll_videotime"
+        style="@style/GenCenterWrapTxt"
+        android:layout_centerHorizontal="true"
+        android:text="00:00"
+        android:textSize="@dimen/text_size_small"
+        android:visibility="gone"/>
+
+</merge>

@@ -1,0 +1,360 @@
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129
+-keep class com.mapbox.services.android.telemetry.service.TelemetryService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127
+-keep class com.mapzen.android.lost.internal.DwellIntentService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119
+-keep class com.mapzen.android.lost.internal.FusedLocationProviderService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122
+-keep class com.mapzen.android.lost.internal.GeofencingIntentService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110
+-keep class dji.logic.receiver.DJIPilotStartupReceiver { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:106
+-keep class dji.sdk.sdkmanager.DJIGlobalService { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84
+-keep class jcg.mini_dji_go_app.ConnectionActivity { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100
+-keep class jcg.mini_dji_go_app.MainActivity { <init>(...); }
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67
+-keep class jcg.mini_dji_go_app.VideoDecodingApplication { <init>(...); }
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_title_material.xml:56
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_button_bar_material.xml:43
+-keep class android.widget.Space { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_select_dialog_material.xml:23
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_menu_item_layout.xml:17
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_expanded_menu_layout.xml:17
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_cascading_menu_item_layout.xml:20
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:27
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_mode_bar.xml:19
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:17
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_action_menu_layout.xml:17
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_activity_chooser_view.xml:19
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:18
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_button_bar_material.xml:26
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_content_include.xml:19
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_title_material.xml:45
+-keep class androidx.appcompat.widget.DialogTitle { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_dialog_title_material.xml:22
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_search_view.xml:75
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_toolbar.xml:36
+-keep class androidx.appcompat.widget.Toolbar { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_screen_simple.xml:25
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\dji_dialog_login.xml:2
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\bfd3e72f0c763c0073c6d6e138745439\res\layout\abc_alert_dialog_material.xml:41
+-keep class androidx.core.widget.NestedScrollView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\panel_speaker.xml:144
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_barcode_scanner.xml:5
+-keep class com.dji.scan.qr.BarcodeView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_capture.xml:23
+-keep class com.dji.scan.qr.DecoratedBarcodeView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\zxing_barcode_scanner.xml:16
+-keep class com.dji.scan.qr.ViewfinderView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\11a62fe20ba22f5e7268dda206194b14\res\layout\mapbox_infowindow_content.xml:2
+-keep class com.mapbox.mapboxsdk.annotations.BubbleLayout { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\11a62fe20ba22f5e7268dda206194b14\res\layout\mapbox_mapview_internal.xml:17
+-keep class com.mapbox.mapboxsdk.maps.widgets.CompassView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\11a62fe20ba22f5e7268dda206194b14\res\layout\mapbox_mapview_internal.xml:11
+-keep class com.mapbox.mapboxsdk.maps.widgets.MyLocationView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\89c958d859ca908a92f2058067918256\res\layout\dji_dialog_login.xml:8
+-keep class dji.internal.useraccount.view.LollipopFixedWebView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_color_waveform.xml:19
+-keep class dji.midware.media.colors.ColorOscilloscopeDisplayView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_shutter_setting.xml:17
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_aperture_setting.xml:17
+-keep class dji.thirdparty.spinnerwheel.WheelHorizontalView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_preflight_status.xml:11
+-keep class dji.ux.base.MarqueeTextView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\layout_manual_focus_widget.xml:22
+-keep class dji.ux.internal.DJIRulerView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_histogram.xml:6
+-keep class dji.ux.internal.LineChartView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_advanced_setting.xml:60
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal2_camera_advanced_setting.xml:60
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting_for_payload.xml:60
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting.xml:62
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_video_settings.xml:6
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_photo_settings.xml:6
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:6
+-keep class dji.ux.internal.ParentChildrenViewAnimator { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_list_view.xml:9
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_video_settings.xml:12
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_photo_settings.xml:12
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:12
+-keep class dji.ux.internal.RecyclerListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_scene_setting.xml:15
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_iso_ei_setting.xml:16
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\list_item_view.xml:84
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\expandable_view_child_seekbar.xml:6
+-keep class dji.ux.internal.SeekBar { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\list_item_view.xml:77
+-keep class dji.ux.internal.SegmentedView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_sliding_dlg.xml:111
+-keep class dji.ux.internal.SlideAndFillSeekBar { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_ev_setting.xml:39
+-keep class dji.ux.internal.StripeView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_capture_switch.xml:15
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\rtk_status_panel.xml:24
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\panel_spotlight.xml:76
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\panel_speaker.xml:86
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\panel_simulator.xml:24
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\list_item_view.xml:16
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\expandable_view_group.xml:35
+-keep class dji.ux.internal.SwitchButton { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_advanced_setting.xml:6
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal2_camera_advanced_setting.xml:6
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting_for_payload.xml:6
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting.xml:6
+-keep class dji.ux.internal.TabBarView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_photo_settings.xml:29
+-keep class dji.ux.internal.advance.CameraImageFormatListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_photo_settings.xml:25
+-keep class dji.ux.internal.advance.CameraPhotoModeListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_video_settings.xml:24
+-keep class dji.ux.internal.advance.CameraVideoStandardListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:44
+-keep class dji.ux.internal.advance.ThermalFFCModeListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:39
+-keep class dji.ux.internal.advance.ThermalGainModeListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:29
+-keep class dji.ux.internal.advance.ThermalPaletteListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:24
+-keep class dji.ux.internal.advance.ThermalROIListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\listview_thermal_camera_other_setting.xml:34
+-keep class dji.ux.internal.advance.ThermalSceneListWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting.xml:79
+-keep class dji.ux.internal.camera.CameraOtherSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting_for_payload.xml:77
+-keep class dji.ux.internal.camera.CameraOtherSettingListViewForPayload { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting.xml:69
+-keep class dji.ux.internal.camera.CameraPhotoSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting_for_payload.xml:67
+-keep class dji.ux.internal.camera.CameraPhotoSettingListViewForPayload { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting.xml:74
+-keep class dji.ux.internal.camera.CameraVideoSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_advanced_setting_for_payload.xml:72
+-keep class dji.ux.internal.camera.CameraVideoSettingListViewForPayload { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_advanced_setting.xml:77
+-keep class dji.ux.internal.camera.ThermalCameraOtherSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal2_camera_advanced_setting.xml:77
+-keep class dji.ux.internal.camera.ThermalCameraOtherSettingListViewForXT2 { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_advanced_setting.xml:67
+-keep class dji.ux.internal.camera.ThermalCameraPhotoSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal2_camera_advanced_setting.xml:67
+-keep class dji.ux.internal.camera.ThermalCameraPhotoSettingListViewForXT2 { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal_camera_advanced_setting.xml:72
+-keep class dji.ux.internal.camera.ThermalCameraVideoSettingListView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_thermal2_camera_advanced_setting.xml:72
+-keep class dji.ux.internal.camera.ThermalCameraVideoSettingListViewForXT2 { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_compass.xml:36
+-keep class dji.ux.internal.compass.GimbalYawView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_compass.xml:31
+-keep class dji.ux.internal.compass.VisualCompassView { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:21
+-keep class dji.ux.internal.exposure.CameraApertureSettingWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:31
+-keep class dji.ux.internal.exposure.CameraEVSettingWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:11
+-keep class dji.ux.internal.exposure.CameraExposureModeSettingWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:16
+-keep class dji.ux.internal.exposure.CameraISOAndEISettingWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_exposure_setting.xml:26
+-keep class dji.ux.internal.exposure.CameraShutterSettingWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:215
+-keep class dji.ux.panel.PreFlightCheckListPanel { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:125
+-keep class dji.ux.widget.AutoExposureLockWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:104
+-keep class dji.ux.widget.BatteryWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:109
+-keep class dji.ux.widget.ConnectionWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:80
+-keep class dji.ux.widget.FlightModeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:129
+-keep class dji.ux.widget.FocusExposureSwitchWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:133
+-keep class dji.ux.widget.FocusModeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:84
+-keep class dji.ux.widget.GPSSignalWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:162
+-keep class dji.ux.widget.ManualFocusWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:76
+-keep class dji.ux.widget.PreFlightStatusWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:169
+-keep class dji.ux.widget.RemainingFlightTimeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:92
+-keep class dji.ux.widget.RemoteControlSignalWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:206
+-keep class dji.ux.widget.ReturnHomeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:201
+-keep class dji.ux.widget.TakeOffWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:96
+-keep class dji.ux.widget.VideoSignalWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:88
+-keep class dji.ux.widget.VisionWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:100
+-keep class dji.ux.widget.WiFiSignalWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:145
+-keep class dji.ux.widget.config.CameraConfigApertureWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:149
+-keep class dji.ux.widget.config.CameraConfigEVWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:137
+-keep class dji.ux.widget.config.CameraConfigISOAndEIWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:141
+-keep class dji.ux.widget.config.CameraConfigShutterWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:157
+-keep class dji.ux.widget.config.CameraConfigStorageWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:153
+-keep class dji.ux.widget.config.CameraConfigWBWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_action.xml:34
+-keep class dji.ux.widget.controls.CameraCaptureWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_action.xml:45
+-keep class dji.ux.widget.controls.ExposureSettingsMenu { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\widget_camera_action.xml:29
+-keep class dji.ux.widget.controls.PictureVideoSwitch { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:16
+-keep class dji.ux.widget.dashboard.AltitudeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:11
+-keep class dji.ux.widget.dashboard.CompassWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:183
+-keep class dji.ux.widget.dashboard.DashboardWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:21
+-keep class dji.ux.widget.dashboard.DistanceHomeWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:26
+-keep class dji.ux.widget.dashboard.HorizontalVelocityWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:36
+-keep class dji.ux.widget.dashboard.VPSWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\.gradle\caches\transforms-2\files-2.1\ec026eba99894dc8a61bcec960db3206\res\layout\dashboard_compass.xml:31
+-keep class dji.ux.widget.dashboard.VerticalVelocityWidget { <init>(...); }
+
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\src\main\res\layout\activity_main.xml:27
+-keepclassmembers class * { *** onClick(...); }
+

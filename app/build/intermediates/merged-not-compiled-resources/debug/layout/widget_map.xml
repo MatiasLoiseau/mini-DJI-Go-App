@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:id="@+id/mapParent"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@android:color/transparent">
+
+    <Button
+        android:id="@+id/button_user_log_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|top"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/selector_button"
+        android:text="@string/user_log_in_button"
+        android:textColor="@color/white"
+        android:visibility="gone" />
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_gravity="end|bottom"
+        android:background="@color/lighter_gray"
+        android:padding="10dp"
+        android:id="@+id/legend_relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/legend_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image_legend_warning_zone"
+                android:layout_margin="3dp"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_warning_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_legend_warning_zone"
+                android:text="@string/fly_zone_warning" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_enhanced_warning_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_warning_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_enhanced_warning_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_warning_zone"
+                android:layout_toRightOf="@id/image_legend_enhanced_warning_zone"
+                android:text="@string/fly_zone_enhanced_warning" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_authorized_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_enhanced_warning_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_authorized_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_enhanced_warning_zone"
+                android:layout_toRightOf="@id/image_legend_authorized_zone"
+                android:text="@string/fly_zone_authorized" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_restricted_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_authorized_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_restricted_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_authorized_zone"
+                android:layout_toRightOf="@id/image_legend_restricted_zone"
+                android:text="@string/fly_zone_restricted" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/legend_right"
+            android:layout_toRightOf="@id/legend_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_self_unlock_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_self_unlock_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/image_legend_self_unlock_zone"
+                android:text="@string/fly_zone_self_unlock" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_custom_unlock_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_self_unlock_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_custom_unlock_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_self_unlock_zone"
+                android:layout_toRightOf="@id/image_legend_custom_unlock_zone"
+                android:text="@string/fly_zone_custom_unlock" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_custom_unlock_aircraft_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_custom_unlock_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_legend_custom_unlock_aircraft_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_custom_unlock_zone"
+                android:layout_toRightOf="@id/image_legend_custom_unlock_aircraft_zone"
+                android:text="@string/fly_zone_custom_unlock_aircraft" />
+
+            <ImageView
+                android:layout_margin="3dp"
+                android:id="@+id/image_legend_custom_unlock_enabled_zone"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:layout_below="@id/image_legend_custom_unlock_aircraft_zone"
+                android:background="@drawable/flyzone_legend_drawable" />
+
+            <TextView
+                android:layout_margin="3dp"
+                android:id="@+id/text_custom_unlock_enabled_zone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/image_legend_custom_unlock_aircraft_zone"
+                android:layout_toRightOf="@id/image_legend_custom_unlock_enabled_zone"
+                android:text="@string/fly_zone_custom_unlock_enabled" />
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+</merge>

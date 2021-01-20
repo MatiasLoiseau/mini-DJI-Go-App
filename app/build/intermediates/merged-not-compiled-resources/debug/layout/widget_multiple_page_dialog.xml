@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_parent_dialog"
+    android:layout_width="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:background="@drawable/radius_corner_bg"
+    android:layout_height="match_parent">
+
+</LinearLayout>

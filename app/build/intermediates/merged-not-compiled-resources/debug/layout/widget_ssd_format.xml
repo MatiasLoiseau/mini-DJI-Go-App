@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@android:color/transparent">
+
+    <ImageView
+        android:id="@+id/ssd_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        android:src="@drawable/ic_camera_config_ssd" />
+
+    <ImageView
+        android:id="@+id/ssd_status_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ic_camera_config_ssd_redpoint"
+        android:visibility="gone" />
+    <TextView
+        android:id="@+id/ssd_clip_info_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:gravity="right"
+        android:textColor="@color/light_gray"
+        android:text="LOMO"/>
+
+    <TextView
+        android:id="@+id/ssd_capacity_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/light_gray"
+        android:text="CAPACITY" />
+
+    <TextView
+        android:id="@+id/ssd_format_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="3840x2160/240" />
+
+    <TextView
+        android:id="@+id/ssd_status_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:visibility="gone"
+        android:text="N/A" />
+
+    <TextView
+        android:id="@+id/ssd_capacity_value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:text="111G" />
+
+</merge>

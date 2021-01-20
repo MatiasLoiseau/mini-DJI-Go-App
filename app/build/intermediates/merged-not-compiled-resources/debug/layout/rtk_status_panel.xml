@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/radius_corner_bg"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/rtk_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/dp_5_in_sw320dp"
+        android:gravity="center_vertical"
+        android:layout_centerVertical="true"
+        android:drawablePadding="@dimen/dp_5_in_sw320dp"
+        android:drawableLeft="@drawable/rtk_icon"
+        android:text="@string/rtk_panel_title"
+        android:textColor="@color/yellow"
+        android:layout_marginLeft="20dp"
+        android:textSize="14sp" />
+
+    <dji.ux.internal.SwitchButton
+        android:id="@+id/rtk_open_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ScrollView
+        android:id="@+id/rtk_content_ly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/dp_10_in_sw320dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_satellite_num"
+                    android:textColor="@color/white_half"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/rtk_panel_antenna_1"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/rtk_panel_antenna_2"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingBottom="@dimen/dp_5_in_sw320dp"
+                    android:paddingTop="@dimen/dp_5_in_sw320dp"
+                    android:text="@string/rtk_panel_base_station"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dp_20_in_sw320dp"
+                android:layout_marginRight="@dimen/dp_20_in_sw320dp"
+                android:background="@color/white_half" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_gps_num"
+                    android:textColor="@color/white_half"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_gps_num_antenna_m"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_gps_num_antenna_s"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_gps_num_base_station"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/rtk_second_satellite_title"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_north_num"
+                    android:textColor="@color/white_half"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_north_num_antenna_m"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_north_num_antenna_s"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_north_num_base_station"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_10_in_sw320dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_120_in_sw320dp"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:text="@string/rtk_panel_aircraft_location"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/dp_5_in_sw320dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/rtk_panel_base_station_location"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginLeft="@dimen/dp_20_in_sw320dp"
+                android:layout_marginRight="@dimen/dp_20_in_sw320dp"
+                android:background="@color/white_half" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_lat"
+                    android:textColor="@color/white_half"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_pilot_lat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_base_station_lat"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_2"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_lng"
+                    android:textColor="@color/white_half"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_pilot_lng"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_base_station_lng"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_2"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dp_25_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="match_parent"
+                    android:gravity="right|center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/rtk_panel_height"
+                    android:textColor="@color/white_half"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:background="@color/white_half" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_pilot_height"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_base_station_height"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_20_in_sw320dp"
+                    android:text="@string/rtk_panel_antenna_2"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30_in_sw320dp"
+                android:layout_marginTop="@dimen/dp_5_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="@string/rtk_panel_antenna_angle"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_antenna_angle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_10_in_sw320dp"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30_in_sw320dp"
+                android:layout_marginTop="@dimen/dp_5_in_sw320dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:gravity="right"
+                    android:text="@string/rtk_panel_aircraft_altitude_wrt"
+                    android:textColor="@color/white_half"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/fpv_rtk_fusion_altitude"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/dp_10_in_sw320dp"
+                    android:gravity="left"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dp_30_in_sw320dp"
+                android:layout_marginTop="@dimen/dp_5_in_sw320dp"
+                android:layout_marginBottom="@dimen/dp_10_in_sw320dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/rtk_direction_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/rtk_disable_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5_in_sw320dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:text="@string/rtk_panel_orientation_status_text" />
+
+                <ImageView
+                    android:id="@+id/rtk_location_status_img"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_10_in_sw320dp"
+                    android:src="@drawable/rtk_disable_icon" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp_5_in_sw320dp"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:text="@string/rtk_panel_positioning_status_text" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+    <LinearLayout
+        android:id="@+id/rtk_desc_ly"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="@dimen/dp_10_in_sw320dp"
+        android:visibility="gone"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_30_in_sw320dp"
+            android:text="@string/rtk_introduction_txt"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/rtk_error"
+        android:layout_marginTop="@dimen/dp_5_in_sw320dp"
+        android:textSize="12sp"
+        android:layout_marginLeft="@dimen/dp_30_in_sw320dp"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:textColor="@color/red"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:id="@+id/rtk_dialog_separator"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white_half" />
+
+    <TextView
+        android:id="@+id/rtk_dialog_ok"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dlg_btn_bg"
+        android:clickable="true"
+        android:gravity="center"
+        android:text="@string/app_ok"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+</merge>

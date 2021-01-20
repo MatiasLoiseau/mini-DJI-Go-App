@@ -1,0 +1,2 @@
+# Referenced at C:\Users\Equipo\Desktop\Android App\My Apps\mdga\mini-DJI-Go-App - 2.0 [Layout UXSDK]\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67
+-keep class jcg.mini_dji_go_app.VideoDecodingApplication { <init>(...); }

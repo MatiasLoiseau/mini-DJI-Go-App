@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@android:id/background">
+    <bitmap android:src="@drawable/seek_bar"></bitmap>
+</item>
+<item android:id="@android:id/progress">
+    <clip
+        android:clipOrientation="horizontal"
+        android:drawable="@drawable/seek_bar_highlight"
+        android:gravity="left" />
+</item>
+
+</layer-list>

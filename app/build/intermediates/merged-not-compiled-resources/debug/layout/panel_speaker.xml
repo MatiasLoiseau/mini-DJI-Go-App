@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="3dp"
+        android:id="@+id/text_view_speaker_title"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/speaker_panel_header" />
+
+    <View
+        android:id="@+id/view_header_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:id="@+id/text_view_speaker_volume"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/speaker_panel_volume" />
+
+    <SeekBar
+        android:id="@+id/volume_seek_bar"
+        android:maxHeight="@dimen/view_top_min_margin"
+        android:minHeight="@dimen/view_top_min_margin"
+        android:progressDrawable="@drawable/seekbar_progress"
+        android:thumb="@drawable/seek_thumb_enabled"
+        android:thumbOffset="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:background="@drawable/speaker_panel_broadcast_tab_selector"
+        android:gravity="center"
+        android:id="@+id/tab_instant_broadcast"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/speaker_panel_broadcast" />
+
+
+    <TextView
+        android:background="@drawable/speaker_panel_local_file_tab_selector"
+        android:gravity="center"
+        android:id="@+id/tab_local_file"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:text="@string/speaker_panel_local_audio" />
+
+
+
+    <ImageButton
+        android:id="@+id/image_button_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:src="@drawable/close_btn" />
+
+    <RelativeLayout
+        android:id="@+id/record_button_container"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/persist_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker_panel_temporary_switch" />
+
+        <dji.ux.internal.SwitchButton
+            android:id="@+id/audio_temporary_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true" />
+
+        <TextView
+            android:id="@+id/instant_play_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker_panel_play_instant_switch"
+            android:textColor="@color/white" />
+
+        <dji.ux.internal.SwitchButton
+            android:id="@+id/instant_play_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:clickable="true"
+            android:id="@+id/start_broadcast_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/fpv_speaker_record" />
+
+        <TextView
+            android:id="@+id/audio_record_status_text_view"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/speaker_panel_tap_to_record" />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_local_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:id="@+id/loop_mode_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speaker_panel_play_repeat_mode"
+            android:textColor="@color/white" />
+
+        <dji.ux.internal.SwitchButton
+            android:id="@+id/loop_play_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/audio_file_listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</merge>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/gimbal_control_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/visual_gimbal_control_point"/>
+
+    <ImageView
+        android:id="@+id/gimbal_control_move"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:src="@drawable/visual_gimbal_control_move"/>
+
+    <ImageView
+        android:id="@+id/gimbal_control_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/visual_gimbal_control_arrow"
+        android:visibility="invisible"/>
+
+</merge>

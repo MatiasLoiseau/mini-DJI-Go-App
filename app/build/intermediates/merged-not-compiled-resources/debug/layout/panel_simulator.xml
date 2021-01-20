@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/simulator_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/radius_corner_bg"/>
+    <TextView
+        android:id="@+id/simulator_title"
+        android:layout_width="@dimen/dp_120_in_sw320dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="@dimen/dp_5_in_sw320dp"
+        android:drawableLeft="@drawable/ic_simulator_panel"
+        android:drawablePadding="@dimen/dp_5_in_sw320dp"
+        android:paddingLeft="0dp"
+        android:text="@string/simulator_widget_title"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+    <dji.ux.internal.SwitchButton
+        android:id="@+id/simulator_switch"
+        android:layout_width="@dimen/dp_120_in_sw320dp"
+        android:layout_height="55dp"
+        android:layout_toRightOf="@+id/simulator_title"
+        android:checked="false"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/lighter_gray" />
+
+    <ScrollView
+        android:id="@+id/simulator_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/dp_10_in_sw320dp"
+        android:layout_gravity="center_horizontal">
+
+        <LinearLayout
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="8dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/rl_position_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/location_section_header_text"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_position_title"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_lat"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/location_section_header_text"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_lat"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_lat"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_below="@+id/location_section_header_text"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_lat"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:id="@+id/edit_text_simulator_lat"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_below="@+id/location_section_header_text"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_lat"
+                    android:gravity="center_vertical"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_lng"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_lat"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_lng"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_lng"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_lat"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_lng"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:id="@+id/edit_text_simulator_lng"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_below="@+id/edit_text_simulator_lat"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_lat"
+                    android:gravity="center_vertical"
+                    android:inputType="numberSigned|numberDecimal"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_sat"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_lng"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_satellite"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_sat"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_lng"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_sat"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/edit_text_satellite_count"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/edit_text_simulator_lng"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_sat"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_frequency"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_sat"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_frequency"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_frequency"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_sat"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_frequency"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp"
+                    android:visibility="invisible" />
+
+                <EditText
+                    android:id="@+id/edit_text_frequency"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/edit_text_satellite_count"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_frequency"
+                    android:gravity="center_vertical"
+                    android:inputType="number"
+                    android:textSize="12sp" />
+
+                <RelativeLayout
+                    android:id="@+id/real_world_position_container"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/lbl_simulator_frequency">
+
+                    <TextView
+                        android:id="@+id/lbl_simulator_world_X"
+                        android:layout_width="@dimen/dp_120_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+
+                        android:layout_margin="3dp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_widget_world_x"
+                        android:textColor="@color/white_80_percent"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/val_simulator_world_X"
+                        android:layout_width="@dimen/dp_140_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+                        android:layout_margin="3dp"
+                        android:layout_toRightOf="@+id/lbl_simulator_world_X"
+                        android:background="@drawable/simulator_row_background"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_null_string"
+                        android:textColor="@color/blue"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lbl_simulator_world_Y"
+                        android:layout_width="@dimen/dp_120_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+                        android:layout_below="@+id/lbl_simulator_world_X"
+                        android:layout_margin="3dp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_widget_world_y"
+                        android:textColor="@color/white_80_percent"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/val_simulator_world_Y"
+                        android:layout_width="@dimen/dp_140_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+                        android:layout_below="@+id/val_simulator_world_X"
+                        android:layout_margin="3dp"
+                        android:layout_toRightOf="@+id/lbl_simulator_world_Y"
+                        android:background="@drawable/simulator_row_background"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_null_string"
+                        android:textColor="@color/blue"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/lbl_simulator_world_Z"
+                        android:layout_width="@dimen/dp_120_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+                        android:layout_below="@+id/lbl_simulator_world_Y"
+                        android:layout_margin="3dp"
+                        android:gravity="center_vertical"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_widget_world_z"
+                        android:textColor="@color/white_80_percent"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/val_simulator_world_Z"
+                        android:layout_width="@dimen/dp_140_in_sw320dp"
+                        android:layout_height="@dimen/simulator_textview_height"
+                        android:layout_below="@+id/val_simulator_world_Y"
+                        android:layout_margin="3dp"
+                        android:layout_toRightOf="@+id/lbl_simulator_world_Z"
+                        android:background="@drawable/simulator_row_background"
+                        android:gravity="center"
+                        android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                        android:paddingRight="@dimen/dp_10_in_sw320dp"
+                        android:text="@string/simulator_null_string"
+                        android:textColor="@color/blue"
+                        android:textSize="12sp" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/location_section_footer"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/lighter_gray" />
+
+            <RelativeLayout
+                android:id="@+id/rl_aircraft_state_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/status_section_header_text"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_aircraft_status_title"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:id="@+id/lbl_simulator_motors"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/status_section_header_text"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_motor_started"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_motors"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/status_section_header_text"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_motors"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_null_string"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_aircraft_flying"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_motors"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_flying_state"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_aircraft_flying"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_motors"
+                    android:layout_margin="3dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_aircraft_flying"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_null_string"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/status_section_footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/val_simulator_aircraft_flying"
+                    android:background="@color/lighter_gray" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/rl_simulator_attitude_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:textStyle="bold"
+                    android:id="@+id/attitude_section_header_text"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_attitude_title"
+                    android:textColor="@color/white"
+                    android:textSize="13sp" />
+
+
+                <TextView
+                    android:id="@+id/lbl_simulator_pitch"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/attitude_section_header_text"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_roll"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_aircraft_pitch"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/attitude_section_header_text"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_pitch"
+                    android:gravity="center"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_null_string"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_yaw"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_pitch"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_yaw"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_aircraft_yaw"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_aircraft_pitch"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_yaw"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_null_string"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/lbl_simulator_roll"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/lbl_simulator_yaw"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_widget_roll"
+                    android:textColor="@color/white_80_percent"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:background="@drawable/simulator_row_background"
+                    android:id="@+id/val_simulator_aircraft_roll"
+                    android:layout_width="@dimen/dp_140_in_sw320dp"
+                    android:layout_height="@dimen/simulator_textview_height"
+                    android:layout_below="@+id/val_simulator_aircraft_yaw"
+                    android:layout_margin="3dp"
+                    android:layout_toRightOf="@+id/lbl_simulator_roll"
+                    android:gravity="center"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:paddingLeft="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_null_string"
+                    android:textColor="@color/blue"
+                    android:textSize="12sp" />
+
+                <View
+                    android:id="@+id/w_section_footer"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_below="@+id/val_simulator_aircraft_roll"
+                    android:background="@color/lighter_gray" />
+            </RelativeLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rl_simulator_wind_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/wind_section_header_text"
+                    android:layout_width="@dimen/dp_120_in_sw320dp"
+                    android:layout_height="35dp"
+                    android:layout_margin="3dp"
+                    android:gravity="center_vertical"
+                    android:paddingRight="@dimen/dp_10_in_sw320dp"
+                    android:text="@string/simulator_aircraft_wind_title"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wind Speed X" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_minus_x"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/button_minus" />
+
+                    <TextView
+                        android:id="@+id/textview_wind_x"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/blue" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_plus_x"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/button_plus" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wind Speed Y" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_minus_y"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/button_minus" />
+
+
+                    <TextView
+                        android:id="@+id/textview_wind_y"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/blue" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_plus_y"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/button_plus" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Wind Speed Z" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_minus_z"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:src="@drawable/button_minus" />
+
+                    <TextView
+                        android:id="@+id/textview_wind_z"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:width="20dp"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textColor="@color/blue" />
+
+                    <ImageView
+                        android:id="@+id/imageview_btn_plus_z"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="15dp"
+                        android:src="@drawable/button_plus" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/button_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_load_Preset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/simulator_preset"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_save_Preset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="2dp"
+                    android:layout_weight="1"
+                    android:background="@color/blue"
+                    android:gravity="center"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="@string/app_save"
+                    android:textColor="@color/white"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+</merge>

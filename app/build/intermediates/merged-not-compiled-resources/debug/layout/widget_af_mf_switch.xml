@@ -1,0 +1,38 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/image_button_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle_1112"
+        android:contentDescription="@string/app_name" />
+
+    <TextView
+        android:id="@+id/textview_camera_control_af"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/white"
+        android:gravity="right"
+        android:textAlignment="gravity"
+        android:text="@string/camera_control_af"/>
+    <TextView
+        android:id="@+id/textview_camera_control_separator"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/white"
+        android:text="/"
+        tools:ignore="HardcodedText"/>
+    <TextView
+        android:id="@+id/textview_camera_control_mf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_size_normal"
+        android:textColor="@color/white"
+        android:gravity="left"
+        android:textAlignment="gravity"
+        android:text="@string/camera_control_mf"/>
+</merge>
