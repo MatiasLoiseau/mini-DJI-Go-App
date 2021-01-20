@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Equipo\\Desktop\\Android App\\My Apps\\mdga\\mini-DJI-Go-App - 2.0 [Layout UXSDK]\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+            "outputFile": "C:\\Users\\Joaquin\\Desktop\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Equipo\\.gradle\\caches\\transforms-2\\files-2.1\\89c958d859ca908a92f2058067918256\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\52b0a296b40fb92fa4d0cd185d89e787\\res\\values-xxhdpi-v4\\values-xxhdpi-v4.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

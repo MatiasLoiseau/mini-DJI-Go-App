@@ -124,23 +124,23 @@ public final class R {
         public static final int fill_horizontal = 0x7f0800d1;
         public static final int fill_vertical = 0x7f0800d2;
         public static final int image = 0x7f0800fa;
-        public static final int infowindow_description = 0x7f08013f;
-        public static final int infowindow_title = 0x7f080140;
-        public static final int left = 0x7f08015b;
-        public static final int logoView = 0x7f08018a;
-        public static final int markerViewContainer = 0x7f08018e;
-        public static final int right = 0x7f0801cf;
-        public static final int start = 0x7f080228;
-        public static final int top = 0x7f08028b;
-        public static final int userLocationView = 0x7f080297;
+        public static final int infowindow_description = 0x7f080140;
+        public static final int infowindow_title = 0x7f080141;
+        public static final int left = 0x7f08015c;
+        public static final int logoView = 0x7f08018b;
+        public static final int markerViewContainer = 0x7f08018f;
+        public static final int right = 0x7f0801d0;
+        public static final int start = 0x7f080229;
+        public static final int top = 0x7f08028c;
+        public static final int userLocationView = 0x7f080298;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int mapbox_attribution_list_item = 0x7f0a0038;
-        public static final int mapbox_infowindow_content = 0x7f0a0039;
-        public static final int mapbox_mapview_internal = 0x7f0a003a;
-        public static final int mapbox_view_image_marker = 0x7f0a003b;
+        public static final int mapbox_attribution_list_item = 0x7f0a0039;
+        public static final int mapbox_infowindow_content = 0x7f0a003a;
+        public static final int mapbox_mapview_internal = 0x7f0a003b;
+        public static final int mapbox_view_image_marker = 0x7f0a003c;
     }
     public static final class string {
         private string() {}

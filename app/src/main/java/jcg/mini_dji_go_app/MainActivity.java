@@ -1,6 +1,7 @@
 package jcg.mini_dji_go_app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -511,6 +512,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     /**
      * Save the buffered data into a JPG image file
      */
+
+    /*
     private void screenShot(byte[] buf, String shotDir, int width, int height) {
         File dir = new File(shotDir);
         if (!dir.exists() || !dir.isDirectory()) {
@@ -549,6 +552,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         });
     }
 
+     */
+
+    private void screenShot(byte[] buf, String shotDir, int width, int height) {
+
+        Intent intent = new Intent(this, CaptureActivity.class);
+        intent.putExtra("buf", buf);
+        intent.putExtra("width", width);
+        intent.putExtra("height", height);
+        startActivity(intent);
+    }
 
     public void onClick(View v) {
 
@@ -565,7 +578,27 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             overridePendingTransition(0, 0);
         }
     }
+    private void handleYUVClick() {
+        screenShot.setText("YUV Screen Shot");
+        screenShot.setSelected(false);
 
+        switch (demoType) {
+            case USE_SURFACE_VIEW:
+            case USE_TEXTURE_VIEW:
+                mCodecManager.enabledYuvData(false);
+                mCodecManager.setYuvDataCallback(null);
+                // ToDo:
+                break;
+            case USE_SURFACE_VIEW_DEMO_DECODER:
+                DJIVideoStreamDecoder.getInstance().changeSurface(videostreamPreviewSh.getSurface());
+                DJIVideoStreamDecoder.getInstance().setYuvDataListener(null);
+                break;
+        }
+        savePath.setText("");
+        savePath.setVisibility(View.INVISIBLE);
+        stringBuilder = null;
+    }
+/*
     private void handleYUVClick() {
         if (screenShot.isSelected()) {
             screenShot.setText("YUV Screen Shot");
@@ -605,6 +638,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             savePath.setVisibility(View.VISIBLE);
         }
     }
+
+ */
 
     private void displayPath(String path) {
         if (stringBuilder == null) {
