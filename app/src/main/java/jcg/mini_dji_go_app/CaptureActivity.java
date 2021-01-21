@@ -8,10 +8,9 @@ import android.graphics.YuvImage;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-import java.io.ByteArrayOutputStream;
-import java.io.OutputStream;
-
 import androidx.appcompat.app.AppCompatActivity;
+
+import java.io.ByteArrayOutputStream;
 
 
 public class CaptureActivity extends AppCompatActivity {

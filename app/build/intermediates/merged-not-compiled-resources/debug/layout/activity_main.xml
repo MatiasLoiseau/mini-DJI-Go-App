@@ -24,21 +24,12 @@
         android:layout_gravity="center"
         android:visibility="gone"/>
 
-    <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:orientation="vertical">
-
-
-    </LinearLayout>
     <TextView
         android:id="@+id/activity_main_save_path"
         android:layout_width="400dp"
         android:layout_height="match_parent"
         android:padding="5dp"
         android:background="@color/title_dark"
-        android:layout_toRightOf="@id/activity_main_screen_shot"
         android:layout_alignParentRight="true"
         android:textColor="@color/colorWhite"
         android:visibility="invisible"
@@ -49,7 +40,6 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/background_blue"
         android:orientation="horizontal"
         tools:context=".MainActivity">
 
@@ -210,7 +200,7 @@
             android:id="@+id/activity_main_screen_shot"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="583dp"
+            android:layout_marginStart="569dp"
             android:layout_marginLeft="260dp"
             android:layout_marginTop="50dp"
             android:clickable="true"
