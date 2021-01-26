@@ -23,24 +23,7 @@ public class CaptureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_capture);
 
         imageView =  findViewById(R.id.imageView);
-        byte[] buf = (getIntent().getExtras()).getByteArray("buf");
-        int width = (getIntent().getExtras()).getInt("width");
-        int height = (getIntent().getExtras()).getInt("height");
-
-        ByteArrayOutputStream out = new ByteArrayOutputStream();
-        YuvImage yuvImage = new YuvImage(buf,
-                ImageFormat.NV21,
-                width,
-                height,
-                null);
-
-        yuvImage.compressToJpeg(new Rect(0,
-                    0,
-                    width,
-                    height), 50, out);
-
-        byte[] imageBytes = out.toByteArray();
-        Bitmap image = BitmapFactory.decodeByteArray(imageBytes, 0, imageBytes.length);
+        Bitmap image = (Bitmap) (getIntent().getExtras()).get("bitmap");
         imageView.setImageBitmap(image);
 
     }

@@ -12,6 +12,8 @@ import android.os.Message;
 import android.util.Log;
 import android.view.Surface;
 
+import androidx.annotation.RequiresApi;
+
 import jcg.mini_dji_go_app.R;
 import dji.common.product.Model;
 import dji.log.DJILog;
@@ -819,6 +821,20 @@ public class DJIVideoStreamDecoder implements NativeHelper.NativeDataListener {
         }
     }
 
+
+    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
+    public static byte[] getActualFrame(){
+
+        int outIndex = codec.dequeueOutputBuffer(bufferInfo, 0);
+
+        ByteBuffer yuvDataBuf = codec.getOutputBuffer(outIndex);
+        yuvDataBuf.position(bufferInfo.offset);
+        yuvDataBuf.limit(bufferInfo.size - bufferInfo.offset);
+
+        byte[] arr = new byte[yuvDataBuf.remaining()];
+        yuvDataBuf.get(arr);
+        return arr;
+    }
     /**
      * Stop the decoding process.
      */
