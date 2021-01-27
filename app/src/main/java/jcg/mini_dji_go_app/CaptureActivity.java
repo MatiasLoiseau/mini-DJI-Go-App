@@ -23,8 +23,9 @@ public class CaptureActivity extends AppCompatActivity {
         setContentView(R.layout.activity_capture);
 
         imageView =  findViewById(R.id.imageView);
-        Bitmap image = (Bitmap) (getIntent().getExtras()).get("bitmap");
-        imageView.setImageBitmap(image);
+        byte[] bytes = getIntent().getExtras().getByteArray("bytes");
 
+        Bitmap frame = BitmapFactory.decodeByteArray(bytes, 0, bytes.length);
+        imageView.setImageBitmap(frame);
     }
 }
