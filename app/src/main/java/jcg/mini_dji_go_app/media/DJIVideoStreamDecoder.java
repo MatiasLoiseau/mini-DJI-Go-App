@@ -821,20 +821,6 @@ public class DJIVideoStreamDecoder implements NativeHelper.NativeDataListener {
         }
     }
 
-
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    public static byte[] getActualFrame(){
-
-        int outIndex = codec.dequeueOutputBuffer(bufferInfo, 0);
-
-        ByteBuffer yuvDataBuf = codec.getOutputBuffer(outIndex);
-        yuvDataBuf.position(bufferInfo.offset);
-        yuvDataBuf.limit(bufferInfo.size - bufferInfo.offset);
-
-        byte[] arr = new byte[yuvDataBuf.remaining()];
-        yuvDataBuf.get(arr);
-        return arr;
-    }
     /**
      * Stop the decoding process.
      */

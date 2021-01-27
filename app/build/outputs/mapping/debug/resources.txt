@@ -278,6 +278,7 @@ Referenced Strings:
   .font
   .impl
   .implementation
+  .jpg
   .left
   .mapbox.cn
   .mapbox.com
@@ -309,6 +310,7 @@ Referenced Strings:
   /RFC3211Wrap
   /SIC
   /SSL3MAC
+  /ScreenShot_
   /a/
   /cacerts
   /cmdline
@@ -3270,6 +3272,7 @@ Referenced Strings:
   SafeParcelResponseCreator
   Salsa20
   ScopeCreator
+  ScreenShot
   ScrollGesturesEnabled
   ScrollingTabContainerView
   SearchView
@@ -4292,7 +4295,6 @@ Referenced Strings:
   brainpoolp512r1
   brainpoolp512t1
   bridgeTag
-  buf
   buffer
   businessCategory
   businesscategory

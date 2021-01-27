@@ -512,22 +512,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         screenShot(yuvFrame, Environment.getExternalStorageDirectory() + "/DJI_ScreenShot", width, height);
     }
 
-
-
-    @RequiresApi(api = Build.VERSION_CODES.LOLLIPOP)
-    private void screenShotToNewActivity(int width, int height) {
-
-
-        byte[] buf = DJIVideoStreamDecoder.getActualFrame();
-
-        Intent intent = new Intent(this, CaptureActivity.class);
-        intent.putExtra("buf", buf);
-        intent.putExtra("width", width);
-        intent.putExtra("height", height);
-        startActivity(intent);
-
-    }
-
     /**
      * Save the buffered data into a JPG image file
      */
