@@ -85,7 +85,6 @@
 -keep class androidx.appcompat.widget.ViewStubCompat { <init>(...); }
 
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\res\layout\dji_dialog_login.xml:2
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_capture.xml:2
 -keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(...); }
 
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\84279f03e9a3d1265ad2ea1fea6489f1\res\layout\abc_alert_dialog_material.xml:41
@@ -257,73 +256,73 @@
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\res\layout\widget_camera_exposure_setting.xml:26
 -keep class dji.ux.internal.exposure.CameraShutterSettingWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:202
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:193
 -keep class dji.ux.panel.PreFlightCheckListPanel { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:112
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:103
 -keep class dji.ux.widget.AutoExposureLockWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:91
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:82
 -keep class dji.ux.widget.BatteryWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:96
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:87
 -keep class dji.ux.widget.ConnectionWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:67
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:58
 -keep class dji.ux.widget.FlightModeWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:116
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:107
 -keep class dji.ux.widget.FocusExposureSwitchWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:120
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:111
 -keep class dji.ux.widget.FocusModeWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:71
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:62
 -keep class dji.ux.widget.GPSSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:149
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:140
 -keep class dji.ux.widget.ManualFocusWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:63
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:54
 -keep class dji.ux.widget.PreFlightStatusWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:156
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:147
 -keep class dji.ux.widget.RemainingFlightTimeWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:79
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:70
 -keep class dji.ux.widget.RemoteControlSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:193
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:184
 -keep class dji.ux.widget.ReturnHomeWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:188
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:179
 -keep class dji.ux.widget.TakeOffWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:83
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:74
 -keep class dji.ux.widget.VideoSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:75
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:66
 -keep class dji.ux.widget.VisionWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:87
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:78
 -keep class dji.ux.widget.WiFiSignalWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:132
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:123
 -keep class dji.ux.widget.config.CameraConfigApertureWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:136
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:127
 -keep class dji.ux.widget.config.CameraConfigEVWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:124
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:115
 -keep class dji.ux.widget.config.CameraConfigISOAndEIWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:128
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:119
 -keep class dji.ux.widget.config.CameraConfigShutterWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:144
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:135
 -keep class dji.ux.widget.config.CameraConfigStorageWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:140
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:131
 -keep class dji.ux.widget.config.CameraConfigWBWidget { <init>(...); }
 
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\res\layout\widget_camera_action.xml:34
@@ -341,7 +340,7 @@
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\res\layout\dashboard_compass.xml:11
 -keep class dji.ux.widget.dashboard.CompassWidget { <init>(...); }
 
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:170
+# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:161
 -keep class dji.ux.widget.dashboard.DashboardWidget { <init>(...); }
 
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\res\layout\dashboard_compass.xml:21
@@ -355,7 +354,4 @@
 
 # Referenced at C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\res\layout\dashboard_compass.xml:31
 -keep class dji.ux.widget.dashboard.VerticalVelocityWidget { <init>(...); }
-
-# Referenced at C:\Users\Joaquin\Desktop\mini-DJI-Go-App\app\src\main\res\layout\activity_main.xml:208
--keepclassmembers class * { *** onClick(...); }
 

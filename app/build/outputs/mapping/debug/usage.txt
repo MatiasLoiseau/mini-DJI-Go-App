@@ -5241,8 +5241,11 @@ com.vividsolutions.jts.util.GeometricShapeFactory$1
 com.vividsolutions.jts.util.GeometricShapeFactory$Dimensions
 com.vividsolutions.jts.util.Stopwatch
 com.vividsolutions.jts.util.UniqueCoordinateArrayFilter
+jcg.mini_dji_go_app.BluetoothConstants:
+    public static final java.lang.String KEY
+    public static final java.lang.String DEFAULT_DEVICE_NAME
+    5:5:public BluetoothConstants()
 jcg.mini_dji_go_app.BuildConfig
-jcg.mini_dji_go_app.CaptureActivity
 jcg.mini_dji_go_app.ConnectionActivity:
     private static final int REQUEST_PERMISSION_CODE
 jcg.mini_dji_go_app.MainActivity:

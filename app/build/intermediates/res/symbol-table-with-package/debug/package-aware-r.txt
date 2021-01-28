@@ -1668,7 +1668,6 @@ id action_text
 id actions
 id activity_chooser_view_content
 id activity_main_save_path
-id activity_main_screen_shot
 id add
 id adjust_height
 id adjust_width
@@ -1875,7 +1874,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id image_button_background
 id image_button_close
 id image_button_foreground
@@ -2392,7 +2390,6 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout action_confirmation_view
-layout activity_capture
 layout activity_connection
 layout activity_main
 layout audio_file_item
