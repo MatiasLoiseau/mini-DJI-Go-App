@@ -150,7 +150,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         setContentView(R.layout.activity_main);
         initUi();
-        setBluetooth();
     }
 
     private void showToast(String s) {
@@ -562,12 +561,17 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                                                                                .isLensDistortionCalibrationNeeded();
     }
 
+    public void onClick(View v) {
+
+        setBluetooth();
+    }
+
+
+
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
 
-
     private BluetoothAdapter mBluetoothAdapter = null;
-    private int actualFrame = 0;
 
     //public void onCreate(Bundle savedInstanceState) {
     private void setBluetooth(){
