@@ -1697,6 +1697,7 @@ id barrier
 id batteryIcon
 id beginning
 id blocking
+id bluetoothStarter
 id bot_line_camera_panel
 id bottom
 id btn_open

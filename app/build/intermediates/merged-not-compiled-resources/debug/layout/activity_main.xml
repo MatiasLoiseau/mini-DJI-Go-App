@@ -37,6 +37,20 @@
         android:gravity="bottom"
         />
 
+    <Button
+        android:id="@+id/bluetoothStarter"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="583dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:textSize="16sp"
+        android:text="Start Bluetooth" />
+
+
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

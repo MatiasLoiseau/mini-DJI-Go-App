@@ -6,6 +6,7 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -42,14 +43,19 @@ import java.nio.ByteBuffer;
 import java.util.Set;
 
 import dji.common.camera.SettingsDefinitions;
+import dji.common.error.DJIError;
 import dji.common.product.Model;
+import dji.common.util.CommonCallbacks;
 import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
 
-import static jcg.mini_dji_go_app.BluetoothConstants.*;
+import static jcg.mini_dji_go_app.BluetoothConstants.DEFAULT_DEVICE_NAME;
+import static jcg.mini_dji_go_app.BluetoothConstants.KEY;
+import static jcg.mini_dji_go_app.BluetoothConstants.MY_UUID;
+import static jcg.mini_dji_go_app.BluetoothConstants.REQUEST_ENABLE_BT;
 
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -165,22 +171,24 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     private void initUi() {
-        savePath = findViewById(R.id.activity_main_save_path);
-        screenShot = null;
+        savePath = (TextView) findViewById(R.id.activity_main_save_path);
         screenShot.setSelected(false);
 
-        videostreamPreviewTtView = findViewById(R.id.livestream_preview_ttv);
-        videostreamPreviewSf = findViewById(R.id.livestream_preview_sf);
+        videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
+        videostreamPreviewSf = (SurfaceView) findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSf.setClickable(true);
-        videostreamPreviewSf.setOnClickListener(v -> {
-            float rate = VideoFeeder.getInstance().getTranscodingDataRate();
-            showToast("current rate:" + rate + "Mbps");
-            if (rate < 10) {
-                VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
-                showToast("set rate to 10Mbps");
-            } else {
-                VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
-                showToast("set rate to 3Mbps");
+        videostreamPreviewSf.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                float rate = VideoFeeder.getInstance().getTranscodingDataRate();
+                showToast("current rate:" + rate + "Mbps");
+                if (rate < 10) {
+                    VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
+                    showToast("set rate to 10Mbps");
+                } else {
+                    VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
+                    showToast("set rate to 3Mbps");
+                }
             }
         });
         updateUIVisibility();
@@ -219,32 +227,36 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
 
         // The callback for receiving the raw H264 video data for camera live view
-        mReceivedVideoDataListener = (videoBuffer, size) -> {
-            if (System.currentTimeMillis() - lastupdate > 1000) {
-                Log.d(TAG, "camera recv video data size: " + size);
-                lastupdate = System.currentTimeMillis();
-            }
-            switch (demoType) {
-                case USE_SURFACE_VIEW:
-                    if (mCodecManager != null) {
-                        mCodecManager.sendDataToDecoder(videoBuffer, size);
-                    }
-                    break;
-                case USE_SURFACE_VIEW_DEMO_DECODER:
-                    /**
-                     we use standardVideoFeeder to pass the transcoded video data to DJIVideoStreamDecoder, and then display it
-                     * on surfaceView
-                     */
-                    DJIVideoStreamDecoder.getInstance().parse(videoBuffer, size);
-                    break;
+        mReceivedVideoDataListener = new VideoFeeder.VideoDataListener() {
 
-                case USE_TEXTURE_VIEW:
-                    if (mCodecManager != null) {
-                        mCodecManager.sendDataToDecoder(videoBuffer, size);
-                    }
-                    break;
-            }
+            @Override
+            public void onReceive(byte[] videoBuffer, int size) {
+                if (System.currentTimeMillis() - lastupdate > 1000) {
+                    Log.d(TAG, "camera recv video data size: " + size);
+                    lastupdate = System.currentTimeMillis();
+                }
+                switch (demoType) {
+                    case USE_SURFACE_VIEW:
+                        if (mCodecManager != null) {
+                            mCodecManager.sendDataToDecoder(videoBuffer, size);
+                        }
+                        break;
+                    case USE_SURFACE_VIEW_DEMO_DECODER:
+                        /**
+                         we use standardVideoFeeder to pass the transcoded video data to DJIVideoStreamDecoder, and then display it
+                         * on surfaceView
+                         */
+                        DJIVideoStreamDecoder.getInstance().parse(videoBuffer, size);
+                        break;
 
+                    case USE_TEXTURE_VIEW:
+                        if (mCodecManager != null) {
+                            mCodecManager.sendDataToDecoder(videoBuffer, size);
+                        }
+                        break;
+                }
+
+            }
         };
 
         if (null == product || !product.isConnected()) {
@@ -253,9 +265,12 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         } else {
             if (!product.getModel().equals(Model.UNKNOWN_AIRCRAFT)) {
                 mCamera = product.getCamera();
-                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, djiError -> {
-                    if (djiError != null) {
-                        showToast("can't change mode of camera, error:"+djiError.getDescription());
+                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, new CommonCallbacks.CompletionCallback() {
+                    @Override
+                    public void onResult(DJIError djiError) {
+                        if (djiError != null) {
+                            showToast("can't change mode of camera, error:"+djiError.getDescription());
+                        }
                     }
                 });
 
@@ -389,26 +404,29 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             final byte[] bytes = new byte[dataSize];
             yuvFrame.get(bytes);
             //DJILog.d(TAG, "onYuvDataReceived2 " + dataSize);
-            AsyncTask.execute(() -> {
-                // two samples here, it may has other color format.
-                int colorFormat = format.getInteger(MediaFormat.KEY_COLOR_FORMAT);
-                switch (colorFormat) {
-                    case MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420SemiPlanar:
-                        //NV12
-                        if (Build.VERSION.SDK_INT <= 23) {
-                            oldSaveYuvDataToJPEG(bytes, width, height);
-                        } else {
-                            newSaveYuvDataToJPEG(bytes, width, height);
-                        }
-                        break;
-                    case MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420Planar:
-                        //YUV420P
-                        newSaveYuvDataToJPEG420P(bytes, width, height);
-                        break;
-                    default:
-                        break;
-                }
+            AsyncTask.execute(new Runnable() {
+                @Override
+                public void run() {
+                    // two samples here, it may has other color format.
+                    int colorFormat = format.getInteger(MediaFormat.KEY_COLOR_FORMAT);
+                    switch (colorFormat) {
+                        case MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420SemiPlanar:
+                            //NV12
+                            if (Build.VERSION.SDK_INT <= 23) {
+                                oldSaveYuvDataToJPEG(bytes, width, height);
+                            } else {
+                                newSaveYuvDataToJPEG(bytes, width, height);
+                            }
+                            break;
+                        case MediaCodecInfo.CodecCapabilities.COLOR_FormatYUV420Planar:
+                            //YUV420P
+                            newSaveYuvDataToJPEG420P(bytes, width, height);
+                            break;
+                        default:
+                            break;
+                    }
 
+                }
             });
         }
     }
@@ -538,9 +556,19 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Log.e(TAG, "test screenShot: compress yuv image error: " + e);
             e.printStackTrace();
         }
-        runOnUiThread(() -> displayPath(path));
+        runOnUiThread(new Runnable() {
+            @Override
+            public void run() {
+                displayPath(path);
+            }
+        });
     }
 
+
+    public void onClick(View v) {
+
+        setBluetooth();
+    }
 
     private void displayPath(String path) {
         if (stringBuilder == null) {
@@ -560,13 +588,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         return VideoFeeder.getInstance().isFetchKeyFrameNeeded() || VideoFeeder.getInstance()
                                                                                .isLensDistortionCalibrationNeeded();
     }
-
-    public void onClick(View v) {
-
-        setBluetooth();
-    }
-
-
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
@@ -592,18 +613,19 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
     }
 
-    private void initializeThread() {
-
-        final SendData sendData = new SendData();
-        sendData.start();
-
-    }
-
     @Override
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         initializeThread();
     }
+
+    private void initializeThread() {
+
+        final SendData sendData = new SendData();
+        sendData.start();
+    }
+
+
 
     class SendData extends Thread {
         private BluetoothSocket btSocket = null;
@@ -686,6 +708,5 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
         return null;
     }
-
 
 }
