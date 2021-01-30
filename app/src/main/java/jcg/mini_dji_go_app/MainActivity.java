@@ -564,11 +564,12 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         });
     }
 
-
+    /*
     public void onClick(View v) {
 
         setBluetooth();
     }
+     */
 
     private void displayPath(String path) {
         if (stringBuilder == null) {
@@ -588,6 +589,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         return VideoFeeder.getInstance().isFetchKeyFrameNeeded() || VideoFeeder.getInstance()
                                                                                .isLensDistortionCalibrationNeeded();
     }
+
+    /*
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
@@ -708,5 +711,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
         return null;
     }
+     */
 
 }
