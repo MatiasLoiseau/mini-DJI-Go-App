@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Equipo\\Desktop\\Android App\\My Apps\\mdga\\mini-DJI-Go-App - 2.0 [Layout UXSDK]\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w640dp-v13\\values-w640dp-v13.xml",
+            "outputFile": "C:\\Users\\Joaquin\\Desktop\\mini-DJI-Go-App-c1ed69055e57e75f5cc54359821295dff4419c9d\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-w640dp-v13\\values-w640dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Equipo\\.gradle\\caches\\transforms-2\\files-2.1\\89c958d859ca908a92f2058067918256\\res\\values-w640dp-v13\\values-w640dp-v13.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\52b0a296b40fb92fa4d0cd185d89e787\\res\\values-w640dp-v13\\values-w640dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6",
                         "startColumns": "4,4,4,4,4",

@@ -1,7 +1,7 @@
-#Thu Jan 14 13:31:38 ART 2021
-base.0=C\:\\Users\\Equipo\\Desktop\\Android App\\My Apps\\mdga\\mini-DJI-Go-App - 2.0 [Layout UXSDK]\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+#Sat Jan 30 22:59:10 ART 2021
+base.0=C\:\\Users\\Joaquin\\Desktop\\mini-DJI-Go-App-c1ed69055e57e75f5cc54359821295dff4419c9d\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\Equipo\\Desktop\\Android App\\My Apps\\mdga\\mini-DJI-Go-App - 2.0 [Layout UXSDK]\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
+base.1=C\:\\Users\\Joaquin\\Desktop\\mini-DJI-Go-App-c1ed69055e57e75f5cc54359821295dff4419c9d\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0

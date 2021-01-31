@@ -5273,12 +5273,13 @@ jcg.mini_dji_go_app.media.DJIVideoStreamDecoder:
     private static final int MSG_YUV_DATA
     public static final java.lang.String VIDEO_ENCODING_FORMAT
     private long currentTime
-    848:848:public void destroy()
-    852:867:public void onDataRecv(byte[],int,int,boolean,int,int)
+    89:90:public void setYuvDataListener(dji.sdk.codec.DJICodecManager$YuvDataCallback)
+    850:850:public void destroy()
+    854:869:public void onDataRecv(byte[],int,int,boolean,int,int)
 jcg.mini_dji_go_app.media.DJIVideoStreamDecoder$DJIFrame:
     public long codecOutputTime
-    128:128:public long getDecodingDelay()
-    133:133:public long getTotalDelay()
+    130:130:public long getDecodingDelay()
+    135:135:public long getTotalDelay()
 jcg.mini_dji_go_app.media.NativeHelper:
     public native java.lang.String codecinfotest()
     88:91:public void onFrameDataRecv(byte[],int,int,boolean,int,int)

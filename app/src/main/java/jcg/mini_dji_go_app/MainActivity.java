@@ -1,6 +1,9 @@
 package jcg.mini_dji_go_app;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -19,12 +22,16 @@ import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.RequiresApi;
 
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
 
+import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -50,6 +57,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
+    private ImageView imageView;
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -511,6 +519,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     /**
      * Save the buffered data into a JPG image file
      */
+
     private void screenShot(byte[] buf, String shotDir, int width, int height) {
         File dir = new File(shotDir);
         if (!dir.exists() || !dir.isDirectory()) {
@@ -552,58 +561,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
     public void onClick(View v) {
 
-        if (v.getId() == R.id.activity_main_screen_shot) {
-            handleYUVClick();
-            if (mCodecManager != null) {
-                mCodecManager.cleanSurface();
-                mCodecManager.destroyCodec();
-                mCodecManager = null;
-            }
-            finish();
-            overridePendingTransition(0, 0);
-            startActivity(getIntent());
-            overridePendingTransition(0, 0);
-        }
-    }
-
-    private void handleYUVClick() {
-        if (screenShot.isSelected()) {
-            screenShot.setText("YUV Screen Shot");
-            screenShot.setSelected(false);
-
-            switch (demoType) {
-                case USE_SURFACE_VIEW:
-                case USE_TEXTURE_VIEW:
-                    mCodecManager.enabledYuvData(false);
-                    mCodecManager.setYuvDataCallback(null);
-                    // ToDo:
-                    break;
-                case USE_SURFACE_VIEW_DEMO_DECODER:
-                    DJIVideoStreamDecoder.getInstance().changeSurface(videostreamPreviewSh.getSurface());
-                    DJIVideoStreamDecoder.getInstance().setYuvDataListener(null);
-                    break;
-            }
-            savePath.setText("");
-            savePath.setVisibility(View.INVISIBLE);
-            stringBuilder = null;
-        } else {
-            screenShot.setText("Live Stream");
-            screenShot.setSelected(true);
-
-            switch (demoType) {
-                case USE_TEXTURE_VIEW:
-                case USE_SURFACE_VIEW:
-                    mCodecManager.enabledYuvData(true);
-                    mCodecManager.setYuvDataCallback(this);
-                    break;
-                case USE_SURFACE_VIEW_DEMO_DECODER:
-                    DJIVideoStreamDecoder.getInstance().changeSurface(null);
-                    DJIVideoStreamDecoder.getInstance().setYuvDataListener(MainActivity.this);
-                    break;
-            }
-            savePath.setText("");
-            savePath.setVisibility(View.VISIBLE);
-        }
+        Bitmap frame = videostreamPreviewTtView.getBitmap();
+        imageView =  findViewById(R.id.imageView);
+        imageView.setImageBitmap(frame);
     }
 
     private void displayPath(String path) {

@@ -12,6 +12,8 @@ import android.os.Message;
 import android.util.Log;
 import android.view.Surface;
 
+import androidx.annotation.RequiresApi;
+
 import jcg.mini_dji_go_app.R;
 import dji.common.product.Model;
 import dji.log.DJILog;
