@@ -1875,7 +1875,6 @@ id icon_group
 id icon_only
 id ifRoom
 id image
-id imageView
 id image_button_background
 id image_button_close
 id image_button_foreground

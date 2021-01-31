@@ -37,14 +37,18 @@
         android:gravity="bottom"
         />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
-        android:background="@color/background_blue"/>
 
+    <Button
+        android:id="@+id/activity_main_screen_shot"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="569dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
+        android:clickable="true"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="Set Bluetooth" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -204,18 +208,6 @@
             android:layout_height="wrap_content"
             android:visibility="gone"
             custom:excludeItem="ESCStatus" />
-
-        <Button
-            android:id="@+id/activity_main_screen_shot"
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="569dp"
-            android:layout_marginLeft="260dp"
-            android:layout_marginTop="50dp"
-            android:clickable="true"
-            android:gravity="center"
-            android:onClick="onClick"
-            android:text="YUV Screen Shot" />
 
     </RelativeLayout>
 

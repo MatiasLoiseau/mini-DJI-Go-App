@@ -1,9 +1,11 @@
 package jcg.mini_dji_go_app;
 
 import android.app.Activity;
+import android.bluetooth.BluetoothAdapter;
+import android.bluetooth.BluetoothDevice;
+import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -26,7 +28,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import androidx.annotation.RequiresApi;
+import androidx.annotation.Nullable;
 
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
@@ -38,6 +40,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
+import java.util.Set;
 
 import dji.common.camera.SettingsDefinitions;
 import dji.common.error.DJIError;
@@ -48,6 +51,8 @@ import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
+
+import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -561,9 +566,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
     public void onClick(View v) {
 
-        Bitmap frame = videostreamPreviewTtView.getBitmap();
-        imageView =  findViewById(R.id.imageView);
-        imageView.setImageBitmap(frame);
+        setBluetooth();
     }
 
     private void displayPath(String path) {
@@ -584,4 +587,127 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         return VideoFeeder.getInstance().isFetchKeyFrameNeeded() || VideoFeeder.getInstance()
                                                                                .isLensDistortionCalibrationNeeded();
     }
+
+
+
+    //----------------------------------- Bluetooth Methods ----------------------------------//
+
+
+    private BluetoothAdapter mBluetoothAdapter = null;
+
+    //public void onCreate(Bundle savedInstanceState) {
+    private void setBluetooth(){
+
+        mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+        if (mBluetoothAdapter == null) {
+            Toast.makeText(this,
+                    "Este dispositivo no se puede conectar a Bluetooth.",
+                    Toast.LENGTH_LONG).show();
+            finish();
+
+        } else if (!mBluetoothAdapter.isEnabled()) {
+            Intent enableBtIntent = new Intent(BluetoothAdapter.ACTION_REQUEST_ENABLE);
+            startActivityForResult(enableBtIntent, REQUEST_ENABLE_BT);
+
+        } else
+            initializeThread();
+
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
+        super.onActivityResult(requestCode, resultCode, data);
+        initializeThread();
+    }
+
+    private void initializeThread() {
+
+        final SendData sendData = new SendData();
+        sendData.start();
+    }
+
+
+
+    class SendData extends Thread {
+        private BluetoothSocket btSocket = null;
+        private OutputStream outStream = null;
+
+        public SendData(){
+            String address = getDefaultDeviceAdress();
+            BluetoothDevice device = mBluetoothAdapter.getRemoteDevice(address);
+            try {
+                btSocket = device.createRfcommSocketToServiceRecord(MY_UUID);
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+            }
+            mBluetoothAdapter.cancelDiscovery();
+            try {
+                btSocket.connect();
+            } catch (IOException e) {
+                e.printStackTrace();
+                try {
+                    btSocket.close();
+                } catch (IOException e2) {
+                    e2.printStackTrace();
+                }
+            }
+            Toast.makeText(getBaseContext(), "Connected to " + device.getName(), Toast.LENGTH_SHORT).show();
+            try {
+                outStream = btSocket.getOutputStream();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+
+        }
+
+        public void run() {
+            while (true) {
+                try {
+                    mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
+                    byte[] image = frameToByteArray();
+                    outStream.write(image);
+                    outStream.flush();
+                    outStream.write(KEY.getBytes());
+                    outStream.flush();
+
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                    break;
+                }
+            }
+        }
+
+
+        private byte[] frameToByteArray(){
+
+            Bitmap frame = videostreamPreviewTtView.getBitmap();
+            Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
+            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
+            frame.compress(Bitmap.CompressFormat.JPEG, 20, bytes);
+
+            return bytes.toByteArray();
+        }
+
+    }
+
+    public String getDefaultDeviceAdress(){
+
+        Set<BluetoothDevice> pairedDevices = mBluetoothAdapter.getBondedDevices();
+
+        if (pairedDevices.size() > 0) {
+            // There are paired devices. Get the name and address of each paired device.
+            for (BluetoothDevice device : pairedDevices) {
+                String deviceName = device.getName();
+                String deviceHardwareAddress = device.getAddress(); // MAC address
+
+                if (deviceName.equals(DEFAULT_DEVICE_NAME))
+                    return deviceHardwareAddress;
+            }
+        }
+        return null;
+    }
+
 }
