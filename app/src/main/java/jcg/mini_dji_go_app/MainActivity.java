@@ -686,7 +686,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Bitmap frame = videostreamPreviewTtView.getBitmap();
             Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
             ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, 20, bytes);
+            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
 
             return bytes.toByteArray();
         }
