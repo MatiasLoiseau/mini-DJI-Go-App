@@ -8,5 +8,5 @@ public final class BluetoothConstants {
     public final static String KEY = "BLcbyvFdRafKfUPOAQWCc5RveU8lpZ08";
     public final static Integer REQUEST_ENABLE_BT = 1;
     public final static String DEFAULT_DEVICE_NAME = "Dloiseau";
-    public final static Integer FRAME_COMPRESS_QUALITY = 0; // [0-100] %
+    public final static Integer FRAME_COMPRESS_QUALITY = 20; // [0-100] %
 }

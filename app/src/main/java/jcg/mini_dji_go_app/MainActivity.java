@@ -6,6 +6,7 @@ import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -687,6 +688,14 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
             ByteArrayOutputStream bytes = new ByteArrayOutputStream();
             frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+
+            Bitmap bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
+            bytes = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+
+            bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
+            bytes = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
 
             return bytes.toByteArray();
         }
