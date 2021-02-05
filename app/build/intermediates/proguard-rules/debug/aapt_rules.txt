@@ -1,22 +1,22 @@
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:139
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:140
 -keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:130
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:131
 -keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:128
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:129
 -keep class com.mapbox.services.android.telemetry.service.TelemetryService { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:126
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:127
 -keep class com.mapzen.android.lost.internal.DwellIntentService { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:118
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:119
 -keep class com.mapzen.android.lost.internal.FusedLocationProviderService { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:121
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:122
 -keep class com.mapzen.android.lost.internal.GeofencingIntentService { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:109
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:110
 -keep class dji.logic.receiver.DJIPilotStartupReceiver { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:105
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:106
 -keep class dji.sdk.sdkmanager.DJIGlobalService { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:83
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:84
 -keep class jcg.mini_dji_go_app.ConnectionActivity { <init>(...); }
-# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:99
+# Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:100
 -keep class jcg.mini_dji_go_app.MainActivity { <init>(...); }
 # Referenced at C:\Users\Joaquin\Desktop\development\mini-DJI-Go-App\app\build\intermediates\merged_manifests\debug\processDebugManifest\merged\AndroidManifest.xml:67
 -keep class jcg.mini_dji_go_app.VideoDecodingApplication { <init>(...); }
