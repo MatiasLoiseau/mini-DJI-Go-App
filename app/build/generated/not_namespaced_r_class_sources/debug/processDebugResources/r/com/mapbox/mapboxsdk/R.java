@@ -111,7 +111,7 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int attributionView = 0x7f080037;
+        public static final int attributionView = 0x7f080038;
         public static final int bottom = 0x7f08004b;
         public static final int center = 0x7f08007f;
         public static final int center_horizontal = 0x7f080081;

@@ -5251,6 +5251,7 @@ jcg.mini_dji_go_app.ConnectionActivity:
 jcg.mini_dji_go_app.MainActivity:
     private static final int MSG_WHAT_SHOW_TOAST
     private static final int MSG_WHAT_UPDATE_TITLE
+    private android.widget.ImageView imageView
 jcg.mini_dji_go_app.R
 jcg.mini_dji_go_app.R$anim
 jcg.mini_dji_go_app.R$array

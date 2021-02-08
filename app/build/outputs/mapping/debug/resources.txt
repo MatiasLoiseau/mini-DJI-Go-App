@@ -6731,9 +6731,9 @@ Marking attr:allowStacking:2130903079 used because its prefix matches string poo
 Marking attr:alpha:2130903080 used because its prefix matches string pool constant al
 Marking attr:alphabeticModifiers:2130903081 used because its prefix matches string pool constant al
 Marking drawable:alert_icon:2131165273 used because its prefix matches string pool constant al
-Marking id:alertTitle:2131230770 used because its prefix matches string pool constant al
-Marking id:all:2131230771 used because its prefix matches string pool constant al
-Marking id:always:2131230772 used because its prefix matches string pool constant al
+Marking id:alertTitle:2131230771 used because its prefix matches string pool constant al
+Marking id:all:2131230772 used because its prefix matches string pool constant al
+Marking id:always:2131230773 used because its prefix matches string pool constant al
 Marking string:alert_can_not_start_record:2131623985 used because its prefix matches string pool constant al
 Marking string:alert_return_to_current_position:2131623986 used because its prefix matches string pool constant al
 Marking string:alert_return_to_original_home_point:2131623987 used because its prefix matches string pool constant al
@@ -7433,7 +7433,7 @@ Marking styleable:ConstraintLayout_Layout:-1 used because its prefix matches str
 Marking declare-styleable:ConstraintLayout_placeholder:-1 used because its prefix matches string pool constant ConstraintLayout
 Marking styleable:ConstraintLayout_placeholder:-1 used because its prefix matches string pool constant ConstraintLayout
 Marking string:sensor_system_tip_ultrasonic_data_error_stuck:2131625451 used because its prefix matches string pool constant sensor
-Marking id:attitude_section_header_text:2131230774 used because its prefix matches string pool constant atti
+Marking id:attitude_section_header_text:2131230775 used because its prefix matches string pool constant atti
 Marking declare-styleable:RecyclerView:-1 used because its prefix matches string pool constant RecyclerView
 Marking styleable:RecyclerView:-1 used because its prefix matches string pool constant RecyclerView
 Marking declare-styleable:ConstraintSet:-1 used because its prefix matches string pool constant ConstraintSet
@@ -7455,15 +7455,15 @@ Marking attr:autoSizeStepGranularity:2130903089 used because its prefix matches 
 Marking attr:autoSizeTextType:2130903090 used because its prefix matches string pool constant auto
 Marking attr:autosize:2130903091 used because its prefix matches string pool constant auto
 Marking drawable:auto_iso:2131165275 used because its prefix matches string pool constant auto
-Marking id:auto:2131230783 used because its prefix matches string pool constant auto
+Marking id:auto:2131230784 used because its prefix matches string pool constant auto
 Marking string:auto_gimbal_lock:2131624014 used because its prefix matches string pool constant auto
-Marking id:audio_file_delete_image_view:2131230776 used because its prefix matches string pool constant audio
-Marking id:audio_file_listview:2131230777 used because its prefix matches string pool constant audio
-Marking id:audio_file_name_text_view:2131230778 used because its prefix matches string pool constant audio
-Marking id:audio_file_play_image_view:2131230779 used because its prefix matches string pool constant audio
-Marking id:audio_file_row_linear_layout:2131230780 used because its prefix matches string pool constant audio
-Marking id:audio_record_status_text_view:2131230781 used because its prefix matches string pool constant audio
-Marking id:audio_temporary_switch:2131230782 used because its prefix matches string pool constant audio
+Marking id:audio_file_delete_image_view:2131230777 used because its prefix matches string pool constant audio
+Marking id:audio_file_listview:2131230778 used because its prefix matches string pool constant audio
+Marking id:audio_file_name_text_view:2131230779 used because its prefix matches string pool constant audio
+Marking id:audio_file_play_image_view:2131230780 used because its prefix matches string pool constant audio
+Marking id:audio_file_row_linear_layout:2131230781 used because its prefix matches string pool constant audio
+Marking id:audio_record_status_text_view:2131230782 used because its prefix matches string pool constant audio
+Marking id:audio_temporary_switch:2131230783 used because its prefix matches string pool constant audio
 Marking layout:audio_file_item:2131361823 used because its prefix matches string pool constant audio
 Marking attr:keylines:2130903223 used because its prefix matches string pool constant key
 Marking attr:queryBackground:2130903387 used because its prefix matches string pool constant query
@@ -7737,8 +7737,8 @@ Marking color:background_floating_material_dark:2131034139 used because its pref
 Marking color:background_floating_material_light:2131034140 used because its prefix matches string pool constant background
 Marking color:background_material_dark:2131034141 used because its prefix matches string pool constant background
 Marking color:background_material_light:2131034142 used because its prefix matches string pool constant background
-Marking id:background_exposure_setting:2131230785 used because its prefix matches string pool constant background
-Marking id:background_imageview:2131230786 used because its prefix matches string pool constant background
+Marking id:background_exposure_setting:2131230786 used because its prefix matches string pool constant background
+Marking id:background_imageview:2131230787 used because its prefix matches string pool constant background
 Marking attr:height:2130903203 used because its prefix matches string pool constant height
 Marking attr:allowStacking:2130903079 used because its prefix matches string pool constant allow
 Marking declare-styleable:ActivityChooserView:-1 used because its prefix matches string pool constant ActivityChooserView
@@ -8236,6 +8236,7 @@ Marking dimen:activity_horizontal_margin:2131099723 used because its prefix matc
 Marking dimen:activity_vertical_margin:2131099724 used because its prefix matches string pool constant activity
 Marking id:activity_chooser_view_content:2131230762 used because its prefix matches string pool constant activity
 Marking id:activity_main_save_path:2131230763 used because its prefix matches string pool constant activity
+Marking id:activity_main_screen_shot:2131230764 used because its prefix matches string pool constant activity
 Marking layout:activity_connection:2131361821 used because its prefix matches string pool constant activity
 Marking layout:activity_main:2131361822 used because its prefix matches string pool constant activity
 Marking drawable:connected:2131165367 used because its prefix matches string pool constant connected
@@ -8276,8 +8277,8 @@ Marking id:TextView_card_info_value:2131230736 used because its prefix matches s
 Marking id:TextView_image_format_value:2131230737 used because its prefix matches string pool constant TextView
 Marking drawable:aircraft_horizontal:2131165271 used because its prefix matches string pool constant aircraft
 Marking drawable:aircraft_vertical:2131165272 used because its prefix matches string pool constant aircraft
-Marking id:aircraftBattery:2131230768 used because its prefix matches string pool constant aircraft
-Marking id:aircraftBatteryTemperature:2131230769 used because its prefix matches string pool constant aircraft
+Marking id:aircraftBattery:2131230769 used because its prefix matches string pool constant aircraft
+Marking id:aircraftBatteryTemperature:2131230770 used because its prefix matches string pool constant aircraft
 Marking string:aircraft_battery:2131623979 used because its prefix matches string pool constant aircraft
 Marking string:aircraft_battery_temperature:2131623980 used because its prefix matches string pool constant aircraft
 Marking string:aircraft_format_failed:2131623981 used because its prefix matches string pool constant aircraft
@@ -8463,9 +8464,8 @@ Marking drawable:round_btn_normal:2131165774 used because its prefix matches str
 Marking drawable:round_btn_pressed:2131165775 used because its prefix matches string pool constant round
 Marking drawable:roundbackgroundhighlighted:2131165776 used because its prefix matches string pool constant round
 Marking drawable:roundbackgroundnormal:2131165777 used because its prefix matches string pool constant round
-Marking id:bluetoothStarter:2131230793 used because its prefix matches string pool constant bluetooth
 Marking attr:fillColor:2130903188 used because its prefix matches string pool constant fillColor
-Marking id:add:2131230764 used because its prefix matches string pool constant add
+Marking id:add:2131230765 used because its prefix matches string pool constant add
 Marking id:message:2131231122 used because its prefix matches string pool constant message
 Marking id:message_separator:2131231123 used because its prefix matches string pool constant message
 Marking string:exit_travel_mode:2131624744 used because its prefix matches string pool constant exit
@@ -8475,7 +8475,7 @@ Marking attr:ratingBarStyleSmall:2130903392 used because its prefix matches stri
 Marking string:model_not_available:2131625027 used because its prefix matches string pool constant mode
 Marking attr:mapbox_styleUrl:2130903336 used because its prefix matches string pool constant mapbox_styleUrl
 Marking attr:allowStacking:2130903079 used because its prefix matches string pool constant all
-Marking id:all:2131230771 used because its prefix matches string pool constant all
+Marking id:all:2131230772 used because its prefix matches string pool constant all
 Marking id:legend_left:2131231070 used because its prefix matches string pool constant legend
 Marking id:legend_relativeLayout:2131231071 used because its prefix matches string pool constant legend
 Marking id:legend_right:2131231072 used because its prefix matches string pool constant legend
@@ -8708,7 +8708,7 @@ Marking layout:select_dialog_singlechoice_material:2131361879 used because its p
 Marking string:select_action_header:2131625448 used because its prefix matches string pool constant select
 Marking string:select_action_message:2131625449 used because its prefix matches string pool constant select
 Marking string:model_not_available:2131625027 used because its prefix matches string pool constant model
-Marking id:attributionView:2131230775 used because its prefix matches string pool constant attribution
+Marking id:attributionView:2131230776 used because its prefix matches string pool constant attribution
 Marking color:secondary_text_default_material_dark:2131034253 used because its prefix matches string pool constant secondary
 Marking color:secondary_text_default_material_light:2131034254 used because its prefix matches string pool constant secondary
 Marking color:secondary_text_disabled_material_dark:2131034255 used because its prefix matches string pool constant secondary
@@ -9038,7 +9038,7 @@ layout:notification_template_media:2131361863 => [dimen:notification_large_icon_
 layout:notification_template_media_custom:2131361864 => [dimen:notification_large_icon_height:2131099777, dimen:notification_large_icon_width:2131099778, layout:notification_template_icon_group:2131361861, id:cancel_action:2131230846, dimen:notification_main_column_padding_top:2131099779, dimen:notification_content_margin_start:2131099776, dimen:notification_right_side_padding_top:2131099782, style:TextAppearance_Compat_Notification_Time_Media:2131689725, style:TextAppearance_Compat_Notification_Info_Media:2131689720, layout:notification_media_cancel_action:2131361855]
 layout:notification_template_part_chronometer:2131361865 => [style:TextAppearance_Compat_Notification_Time:2131689724]
 layout:notification_template_part_time:2131361866 => [style:TextAppearance_Compat_Notification_Time:2131689724]
-layout:panel_simulator:2131361867 => [drawable:radius_corner_bg:2131165766, drawable:ic_simulator_panel:2131165590, dimen:dp_5_in_sw320dp:2131099747, dimen:dp_120_in_sw320dp:2131099741, string:simulator_widget_title:2131625480, color:white:2131034269, id:simulator_title:2131231241, color:lighter_gray:2131034214, dimen:dp_10_in_sw320dp:2131099740, string:simulator_position_title:2131625465, id:location_section_header_text:2131231108, dimen:simulator_textview_height:2131099808, string:simulator_widget_lat:2131625474, color:white_80_percent:2131034272, drawable:simulator_row_background:2131165832, id:lbl_simulator_lat:2131231057, dimen:dp_140_in_sw320dp:2131099742, color:blue:2131034148, string:simulator_widget_lng:2131625475, id:val_simulator_lat:2131231389, id:lbl_simulator_lng:2131231058, id:edit_text_simulator_lat:2131230906, string:simulator_widget_satellite:2131625479, id:val_simulator_lng:2131231390, id:lbl_simulator_sat:2131231062, id:edit_text_simulator_lng:2131230907, string:simulator_widget_frequency:2131625473, id:val_simulator_sat:2131231392, id:lbl_simulator_frequency:2131231056, id:edit_text_satellite_count:2131230905, string:simulator_widget_world_x:2131625481, id:lbl_simulator_world_X:2131231063, string:simulator_null_string:2131625464, string:simulator_widget_world_y:2131625482, id:val_simulator_world_X:2131231393, id:lbl_simulator_world_Y:2131231064, string:simulator_widget_world_z:2131625483, id:val_simulator_world_Y:2131231394, id:lbl_simulator_world_Z:2131231065, string:simulator_aircraft_status_title:2131625460, id:status_section_header_text:2131231276, string:simulator_widget_motor_started:2131625476, id:lbl_simulator_motors:2131231059, string:simulator_widget_flying_state:2131625472, id:val_simulator_motors:2131231391, id:lbl_simulator_aircraft_flying:2131231055, id:val_simulator_aircraft_flying:2131231384, string:simulator_attitude_title:2131625462, id:attitude_section_header_text:2131230774, string:simulator_widget_roll:2131625478, id:lbl_simulator_pitch:2131231060, string:simulator_widget_yaw:2131625484, id:val_simulator_aircraft_pitch:2131231385, id:lbl_simulator_yaw:2131231066, id:val_simulator_aircraft_yaw:2131231387, id:lbl_simulator_roll:2131231061, id:val_simulator_aircraft_roll:2131231386, string:simulator_aircraft_wind_title:2131625461, drawable:button_minus:2131165299, drawable:button_plus:2131165300, string:simulator_preset:2131625466, string:app_save:2131624008]
+layout:panel_simulator:2131361867 => [drawable:radius_corner_bg:2131165766, drawable:ic_simulator_panel:2131165590, dimen:dp_5_in_sw320dp:2131099747, dimen:dp_120_in_sw320dp:2131099741, string:simulator_widget_title:2131625480, color:white:2131034269, id:simulator_title:2131231241, color:lighter_gray:2131034214, dimen:dp_10_in_sw320dp:2131099740, string:simulator_position_title:2131625465, id:location_section_header_text:2131231108, dimen:simulator_textview_height:2131099808, string:simulator_widget_lat:2131625474, color:white_80_percent:2131034272, drawable:simulator_row_background:2131165832, id:lbl_simulator_lat:2131231057, dimen:dp_140_in_sw320dp:2131099742, color:blue:2131034148, string:simulator_widget_lng:2131625475, id:val_simulator_lat:2131231389, id:lbl_simulator_lng:2131231058, id:edit_text_simulator_lat:2131230906, string:simulator_widget_satellite:2131625479, id:val_simulator_lng:2131231390, id:lbl_simulator_sat:2131231062, id:edit_text_simulator_lng:2131230907, string:simulator_widget_frequency:2131625473, id:val_simulator_sat:2131231392, id:lbl_simulator_frequency:2131231056, id:edit_text_satellite_count:2131230905, string:simulator_widget_world_x:2131625481, id:lbl_simulator_world_X:2131231063, string:simulator_null_string:2131625464, string:simulator_widget_world_y:2131625482, id:val_simulator_world_X:2131231393, id:lbl_simulator_world_Y:2131231064, string:simulator_widget_world_z:2131625483, id:val_simulator_world_Y:2131231394, id:lbl_simulator_world_Z:2131231065, string:simulator_aircraft_status_title:2131625460, id:status_section_header_text:2131231276, string:simulator_widget_motor_started:2131625476, id:lbl_simulator_motors:2131231059, string:simulator_widget_flying_state:2131625472, id:val_simulator_motors:2131231391, id:lbl_simulator_aircraft_flying:2131231055, id:val_simulator_aircraft_flying:2131231384, string:simulator_attitude_title:2131625462, id:attitude_section_header_text:2131230775, string:simulator_widget_roll:2131625478, id:lbl_simulator_pitch:2131231060, string:simulator_widget_yaw:2131625484, id:val_simulator_aircraft_pitch:2131231385, id:lbl_simulator_yaw:2131231066, id:val_simulator_aircraft_yaw:2131231387, id:lbl_simulator_roll:2131231061, id:val_simulator_aircraft_roll:2131231386, string:simulator_aircraft_wind_title:2131625461, drawable:button_minus:2131165299, drawable:button_plus:2131165300, string:simulator_preset:2131625466, string:app_save:2131624008]
 layout:panel_speaker:2131361868 => [string:speaker_panel_header:2131625489, color:white:2131034269, string:speaker_panel_volume:2131625496, dimen:view_top_min_margin:2131099832, drawable:seekbar_progress:2131165787, drawable:seek_thumb_enabled:2131165786, drawable:speaker_panel_broadcast_tab_selector:2131165833, string:speaker_panel_broadcast:2131625488, drawable:speaker_panel_local_file_tab_selector:2131165834, string:speaker_panel_local_audio:2131625491, color:transparent:2131034267, drawable:close_btn:2131165344, string:speaker_panel_temporary_switch:2131625495, string:speaker_panel_play_instant_switch:2131625492, drawable:fpv_speaker_record:2131165391, string:speaker_panel_tap_to_record:2131625494, string:speaker_panel_play_repeat_mode:2131625493]
 layout:panel_spotlight:2131361869 => [dimen:dp_5_in_sw320dp:2131099747, string:spotlight_settings:2131625503, color:white:2131034269, dimen:text_size_normal_medium:2131099817, color:gray_divider_line:2131034201, id:divider:2131230900, string:spotlight_temperature:2131625504, dimen:text_size_normal:2131099816, string:spotlight_temperature_value:2131625505, string:enabled:2131624732, string:spotlight_brightness:2131625500, id:spotlight_brightness_title:2131231248, dimen:dp_10_in_sw320dp:2131099740, string:spotlight_brightness_warning:2131625502, id:spotlight_brightness_warning:2131231250, string:spotlight_brightness_value:2131625501, id:spotlight_brightness_value:2131231249, dimen:view_top_min_margin:2131099832, drawable:seekbar_progress:2131165787, drawable:seek_thumb_enabled:2131165786]
 layout:place_autocomplete_fragment:2131361870 => [string:place_autocomplete_search_hint:2131625393, dimen:place_autocomplete_button_padding:2131099793, drawable:places_ic_search:2131165699, color:place_autocomplete_search_text:2131034238, color:place_autocomplete_search_hint:2131034237, string:place_autocomplete_clear_button:2131625392, drawable:places_ic_clear:2131165698]
@@ -10708,29 +10708,29 @@ anim:core_hold:2130771980,
    id:actions:2131230761,
    id:activity_chooser_view_content:2131230762,
    id:activity_main_save_path:2131230763,
-   id:add:2131230764,
-   id:adsb_icon:2131230767,
-   id:aircraftBattery:2131230768,
-   id:aircraftBatteryTemperature:2131230769,
-   id:alertTitle:2131230770,
-   id:all:2131230771,
-   id:always:2131230772,
-   id:attitude_section_header_text:2131230774,
-   id:attributionView:2131230775,
-   id:audio_file_delete_image_view:2131230776,
-   id:audio_file_listview:2131230777,
-   id:audio_file_name_text_view:2131230778,
-   id:audio_file_play_image_view:2131230779,
-   id:audio_file_row_linear_layout:2131230780,
-   id:audio_record_status_text_view:2131230781,
-   id:audio_temporary_switch:2131230782,
-   id:auto:2131230783,
-   id:avoid_up:2131230784,
-   id:background_exposure_setting:2131230785,
-   id:background_imageview:2131230786,
-   id:backward_arrow:2131230787,
-   id:backward_distance:2131230788,
-   id:bluetoothStarter:2131230793,
+   id:activity_main_screen_shot:2131230764,
+   id:add:2131230765,
+   id:adsb_icon:2131230768,
+   id:aircraftBattery:2131230769,
+   id:aircraftBatteryTemperature:2131230770,
+   id:alertTitle:2131230771,
+   id:all:2131230772,
+   id:always:2131230773,
+   id:attitude_section_header_text:2131230775,
+   id:attributionView:2131230776,
+   id:audio_file_delete_image_view:2131230777,
+   id:audio_file_listview:2131230778,
+   id:audio_file_name_text_view:2131230779,
+   id:audio_file_play_image_view:2131230780,
+   id:audio_file_row_linear_layout:2131230781,
+   id:audio_record_status_text_view:2131230782,
+   id:audio_temporary_switch:2131230783,
+   id:auto:2131230784,
+   id:avoid_up:2131230785,
+   id:background_exposure_setting:2131230786,
+   id:background_imageview:2131230787,
+   id:backward_arrow:2131230788,
+   id:backward_distance:2131230789,
    id:bot_line_camera_panel:2131230794,
    id:bottom:2131230795,
    id:btn_open:2131230796,

@@ -1668,6 +1668,7 @@ id action_text
 id actions
 id activity_chooser_view_content
 id activity_main_save_path
+id activity_main_screen_shot
 id add
 id adjust_height
 id adjust_width
@@ -1697,7 +1698,6 @@ id barrier
 id batteryIcon
 id beginning
 id blocking
-id bluetoothStarter
 id bot_line_camera_panel
 id bottom
 id btn_open

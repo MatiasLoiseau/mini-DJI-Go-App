@@ -100,8 +100,8 @@ public final class R {
         public static final int action_image = 0x7f080022;
         public static final int action_text = 0x7f080028;
         public static final int actions = 0x7f080029;
-        public static final int async = 0x7f080035;
-        public static final int blocking = 0x7f080048;
+        public static final int async = 0x7f080036;
+        public static final int blocking = 0x7f080049;
         public static final int bottom = 0x7f08004b;
         public static final int cancel_action = 0x7f08007e;
         public static final int chronometer = 0x7f080095;

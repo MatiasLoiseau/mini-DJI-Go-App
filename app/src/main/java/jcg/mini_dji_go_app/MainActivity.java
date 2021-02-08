@@ -25,6 +25,7 @@ import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -52,10 +53,7 @@ import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
 
-import static jcg.mini_dji_go_app.BluetoothConstants.DEFAULT_DEVICE_NAME;
-import static jcg.mini_dji_go_app.BluetoothConstants.KEY;
-import static jcg.mini_dji_go_app.BluetoothConstants.MY_UUID;
-import static jcg.mini_dji_go_app.BluetoothConstants.REQUEST_ENABLE_BT;
+import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -65,6 +63,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
+    private ImageView imageView;
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -172,6 +171,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
     private void initUi() {
         savePath = (TextView) findViewById(R.id.activity_main_save_path);
+        screenShot = (Button) findViewById(R.id.activity_main_screen_shot);
         screenShot.setSelected(false);
 
         videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
@@ -564,12 +564,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         });
     }
 
-    /*
+
     public void onClick(View v) {
 
         setBluetooth();
     }
-     */
 
     private void displayPath(String path) {
         if (stringBuilder == null) {
@@ -590,7 +589,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                                                                                .isLensDistortionCalibrationNeeded();
     }
 
-    /*
+
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
@@ -688,7 +687,15 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Bitmap frame = videostreamPreviewTtView.getBitmap();
             Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
             ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, 20, bytes);
+            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+
+            Bitmap bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
+            bytes = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+
+            bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
+            bytes = new ByteArrayOutputStream();
+            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
 
             return bytes.toByteArray();
         }
@@ -711,6 +718,5 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
         return null;
     }
-     */
 
 }
