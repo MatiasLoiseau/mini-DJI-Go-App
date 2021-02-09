@@ -663,10 +663,14 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
 
         public void run() {
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = FRAME_COMPRESS_SIZE;
+
             while (true) {
                 try {
                     mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-                    byte[] image = frameToByteArray();
+                    byte[] image = frameToByteArray(options);
                     outStream.write(image);
                     outStream.flush();
                     outStream.write(KEY.getBytes());
@@ -682,22 +686,18 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
 
 
-        private byte[] frameToByteArray(){
+        private byte[] frameToByteArray(BitmapFactory.Options options){
 
             Bitmap frame = videostreamPreviewTtView.getBitmap();
             Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
-            ByteArrayOutputStream bytes = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+            ByteArrayOutputStream baos = new ByteArrayOutputStream();
+            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
 
-            Bitmap bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
-            bytes = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
+            frame = BitmapFactory.decodeByteArray(baos.toByteArray(), 0, baos.size(), options);
+            baos = new ByteArrayOutputStream();
+            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
 
-            bitmap = BitmapFactory.decodeByteArray(bytes.toByteArray(), 0, bytes.size());
-            bytes = new ByteArrayOutputStream();
-            bitmap.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, bytes);
-
-            return bytes.toByteArray();
+            return baos.toByteArray();
         }
 
     }
