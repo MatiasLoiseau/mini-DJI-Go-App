@@ -12,167 +12,167 @@ public final class R {
     public static final class attr {
         private attr() {}
 
-        public static final int mapbox_apiBaseUrl = 0x7f030107;
-        public static final int mapbox_bl_arrowDirection = 0x7f030108;
-        public static final int mapbox_bl_arrowHeight = 0x7f030109;
-        public static final int mapbox_bl_arrowPosition = 0x7f03010a;
-        public static final int mapbox_bl_arrowWidth = 0x7f03010b;
-        public static final int mapbox_bl_bubbleColor = 0x7f03010c;
-        public static final int mapbox_bl_cornersRadius = 0x7f03010d;
-        public static final int mapbox_bl_strokeColor = 0x7f03010e;
-        public static final int mapbox_bl_strokeWidth = 0x7f03010f;
-        public static final int mapbox_cameraBearing = 0x7f030110;
-        public static final int mapbox_cameraTargetLat = 0x7f030111;
-        public static final int mapbox_cameraTargetLng = 0x7f030112;
-        public static final int mapbox_cameraTilt = 0x7f030113;
-        public static final int mapbox_cameraZoom = 0x7f030114;
-        public static final int mapbox_cameraZoomMax = 0x7f030115;
-        public static final int mapbox_cameraZoomMin = 0x7f030116;
-        public static final int mapbox_enableTilePrefetch = 0x7f030117;
-        public static final int mapbox_enableZMediaOverlay = 0x7f030118;
-        public static final int mapbox_localIdeographFontFamily = 0x7f030119;
-        public static final int mapbox_myLocation = 0x7f03011a;
-        public static final int mapbox_myLocationAccuracyAlpha = 0x7f03011b;
-        public static final int mapbox_myLocationAccuracyThreshold = 0x7f03011c;
-        public static final int mapbox_myLocationAccuracyTintColor = 0x7f03011d;
-        public static final int mapbox_myLocationBackgroundDrawable = 0x7f03011e;
-        public static final int mapbox_myLocationBackgroundMarginBottom = 0x7f03011f;
-        public static final int mapbox_myLocationBackgroundMarginLeft = 0x7f030120;
-        public static final int mapbox_myLocationBackgroundMarginRight = 0x7f030121;
-        public static final int mapbox_myLocationBackgroundMarginTop = 0x7f030122;
-        public static final int mapbox_myLocationBackgroundTintColor = 0x7f030123;
-        public static final int mapbox_myLocationBearingDrawable = 0x7f030124;
-        public static final int mapbox_myLocationDrawable = 0x7f030125;
-        public static final int mapbox_myLocationTintColor = 0x7f030126;
-        public static final int mapbox_renderTextureMode = 0x7f030127;
-        public static final int mapbox_styleUrl = 0x7f030128;
-        public static final int mapbox_uiAttribution = 0x7f030129;
-        public static final int mapbox_uiAttributionGravity = 0x7f03012a;
-        public static final int mapbox_uiAttributionMarginBottom = 0x7f03012b;
-        public static final int mapbox_uiAttributionMarginLeft = 0x7f03012c;
-        public static final int mapbox_uiAttributionMarginRight = 0x7f03012d;
-        public static final int mapbox_uiAttributionMarginTop = 0x7f03012e;
-        public static final int mapbox_uiAttributionTintColor = 0x7f03012f;
-        public static final int mapbox_uiCompass = 0x7f030130;
-        public static final int mapbox_uiCompassDrawable = 0x7f030131;
-        public static final int mapbox_uiCompassFadeFacingNorth = 0x7f030132;
-        public static final int mapbox_uiCompassGravity = 0x7f030133;
-        public static final int mapbox_uiCompassMarginBottom = 0x7f030134;
-        public static final int mapbox_uiCompassMarginLeft = 0x7f030135;
-        public static final int mapbox_uiCompassMarginRight = 0x7f030136;
-        public static final int mapbox_uiCompassMarginTop = 0x7f030137;
-        public static final int mapbox_uiDoubleTapGestures = 0x7f030138;
-        public static final int mapbox_uiLogo = 0x7f030139;
-        public static final int mapbox_uiLogoGravity = 0x7f03013a;
-        public static final int mapbox_uiLogoMarginBottom = 0x7f03013b;
-        public static final int mapbox_uiLogoMarginLeft = 0x7f03013c;
-        public static final int mapbox_uiLogoMarginRight = 0x7f03013d;
-        public static final int mapbox_uiLogoMarginTop = 0x7f03013e;
-        public static final int mapbox_uiRotateGestures = 0x7f03013f;
-        public static final int mapbox_uiScrollGestures = 0x7f030140;
-        public static final int mapbox_uiTiltGestures = 0x7f030141;
-        public static final int mapbox_uiZoomControls = 0x7f030142;
-        public static final int mapbox_uiZoomGestures = 0x7f030143;
+        public static final int mapbox_apiBaseUrl = 0x7f0401e9;
+        public static final int mapbox_bl_arrowDirection = 0x7f0401ea;
+        public static final int mapbox_bl_arrowHeight = 0x7f0401eb;
+        public static final int mapbox_bl_arrowPosition = 0x7f0401ec;
+        public static final int mapbox_bl_arrowWidth = 0x7f0401ed;
+        public static final int mapbox_bl_bubbleColor = 0x7f0401ee;
+        public static final int mapbox_bl_cornersRadius = 0x7f0401ef;
+        public static final int mapbox_bl_strokeColor = 0x7f0401f0;
+        public static final int mapbox_bl_strokeWidth = 0x7f0401f1;
+        public static final int mapbox_cameraBearing = 0x7f0401f2;
+        public static final int mapbox_cameraTargetLat = 0x7f0401f3;
+        public static final int mapbox_cameraTargetLng = 0x7f0401f4;
+        public static final int mapbox_cameraTilt = 0x7f0401f5;
+        public static final int mapbox_cameraZoom = 0x7f0401f6;
+        public static final int mapbox_cameraZoomMax = 0x7f0401f7;
+        public static final int mapbox_cameraZoomMin = 0x7f0401f8;
+        public static final int mapbox_enableTilePrefetch = 0x7f0401f9;
+        public static final int mapbox_enableZMediaOverlay = 0x7f0401fa;
+        public static final int mapbox_localIdeographFontFamily = 0x7f0401fb;
+        public static final int mapbox_myLocation = 0x7f0401fc;
+        public static final int mapbox_myLocationAccuracyAlpha = 0x7f0401fd;
+        public static final int mapbox_myLocationAccuracyThreshold = 0x7f0401fe;
+        public static final int mapbox_myLocationAccuracyTintColor = 0x7f0401ff;
+        public static final int mapbox_myLocationBackgroundDrawable = 0x7f040200;
+        public static final int mapbox_myLocationBackgroundMarginBottom = 0x7f040201;
+        public static final int mapbox_myLocationBackgroundMarginLeft = 0x7f040202;
+        public static final int mapbox_myLocationBackgroundMarginRight = 0x7f040203;
+        public static final int mapbox_myLocationBackgroundMarginTop = 0x7f040204;
+        public static final int mapbox_myLocationBackgroundTintColor = 0x7f040205;
+        public static final int mapbox_myLocationBearingDrawable = 0x7f040206;
+        public static final int mapbox_myLocationDrawable = 0x7f040207;
+        public static final int mapbox_myLocationTintColor = 0x7f040208;
+        public static final int mapbox_renderTextureMode = 0x7f040209;
+        public static final int mapbox_styleUrl = 0x7f04020a;
+        public static final int mapbox_uiAttribution = 0x7f04020b;
+        public static final int mapbox_uiAttributionGravity = 0x7f04020c;
+        public static final int mapbox_uiAttributionMarginBottom = 0x7f04020d;
+        public static final int mapbox_uiAttributionMarginLeft = 0x7f04020e;
+        public static final int mapbox_uiAttributionMarginRight = 0x7f04020f;
+        public static final int mapbox_uiAttributionMarginTop = 0x7f040210;
+        public static final int mapbox_uiAttributionTintColor = 0x7f040211;
+        public static final int mapbox_uiCompass = 0x7f040212;
+        public static final int mapbox_uiCompassDrawable = 0x7f040213;
+        public static final int mapbox_uiCompassFadeFacingNorth = 0x7f040214;
+        public static final int mapbox_uiCompassGravity = 0x7f040215;
+        public static final int mapbox_uiCompassMarginBottom = 0x7f040216;
+        public static final int mapbox_uiCompassMarginLeft = 0x7f040217;
+        public static final int mapbox_uiCompassMarginRight = 0x7f040218;
+        public static final int mapbox_uiCompassMarginTop = 0x7f040219;
+        public static final int mapbox_uiDoubleTapGestures = 0x7f04021a;
+        public static final int mapbox_uiLogo = 0x7f04021b;
+        public static final int mapbox_uiLogoGravity = 0x7f04021c;
+        public static final int mapbox_uiLogoMarginBottom = 0x7f04021d;
+        public static final int mapbox_uiLogoMarginLeft = 0x7f04021e;
+        public static final int mapbox_uiLogoMarginRight = 0x7f04021f;
+        public static final int mapbox_uiLogoMarginTop = 0x7f040220;
+        public static final int mapbox_uiRotateGestures = 0x7f040221;
+        public static final int mapbox_uiScrollGestures = 0x7f040222;
+        public static final int mapbox_uiTiltGestures = 0x7f040223;
+        public static final int mapbox_uiZoomControls = 0x7f040224;
+        public static final int mapbox_uiZoomGestures = 0x7f040225;
     }
     public static final class color {
         private color() {}
 
-        public static final int mapbox_blue = 0x7f050067;
-        public static final int mapbox_gray = 0x7f050068;
-        public static final int mapbox_gray_dark = 0x7f050069;
+        public static final int mapbox_blue = 0x7f060092;
+        public static final int mapbox_gray = 0x7f060093;
+        public static final int mapbox_gray_dark = 0x7f060094;
     }
     public static final class dimen {
         private dimen() {}
 
-        public static final int mapbox_eight_dp = 0x7f060077;
-        public static final int mapbox_four_dp = 0x7f060078;
-        public static final int mapbox_infowindow_margin = 0x7f060079;
-        public static final int mapbox_infowindow_tipview_width = 0x7f06007a;
-        public static final int mapbox_my_locationview_outer_circle = 0x7f06007b;
-        public static final int mapbox_ninety_two_dp = 0x7f06007c;
+        public static final int mapbox_eight_dp = 0x7f0700ae;
+        public static final int mapbox_four_dp = 0x7f0700af;
+        public static final int mapbox_infowindow_margin = 0x7f0700b0;
+        public static final int mapbox_infowindow_tipview_width = 0x7f0700b1;
+        public static final int mapbox_my_locationview_outer_circle = 0x7f0700b2;
+        public static final int mapbox_ninety_two_dp = 0x7f0700b3;
     }
     public static final class drawable {
         private drawable() {}
 
-        public static final int mapbox_compass_icon = 0x7f0701d3;
-        public static final int mapbox_info_bg_selector = 0x7f0701d4;
-        public static final int mapbox_info_icon_default = 0x7f0701d5;
-        public static final int mapbox_info_icon_selected = 0x7f0701d6;
-        public static final int mapbox_logo_helmet = 0x7f0701d7;
-        public static final int mapbox_logo_icon = 0x7f0701d8;
-        public static final int mapbox_marker_icon_default = 0x7f0701d9;
-        public static final int mapbox_markerview_icon_default = 0x7f0701da;
-        public static final int mapbox_mylocation_bg_shape = 0x7f0701db;
-        public static final int mapbox_mylocation_icon_bearing = 0x7f0701dc;
-        public static final int mapbox_mylocation_icon_default = 0x7f0701dd;
-        public static final int mapbox_popup_window_transparent = 0x7f0701de;
-        public static final int mapbox_rounded_corner = 0x7f0701df;
+        public static final int mapbox_compass_icon = 0x7f0801f6;
+        public static final int mapbox_info_bg_selector = 0x7f0801f7;
+        public static final int mapbox_info_icon_default = 0x7f0801f8;
+        public static final int mapbox_info_icon_selected = 0x7f0801f9;
+        public static final int mapbox_logo_helmet = 0x7f0801fa;
+        public static final int mapbox_logo_icon = 0x7f0801fb;
+        public static final int mapbox_marker_icon_default = 0x7f0801fc;
+        public static final int mapbox_markerview_icon_default = 0x7f0801fd;
+        public static final int mapbox_mylocation_bg_shape = 0x7f0801fe;
+        public static final int mapbox_mylocation_icon_bearing = 0x7f0801ff;
+        public static final int mapbox_mylocation_icon_default = 0x7f080200;
+        public static final int mapbox_popup_window_transparent = 0x7f080201;
+        public static final int mapbox_rounded_corner = 0x7f080202;
     }
     public static final class id {
         private id() {}
 
-        public static final int attributionView = 0x7f080038;
-        public static final int bottom = 0x7f08004b;
-        public static final int center = 0x7f08007f;
-        public static final int center_horizontal = 0x7f080081;
-        public static final int center_vertical = 0x7f080083;
-        public static final int clip_horizontal = 0x7f080096;
-        public static final int clip_vertical = 0x7f080097;
-        public static final int compassView = 0x7f0800a0;
-        public static final int end = 0x7f0800bd;
-        public static final int fill = 0x7f0800d0;
-        public static final int fill_horizontal = 0x7f0800d1;
-        public static final int fill_vertical = 0x7f0800d2;
-        public static final int image = 0x7f0800fa;
-        public static final int infowindow_description = 0x7f08013f;
-        public static final int infowindow_title = 0x7f080140;
-        public static final int left = 0x7f08015b;
-        public static final int logoView = 0x7f08018a;
-        public static final int markerViewContainer = 0x7f08018e;
-        public static final int right = 0x7f0801cf;
-        public static final int start = 0x7f080228;
-        public static final int top = 0x7f08028b;
-        public static final int userLocationView = 0x7f080297;
+        public static final int attributionView = 0x7f09005d;
+        public static final int bottom = 0x7f090070;
+        public static final int center = 0x7f0900a5;
+        public static final int center_horizontal = 0x7f0900a7;
+        public static final int center_vertical = 0x7f0900a9;
+        public static final int clip_horizontal = 0x7f0900c3;
+        public static final int clip_vertical = 0x7f0900c4;
+        public static final int compassView = 0x7f0900cd;
+        public static final int end = 0x7f0900f6;
+        public static final int fill = 0x7f09010d;
+        public static final int fill_horizontal = 0x7f09010e;
+        public static final int fill_vertical = 0x7f09010f;
+        public static final int image = 0x7f09013d;
+        public static final int infowindow_description = 0x7f090182;
+        public static final int infowindow_title = 0x7f090183;
+        public static final int left = 0x7f0901a0;
+        public static final int logoView = 0x7f0901cf;
+        public static final int markerViewContainer = 0x7f0901d3;
+        public static final int right = 0x7f09023a;
+        public static final int start = 0x7f0902a2;
+        public static final int top = 0x7f090316;
+        public static final int userLocationView = 0x7f09032a;
     }
     public static final class layout {
         private layout() {}
 
-        public static final int mapbox_attribution_list_item = 0x7f0a0038;
-        public static final int mapbox_infowindow_content = 0x7f0a0039;
-        public static final int mapbox_mapview_internal = 0x7f0a003a;
-        public static final int mapbox_view_image_marker = 0x7f0a003b;
+        public static final int mapbox_attribution_list_item = 0x7f0c0048;
+        public static final int mapbox_infowindow_content = 0x7f0c0049;
+        public static final int mapbox_mapview_internal = 0x7f0c004a;
+        public static final int mapbox_view_image_marker = 0x7f0c004b;
     }
     public static final class string {
         private string() {}
 
-        public static final int app_name = 0x7f0e0040;
-        public static final int mapbox_attributionErrorNoBrowser = 0x7f0e0427;
-        public static final int mapbox_attributionTelemetryMessage = 0x7f0e0428;
-        public static final int mapbox_attributionTelemetryNegative = 0x7f0e0429;
-        public static final int mapbox_attributionTelemetryNeutral = 0x7f0e042a;
-        public static final int mapbox_attributionTelemetryPositive = 0x7f0e042b;
-        public static final int mapbox_attributionTelemetryTitle = 0x7f0e042c;
-        public static final int mapbox_attributionsDialogTitle = 0x7f0e042d;
-        public static final int mapbox_attributionsIconContentDescription = 0x7f0e042e;
-        public static final int mapbox_compassContentDescription = 0x7f0e042f;
-        public static final int mapbox_mapActionDescription = 0x7f0e0430;
-        public static final int mapbox_myLocationViewContentDescription = 0x7f0e0431;
-        public static final int mapbox_offline_error_region_definition_invalid = 0x7f0e0432;
-        public static final int mapbox_style_dark = 0x7f0e0433;
-        public static final int mapbox_style_light = 0x7f0e0434;
-        public static final int mapbox_style_mapbox_streets = 0x7f0e0435;
-        public static final int mapbox_style_outdoors = 0x7f0e0436;
-        public static final int mapbox_style_satellite = 0x7f0e0437;
-        public static final int mapbox_style_satellite_streets = 0x7f0e0438;
-        public static final int mapbox_style_traffic_day = 0x7f0e0439;
-        public static final int mapbox_style_traffic_night = 0x7f0e043a;
-        public static final int mapbox_telemetryLink = 0x7f0e043b;
-        public static final int mapbox_telemetrySettings = 0x7f0e043c;
+        public static final int app_name = 0x7f110034;
+        public static final int mapbox_attributionErrorNoBrowser = 0x7f110428;
+        public static final int mapbox_attributionTelemetryMessage = 0x7f110429;
+        public static final int mapbox_attributionTelemetryNegative = 0x7f11042a;
+        public static final int mapbox_attributionTelemetryNeutral = 0x7f11042b;
+        public static final int mapbox_attributionTelemetryPositive = 0x7f11042c;
+        public static final int mapbox_attributionTelemetryTitle = 0x7f11042d;
+        public static final int mapbox_attributionsDialogTitle = 0x7f11042e;
+        public static final int mapbox_attributionsIconContentDescription = 0x7f11042f;
+        public static final int mapbox_compassContentDescription = 0x7f110430;
+        public static final int mapbox_mapActionDescription = 0x7f110431;
+        public static final int mapbox_myLocationViewContentDescription = 0x7f110432;
+        public static final int mapbox_offline_error_region_definition_invalid = 0x7f110433;
+        public static final int mapbox_style_dark = 0x7f110434;
+        public static final int mapbox_style_light = 0x7f110435;
+        public static final int mapbox_style_mapbox_streets = 0x7f110436;
+        public static final int mapbox_style_outdoors = 0x7f110437;
+        public static final int mapbox_style_satellite = 0x7f110438;
+        public static final int mapbox_style_satellite_streets = 0x7f110439;
+        public static final int mapbox_style_traffic_day = 0x7f11043a;
+        public static final int mapbox_style_traffic_night = 0x7f11043b;
+        public static final int mapbox_telemetryLink = 0x7f11043c;
+        public static final int mapbox_telemetrySettings = 0x7f11043d;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] mapbox_BubbleLayout = { 0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f };
+        public static final int[] mapbox_BubbleLayout = { 0x7f0401ea, 0x7f0401eb, 0x7f0401ec, 0x7f0401ed, 0x7f0401ee, 0x7f0401ef, 0x7f0401f0, 0x7f0401f1 };
         public static final int mapbox_BubbleLayout_mapbox_bl_arrowDirection = 0;
         public static final int mapbox_BubbleLayout_mapbox_bl_arrowHeight = 1;
         public static final int mapbox_BubbleLayout_mapbox_bl_arrowPosition = 2;
@@ -181,7 +181,7 @@ public final class R {
         public static final int mapbox_BubbleLayout_mapbox_bl_cornersRadius = 5;
         public static final int mapbox_BubbleLayout_mapbox_bl_strokeColor = 6;
         public static final int mapbox_BubbleLayout_mapbox_bl_strokeWidth = 7;
-        public static final int[] mapbox_MapView = { 0x7f030107, 0x7f030110, 0x7f030111, 0x7f030112, 0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 0x7f030117, 0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 0x7f030138, 0x7f030139, 0x7f03013a, 0x7f03013b, 0x7f03013c, 0x7f03013d, 0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030141, 0x7f030142, 0x7f030143 };
+        public static final int[] mapbox_MapView = { 0x7f0401e9, 0x7f0401f2, 0x7f0401f3, 0x7f0401f4, 0x7f0401f5, 0x7f0401f6, 0x7f0401f7, 0x7f0401f8, 0x7f0401f9, 0x7f0401fa, 0x7f0401fb, 0x7f0401fc, 0x7f0401fd, 0x7f0401fe, 0x7f0401ff, 0x7f040200, 0x7f040201, 0x7f040202, 0x7f040203, 0x7f040204, 0x7f040205, 0x7f040206, 0x7f040207, 0x7f040208, 0x7f040209, 0x7f04020a, 0x7f04020b, 0x7f04020c, 0x7f04020d, 0x7f04020e, 0x7f04020f, 0x7f040210, 0x7f040211, 0x7f040212, 0x7f040213, 0x7f040214, 0x7f040215, 0x7f040216, 0x7f040217, 0x7f040218, 0x7f040219, 0x7f04021a, 0x7f04021b, 0x7f04021c, 0x7f04021d, 0x7f04021e, 0x7f04021f, 0x7f040220, 0x7f040221, 0x7f040222, 0x7f040223, 0x7f040224, 0x7f040225 };
         public static final int mapbox_MapView_mapbox_apiBaseUrl = 0;
         public static final int mapbox_MapView_mapbox_cameraBearing = 1;
         public static final int mapbox_MapView_mapbox_cameraTargetLat = 2;

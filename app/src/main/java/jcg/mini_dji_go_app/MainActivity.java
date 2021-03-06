@@ -24,8 +24,11 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -55,7 +58,7 @@ import dji.thirdparty.afinal.core.AsyncTask;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
-public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
+public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback ,AdapterView.OnItemSelectedListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
@@ -64,6 +67,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
     private ImageView imageView;
+    private int FRAME_COMPRESS_COUNTER = 1;
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -91,7 +95,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private Camera mCamera;
     private DJICodecManager mCodecManager;
     private TextView savePath;
-    private Button screenShot;
+    private Spinner spinner;
     private StringBuilder stringBuilder;
     private int videoViewWidth;
     private int videoViewHeight;
@@ -155,6 +159,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         setContentView(R.layout.activity_main);
         initUi();
+        setBluetooth();
+        setSpinner();
     }
 
     private void showToast(String s) {
@@ -170,12 +176,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     private void initUi() {
-        savePath = (TextView) findViewById(R.id.activity_main_save_path);
-        screenShot = (Button) findViewById(R.id.activity_main_screen_shot);
-        screenShot.setSelected(false);
+        savePath = findViewById(R.id.activity_main_save_path);
 
-        videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
-        videostreamPreviewSf = (SurfaceView) findViewById(R.id.livestream_preview_sf);
+        videostreamPreviewTtView = findViewById(R.id.livestream_preview_ttv);
+        videostreamPreviewSf = findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSf.setClickable(true);
         videostreamPreviewSf.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -564,12 +568,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         });
     }
 
-
-    public void onClick(View v) {
-
-        setBluetooth();
-    }
-
     private void displayPath(String path) {
         if (stringBuilder == null) {
             stringBuilder = new StringBuilder();
@@ -589,6 +587,31 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                                                                                .isLensDistortionCalibrationNeeded();
     }
 
+
+    // ------------------- CODIGO PROVISIONAL ------------------- //
+
+    //SPINNER
+    public void  setSpinner(){
+        spinner = findViewById(R.id.spinner);
+        spinner.setOnItemSelectedListener(this);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.QualityArray, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spinner.setAdapter(adapter);
+    }
+
+    @Override
+    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+
+        FRAME_COMPRESS_COUNTER = position;
+    }
+
+    @Override
+    public void onNothingSelected(AdapterView<?> parent) {
+
+    }
+
+    // ------------------- CODIGO PROVISIONAL ------------------- //
 
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
@@ -627,8 +650,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         sendData.start();
     }
 
-
-
     class SendData extends Thread {
         private BluetoothSocket btSocket = null;
         private OutputStream outStream = null;
@@ -664,6 +685,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         public void run() {
 
+            // ------------------- CODIGO PROVISIONAL ------------------- //
+            int FRAME_COMPRESS_SIZE = B[FRAME_COMPRESS_COUNTER];
+            // ------------------- CODIGO PROVISIONAL ------------------- //
+
             BitmapFactory.Options options = new BitmapFactory.Options();
             options.inSampleSize = FRAME_COMPRESS_SIZE;
 
@@ -687,6 +712,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
 
         private byte[] frameToByteArray(BitmapFactory.Options options){
+
+            // ------------------- CODIGO PROVISIONAL ------------------- //
+            int FRAME_COMPRESS_QUALITY = A[FRAME_COMPRESS_COUNTER];
+            // ------------------- CODIGO PROVISIONAL ------------------- //
 
             Bitmap frame = videostreamPreviewTtView.getBitmap();
             Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);

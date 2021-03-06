@@ -1,563 +1,586 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:2:1-63:12
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:2:1-63:12
-MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\AndroidManifest.xml:2:1-14:12
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:2:1-73:12
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:2:1-63:12
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\58f53ad86e6830d231ae5fd054f4fa0d\AndroidManifest.xml:2:1-14:12
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:2:1-73:12
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\82f49572122412a6ab0df7474310795c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:2:1-34:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:2:1-31:12
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\14394821c13c7b91e40523ae90b63d32\AndroidManifest.xml:2:1-13:12
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\84279f03e9a3d1265ad2ea1fea6489f1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\33c9a7a5de751691c798331d67813eeb\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:17:1-25:12
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ba1bd5f14b92319adc7bd9e7476e4d3f\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\24abb21c8a9c61019a5e4d8ce468f096\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:17:1-32:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\328d421547be636c59e2df8265a3c90e\AndroidManifest.xml:17:1-24:12
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:2:1-34:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:2:1-31:12
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5eb1a36c9c24837536d2115918a689b3\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daf10bfeb6c33bd9c576eba14f425000\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8a88acc34aef774940eb15498e0483f6\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7f9fcdf00a53db57417fb5706de70880\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:17:1-29:12
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e40cee442ec51716a0a66771bc4b0134\AndroidManifest.xml:17:1-24:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c88aa73c63457145ea3a839539aa65b9\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a0134b9331a021c16c57a632bfbf541c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ee18fe5167c9f5dc2467ea794caa123e\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\679fccef47d23a18d2f8c88ca4ffb5b7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a3331db599f146f5492d559be21cfa84\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2c6b23530faff6febf0532fed7b467b7\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c50b0130f20c3da24f6dd9c0a82327f8\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8d670d1e06c4737e04cedf79ead212e1\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e4ec5763df1c9b4db1e5ae3c3f366939\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\09a0454fe1232580fa7dd0f57cdb0c3e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\da8dcaa91630754f1b5ae4bdd3dabbb4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\cb67529ad04381eb78ae2563a40a95a8\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6a7c8a3a62915f713071231740030dc5\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\fb8fef5eb7ad677a85e97c2143529aa7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6734cabf6979818e828bc20ecec18be7\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\72e0490f62255dea2affc64c0d19063d\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8f8b4d814b179250f992d0eeb716bb06\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\77f1d2a7fc8d5fcc26f5a372b29dc4dc\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b084efc6d31447e4854b3da07a394406\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c93bf27cd1fb82b41121eb7df9ee5552\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5db4e400410ce7758a7da80e5c733dc9\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7a611891b65a75a725f87e9b1cabd2b4\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1c85f5fec0eda251891b4f00aa656762\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6c5a472654756d784beb1fba8f63af8e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\994dadbb5d0d48e3816a7b9f556a0019\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\59301ec88daf6ea5846c0e3818c0e1ec\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\12aed3be9a537fcc3ca68a10782a532e\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d302f50803727abe055e596d6aeb12ea\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1bfc4001c17ae486aebeb884b949e07c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:17:1-26:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\9c6cb59c3b6853713a6da3fde6c84947\AndroidManifest.xml:2:1-11:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f121227cf8c3547bd40c4934c9f19a51\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f1f8fd1bc734af86077ba3a84edad1c3\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5e8b1ae044b8d340b5c0b73f432affd\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3e3a6a53bd0769cf17dd3b72e6d25e9a\AndroidManifest.xml:17:1-27:12
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:17:1-30:12
 MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c86b987351a57176afccf15e9e6eb44b\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\071c2da6b53bec41686a1bc78309c223\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\667f6601d067af89f425e0681c584f7b\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5722c2e49060eae5431283ea487282ac\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f10698797b7a319d2028b66d8ef65f00\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b6cc4ea8863790654ce63d116bfe4f10\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d02d94f438f6475f97847453a6ab102f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2559855aa81f07fda9d94a7c385ef8d0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ab8bade48c3fa93ae6e27848ccd25e5c\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e569a14537f957f097bf2ae905d0f53e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\765e8cb73a3ed2fe63c97fecfbb62c8c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\86a05f408e2b3290685e681261acec6b\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\49c4557880a91e0c296a2a01f1021f64\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a83aa572602e25e99e4bdcb4ffc77a91\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\920bc91d77ff9c61ba935d6499e2148c\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:17:1-22:12
-MERGED from [com.dji:utmiss:1.0.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\20bd8d00e9f9de3f85ce6b51da970c5d\AndroidManifest.xml:2:1-11:12
+MERGED from [com.dji:utmiss:1.0.8] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\70ac0dd3c96313514d9c7da199200fed\AndroidManifest.xml:2:1-11:12
 MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2eca88ebdd98811846832cad4512e643\AndroidManifest.xml:2:1-11:12
 MERGED from [com.dji:library-networkrtk-helper:2.0.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5f06e17cfffc7c17836bf1cffcfba6e3\AndroidManifest.xml:2:1-11:12
 MERGED from [com.dji:fly-safe-database:1.0.19] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daa84a7f146e6a8b5c20292c0ea47c80\AndroidManifest.xml:2:1-11:12
-MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\700c7c040fa70e2da9c36ea5a2612944\AndroidManifest.xml:2:1-10:12
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:2:1-63:12
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4b7375d01106658c4cb958d1c99c4759\AndroidManifest.xml:2:1-10:12
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:2:1-63:12
 	package
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:2:11-40
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:2:11-40
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:3:11-69
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:3:11-69
 uses-permission#android.permission.VIBRATE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:5:5-65
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:35:5-66
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:35:5-66
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:5:5-65
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:35:5-66
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:35:5-66
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:5:22-63
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:5:22-63
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:6:5-66
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:21:5-67
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:21:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:24:5-67
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:24:5-67
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:6:5-66
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:21:5-67
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:24:5-67
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:6:22-64
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:7:5-75
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:21:5-76
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:21:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:23:5-76
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:23:5-76
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:7:5-75
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:21:5-76
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:21:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:23:5-76
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:23:5-76
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:7:22-73
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:7:22-73
 uses-permission#android.permission.WAKE_LOCK
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:8:5-67
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:20:5-68
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:20:5-68
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:8:5-67
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:20:5-68
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:20:5-68
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:8:22-65
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:8:22-65
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:9:5-80
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:17:5-81
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:17:5-81
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:9:5-80
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:17:5-81
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:17:5-81
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:9:22-78
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:9:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:10:5-78
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:13:5-79
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:13:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:22:5-79
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:22:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:23:5-79
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:23:5-79
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:10:5-78
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:13:5-79
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:13:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:22:5-79
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:23:5-79
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:10:22-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:11:5-78
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:18:5-79
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:18:5-79
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:11:5-78
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:18:5-79
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:18:5-79
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:11:22-76
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:11:22-76
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:12:5-75
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:39:5-76
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:39:5-76
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:12:5-75
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:39:5-76
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:39:5-76
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:12:22-73
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:12:22-73
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:13:5-83
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:26:5-84
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:26:5-84
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:13:5-83
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:26:5-84
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:26:5-84
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:13:22-81
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:13:22-81
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:14:5-80
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:15:5-81
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:15:5-81
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:14:5-80
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:15:5-81
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:15:5-81
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:14:22-78
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:14:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:15:5-79
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:15:5-79
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:15:22-77
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:15:22-77
 uses-permission#android.permission.SYSTEM_ALERT_WINDOW
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:16:5-77
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:23:5-78
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:23:5-78
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:16:5-77
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:23:5-78
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:23:5-78
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:16:22-75
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:16:22-75
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:17:5-74
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:40:5-75
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:40:5-75
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:17:5-74
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:40:5-75
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:40:5-75
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:17:22-72
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:17:22-72
 uses-permission#android.permission.BLUETOOTH
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:18:5-67
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:11:5-68
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:11:5-68
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:18:5-67
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:11:5-68
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:11:5-68
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:18:22-65
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:18:22-65
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:19:5-74
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:12:5-74
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:12:5-74
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:19:5-74
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:12:5-74
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:12:5-74
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:19:22-71
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:19:22-71
 uses-feature#android.hardware.camera
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:21:5-59
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:21:5-59
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:21:19-57
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:21:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:22:5-69
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:22:5-69
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:22:19-67
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:22:19-67
 uses-feature#android.hardware.usb.host
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:23:5-25:35
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:51:5-53:36
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:51:5-53:36
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:23:5-25:35
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:51:5-53:36
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:51:5-53:36
 	android:required
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:25:9-33
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:25:9-33
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:24:9-49
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:24:9-49
 uses-feature#android.hardware.usb.accessory
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:26:5-28:34
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:54:5-56:35
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:54:5-56:35
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:26:5-28:34
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:54:5-56:35
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:54:5-56:35
 	android:required
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:28:9-32
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:28:9-32
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:27:9-54
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:27:9-54
 application
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:30:5-61:19
-MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\AndroidManifest.xml:11:5-12:19
-MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\AndroidManifest.xml:11:5-12:19
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:58:5-71:19
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:58:5-71:19
-MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:21:5-32:19
-MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:21:5-32:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:25:5-29:19
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:25:5-29:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:22:5-23:19
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ba1bd5f14b92319adc7bd9e7476e4d3f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ba1bd5f14b92319adc7bd9e7476e4d3f\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\24abb21c8a9c61019a5e4d8ce468f096\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\24abb21c8a9c61019a5e4d8ce468f096\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:22:5-27:19
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:30:5-61:19
+MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\58f53ad86e6830d231ae5fd054f4fa0d\AndroidManifest.xml:11:5-12:19
+MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\58f53ad86e6830d231ae5fd054f4fa0d\AndroidManifest.xml:11:5-12:19
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:58:5-71:19
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:58:5-71:19
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\328d421547be636c59e2df8265a3c90e\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\328d421547be636c59e2df8265a3c90e\AndroidManifest.xml:22:5-20
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:21:5-32:19
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:21:5-32:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8a88acc34aef774940eb15498e0483f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8a88acc34aef774940eb15498e0483f6\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7f9fcdf00a53db57417fb5706de70880\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7f9fcdf00a53db57417fb5706de70880\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:22:5-27:19
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e40cee442ec51716a0a66771bc4b0134\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e40cee442ec51716a0a66771bc4b0134\AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c88aa73c63457145ea3a839539aa65b9\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c88aa73c63457145ea3a839539aa65b9\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:22:5-26:19
-MERGED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:22:5-89
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a0134b9331a021c16c57a632bfbf541c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a0134b9331a021c16c57a632bfbf541c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:24:5-89
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\9c6cb59c3b6853713a6da3fde6c84947\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\9c6cb59c3b6853713a6da3fde6c84947\AndroidManifest.xml:9:5-20
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f121227cf8c3547bd40c4934c9f19a51\AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f121227cf8c3547bd40c4934c9f19a51\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3e3a6a53bd0769cf17dd3b72e6d25e9a\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3e3a6a53bd0769cf17dd3b72e6d25e9a\AndroidManifest.xml:24:5-25:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:22:5-28:19
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:22:5-28:19
-MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\700c7c040fa70e2da9c36ea5a2612944\AndroidManifest.xml:8:5-20
-MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\700c7c040fa70e2da9c36ea5a2612944\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4b7375d01106658c4cb958d1c99c4759\AndroidManifest.xml:8:5-20
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4b7375d01106658c4cb958d1c99c4759\AndroidManifest.xml:8:5-20
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:34:9-35
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:34:9-35
 	android:label
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:33:9-41
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:33:9-41
 	android:allowBackup
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:32:9-35
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:32:9-35
 	android:theme
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:35:9-40
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:35:9-40
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:31:9-68
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:31:9-68
 uses-library#org.apache.http.legacy
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:37:9-88
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:37:9-88
 	android:required
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:37:61-85
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:37:61-85
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:37:23-60
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:37:23-60
 meta-data#com.dji.sdk.API_KEY
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:39:9-41:55
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:39:9-41:55
 	android:value
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:41:13-53
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:41:13-53
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:40:13-47
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:40:13-47
 activity#jcg.mini_dji_go_app.ConnectionActivity
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:43:9-55:20
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:43:9-55:20
 	android:screenOrientation
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:46:13-49
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:46:13-49
 	android:launchMode
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:45:13-43
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:45:13-43
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:44:13-66
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:44:13-66
 intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED+action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:47:13-51:29
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:47:13-51:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:48:17-68
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:48:17-68
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:48:25-66
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:48:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:49:17-76
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:49:17-76
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:49:27-74
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:49:27-74
 action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:50:17-92
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:50:17-92
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:50:25-90
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:50:25-90
 meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:52:13-54:59
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:52:13-54:59
 	android:resource
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:54:17-57
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:54:17-57
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:53:17-82
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:53:17-82
 activity#jcg.mini_dji_go_app.MainActivity
-ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:56:9-60:74
+ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:56:9-60:74
 	android:screenOrientation
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:58:13-50
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:58:13-50
 	android:configChanges
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:59:13-59
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:59:13-59
 	android:theme
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:60:13-71
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:60:13-71
 	android:name
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml:57:13-60
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml:57:13-60
 uses-sdk
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\AndroidManifest.xml:7:5-9:41
-MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c0390d65d5a42e78701ae5eae1e5b297\AndroidManifest.xml:7:5-9:41
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:7:5-9:41
-MERGED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:7:5-9:41
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\58f53ad86e6830d231ae5fd054f4fa0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-uxsdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\58f53ad86e6830d231ae5fd054f4fa0d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:7:5-9:41
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\82f49572122412a6ab0df7474310795c\AndroidManifest.xml:20:5-43
 MERGED from [androidx.multidex:multidex:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\82f49572122412a6ab0df7474310795c\AndroidManifest.xml:20:5-43
-MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:5:5-7:41
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:6:5-9:51
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:6:5-9:51
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\14394821c13c7b91e40523ae90b63d32\AndroidManifest.xml:8:5-11:51
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\14394821c13c7b91e40523ae90b63d32\AndroidManifest.xml:8:5-11:51
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\84279f03e9a3d1265ad2ea1fea6489f1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\84279f03e9a3d1265ad2ea1fea6489f1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\33c9a7a5de751691c798331d67813eeb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\33c9a7a5de751691c798331d67813eeb\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ba1bd5f14b92319adc7bd9e7476e4d3f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ba1bd5f14b92319adc7bd9e7476e4d3f\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\24abb21c8a9c61019a5e4d8ce468f096\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\24abb21c8a9c61019a5e4d8ce468f096\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\328d421547be636c59e2df8265a3c90e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.2.0-alpha02] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\328d421547be636c59e2df8265a3c90e\AndroidManifest.xml:20:5-44
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:5:5-7:41
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:6:5-9:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:6:5-9:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5eb1a36c9c24837536d2115918a689b3\AndroidManifest.xml:8:5-11:51
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-telemetry:2.2.10] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5eb1a36c9c24837536d2115918a689b3\AndroidManifest.xml:8:5-11:51
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daf10bfeb6c33bd9c576eba14f425000\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daf10bfeb6c33bd9c576eba14f425000\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8a88acc34aef774940eb15498e0483f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8a88acc34aef774940eb15498e0483f6\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7f9fcdf00a53db57417fb5706de70880\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7f9fcdf00a53db57417fb5706de70880\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e40cee442ec51716a0a66771bc4b0134\AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e40cee442ec51716a0a66771bc4b0134\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c88aa73c63457145ea3a839539aa65b9\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c88aa73c63457145ea3a839539aa65b9\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a0134b9331a021c16c57a632bfbf541c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a0134b9331a021c16c57a632bfbf541c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ee18fe5167c9f5dc2467ea794caa123e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ee18fe5167c9f5dc2467ea794caa123e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\679fccef47d23a18d2f8c88ca4ffb5b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\679fccef47d23a18d2f8c88ca4ffb5b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a3331db599f146f5492d559be21cfa84\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a3331db599f146f5492d559be21cfa84\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2c6b23530faff6febf0532fed7b467b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2c6b23530faff6febf0532fed7b467b7\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c50b0130f20c3da24f6dd9c0a82327f8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c50b0130f20c3da24f6dd9c0a82327f8\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8d670d1e06c4737e04cedf79ead212e1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8d670d1e06c4737e04cedf79ead212e1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e4ec5763df1c9b4db1e5ae3c3f366939\AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e4ec5763df1c9b4db1e5ae3c3f366939\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\09a0454fe1232580fa7dd0f57cdb0c3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\09a0454fe1232580fa7dd0f57cdb0c3e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\da8dcaa91630754f1b5ae4bdd3dabbb4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\da8dcaa91630754f1b5ae4bdd3dabbb4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\cb67529ad04381eb78ae2563a40a95a8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\cb67529ad04381eb78ae2563a40a95a8\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6a7c8a3a62915f713071231740030dc5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6a7c8a3a62915f713071231740030dc5\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\fb8fef5eb7ad677a85e97c2143529aa7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\fb8fef5eb7ad677a85e97c2143529aa7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6734cabf6979818e828bc20ecec18be7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6734cabf6979818e828bc20ecec18be7\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\72e0490f62255dea2affc64c0d19063d\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\72e0490f62255dea2affc64c0d19063d\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8f8b4d814b179250f992d0eeb716bb06\AndroidManifest.xml:20:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\8f8b4d814b179250f992d0eeb716bb06\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\77f1d2a7fc8d5fcc26f5a372b29dc4dc\AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\77f1d2a7fc8d5fcc26f5a372b29dc4dc\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b084efc6d31447e4854b3da07a394406\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b084efc6d31447e4854b3da07a394406\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-extensions:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\87e202307cb8632198bfbe1b4d86ac9d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c93bf27cd1fb82b41121eb7df9ee5552\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c93bf27cd1fb82b41121eb7df9ee5552\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d0cd0f61c7e4d8bdab8b05a21ce83b08\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5db4e400410ce7758a7da80e5c733dc9\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5db4e400410ce7758a7da80e5c733dc9\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7a611891b65a75a725f87e9b1cabd2b4\AndroidManifest.xml:20:5-44
 MERGED from [androidx.customview:customview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7a611891b65a75a725f87e9b1cabd2b4\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1c85f5fec0eda251891b4f00aa656762\AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1c85f5fec0eda251891b4f00aa656762\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6c5a472654756d784beb1fba8f63af8e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6c5a472654756d784beb1fba8f63af8e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\994dadbb5d0d48e3816a7b9f556a0019\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\994dadbb5d0d48e3816a7b9f556a0019\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6716b3fec1a8348f55fa5612ddf453de\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\59301ec88daf6ea5846c0e3818c0e1ec\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\59301ec88daf6ea5846c0e3818c0e1ec\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\12aed3be9a537fcc3ca68a10782a532e\AndroidManifest.xml:20:5-44
 MERGED from [androidx.media:media:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\12aed3be9a537fcc3ca68a10782a532e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd965bd98bbf7be51c42d291f4e950e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d302f50803727abe055e596d6aeb12ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d302f50803727abe055e596d6aeb12ea\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1bfc4001c17ae486aebeb884b949e07c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1bfc4001c17ae486aebeb884b949e07c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a169a0f0c15909d96c30fdfdc533722b\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\9c6cb59c3b6853713a6da3fde6c84947\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\9c6cb59c3b6853713a6da3fde6c84947\AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f121227cf8c3547bd40c4934c9f19a51\AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f121227cf8c3547bd40c4934c9f19a51\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f1f8fd1bc734af86077ba3a84edad1c3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f1f8fd1bc734af86077ba3a84edad1c3\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5e8b1ae044b8d340b5c0b73f432affd\AndroidManifest.xml:20:5-44
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5e8b1ae044b8d340b5c0b73f432affd\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3e3a6a53bd0769cf17dd3b72e6d25e9a\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3e3a6a53bd0769cf17dd3b72e6d25e9a\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c86b987351a57176afccf15e9e6eb44b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-service:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c86b987351a57176afccf15e9e6eb44b\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\071c2da6b53bec41686a1bc78309c223\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\071c2da6b53bec41686a1bc78309c223\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\667f6601d067af89f425e0681c584f7b\AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\667f6601d067af89f425e0681c584f7b\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5722c2e49060eae5431283ea487282ac\AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5722c2e49060eae5431283ea487282ac\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f10698797b7a319d2028b66d8ef65f00\AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\f10698797b7a319d2028b66d8ef65f00\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b6cc4ea8863790654ce63d116bfe4f10\AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b6cc4ea8863790654ce63d116bfe4f10\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d02d94f438f6475f97847453a6ab102f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d02d94f438f6475f97847453a6ab102f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2559855aa81f07fda9d94a7c385ef8d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2559855aa81f07fda9d94a7c385ef8d0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ab8bade48c3fa93ae6e27848ccd25e5c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\ab8bade48c3fa93ae6e27848ccd25e5c\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e569a14537f957f097bf2ae905d0f53e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e569a14537f957f097bf2ae905d0f53e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\765e8cb73a3ed2fe63c97fecfbb62c8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\765e8cb73a3ed2fe63c97fecfbb62c8c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\86a05f408e2b3290685e681261acec6b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\86a05f408e2b3290685e681261acec6b\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\49c4557880a91e0c296a2a01f1021f64\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\49c4557880a91e0c296a2a01f1021f64\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a83aa572602e25e99e4bdcb4ffc77a91\AndroidManifest.xml:20:5-44
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\a83aa572602e25e99e4bdcb4ffc77a91\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\920bc91d77ff9c61ba935d6499e2148c\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\920bc91d77ff9c61ba935d6499e2148c\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\820161924dd3f6bbc3a33f1fb0b37615\AndroidManifest.xml:20:5-44
-MERGED from [com.dji:utmiss:1.0.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\20bd8d00e9f9de3f85ce6b51da970c5d\AndroidManifest.xml:7:5-9:41
-MERGED from [com.dji:utmiss:1.0.3] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\20bd8d00e9f9de3f85ce6b51da970c5d\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:utmiss:1.0.8] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\70ac0dd3c96313514d9c7da199200fed\AndroidManifest.xml:7:5-9:41
+MERGED from [com.dji:utmiss:1.0.8] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\70ac0dd3c96313514d9c7da199200fed\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2eca88ebdd98811846832cad4512e643\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:library-anti-distortion:4.7] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\2eca88ebdd98811846832cad4512e643\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:library-networkrtk-helper:2.0.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5f06e17cfffc7c17836bf1cffcfba6e3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:library-networkrtk-helper:2.0.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\5f06e17cfffc7c17836bf1cffcfba6e3\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:fly-safe-database:1.0.19] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daa84a7f146e6a8b5c20292c0ea47c80\AndroidManifest.xml:7:5-9:41
 MERGED from [com.dji:fly-safe-database:1.0.19] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\daa84a7f146e6a8b5c20292c0ea47c80\AndroidManifest.xml:7:5-9:41
-MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\700c7c040fa70e2da9c36ea5a2612944\AndroidManifest.xml:6:5-43
-MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\700c7c040fa70e2da9c36ea5a2612944\AndroidManifest.xml:6:5-43
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4b7375d01106658c4cb958d1c99c4759\AndroidManifest.xml:6:5-43
+MERGED from [com.jakewharton.timber:timber:4.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4b7375d01106658c4cb958d1c99c4759\AndroidManifest.xml:6:5-43
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:9:9-48
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:9:9-48
 	android:targetSdkVersion
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Joaquin\Desktop\main\develop to main\mini-DJI-Go-App-a8933dcab35bb33b646f71e3d8bd66a70cfcf4ab\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App\app\src\main\AndroidManifest.xml
 uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:14:5-98
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:14:5-98
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:14:22-95
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:14:22-95
 uses-permission#android.permission.WRITE_USER_DICTIONARY
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:16:5-80
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:16:5-80
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:16:22-77
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:16:22-77
 uses-permission#android.permission.CHANGE_CONFIGURATION
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:19:5-79
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:19:5-79
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:19:22-76
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:19:22-76
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:22:5-79
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:22:22-76
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:22:22-76
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:24:5-71
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:24:5-71
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:24:22-68
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:24:22-68
 uses-permission#android.permission.CAMERA
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:25:5-65
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:25:5-65
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:25:22-62
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:25:22-62
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:29:5-81
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:29:5-81
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:29:22-78
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:29:22-78
 uses-permission#android.permission.BROADCAST_STICKY
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:30:5-75
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:30:5-75
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:30:22-72
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:30:22-72
 uses-permission#android.permission.WRITE_SETTINGS
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:31:5-73
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:31:5-73
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:31:22-70
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:31:22-70
 uses-permission#android.permission.RECEIVE_USER_PRESENT
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:32:5-79
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:32:5-79
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:32:22-76
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:32:22-76
 uses-permission#android.permission.KILL_BACKGROUND_PROCESSES
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:33:5-84
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:33:5-84
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:33:22-81
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:33:22-81
 uses-permission#android.permission.READ_LOGS
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:34:5-68
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:34:5-68
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:34:22-65
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:34:22-65
 uses-permission#android.permission.GET_TASKS
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:38:5-68
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:38:5-68
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:38:22-65
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:38:22-65
 uses-permission#android.permission.RAISED_THREAD_PRIORITY
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:41:5-81
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:41:5-81
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:41:22-78
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:41:22-78
 uses-permission#android.permission.INTERACT_ACROSS_USERS_FULL
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:42:5-85
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:42:5-85
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:42:22-82
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:42:22-82
 uses-permission#android.permission.USE_CREDENTIALS
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:48:5-74
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:48:5-74
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:48:22-71
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:48:22-71
 service#dji.sdk.sdkmanager.DJIGlobalService
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:59:9-61:43
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:59:9-61:43
 	android:stopWithTask
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:61:13-40
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:61:13-40
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:60:13-63
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:60:13-63
 receiver#dji.logic.receiver.DJIPilotStartupReceiver
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:63:9-70:20
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:63:9-70:20
 	android:exported
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:65:13-36
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:65:13-36
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:64:13-70
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:64:13-70
 intent-filter#action:name:dji.go3.STARTUP+action:name:dji.go4.STARTUP
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:66:13-69:29
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:66:13-69:29
 action#dji.go3.STARTUP
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:67:17-58
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:67:17-58
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:67:25-55
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:67:25-55
 action#dji.go4.STARTUP
-ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:68:17-58
+ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:68:17-58
 	android:name
-		ADDED from [com.dji:dji-sdk:4.14-trial1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\52b0a296b40fb92fa4d0cd185d89e787\AndroidManifest.xml:68:25-55
+		ADDED from [com.dji:dji-sdk:4.14] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1168a446b52708db8badd019c47db987\AndroidManifest.xml:68:25-55
 uses-feature#android.hardware.sensor.accelerometer
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:9:5-11:36
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:9:5-11:36
 	android:required
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:11:9-33
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:11:9-33
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:10:9-61
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:10:9-61
 uses-feature#android.hardware.location
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:12:5-62
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:12:5-62
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:12:19-59
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:12:19-59
 uses-feature#android.hardware.location.gps
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:13:5-15:36
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:17:5-19:36
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:17:5-19:36
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:13:5-15:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:17:5-19:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:17:5-19:36
 	android:required
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:15:9-33
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:15:9-33
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:14:9-53
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:14:9-53
 uses-feature#android.hardware.telephony
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:16:5-18:36
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:16:5-18:36
 	android:required
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:18:9-33
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:18:9-33
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:17:9-50
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:17:9-50
 uses-feature#android.hardware.wifi
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:19:5-58
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:14:5-16:36
-MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:14:5-16:36
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:19:5-58
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:14:5-16:36
+MERGED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:14:5-16:36
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:19:19-55
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:19:19-55
 service#com.mapzen.android.lost.internal.FusedLocationProviderService
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:22:9-24:39
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:22:9-24:39
 	android:process
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:24:13-36
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:23:13-89
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:23:13-89
 service#com.mapzen.android.lost.internal.GeofencingIntentService
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:25:9-29:19
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:25:9-29:19
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:25:18-89
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:25:18-89
 intent-filter#action:name:com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:26:13-28:29
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:26:13-28:29
 action#com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:27:17-91
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:27:17-91
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:27:25-88
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:27:25-88
 service#com.mapzen.android.lost.internal.DwellIntentService
-ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:30:9-31:19
+ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:30:9-31:19
 	android:name
-		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\e9c3afa63b560f8c0db02f1a0a6b1ad1\AndroidManifest.xml:30:18-84
+		ADDED from [com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\d5b875358020a4a7da1813968a6a9f54\AndroidManifest.xml:30:18-84
 uses-feature#0x00020000
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:11:5-13:35
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:26:5-28:35
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\03160a8ed8603c3d1fe2595bb2f345c1\AndroidManifest.xml:26:5-28:35
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:11:5-13:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\c786d218f9b78bfd26b8962812bb13ec\AndroidManifest.xml:26:5-28:35
 	android:glEsVersion
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:12:9-41
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:12:9-41
 	android:required
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:13:9-32
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:13:9-32
 service#com.mapbox.services.android.telemetry.service.TelemetryService
-ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:28:9-98
+ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:28:9-98
 	android:name
-		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\610c528577ae3d164cc1fdc4c1e1da46\AndroidManifest.xml:28:18-95
+		ADDED from [com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\1ce15a11857370b37111429a1e13cc8c\AndroidManifest.xml:28:18-95
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:23:9-26:75
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:23:9-26:75
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:25:13-37
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:25:13-37
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:26:13-72
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:26:13-72
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\4a46bc990dcb9080e6215765980c25e6\AndroidManifest.xml:24:13-79
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0bd7ec0412a2eaab2f47ea26712196d0\AndroidManifest.xml:24:13-79
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:23:9-25:69
+ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:23:9-25:69
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:25:13-66
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:25:13-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\30b36b216bf5c43e9466499a952aefcb\AndroidManifest.xml:24:13-58
+		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\283fd69bc0cd4b847cd9177448388b02\AndroidManifest.xml:24:13-58
 provider#androidx.lifecycle.ProcessLifecycleOwnerInitializer
 ADDED from [androidx.lifecycle:lifecycle-process:2.0.0-rc01] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\6eaee66d3f0af0708739c35815f61461\AndroidManifest.xml:23:9-27:43
 	android:authorities

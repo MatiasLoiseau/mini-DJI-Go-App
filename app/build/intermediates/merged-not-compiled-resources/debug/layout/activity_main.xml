@@ -37,18 +37,12 @@
         android:gravity="bottom"
         />
 
-
-    <Button
-        android:id="@+id/activity_main_screen_shot"
-        android:layout_width="150dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="569dp"
-        android:layout_marginLeft="260dp"
-        android:layout_marginTop="50dp"
-        android:clickable="true"
-        android:gravity="center"
-        android:onClick="onClick"
-        android:text="Set Bluetooth" />
+    <Spinner
+        android:layout_alignBottom="@id/livestream_preview_sf"
+        android:id="@+id/spinner"
+        android:minHeight="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -102,7 +96,6 @@
                 android:layout_height="18dp"
                 android:layout_marginTop="3dp" />
         </LinearLayout>
-
 
         <LinearLayout
             android:id="@+id/camera"
@@ -180,8 +173,6 @@
 
         </LinearLayout>
 
-
-        <!--Take off and return home buttons on left -->
         <LinearLayout
             android:layout_width="40dp"
             android:layout_height="wrap_content"
@@ -199,6 +190,37 @@
                 android:layout_height="40dp"
                 android:layout_marginTop="12dp" />
         </LinearLayout>
+
+        <dji.ux.widget.controls.CameraControlsWidget
+            android:id="@+id/CameraCapturePanel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/camera"
+            android:layout_alignParentRight="true"
+            tools:ignore="RtlHardcoded" />
+
+        <dji.ux.panel.CameraSettingExposurePanel
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/camera"
+            android:layout_toLeftOf="@+id/CameraCapturePanel"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded" />
+
+        <dji.ux.panel.CameraSettingAdvancedPanel
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/camera"
+            android:layout_toLeftOf="@+id/CameraCapturePanel"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:visibility="invisible"
+            tools:ignore="RtlHardcoded" />
+
+
+        <!--Take off and return home buttons on left -->
 
 
         <!-- Pre-flight checklist panel -->
