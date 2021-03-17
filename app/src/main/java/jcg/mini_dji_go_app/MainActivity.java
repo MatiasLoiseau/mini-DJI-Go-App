@@ -57,6 +57,8 @@ import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
+import static jcg.mini_dji_go_app.BluetoothConstants.A;
+import static jcg.mini_dji_go_app.BluetoothConstants.B;
 
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback ,AdapterView.OnItemSelectedListener {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -66,7 +68,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
-    private ImageView imageView;
     private int FRAME_COMPRESS_COUNTER = 1;
 
 
@@ -181,18 +182,15 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         videostreamPreviewTtView = findViewById(R.id.livestream_preview_ttv);
         videostreamPreviewSf = findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSf.setClickable(true);
-        videostreamPreviewSf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                float rate = VideoFeeder.getInstance().getTranscodingDataRate();
-                showToast("current rate:" + rate + "Mbps");
-                if (rate < 10) {
-                    VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
-                    showToast("set rate to 10Mbps");
-                } else {
-                    VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
-                    showToast("set rate to 3Mbps");
-                }
+        videostreamPreviewSf.setOnClickListener(v -> {
+            float rate = VideoFeeder.getInstance().getTranscodingDataRate();
+            showToast("current rate:" + rate + "Mbps");
+            if (rate < 10) {
+                VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
+                showToast("set rate to 10Mbps");
+            } else {
+                VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
+                showToast("set rate to 3Mbps");
             }
         });
         updateUIVisibility();
@@ -269,12 +267,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         } else {
             if (!product.getModel().equals(Model.UNKNOWN_AIRCRAFT)) {
                 mCamera = product.getCamera();
-                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, new CommonCallbacks.CompletionCallback() {
-                    @Override
-                    public void onResult(DJIError djiError) {
-                        if (djiError != null) {
-                            showToast("can't change mode of camera, error:"+djiError.getDescription());
-                        }
+                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, djiError -> {
+                    if (djiError != null) {
+                        showToast("can't change mode of camera, error:"+djiError.getDescription());
                     }
                 });
 
@@ -560,12 +555,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Log.e(TAG, "test screenShot: compress yuv image error: " + e);
             e.printStackTrace();
         }
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                displayPath(path);
-            }
-        });
+        runOnUiThread(() -> displayPath(path));
     }
 
     private void displayPath(String path) {
@@ -612,7 +602,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     // ------------------- CODIGO PROVISIONAL ------------------- //
-
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
 

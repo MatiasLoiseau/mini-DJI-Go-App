@@ -5251,10 +5251,8 @@ jcg.mini_dji_go_app.ConnectionActivity:
 jcg.mini_dji_go_app.MainActivity:
     private static final int MSG_WHAT_SHOW_TOAST
     private static final int MSG_WHAT_UPDATE_TITLE
-    private android.widget.ImageView imageView
 jcg.mini_dji_go_app.R
 jcg.mini_dji_go_app.R$anim
-jcg.mini_dji_go_app.R$animator
 jcg.mini_dji_go_app.R$array
 jcg.mini_dji_go_app.R$attr
 jcg.mini_dji_go_app.R$bool
@@ -5267,7 +5265,6 @@ jcg.mini_dji_go_app.R$interpolator
 jcg.mini_dji_go_app.R$layout
 jcg.mini_dji_go_app.R$menu
 jcg.mini_dji_go_app.R$mipmap
-jcg.mini_dji_go_app.R$plurals
 jcg.mini_dji_go_app.R$raw
 jcg.mini_dji_go_app.R$string
 jcg.mini_dji_go_app.R$style

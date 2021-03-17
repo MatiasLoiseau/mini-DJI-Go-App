@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="jcg.mini_dji_go_app.MainActivity">
+
+<TextureView
+    android:id="@+id/livestream_preview_ttv"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:alpha="50"
+    android:visibility="visible"/>
+
+<SurfaceView
+    android:id="@+id/livestream_preview_sf"
+    android:layout_width="360dp"
+    android:layout_height="180dp"
+    android:layout_centerInParent="true"
+    android:layout_gravity="center"
+    android:visibility="gone"/>
+
+<TextView
+    android:id="@+id/activity_main_save_path"
+    android:layout_width="400dp"
+    android:layout_height="match_parent"
+    android:padding="5dp"
+    android:background="@color/title_dark"
+    android:layout_alignParentRight="true"
+    android:textColor="@color/colorWhite"
+    android:visibility="invisible"
+    android:scrollbars="vertical"
+    android:gravity="bottom"
+    />
+
+</RelativeLayout>
