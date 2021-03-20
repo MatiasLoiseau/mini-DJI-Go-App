@@ -5262,6 +5262,7 @@ jcg.mini_dji_go_app.R$dimen
 jcg.mini_dji_go_app.R$drawable
 jcg.mini_dji_go_app.R$id
 jcg.mini_dji_go_app.R$integer
+jcg.mini_dji_go_app.R$interpolator
 jcg.mini_dji_go_app.R$layout
 jcg.mini_dji_go_app.R$menu
 jcg.mini_dji_go_app.R$mipmap
