@@ -42,9 +42,8 @@
         android:id="@+id/activity_main_screen_shot"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="569dp"
-        android:layout_marginLeft="260dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginStart="540dp"
+        android:layout_marginTop="300dp"
         android:clickable="true"
         android:onClick="onClick"
         android:text="Set Bluetooth" />
