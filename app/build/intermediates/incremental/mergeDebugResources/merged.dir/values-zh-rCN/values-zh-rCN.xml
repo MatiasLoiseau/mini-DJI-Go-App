@@ -2,33 +2,33 @@
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
     <dimen name="offline_map_header_bar_title_size">14sp</dimen>
     <dimen name="offline_map_manager_title_size">12sp</dimen>
-    <string msgid="5976598919945601918" name="abc_action_bar_home_description">"转到首页"</string>
-    <string msgid="8388173803310557296" name="abc_action_bar_up_description">"转到上一层级"</string>
-    <string msgid="3937310113216875497" name="abc_action_menu_overflow_description">"更多选项"</string>
-    <string msgid="4692188335987374352" name="abc_action_mode_done">"完成"</string>
-    <string msgid="1189761859438369441" name="abc_activity_chooser_view_see_all">"查看全部"</string>
-    <string msgid="2165779757652331008" name="abc_activitychooserview_choose_application">"选择应用"</string>
-    <string msgid="4215997306490295099" name="abc_capital_off">"关闭"</string>
-    <string msgid="884982626291842264" name="abc_capital_on">"开启"</string>
-    <string msgid="8833365367933412986" name="abc_menu_alt_shortcut_label">"Alt+"</string>
-    <string msgid="2223301931652355242" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
-    <string msgid="838001238306846836" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
-    <string msgid="7986526966204849475" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
-    <string msgid="375214403600139847" name="abc_menu_function_shortcut_label">"Fn+"</string>
-    <string msgid="4192209724446364286" name="abc_menu_meta_shortcut_label">"Meta+"</string>
-    <string msgid="4741552369836443843" name="abc_menu_shift_shortcut_label">"Shift+"</string>
-    <string msgid="5473865519181928982" name="abc_menu_space_shortcut_label">"空格键"</string>
-    <string msgid="6180552449598693998" name="abc_menu_sym_shortcut_label">"Sym+"</string>
-    <string msgid="5520303668377388990" name="abc_prepend_shortcut_label">"Menu+"</string>
-    <string msgid="7208076849092622260" name="abc_search_hint">"搜索…"</string>
-    <string msgid="3741173234950517107" name="abc_searchview_description_clear">"清除查询"</string>
-    <string msgid="693312494995508443" name="abc_searchview_description_query">"搜索查询"</string>
-    <string msgid="3417662926640357176" name="abc_searchview_description_search">"搜索"</string>
-    <string msgid="1486535517437947103" name="abc_searchview_description_submit">"提交查询"</string>
-    <string msgid="2293578557972875415" name="abc_searchview_description_voice">"语音搜索"</string>
-    <string msgid="8875138169939072951" name="abc_shareactionprovider_share_with">"分享对象"</string>
-    <string msgid="9055268688411532828" name="abc_shareactionprovider_share_with_application">"与<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
-    <string msgid="1656852541809559762" name="abc_toolbar_collapse_description">"收起"</string>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"转到主屏幕"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"转到上一层级"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"更多选项"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"完成"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"查看全部"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"选择应用"</string>
+    <string msgid="121134116657445385" name="abc_capital_off">"关闭"</string>
+    <string msgid="3405795526292276155" name="abc_capital_on">"开启"</string>
+    <string msgid="1302280443949172191" name="abc_menu_alt_shortcut_label">"Alt+"</string>
+    <string msgid="1324831542140195728" name="abc_menu_ctrl_shortcut_label">"Ctrl+"</string>
+    <string msgid="8362206064229013510" name="abc_menu_delete_shortcut_label">"Delete 键"</string>
+    <string msgid="8341180395196749340" name="abc_menu_enter_shortcut_label">"Enter 键"</string>
+    <string msgid="4792426091847145555" name="abc_menu_function_shortcut_label">"Fn+"</string>
+    <string msgid="7643535737296831317" name="abc_menu_meta_shortcut_label">"Meta+"</string>
+    <string msgid="8126296154200614004" name="abc_menu_shift_shortcut_label">"Shift+"</string>
+    <string msgid="2378550843553983978" name="abc_menu_space_shortcut_label">"空格键"</string>
+    <string msgid="9002602288060866689" name="abc_menu_sym_shortcut_label">"Sym+"</string>
+    <string msgid="1351762916121158029" name="abc_prepend_shortcut_label">"Menu+"</string>
+    <string msgid="7723749260725869598" name="abc_search_hint">"搜索…"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"清除查询"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"搜索查询"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"搜索"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"提交查询"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"语音搜索"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"分享方式"</string>
+    <string msgid="3300176832234831527" name="abc_shareactionprovider_share_with_application">"使用<ns1:g id="APPLICATION_NAME">%s</ns1:g>分享"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"收起"</string>
     <string name="aircraft_battery">飞行器电量</string>
     <string name="aircraft_battery_temperature">飞行器电池温度</string>
     <string name="aircraft_status">飞行器状态列表</string>
@@ -545,7 +545,7 @@
     <string name="dji_check_rtk_result_exceeds_limitation">RTK定位数据异常</string>
     <string name="dji_check_rtk_single_position_different_with_fix_position">RTK单点位置与固定解位置不一致</string>
     <string name="dji_check_rtk_solution_fly_with_cautious">谨慎飞行</string>
-    <string name="dji_check_rtk_solution_restart">请检查飞行器和基站状态</string>
+    <string name="dji_check_rtk_solution_restart">请检查基站状态或重启飞行器</string>
     <string name="dji_check_rtk_speed_and_position_not_matched">RTK位置与速度不匹配</string>
     <string name="dji_check_rtk_speed_change_rapidly">RTK速度数据存在急剧变化</string>
     <string name="dji_check_rtk_speed_changed_slowly_when_still">飞行器静止时RTK速度数据缓变</string>
@@ -598,7 +598,7 @@
     <string name="flight_frb_new_enhance_warning">飞行器在加强警告区（%s）内，请注意飞行安全。\n确认继续飞行请勾选：</string>
     <string name="flight_frb_new_in_auth_no_license">你在授权区内，解锁前无法起飞。\n授权区为：%s\n是否需要解锁此区域？</string>
     <string name="flight_frb_new_in_auth_with_license">飞行器在授权区内，你已获得飞行证书。\n授权区为：%s\n确认开启请勾选：</string>
-    <string name="flight_frb_new_limit_height_lose_gps">丢星，限高%d米。</string>
+    <string name="flight_frb_new_limit_height_lose_gps">GPS信号丢失，限高%d米。</string>
     <string name="flight_frb_new_seem_in_auth_no_license">移动设备在授权区内，且飞行器GPS信号不佳，解锁前无法起飞。\n授权区为：%s\n是否需要解锁此区域？</string>
     <string name="flight_frb_new_touch_to_open_license">飞行器已触碰到授权区，你已获得飞行证书。\n授权区为：%s\n确认开启请勾选：</string>
     <string name="flight_mode">飞行模式</string>
@@ -665,14 +665,14 @@
     <string name="fpv_tip_cant_takeoff">无法起飞</string>
     <string name="fpv_tip_cant_takeoff_locked">设备已锁定</string>
     <string name="fpv_tip_cant_takeoff_novice">无法起飞（无GPS）</string>
-    <string name="fpv_tip_check_gimbal_vibration_detail">云台异常震动</string>
+    <string name="fpv_tip_check_gimbal_vibration_detail">云台异常振动</string>
     <string name="fpv_tip_chlstatus_poor">信号干扰较强</string>
     <string name="fpv_tip_compass_error">指南针异常，请移动飞机或校准指南针</string>
     <string name="fpv_tip_disconnect">设备未连接</string>
     <string name="fpv_tip_down_vision_cali">下视传感器标定参数异常</string>
     <string name="fpv_tip_esc_error">电调异常</string>
     <string name="fpv_tip_esc_error_sky">电调异常，请立即返航检查</string>
-    <string name="fpv_tip_failsafe">遥控器信号丢失</string>
+    <string name="fpv_tip_failsafe">无遥控器控制信号</string>
     <string name="fpv_tip_failsafe_gohome">失控返航中</string>
     <string name="fpv_tip_failsafe_wifi_no_rc">遥控信号丢失</string>
     <string name="fpv_tip_firmware_no_match">固件需要升级</string>
@@ -1116,13 +1116,13 @@
     <string name="remote_controller_mode">摇杆模式</string>
     <string name="scan_qr_bar_tip">将二维码放入框内，即可自动扫描</string>
     <string name="sd_card_capacity">SD卡剩余容量</string>
-    <string msgid="6264217191555673260" name="search_menu_title">"搜索"</string>
+    <string msgid="146198913615257606" name="search_menu_title">"搜索"</string>
     <string name="sensor_system_tip_ultrasonic_data_error_stuck">下视或超声波传感器异常，请降落后检查传感器是否被遮挡</string>
     <string name="setting_ui_flyfrb_unlock_refresh_empty">解禁列表为空</string>
     <string name="setting_ui_flyfrb_unlock_refresh_fail">解禁列表刷新失败，请重试。</string>
     <string name="setting_ui_flyfrb_unlock_refresh_success">解禁列表刷新成功</string>
     <string name="solution_insert_second_sdcard">录制RAW格式，请插入第二张SD卡</string>
-    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string msgid="7988687684186075107" name="status_bar_notification_info_overflow">"999+"</string>
     <string name="string_default_value">N/A</string>
     <string name="thermal_Camera_temp_alert_tips">提示：区域测温时，高温警报才生效</string>
     <string name="thermal_camera_atmosphere_temperature">大气温度</string>

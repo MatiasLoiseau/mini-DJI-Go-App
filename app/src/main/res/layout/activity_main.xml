@@ -42,9 +42,11 @@
         android:id="@+id/activity_main_screen_shot"
         android:layout_width="150dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="540dp"
-        android:layout_marginTop="300dp"
+        android:layout_marginStart="569dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="50dp"
         android:clickable="true"
+        android:gravity="center"
         android:onClick="onClick"
         android:text="Set Bluetooth" />
 
@@ -101,6 +103,7 @@
                 android:layout_marginTop="3dp" />
         </LinearLayout>
 
+
         <LinearLayout
             android:id="@+id/camera"
             android:layout_width="wrap_content"
@@ -148,13 +151,11 @@
         </LinearLayout>
 
         <dji.ux.widget.ManualFocusWidget
-            android:layout_below="@id/camera"
-            android:layout_alignLeft="@id/camera"
-            android:layout_marginLeft="25dp"
-            android:layout_marginTop="5dp"
             android:layout_width="42dp"
             android:layout_height="218dp"
-            tools:ignore="RtlHardcoded"/>
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="5dp"
+            tools:ignore="RtlHardcoded" />
 
         <dji.ux.widget.RemainingFlightTimeWidget
             android:layout_width="match_parent"
@@ -202,41 +203,11 @@
 
         <!-- Pre-flight checklist panel -->
 
-        <dji.ux.widget.controls.CameraControlsWidget
-            android:id="@+id/CameraCapturePanel"
-            android:layout_alignParentRight="true"
-            android:layout_below="@id/camera"
-            android:layout_width="50dp"
-            android:layout_height="213dp"
-            tools:ignore="RtlHardcoded"/>
-
-        <dji.ux.panel.CameraSettingExposurePanel
-            android:layout_width="180dp"
-            android:layout_below="@id/camera"
-            android:layout_toLeftOf="@+id/CameraCapturePanel"
-            android:background="@color/transparent"
-            android:gravity="center"
-            android:layout_height="263dp"
-            android:visibility="invisible"
-            tools:ignore="RtlHardcoded"/>
-
-        <dji.ux.panel.CameraSettingAdvancedPanel
-            android:layout_width="180dp"
-            android:layout_height="263dp"
-            android:layout_below="@id/camera"
-            android:layout_toLeftOf="@+id/CameraCapturePanel"
-            android:background="@color/transparent"
-            android:gravity="center"
-            android:visibility="invisible"
-            tools:ignore="RtlHardcoded"/>
-
-        <!-- Pre-flight checklist panel -->
         <dji.ux.panel.PreFlightCheckListPanel
             android:layout_width="400dp"
             android:layout_height="wrap_content"
-            android:layout_below="@id/signal"
-            custom:excludeItem="ESCStatus"
-            android:visibility="gone"/>
+            android:visibility="gone"
+            custom:excludeItem="ESCStatus" />
 
     </RelativeLayout>
 
