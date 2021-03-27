@@ -1627,6 +1627,7 @@ drawable wm240_hasselblad_btn_cam_capture_touched
 id ALT
 id AMap
 id CTRL
+id CameraCapturePanel
 id Compass
 id ESCStatus
 id FUNCTION
