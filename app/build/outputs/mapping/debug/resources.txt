@@ -6563,12 +6563,12 @@ Referenced Strings:
   请求参数获取出现异常
   重要参数为空
   非法坐标值
-Marking id:top:2131231372 used because its prefix matches string pool constant top
-Marking id:topPanel:2131231373 used because its prefix matches string pool constant top
-Marking id:top_line_camera_panel:2131231374 used because its prefix matches string pool constant top
+Marking id:top:2131231373 used because its prefix matches string pool constant top
+Marking id:topPanel:2131231374 used because its prefix matches string pool constant top
+Marking id:top_line_camera_panel:2131231375 used because its prefix matches string pool constant top
 Marking drawable:anim_grid_thumb:2131165274 used because its prefix matches string pool constant anim
-Marking id:start:2131231273 used because its prefix matches string pool constant start
-Marking id:start_broadcast_button:2131231274 used because its prefix matches string pool constant start
+Marking id:start:2131231274 used because its prefix matches string pool constant start
+Marking id:start_broadcast_button:2131231275 used because its prefix matches string pool constant start
 Marking drawable:disconnected:2131165372 used because its prefix matches string pool constant disconnected
 Marking drawable:disconnected_status:2131165373 used because its prefix matches string pool constant disconnected
 Marking id:right:2131231184 used because its prefix matches string pool constant right
@@ -6598,88 +6598,88 @@ Marking dimen:text_size_normal:2131099816 used because its prefix matches string
 Marking dimen:text_size_normal_medium:2131099817 used because its prefix matches string pool constant text
 Marking dimen:text_size_small:2131099818 used because its prefix matches string pool constant text
 Marking dimen:text_size_tiny:2131099819 used because its prefix matches string pool constant text
-Marking id:text:2131231289 used because its prefix matches string pool constant text
-Marking id:text2:2131231290 used because its prefix matches string pool constant text
-Marking id:textSpacerNoButtons:2131231291 used because its prefix matches string pool constant text
-Marking id:textSpacerNoTitle:2131231292 used because its prefix matches string pool constant text
-Marking id:textView:2131231293 used because its prefix matches string pool constant text
-Marking id:textView2:2131231294 used because its prefix matches string pool constant text
-Marking id:text_connection_status:2131231295 used because its prefix matches string pool constant text
-Marking id:text_custom_unlock_enabled_zone:2131231296 used because its prefix matches string pool constant text
-Marking id:text_legend_authorized_zone:2131231297 used because its prefix matches string pool constant text
-Marking id:text_legend_custom_unlock_aircraft_zone:2131231298 used because its prefix matches string pool constant text
-Marking id:text_legend_custom_unlock_zone:2131231299 used because its prefix matches string pool constant text
-Marking id:text_legend_enhanced_warning_zone:2131231300 used because its prefix matches string pool constant text
-Marking id:text_legend_restricted_zone:2131231301 used because its prefix matches string pool constant text
-Marking id:text_legend_self_unlock_zone:2131231302 used because its prefix matches string pool constant text
-Marking id:text_legend_warning_zone:2131231303 used because its prefix matches string pool constant text
-Marking id:text_model_available:2131231304 used because its prefix matches string pool constant text
-Marking id:text_product_info:2131231305 used because its prefix matches string pool constant text
-Marking id:text_view_speaker_title:2131231306 used because its prefix matches string pool constant text
-Marking id:text_view_speaker_volume:2131231307 used because its prefix matches string pool constant text
-Marking id:textview_ace_title:2131231308 used because its prefix matches string pool constant text
-Marking id:textview_ace_value:2131231309 used because its prefix matches string pool constant text
-Marking id:textview_aperture_title:2131231310 used because its prefix matches string pool constant text
-Marking id:textview_battery1_value:2131231311 used because its prefix matches string pool constant text
-Marking id:textview_battery1_voltage:2131231312 used because its prefix matches string pool constant text
-Marking id:textview_battery2_value:2131231313 used because its prefix matches string pool constant text
-Marking id:textview_battery2_voltage:2131231314 used because its prefix matches string pool constant text
-Marking id:textview_battery_value:2131231315 used because its prefix matches string pool constant text
-Marking id:textview_battery_voltage:2131231316 used because its prefix matches string pool constant text
-Marking id:textview_brightness_title:2131231317 used because its prefix matches string pool constant text
-Marking id:textview_brightness_value:2131231318 used because its prefix matches string pool constant text
-Marking id:textview_button_cancel:2131231319 used because its prefix matches string pool constant text
-Marking id:textview_button_negative:2131231320 used because its prefix matches string pool constant text
-Marking id:textview_button_ok:2131231321 used because its prefix matches string pool constant text
-Marking id:textview_button_positive:2131231322 used because its prefix matches string pool constant text
-Marking id:textview_camera_control_af:2131231323 used because its prefix matches string pool constant text
-Marking id:textview_camera_control_mf:2131231324 used because its prefix matches string pool constant text
-Marking id:textview_camera_control_separator:2131231325 used because its prefix matches string pool constant text
-Marking id:textview_camera_controll_videotime:2131231326 used because its prefix matches string pool constant text
-Marking id:textview_camera_mode_a:2131231327 used because its prefix matches string pool constant text
-Marking id:textview_camera_mode_m:2131231328 used because its prefix matches string pool constant text
-Marking id:textview_camera_mode_p:2131231329 used because its prefix matches string pool constant text
-Marking id:textview_camera_mode_s:2131231330 used because its prefix matches string pool constant text
-Marking id:textview_contrast_title:2131231331 used because its prefix matches string pool constant text
-Marking id:textview_contrast_value:2131231332 used because its prefix matches string pool constant text
-Marking id:textview_dde_title:2131231333 used because its prefix matches string pool constant text
-Marking id:textview_dde_value:2131231334 used because its prefix matches string pool constant text
-Marking id:textview_dlg_desc:2131231335 used because its prefix matches string pool constant text
-Marking id:textview_dlg_little_title:2131231336 used because its prefix matches string pool constant text
-Marking id:textview_dlg_title:2131231337 used because its prefix matches string pool constant text
-Marking id:textview_ev_title:2131231338 used because its prefix matches string pool constant text
-Marking id:textview_flight_mode_string:2131231339 used because its prefix matches string pool constant text
-Marking id:textview_gps_type:2131231340 used because its prefix matches string pool constant text
-Marking id:textview_iso_title:2131231341 used because its prefix matches string pool constant text
-Marking id:textview_lock_title:2131231342 used because its prefix matches string pool constant text
-Marking id:textview_max_value:2131231343 used because its prefix matches string pool constant text
-Marking id:textview_metrics_title:2131231344 used because its prefix matches string pool constant text
-Marking id:textview_metrics_unit:2131231345 used because its prefix matches string pool constant text
-Marking id:textview_metrics_value:2131231346 used because its prefix matches string pool constant text
-Marking id:textview_min_value:2131231347 used because its prefix matches string pool constant text
-Marking id:textview_preflight_status:2131231348 used because its prefix matches string pool constant text
-Marking id:textview_rc_type:2131231349 used because its prefix matches string pool constant text
-Marking id:textview_satellite_number:2131231350 used because its prefix matches string pool constant text
-Marking id:textview_setting_ev_status_value:2131231351 used because its prefix matches string pool constant text
-Marking id:textview_setting_ev_value:2131231352 used because its prefix matches string pool constant text
-Marking id:textview_shutter_title:2131231353 used because its prefix matches string pool constant text
-Marking id:textview_slidertitle:2131231354 used because its prefix matches string pool constant text
-Marking id:textview_sso_title:2131231355 used because its prefix matches string pool constant text
-Marking id:textview_sso_value:2131231356 used because its prefix matches string pool constant text
-Marking id:textview_title:2131231357 used because its prefix matches string pool constant text
-Marking id:textview_value:2131231358 used because its prefix matches string pool constant text
-Marking id:textview_value_unit:2131231359 used because its prefix matches string pool constant text
-Marking id:textview_wind_x:2131231360 used because its prefix matches string pool constant text
-Marking id:textview_wind_y:2131231361 used because its prefix matches string pool constant text
-Marking id:textview_wind_z:2131231362 used because its prefix matches string pool constant text
+Marking id:text:2131231290 used because its prefix matches string pool constant text
+Marking id:text2:2131231291 used because its prefix matches string pool constant text
+Marking id:textSpacerNoButtons:2131231292 used because its prefix matches string pool constant text
+Marking id:textSpacerNoTitle:2131231293 used because its prefix matches string pool constant text
+Marking id:textView:2131231294 used because its prefix matches string pool constant text
+Marking id:textView2:2131231295 used because its prefix matches string pool constant text
+Marking id:text_connection_status:2131231296 used because its prefix matches string pool constant text
+Marking id:text_custom_unlock_enabled_zone:2131231297 used because its prefix matches string pool constant text
+Marking id:text_legend_authorized_zone:2131231298 used because its prefix matches string pool constant text
+Marking id:text_legend_custom_unlock_aircraft_zone:2131231299 used because its prefix matches string pool constant text
+Marking id:text_legend_custom_unlock_zone:2131231300 used because its prefix matches string pool constant text
+Marking id:text_legend_enhanced_warning_zone:2131231301 used because its prefix matches string pool constant text
+Marking id:text_legend_restricted_zone:2131231302 used because its prefix matches string pool constant text
+Marking id:text_legend_self_unlock_zone:2131231303 used because its prefix matches string pool constant text
+Marking id:text_legend_warning_zone:2131231304 used because its prefix matches string pool constant text
+Marking id:text_model_available:2131231305 used because its prefix matches string pool constant text
+Marking id:text_product_info:2131231306 used because its prefix matches string pool constant text
+Marking id:text_view_speaker_title:2131231307 used because its prefix matches string pool constant text
+Marking id:text_view_speaker_volume:2131231308 used because its prefix matches string pool constant text
+Marking id:textview_ace_title:2131231309 used because its prefix matches string pool constant text
+Marking id:textview_ace_value:2131231310 used because its prefix matches string pool constant text
+Marking id:textview_aperture_title:2131231311 used because its prefix matches string pool constant text
+Marking id:textview_battery1_value:2131231312 used because its prefix matches string pool constant text
+Marking id:textview_battery1_voltage:2131231313 used because its prefix matches string pool constant text
+Marking id:textview_battery2_value:2131231314 used because its prefix matches string pool constant text
+Marking id:textview_battery2_voltage:2131231315 used because its prefix matches string pool constant text
+Marking id:textview_battery_value:2131231316 used because its prefix matches string pool constant text
+Marking id:textview_battery_voltage:2131231317 used because its prefix matches string pool constant text
+Marking id:textview_brightness_title:2131231318 used because its prefix matches string pool constant text
+Marking id:textview_brightness_value:2131231319 used because its prefix matches string pool constant text
+Marking id:textview_button_cancel:2131231320 used because its prefix matches string pool constant text
+Marking id:textview_button_negative:2131231321 used because its prefix matches string pool constant text
+Marking id:textview_button_ok:2131231322 used because its prefix matches string pool constant text
+Marking id:textview_button_positive:2131231323 used because its prefix matches string pool constant text
+Marking id:textview_camera_control_af:2131231324 used because its prefix matches string pool constant text
+Marking id:textview_camera_control_mf:2131231325 used because its prefix matches string pool constant text
+Marking id:textview_camera_control_separator:2131231326 used because its prefix matches string pool constant text
+Marking id:textview_camera_controll_videotime:2131231327 used because its prefix matches string pool constant text
+Marking id:textview_camera_mode_a:2131231328 used because its prefix matches string pool constant text
+Marking id:textview_camera_mode_m:2131231329 used because its prefix matches string pool constant text
+Marking id:textview_camera_mode_p:2131231330 used because its prefix matches string pool constant text
+Marking id:textview_camera_mode_s:2131231331 used because its prefix matches string pool constant text
+Marking id:textview_contrast_title:2131231332 used because its prefix matches string pool constant text
+Marking id:textview_contrast_value:2131231333 used because its prefix matches string pool constant text
+Marking id:textview_dde_title:2131231334 used because its prefix matches string pool constant text
+Marking id:textview_dde_value:2131231335 used because its prefix matches string pool constant text
+Marking id:textview_dlg_desc:2131231336 used because its prefix matches string pool constant text
+Marking id:textview_dlg_little_title:2131231337 used because its prefix matches string pool constant text
+Marking id:textview_dlg_title:2131231338 used because its prefix matches string pool constant text
+Marking id:textview_ev_title:2131231339 used because its prefix matches string pool constant text
+Marking id:textview_flight_mode_string:2131231340 used because its prefix matches string pool constant text
+Marking id:textview_gps_type:2131231341 used because its prefix matches string pool constant text
+Marking id:textview_iso_title:2131231342 used because its prefix matches string pool constant text
+Marking id:textview_lock_title:2131231343 used because its prefix matches string pool constant text
+Marking id:textview_max_value:2131231344 used because its prefix matches string pool constant text
+Marking id:textview_metrics_title:2131231345 used because its prefix matches string pool constant text
+Marking id:textview_metrics_unit:2131231346 used because its prefix matches string pool constant text
+Marking id:textview_metrics_value:2131231347 used because its prefix matches string pool constant text
+Marking id:textview_min_value:2131231348 used because its prefix matches string pool constant text
+Marking id:textview_preflight_status:2131231349 used because its prefix matches string pool constant text
+Marking id:textview_rc_type:2131231350 used because its prefix matches string pool constant text
+Marking id:textview_satellite_number:2131231351 used because its prefix matches string pool constant text
+Marking id:textview_setting_ev_status_value:2131231352 used because its prefix matches string pool constant text
+Marking id:textview_setting_ev_value:2131231353 used because its prefix matches string pool constant text
+Marking id:textview_shutter_title:2131231354 used because its prefix matches string pool constant text
+Marking id:textview_slidertitle:2131231355 used because its prefix matches string pool constant text
+Marking id:textview_sso_title:2131231356 used because its prefix matches string pool constant text
+Marking id:textview_sso_value:2131231357 used because its prefix matches string pool constant text
+Marking id:textview_title:2131231358 used because its prefix matches string pool constant text
+Marking id:textview_value:2131231359 used because its prefix matches string pool constant text
+Marking id:textview_value_unit:2131231360 used because its prefix matches string pool constant text
+Marking id:textview_wind_x:2131231361 used because its prefix matches string pool constant text
+Marking id:textview_wind_y:2131231362 used because its prefix matches string pool constant text
+Marking id:textview_wind_z:2131231363 used because its prefix matches string pool constant text
 Marking attr:colorPrimary:2130903139 used because its prefix matches string pool constant colorPrimary
 Marking attr:colorPrimaryDark:2130903140 used because its prefix matches string pool constant colorPrimary
 Marking color:colorPrimary:2131034169 used because its prefix matches string pool constant colorPrimary
 Marking color:colorPrimaryDark:2131034170 used because its prefix matches string pool constant colorPrimary
 Marking attr:statusBarBackground:2130903428 used because its prefix matches string pool constant status
-Marking id:status_bar_latest_event_content:2131231275 used because its prefix matches string pool constant status
-Marking id:status_section_footer:2131231276 used because its prefix matches string pool constant status
-Marking id:status_section_header_text:2131231277 used because its prefix matches string pool constant status
+Marking id:status_bar_latest_event_content:2131231276 used because its prefix matches string pool constant status
+Marking id:status_section_footer:2131231277 used because its prefix matches string pool constant status
+Marking id:status_section_header_text:2131231278 used because its prefix matches string pool constant status
 Marking integer:status_bar_notification_info_maxnum:2131296261 used because its prefix matches string pool constant status
 Marking string:status_bar_notification_info_overflow:2131625516 used because its prefix matches string pool constant status
 Marking string:null_string:2131625306 used because its prefix matches string pool constant null
@@ -6759,7 +6759,7 @@ Marking anim:core_zoom_enter:2130771990 used because its prefix matches string p
 Marking anim:core_zoom_enter_back:2130771991 used because its prefix matches string pool constant co
 Marking anim:core_zoom_exit:2130771992 used because its prefix matches string pool constant co
 Marking anim:core_zoom_exit_back:2130771993 used because its prefix matches string pool constant co
-Marking array:country_code_2_country_str:2130837551 used because its prefix matches string pool constant co
+Marking array:country_code_2_country_str:2130837552 used because its prefix matches string pool constant co
 Marking attr:collapseContentDescription:2130903129 used because its prefix matches string pool constant co
 Marking attr:collapseIcon:2130903130 used because its prefix matches string pool constant co
 Marking attr:color:2130903131 used because its prefix matches string pool constant co
@@ -6885,7 +6885,7 @@ Marking string:confirm_land_title:2131624314 used because its prefix matches str
 Marking string:confirm_new_password:2131624315 used because its prefix matches string pool constant co
 Marking string:confirm_password:2131624316 used because its prefix matches string pool constant co
 Marking string:connection_loose:2131624317 used because its prefix matches string pool constant co
-Marking array:fonts:2130837552 used because its prefix matches string pool constant font
+Marking array:fonts:2130837553 used because its prefix matches string pool constant font
 Marking attr:font:2130903190 used because its prefix matches string pool constant font
 Marking attr:fontFamily:2130903191 used because its prefix matches string pool constant font
 Marking attr:fontProviderAuthority:2130903192 used because its prefix matches string pool constant font
@@ -6980,8 +6980,8 @@ Marking drawable:p4_vertical:2131165685 used because its prefix matches string p
 Marking string:storage_title_capacity:2131625517 used because its prefix matches string pool constant storage
 Marking string:storage_title_time:2131625518 used because its prefix matches string pool constant storage
 Marking string:storage_value_full:2131625519 used because its prefix matches string pool constant storage
-Marking array:pip_setting_name_array:2130837559 used because its prefix matches string pool constant pi
-Marking array:pip_setting_value_array:2130837560 used because its prefix matches string pool constant pi
+Marking array:pip_setting_name_array:2130837560 used because its prefix matches string pool constant pi
+Marking array:pip_setting_value_array:2130837561 used because its prefix matches string pool constant pi
 Marking drawable:pic:2131165696 used because its prefix matches string pool constant pi
 Marking drawable:pic_highlight:2131165697 used because its prefix matches string pool constant pi
 Marking string:pip_mode:2131625380 used because its prefix matches string pool constant pi
@@ -7017,13 +7017,13 @@ Marking string:sd_card_write_slow:2131625442 used because its prefix matches str
 Marking string:sdk_version:2131625443 used because its prefix matches string pool constant sd
 Marking string:sdk_wifi_permission_description:2131625444 used because its prefix matches string pool constant sd
 Marking string:sdk_wifi_permission_label:2131625445 used because its prefix matches string pool constant sd
-Marking id:ssd_capacity_title:2131231264 used because its prefix matches string pool constant ss
-Marking id:ssd_capacity_value:2131231265 used because its prefix matches string pool constant ss
-Marking id:ssd_clip_info_tv:2131231266 used because its prefix matches string pool constant ss
-Marking id:ssd_format_info:2131231267 used because its prefix matches string pool constant ss
-Marking id:ssd_icon:2131231268 used because its prefix matches string pool constant ss
-Marking id:ssd_status_icon:2131231269 used because its prefix matches string pool constant ss
-Marking id:ssd_status_info:2131231270 used because its prefix matches string pool constant ss
+Marking id:ssd_capacity_title:2131231265 used because its prefix matches string pool constant ss
+Marking id:ssd_capacity_value:2131231266 used because its prefix matches string pool constant ss
+Marking id:ssd_clip_info_tv:2131231267 used because its prefix matches string pool constant ss
+Marking id:ssd_format_info:2131231268 used because its prefix matches string pool constant ss
+Marking id:ssd_icon:2131231269 used because its prefix matches string pool constant ss
+Marking id:ssd_status_icon:2131231270 used because its prefix matches string pool constant ss
+Marking id:ssd_status_info:2131231271 used because its prefix matches string pool constant ss
 Marking string:ssd_status_error_nossd:2131625506 used because its prefix matches string pool constant ss
 Marking string:ssd_status_formatting:2131625507 used because its prefix matches string pool constant ss
 Marking string:ssd_status_full:2131625508 used because its prefix matches string pool constant ss
@@ -7037,14 +7037,14 @@ Marking anim:storing_rotate:2130771998 used because its prefix matches string po
 Marking attr:stackFromEnd:2130903426 used because its prefix matches string pool constant st
 Marking attr:state_above_anchor:2130903427 used because its prefix matches string pool constant st
 Marking attr:statusBarBackground:2130903428 used because its prefix matches string pool constant st
-Marking id:standard:2131231271 used because its prefix matches string pool constant st
-Marking id:standard_row_separator:2131231272 used because its prefix matches string pool constant st
-Marking id:start:2131231273 used because its prefix matches string pool constant st
-Marking id:start_broadcast_button:2131231274 used because its prefix matches string pool constant st
-Marking id:status_bar_latest_event_content:2131231275 used because its prefix matches string pool constant st
-Marking id:status_section_footer:2131231276 used because its prefix matches string pool constant st
-Marking id:status_section_header_text:2131231277 used because its prefix matches string pool constant st
-Marking id:stripeview_setting_ev_status:2131231278 used because its prefix matches string pool constant st
+Marking id:standard:2131231272 used because its prefix matches string pool constant st
+Marking id:standard_row_separator:2131231273 used because its prefix matches string pool constant st
+Marking id:start:2131231274 used because its prefix matches string pool constant st
+Marking id:start_broadcast_button:2131231275 used because its prefix matches string pool constant st
+Marking id:status_bar_latest_event_content:2131231276 used because its prefix matches string pool constant st
+Marking id:status_section_footer:2131231277 used because its prefix matches string pool constant st
+Marking id:status_section_header_text:2131231278 used because its prefix matches string pool constant st
+Marking id:stripeview_setting_ev_status:2131231279 used because its prefix matches string pool constant st
 Marking integer:status_bar_notification_info_maxnum:2131296261 used because its prefix matches string pool constant st
 Marking string:starboard_side:2131625515 used because its prefix matches string pool constant st
 Marking string:status_bar_notification_info_overflow:2131625516 used because its prefix matches string pool constant st
@@ -7112,112 +7112,112 @@ Marking dimen:text_size_normal:2131099816 used because its prefix matches string
 Marking dimen:text_size_normal_medium:2131099817 used because its prefix matches string pool constant te
 Marking dimen:text_size_small:2131099818 used because its prefix matches string pool constant te
 Marking dimen:text_size_tiny:2131099819 used because its prefix matches string pool constant te
-Marking id:terrain:2131231288 used because its prefix matches string pool constant te
-Marking id:text:2131231289 used because its prefix matches string pool constant te
-Marking id:text2:2131231290 used because its prefix matches string pool constant te
-Marking id:textSpacerNoButtons:2131231291 used because its prefix matches string pool constant te
-Marking id:textSpacerNoTitle:2131231292 used because its prefix matches string pool constant te
-Marking id:textView:2131231293 used because its prefix matches string pool constant te
-Marking id:textView2:2131231294 used because its prefix matches string pool constant te
-Marking id:text_connection_status:2131231295 used because its prefix matches string pool constant te
-Marking id:text_custom_unlock_enabled_zone:2131231296 used because its prefix matches string pool constant te
-Marking id:text_legend_authorized_zone:2131231297 used because its prefix matches string pool constant te
-Marking id:text_legend_custom_unlock_aircraft_zone:2131231298 used because its prefix matches string pool constant te
-Marking id:text_legend_custom_unlock_zone:2131231299 used because its prefix matches string pool constant te
-Marking id:text_legend_enhanced_warning_zone:2131231300 used because its prefix matches string pool constant te
-Marking id:text_legend_restricted_zone:2131231301 used because its prefix matches string pool constant te
-Marking id:text_legend_self_unlock_zone:2131231302 used because its prefix matches string pool constant te
-Marking id:text_legend_warning_zone:2131231303 used because its prefix matches string pool constant te
-Marking id:text_model_available:2131231304 used because its prefix matches string pool constant te
-Marking id:text_product_info:2131231305 used because its prefix matches string pool constant te
-Marking id:text_view_speaker_title:2131231306 used because its prefix matches string pool constant te
-Marking id:text_view_speaker_volume:2131231307 used because its prefix matches string pool constant te
-Marking id:textview_ace_title:2131231308 used because its prefix matches string pool constant te
-Marking id:textview_ace_value:2131231309 used because its prefix matches string pool constant te
-Marking id:textview_aperture_title:2131231310 used because its prefix matches string pool constant te
-Marking id:textview_battery1_value:2131231311 used because its prefix matches string pool constant te
-Marking id:textview_battery1_voltage:2131231312 used because its prefix matches string pool constant te
-Marking id:textview_battery2_value:2131231313 used because its prefix matches string pool constant te
-Marking id:textview_battery2_voltage:2131231314 used because its prefix matches string pool constant te
-Marking id:textview_battery_value:2131231315 used because its prefix matches string pool constant te
-Marking id:textview_battery_voltage:2131231316 used because its prefix matches string pool constant te
-Marking id:textview_brightness_title:2131231317 used because its prefix matches string pool constant te
-Marking id:textview_brightness_value:2131231318 used because its prefix matches string pool constant te
-Marking id:textview_button_cancel:2131231319 used because its prefix matches string pool constant te
-Marking id:textview_button_negative:2131231320 used because its prefix matches string pool constant te
-Marking id:textview_button_ok:2131231321 used because its prefix matches string pool constant te
-Marking id:textview_button_positive:2131231322 used because its prefix matches string pool constant te
-Marking id:textview_camera_control_af:2131231323 used because its prefix matches string pool constant te
-Marking id:textview_camera_control_mf:2131231324 used because its prefix matches string pool constant te
-Marking id:textview_camera_control_separator:2131231325 used because its prefix matches string pool constant te
-Marking id:textview_camera_controll_videotime:2131231326 used because its prefix matches string pool constant te
-Marking id:textview_camera_mode_a:2131231327 used because its prefix matches string pool constant te
-Marking id:textview_camera_mode_m:2131231328 used because its prefix matches string pool constant te
-Marking id:textview_camera_mode_p:2131231329 used because its prefix matches string pool constant te
-Marking id:textview_camera_mode_s:2131231330 used because its prefix matches string pool constant te
-Marking id:textview_contrast_title:2131231331 used because its prefix matches string pool constant te
-Marking id:textview_contrast_value:2131231332 used because its prefix matches string pool constant te
-Marking id:textview_dde_title:2131231333 used because its prefix matches string pool constant te
-Marking id:textview_dde_value:2131231334 used because its prefix matches string pool constant te
-Marking id:textview_dlg_desc:2131231335 used because its prefix matches string pool constant te
-Marking id:textview_dlg_little_title:2131231336 used because its prefix matches string pool constant te
-Marking id:textview_dlg_title:2131231337 used because its prefix matches string pool constant te
-Marking id:textview_ev_title:2131231338 used because its prefix matches string pool constant te
-Marking id:textview_flight_mode_string:2131231339 used because its prefix matches string pool constant te
-Marking id:textview_gps_type:2131231340 used because its prefix matches string pool constant te
-Marking id:textview_iso_title:2131231341 used because its prefix matches string pool constant te
-Marking id:textview_lock_title:2131231342 used because its prefix matches string pool constant te
-Marking id:textview_max_value:2131231343 used because its prefix matches string pool constant te
-Marking id:textview_metrics_title:2131231344 used because its prefix matches string pool constant te
-Marking id:textview_metrics_unit:2131231345 used because its prefix matches string pool constant te
-Marking id:textview_metrics_value:2131231346 used because its prefix matches string pool constant te
-Marking id:textview_min_value:2131231347 used because its prefix matches string pool constant te
-Marking id:textview_preflight_status:2131231348 used because its prefix matches string pool constant te
-Marking id:textview_rc_type:2131231349 used because its prefix matches string pool constant te
-Marking id:textview_satellite_number:2131231350 used because its prefix matches string pool constant te
-Marking id:textview_setting_ev_status_value:2131231351 used because its prefix matches string pool constant te
-Marking id:textview_setting_ev_value:2131231352 used because its prefix matches string pool constant te
-Marking id:textview_shutter_title:2131231353 used because its prefix matches string pool constant te
-Marking id:textview_slidertitle:2131231354 used because its prefix matches string pool constant te
-Marking id:textview_sso_title:2131231355 used because its prefix matches string pool constant te
-Marking id:textview_sso_value:2131231356 used because its prefix matches string pool constant te
-Marking id:textview_title:2131231357 used because its prefix matches string pool constant te
-Marking id:textview_value:2131231358 used because its prefix matches string pool constant te
-Marking id:textview_value_unit:2131231359 used because its prefix matches string pool constant te
-Marking id:textview_wind_x:2131231360 used because its prefix matches string pool constant te
-Marking id:textview_wind_y:2131231361 used because its prefix matches string pool constant te
-Marking id:textview_wind_z:2131231362 used because its prefix matches string pool constant te
-Marking array:thermal_camera_external_parameter_name_array:2130837561 used because its prefix matches string pool constant th
-Marking array:thermal_camera_external_profile_name_array:2130837562 used because its prefix matches string pool constant th
-Marking array:thermal_camera_ffc_mode_name_array:2130837563 used because its prefix matches string pool constant th
-Marking array:thermal_camera_ffc_mode_value_array:2130837564 used because its prefix matches string pool constant th
-Marking array:thermal_camera_focus_lens_array:2130837565 used because its prefix matches string pool constant th
-Marking array:thermal_camera_gain_mode_name_array:2130837566 used because its prefix matches string pool constant th
-Marking array:thermal_camera_gain_mode_value_array:2130837567 used because its prefix matches string pool constant th
-Marking array:thermal_camera_isotherm_enable_value_array:2130837568 used because its prefix matches string pool constant th
-Marking array:thermal_camera_isotherm_units_name_array:2130837569 used because its prefix matches string pool constant th
-Marking array:thermal_camera_isotherm_units_value_array:2130837570 used because its prefix matches string pool constant th
-Marking array:thermal_camera_msx_offset_title_array:2130837571 used because its prefix matches string pool constant th
-Marking array:thermal_camera_palette_iso_name_array:2130837572 used because its prefix matches string pool constant th
-Marking array:thermal_camera_palette_name_array:2130837573 used because its prefix matches string pool constant th
-Marking array:thermal_camera_palette_value_array:2130837574 used because its prefix matches string pool constant th
-Marking array:thermal_camera_resolution_array:2130837575 used because its prefix matches string pool constant th
-Marking array:thermal_camera_roi_name_array:2130837576 used because its prefix matches string pool constant th
-Marking array:thermal_camera_roi_value_array:2130837577 used because its prefix matches string pool constant th
-Marking array:thermal_camera_scene_name_array:2130837578 used because its prefix matches string pool constant th
-Marking array:thermal_camera_scene_value_array:2130837579 used because its prefix matches string pool constant th
-Marking array:thermal_camera_temp_alert_enable_value_array:2130837580 used because its prefix matches string pool constant th
-Marking array:thermal_camera_version_array:2130837581 used because its prefix matches string pool constant th
+Marking id:terrain:2131231289 used because its prefix matches string pool constant te
+Marking id:text:2131231290 used because its prefix matches string pool constant te
+Marking id:text2:2131231291 used because its prefix matches string pool constant te
+Marking id:textSpacerNoButtons:2131231292 used because its prefix matches string pool constant te
+Marking id:textSpacerNoTitle:2131231293 used because its prefix matches string pool constant te
+Marking id:textView:2131231294 used because its prefix matches string pool constant te
+Marking id:textView2:2131231295 used because its prefix matches string pool constant te
+Marking id:text_connection_status:2131231296 used because its prefix matches string pool constant te
+Marking id:text_custom_unlock_enabled_zone:2131231297 used because its prefix matches string pool constant te
+Marking id:text_legend_authorized_zone:2131231298 used because its prefix matches string pool constant te
+Marking id:text_legend_custom_unlock_aircraft_zone:2131231299 used because its prefix matches string pool constant te
+Marking id:text_legend_custom_unlock_zone:2131231300 used because its prefix matches string pool constant te
+Marking id:text_legend_enhanced_warning_zone:2131231301 used because its prefix matches string pool constant te
+Marking id:text_legend_restricted_zone:2131231302 used because its prefix matches string pool constant te
+Marking id:text_legend_self_unlock_zone:2131231303 used because its prefix matches string pool constant te
+Marking id:text_legend_warning_zone:2131231304 used because its prefix matches string pool constant te
+Marking id:text_model_available:2131231305 used because its prefix matches string pool constant te
+Marking id:text_product_info:2131231306 used because its prefix matches string pool constant te
+Marking id:text_view_speaker_title:2131231307 used because its prefix matches string pool constant te
+Marking id:text_view_speaker_volume:2131231308 used because its prefix matches string pool constant te
+Marking id:textview_ace_title:2131231309 used because its prefix matches string pool constant te
+Marking id:textview_ace_value:2131231310 used because its prefix matches string pool constant te
+Marking id:textview_aperture_title:2131231311 used because its prefix matches string pool constant te
+Marking id:textview_battery1_value:2131231312 used because its prefix matches string pool constant te
+Marking id:textview_battery1_voltage:2131231313 used because its prefix matches string pool constant te
+Marking id:textview_battery2_value:2131231314 used because its prefix matches string pool constant te
+Marking id:textview_battery2_voltage:2131231315 used because its prefix matches string pool constant te
+Marking id:textview_battery_value:2131231316 used because its prefix matches string pool constant te
+Marking id:textview_battery_voltage:2131231317 used because its prefix matches string pool constant te
+Marking id:textview_brightness_title:2131231318 used because its prefix matches string pool constant te
+Marking id:textview_brightness_value:2131231319 used because its prefix matches string pool constant te
+Marking id:textview_button_cancel:2131231320 used because its prefix matches string pool constant te
+Marking id:textview_button_negative:2131231321 used because its prefix matches string pool constant te
+Marking id:textview_button_ok:2131231322 used because its prefix matches string pool constant te
+Marking id:textview_button_positive:2131231323 used because its prefix matches string pool constant te
+Marking id:textview_camera_control_af:2131231324 used because its prefix matches string pool constant te
+Marking id:textview_camera_control_mf:2131231325 used because its prefix matches string pool constant te
+Marking id:textview_camera_control_separator:2131231326 used because its prefix matches string pool constant te
+Marking id:textview_camera_controll_videotime:2131231327 used because its prefix matches string pool constant te
+Marking id:textview_camera_mode_a:2131231328 used because its prefix matches string pool constant te
+Marking id:textview_camera_mode_m:2131231329 used because its prefix matches string pool constant te
+Marking id:textview_camera_mode_p:2131231330 used because its prefix matches string pool constant te
+Marking id:textview_camera_mode_s:2131231331 used because its prefix matches string pool constant te
+Marking id:textview_contrast_title:2131231332 used because its prefix matches string pool constant te
+Marking id:textview_contrast_value:2131231333 used because its prefix matches string pool constant te
+Marking id:textview_dde_title:2131231334 used because its prefix matches string pool constant te
+Marking id:textview_dde_value:2131231335 used because its prefix matches string pool constant te
+Marking id:textview_dlg_desc:2131231336 used because its prefix matches string pool constant te
+Marking id:textview_dlg_little_title:2131231337 used because its prefix matches string pool constant te
+Marking id:textview_dlg_title:2131231338 used because its prefix matches string pool constant te
+Marking id:textview_ev_title:2131231339 used because its prefix matches string pool constant te
+Marking id:textview_flight_mode_string:2131231340 used because its prefix matches string pool constant te
+Marking id:textview_gps_type:2131231341 used because its prefix matches string pool constant te
+Marking id:textview_iso_title:2131231342 used because its prefix matches string pool constant te
+Marking id:textview_lock_title:2131231343 used because its prefix matches string pool constant te
+Marking id:textview_max_value:2131231344 used because its prefix matches string pool constant te
+Marking id:textview_metrics_title:2131231345 used because its prefix matches string pool constant te
+Marking id:textview_metrics_unit:2131231346 used because its prefix matches string pool constant te
+Marking id:textview_metrics_value:2131231347 used because its prefix matches string pool constant te
+Marking id:textview_min_value:2131231348 used because its prefix matches string pool constant te
+Marking id:textview_preflight_status:2131231349 used because its prefix matches string pool constant te
+Marking id:textview_rc_type:2131231350 used because its prefix matches string pool constant te
+Marking id:textview_satellite_number:2131231351 used because its prefix matches string pool constant te
+Marking id:textview_setting_ev_status_value:2131231352 used because its prefix matches string pool constant te
+Marking id:textview_setting_ev_value:2131231353 used because its prefix matches string pool constant te
+Marking id:textview_shutter_title:2131231354 used because its prefix matches string pool constant te
+Marking id:textview_slidertitle:2131231355 used because its prefix matches string pool constant te
+Marking id:textview_sso_title:2131231356 used because its prefix matches string pool constant te
+Marking id:textview_sso_value:2131231357 used because its prefix matches string pool constant te
+Marking id:textview_title:2131231358 used because its prefix matches string pool constant te
+Marking id:textview_value:2131231359 used because its prefix matches string pool constant te
+Marking id:textview_value_unit:2131231360 used because its prefix matches string pool constant te
+Marking id:textview_wind_x:2131231361 used because its prefix matches string pool constant te
+Marking id:textview_wind_y:2131231362 used because its prefix matches string pool constant te
+Marking id:textview_wind_z:2131231363 used because its prefix matches string pool constant te
+Marking array:thermal_camera_external_parameter_name_array:2130837562 used because its prefix matches string pool constant th
+Marking array:thermal_camera_external_profile_name_array:2130837563 used because its prefix matches string pool constant th
+Marking array:thermal_camera_ffc_mode_name_array:2130837564 used because its prefix matches string pool constant th
+Marking array:thermal_camera_ffc_mode_value_array:2130837565 used because its prefix matches string pool constant th
+Marking array:thermal_camera_focus_lens_array:2130837566 used because its prefix matches string pool constant th
+Marking array:thermal_camera_gain_mode_name_array:2130837567 used because its prefix matches string pool constant th
+Marking array:thermal_camera_gain_mode_value_array:2130837568 used because its prefix matches string pool constant th
+Marking array:thermal_camera_isotherm_enable_value_array:2130837569 used because its prefix matches string pool constant th
+Marking array:thermal_camera_isotherm_units_name_array:2130837570 used because its prefix matches string pool constant th
+Marking array:thermal_camera_isotherm_units_value_array:2130837571 used because its prefix matches string pool constant th
+Marking array:thermal_camera_msx_offset_title_array:2130837572 used because its prefix matches string pool constant th
+Marking array:thermal_camera_palette_iso_name_array:2130837573 used because its prefix matches string pool constant th
+Marking array:thermal_camera_palette_name_array:2130837574 used because its prefix matches string pool constant th
+Marking array:thermal_camera_palette_value_array:2130837575 used because its prefix matches string pool constant th
+Marking array:thermal_camera_resolution_array:2130837576 used because its prefix matches string pool constant th
+Marking array:thermal_camera_roi_name_array:2130837577 used because its prefix matches string pool constant th
+Marking array:thermal_camera_roi_value_array:2130837578 used because its prefix matches string pool constant th
+Marking array:thermal_camera_scene_name_array:2130837579 used because its prefix matches string pool constant th
+Marking array:thermal_camera_scene_value_array:2130837580 used because its prefix matches string pool constant th
+Marking array:thermal_camera_temp_alert_enable_value_array:2130837581 used because its prefix matches string pool constant th
+Marking array:thermal_camera_version_array:2130837582 used because its prefix matches string pool constant th
 Marking attr:theme:2130903453 used because its prefix matches string pool constant th
 Marking attr:thickness:2130903454 used because its prefix matches string pool constant th
 Marking attr:thumbTextPadding:2130903455 used because its prefix matches string pool constant th
 Marking attr:thumbTint:2130903456 used because its prefix matches string pool constant th
 Marking attr:thumbTintMode:2130903457 used because its prefix matches string pool constant th
-Marking id:thermal_camera_ffc_mode:2131231363 used because its prefix matches string pool constant th
-Marking id:thermal_camera_gain_mode:2131231364 used because its prefix matches string pool constant th
-Marking id:thermal_camera_palette:2131231365 used because its prefix matches string pool constant th
-Marking id:thermal_camera_roi:2131231366 used because its prefix matches string pool constant th
-Marking id:thermal_camera_scene:2131231367 used because its prefix matches string pool constant th
+Marking id:thermal_camera_ffc_mode:2131231364 used because its prefix matches string pool constant th
+Marking id:thermal_camera_gain_mode:2131231365 used because its prefix matches string pool constant th
+Marking id:thermal_camera_palette:2131231366 used because its prefix matches string pool constant th
+Marking id:thermal_camera_roi:2131231367 used because its prefix matches string pool constant th
+Marking id:thermal_camera_scene:2131231368 used because its prefix matches string pool constant th
 Marking string:thermal_Camera_temp_alert_tips:2131625563 used because its prefix matches string pool constant th
 Marking string:thermal_camera_atmosphere_temperature:2131625564 used because its prefix matches string pool constant th
 Marking string:thermal_camera_atmosphere_transmission_coefficient:2131625565 used because its prefix matches string pool constant th
@@ -7312,15 +7312,15 @@ Marking style:thermal_camera:-1 used because its prefix matches string pool cons
 Marking style:thermal:-1 used because its prefix matches string pool constant th
 Marking string:v2_nfz_unlock_geo_type:2131625693 used because its prefix matches string pool constant v2
 Marking string:v2_nfz_unlock_white_list_type:2131625694 used because its prefix matches string pool constant v2
-Marking id:up:2131231382 used because its prefix matches string pool constant up
+Marking id:up:2131231383 used because its prefix matches string pool constant up
 Marking drawable:warning_status:2131165848 used because its prefix matches string pool constant wa
-Marking id:warning_icon:2131231405 used because its prefix matches string pool constant wa
-Marking id:warning_text:2131231406 used because its prefix matches string pool constant wa
-Marking id:warning_view:2131231407 used because its prefix matches string pool constant wa
+Marking id:warning_icon:2131231406 used because its prefix matches string pool constant wa
+Marking id:warning_text:2131231407 used because its prefix matches string pool constant wa
+Marking id:warning_view:2131231408 used because its prefix matches string pool constant wa
 Marking drawable:powered_by_google_dark:2131165702 used because its prefix matches string pool constant power
 Marking drawable:powered_by_google_light:2131165703 used because its prefix matches string pool constant power
-Marking id:standard:2131231271 used because its prefix matches string pool constant standard
-Marking id:standard_row_separator:2131231272 used because its prefix matches string pool constant standard
+Marking id:standard:2131231272 used because its prefix matches string pool constant standard
+Marking id:standard_row_separator:2131231273 used because its prefix matches string pool constant standard
 Marking string:gps_permission:2131624943 used because its prefix matches string pool constant gps
 Marking string:gps_rtk_enable:2131624944 used because its prefix matches string pool constant gps
 Marking drawable:success_icon:2131165837 used because its prefix matches string pool constant success
@@ -7353,7 +7353,7 @@ Marking id:buttonPanel:2131230798 used because its prefix matches string pool co
 Marking id:button_container:2131230799 used because its prefix matches string pool constant butt
 Marking id:button_iso_auto:2131230800 used because its prefix matches string pool constant butt
 Marking id:button_user_log_in:2131230801 used because its prefix matches string pool constant butt
-Marking id:time:2131231368 used because its prefix matches string pool constant time
+Marking id:time:2131231369 used because its prefix matches string pool constant time
 Marking string:time_hours_mins_secs:2131625650 used because its prefix matches string pool constant time
 Marking string:time_mins_secs:2131625651 used because its prefix matches string pool constant time
 Marking attr:actionBarDivider:2130903041 used because its prefix matches string pool constant action
@@ -7611,9 +7611,9 @@ Marking attr:titleTextAppearance:2130903470 used because its prefix matches stri
 Marking attr:titleTextColor:2130903471 used because its prefix matches string pool constant title
 Marking attr:titleTextStyle:2130903472 used because its prefix matches string pool constant title
 Marking color:title_dark:2131034264 used because its prefix matches string pool constant title
-Marking id:title:2131231369 used because its prefix matches string pool constant title
-Marking id:titleDividerNoCustom:2131231370 used because its prefix matches string pool constant title
-Marking id:title_template:2131231371 used because its prefix matches string pool constant title
+Marking id:title:2131231370 used because its prefix matches string pool constant title
+Marking id:titleDividerNoCustom:2131231371 used because its prefix matches string pool constant title
+Marking id:title_template:2131231372 used because its prefix matches string pool constant title
 Marking string:title_main_activity:2131625655 used because its prefix matches string pool constant title
 Marking attr:mapType:2130903302 used because its prefix matches string pool constant map
 Marking attr:mapbox_apiBaseUrl:2130903303 used because its prefix matches string pool constant map
@@ -7807,7 +7807,7 @@ Marking layout:notification_template_part_chronometer:2131361865 used because it
 Marking layout:notification_template_part_time:2131361866 used because its prefix matches string pool constant notification
 Marking attr:visibleItems:2130903492 used because its prefix matches string pool constant visible
 Marking string:visible_camera_title:2131625698 used because its prefix matches string pool constant visible
-Marking id:userLocationView:2131231384 used because its prefix matches string pool constant user
+Marking id:userLocationView:2131231385 used because its prefix matches string pool constant user
 Marking string:user_log_action_failed:2131625687 used because its prefix matches string pool constant user
 Marking string:user_log_in_button:2131625688 used because its prefix matches string pool constant user
 Marking string:user_log_in_successful:2131625689 used because its prefix matches string pool constant user
@@ -7829,62 +7829,62 @@ Marking id:search_src_text:2131231218 used because its prefix matches string poo
 Marking id:search_voice_btn:2131231219 used because its prefix matches string pool constant search
 Marking string:search_menu_title:2131625446 used because its prefix matches string pool constant search
 Marking drawable:warning_status:2131165848 used because its prefix matches string pool constant warning
-Marking id:warning_icon:2131231405 used because its prefix matches string pool constant warning
-Marking id:warning_text:2131231406 used because its prefix matches string pool constant warning
-Marking id:warning_view:2131231407 used because its prefix matches string pool constant warning
+Marking id:warning_icon:2131231406 used because its prefix matches string pool constant warning
+Marking id:warning_text:2131231407 used because its prefix matches string pool constant warning
+Marking id:warning_view:2131231408 used because its prefix matches string pool constant warning
 Marking attr:excludeItem:2130903180 used because its prefix matches string pool constant exclude
 Marking attr:excludeView:2130903181 used because its prefix matches string pool constant exclude
 Marking id:Mapbox:2131230731 used because its prefix matches string pool constant Map
 Marking style:MapWidgetTheme:2131689641 used because its prefix matches string pool constant Map
 Marking declare-styleable:MapAttrs:-1 used because its prefix matches string pool constant Map
 Marking styleable:MapAttrs:-1 used because its prefix matches string pool constant Map
-Marking array:camera_anti_flicker_default_value_array:2130837504 used because its prefix matches string pool constant camera
-Marking array:camera_anti_flicker_img_array:2130837505 used because its prefix matches string pool constant camera
-Marking array:camera_anti_flicker_name_array:2130837506 used because its prefix matches string pool constant camera
-Marking array:camera_aperture_array:2130837507 used because its prefix matches string pool constant camera
-Marking array:camera_center_point_color_array:2130837508 used because its prefix matches string pool constant camera
-Marking array:camera_center_point_img_array:2130837509 used because its prefix matches string pool constant camera
-Marking array:camera_center_point_name_array:2130837510 used because its prefix matches string pool constant camera
-Marking array:camera_ei_color_type:2130837511 used because its prefix matches string pool constant camera
-Marking array:camera_ev_value_array:2130837512 used because its prefix matches string pool constant camera
-Marking array:camera_file_index_default_value_array:2130837513 used because its prefix matches string pool constant camera
-Marking array:camera_file_index_name_array:2130837514 used because its prefix matches string pool constant camera
-Marking array:camera_filter_default:2130837515 used because its prefix matches string pool constant camera
-Marking array:camera_filter_type:2130837516 used because its prefix matches string pool constant camera
-Marking array:camera_grid_img_array:2130837517 used because its prefix matches string pool constant camera
-Marking array:camera_grid_name_array:2130837518 used because its prefix matches string pool constant camera
-Marking array:camera_grid_value_array:2130837519 used because its prefix matches string pool constant camera
-Marking array:camera_peak_focus_threshold_array:2130837520 used because its prefix matches string pool constant camera
-Marking array:camera_peak_focus_threshold_default_value_array:2130837521 used because its prefix matches string pool constant camera
-Marking array:camera_photo_aspect_ratio_default_value_array:2130837522 used because its prefix matches string pool constant camera
-Marking array:camera_photo_aspect_ratio_img_array:2130837523 used because its prefix matches string pool constant camera
-Marking array:camera_photo_aspect_ratio_name_array:2130837524 used because its prefix matches string pool constant camera
-Marking array:camera_picture_format_array:2130837525 used because its prefix matches string pool constant camera
-Marking array:camera_picture_format_img_res_array:2130837526 used because its prefix matches string pool constant camera
-Marking array:camera_picture_format_value_array:2130837527 used because its prefix matches string pool constant camera
-Marking array:camera_save_original_name_array:2130837528 used because its prefix matches string pool constant camera
-Marking array:camera_save_original_value_array:2130837529 used because its prefix matches string pool constant camera
-Marking array:camera_shutter_names:2130837530 used because its prefix matches string pool constant camera
-Marking array:camera_ssd_color_array:2130837531 used because its prefix matches string pool constant camera
-Marking array:camera_ssd_license_type:2130837532 used because its prefix matches string pool constant camera
-Marking array:camera_storage_location_array:2130837533 used because its prefix matches string pool constant camera
-Marking array:camera_storage_location_default_value_array:2130837534 used because its prefix matches string pool constant camera
-Marking array:camera_video_compression_standard_name_array:2130837535 used because its prefix matches string pool constant camera
-Marking array:camera_video_format_default_value_array:2130837536 used because its prefix matches string pool constant camera
-Marking array:camera_video_format_img_array:2130837537 used because its prefix matches string pool constant camera
-Marking array:camera_video_format_name_array:2130837538 used because its prefix matches string pool constant camera
-Marking array:camera_video_fov_name_array:2130837539 used because its prefix matches string pool constant camera
-Marking array:camera_video_frame_rate_real_value_array:2130837540 used because its prefix matches string pool constant camera
-Marking array:camera_video_frame_rate_value_array:2130837541 used because its prefix matches string pool constant camera
-Marking array:camera_video_resolution_default_value_array:2130837542 used because its prefix matches string pool constant camera
-Marking array:camera_video_resolution_name_array:2130837543 used because its prefix matches string pool constant camera
-Marking array:camera_video_standard_default_value_array:2130837544 used because its prefix matches string pool constant camera
-Marking array:camera_video_standard_img_array:2130837545 used because its prefix matches string pool constant camera
-Marking array:camera_video_standard_name_array:2130837546 used because its prefix matches string pool constant camera
-Marking array:camera_white_balance_Interval_value_boundary:2130837547 used because its prefix matches string pool constant camera
-Marking array:camera_white_balance_default_value_array:2130837548 used because its prefix matches string pool constant camera
-Marking array:camera_white_balance_img_array:2130837549 used because its prefix matches string pool constant camera
-Marking array:camera_white_balance_name_array:2130837550 used because its prefix matches string pool constant camera
+Marking array:camera_anti_flicker_default_value_array:2130837505 used because its prefix matches string pool constant camera
+Marking array:camera_anti_flicker_img_array:2130837506 used because its prefix matches string pool constant camera
+Marking array:camera_anti_flicker_name_array:2130837507 used because its prefix matches string pool constant camera
+Marking array:camera_aperture_array:2130837508 used because its prefix matches string pool constant camera
+Marking array:camera_center_point_color_array:2130837509 used because its prefix matches string pool constant camera
+Marking array:camera_center_point_img_array:2130837510 used because its prefix matches string pool constant camera
+Marking array:camera_center_point_name_array:2130837511 used because its prefix matches string pool constant camera
+Marking array:camera_ei_color_type:2130837512 used because its prefix matches string pool constant camera
+Marking array:camera_ev_value_array:2130837513 used because its prefix matches string pool constant camera
+Marking array:camera_file_index_default_value_array:2130837514 used because its prefix matches string pool constant camera
+Marking array:camera_file_index_name_array:2130837515 used because its prefix matches string pool constant camera
+Marking array:camera_filter_default:2130837516 used because its prefix matches string pool constant camera
+Marking array:camera_filter_type:2130837517 used because its prefix matches string pool constant camera
+Marking array:camera_grid_img_array:2130837518 used because its prefix matches string pool constant camera
+Marking array:camera_grid_name_array:2130837519 used because its prefix matches string pool constant camera
+Marking array:camera_grid_value_array:2130837520 used because its prefix matches string pool constant camera
+Marking array:camera_peak_focus_threshold_array:2130837521 used because its prefix matches string pool constant camera
+Marking array:camera_peak_focus_threshold_default_value_array:2130837522 used because its prefix matches string pool constant camera
+Marking array:camera_photo_aspect_ratio_default_value_array:2130837523 used because its prefix matches string pool constant camera
+Marking array:camera_photo_aspect_ratio_img_array:2130837524 used because its prefix matches string pool constant camera
+Marking array:camera_photo_aspect_ratio_name_array:2130837525 used because its prefix matches string pool constant camera
+Marking array:camera_picture_format_array:2130837526 used because its prefix matches string pool constant camera
+Marking array:camera_picture_format_img_res_array:2130837527 used because its prefix matches string pool constant camera
+Marking array:camera_picture_format_value_array:2130837528 used because its prefix matches string pool constant camera
+Marking array:camera_save_original_name_array:2130837529 used because its prefix matches string pool constant camera
+Marking array:camera_save_original_value_array:2130837530 used because its prefix matches string pool constant camera
+Marking array:camera_shutter_names:2130837531 used because its prefix matches string pool constant camera
+Marking array:camera_ssd_color_array:2130837532 used because its prefix matches string pool constant camera
+Marking array:camera_ssd_license_type:2130837533 used because its prefix matches string pool constant camera
+Marking array:camera_storage_location_array:2130837534 used because its prefix matches string pool constant camera
+Marking array:camera_storage_location_default_value_array:2130837535 used because its prefix matches string pool constant camera
+Marking array:camera_video_compression_standard_name_array:2130837536 used because its prefix matches string pool constant camera
+Marking array:camera_video_format_default_value_array:2130837537 used because its prefix matches string pool constant camera
+Marking array:camera_video_format_img_array:2130837538 used because its prefix matches string pool constant camera
+Marking array:camera_video_format_name_array:2130837539 used because its prefix matches string pool constant camera
+Marking array:camera_video_fov_name_array:2130837540 used because its prefix matches string pool constant camera
+Marking array:camera_video_frame_rate_real_value_array:2130837541 used because its prefix matches string pool constant camera
+Marking array:camera_video_frame_rate_value_array:2130837542 used because its prefix matches string pool constant camera
+Marking array:camera_video_resolution_default_value_array:2130837543 used because its prefix matches string pool constant camera
+Marking array:camera_video_resolution_name_array:2130837544 used because its prefix matches string pool constant camera
+Marking array:camera_video_standard_default_value_array:2130837545 used because its prefix matches string pool constant camera
+Marking array:camera_video_standard_img_array:2130837546 used because its prefix matches string pool constant camera
+Marking array:camera_video_standard_name_array:2130837547 used because its prefix matches string pool constant camera
+Marking array:camera_white_balance_Interval_value_boundary:2130837548 used because its prefix matches string pool constant camera
+Marking array:camera_white_balance_default_value_array:2130837549 used because its prefix matches string pool constant camera
+Marking array:camera_white_balance_img_array:2130837550 used because its prefix matches string pool constant camera
+Marking array:camera_white_balance_name_array:2130837551 used because its prefix matches string pool constant camera
 Marking attr:cameraBearing:2130903116 used because its prefix matches string pool constant camera
 Marking attr:cameraMaxZoomPreference:2130903117 used because its prefix matches string pool constant camera
 Marking attr:cameraMinZoomPreference:2130903118 used because its prefix matches string pool constant camera
@@ -8244,7 +8244,7 @@ Marking layout:activity_connection:2131361821 used because its prefix matches st
 Marking layout:activity_main:2131361822 used because its prefix matches string pool constant activity
 Marking drawable:connected:2131165367 used because its prefix matches string pool constant connected
 Marking drawable:connected_status:2131165368 used because its prefix matches string pool constant connected
-Marking array:country_code_2_country_str:2130837551 used because its prefix matches string pool constant country
+Marking array:country_code_2_country_str:2130837552 used because its prefix matches string pool constant country
 Marking declare-styleable:View:-1 used because its prefix matches string pool constant View
 Marking styleable:View:-1 used because its prefix matches string pool constant View
 Marking declare-styleable:ViewBackgroundHelper:-1 used because its prefix matches string pool constant View
@@ -8255,7 +8255,7 @@ Marking id:location_section_footer:2131231108 used because its prefix matches st
 Marking id:location_section_header_text:2131231109 used because its prefix matches string pool constant location
 Marking id:none:2131231129 used because its prefix matches string pool constant none
 Marking string:connection_loose:2131624317 used because its prefix matches string pool constant connection
-Marking id:wifi_band:2131231434 used because its prefix matches string pool constant wifi
+Marking id:wifi_band:2131231435 used because its prefix matches string pool constant wifi
 Marking attr:colorPrimaryDark:2130903140 used because its prefix matches string pool constant colorPrimaryDark
 Marking color:colorPrimaryDark:2131034170 used because its prefix matches string pool constant colorPrimaryDark
 Marking attr:lineHeight:2130903287 used because its prefix matches string pool constant line
@@ -8272,7 +8272,7 @@ Marking string:remove:2131625402 used because its prefix matches string pool con
 Marking string:remove_password:2131625403 used because its prefix matches string pool constant remove
 Marking string:remove_password_failed:2131625404 used because its prefix matches string pool constant remove
 Marking string:remove_password_warning:2131625405 used because its prefix matches string pool constant remove
-Marking id:withText:2131231436 used because its prefix matches string pool constant with
+Marking id:withText:2131231437 used because its prefix matches string pool constant with
 Marking id:TextView_camera_info_title:2131230734 used because its prefix matches string pool constant TextView
 Marking id:TextView_camera_info_value:2131230735 used because its prefix matches string pool constant TextView
 Marking id:TextView_card_info_title:2131230736 used because its prefix matches string pool constant TextView
@@ -8488,8 +8488,8 @@ Marking dimen:view_simple_marginright:2131099829 used because its prefix matches
 Marking dimen:view_top_max_margin:2131099830 used because its prefix matches string pool constant view
 Marking dimen:view_top_mid_margin:2131099831 used because its prefix matches string pool constant view
 Marking dimen:view_top_min_margin:2131099832 used because its prefix matches string pool constant view
-Marking id:view_back_background:2131231399 used because its prefix matches string pool constant view
-Marking id:view_header_divider:2131231400 used because its prefix matches string pool constant view
+Marking id:view_back_background:2131231400 used because its prefix matches string pool constant view
+Marking id:view_header_divider:2131231401 used because its prefix matches string pool constant view
 Marking id:android:icon2:-1 used because its prefix matches string pool constant android
 Marking attr:android_layout_gravity:-1 used because its prefix matches string pool constant android
 Marking attr:android_minWidth:-1 used because its prefix matches string pool constant android
@@ -8626,7 +8626,7 @@ Marking dimen:item_touch_helper_swipe_escape_velocity:2131099765 used because it
 Marking id:item_separator:2131231047 used because its prefix matches string pool constant item
 Marking id:item_touch_helper_previous_elevation:2131231048 used because its prefix matches string pool constant item
 Marking attr:displayOptions:2130903162 used because its prefix matches string pool constant display
-Marking array:fonts:2130837552 used because its prefix matches string pool constant fonts
+Marking array:fonts:2130837553 used because its prefix matches string pool constant fonts
 Marking declare-styleable:Toolbar:-1 used because its prefix matches string pool constant Toolbar
 Marking styleable:Toolbar:-1 used because its prefix matches string pool constant Toolbar
 Marking string:sdk_version:2131625443 used because its prefix matches string pool constant sdk
@@ -8727,11 +8727,11 @@ Marking dimen:subtitle_corner_radius:2131099810 used because its prefix matches 
 Marking dimen:subtitle_outline_width:2131099811 used because its prefix matches string pool constant sub
 Marking dimen:subtitle_shadow_offset:2131099812 used because its prefix matches string pool constant sub
 Marking dimen:subtitle_shadow_radius:2131099813 used because its prefix matches string pool constant sub
-Marking id:submenuarrow:2131231279 used because its prefix matches string pool constant sub
-Marking id:submit_area:2131231280 used because its prefix matches string pool constant sub
-Marking id:tag_transition_group:2131231285 used because its prefix matches string pool constant tag
-Marking id:tag_unhandled_key_event_manager:2131231286 used because its prefix matches string pool constant tag
-Marking id:tag_unhandled_key_listeners:2131231287 used because its prefix matches string pool constant tag
+Marking id:submenuarrow:2131231280 used because its prefix matches string pool constant sub
+Marking id:submit_area:2131231281 used because its prefix matches string pool constant sub
+Marking id:tag_transition_group:2131231286 used because its prefix matches string pool constant tag
+Marking id:tag_unhandled_key_event_manager:2131231287 used because its prefix matches string pool constant tag
+Marking id:tag_unhandled_key_listeners:2131231288 used because its prefix matches string pool constant tag
 Resource Reference Graph:
 anim:abc_grow_fade_in_from_bottom:2130771970 => [integer:abc_config_activityDefaultDur:2131296256, integer:abc_config_activityShortDur:2131296257]
 anim:abc_popup_enter:2130771971 => [integer:abc_config_activityShortDur:2131296257]
@@ -8743,49 +8743,49 @@ anim:slide_left_in:2130771994 => [integer:translate_duration:2131296262]
 anim:slide_left_out:2130771995 => [integer:translate_duration:2131296262]
 anim:slide_right_in:2130771996 => [integer:translate_duration:2131296262]
 anim:slide_right_out:2130771997 => [integer:translate_duration:2131296262]
-array:camera_anti_flicker_img_array:2130837505 => [drawable:ic_cam_setting_scenemode_auto:2131165493, drawable:ic_advanced_more_antifliker_60hz:2131165403, drawable:ic_advanced_more_antifliker_50hz:2131165402, drawable:ic_advanced_off:2131165481]
-array:camera_anti_flicker_name_array:2130837506 => [string:camera_antiblink_auto:2131624024, string:camera_antiblink_60:2131624023, string:camera_antiblink_50:2131624022, string:off:2131625307]
-array:camera_center_point_color_array:2130837508 => [color:white:2131034269, color:centerpoint_yellow:2131034165, color:centerpoint_red:2131034164, color:centerpoint_blue:2131034162, color:centerpoint_green:2131034163, color:black:2131034143]
-array:camera_center_point_img_array:2130837509 => [drawable:ic_advanced_more_none:2131165404, drawable:ic_centerpoint_standard:2131165515, drawable:ic_centerpoint_cross:2131165509, drawable:ic_centerpoint_narrow_cross:2131165512, drawable:ic_centerpoint_frame:2131165510, drawable:ic_centerpoint_frame_and_cross:2131165511, drawable:ic_centerpoint_square:2131165513, drawable:ic_centerpoint_square_and_cross:2131165514]
-array:camera_center_point_name_array:2130837510 => [string:off:2131625307, string:center_point_standard:2131624280, string:center_point_cross:2131624274, string:center_point_narrow_cross:2131624277, string:center_point_frame:2131624275, string:center_point_frame_and_cross:2131624276, string:center_point_square:2131624278, string:center_point_square_and_cross:2131624279]
-array:camera_ei_color_type:2130837511 => [string:camera_ei_color_dlog:2131624043, string:camera_ei_color_rec709:2131624044]
-array:camera_file_index_name_array:2130837514 => [string:camera_file_index_reset:2131624060, string:camera_file_index_sequence:2131624061]
-array:camera_filter_type:2130837516 => [string:camera_filter_none:2131624088, string:camera_filter_art:2131624066, string:camera_filter_reminiscence:2131624092, string:camera_filter_inverse:2131624084, string:camera_filter_blackandwhite:2131624067, string:camera_filter_bright:2131624069, string:camera_filter_dcinelike:2131624070, string:camera_filter_Portrait:2131624064, string:camera_filter_M31:2131624063, string:camera_filter_delta:2131624071, string:camera_filter_kdx:2131624086, string:camera_filter_dk79:2131624072, string:camera_filter_prismo:2131624090, string:camera_filter_jugo:2131624085, string:camera_filter_vision4:2131624096, string:camera_filter_vision6:2131624097, string:camera_filter_truecolor:2131624094, string:camera_filter_dlog:2131624073, string:camera_filter_solarize:2131624093, string:camera_filter_posterize:2131624089, string:camera_filter_whiteboard:2131624098, string:camera_filter_blackboard:2131624068, string:camera_filter_aqua:2131624065, string:camera_filter_truecolor_ext:2131624095, string:camera_filter_film_a:2131624074, string:camera_filter_film_b:2131624075, string:camera_filter_film_c:2131624076, string:camera_filter_film_d:2131624077, string:camera_filter_film_e:2131624078, string:camera_filter_film_f:2131624079, string:camera_filter_film_g:2131624080, string:camera_filter_film_h:2131624081, string:camera_filter_film_i:2131624082, string:camera_filter_hlg:2131624083]
-array:camera_grid_img_array:2130837517 => [drawable:ic_advanced_more_none:2131165404, drawable:grid_parallel:2131165396, drawable:grid_parallel_diagonal:2131165397]
-array:camera_grid_name_array:2130837518 => [string:off:2131625307, string:parallel:2131625373, string:parallel_diagonal:2131625374]
-array:camera_peak_focus_threshold_array:2130837520 => [string:camera_peak_focus_threshold_close:2131624121, string:camera_peak_focus_threshold_low:2131624123, string:camera_peak_focus_threshold_standard:2131624124, string:camera_peak_focus_threshold_high:2131624122]
-array:camera_photo_aspect_ratio_img_array:2130837523 => [drawable:ic_photo_size_4x3:2131165583, drawable:ic_photo_size_16x9:2131165581, drawable:ic_photo_size_3x2:2131165582]
-array:camera_picture_format_array:2130837525 => [string:camera_picture_format_raw:2131624152, string:camera_picture_format_jpeg:2131624147, string:camera_picture_format_jpegraw:2131624148, string:camera_picture_format_tiff:2131624153, string:camera_picture_format_low_tiff:2131624150, string:camera_picture_format_high_tiff:2131624146, string:camera_picture_format_radiometic_jpeg:2131624151]
-array:camera_picture_format_img_res_array:2130837526 => [drawable:ic_camera_setting_raw:2131165503, drawable:ic_camera_setting_jpg:2131165501, drawable:ic_camera_setting_jr:2131165502, drawable:ic_camera_setting_tiff:2131165507, drawable:ic_camera_setting_rjpg:2131165505]
-array:camera_save_original_name_array:2130837528 => [string:camera_save_original_list_pano:2131624167, string:camera_save_original_list_hyperlapse:2131624166]
-array:camera_ssd_color_array:2130837531 => [string:camera_ssd_color_standard:2131624184, string:camera_ssd_color_dlog:2131624181, string:camera_ssd_color_rec709:2131624183, string:camera_ssd_color_cine_like:2131624180, string:camera_ssd_color_raw_color:2131624182]
-array:camera_ssd_license_type:2130837532 => [string:camera_ssd_video_license_cdng:2131624193, string:camera_ssd_video_license_422hq:2131624191, string:camera_ssd_video_license_4444xq:2131624192]
-array:camera_storage_location_array:2130837533 => [string:camera_storage_location_sd_card:2131624197, string:camera_storage_location_internal_storage:2131624196]
-array:camera_video_compression_standard_name_array:2130837535 => [string:camera_video_compression_standard_h264:2131624202, string:camera_video_compression_standard_h265:2131624203]
-array:camera_video_format_img_array:2130837537 => [drawable:ic_advanced_more_vsf_mov:2131165472, drawable:ic_advanced_more_vsf_mp4:2131165473, drawable:ic_camera_setting_tiffs:2131165508, drawable:ic_camera_setting_seq:2131165506]
-array:camera_video_format_name_array:2130837538 => [string:camera_video_format_mov:2131624207, string:camera_video_format_mp4:2131624208, string:camera_video_format_tiff_seq:2131624211, string:camera_video_format_seq:2131624210]
-array:camera_video_fov_name_array:2130837539 => [string:camera_video_resolution_hq:2131624250, string:camera_video_resolution_full_fov:2131624249]
-array:camera_video_frame_rate_real_value_array:2130837540 => [string:camera_video_frame_rate_value_24:2131624214, string:camera_video_frame_rate_value_true_24:2131624222, string:camera_video_frame_rate_value_25:2131624216, string:camera_video_frame_rate_value_30:2131624217, string:camera_video_frame_rate_value_true_30:2131624223, string:camera_video_frame_rate_value_48:2131624218, string:camera_video_frame_rate_value_true_48:2131624224, string:camera_video_frame_rate_value_50:2131624219, string:camera_video_frame_rate_value_60:2131624220, string:camera_video_frame_rate_value_true_60:2131624225, string:camera_video_frame_rate_value_96:2131624221, string:camera_video_frame_rate_value_100:2131624212, string:camera_video_frame_rate_value_120:2131624213, string:camera_video_frame_rate_value_240:2131624215]
-array:camera_video_resolution_name_array:2130837543 => [string:camera_video_resolution_640_480p:2131624245, string:camera_video_resolution_640_512p:2131624246, string:camera_video_resolution_1280_720p:2131624227, string:camera_video_resolution_1920_1080p:2131624228, string:camera_video_resolution_2704_1520p:2131624231, string:camera_video_resolution_2720_1530p:2131624232, string:camera_video_resolution_3840x1572p:2131624236, string:camera_video_resolution_3840_2160p:2131624235, string:camera_video_resolution_4096_2160p:2131624238, string:camera_video_resolution_4608x2160p:2131624239, string:camera_video_resolution_4608x2592p:2131624240, string:camera_video_resolution_5280x2160p:2131624241, string:camera_video_resolution_MaxResolution:2131624247, string:camera_video_resolution_None:2131624248, string:camera_video_resolution_5760x3240p:2131624243, string:camera_video_resolution_6016x3200p:2131624244, string:camera_video_resolution_2048x1080p:2131624229, string:camera_video_resolution_5280x2972p:2131624242, string:camera_video_resolution_336x256p:2131624233, string:camera_video_resolution_3712x2088p:2131624234, string:camera_video_resolution_3944x2088p:2131624237, string:camera_video_resolution_2688x1512p:2131624230]
-array:camera_video_standard_img_array:2130837545 => [drawable:ic_advanced_more_vt_pal:2131165474, drawable:ic_advanced_more_videotype_ntsc:2131165471]
-array:camera_video_standard_name_array:2130837546 => [string:camera_video_standard_pal:2131624255, string:camera_video_standard_ntsc:2131624254]
-array:camera_white_balance_img_array:2130837549 => [drawable:ic_advanced_more_wb_auto:2131165475, drawable:ic_advanced_more_wb_outdoor:2131165479, drawable:ic_advanced_more_wb_inhouse:2131165476, drawable:ic_advanced_more_wb_tungsten:2131165480, drawable:ic_advanced_more_wb_neon:2131165477, drawable:ic_photo_mode_custom:2131165557, drawable:ic_advanced_more_wb_neutral:2131165478]
-array:camera_white_balance_name_array:2130837550 => [string:camera_wb_auto:2131624258, string:camera_wb_outdoor:2131624265, string:camera_wb_indoor:2131624262, string:camera_wb_water:2131624269, string:camera_wb_tungsten:2131624267, string:camera_wb_neon:2131624263, string:camera_wb_custom:2131624259, string:camera_wb_neutral:2131624264]
-array:nfz_fly_warn_zone_type:2130837554 => [string:nfz_fly_zone_airports_recreational_private:2131625247, string:nfz_fly_zone_class_b:2131625248, string:nfz_fly_zone_class_c:2131625249, string:nfz_fly_zone_class_d:2131625250, string:nfz_fly_zone_class_e0:2131625251, string:nfz_fly_zone_heliports:2131625252, string:nfz_fly_zone_power_plants:2131625258, string:nfz_fly_zone_stadiums:2131625261, string:nfz_fly_zone_unpaved_airports:2131625265]
-array:nfz_fly_zone_type:2130837556 => [string:nfz_fly_zone_airport:2131625243, string:nfz_fly_zone_warning:2131625266, string:nfz_fly_zone_military:2131625253, string:nfz_fly_zone_airports_commercial:2131625244, string:nfz_fly_zone_airports_commercial_private:2131625245, string:nfz_fly_zone_airports_recreational:2131625246, string:nfz_fly_zone_airports_recreational_private:2131625247, string:nfz_fly_zone_class_b:2131625248, string:nfz_fly_zone_class_c:2131625249, string:nfz_fly_zone_class_d:2131625250, string:nfz_fly_zone_class_e0:2131625251, string:nfz_fly_zone_heliports:2131625252, string:nfz_fly_zone_national_parks:2131625254, string:nfz_fly_zone_noaa:2131625255, string:nfz_fly_zone_parcels:2131625257, string:nfz_fly_zone_power_plants:2131625258, string:nfz_fly_zone_prisons:2131625259, string:nfz_fly_zone_schools:2131625260, string:nfz_fly_zone_stadiums:2131625261, string:nfz_fly_zone_sua_prhobited:2131625262, string:nfz_fly_zone_sua_restricted:2131625263, string:nfz_fly_zone_tfrs:2131625264, string:nfz_fly_zone_nuclear_power_plant:2131625256, string:nfz_fly_zone_unpaved_airports:2131625265]
-array:pip_setting_name_array:2130837559 => [string:pip_mode_center:2131625381, string:pip_mode_right_bottom:2131625388, string:pip_mode_right_center:2131625389, string:pip_mode_right_top:2131625390, string:pip_mode_center_bottom:2131625382, string:pip_mode_center_top:2131625383, string:pip_mode_left_bottom:2131625384, string:pip_mode_left_center:2131625385, string:pip_mode_left_top:2131625386]
-array:thermal_camera_external_parameter_name_array:2130837561 => [string:thermal_camera_scene_emissivity:2131625627, string:thermal_camera_atmosphere_transmission_coefficient:2131625565, string:thermal_camera_atmosphere_temperature:2131625564, string:thermal_camera_background_temperature:2131625566, string:thermal_camera_window_transmission_coefficient:2131625647, string:thermal_camera_window_temperature:2131625646, string:thermal_camera_window_reflection:2131625645, string:thermal_camera_window_reflected_temperature:2131625644]
-array:thermal_camera_ffc_mode_name_array:2130837563 => [string:thermal_camera_ffc_mode_manual:2131625570, string:thermal_camera_ffc_mode_auto:2131625569]
-array:thermal_camera_gain_mode_name_array:2130837566 => [string:thermal_camera_gain_mode_auto:2131625572, string:thermal_camera_gain_mode_low:2131625574, string:thermal_camera_gain_mode_high:2131625573]
-array:thermal_camera_isotherm_enable_value_array:2130837568 => [string:thermal_camera_isotherm_open:2131625579, string:thermal_camera_isotherm_close:2131625576]
-array:thermal_camera_isotherm_units_name_array:2130837569 => [string:thermal_camera_isotherm_unit_percentage:2131625584, string:thermal_camera_isotherm_unit_temperature:2131625585]
-array:thermal_camera_msx_offset_title_array:2130837571 => [string:thermal_camera_x_offset_title:2131625648, string:thermal_camera_y_offset_title:2131625649]
-array:thermal_camera_palette_iso_name_array:2130837572 => [string:thermal_camera_palette_whitehot_iso:2131625619, string:thermal_camera_palette_blackhot_iso:2131625593, string:thermal_camera_palette_fusion_iso:2131625599, string:thermal_camera_palette_rainbow_iso:2131625613, string:thermal_camera_palette_ironbow_iso:2131625609, string:thermal_camera_palette_icefire_iso:2131625605, string:thermal_camera_palette_sepia_iso:2131625617, string:thermal_camera_palette_globow_iso:2131625600, string:thermal_camera_palette_ironbow2_iso:2131625608, string:thermal_camera_palette_color1_iso:2131625594, string:thermal_camera_palette_color2_iso:2131625595, string:thermal_camera_palette_rain_iso:2131625611, string:thermal_camera_palette_redhot_iso:2131625615, string:thermal_camera_palette_greenhot_iso:2131625603, string:thermal_camera_palette_arcticblackhot_iso:2131625591]
-array:thermal_camera_palette_name_array:2130837573 => [string:thermal_camera_palette_white_hot:2131625618, string:thermal_camera_palette_black_hot:2131625592, string:thermal_camera_palette_fusion:2131625598, string:thermal_camera_palette_rainbow:2131625612, string:thermal_camera_palette_iron_bow_1:2131625606, string:thermal_camera_palette_ice_fire:2131625604, string:thermal_camera_palette_sepia:2131625616, string:thermal_camera_palette_glow_bow:2131625601, string:thermal_camera_palette_iron_bow_2:2131625607, string:thermal_camera_palette_color_1:2131625596, string:thermal_camera_palette_color_2:2131625597, string:thermal_camera_palette_rain:2131625610, string:thermal_camera_palette_red_hot:2131625614, string:thermal_camera_palette_green_hot:2131625602, string:thermal_camera_palette_arctic:2131625590]
-array:thermal_camera_roi_name_array:2130837576 => [string:thermal_camera_roi_full:2131625622, string:thermal_camera_roi_sky_excluded_33:2131625623, string:thermal_camera_roi_sky_excluded_50:2131625624]
-array:thermal_camera_scene_name_array:2130837578 => [string:thermal_camera_scene_linear:2131625629, string:thermal_camera_scene_default:2131625626, string:thermal_camera_scene_sea_sky:2131625635, string:thermal_camera_scene_outdoor:2131625631, string:thermal_camera_scene_indoor:2131625628, string:thermal_camera_scene_manual:2131625630, string:thermal_camera_scene_profile_1:2131625632, string:thermal_camera_scene_profile_2:2131625633, string:thermal_camera_scene_profile_3:2131625634]
-array:thermal_camera_temp_alert_enable_value_array:2130837580 => [string:thermal_camera_temp_alert_open:2131625638, string:thermal_camera_temp_alert_close:2131625637]
-array:thermal_camera_version_array:2130837581 => [string:thermal_camera_version_standard:2131625643, string:thermal_camera_version_advanced:2131625642]
+array:camera_anti_flicker_img_array:2130837506 => [drawable:ic_cam_setting_scenemode_auto:2131165493, drawable:ic_advanced_more_antifliker_60hz:2131165403, drawable:ic_advanced_more_antifliker_50hz:2131165402, drawable:ic_advanced_off:2131165481]
+array:camera_anti_flicker_name_array:2130837507 => [string:camera_antiblink_auto:2131624024, string:camera_antiblink_60:2131624023, string:camera_antiblink_50:2131624022, string:off:2131625307]
+array:camera_center_point_color_array:2130837509 => [color:white:2131034269, color:centerpoint_yellow:2131034165, color:centerpoint_red:2131034164, color:centerpoint_blue:2131034162, color:centerpoint_green:2131034163, color:black:2131034143]
+array:camera_center_point_img_array:2130837510 => [drawable:ic_advanced_more_none:2131165404, drawable:ic_centerpoint_standard:2131165515, drawable:ic_centerpoint_cross:2131165509, drawable:ic_centerpoint_narrow_cross:2131165512, drawable:ic_centerpoint_frame:2131165510, drawable:ic_centerpoint_frame_and_cross:2131165511, drawable:ic_centerpoint_square:2131165513, drawable:ic_centerpoint_square_and_cross:2131165514]
+array:camera_center_point_name_array:2130837511 => [string:off:2131625307, string:center_point_standard:2131624280, string:center_point_cross:2131624274, string:center_point_narrow_cross:2131624277, string:center_point_frame:2131624275, string:center_point_frame_and_cross:2131624276, string:center_point_square:2131624278, string:center_point_square_and_cross:2131624279]
+array:camera_ei_color_type:2130837512 => [string:camera_ei_color_dlog:2131624043, string:camera_ei_color_rec709:2131624044]
+array:camera_file_index_name_array:2130837515 => [string:camera_file_index_reset:2131624060, string:camera_file_index_sequence:2131624061]
+array:camera_filter_type:2130837517 => [string:camera_filter_none:2131624088, string:camera_filter_art:2131624066, string:camera_filter_reminiscence:2131624092, string:camera_filter_inverse:2131624084, string:camera_filter_blackandwhite:2131624067, string:camera_filter_bright:2131624069, string:camera_filter_dcinelike:2131624070, string:camera_filter_Portrait:2131624064, string:camera_filter_M31:2131624063, string:camera_filter_delta:2131624071, string:camera_filter_kdx:2131624086, string:camera_filter_dk79:2131624072, string:camera_filter_prismo:2131624090, string:camera_filter_jugo:2131624085, string:camera_filter_vision4:2131624096, string:camera_filter_vision6:2131624097, string:camera_filter_truecolor:2131624094, string:camera_filter_dlog:2131624073, string:camera_filter_solarize:2131624093, string:camera_filter_posterize:2131624089, string:camera_filter_whiteboard:2131624098, string:camera_filter_blackboard:2131624068, string:camera_filter_aqua:2131624065, string:camera_filter_truecolor_ext:2131624095, string:camera_filter_film_a:2131624074, string:camera_filter_film_b:2131624075, string:camera_filter_film_c:2131624076, string:camera_filter_film_d:2131624077, string:camera_filter_film_e:2131624078, string:camera_filter_film_f:2131624079, string:camera_filter_film_g:2131624080, string:camera_filter_film_h:2131624081, string:camera_filter_film_i:2131624082, string:camera_filter_hlg:2131624083]
+array:camera_grid_img_array:2130837518 => [drawable:ic_advanced_more_none:2131165404, drawable:grid_parallel:2131165396, drawable:grid_parallel_diagonal:2131165397]
+array:camera_grid_name_array:2130837519 => [string:off:2131625307, string:parallel:2131625373, string:parallel_diagonal:2131625374]
+array:camera_peak_focus_threshold_array:2130837521 => [string:camera_peak_focus_threshold_close:2131624121, string:camera_peak_focus_threshold_low:2131624123, string:camera_peak_focus_threshold_standard:2131624124, string:camera_peak_focus_threshold_high:2131624122]
+array:camera_photo_aspect_ratio_img_array:2130837524 => [drawable:ic_photo_size_4x3:2131165583, drawable:ic_photo_size_16x9:2131165581, drawable:ic_photo_size_3x2:2131165582]
+array:camera_picture_format_array:2130837526 => [string:camera_picture_format_raw:2131624152, string:camera_picture_format_jpeg:2131624147, string:camera_picture_format_jpegraw:2131624148, string:camera_picture_format_tiff:2131624153, string:camera_picture_format_low_tiff:2131624150, string:camera_picture_format_high_tiff:2131624146, string:camera_picture_format_radiometic_jpeg:2131624151]
+array:camera_picture_format_img_res_array:2130837527 => [drawable:ic_camera_setting_raw:2131165503, drawable:ic_camera_setting_jpg:2131165501, drawable:ic_camera_setting_jr:2131165502, drawable:ic_camera_setting_tiff:2131165507, drawable:ic_camera_setting_rjpg:2131165505]
+array:camera_save_original_name_array:2130837529 => [string:camera_save_original_list_pano:2131624167, string:camera_save_original_list_hyperlapse:2131624166]
+array:camera_ssd_color_array:2130837532 => [string:camera_ssd_color_standard:2131624184, string:camera_ssd_color_dlog:2131624181, string:camera_ssd_color_rec709:2131624183, string:camera_ssd_color_cine_like:2131624180, string:camera_ssd_color_raw_color:2131624182]
+array:camera_ssd_license_type:2130837533 => [string:camera_ssd_video_license_cdng:2131624193, string:camera_ssd_video_license_422hq:2131624191, string:camera_ssd_video_license_4444xq:2131624192]
+array:camera_storage_location_array:2130837534 => [string:camera_storage_location_sd_card:2131624197, string:camera_storage_location_internal_storage:2131624196]
+array:camera_video_compression_standard_name_array:2130837536 => [string:camera_video_compression_standard_h264:2131624202, string:camera_video_compression_standard_h265:2131624203]
+array:camera_video_format_img_array:2130837538 => [drawable:ic_advanced_more_vsf_mov:2131165472, drawable:ic_advanced_more_vsf_mp4:2131165473, drawable:ic_camera_setting_tiffs:2131165508, drawable:ic_camera_setting_seq:2131165506]
+array:camera_video_format_name_array:2130837539 => [string:camera_video_format_mov:2131624207, string:camera_video_format_mp4:2131624208, string:camera_video_format_tiff_seq:2131624211, string:camera_video_format_seq:2131624210]
+array:camera_video_fov_name_array:2130837540 => [string:camera_video_resolution_hq:2131624250, string:camera_video_resolution_full_fov:2131624249]
+array:camera_video_frame_rate_real_value_array:2130837541 => [string:camera_video_frame_rate_value_24:2131624214, string:camera_video_frame_rate_value_true_24:2131624222, string:camera_video_frame_rate_value_25:2131624216, string:camera_video_frame_rate_value_30:2131624217, string:camera_video_frame_rate_value_true_30:2131624223, string:camera_video_frame_rate_value_48:2131624218, string:camera_video_frame_rate_value_true_48:2131624224, string:camera_video_frame_rate_value_50:2131624219, string:camera_video_frame_rate_value_60:2131624220, string:camera_video_frame_rate_value_true_60:2131624225, string:camera_video_frame_rate_value_96:2131624221, string:camera_video_frame_rate_value_100:2131624212, string:camera_video_frame_rate_value_120:2131624213, string:camera_video_frame_rate_value_240:2131624215]
+array:camera_video_resolution_name_array:2130837544 => [string:camera_video_resolution_640_480p:2131624245, string:camera_video_resolution_640_512p:2131624246, string:camera_video_resolution_1280_720p:2131624227, string:camera_video_resolution_1920_1080p:2131624228, string:camera_video_resolution_2704_1520p:2131624231, string:camera_video_resolution_2720_1530p:2131624232, string:camera_video_resolution_3840x1572p:2131624236, string:camera_video_resolution_3840_2160p:2131624235, string:camera_video_resolution_4096_2160p:2131624238, string:camera_video_resolution_4608x2160p:2131624239, string:camera_video_resolution_4608x2592p:2131624240, string:camera_video_resolution_5280x2160p:2131624241, string:camera_video_resolution_MaxResolution:2131624247, string:camera_video_resolution_None:2131624248, string:camera_video_resolution_5760x3240p:2131624243, string:camera_video_resolution_6016x3200p:2131624244, string:camera_video_resolution_2048x1080p:2131624229, string:camera_video_resolution_5280x2972p:2131624242, string:camera_video_resolution_336x256p:2131624233, string:camera_video_resolution_3712x2088p:2131624234, string:camera_video_resolution_3944x2088p:2131624237, string:camera_video_resolution_2688x1512p:2131624230]
+array:camera_video_standard_img_array:2130837546 => [drawable:ic_advanced_more_vt_pal:2131165474, drawable:ic_advanced_more_videotype_ntsc:2131165471]
+array:camera_video_standard_name_array:2130837547 => [string:camera_video_standard_pal:2131624255, string:camera_video_standard_ntsc:2131624254]
+array:camera_white_balance_img_array:2130837550 => [drawable:ic_advanced_more_wb_auto:2131165475, drawable:ic_advanced_more_wb_outdoor:2131165479, drawable:ic_advanced_more_wb_inhouse:2131165476, drawable:ic_advanced_more_wb_tungsten:2131165480, drawable:ic_advanced_more_wb_neon:2131165477, drawable:ic_photo_mode_custom:2131165557, drawable:ic_advanced_more_wb_neutral:2131165478]
+array:camera_white_balance_name_array:2130837551 => [string:camera_wb_auto:2131624258, string:camera_wb_outdoor:2131624265, string:camera_wb_indoor:2131624262, string:camera_wb_water:2131624269, string:camera_wb_tungsten:2131624267, string:camera_wb_neon:2131624263, string:camera_wb_custom:2131624259, string:camera_wb_neutral:2131624264]
+array:nfz_fly_warn_zone_type:2130837555 => [string:nfz_fly_zone_airports_recreational_private:2131625247, string:nfz_fly_zone_class_b:2131625248, string:nfz_fly_zone_class_c:2131625249, string:nfz_fly_zone_class_d:2131625250, string:nfz_fly_zone_class_e0:2131625251, string:nfz_fly_zone_heliports:2131625252, string:nfz_fly_zone_power_plants:2131625258, string:nfz_fly_zone_stadiums:2131625261, string:nfz_fly_zone_unpaved_airports:2131625265]
+array:nfz_fly_zone_type:2130837557 => [string:nfz_fly_zone_airport:2131625243, string:nfz_fly_zone_warning:2131625266, string:nfz_fly_zone_military:2131625253, string:nfz_fly_zone_airports_commercial:2131625244, string:nfz_fly_zone_airports_commercial_private:2131625245, string:nfz_fly_zone_airports_recreational:2131625246, string:nfz_fly_zone_airports_recreational_private:2131625247, string:nfz_fly_zone_class_b:2131625248, string:nfz_fly_zone_class_c:2131625249, string:nfz_fly_zone_class_d:2131625250, string:nfz_fly_zone_class_e0:2131625251, string:nfz_fly_zone_heliports:2131625252, string:nfz_fly_zone_national_parks:2131625254, string:nfz_fly_zone_noaa:2131625255, string:nfz_fly_zone_parcels:2131625257, string:nfz_fly_zone_power_plants:2131625258, string:nfz_fly_zone_prisons:2131625259, string:nfz_fly_zone_schools:2131625260, string:nfz_fly_zone_stadiums:2131625261, string:nfz_fly_zone_sua_prhobited:2131625262, string:nfz_fly_zone_sua_restricted:2131625263, string:nfz_fly_zone_tfrs:2131625264, string:nfz_fly_zone_nuclear_power_plant:2131625256, string:nfz_fly_zone_unpaved_airports:2131625265]
+array:pip_setting_name_array:2130837560 => [string:pip_mode_center:2131625381, string:pip_mode_right_bottom:2131625388, string:pip_mode_right_center:2131625389, string:pip_mode_right_top:2131625390, string:pip_mode_center_bottom:2131625382, string:pip_mode_center_top:2131625383, string:pip_mode_left_bottom:2131625384, string:pip_mode_left_center:2131625385, string:pip_mode_left_top:2131625386]
+array:thermal_camera_external_parameter_name_array:2130837562 => [string:thermal_camera_scene_emissivity:2131625627, string:thermal_camera_atmosphere_transmission_coefficient:2131625565, string:thermal_camera_atmosphere_temperature:2131625564, string:thermal_camera_background_temperature:2131625566, string:thermal_camera_window_transmission_coefficient:2131625647, string:thermal_camera_window_temperature:2131625646, string:thermal_camera_window_reflection:2131625645, string:thermal_camera_window_reflected_temperature:2131625644]
+array:thermal_camera_ffc_mode_name_array:2130837564 => [string:thermal_camera_ffc_mode_manual:2131625570, string:thermal_camera_ffc_mode_auto:2131625569]
+array:thermal_camera_gain_mode_name_array:2130837567 => [string:thermal_camera_gain_mode_auto:2131625572, string:thermal_camera_gain_mode_low:2131625574, string:thermal_camera_gain_mode_high:2131625573]
+array:thermal_camera_isotherm_enable_value_array:2130837569 => [string:thermal_camera_isotherm_open:2131625579, string:thermal_camera_isotherm_close:2131625576]
+array:thermal_camera_isotherm_units_name_array:2130837570 => [string:thermal_camera_isotherm_unit_percentage:2131625584, string:thermal_camera_isotherm_unit_temperature:2131625585]
+array:thermal_camera_msx_offset_title_array:2130837572 => [string:thermal_camera_x_offset_title:2131625648, string:thermal_camera_y_offset_title:2131625649]
+array:thermal_camera_palette_iso_name_array:2130837573 => [string:thermal_camera_palette_whitehot_iso:2131625619, string:thermal_camera_palette_blackhot_iso:2131625593, string:thermal_camera_palette_fusion_iso:2131625599, string:thermal_camera_palette_rainbow_iso:2131625613, string:thermal_camera_palette_ironbow_iso:2131625609, string:thermal_camera_palette_icefire_iso:2131625605, string:thermal_camera_palette_sepia_iso:2131625617, string:thermal_camera_palette_globow_iso:2131625600, string:thermal_camera_palette_ironbow2_iso:2131625608, string:thermal_camera_palette_color1_iso:2131625594, string:thermal_camera_palette_color2_iso:2131625595, string:thermal_camera_palette_rain_iso:2131625611, string:thermal_camera_palette_redhot_iso:2131625615, string:thermal_camera_palette_greenhot_iso:2131625603, string:thermal_camera_palette_arcticblackhot_iso:2131625591]
+array:thermal_camera_palette_name_array:2130837574 => [string:thermal_camera_palette_white_hot:2131625618, string:thermal_camera_palette_black_hot:2131625592, string:thermal_camera_palette_fusion:2131625598, string:thermal_camera_palette_rainbow:2131625612, string:thermal_camera_palette_iron_bow_1:2131625606, string:thermal_camera_palette_ice_fire:2131625604, string:thermal_camera_palette_sepia:2131625616, string:thermal_camera_palette_glow_bow:2131625601, string:thermal_camera_palette_iron_bow_2:2131625607, string:thermal_camera_palette_color_1:2131625596, string:thermal_camera_palette_color_2:2131625597, string:thermal_camera_palette_rain:2131625610, string:thermal_camera_palette_red_hot:2131625614, string:thermal_camera_palette_green_hot:2131625602, string:thermal_camera_palette_arctic:2131625590]
+array:thermal_camera_roi_name_array:2130837577 => [string:thermal_camera_roi_full:2131625622, string:thermal_camera_roi_sky_excluded_33:2131625623, string:thermal_camera_roi_sky_excluded_50:2131625624]
+array:thermal_camera_scene_name_array:2130837579 => [string:thermal_camera_scene_linear:2131625629, string:thermal_camera_scene_default:2131625626, string:thermal_camera_scene_sea_sky:2131625635, string:thermal_camera_scene_outdoor:2131625631, string:thermal_camera_scene_indoor:2131625628, string:thermal_camera_scene_manual:2131625630, string:thermal_camera_scene_profile_1:2131625632, string:thermal_camera_scene_profile_2:2131625633, string:thermal_camera_scene_profile_3:2131625634]
+array:thermal_camera_temp_alert_enable_value_array:2130837581 => [string:thermal_camera_temp_alert_open:2131625638, string:thermal_camera_temp_alert_close:2131625637]
+array:thermal_camera_version_array:2130837582 => [string:thermal_camera_version_standard:2131625643, string:thermal_camera_version_advanced:2131625642]
 color:abc_background_cache_hint_selector_material_dark:2131034112 => [color:background_material_dark:2131034141]
 color:abc_background_cache_hint_selector_material_light:2131034113 => [color:background_material_light:2131034142]
 color:abc_btn_colored_borderless_text_material:2131034114 => [attr:colorAccent:2130903132]
@@ -8990,9 +8990,9 @@ layout:abc_alert_dialog_title_material:2131361802 => [attr:dialogPreferredPaddin
 layout:abc_cascading_menu_item_layout:2131361803 => [drawable:abc_list_divider_material:2131165224, attr:dropdownListPreferredItemHeight:2130903170, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131689656, attr:textAppearanceLargePopupMenu:2130903441, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Title:2131689661, attr:textAppearanceSmallPopupMenu:2130903448, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Shortcut:2131689658, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131689659]
 layout:abc_dialog_title_material:2131361804 => [attr:dialogPreferredPadding:2130903160, dimen:abc_dialog_padding_top_material:2131099685, layout:abc_screen_content_include:2131361812]
 layout:abc_expanded_menu_layout:2131361805 => [attr:panelMenuListWidth:2130903380]
-layout:abc_list_menu_item_layout:2131361808 => [attr:listPreferredItemHeightSmall:2130903296, attr:listPreferredItemPaddingLeft:2130903297, attr:listPreferredItemPaddingRight:2130903298, attr:textAppearanceListItemSmall:2130903444, id:title:2131231369]
+layout:abc_list_menu_item_layout:2131361808 => [attr:listPreferredItemHeightSmall:2130903296, attr:listPreferredItemPaddingLeft:2130903297, attr:listPreferredItemPaddingRight:2130903298, attr:textAppearanceListItemSmall:2130903444, id:title:2131231370]
 layout:abc_popup_menu_header_item_layout:2131361810 => [attr:dropdownListPreferredItemHeight:2130903170, attr:textAppearancePopupMenuHeader:2130903445]
-layout:abc_popup_menu_item_layout:2131361811 => [drawable:abc_list_divider_material:2131165224, attr:dropdownListPreferredItemHeight:2130903170, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131689656, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131689657, attr:textAppearanceLargePopupMenu:2130903441, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131689660, id:title:2131231369, attr:textAppearanceSmallPopupMenu:2130903448, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131689659]
+layout:abc_popup_menu_item_layout:2131361811 => [drawable:abc_list_divider_material:2131165224, attr:dropdownListPreferredItemHeight:2130903170, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131689656, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131689657, attr:textAppearanceLargePopupMenu:2130903441, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131689660, id:title:2131231370, attr:textAppearanceSmallPopupMenu:2130903448, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_SubmenuArrow:2131689659]
 layout:abc_screen_content_include:2131361812 => [id:action_bar_activity_content:2131230745]
 layout:abc_screen_simple:2131361813 => [id:action_mode_bar:2131230758, layout:abc_action_mode_bar:2131361796, layout:abc_screen_content_include:2131361812]
 layout:abc_screen_simple_overlay_action_mode:2131361814 => [layout:abc_screen_content_include:2131361812, id:action_mode_bar:2131230758, layout:abc_action_mode_bar:2131361796]
@@ -9002,7 +9002,7 @@ layout:abc_search_view:2131361817 => [string:abc_searchview_description_search:2
 layout:abc_select_dialog_material:2131361818 => [attr:listDividerAlertDialog:2130903289, dimen:abc_dialog_list_padding_bottom_no_buttons:2131099680, dimen:abc_dialog_list_padding_top_no_title:2131099681, style:Widget_AppCompat_ListView:2131689809]
 layout:abc_tooltip:2131361819 => [attr:tooltipFrameBackground:2130903476, dimen:tooltip_margin:2131099822, dimen:tooltip_vertical_padding:2131099825, dimen:tooltip_horizontal_padding:2131099821, style:TextAppearance_AppCompat_Tooltip:2131689698, attr:tooltipForegroundColor:2130903475]
 layout:action_confirmation_view:2131361820 => [string:app_alert:2131623996, color:white:2131034269, color:lighter_gray:2131034214, dimen:buttonsize_height:2131099726, drawable:dlg_btn_bg:2131165375, string:app_cancel:2131623997, dimen:text_size_normal_medium:2131099817, color:white_medium_transparent:2131034275, string:app_name:2131624000, string:app_ok:2131624005]
-layout:activity_connection:2131361821 => [id:text_product_info:2131231305, string:product_information:2131625397, string:model_not_available:2131625027, drawable:round_btn:2131165772, color:colorWhite:2131034171, color:colorBlack:2131034167]
+layout:activity_connection:2131361821 => [id:text_product_info:2131231306, string:product_information:2131625397, string:model_not_available:2131625027, drawable:round_btn:2131165772, color:colorWhite:2131034171, color:colorBlack:2131034167]
 layout:activity_main:2131361822 => [color:title_dark:2131034264, color:colorWhite:2131034171, color:dark_gray:2131034186, id:signal:2131231236, id:camera:2131230802, color:transparent:2131034267, id:CameraCapturePanel:2131230723]
 layout:audio_file_item:2131361823 => [drawable:ic_fpv_speaker_play:2131165537, drawable:settings_speaker_delete:2131165830, color:white:2131034269]
 layout:dashboard_compass:2131361825 => [drawable:compass_info_bar_background:2131165364]
@@ -9017,7 +9017,7 @@ layout:expandable_view_child_button:2131361834 => [drawable:selector_camera_chil
 layout:expandable_view_group:2131361837 => [drawable:selector_list_item:2131165810, color:camera_settings_text_color:2131034161, drawable:shape_camera_value_normal:2131165831]
 layout:gimbal_control_point:2131361838 => [drawable:visual_gimbal_control_point:2131165847, drawable:visual_gimbal_control_move:2131165846, drawable:visual_gimbal_control_arrow:2131165845]
 layout:header_view:2131361839 => [drawable:selector_arrow_button:2131165788, color:light_gray:2131034213]
-layout:layout_manual_focus_widget:2131361840 => [drawable:focus_wheel_bg:2131165387, drawable:macro:2131165650, id:vertical_wheel_max:2131231397, id:vertical_wheel_min:2131231398, drawable:infinity:2131165629, drawable:white_round_bg:2131165849]
+layout:layout_manual_focus_widget:2131361840 => [drawable:focus_wheel_bg:2131165387, drawable:macro:2131165650, id:vertical_wheel_max:2131231398, id:vertical_wheel_min:2131231399, drawable:infinity:2131165629, drawable:white_round_bg:2131165849]
 layout:layout_terms_view:2131361841 => [string:adsb_terms_content:2131623977, color:white:2131034269, string:never_show:2131625242]
 layout:list_color_picker_item_view:2131361842 => [drawable:selector_text:2131165823, drawable:centerpoint_color_white:2131165342, drawable:centerpoint_color_yellow:2131165343, drawable:centerpoint_color_red:2131165341, drawable:centerpoint_color_blue:2131165339, drawable:centerpoint_color_green:2131165340, drawable:centerpoint_color_black:2131165338, color:gray_divider_line:2131034201]
 layout:list_item_view:2131361843 => [color:camera_settings_text_color:2131034161, drawable:selector_right_arrow_button:2131165818, color:white_half:2131034274, drawable:shape_camera_value_normal:2131165831, color:gray_divider_line:2131034201]
@@ -9041,9 +9041,9 @@ layout:notification_template_media:2131361863 => [dimen:notification_large_icon_
 layout:notification_template_media_custom:2131361864 => [dimen:notification_large_icon_height:2131099777, dimen:notification_large_icon_width:2131099778, layout:notification_template_icon_group:2131361861, id:cancel_action:2131230847, dimen:notification_main_column_padding_top:2131099779, dimen:notification_content_margin_start:2131099776, dimen:notification_right_side_padding_top:2131099782, style:TextAppearance_Compat_Notification_Time_Media:2131689725, style:TextAppearance_Compat_Notification_Info_Media:2131689720, layout:notification_media_cancel_action:2131361855]
 layout:notification_template_part_chronometer:2131361865 => [style:TextAppearance_Compat_Notification_Time:2131689724]
 layout:notification_template_part_time:2131361866 => [style:TextAppearance_Compat_Notification_Time:2131689724]
-layout:panel_simulator:2131361867 => [drawable:radius_corner_bg:2131165766, drawable:ic_simulator_panel:2131165590, dimen:dp_5_in_sw320dp:2131099747, dimen:dp_120_in_sw320dp:2131099741, string:simulator_widget_title:2131625480, color:white:2131034269, id:simulator_title:2131231242, color:lighter_gray:2131034214, dimen:dp_10_in_sw320dp:2131099740, string:simulator_position_title:2131625465, id:location_section_header_text:2131231109, dimen:simulator_textview_height:2131099808, string:simulator_widget_lat:2131625474, color:white_80_percent:2131034272, drawable:simulator_row_background:2131165832, id:lbl_simulator_lat:2131231058, dimen:dp_140_in_sw320dp:2131099742, color:blue:2131034148, string:simulator_widget_lng:2131625475, id:val_simulator_lat:2131231390, id:lbl_simulator_lng:2131231059, id:edit_text_simulator_lat:2131230907, string:simulator_widget_satellite:2131625479, id:val_simulator_lng:2131231391, id:lbl_simulator_sat:2131231063, id:edit_text_simulator_lng:2131230908, string:simulator_widget_frequency:2131625473, id:val_simulator_sat:2131231393, id:lbl_simulator_frequency:2131231057, id:edit_text_satellite_count:2131230906, string:simulator_widget_world_x:2131625481, id:lbl_simulator_world_X:2131231064, string:simulator_null_string:2131625464, string:simulator_widget_world_y:2131625482, id:val_simulator_world_X:2131231394, id:lbl_simulator_world_Y:2131231065, string:simulator_widget_world_z:2131625483, id:val_simulator_world_Y:2131231395, id:lbl_simulator_world_Z:2131231066, string:simulator_aircraft_status_title:2131625460, id:status_section_header_text:2131231277, string:simulator_widget_motor_started:2131625476, id:lbl_simulator_motors:2131231060, string:simulator_widget_flying_state:2131625472, id:val_simulator_motors:2131231392, id:lbl_simulator_aircraft_flying:2131231056, id:val_simulator_aircraft_flying:2131231385, string:simulator_attitude_title:2131625462, id:attitude_section_header_text:2131230776, string:simulator_widget_roll:2131625478, id:lbl_simulator_pitch:2131231061, string:simulator_widget_yaw:2131625484, id:val_simulator_aircraft_pitch:2131231386, id:lbl_simulator_yaw:2131231067, id:val_simulator_aircraft_yaw:2131231388, id:lbl_simulator_roll:2131231062, id:val_simulator_aircraft_roll:2131231387, string:simulator_aircraft_wind_title:2131625461, drawable:button_minus:2131165299, drawable:button_plus:2131165300, string:simulator_preset:2131625466, string:app_save:2131624008]
+layout:panel_simulator:2131361867 => [drawable:radius_corner_bg:2131165766, drawable:ic_simulator_panel:2131165590, dimen:dp_5_in_sw320dp:2131099747, dimen:dp_120_in_sw320dp:2131099741, string:simulator_widget_title:2131625480, color:white:2131034269, id:simulator_title:2131231242, color:lighter_gray:2131034214, dimen:dp_10_in_sw320dp:2131099740, string:simulator_position_title:2131625465, id:location_section_header_text:2131231109, dimen:simulator_textview_height:2131099808, string:simulator_widget_lat:2131625474, color:white_80_percent:2131034272, drawable:simulator_row_background:2131165832, id:lbl_simulator_lat:2131231058, dimen:dp_140_in_sw320dp:2131099742, color:blue:2131034148, string:simulator_widget_lng:2131625475, id:val_simulator_lat:2131231391, id:lbl_simulator_lng:2131231059, id:edit_text_simulator_lat:2131230907, string:simulator_widget_satellite:2131625479, id:val_simulator_lng:2131231392, id:lbl_simulator_sat:2131231063, id:edit_text_simulator_lng:2131230908, string:simulator_widget_frequency:2131625473, id:val_simulator_sat:2131231394, id:lbl_simulator_frequency:2131231057, id:edit_text_satellite_count:2131230906, string:simulator_widget_world_x:2131625481, id:lbl_simulator_world_X:2131231064, string:simulator_null_string:2131625464, string:simulator_widget_world_y:2131625482, id:val_simulator_world_X:2131231395, id:lbl_simulator_world_Y:2131231065, string:simulator_widget_world_z:2131625483, id:val_simulator_world_Y:2131231396, id:lbl_simulator_world_Z:2131231066, string:simulator_aircraft_status_title:2131625460, id:status_section_header_text:2131231278, string:simulator_widget_motor_started:2131625476, id:lbl_simulator_motors:2131231060, string:simulator_widget_flying_state:2131625472, id:val_simulator_motors:2131231393, id:lbl_simulator_aircraft_flying:2131231056, id:val_simulator_aircraft_flying:2131231386, string:simulator_attitude_title:2131625462, id:attitude_section_header_text:2131230776, string:simulator_widget_roll:2131625478, id:lbl_simulator_pitch:2131231061, string:simulator_widget_yaw:2131625484, id:val_simulator_aircraft_pitch:2131231387, id:lbl_simulator_yaw:2131231067, id:val_simulator_aircraft_yaw:2131231389, id:lbl_simulator_roll:2131231062, id:val_simulator_aircraft_roll:2131231388, string:simulator_aircraft_wind_title:2131625461, drawable:button_minus:2131165299, drawable:button_plus:2131165300, string:simulator_preset:2131625466, string:app_save:2131624008]
 layout:panel_speaker:2131361868 => [string:speaker_panel_header:2131625489, color:white:2131034269, string:speaker_panel_volume:2131625496, dimen:view_top_min_margin:2131099832, drawable:seekbar_progress:2131165787, drawable:seek_thumb_enabled:2131165786, drawable:speaker_panel_broadcast_tab_selector:2131165833, string:speaker_panel_broadcast:2131625488, drawable:speaker_panel_local_file_tab_selector:2131165834, string:speaker_panel_local_audio:2131625491, color:transparent:2131034267, drawable:close_btn:2131165344, string:speaker_panel_temporary_switch:2131625495, string:speaker_panel_play_instant_switch:2131625492, drawable:fpv_speaker_record:2131165391, string:speaker_panel_tap_to_record:2131625494, string:speaker_panel_play_repeat_mode:2131625493]
-layout:panel_spotlight:2131361869 => [dimen:dp_5_in_sw320dp:2131099747, string:spotlight_settings:2131625503, color:white:2131034269, dimen:text_size_normal_medium:2131099817, color:gray_divider_line:2131034201, id:divider:2131230901, string:spotlight_temperature:2131625504, dimen:text_size_normal:2131099816, string:spotlight_temperature_value:2131625505, string:enabled:2131624732, string:spotlight_brightness:2131625500, id:spotlight_brightness_title:2131231249, dimen:dp_10_in_sw320dp:2131099740, string:spotlight_brightness_warning:2131625502, id:spotlight_brightness_warning:2131231251, string:spotlight_brightness_value:2131625501, id:spotlight_brightness_value:2131231250, dimen:view_top_min_margin:2131099832, drawable:seekbar_progress:2131165787, drawable:seek_thumb_enabled:2131165786]
+layout:panel_spotlight:2131361869 => [dimen:dp_5_in_sw320dp:2131099747, string:spotlight_settings:2131625503, color:white:2131034269, dimen:text_size_normal_medium:2131099817, color:gray_divider_line:2131034201, id:divider:2131230901, string:spotlight_temperature:2131625504, dimen:text_size_normal:2131099816, string:spotlight_temperature_value:2131625505, string:enabled:2131624732, string:spotlight_brightness:2131625500, id:spotlight_brightness_title:2131231250, dimen:dp_10_in_sw320dp:2131099740, string:spotlight_brightness_warning:2131625502, id:spotlight_brightness_warning:2131231252, string:spotlight_brightness_value:2131625501, id:spotlight_brightness_value:2131231251, dimen:view_top_min_margin:2131099832, drawable:seekbar_progress:2131165787, drawable:seek_thumb_enabled:2131165786]
 layout:place_autocomplete_fragment:2131361870 => [string:place_autocomplete_search_hint:2131625393, dimen:place_autocomplete_button_padding:2131099793, drawable:places_ic_search:2131165699, color:place_autocomplete_search_text:2131034238, color:place_autocomplete_search_hint:2131034237, string:place_autocomplete_clear_button:2131625392, drawable:places_ic_clear:2131165698]
 layout:place_autocomplete_item_powered_by_google:2131361871 => [color:place_autocomplete_separator:2131034239, dimen:place_autocomplete_separator_start:2131099802, id:place_autocomplete_separator:2131231150, dimen:place_autocomplete_progress_size:2131099801, dimen:place_autocomplete_progress_horizontal_margin:2131099800, layout:place_autocomplete_progress:2131361873, dimen:place_autocomplete_powered_by_google_height:2131099794, dimen:place_autocomplete_powered_by_google_start:2131099795, id:place_autocomplete_progress:2131231147, drawable:powered_by_google_light:2131165703]
 layout:place_autocomplete_item_prediction:2131361872 => [dimen:place_autocomplete_prediction_height:2131099796, dimen:place_autocomplete_progress_size:2131099801, dimen:place_autocomplete_progress_horizontal_margin:2131099800, layout:place_autocomplete_progress:2131361873, id:place_autocomplete_separator:2131231150, dimen:place_autocomplete_prediction_horizontal_margin:2131099797, id:place_autocomplete_progress:2131231147, color:place_autocomplete_prediction_primary_text:2131034234, dimen:place_autocomplete_prediction_primary_text:2131099798, color:place_autocomplete_prediction_secondary_text:2131034236, dimen:place_autocomplete_prediction_secondary_text:2131099799]
@@ -9053,7 +9053,7 @@ layout:seek_bar:2131361876 => [drawable:selector_slider_bar_track:2131165820, co
 layout:select_dialog_item_material:2131361877 => [attr:listPreferredItemHeightSmall:2130903296, attr:listPreferredItemPaddingLeft:2130903297, attr:listPreferredItemPaddingRight:2130903298, attr:textAppearanceListItemSmall:2130903444, attr:textColorAlertDialogListItem:2130903450]
 layout:select_dialog_multichoice_material:2131361878 => [attr:listPreferredItemHeightSmall:2130903296, attr:dialogPreferredPadding:2130903160, dimen:abc_select_dialog_padding_start_material:2131099703, attr:textColorAlertDialogListItem:2130903450]
 layout:select_dialog_singlechoice_material:2131361879 => [attr:listPreferredItemHeightSmall:2130903296, attr:dialogPreferredPadding:2130903160, dimen:abc_select_dialog_padding_start_material:2131099703, attr:textColorAlertDialogListItem:2130903450]
-layout:simulator_load_preset_row:2131361880 => [color:white:2131034269, color:lighter_gray:2131034214, id:tv_preset_name:2131231376]
+layout:simulator_load_preset_row:2131361880 => [color:white:2131034269, color:lighter_gray:2131034214, id:tv_preset_name:2131231377]
 layout:simulator_load_preset_view:2131361881 => [string:simulator_save_preset_list:2131625469, color:white:2131034269, color:lighter_gray:2131034214, string:simulator_save_preset_list_empty:2131625470]
 layout:support_simple_spinner_dropdown_item:2131361882 => [attr:dropdownListPreferredItemHeight:2130903170, attr:spinnerDropDownItemStyle:2130903422]
 layout:switch_button:2131361883 => [drawable:capture_switch_bg:2131165337, drawable:capture_switch_ball:2131165336]
@@ -9464,79 +9464,80 @@ anim:core_hold:2130771980,
    anim:slide_right_in:2130771996,
    anim:slide_right_out:2130771997,
    anim:storing_rotate:2130771998,
-   array:camera_anti_flicker_default_value_array:2130837504,
-   array:camera_anti_flicker_img_array:2130837505,
-   array:camera_anti_flicker_name_array:2130837506,
-   array:camera_aperture_array:2130837507,
-   array:camera_center_point_color_array:2130837508,
-   array:camera_center_point_img_array:2130837509,
-   array:camera_center_point_name_array:2130837510,
-   array:camera_ei_color_type:2130837511,
-   array:camera_ev_value_array:2130837512,
-   array:camera_file_index_default_value_array:2130837513,
-   array:camera_file_index_name_array:2130837514,
-   array:camera_filter_default:2130837515,
-   array:camera_filter_type:2130837516,
-   array:camera_grid_img_array:2130837517,
-   array:camera_grid_name_array:2130837518,
-   array:camera_grid_value_array:2130837519,
-   array:camera_peak_focus_threshold_array:2130837520,
-   array:camera_peak_focus_threshold_default_value_array:2130837521,
-   array:camera_photo_aspect_ratio_default_value_array:2130837522,
-   array:camera_photo_aspect_ratio_img_array:2130837523,
-   array:camera_photo_aspect_ratio_name_array:2130837524,
-   array:camera_picture_format_array:2130837525,
-   array:camera_picture_format_img_res_array:2130837526,
-   array:camera_picture_format_value_array:2130837527,
-   array:camera_save_original_name_array:2130837528,
-   array:camera_save_original_value_array:2130837529,
-   array:camera_shutter_names:2130837530,
-   array:camera_ssd_color_array:2130837531,
-   array:camera_ssd_license_type:2130837532,
-   array:camera_storage_location_array:2130837533,
-   array:camera_storage_location_default_value_array:2130837534,
-   array:camera_video_compression_standard_name_array:2130837535,
-   array:camera_video_format_default_value_array:2130837536,
-   array:camera_video_format_img_array:2130837537,
-   array:camera_video_format_name_array:2130837538,
-   array:camera_video_fov_name_array:2130837539,
-   array:camera_video_frame_rate_real_value_array:2130837540,
-   array:camera_video_frame_rate_value_array:2130837541,
-   array:camera_video_resolution_default_value_array:2130837542,
-   array:camera_video_resolution_name_array:2130837543,
-   array:camera_video_standard_default_value_array:2130837544,
-   array:camera_video_standard_img_array:2130837545,
-   array:camera_video_standard_name_array:2130837546,
-   array:camera_white_balance_Interval_value_boundary:2130837547,
-   array:camera_white_balance_default_value_array:2130837548,
-   array:camera_white_balance_img_array:2130837549,
-   array:camera_white_balance_name_array:2130837550,
-   array:country_code_2_country_str:2130837551,
-   array:fonts:2130837552,
-   array:iso_values:2130837553,
-   array:pip_setting_name_array:2130837559,
-   array:pip_setting_value_array:2130837560,
-   array:thermal_camera_external_parameter_name_array:2130837561,
-   array:thermal_camera_external_profile_name_array:2130837562,
-   array:thermal_camera_ffc_mode_name_array:2130837563,
-   array:thermal_camera_ffc_mode_value_array:2130837564,
-   array:thermal_camera_focus_lens_array:2130837565,
-   array:thermal_camera_gain_mode_name_array:2130837566,
-   array:thermal_camera_gain_mode_value_array:2130837567,
-   array:thermal_camera_isotherm_enable_value_array:2130837568,
-   array:thermal_camera_isotherm_units_name_array:2130837569,
-   array:thermal_camera_isotherm_units_value_array:2130837570,
-   array:thermal_camera_msx_offset_title_array:2130837571,
-   array:thermal_camera_palette_iso_name_array:2130837572,
-   array:thermal_camera_palette_name_array:2130837573,
-   array:thermal_camera_palette_value_array:2130837574,
-   array:thermal_camera_resolution_array:2130837575,
-   array:thermal_camera_roi_name_array:2130837576,
-   array:thermal_camera_roi_value_array:2130837577,
-   array:thermal_camera_scene_name_array:2130837578,
-   array:thermal_camera_scene_value_array:2130837579,
-   array:thermal_camera_temp_alert_enable_value_array:2130837580,
-   array:thermal_camera_version_array:2130837581,
+   array:QualityArray:2130837504,
+   array:camera_anti_flicker_default_value_array:2130837505,
+   array:camera_anti_flicker_img_array:2130837506,
+   array:camera_anti_flicker_name_array:2130837507,
+   array:camera_aperture_array:2130837508,
+   array:camera_center_point_color_array:2130837509,
+   array:camera_center_point_img_array:2130837510,
+   array:camera_center_point_name_array:2130837511,
+   array:camera_ei_color_type:2130837512,
+   array:camera_ev_value_array:2130837513,
+   array:camera_file_index_default_value_array:2130837514,
+   array:camera_file_index_name_array:2130837515,
+   array:camera_filter_default:2130837516,
+   array:camera_filter_type:2130837517,
+   array:camera_grid_img_array:2130837518,
+   array:camera_grid_name_array:2130837519,
+   array:camera_grid_value_array:2130837520,
+   array:camera_peak_focus_threshold_array:2130837521,
+   array:camera_peak_focus_threshold_default_value_array:2130837522,
+   array:camera_photo_aspect_ratio_default_value_array:2130837523,
+   array:camera_photo_aspect_ratio_img_array:2130837524,
+   array:camera_photo_aspect_ratio_name_array:2130837525,
+   array:camera_picture_format_array:2130837526,
+   array:camera_picture_format_img_res_array:2130837527,
+   array:camera_picture_format_value_array:2130837528,
+   array:camera_save_original_name_array:2130837529,
+   array:camera_save_original_value_array:2130837530,
+   array:camera_shutter_names:2130837531,
+   array:camera_ssd_color_array:2130837532,
+   array:camera_ssd_license_type:2130837533,
+   array:camera_storage_location_array:2130837534,
+   array:camera_storage_location_default_value_array:2130837535,
+   array:camera_video_compression_standard_name_array:2130837536,
+   array:camera_video_format_default_value_array:2130837537,
+   array:camera_video_format_img_array:2130837538,
+   array:camera_video_format_name_array:2130837539,
+   array:camera_video_fov_name_array:2130837540,
+   array:camera_video_frame_rate_real_value_array:2130837541,
+   array:camera_video_frame_rate_value_array:2130837542,
+   array:camera_video_resolution_default_value_array:2130837543,
+   array:camera_video_resolution_name_array:2130837544,
+   array:camera_video_standard_default_value_array:2130837545,
+   array:camera_video_standard_img_array:2130837546,
+   array:camera_video_standard_name_array:2130837547,
+   array:camera_white_balance_Interval_value_boundary:2130837548,
+   array:camera_white_balance_default_value_array:2130837549,
+   array:camera_white_balance_img_array:2130837550,
+   array:camera_white_balance_name_array:2130837551,
+   array:country_code_2_country_str:2130837552,
+   array:fonts:2130837553,
+   array:iso_values:2130837554,
+   array:pip_setting_name_array:2130837560,
+   array:pip_setting_value_array:2130837561,
+   array:thermal_camera_external_parameter_name_array:2130837562,
+   array:thermal_camera_external_profile_name_array:2130837563,
+   array:thermal_camera_ffc_mode_name_array:2130837564,
+   array:thermal_camera_ffc_mode_value_array:2130837565,
+   array:thermal_camera_focus_lens_array:2130837566,
+   array:thermal_camera_gain_mode_name_array:2130837567,
+   array:thermal_camera_gain_mode_value_array:2130837568,
+   array:thermal_camera_isotherm_enable_value_array:2130837569,
+   array:thermal_camera_isotherm_units_name_array:2130837570,
+   array:thermal_camera_isotherm_units_value_array:2130837571,
+   array:thermal_camera_msx_offset_title_array:2130837572,
+   array:thermal_camera_palette_iso_name_array:2130837573,
+   array:thermal_camera_palette_name_array:2130837574,
+   array:thermal_camera_palette_value_array:2130837575,
+   array:thermal_camera_resolution_array:2130837576,
+   array:thermal_camera_roi_name_array:2130837577,
+   array:thermal_camera_roi_value_array:2130837578,
+   array:thermal_camera_scene_name_array:2130837579,
+   array:thermal_camera_scene_value_array:2130837580,
+   array:thermal_camera_temp_alert_enable_value_array:2130837581,
+   array:thermal_camera_version_array:2130837582,
    attr:abstractWheelViewStyle:2130903040,
    attr:actionBarDivider:2130903041,
    attr:actionBarItemBackground:2130903042,
@@ -11102,178 +11103,179 @@ anim:core_hold:2130771980,
    id:simulator_title:2131231242,
    id:soft_row_separator:2131231244,
    id:spacer:2131231245,
-   id:split_action_bar:2131231246,
-   id:spotlight_brightness_container:2131231247,
-   id:spotlight_brightness_seekbar:2131231248,
-   id:spotlight_brightness_value:2131231250,
-   id:spotlight_switch:2131231252,
-   id:spotlight_switch_container:2131231253,
-   id:spotlight_temperature_container:2131231255,
-   id:spotlight_temperature_value:2131231257,
-   id:spotlight_title:2131231258,
-   id:ssd_capacity_title:2131231264,
-   id:ssd_capacity_value:2131231265,
-   id:ssd_clip_info_tv:2131231266,
-   id:ssd_format_info:2131231267,
-   id:ssd_icon:2131231268,
-   id:ssd_status_icon:2131231269,
-   id:ssd_status_info:2131231270,
-   id:standard:2131231271,
-   id:standard_row_separator:2131231272,
-   id:start:2131231273,
-   id:start_broadcast_button:2131231274,
-   id:status_bar_latest_event_content:2131231275,
-   id:status_section_footer:2131231276,
-   id:status_section_header_text:2131231277,
-   id:stripeview_setting_ev_status:2131231278,
-   id:submenuarrow:2131231279,
-   id:submit_area:2131231280,
-   id:switch_button:2131231281,
-   id:tab_instant_broadcast:2131231283,
-   id:tab_local_file:2131231284,
-   id:tag_transition_group:2131231285,
-   id:tag_unhandled_key_event_manager:2131231286,
-   id:tag_unhandled_key_listeners:2131231287,
-   id:terrain:2131231288,
-   id:text:2131231289,
-   id:text2:2131231290,
-   id:textSpacerNoButtons:2131231291,
-   id:textSpacerNoTitle:2131231292,
-   id:textView:2131231293,
-   id:textView2:2131231294,
-   id:text_connection_status:2131231295,
-   id:text_custom_unlock_enabled_zone:2131231296,
-   id:text_legend_authorized_zone:2131231297,
-   id:text_legend_custom_unlock_aircraft_zone:2131231298,
-   id:text_legend_custom_unlock_zone:2131231299,
-   id:text_legend_enhanced_warning_zone:2131231300,
-   id:text_legend_restricted_zone:2131231301,
-   id:text_legend_self_unlock_zone:2131231302,
-   id:text_legend_warning_zone:2131231303,
-   id:text_model_available:2131231304,
-   id:text_product_info:2131231305,
-   id:text_view_speaker_title:2131231306,
-   id:text_view_speaker_volume:2131231307,
-   id:textview_ace_title:2131231308,
-   id:textview_ace_value:2131231309,
-   id:textview_aperture_title:2131231310,
-   id:textview_battery1_value:2131231311,
-   id:textview_battery1_voltage:2131231312,
-   id:textview_battery2_value:2131231313,
-   id:textview_battery2_voltage:2131231314,
-   id:textview_battery_value:2131231315,
-   id:textview_battery_voltage:2131231316,
-   id:textview_brightness_title:2131231317,
-   id:textview_brightness_value:2131231318,
-   id:textview_button_cancel:2131231319,
-   id:textview_button_negative:2131231320,
-   id:textview_button_ok:2131231321,
-   id:textview_button_positive:2131231322,
-   id:textview_camera_control_af:2131231323,
-   id:textview_camera_control_mf:2131231324,
-   id:textview_camera_control_separator:2131231325,
-   id:textview_camera_controll_videotime:2131231326,
-   id:textview_camera_mode_a:2131231327,
-   id:textview_camera_mode_m:2131231328,
-   id:textview_camera_mode_p:2131231329,
-   id:textview_camera_mode_s:2131231330,
-   id:textview_contrast_title:2131231331,
-   id:textview_contrast_value:2131231332,
-   id:textview_dde_title:2131231333,
-   id:textview_dde_value:2131231334,
-   id:textview_dlg_desc:2131231335,
-   id:textview_dlg_little_title:2131231336,
-   id:textview_dlg_title:2131231337,
-   id:textview_ev_title:2131231338,
-   id:textview_flight_mode_string:2131231339,
-   id:textview_gps_type:2131231340,
-   id:textview_iso_title:2131231341,
-   id:textview_lock_title:2131231342,
-   id:textview_max_value:2131231343,
-   id:textview_metrics_title:2131231344,
-   id:textview_metrics_unit:2131231345,
-   id:textview_metrics_value:2131231346,
-   id:textview_min_value:2131231347,
-   id:textview_preflight_status:2131231348,
-   id:textview_rc_type:2131231349,
-   id:textview_satellite_number:2131231350,
-   id:textview_setting_ev_status_value:2131231351,
-   id:textview_setting_ev_value:2131231352,
-   id:textview_shutter_title:2131231353,
-   id:textview_slidertitle:2131231354,
-   id:textview_sso_title:2131231355,
-   id:textview_sso_value:2131231356,
-   id:textview_title:2131231357,
-   id:textview_value:2131231358,
-   id:textview_value_unit:2131231359,
-   id:textview_wind_x:2131231360,
-   id:textview_wind_y:2131231361,
-   id:textview_wind_z:2131231362,
-   id:thermal_camera_ffc_mode:2131231363,
-   id:thermal_camera_gain_mode:2131231364,
-   id:thermal_camera_palette:2131231365,
-   id:thermal_camera_roi:2131231366,
-   id:thermal_camera_scene:2131231367,
-   id:time:2131231368,
-   id:title:2131231369,
-   id:titleDividerNoCustom:2131231370,
-   id:title_template:2131231371,
-   id:top:2131231372,
-   id:topPanel:2131231373,
-   id:top_line_camera_panel:2131231374,
-   id:tv_load_Preset:2131231375,
-   id:tv_preset_name:2131231376,
-   id:tv_save_Preset:2131231377,
-   id:unlock_aircraft:2131231379,
-   id:up:2131231382,
-   id:userLocationView:2131231384,
-   id:val_simulator_aircraft_flying:2131231385,
-   id:val_simulator_aircraft_pitch:2131231386,
-   id:val_simulator_aircraft_roll:2131231387,
-   id:val_simulator_aircraft_yaw:2131231388,
-   id:val_simulator_frequency:2131231389,
-   id:val_simulator_lat:2131231390,
-   id:val_simulator_lng:2131231391,
-   id:val_simulator_motors:2131231392,
-   id:val_simulator_sat:2131231393,
-   id:val_simulator_world_X:2131231394,
-   id:val_simulator_world_Y:2131231395,
-   id:val_simulator_world_Z:2131231396,
-   id:vertical_wheel_max:2131231397,
-   id:vertical_wheel_min:2131231398,
-   id:view_back_background:2131231399,
-   id:view_header_divider:2131231400,
-   id:visual_compass_view:2131231402,
-   id:volume_seek_bar:2131231403,
-   id:warning_icon:2131231405,
-   id:warning_text:2131231406,
-   id:warning_view:2131231407,
-   id:wheelview_camera_settings_aperture:2131231409,
-   id:wheelview_camera_settings_shutter:2131231410,
-   id:widget_altitude:2131231412,
-   id:widget_camera_aperture_setting:2131231413,
-   id:widget_camera_capture:2131231414,
-   id:widget_camera_capture_switch:2131231415,
-   id:widget_camera_ev_setting:2131231416,
-   id:widget_camera_exposure_mode:2131231417,
-   id:widget_camera_exposure_status:2131231418,
-   id:widget_camera_exposure_status_background:2131231419,
-   id:widget_camera_iso_ei_setting:2131231420,
-   id:widget_camera_menu:2131231421,
-   id:widget_camera_menu_background:2131231422,
-   id:widget_camera_shutter_setting:2131231423,
-   id:widget_compass:2131231424,
-   id:widget_distance:2131231425,
-   id:widget_h_speed:2131231426,
-   id:widget_thermal_camera_scene_ace:2131231427,
-   id:widget_thermal_camera_scene_brightness:2131231428,
-   id:widget_thermal_camera_scene_contrast:2131231429,
-   id:widget_thermal_camera_scene_dde:2131231430,
-   id:widget_thermal_camera_scene_sso:2131231431,
-   id:widget_v_speed:2131231432,
-   id:widget_vision_positioning_system:2131231433,
-   id:wifi_band:2131231434,
-   id:withText:2131231436,
+   id:spinner:2131231246,
+   id:split_action_bar:2131231247,
+   id:spotlight_brightness_container:2131231248,
+   id:spotlight_brightness_seekbar:2131231249,
+   id:spotlight_brightness_value:2131231251,
+   id:spotlight_switch:2131231253,
+   id:spotlight_switch_container:2131231254,
+   id:spotlight_temperature_container:2131231256,
+   id:spotlight_temperature_value:2131231258,
+   id:spotlight_title:2131231259,
+   id:ssd_capacity_title:2131231265,
+   id:ssd_capacity_value:2131231266,
+   id:ssd_clip_info_tv:2131231267,
+   id:ssd_format_info:2131231268,
+   id:ssd_icon:2131231269,
+   id:ssd_status_icon:2131231270,
+   id:ssd_status_info:2131231271,
+   id:standard:2131231272,
+   id:standard_row_separator:2131231273,
+   id:start:2131231274,
+   id:start_broadcast_button:2131231275,
+   id:status_bar_latest_event_content:2131231276,
+   id:status_section_footer:2131231277,
+   id:status_section_header_text:2131231278,
+   id:stripeview_setting_ev_status:2131231279,
+   id:submenuarrow:2131231280,
+   id:submit_area:2131231281,
+   id:switch_button:2131231282,
+   id:tab_instant_broadcast:2131231284,
+   id:tab_local_file:2131231285,
+   id:tag_transition_group:2131231286,
+   id:tag_unhandled_key_event_manager:2131231287,
+   id:tag_unhandled_key_listeners:2131231288,
+   id:terrain:2131231289,
+   id:text:2131231290,
+   id:text2:2131231291,
+   id:textSpacerNoButtons:2131231292,
+   id:textSpacerNoTitle:2131231293,
+   id:textView:2131231294,
+   id:textView2:2131231295,
+   id:text_connection_status:2131231296,
+   id:text_custom_unlock_enabled_zone:2131231297,
+   id:text_legend_authorized_zone:2131231298,
+   id:text_legend_custom_unlock_aircraft_zone:2131231299,
+   id:text_legend_custom_unlock_zone:2131231300,
+   id:text_legend_enhanced_warning_zone:2131231301,
+   id:text_legend_restricted_zone:2131231302,
+   id:text_legend_self_unlock_zone:2131231303,
+   id:text_legend_warning_zone:2131231304,
+   id:text_model_available:2131231305,
+   id:text_product_info:2131231306,
+   id:text_view_speaker_title:2131231307,
+   id:text_view_speaker_volume:2131231308,
+   id:textview_ace_title:2131231309,
+   id:textview_ace_value:2131231310,
+   id:textview_aperture_title:2131231311,
+   id:textview_battery1_value:2131231312,
+   id:textview_battery1_voltage:2131231313,
+   id:textview_battery2_value:2131231314,
+   id:textview_battery2_voltage:2131231315,
+   id:textview_battery_value:2131231316,
+   id:textview_battery_voltage:2131231317,
+   id:textview_brightness_title:2131231318,
+   id:textview_brightness_value:2131231319,
+   id:textview_button_cancel:2131231320,
+   id:textview_button_negative:2131231321,
+   id:textview_button_ok:2131231322,
+   id:textview_button_positive:2131231323,
+   id:textview_camera_control_af:2131231324,
+   id:textview_camera_control_mf:2131231325,
+   id:textview_camera_control_separator:2131231326,
+   id:textview_camera_controll_videotime:2131231327,
+   id:textview_camera_mode_a:2131231328,
+   id:textview_camera_mode_m:2131231329,
+   id:textview_camera_mode_p:2131231330,
+   id:textview_camera_mode_s:2131231331,
+   id:textview_contrast_title:2131231332,
+   id:textview_contrast_value:2131231333,
+   id:textview_dde_title:2131231334,
+   id:textview_dde_value:2131231335,
+   id:textview_dlg_desc:2131231336,
+   id:textview_dlg_little_title:2131231337,
+   id:textview_dlg_title:2131231338,
+   id:textview_ev_title:2131231339,
+   id:textview_flight_mode_string:2131231340,
+   id:textview_gps_type:2131231341,
+   id:textview_iso_title:2131231342,
+   id:textview_lock_title:2131231343,
+   id:textview_max_value:2131231344,
+   id:textview_metrics_title:2131231345,
+   id:textview_metrics_unit:2131231346,
+   id:textview_metrics_value:2131231347,
+   id:textview_min_value:2131231348,
+   id:textview_preflight_status:2131231349,
+   id:textview_rc_type:2131231350,
+   id:textview_satellite_number:2131231351,
+   id:textview_setting_ev_status_value:2131231352,
+   id:textview_setting_ev_value:2131231353,
+   id:textview_shutter_title:2131231354,
+   id:textview_slidertitle:2131231355,
+   id:textview_sso_title:2131231356,
+   id:textview_sso_value:2131231357,
+   id:textview_title:2131231358,
+   id:textview_value:2131231359,
+   id:textview_value_unit:2131231360,
+   id:textview_wind_x:2131231361,
+   id:textview_wind_y:2131231362,
+   id:textview_wind_z:2131231363,
+   id:thermal_camera_ffc_mode:2131231364,
+   id:thermal_camera_gain_mode:2131231365,
+   id:thermal_camera_palette:2131231366,
+   id:thermal_camera_roi:2131231367,
+   id:thermal_camera_scene:2131231368,
+   id:time:2131231369,
+   id:title:2131231370,
+   id:titleDividerNoCustom:2131231371,
+   id:title_template:2131231372,
+   id:top:2131231373,
+   id:topPanel:2131231374,
+   id:top_line_camera_panel:2131231375,
+   id:tv_load_Preset:2131231376,
+   id:tv_preset_name:2131231377,
+   id:tv_save_Preset:2131231378,
+   id:unlock_aircraft:2131231380,
+   id:up:2131231383,
+   id:userLocationView:2131231385,
+   id:val_simulator_aircraft_flying:2131231386,
+   id:val_simulator_aircraft_pitch:2131231387,
+   id:val_simulator_aircraft_roll:2131231388,
+   id:val_simulator_aircraft_yaw:2131231389,
+   id:val_simulator_frequency:2131231390,
+   id:val_simulator_lat:2131231391,
+   id:val_simulator_lng:2131231392,
+   id:val_simulator_motors:2131231393,
+   id:val_simulator_sat:2131231394,
+   id:val_simulator_world_X:2131231395,
+   id:val_simulator_world_Y:2131231396,
+   id:val_simulator_world_Z:2131231397,
+   id:vertical_wheel_max:2131231398,
+   id:vertical_wheel_min:2131231399,
+   id:view_back_background:2131231400,
+   id:view_header_divider:2131231401,
+   id:visual_compass_view:2131231403,
+   id:volume_seek_bar:2131231404,
+   id:warning_icon:2131231406,
+   id:warning_text:2131231407,
+   id:warning_view:2131231408,
+   id:wheelview_camera_settings_aperture:2131231410,
+   id:wheelview_camera_settings_shutter:2131231411,
+   id:widget_altitude:2131231413,
+   id:widget_camera_aperture_setting:2131231414,
+   id:widget_camera_capture:2131231415,
+   id:widget_camera_capture_switch:2131231416,
+   id:widget_camera_ev_setting:2131231417,
+   id:widget_camera_exposure_mode:2131231418,
+   id:widget_camera_exposure_status:2131231419,
+   id:widget_camera_exposure_status_background:2131231420,
+   id:widget_camera_iso_ei_setting:2131231421,
+   id:widget_camera_menu:2131231422,
+   id:widget_camera_menu_background:2131231423,
+   id:widget_camera_shutter_setting:2131231424,
+   id:widget_compass:2131231425,
+   id:widget_distance:2131231426,
+   id:widget_h_speed:2131231427,
+   id:widget_thermal_camera_scene_ace:2131231428,
+   id:widget_thermal_camera_scene_brightness:2131231429,
+   id:widget_thermal_camera_scene_contrast:2131231430,
+   id:widget_thermal_camera_scene_dde:2131231431,
+   id:widget_thermal_camera_scene_sso:2131231432,
+   id:widget_v_speed:2131231433,
+   id:widget_vision_positioning_system:2131231434,
+   id:wifi_band:2131231435,
+   id:withText:2131231437,
    integer:cancel_button_image_alpha:2131296258,
    integer:config_tooltipAnimTime:2131296259,
    integer:google_play_services_version:2131296260,

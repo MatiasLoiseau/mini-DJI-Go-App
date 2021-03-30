@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_powered_by_google_dark.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\c5b5dcb9b2a114f3508cf6cb93d37070\\res\\drawable-xxxhdpi-v4\\powered_by_google_dark.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_topbar_hd_nor.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\ic_topbar_hd_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_powered_by_google_dark.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\c5b5dcb9b2a114f3508cf6cb93d37070\\res\\drawable-xxxhdpi-v4\\powered_by_google_dark.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_menu_item_layout.xml.flat",
@@ -32,12 +32,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\camera_selected_item_background.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass_sea.xml.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable\\compass_sea.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_camera_selected_item_background.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\camera_selected_item_background.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable_compass_sea.xml.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable\\compass_sea.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_radar_forward_1_2.png.flat",
@@ -96,24 +96,24 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\ic_advanced_more_vf_1920x1080_60p.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_speed_direction_up.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\speed_direction_up.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_advanced_more_ps_custom.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\ic_advanced_more_ps_custom.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_camera_controll_exposure_mode_p.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\camera_controll_exposure_mode_p.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_speed_direction_up.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\speed_direction_up.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_connection.xml.flat",
+        "source": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\src\\main\\res\\layout\\activity_connection.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable_radar_backward_1.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable\\radar_backward_1.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_connection.xml.flat",
-        "source": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\src\\main\\res\\layout\\activity_connection.xml"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_camera_controll_exposure_mode_p.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\camera_controll_exposure_mode_p.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_camera_setting_jpg.png.flat",
@@ -136,12 +136,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_none.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_aircraft_horizontal.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\aircraft_horizontal.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_radar_forward_3_0.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\radar_forward_3_0.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_aircraft_horizontal.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\aircraft_horizontal.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_photo_mode_hyper_light.png.flat",
@@ -164,24 +164,24 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vf_1920x1080_60p.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_seek_thumb_enabled.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\seek_thumb_enabled.png"
-    },
-    {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_advanced_more_vf_4096x2160_48p.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\ic_advanced_more_vf_4096x2160_48p.png"
-    },
-    {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_radar_forward_3_2.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\radar_forward_3_2.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vsf_mp4.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vsf_mp4.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_pano_3x3.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\pano_3x3.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vsf_mp4.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vsf_mp4.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_radar_forward_3_2.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\radar_forward_3_2.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_advanced_more_vf_4096x2160_48p.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\ic_advanced_more_vf_4096x2160_48p.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_seek_thumb_enabled.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\seek_thumb_enabled.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_photo_mode_aeb_continuous_5.png.flat",
@@ -224,12 +224,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\leftmenu_dlg_takeoff.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_photo_mode_timepause_4s.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\ic_photo_mode_timepause_4s.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_checklist_aircraft_battery_temperature.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_checklist_aircraft_battery_temperature.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_photo_mode_timepause_4s.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\ic_photo_mode_timepause_4s.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_camera_controll_exposure_mode_a.png.flat",
@@ -244,16 +244,16 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_checklist_radio_channel_quality.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_fpv_speaker_repeat_active.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\ic_fpv_speaker_repeat_active.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_advanced_more_vf_4608x2160_30p.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\ic_advanced_more_vf_4608x2160_30p.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_action_mode_close_item_material.xml.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_fpv_speaker_repeat_active.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\ic_fpv_speaker_repeat_active.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_radar_forward_3_1.png.flat",
@@ -264,20 +264,20 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\ic_advanced_more_vf_5280x2160_30p.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_button_minus.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\button_minus.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_ic_advanced_more_vf_2048x1080_48p.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxxhdpi-v4\\ic_advanced_more_vf_2048x1080_48p.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\raw_iframe_gd600_1280x720.h264.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\e3e76e068c2931a9b6cb5b2c3c592492\\res\\raw\\iframe_gd600_1280x720.h264"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_button_minus.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\button_minus.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_topbar_gps_nor.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_topbar_gps_nor.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\raw_iframe_gd600_1280x720.h264.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\e3e76e068c2931a9b6cb5b2c3c592492\\res\\raw\\iframe_gd600_1280x720.h264"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ic_topbar_battery_overheat_warning.png.flat",
@@ -288,12 +288,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\pic_highlight.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_camera_exposure_mode_auto_normal.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\camera_exposure_mode_auto_normal.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout-v16_notification_template_custom_big.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\0bd965bd98bbf7be51c42d291f4e950e\\res\\layout-v16\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_camera_exposure_mode_auto_normal.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\camera_exposure_mode_auto_normal.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_camera_settings_other.png.flat",
@@ -312,12 +312,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\drawable-xxhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\raw_keep.xml.flat",
-        "source": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\src\\main\\res\\raw\\keep.xml"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_btn_cam_capture_progress.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-hdpi-v4\\btn_cam_capture_progress.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\raw_keep.xml.flat",
+        "source": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\src\\main\\res\\raw\\keep.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_advanced_more_vf_1920x1080_48p.png.flat",
@@ -328,12 +328,12 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\09a2a6d84d5369556762c3e31f2e74b9\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_checklist_radio_channel_quality.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_checklist_radio_channel_quality.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\drawable-xxhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_checklist_radio_channel_quality.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_checklist_radio_channel_quality.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_photo_mode_continuous_7.png.flat",
@@ -364,32 +364,32 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_topbar_wifi_level_5.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vf_1280x720_120p.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vf_1280x720_120p.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4_ic_advanced_more_vt_pal.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\ic_advanced_more_vt_pal.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vf_1280x720_120p.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vf_1280x720_120p.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_widget_flightmode.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\layout\\widget_flightmode.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_topbar_double_battery_overheat_warning.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_topbar_double_battery_overheat_warning.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_photo_mode_timepause_20s.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_photo_mode_timepause_20s.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_panel_spotlight.xml.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\layout\\panel_spotlight.xml"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_topbar_double_battery_overheat_warning.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_topbar_double_battery_overheat_warning.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_visual_enable.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\visual_enable.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_panel_spotlight.xml.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\layout\\panel_spotlight.xml"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_rectangle_866_copy.png.flat",
@@ -432,20 +432,20 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xxhdpi-v4\\ic_centerpoint_square_and_cross.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_centerpoint_cross.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_centerpoint_cross.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_list_menu_item_checkbox.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_sebo_mode_w.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_sebo_mode_w.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_centerpoint_cross.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_centerpoint_cross.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\anim_core_push_left_out.xml.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\e3e76e068c2931a9b6cb5b2c3c592492\\res\\anim\\core_push_left_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_sebo_mode_w.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_sebo_mode_w.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_photo_mode_shallow_focus.png.flat",
@@ -532,20 +532,20 @@
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\84279f03e9a3d1265ad2ea1fea6489f1\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera_setting_back_arrow.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\camera_setting_back_arrow.png"
-    },
-    {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_internal_storage.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_internal_storage.png"
     },
     {
-        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vf_2p7k_30p.png.flat",
-        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vf_2p7k_30p.png"
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_camera_setting_back_arrow.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\camera_setting_back_arrow.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_ic_topbar_signal_level_0.png.flat",
         "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-mdpi-v4\\ic_topbar_signal_level_0.png"
+    },
+    {
+        "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ic_advanced_more_vf_2p7k_30p.png.flat",
+        "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\2ab682dc26e7a9de7598d1748bf1c247\\res\\drawable-xhdpi-v4\\ic_advanced_more_vf_2p7k_30p.png"
     },
     {
         "merged": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_radar_backward_1_1.png.flat",

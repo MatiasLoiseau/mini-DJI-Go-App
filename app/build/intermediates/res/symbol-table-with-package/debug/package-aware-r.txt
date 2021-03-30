@@ -30,6 +30,7 @@ anim slide_left_out
 anim slide_right_in
 anim slide_right_out
 anim storing_rotate
+array QualityArray
 array camera_anti_flicker_default_value_array
 array camera_anti_flicker_img_array
 array camera_anti_flicker_name_array
@@ -2150,6 +2151,7 @@ id simulator_title
 id singleVoltage
 id soft_row_separator
 id spacer
+id spinner
 id split_action_bar
 id spotlight_brightness_container
 id spotlight_brightness_seekbar

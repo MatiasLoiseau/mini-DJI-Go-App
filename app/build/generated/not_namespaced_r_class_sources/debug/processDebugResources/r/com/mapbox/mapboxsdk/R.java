@@ -130,9 +130,9 @@ public final class R {
         public static final int logoView = 0x7f08018b;
         public static final int markerViewContainer = 0x7f08018f;
         public static final int right = 0x7f0801d0;
-        public static final int start = 0x7f080229;
-        public static final int top = 0x7f08028c;
-        public static final int userLocationView = 0x7f080298;
+        public static final int start = 0x7f08022a;
+        public static final int top = 0x7f08028d;
+        public static final int userLocationView = 0x7f080299;
     }
     public static final class layout {
         private layout() {}
