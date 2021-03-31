@@ -691,17 +691,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         public void run() {
 
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-            int FRAME_COMPRESS_SIZE = B[FRAME_COMPRESS_COUNTER];
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-
-            BitmapFactory.Options options = new BitmapFactory.Options();
-            options.inSampleSize = FRAME_COMPRESS_SIZE;
-
             while (true) {
                 try {
                     mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-                    byte[] image = frameToByteArray(options);
+                    byte[] image = frameToByteArray();
                     outStream.write(image);
                     outStream.flush();
                     outStream.write(KEY.getBytes());
@@ -717,7 +710,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         }
 
 
-        private byte[] frameToByteArray(BitmapFactory.Options options){
+        private byte[] frameToByteArray(){
+
+            // IN RUN()
+
+            // ------------------- CODIGO PROVISIONAL ------------------- //
+            int FRAME_COMPRESS_SIZE = B[FRAME_COMPRESS_COUNTER];
+            // ------------------- CODIGO PROVISIONAL ------------------- //
+
+            BitmapFactory.Options options = new BitmapFactory.Options();
+            options.inSampleSize = FRAME_COMPRESS_SIZE;
 
             // ------------------- CODIGO PROVISIONAL ------------------- //
             int FRAME_COMPRESS_QUALITY = A[FRAME_COMPRESS_COUNTER];
