@@ -20,35 +20,35 @@ public final class R {
         public static final int cameraTargetLng = 0x7f030059;
         public static final int cameraTilt = 0x7f03005a;
         public static final int cameraZoom = 0x7f03005b;
-        public static final int latLngBoundsNorthEastLatitude = 0x7f0300fa;
-        public static final int latLngBoundsNorthEastLongitude = 0x7f0300fb;
-        public static final int latLngBoundsSouthWestLatitude = 0x7f0300fc;
-        public static final int latLngBoundsSouthWestLongitude = 0x7f0300fd;
-        public static final int liteMode = 0x7f03014c;
-        public static final int mapType = 0x7f03014f;
-        public static final int uiCompass = 0x7f030244;
-        public static final int uiMapToolbar = 0x7f030245;
-        public static final int uiRotateGestures = 0x7f030246;
-        public static final int uiScrollGestures = 0x7f030247;
-        public static final int uiTiltGestures = 0x7f030248;
-        public static final int uiZoomControls = 0x7f030249;
-        public static final int uiZoomGestures = 0x7f03024a;
-        public static final int useViewLifecycle = 0x7f03024b;
-        public static final int zOrderOnTop = 0x7f030263;
+        public static final int latLngBoundsNorthEastLatitude = 0x7f0300f8;
+        public static final int latLngBoundsNorthEastLongitude = 0x7f0300f9;
+        public static final int latLngBoundsSouthWestLatitude = 0x7f0300fa;
+        public static final int latLngBoundsSouthWestLongitude = 0x7f0300fb;
+        public static final int liteMode = 0x7f030144;
+        public static final int mapType = 0x7f030147;
+        public static final int uiCompass = 0x7f03023b;
+        public static final int uiMapToolbar = 0x7f03023c;
+        public static final int uiRotateGestures = 0x7f03023d;
+        public static final int uiScrollGestures = 0x7f03023e;
+        public static final int uiTiltGestures = 0x7f03023f;
+        public static final int uiZoomControls = 0x7f030240;
+        public static final int uiZoomGestures = 0x7f030241;
+        public static final int useViewLifecycle = 0x7f030242;
+        public static final int zOrderOnTop = 0x7f03025a;
     }
     public static final class id {
         private id() {}
 
-        public static final int hybrid = 0x7f08013f;
-        public static final int none = 0x7f0801e9;
-        public static final int normal = 0x7f0801ea;
-        public static final int satellite = 0x7f08023f;
-        public static final int terrain = 0x7f0802a1;
+        public static final int hybrid = 0x7f08013b;
+        public static final int none = 0x7f0801e4;
+        public static final int normal = 0x7f0801e5;
+        public static final int satellite = 0x7f08023a;
+        public static final int terrain = 0x7f08029a;
     }
     public static final class styleable {
         private styleable() {}
 
-        public static final int[] MapAttrs = { 0x7f03002b, 0x7f030055, 0x7f030056, 0x7f030057, 0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 0x7f03014c, 0x7f03014f, 0x7f030244, 0x7f030245, 0x7f030246, 0x7f030247, 0x7f030248, 0x7f030249, 0x7f03024a, 0x7f03024b, 0x7f030263 };
+        public static final int[] MapAttrs = { 0x7f03002b, 0x7f030055, 0x7f030056, 0x7f030057, 0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 0x7f0300f8, 0x7f0300f9, 0x7f0300fa, 0x7f0300fb, 0x7f030144, 0x7f030147, 0x7f03023b, 0x7f03023c, 0x7f03023d, 0x7f03023e, 0x7f03023f, 0x7f030240, 0x7f030241, 0x7f030242, 0x7f03025a };
         public static final int MapAttrs_ambientEnabled = 0;
         public static final int MapAttrs_cameraBearing = 1;
         public static final int MapAttrs_cameraMaxZoomPreference = 2;

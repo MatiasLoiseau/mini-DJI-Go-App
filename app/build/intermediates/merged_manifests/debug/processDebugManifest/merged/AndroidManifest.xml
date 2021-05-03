@@ -3,7 +3,7 @@
     package="jcg.mini_dji_go_app" >
 
     <uses-sdk
-        android:minSdkVersion="19"
+        android:minSdkVersion="21"
         android:targetSdkVersion="29" />
 
     <uses-permission android:name="android.permission.VIBRATE" />
@@ -128,6 +128,26 @@
         <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
         </service> <!-- Include the telemetry service to simplify set up (https://www.mapbox.com/telemetry) -->
         <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+        <service
+            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+            android:directBootAware="true"
+            android:exported="false" >
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+        </service>
+
+        <provider
+            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+            android:authorities="jcg.mini_dji_go_app.mlkitinitprovider"
+            android:exported="false"
+            android:initOrder="99" />
 
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

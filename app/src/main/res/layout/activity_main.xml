@@ -235,13 +235,5 @@
 
     </RelativeLayout>
 
-    <!-- Spinner -->
-
-    <Spinner
-        android:id="@+id/spinner"
-        android:layout_width="300dp"
-        android:layout_height="40dp"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"/>
 
 </RelativeLayout>

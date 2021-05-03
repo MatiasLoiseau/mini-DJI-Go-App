@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Joaquin\\Desktop\\viejos\\mini-DJI-Go-App-d5a1871e0223ef740a60b42bf87467053d1a97de\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\8f676cf631eee6af7b04427af930fc0b\\res\\values-v24\\values-v24.xml",
@@ -11,23 +11,6 @@
                         "startOffsets": "55,212",
                         "endColumns": "156,134",
                         "endOffsets": "207,342"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\12aed3be9a537fcc3ca68a10782a532e\\res\\values-v24\\values-v24.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,121,182,248",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "116,177,243,310"
-                    },
-                    "to": {
-                        "startLines": "4,5,6,7",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "347,413,474,540",
-                        "endColumns": "65,60,65,66",
-                        "endOffsets": "408,469,535,602"
                     }
                 }
             ]

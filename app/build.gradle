@@ -10,7 +10,7 @@ android {
     useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
         targetSdkVersion 29
         multiDexEnabled true
         ndk {
@@ -99,6 +99,8 @@ dependencies {
     implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
     implementation 'androidx.annotation:annotation:1.1.0'
     implementation 'com.dji:dji-uxsdk:4.13'
+    implementation 'com.google.mlkit:barcode-scanning:16.0.3'
+    implementation 'androidx.camera:camera-camera2:1.1.0-alpha04'
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.13'

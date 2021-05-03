@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -55,12 +56,13 @@ import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
+import jcg.mini_dji_go_app.model.Analyzer;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
 import static jcg.mini_dji_go_app.BluetoothConstants.A;
 import static jcg.mini_dji_go_app.BluetoothConstants.B;
 
-public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback ,AdapterView.OnItemSelectedListener {
+public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
@@ -96,11 +98,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private Camera mCamera;
     private DJICodecManager mCodecManager;
     private TextView savePath;
-    private Spinner spinner;
     private StringBuilder stringBuilder;
     private int videoViewWidth;
     private int videoViewHeight;
     private int count;
+    private Context context = this;
 
     @Override
     protected void onResume() {
@@ -161,7 +163,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         setContentView(R.layout.activity_main);
         initUi();
         setBluetooth();
-        setSpinner();
     }
 
     private void showToast(String s) {
@@ -578,31 +579,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
 
-    // ------------------- CODIGO PROVISIONAL ------------------- //
-
-    //SPINNER
-    public void  setSpinner(){
-        spinner = findViewById(R.id.spinner);
-        spinner.setOnItemSelectedListener(this);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.QualityArray, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
-    }
-
-    @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
-        FRAME_COMPRESS_COUNTER = position;
-    }
-
-    @Override
-    public void onNothingSelected(AdapterView<?> parent) {
-
-    }
-
-    // ------------------- CODIGO PROVISIONAL ------------------- //
-
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
 
@@ -674,20 +650,17 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         public void run() {
 
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-            int FRAME_COMPRESS_SIZE = B[FRAME_COMPRESS_COUNTER];
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-
-            BitmapFactory.Options options = new BitmapFactory.Options();
-            options.inSampleSize = FRAME_COMPRESS_SIZE;
+            Analyzer analyzer = new Analyzer(context);
 
             while (true) {
                 try {
-                    mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-                    byte[] image = frameToByteArray(options);
-                    outStream.write(image);
-                    outStream.flush();
-                    outStream.write(KEY.getBytes());
+
+                    Bitmap frame = videostreamPreviewTtView.getBitmap();
+
+                    analyzer.start(frame);
+                    String rawValue = analyzer.getRawValue();
+
+                    outStream.write(rawValue.getBytes());
                     outStream.flush();
 
                 } catch (IOException e) {
@@ -699,24 +672,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             }
         }
 
-
-        private byte[] frameToByteArray(BitmapFactory.Options options){
-
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-            int FRAME_COMPRESS_QUALITY = A[FRAME_COMPRESS_COUNTER];
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-
-            Bitmap frame = videostreamPreviewTtView.getBitmap();
-            Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
-
-            frame = BitmapFactory.decodeByteArray(baos.toByteArray(), 0, baos.size(), options);
-            baos = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
-
-            return baos.toByteArray();
-        }
 
     }
 

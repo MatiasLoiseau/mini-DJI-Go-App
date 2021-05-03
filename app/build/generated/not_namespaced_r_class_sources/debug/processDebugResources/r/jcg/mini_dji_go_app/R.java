@@ -1245,23 +1245,16 @@ public final class R {
      */
     public static final int controlBackground=0x7f030082;
     /**
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int coordinatorLayoutStyle=0x7f030083;
-    /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int crossfade=0x7f030084;
+    public static final int crossfade=0x7f030083;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int currentState=0x7f030085;
+    public static final int currentState=0x7f030084;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1273,24 +1266,24 @@ public final class R {
      * <tr><td>spline</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int curveFit=0x7f030086;
+    public static final int curveFit=0x7f030085;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int customBoolean=0x7f030087;
+    public static final int customBoolean=0x7f030086;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int customColorDrawableValue=0x7f030088;
+    public static final int customColorDrawableValue=0x7f030087;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int customColorValue=0x7f030089;
+    public static final int customColorValue=0x7f030088;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1298,15 +1291,15 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int customDimension=0x7f03008a;
+    public static final int customDimension=0x7f030089;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int customFloatValue=0x7f03008b;
+    public static final int customFloatValue=0x7f03008a;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int customIntegerValue=0x7f03008c;
+    public static final int customIntegerValue=0x7f03008b;
     /**
      * Specifies a layout for custom navigation. Overrides navigationMode.
      * <p>May be a reference to another resource, in the form
@@ -1314,7 +1307,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int customNavigationLayout=0x7f03008d;
+    public static final int customNavigationLayout=0x7f03008c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1322,16 +1315,16 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int customPixelDimension=0x7f03008e;
+    public static final int customPixelDimension=0x7f03008d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int customStringValue=0x7f03008f;
+    public static final int customStringValue=0x7f03008e;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int defaultDuration=0x7f030090;
+    public static final int defaultDuration=0x7f03008f;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1344,36 +1337,36 @@ public final class R {
      * <tr><td>Mapbox</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int defaultProvider=0x7f030091;
+    public static final int defaultProvider=0x7f030090;
     /**
      * Default query hint used when {@code queryHint} is undefined and
      * the search view's {@code SearchableInfo} does not provide a hint.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int defaultQueryHint=0x7f030092;
+    public static final int defaultQueryHint=0x7f030091;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int defaultState=0x7f030093;
+    public static final int defaultState=0x7f030092;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int deltaPolarAngle=0x7f030094;
+    public static final int deltaPolarAngle=0x7f030093;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int deltaPolarRadius=0x7f030095;
+    public static final int deltaPolarRadius=0x7f030094;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int deriveConstraintsFrom=0x7f030096;
+    public static final int deriveConstraintsFrom=0x7f030095;
     /**
      * Preferred corner radius of dialogs.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1382,7 +1375,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogCornerRadius=0x7f030097;
+    public static final int dialogCornerRadius=0x7f030096;
     /**
      * Preferred padding for dialog content.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1391,7 +1384,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dialogPreferredPadding=0x7f030098;
+    public static final int dialogPreferredPadding=0x7f030097;
     /**
      * Theme to use for dialogs spawned from this theme.
      * <p>May be a reference to another resource, in the form
@@ -1399,7 +1392,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dialogTheme=0x7f030099;
+    public static final int dialogTheme=0x7f030098;
     /**
      * Options affecting how the action bar is displayed.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -1417,7 +1410,7 @@ public final class R {
      * <tr><td>useLogo</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int displayOptions=0x7f03009a;
+    public static final int displayOptions=0x7f030099;
     /**
      * Specifies the drawable used for item dividers.
      * <p>May be a reference to another resource, in the form
@@ -1425,7 +1418,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int divider=0x7f03009b;
+    public static final int divider=0x7f03009a;
     /**
      * A drawable that may be used as a horizontal divider between visual elements.
      * <p>May be a reference to another resource, in the form
@@ -1433,7 +1426,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerHorizontal=0x7f03009c;
+    public static final int dividerHorizontal=0x7f03009b;
     /**
      * Size of padding on either end of a divider.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1442,7 +1435,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dividerPadding=0x7f03009d;
+    public static final int dividerPadding=0x7f03009c;
     /**
      * A drawable that may be used as a vertical divider between visual elements.
      * <p>May be a reference to another resource, in the form
@@ -1450,7 +1443,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dividerVertical=0x7f03009e;
+    public static final int dividerVertical=0x7f03009d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1466,15 +1459,15 @@ public final class R {
      * <tr><td>dragUp</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int dragDirection=0x7f03009f;
+    public static final int dragDirection=0x7f03009e;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int dragScale=0x7f0300a0;
+    public static final int dragScale=0x7f03009f;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int dragThreshold=0x7f0300a1;
+    public static final int dragThreshold=0x7f0300a0;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1490,21 +1483,21 @@ public final class R {
      * <tr><td>rectangles</td><td>5</td><td></td></tr>
      * </table>
      */
-    public static final int drawPath=0x7f0300a2;
+    public static final int drawPath=0x7f0300a1;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableBottomCompat=0x7f0300a3;
+    public static final int drawableBottomCompat=0x7f0300a2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableEndCompat=0x7f0300a4;
+    public static final int drawableEndCompat=0x7f0300a3;
     /**
      * Compound drawables allowing the use of vector drawable when running on older versions
      * of the platform.
@@ -1513,14 +1506,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableLeftCompat=0x7f0300a5;
+    public static final int drawableLeftCompat=0x7f0300a4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableRightCompat=0x7f0300a6;
+    public static final int drawableRightCompat=0x7f0300a5;
     /**
      * The total size of the drawable
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1529,21 +1522,21 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int drawableSize=0x7f0300a7;
+    public static final int drawableSize=0x7f0300a6;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableStartCompat=0x7f0300a8;
+    public static final int drawableStartCompat=0x7f0300a7;
     /**
      * Tint to apply to the compound (left, top, etc.) drawables.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int drawableTint=0x7f0300a9;
+    public static final int drawableTint=0x7f0300a8;
     /**
      * Blending mode used to apply the compound (left, top, etc.) drawables tint.
      * <p>Must be one of the following constant values.</p>
@@ -1565,21 +1558,21 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int drawableTintMode=0x7f0300aa;
+    public static final int drawableTintMode=0x7f0300a9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawableTopCompat=0x7f0300ab;
+    public static final int drawableTopCompat=0x7f0300aa;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int drawerArrowStyle=0x7f0300ac;
+    public static final int drawerArrowStyle=0x7f0300ab;
     /**
      * ListPopupWindow compatibility
      * <p>May be a reference to another resource, in the form
@@ -1587,7 +1580,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int dropDownListViewStyle=0x7f0300ad;
+    public static final int dropDownListViewStyle=0x7f0300ac;
     /**
      * The preferred item height for dropdown lists.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1596,11 +1589,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int dropdownListPreferredItemHeight=0x7f0300ae;
+    public static final int dropdownListPreferredItemHeight=0x7f0300ad;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int duration=0x7f0300af;
+    public static final int duration=0x7f0300ae;
     /**
      * EditText background drawable.
      * <p>May be a reference to another resource, in the form
@@ -1608,7 +1601,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextBackground=0x7f0300b0;
+    public static final int editTextBackground=0x7f0300af;
     /**
      * EditText text foreground color.
      * <p>May be a reference to another resource, in the form
@@ -1619,7 +1612,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int editTextColor=0x7f0300b1;
+    public static final int editTextColor=0x7f0300b0;
     /**
      * Default EditText style.
      * <p>May be a reference to another resource, in the form
@@ -1627,7 +1620,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int editTextStyle=0x7f0300b2;
+    public static final int editTextStyle=0x7f0300b1;
     /**
      * Elevation for the action bar itself
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -1636,13 +1629,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int elevation=0x7f0300b3;
+    public static final int elevation=0x7f0300b2;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int exampleColor=0x7f0300b4;
+    public static final int exampleColor=0x7f0300b3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1650,7 +1643,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int exampleDimension=0x7f0300b5;
+    public static final int exampleDimension=0x7f0300b4;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -1660,12 +1653,12 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int exampleDrawable=0x7f0300b6;
+    public static final int exampleDrawable=0x7f0300b5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int exampleString=0x7f0300b7;
+    public static final int exampleString=0x7f0300b6;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1691,7 +1684,7 @@ public final class R {
      * <tr><td>visionSensors</td><td>20</td><td></td></tr>
      * </table>
      */
-    public static final int excludeItem=0x7f0300b8;
+    public static final int excludeItem=0x7f0300b7;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -1705,7 +1698,7 @@ public final class R {
      * <tr><td>singleVoltage</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int excludeView=0x7f0300b9;
+    public static final int excludeView=0x7f0300b8;
     /**
      * The drawable to show in the button for expanding the activities overflow popup.
      * <strong>Note:</strong> Clients would like to set this drawable
@@ -1717,46 +1710,46 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int expandActivityOverflowButtonDrawable=0x7f0300ba;
+    public static final int expandActivityOverflowButtonDrawable=0x7f0300b9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int fastScrollEnabled=0x7f0300bb;
+    public static final int fastScrollEnabled=0x7f0300ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalThumbDrawable=0x7f0300bc;
+    public static final int fastScrollHorizontalThumbDrawable=0x7f0300bb;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollHorizontalTrackDrawable=0x7f0300bd;
+    public static final int fastScrollHorizontalTrackDrawable=0x7f0300bc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalThumbDrawable=0x7f0300be;
+    public static final int fastScrollVerticalThumbDrawable=0x7f0300bd;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fastScrollVerticalTrackDrawable=0x7f0300bf;
+    public static final int fastScrollVerticalTrackDrawable=0x7f0300be;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int fillColor=0x7f0300c0;
+    public static final int fillColor=0x7f0300bf;
     /**
      * Distance from the top of the TextView to the first text baseline. If set, this
      * overrides the value set for paddingTop.
@@ -1766,11 +1759,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int firstBaselineToTopHeight=0x7f0300c1;
+    public static final int firstBaselineToTopHeight=0x7f0300c0;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_firstHorizontalBias=0x7f0300c2;
+    public static final int flow_firstHorizontalBias=0x7f0300c1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1783,11 +1776,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_firstHorizontalStyle=0x7f0300c3;
+    public static final int flow_firstHorizontalStyle=0x7f0300c2;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_firstVerticalBias=0x7f0300c4;
+    public static final int flow_firstVerticalBias=0x7f0300c3;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1800,7 +1793,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_firstVerticalStyle=0x7f0300c5;
+    public static final int flow_firstVerticalStyle=0x7f0300c4;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1813,11 +1806,11 @@ public final class R {
      * <tr><td>start</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int flow_horizontalAlign=0x7f0300c6;
+    public static final int flow_horizontalAlign=0x7f0300c5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_horizontalBias=0x7f0300c7;
+    public static final int flow_horizontalBias=0x7f0300c6;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1825,7 +1818,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int flow_horizontalGap=0x7f0300c8;
+    public static final int flow_horizontalGap=0x7f0300c7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1838,11 +1831,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_horizontalStyle=0x7f0300c9;
+    public static final int flow_horizontalStyle=0x7f0300c8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_lastHorizontalBias=0x7f0300ca;
+    public static final int flow_lastHorizontalBias=0x7f0300c9;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1855,11 +1848,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_lastHorizontalStyle=0x7f0300cb;
+    public static final int flow_lastHorizontalStyle=0x7f0300ca;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_lastVerticalBias=0x7f0300cc;
+    public static final int flow_lastVerticalBias=0x7f0300cb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1872,11 +1865,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_lastVerticalStyle=0x7f0300cd;
+    public static final int flow_lastVerticalStyle=0x7f0300cc;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int flow_maxElementsWrap=0x7f0300ce;
+    public static final int flow_maxElementsWrap=0x7f0300cd;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1884,7 +1877,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int flow_padding=0x7f0300cf;
+    public static final int flow_padding=0x7f0300ce;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1898,11 +1891,11 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int flow_verticalAlign=0x7f0300d0;
+    public static final int flow_verticalAlign=0x7f0300cf;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int flow_verticalBias=0x7f0300d1;
+    public static final int flow_verticalBias=0x7f0300d0;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -1910,7 +1903,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int flow_verticalGap=0x7f0300d2;
+    public static final int flow_verticalGap=0x7f0300d1;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1923,7 +1916,7 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int flow_verticalStyle=0x7f0300d3;
+    public static final int flow_verticalStyle=0x7f0300d2;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -1936,7 +1929,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int flow_wrapMode=0x7f0300d4;
+    public static final int flow_wrapMode=0x7f0300d3;
     /**
      * The reference to the font file to be used. This should be a file in the res/font folder
      * and should therefore have an R reference value. E.g. @font/myfont
@@ -1945,19 +1938,19 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int font=0x7f0300d5;
+    public static final int font=0x7f0300d4;
     /**
      * The attribute for the font family.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontFamily=0x7f0300d6;
+    public static final int fontFamily=0x7f0300d5;
     /**
      * The authority of the Font Provider to be used for the request.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderAuthority=0x7f0300d7;
+    public static final int fontProviderAuthority=0x7f0300d6;
     /**
      * The sets of hashes for the certificates the provider should be signed with. This is
      * used to verify the identity of the provider, and is only required if the provider is not
@@ -1969,7 +1962,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int fontProviderCerts=0x7f0300d8;
+    public static final int fontProviderCerts=0x7f0300d7;
     /**
      * The strategy to be used when fetching font data from a font provider in XML layouts.
      * This attribute is ignored when the resource is loaded from code, as it is equivalent to the
@@ -1996,7 +1989,7 @@ public final class R {
      * default typeface will be used instead.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchStrategy=0x7f0300d9;
+    public static final int fontProviderFetchStrategy=0x7f0300d8;
     /**
      * The length of the timeout during fetching.
      * <p>May be an integer value, such as "<code>100</code>".
@@ -2010,21 +2003,21 @@ public final class R {
      * timeout and wait until a reply is received from the font provider.</td></tr>
      * </table>
      */
-    public static final int fontProviderFetchTimeout=0x7f0300da;
+    public static final int fontProviderFetchTimeout=0x7f0300d9;
     /**
      * The package for the Font Provider to be used for the request. This is used to verify
      * the identity of the provider.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderPackage=0x7f0300db;
+    public static final int fontProviderPackage=0x7f0300da;
     /**
      * The query to be sent over to the provider. Refer to your font provider's documentation
      * on the format of this string.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontProviderQuery=0x7f0300dc;
+    public static final int fontProviderQuery=0x7f0300db;
     /**
      * The style of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any style information in the font's header tables. If
@@ -2039,7 +2032,7 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int fontStyle=0x7f0300dd;
+    public static final int fontStyle=0x7f0300dc;
     /**
      * The variation settings to be applied to the font. The string should be in the following
      * format: "'tag1' value1, 'tag2' value2, ...". If the default variation settings should be
@@ -2048,7 +2041,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int fontVariationSettings=0x7f0300de;
+    public static final int fontVariationSettings=0x7f0300dd;
     /**
      * The weight of the given font file. This will be used when the font is being loaded into
      * the font stack and will override any weight information in the font's header tables. Must
@@ -2057,11 +2050,11 @@ public final class R {
      * in the font's header tables will be used.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int fontWeight=0x7f0300df;
+    public static final int fontWeight=0x7f0300de;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int framePosition=0x7f0300e0;
+    public static final int framePosition=0x7f0300df;
     /**
      * The max gap between the bars when they are parallel to each other
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -2070,7 +2063,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int gapBetweenBars=0x7f0300e1;
+    public static final int gapBetweenBars=0x7f0300e0;
     /**
      * Go button icon
      * <p>May be a reference to another resource, in the form
@@ -2078,7 +2071,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int goIcon=0x7f0300e2;
+    public static final int goIcon=0x7f0300e1;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2086,13 +2079,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int height=0x7f0300e3;
+    public static final int height=0x7f0300e2;
     /**
      * Set true to hide the action bar on a vertical nested scroll of content.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int hideOnContentScroll=0x7f0300e4;
+    public static final int hideOnContentScroll=0x7f0300e3;
     /**
      * Specifies a drawable to use for the 'home as up' indicator.
      * <p>May be a reference to another resource, in the form
@@ -2100,7 +2093,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeAsUpIndicator=0x7f0300e5;
+    public static final int homeAsUpIndicator=0x7f0300e4;
     /**
      * Specifies a layout to use for the "home" section of the action bar.
      * <p>May be a reference to another resource, in the form
@@ -2108,7 +2101,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int homeLayout=0x7f0300e6;
+    public static final int homeLayout=0x7f0300e5;
     /**
      * Specifies the drawable used for the application icon.
      * <p>May be a reference to another resource, in the form
@@ -2116,14 +2109,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int icon=0x7f0300e7;
+    public static final int icon=0x7f0300e6;
     /**
      * Tint to apply to the icon.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int iconTint=0x7f0300e8;
+    public static final int iconTint=0x7f0300e7;
     /**
      * Blending mode used to apply the icon tint.
      * <p>Must be one of the following constant values.</p>
@@ -2145,18 +2138,18 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int iconTintMode=0x7f0300e9;
+    public static final int iconTintMode=0x7f0300e8;
     /**
      * The default state of the SearchView. If true, it will be iconified when not in
      * use and expanded when clicked.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int iconifiedByDefault=0x7f0300ea;
+    public static final int iconifiedByDefault=0x7f0300e9;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int imageAspectRatio=0x7f0300eb;
+    public static final int imageAspectRatio=0x7f0300ea;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2169,7 +2162,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int imageAspectRatioAdjust=0x7f0300ec;
+    public static final int imageAspectRatioAdjust=0x7f0300eb;
     /**
      * ImageButton background drawable.
      * <p>May be a reference to another resource, in the form
@@ -2177,7 +2170,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int imageButtonStyle=0x7f0300ed;
+    public static final int imageButtonStyle=0x7f0300ec;
     /**
      * Specifies a style resource to use for an indeterminate progress spinner.
      * <p>May be a reference to another resource, in the form
@@ -2185,32 +2178,32 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int indeterminateProgressStyle=0x7f0300ee;
+    public static final int indeterminateProgressStyle=0x7f0300ed;
     /**
      * The maximal number of items initially shown in the activity list.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int initialActivityCount=0x7f0300ef;
+    public static final int initialActivityCount=0x7f0300ee;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isAllVisible=0x7f0300f0;
+    public static final int isAllVisible=0x7f0300ef;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isCyclic=0x7f0300f1;
+    public static final int isCyclic=0x7f0300f0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int isLightTheme=0x7f0300f2;
+    public static final int isLightTheme=0x7f0300f1;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int itemOffsetPercent=0x7f0300f3;
+    public static final int itemOffsetPercent=0x7f0300f2;
     /**
      * Specifies padding that should be applied to the left and right sides of
      * system-provided items in the bar.
@@ -2220,11 +2213,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemPadding=0x7f0300f4;
+    public static final int itemPadding=0x7f0300f3;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int itemsDimmedAlpha=0x7f0300f5;
+    public static final int itemsDimmedAlpha=0x7f0300f4;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2232,7 +2225,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int itemsPadding=0x7f0300f6;
+    public static final int itemsPadding=0x7f0300f5;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2245,19 +2238,7 @@ public final class R {
      * <tr><td>pathRelative</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int keyPositionType=0x7f0300f7;
-    /**
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int keylines=0x7f0300f8;
+    public static final int keyPositionType=0x7f0300f6;
     /**
      * Distance from the bottom of the TextView to the last text baseline. If set, this
      * overrides the value set for paddingBottom.
@@ -2267,23 +2248,23 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lastBaselineToBottomHeight=0x7f0300f9;
+    public static final int lastBaselineToBottomHeight=0x7f0300f7;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLatitude=0x7f0300fa;
+    public static final int latLngBoundsNorthEastLatitude=0x7f0300f8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsNorthEastLongitude=0x7f0300fb;
+    public static final int latLngBoundsNorthEastLongitude=0x7f0300f9;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLatitude=0x7f0300fc;
+    public static final int latLngBoundsSouthWestLatitude=0x7f0300fa;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int latLngBoundsSouthWestLongitude=0x7f0300fd;
+    public static final int latLngBoundsSouthWestLongitude=0x7f0300fb;
     /**
      * The layout to use for the search view.
      * <p>May be a reference to another resource, in the form
@@ -2291,14 +2272,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout=0x7f0300fe;
+    public static final int layout=0x7f0300fc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layoutDescription=0x7f0300ff;
+    public static final int layoutDescription=0x7f0300fd;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2310,7 +2291,7 @@ public final class R {
      * <tr><td>ignoreRequest</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layoutDuringTransition=0x7f030100;
+    public static final int layoutDuringTransition=0x7f0300fe;
     /**
      * Class name of the Layout Manager to be used.
      * <p/>
@@ -2324,68 +2305,21 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layoutManager=0x7f030101;
-    /**
-     * The id of an anchor view that this view should position relative to.
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     */
-    public static final int layout_anchor=0x7f030102;
-    /**
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
-     * </table>
-     */
-    public static final int layout_anchorGravity=0x7f030103;
-    /**
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     */
-    public static final int layout_behavior=0x7f030104;
+    public static final int layoutManager=0x7f0300ff;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedHeight=0x7f030105;
+    public static final int layout_constrainedHeight=0x7f030100;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int layout_constrainedWidth=0x7f030106;
+    public static final int layout_constrainedWidth=0x7f030101;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBaseline_creator=0x7f030107;
+    public static final int layout_constraintBaseline_creator=0x7f030102;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2400,11 +2334,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBaseline_toBaselineOf=0x7f030108;
+    public static final int layout_constraintBaseline_toBaselineOf=0x7f030103;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintBottom_creator=0x7f030109;
+    public static final int layout_constraintBottom_creator=0x7f030104;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2419,7 +2353,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toBottomOf=0x7f03010a;
+    public static final int layout_constraintBottom_toBottomOf=0x7f030105;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2434,18 +2368,18 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintBottom_toTopOf=0x7f03010b;
+    public static final int layout_constraintBottom_toTopOf=0x7f030106;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int layout_constraintCircle=0x7f03010c;
+    public static final int layout_constraintCircle=0x7f030107;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintCircleAngle=0x7f03010d;
+    public static final int layout_constraintCircleAngle=0x7f030108;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2453,12 +2387,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintCircleRadius=0x7f03010e;
+    public static final int layout_constraintCircleRadius=0x7f030109;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintDimensionRatio=0x7f03010f;
+    public static final int layout_constraintDimensionRatio=0x7f03010a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2473,7 +2407,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toEndOf=0x7f030110;
+    public static final int layout_constraintEnd_toEndOf=0x7f03010b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2488,7 +2422,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintEnd_toStartOf=0x7f030111;
+    public static final int layout_constraintEnd_toStartOf=0x7f03010c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2496,7 +2430,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_begin=0x7f030112;
+    public static final int layout_constraintGuide_begin=0x7f03010d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2504,11 +2438,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_constraintGuide_end=0x7f030113;
+    public static final int layout_constraintGuide_end=0x7f03010e;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintGuide_percent=0x7f030114;
+    public static final int layout_constraintGuide_percent=0x7f03010f;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2521,7 +2455,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_default=0x7f030115;
+    public static final int layout_constraintHeight_default=0x7f030110;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2537,7 +2471,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_max=0x7f030116;
+    public static final int layout_constraintHeight_max=0x7f030111;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2553,15 +2487,15 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHeight_min=0x7f030117;
+    public static final int layout_constraintHeight_min=0x7f030112;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHeight_percent=0x7f030118;
+    public static final int layout_constraintHeight_percent=0x7f030113;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_bias=0x7f030119;
+    public static final int layout_constraintHorizontal_bias=0x7f030114;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2574,15 +2508,15 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintHorizontal_chainStyle=0x7f03011a;
+    public static final int layout_constraintHorizontal_chainStyle=0x7f030115;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintHorizontal_weight=0x7f03011b;
+    public static final int layout_constraintHorizontal_weight=0x7f030116;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintLeft_creator=0x7f03011c;
+    public static final int layout_constraintLeft_creator=0x7f030117;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2597,7 +2531,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toLeftOf=0x7f03011d;
+    public static final int layout_constraintLeft_toLeftOf=0x7f030118;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2612,11 +2546,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintLeft_toRightOf=0x7f03011e;
+    public static final int layout_constraintLeft_toRightOf=0x7f030119;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintRight_creator=0x7f03011f;
+    public static final int layout_constraintRight_creator=0x7f03011a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2631,7 +2565,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toLeftOf=0x7f030120;
+    public static final int layout_constraintRight_toLeftOf=0x7f03011b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2646,7 +2580,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintRight_toRightOf=0x7f030121;
+    public static final int layout_constraintRight_toRightOf=0x7f03011c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2661,7 +2595,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toEndOf=0x7f030122;
+    public static final int layout_constraintStart_toEndOf=0x7f03011d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2676,16 +2610,16 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintStart_toStartOf=0x7f030123;
+    public static final int layout_constraintStart_toStartOf=0x7f03011e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int layout_constraintTag=0x7f030124;
+    public static final int layout_constraintTag=0x7f03011f;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int layout_constraintTop_creator=0x7f030125;
+    public static final int layout_constraintTop_creator=0x7f030120;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2700,7 +2634,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toBottomOf=0x7f030126;
+    public static final int layout_constraintTop_toBottomOf=0x7f030121;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -2715,11 +2649,11 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintTop_toTopOf=0x7f030127;
+    public static final int layout_constraintTop_toTopOf=0x7f030122;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_bias=0x7f030128;
+    public static final int layout_constraintVertical_bias=0x7f030123;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2732,11 +2666,11 @@ public final class R {
      * <tr><td>spread_inside</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintVertical_chainStyle=0x7f030129;
+    public static final int layout_constraintVertical_chainStyle=0x7f030124;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintVertical_weight=0x7f03012a;
+    public static final int layout_constraintVertical_weight=0x7f030125;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -2749,7 +2683,7 @@ public final class R {
      * <tr><td>wrap</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_default=0x7f03012b;
+    public static final int layout_constraintWidth_default=0x7f030126;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2765,7 +2699,7 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_max=0x7f03012c;
+    public static final int layout_constraintWidth_max=0x7f030127;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2781,30 +2715,11 @@ public final class R {
      * <tr><td>wrap</td><td>fffffffe</td><td></td></tr>
      * </table>
      */
-    public static final int layout_constraintWidth_min=0x7f03012d;
+    public static final int layout_constraintWidth_min=0x7f030128;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int layout_constraintWidth_percent=0x7f03012e;
-    /**
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
-     * </table>
-     */
-    public static final int layout_dodgeInsetEdges=0x7f03012f;
+    public static final int layout_constraintWidth_percent=0x7f030129;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2812,7 +2727,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteX=0x7f030130;
+    public static final int layout_editor_absoluteX=0x7f03012a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2820,7 +2735,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_editor_absoluteY=0x7f030131;
+    public static final int layout_editor_absoluteY=0x7f03012b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2828,7 +2743,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginBottom=0x7f030132;
+    public static final int layout_goneMarginBottom=0x7f03012c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2836,7 +2751,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginEnd=0x7f030133;
+    public static final int layout_goneMarginEnd=0x7f03012d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2844,7 +2759,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginLeft=0x7f030134;
+    public static final int layout_goneMarginLeft=0x7f03012e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2852,7 +2767,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginRight=0x7f030135;
+    public static final int layout_goneMarginRight=0x7f03012f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2860,7 +2775,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginStart=0x7f030136;
+    public static final int layout_goneMarginStart=0x7f030130;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -2868,33 +2783,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int layout_goneMarginTop=0x7f030137;
-    /**
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
-     * </table>
-     */
-    public static final int layout_insetEdge=0x7f030138;
-    /**
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
-     * <p>May be an integer value, such as "<code>100</code>".
-     */
-    public static final int layout_keyline=0x7f030139;
+    public static final int layout_goneMarginTop=0x7f030131;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -2917,14 +2806,14 @@ public final class R {
      * <tr><td>standard</td><td>101</td><td></td></tr>
      * </table>
      */
-    public static final int layout_optimizationLevel=0x7f03013a;
+    public static final int layout_optimizationLevel=0x7f030132;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int limitBoundsTo=0x7f03013b;
+    public static final int limitBoundsTo=0x7f030133;
     /**
      * Explicit height between lines of text. If set, this will override the values set
      * for lineSpacingExtra and lineSpacingMultiplier.
@@ -2934,7 +2823,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int lineHeight=0x7f03013c;
+    public static final int lineHeight=0x7f030134;
     /**
      * Drawable used as a background for selected list items.
      * <p>May be a reference to another resource, in the form
@@ -2942,7 +2831,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceBackgroundIndicator=0x7f03013d;
+    public static final int listChoiceBackgroundIndicator=0x7f030135;
     /**
      * Animated Drawable to use for single choice indicators.
      * <p>May be a reference to another resource, in the form
@@ -2950,7 +2839,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceIndicatorMultipleAnimated=0x7f03013e;
+    public static final int listChoiceIndicatorMultipleAnimated=0x7f030136;
     /**
      * Animated Drawable to use for multiple choice indicators.
      * <p>May be a reference to another resource, in the form
@@ -2958,7 +2847,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listChoiceIndicatorSingleAnimated=0x7f03013f;
+    public static final int listChoiceIndicatorSingleAnimated=0x7f030137;
     /**
      * The list divider used in alert dialogs.
      * <p>May be a reference to another resource, in the form
@@ -2966,21 +2855,21 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listDividerAlertDialog=0x7f030140;
+    public static final int listDividerAlertDialog=0x7f030138;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listItemLayout=0x7f030141;
+    public static final int listItemLayout=0x7f030139;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listLayout=0x7f030142;
+    public static final int listLayout=0x7f03013a;
     /**
      * Default menu-style ListView style.
      * <p>May be a reference to another resource, in the form
@@ -2988,14 +2877,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listMenuViewStyle=0x7f030143;
+    public static final int listMenuViewStyle=0x7f03013b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int listPopupWindowStyle=0x7f030144;
+    public static final int listPopupWindowStyle=0x7f03013c;
     /**
      * The preferred list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3004,7 +2893,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeight=0x7f030145;
+    public static final int listPreferredItemHeight=0x7f03013d;
     /**
      * A larger, more robust list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3013,7 +2902,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightLarge=0x7f030146;
+    public static final int listPreferredItemHeightLarge=0x7f03013e;
     /**
      * A smaller, sleeker list item height.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3022,7 +2911,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemHeightSmall=0x7f030147;
+    public static final int listPreferredItemHeightSmall=0x7f03013f;
     /**
      * The preferred padding along the end edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3031,7 +2920,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingEnd=0x7f030148;
+    public static final int listPreferredItemPaddingEnd=0x7f030140;
     /**
      * The preferred padding along the left edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3040,7 +2929,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingLeft=0x7f030149;
+    public static final int listPreferredItemPaddingLeft=0x7f030141;
     /**
      * The preferred padding along the right edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3049,7 +2938,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingRight=0x7f03014a;
+    public static final int listPreferredItemPaddingRight=0x7f030142;
     /**
      * The preferred padding along the start edge of list items.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3058,12 +2947,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int listPreferredItemPaddingStart=0x7f03014b;
+    public static final int listPreferredItemPaddingStart=0x7f030143;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int liteMode=0x7f03014c;
+    public static final int liteMode=0x7f030144;
     /**
      * Specifies the drawable used for the application logo.
      * <p>May be a reference to another resource, in the form
@@ -3071,14 +2960,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int logo=0x7f03014d;
+    public static final int logo=0x7f030145;
     /**
      * A content description string to describe the appearance of the
      * associated logo image.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int logoDescription=0x7f03014e;
+    public static final int logoDescription=0x7f030146;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3093,12 +2982,12 @@ public final class R {
      * <tr><td>terrain</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int mapType=0x7f03014f;
+    public static final int mapType=0x7f030147;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int mapbox_apiBaseUrl=0x7f030150;
+    public static final int mapbox_apiBaseUrl=0x7f030148;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3112,7 +3001,7 @@ public final class R {
      * <tr><td>top</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int mapbox_bl_arrowDirection=0x7f030151;
+    public static final int mapbox_bl_arrowDirection=0x7f030149;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3124,7 +3013,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_bl_arrowHeight=0x7f030152;
+    public static final int mapbox_bl_arrowHeight=0x7f03014a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3136,7 +3025,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_bl_arrowPosition=0x7f030153;
+    public static final int mapbox_bl_arrowPosition=0x7f03014b;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3148,7 +3037,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_bl_arrowWidth=0x7f030154;
+    public static final int mapbox_bl_arrowWidth=0x7f03014c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3158,7 +3047,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_bl_bubbleColor=0x7f030155;
+    public static final int mapbox_bl_bubbleColor=0x7f03014d;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3170,7 +3059,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_bl_cornersRadius=0x7f030156;
+    public static final int mapbox_bl_cornersRadius=0x7f03014e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3180,7 +3069,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_bl_strokeColor=0x7f030157;
+    public static final int mapbox_bl_strokeColor=0x7f03014f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3192,76 +3081,76 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_bl_strokeWidth=0x7f030158;
+    public static final int mapbox_bl_strokeWidth=0x7f030150;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraBearing=0x7f030159;
+    public static final int mapbox_cameraBearing=0x7f030151;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraTargetLat=0x7f03015a;
+    public static final int mapbox_cameraTargetLat=0x7f030152;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraTargetLng=0x7f03015b;
+    public static final int mapbox_cameraTargetLng=0x7f030153;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraTilt=0x7f03015c;
+    public static final int mapbox_cameraTilt=0x7f030154;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraZoom=0x7f03015d;
+    public static final int mapbox_cameraZoom=0x7f030155;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraZoomMax=0x7f03015e;
+    public static final int mapbox_cameraZoomMax=0x7f030156;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_cameraZoomMin=0x7f03015f;
+    public static final int mapbox_cameraZoomMin=0x7f030157;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_enableTilePrefetch=0x7f030160;
+    public static final int mapbox_enableTilePrefetch=0x7f030158;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_enableZMediaOverlay=0x7f030161;
+    public static final int mapbox_enableZMediaOverlay=0x7f030159;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int mapbox_localIdeographFontFamily=0x7f030162;
+    public static final int mapbox_localIdeographFontFamily=0x7f03015a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_myLocation=0x7f030163;
+    public static final int mapbox_myLocation=0x7f03015b;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int mapbox_myLocationAccuracyAlpha=0x7f030164;
+    public static final int mapbox_myLocationAccuracyAlpha=0x7f03015c;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int mapbox_myLocationAccuracyThreshold=0x7f030165;
+    public static final int mapbox_myLocationAccuracyThreshold=0x7f03015d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_myLocationAccuracyTintColor=0x7f030166;
+    public static final int mapbox_myLocationAccuracyTintColor=0x7f03015e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int mapbox_myLocationBackgroundDrawable=0x7f030167;
+    public static final int mapbox_myLocationBackgroundDrawable=0x7f03015f;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3269,7 +3158,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_myLocationBackgroundMarginBottom=0x7f030168;
+    public static final int mapbox_myLocationBackgroundMarginBottom=0x7f030160;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3277,7 +3166,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_myLocationBackgroundMarginLeft=0x7f030169;
+    public static final int mapbox_myLocationBackgroundMarginLeft=0x7f030161;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3285,7 +3174,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_myLocationBackgroundMarginRight=0x7f03016a;
+    public static final int mapbox_myLocationBackgroundMarginRight=0x7f030162;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3293,48 +3182,48 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_myLocationBackgroundMarginTop=0x7f03016b;
+    public static final int mapbox_myLocationBackgroundMarginTop=0x7f030163;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_myLocationBackgroundTintColor=0x7f03016c;
+    public static final int mapbox_myLocationBackgroundTintColor=0x7f030164;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int mapbox_myLocationBearingDrawable=0x7f03016d;
+    public static final int mapbox_myLocationBearingDrawable=0x7f030165;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int mapbox_myLocationDrawable=0x7f03016e;
+    public static final int mapbox_myLocationDrawable=0x7f030166;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_myLocationTintColor=0x7f03016f;
+    public static final int mapbox_myLocationTintColor=0x7f030167;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_renderTextureMode=0x7f030170;
+    public static final int mapbox_renderTextureMode=0x7f030168;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int mapbox_styleUrl=0x7f030171;
+    public static final int mapbox_styleUrl=0x7f030169;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiAttribution=0x7f030172;
+    public static final int mapbox_uiAttribution=0x7f03016a;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3358,7 +3247,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int mapbox_uiAttributionGravity=0x7f030173;
+    public static final int mapbox_uiAttributionGravity=0x7f03016b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3366,7 +3255,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiAttributionMarginBottom=0x7f030174;
+    public static final int mapbox_uiAttributionMarginBottom=0x7f03016c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3374,7 +3263,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiAttributionMarginLeft=0x7f030175;
+    public static final int mapbox_uiAttributionMarginLeft=0x7f03016d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3382,7 +3271,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiAttributionMarginRight=0x7f030176;
+    public static final int mapbox_uiAttributionMarginRight=0x7f03016e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3390,30 +3279,30 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiAttributionMarginTop=0x7f030177;
+    public static final int mapbox_uiAttributionMarginTop=0x7f03016f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mapbox_uiAttributionTintColor=0x7f030178;
+    public static final int mapbox_uiAttributionTintColor=0x7f030170;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiCompass=0x7f030179;
+    public static final int mapbox_uiCompass=0x7f030171;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int mapbox_uiCompassDrawable=0x7f03017a;
+    public static final int mapbox_uiCompassDrawable=0x7f030172;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiCompassFadeFacingNorth=0x7f03017b;
+    public static final int mapbox_uiCompassFadeFacingNorth=0x7f030173;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3437,7 +3326,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int mapbox_uiCompassGravity=0x7f03017c;
+    public static final int mapbox_uiCompassGravity=0x7f030174;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3445,7 +3334,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiCompassMarginBottom=0x7f03017d;
+    public static final int mapbox_uiCompassMarginBottom=0x7f030175;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3453,7 +3342,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiCompassMarginLeft=0x7f03017e;
+    public static final int mapbox_uiCompassMarginLeft=0x7f030176;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3461,7 +3350,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiCompassMarginRight=0x7f03017f;
+    public static final int mapbox_uiCompassMarginRight=0x7f030177;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3469,17 +3358,17 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiCompassMarginTop=0x7f030180;
+    public static final int mapbox_uiCompassMarginTop=0x7f030178;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiDoubleTapGestures=0x7f030181;
+    public static final int mapbox_uiDoubleTapGestures=0x7f030179;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiLogo=0x7f030182;
+    public static final int mapbox_uiLogo=0x7f03017a;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3503,7 +3392,7 @@ public final class R {
      * <tr><td>top</td><td>30</td><td></td></tr>
      * </table>
      */
-    public static final int mapbox_uiLogoGravity=0x7f030183;
+    public static final int mapbox_uiLogoGravity=0x7f03017b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3511,7 +3400,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiLogoMarginBottom=0x7f030184;
+    public static final int mapbox_uiLogoMarginBottom=0x7f03017c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3519,7 +3408,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiLogoMarginLeft=0x7f030185;
+    public static final int mapbox_uiLogoMarginLeft=0x7f03017d;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3527,7 +3416,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiLogoMarginRight=0x7f030186;
+    public static final int mapbox_uiLogoMarginRight=0x7f03017e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3535,36 +3424,36 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int mapbox_uiLogoMarginTop=0x7f030187;
+    public static final int mapbox_uiLogoMarginTop=0x7f03017f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiRotateGestures=0x7f030188;
+    public static final int mapbox_uiRotateGestures=0x7f030180;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiScrollGestures=0x7f030189;
+    public static final int mapbox_uiScrollGestures=0x7f030181;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiTiltGestures=0x7f03018a;
+    public static final int mapbox_uiTiltGestures=0x7f030182;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiZoomControls=0x7f03018b;
+    public static final int mapbox_uiZoomControls=0x7f030183;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mapbox_uiZoomGestures=0x7f03018c;
+    public static final int mapbox_uiZoomGestures=0x7f030184;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int maxAcceleration=0x7f03018d;
+    public static final int maxAcceleration=0x7f030185;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3572,7 +3461,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxButtonHeight=0x7f03018e;
+    public static final int maxButtonHeight=0x7f030186;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3580,11 +3469,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxHeight=0x7f03018f;
+    public static final int maxHeight=0x7f030187;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int maxVelocity=0x7f030190;
+    public static final int maxVelocity=0x7f030188;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3592,7 +3481,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int maxWidth=0x7f030191;
+    public static final int maxWidth=0x7f030189;
     /**
      * When set to true, all children with a weight will be considered having
      * the minimum size of the largest child. If false, all children are
@@ -3600,7 +3489,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int measureWithLargestChild=0x7f030192;
+    public static final int measureWithLargestChild=0x7f03018a;
     /**
      * Menu resource to inflate to be shown in the toolbar
      * <p>May be a reference to another resource, in the form
@@ -3608,7 +3497,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int menu=0x7f030193;
+    public static final int menu=0x7f03018b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3616,7 +3505,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int minHeight=0x7f030194;
+    public static final int minHeight=0x7f03018c;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -3624,40 +3513,40 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int minWidth=0x7f030195;
+    public static final int minWidth=0x7f03018d;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mock_diagonalsColor=0x7f030196;
+    public static final int mock_diagonalsColor=0x7f03018e;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int mock_label=0x7f030197;
+    public static final int mock_label=0x7f03018f;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mock_labelBackgroundColor=0x7f030198;
+    public static final int mock_labelBackgroundColor=0x7f030190;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int mock_labelColor=0x7f030199;
+    public static final int mock_labelColor=0x7f030191;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mock_showDiagonals=0x7f03019a;
+    public static final int mock_showDiagonals=0x7f030192;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int mock_showLabel=0x7f03019b;
+    public static final int mock_showLabel=0x7f030193;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3671,7 +3560,7 @@ public final class R {
      * <tr><td>SHOW_PROGRESS</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int motionDebug=0x7f03019c;
+    public static final int motionDebug=0x7f030194;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3692,19 +3581,19 @@ public final class R {
      * <tr><td>linear</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int motionInterpolator=0x7f03019d;
+    public static final int motionInterpolator=0x7f030195;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int motionPathRotate=0x7f03019e;
+    public static final int motionPathRotate=0x7f030196;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int motionProgress=0x7f03019f;
+    public static final int motionProgress=0x7f030197;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int motionStagger=0x7f0301a0;
+    public static final int motionStagger=0x7f030198;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3713,38 +3602,38 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int motionTarget=0x7f0301a1;
+    public static final int motionTarget=0x7f030199;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int motion_postLayoutCollision=0x7f0301a2;
+    public static final int motion_postLayoutCollision=0x7f03019a;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int motion_triggerOnCollision=0x7f0301a3;
+    public static final int motion_triggerOnCollision=0x7f03019b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int moveWhenScrollAtTop=0x7f0301a4;
+    public static final int moveWhenScrollAtTop=0x7f03019c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int multiChoiceItemLayout=0x7f0301a5;
+    public static final int multiChoiceItemLayout=0x7f03019d;
     /**
      * Text to set as the content description for the navigation button
      * located at the start of the toolbar.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int navigationContentDescription=0x7f0301a6;
+    public static final int navigationContentDescription=0x7f03019e;
     /**
      * Icon drawable to use for the navigation button located at
      * the start of the toolbar.
@@ -3753,7 +3642,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int navigationIcon=0x7f0301a7;
+    public static final int navigationIcon=0x7f03019f;
     /**
      * The type of navigation to use.
      * <p>Must be one of the following constant values.</p>
@@ -3767,7 +3656,7 @@ public final class R {
      * <tr><td>tabMode</td><td>2</td><td>The action bar will use a series of horizontal tabs for navigation.</td></tr>
      * </table>
      */
-    public static final int navigationMode=0x7f0301a8;
+    public static final int navigationMode=0x7f0301a0;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3780,7 +3669,7 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int nestedScrollFlags=0x7f0301a9;
+    public static final int nestedScrollFlags=0x7f0301a1;
     /**
      * The numeric modifier key. This is the modifier when using a numeric (e.g., 12-key)
      * keyboard. The values should be kept in sync with KeyEvent
@@ -3798,32 +3687,32 @@ public final class R {
      * <tr><td>SYM</td><td>4</td><td></td></tr>
      * </table>
      */
-    public static final int numericModifiers=0x7f0301aa;
+    public static final int numericModifiers=0x7f0301a2;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int onCross=0x7f0301ab;
+    public static final int onCross=0x7f0301a3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int onHide=0x7f0301ac;
+    public static final int onHide=0x7f0301a4;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int onNegativeCross=0x7f0301ad;
+    public static final int onNegativeCross=0x7f0301a5;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int onPositiveCross=0x7f0301ae;
+    public static final int onPositiveCross=0x7f0301a6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int onShow=0x7f0301af;
+    public static final int onShow=0x7f0301a7;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3839,7 +3728,7 @@ public final class R {
      * <tr><td>stop</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int onTouchUp=0x7f0301b0;
+    public static final int onTouchUp=0x7f0301a8;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -3852,18 +3741,18 @@ public final class R {
      * <tr><td>Mapbox</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int optionProvider=0x7f0301b1;
+    public static final int optionProvider=0x7f0301a9;
     /**
      * Whether the popup window should overlap its anchor view.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlapAnchor=0x7f0301b2;
+    public static final int overlapAnchor=0x7f0301aa;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int overlay=0x7f0301b3;
+    public static final int overlay=0x7f0301ab;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3876,7 +3765,7 @@ public final class R {
      * <tr><td>secondary</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int overlayVideoSource=0x7f0301b4;
+    public static final int overlayVideoSource=0x7f0301ac;
     /**
      * Bottom padding to use when no buttons are present.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3885,7 +3774,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingBottomNoButtons=0x7f0301b5;
+    public static final int paddingBottomNoButtons=0x7f0301ad;
     /**
      * Sets the padding, in pixels, of the end edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3894,7 +3783,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingEnd=0x7f0301b6;
+    public static final int paddingEnd=0x7f0301ae;
     /**
      * Sets the padding, in pixels, of the start edge; see {@link android.R.attr#padding}.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3903,7 +3792,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingStart=0x7f0301b7;
+    public static final int paddingStart=0x7f0301af;
     /**
      * Top padding to use when no title is present.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3912,7 +3801,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int paddingTopNoTitle=0x7f0301b8;
+    public static final int paddingTopNoTitle=0x7f0301b0;
     /**
      * The background of a panel when it is inset from the left and right edges of the screen.
      * <p>May be a reference to another resource, in the form
@@ -3920,7 +3809,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelBackground=0x7f0301b9;
+    public static final int panelBackground=0x7f0301b1;
     /**
      * Default Panel Menu style.
      * <p>May be a reference to another resource, in the form
@@ -3928,7 +3817,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int panelMenuListTheme=0x7f0301ba;
+    public static final int panelMenuListTheme=0x7f0301b2;
     /**
      * Default Panel Menu width.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -3937,7 +3826,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int panelMenuListWidth=0x7f0301bb;
+    public static final int panelMenuListWidth=0x7f0301b3;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -3951,31 +3840,31 @@ public final class R {
      * <tr><td>startVertical</td><td>1</td><td></td></tr>
      * </table>
      */
-    public static final int pathMotionArc=0x7f0301bc;
+    public static final int pathMotionArc=0x7f0301b4;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int path_percent=0x7f0301bd;
+    public static final int path_percent=0x7f0301b5;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int percentHeight=0x7f0301be;
+    public static final int percentHeight=0x7f0301b6;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int percentWidth=0x7f0301bf;
+    public static final int percentWidth=0x7f0301b7;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int percentX=0x7f0301c0;
+    public static final int percentX=0x7f0301b8;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int percentY=0x7f0301c1;
+    public static final int percentY=0x7f0301b9;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int perpendicularPath_percent=0x7f0301c2;
+    public static final int perpendicularPath_percent=0x7f0301ba;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -3990,7 +3879,7 @@ public final class R {
      * <tr><td>parent</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int pivotAnchor=0x7f0301c3;
+    public static final int pivotAnchor=0x7f0301bb;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -4003,7 +3892,7 @@ public final class R {
      * <tr><td>visible</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int placeholder_emptyVisibility=0x7f0301c4;
+    public static final int placeholder_emptyVisibility=0x7f0301bc;
     /**
      * Default PopupMenu style.
      * <p>May be a reference to another resource, in the form
@@ -4011,7 +3900,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupMenuStyle=0x7f0301c5;
+    public static final int popupMenuStyle=0x7f0301bd;
     /**
      * Reference to a theme that should be used to inflate popups
      * shown by widgets in the action bar.
@@ -4020,7 +3909,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupTheme=0x7f0301c6;
+    public static final int popupTheme=0x7f0301be;
     /**
      * Default PopupWindow style.
      * <p>May be a reference to another resource, in the form
@@ -4028,13 +3917,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int popupWindowStyle=0x7f0301c7;
+    public static final int popupWindowStyle=0x7f0301bf;
     /**
      * Whether space should be reserved in layout when an icon is missing.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int preserveIconSpacing=0x7f0301c8;
+    public static final int preserveIconSpacing=0x7f0301c0;
     /**
      * Specifies the horizontal padding on either end for an embedded progress bar.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4043,7 +3932,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int progressBarPadding=0x7f0301c9;
+    public static final int progressBarPadding=0x7f0301c1;
     /**
      * Specifies a style resource to use for an embedded progress bar.
      * <p>May be a reference to another resource, in the form
@@ -4051,7 +3940,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int progressBarStyle=0x7f0301ca;
+    public static final int progressBarStyle=0x7f0301c2;
     /**
      * Background for the section containing the search query
      * <p>May be a reference to another resource, in the form
@@ -4059,13 +3948,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int queryBackground=0x7f0301cb;
+    public static final int queryBackground=0x7f0301c3;
     /**
      * An optional user-defined query hint string to be displayed in the empty query field.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int queryHint=0x7f0301cc;
+    public static final int queryHint=0x7f0301c4;
     /**
      * Default RadioButton style.
      * <p>May be a reference to another resource, in the form
@@ -4073,7 +3962,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int radioButtonStyle=0x7f0301cd;
+    public static final int radioButtonStyle=0x7f0301c5;
     /**
      * Default RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -4081,7 +3970,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyle=0x7f0301ce;
+    public static final int ratingBarStyle=0x7f0301c6;
     /**
      * Indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -4089,7 +3978,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleIndicator=0x7f0301cf;
+    public static final int ratingBarStyleIndicator=0x7f0301c7;
     /**
      * Small indicator RatingBar style.
      * <p>May be a reference to another resource, in the form
@@ -4097,14 +3986,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int ratingBarStyleSmall=0x7f0301d0;
+    public static final int ratingBarStyleSmall=0x7f0301c8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int recyclerViewStyle=0x7f0301d1;
+    public static final int recyclerViewStyle=0x7f0301c9;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4112,7 +4001,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int region_heightLessThan=0x7f0301d2;
+    public static final int region_heightLessThan=0x7f0301ca;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4120,7 +4009,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int region_heightMoreThan=0x7f0301d3;
+    public static final int region_heightMoreThan=0x7f0301cb;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4128,7 +4017,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int region_widthLessThan=0x7f0301d4;
+    public static final int region_widthLessThan=0x7f0301cc;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4136,12 +4025,12 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int region_widthMoreThan=0x7f0301d5;
+    public static final int region_widthMoreThan=0x7f0301cd;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int reverseLayout=0x7f0301d6;
+    public static final int reverseLayout=0x7f0301ce;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4149,20 +4038,20 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int round=0x7f0301d7;
+    public static final int round=0x7f0301cf;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int roundPercent=0x7f0301d8;
+    public static final int roundPercent=0x7f0301d0;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int roundedCorner=0x7f0301d9;
+    public static final int roundedCorner=0x7f0301d1;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int saturation=0x7f0301da;
+    public static final int saturation=0x7f0301d2;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
@@ -4171,7 +4060,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int scopeUris=0x7f0301db;
+    public static final int scopeUris=0x7f0301d3;
     /**
      * Search icon displayed as a text field hint
      * <p>May be a reference to another resource, in the form
@@ -4179,7 +4068,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchHintIcon=0x7f0301dc;
+    public static final int searchHintIcon=0x7f0301d4;
     /**
      * Search icon
      * <p>May be a reference to another resource, in the form
@@ -4187,7 +4076,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchIcon=0x7f0301dd;
+    public static final int searchIcon=0x7f0301d5;
     /**
      * Style for the search query widget.
      * <p>May be a reference to another resource, in the form
@@ -4195,7 +4084,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int searchViewStyle=0x7f0301de;
+    public static final int searchViewStyle=0x7f0301d6;
     /**
      * Default SeekBar style.
      * <p>May be a reference to another resource, in the form
@@ -4203,47 +4092,47 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int seekBarStyle=0x7f0301df;
+    public static final int seekBarStyle=0x7f0301d7;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int segmentedBackground=0x7f0301e0;
+    public static final int segmentedBackground=0x7f0301d8;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int segmentedDivider=0x7f0301e1;
+    public static final int segmentedDivider=0x7f0301d9;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int segmentedEnableDivider=0x7f0301e2;
+    public static final int segmentedEnableDivider=0x7f0301da;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int segmentedForeground=0x7f0301e3;
+    public static final int segmentedForeground=0x7f0301db;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int segmentedIcons=0x7f0301e4;
+    public static final int segmentedIcons=0x7f0301dc;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int segmentedTexts=0x7f0301e5;
+    public static final int segmentedTexts=0x7f0301dd;
     /**
      * A style that may be applied to buttons or other selectable items
      * that should react to pressed and focus states, but that do not
@@ -4253,7 +4142,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackground=0x7f0301e6;
+    public static final int selectableItemBackground=0x7f0301de;
     /**
      * Background drawable for borderless standalone items that need focus/pressed states.
      * <p>May be a reference to another resource, in the form
@@ -4261,22 +4150,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectableItemBackgroundBorderless=0x7f0301e7;
+    public static final int selectableItemBackgroundBorderless=0x7f0301df;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int selectionDivider=0x7f0301e8;
+    public static final int selectionDivider=0x7f0301e0;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int selectionDividerActiveAlpha=0x7f0301e9;
+    public static final int selectionDividerActiveAlpha=0x7f0301e1;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int selectionDividerDimmedAlpha=0x7f0301ea;
+    public static final int selectionDividerDimmedAlpha=0x7f0301e2;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4284,7 +4173,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int selectionDividerHeight=0x7f0301eb;
+    public static final int selectionDividerHeight=0x7f0301e3;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4292,7 +4181,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int selectionDividerWidth=0x7f0301ec;
+    public static final int selectionDividerWidth=0x7f0301e4;
     /**
      * How this item should display in the Action Bar, if present.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4317,7 +4206,7 @@ public final class R {
      * label with it even if it has an icon representation.</td></tr>
      * </table>
      */
-    public static final int showAsAction=0x7f0301ed;
+    public static final int showAsAction=0x7f0301e5;
     /**
      * Setting for which dividers to show.
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
@@ -4332,54 +4221,54 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int showDividers=0x7f0301ee;
+    public static final int showDividers=0x7f0301e6;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showPaths=0x7f0301ef;
+    public static final int showPaths=0x7f0301e7;
     /**
      * Whether to draw on/off text.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showText=0x7f0301f0;
+    public static final int showText=0x7f0301e8;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int showTitle=0x7f0301f1;
+    public static final int showTitle=0x7f0301e9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int singleChoiceItemLayout=0x7f0301f2;
+    public static final int singleChoiceItemLayout=0x7f0301ea;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int sizePercent=0x7f0301f3;
+    public static final int sizePercent=0x7f0301eb;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int sourceCameraNameVisibility=0x7f0301f4;
+    public static final int sourceCameraNameVisibility=0x7f0301ec;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int sourceCameraSideVisibility=0x7f0301f5;
+    public static final int sourceCameraSideVisibility=0x7f0301ed;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int spanCount=0x7f0301f6;
+    public static final int spanCount=0x7f0301ee;
     /**
      * Whether bars should rotate or not during transition
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int spinBars=0x7f0301f7;
+    public static final int spinBars=0x7f0301ef;
     /**
      * Default Spinner style.
      * <p>May be a reference to another resource, in the form
@@ -4387,7 +4276,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerDropDownItemStyle=0x7f0301f8;
+    public static final int spinnerDropDownItemStyle=0x7f0301f0;
     /**
      * Default Spinner style.
      * <p>May be a reference to another resource, in the form
@@ -4395,13 +4284,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int spinnerStyle=0x7f0301f9;
+    public static final int spinnerStyle=0x7f0301f1;
     /**
      * Whether to split the track and leave a gap for the thumb drawable.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int splitTrack=0x7f0301fa;
+    public static final int splitTrack=0x7f0301f2;
     /**
      * Sets a drawable as the content of this ImageView. Allows the use of vector drawable
      * when running on older versions of the platform.
@@ -4410,33 +4299,22 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int srcCompat=0x7f0301fb;
+    public static final int srcCompat=0x7f0301f3;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int stackFromEnd=0x7f0301fc;
+    public static final int stackFromEnd=0x7f0301f4;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int staggered=0x7f0301fd;
+    public static final int staggered=0x7f0301f5;
     /**
      * State identifier indicating the popup will be above the anchor.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int state_above_anchor=0x7f0301fe;
-    /**
-     * Drawable to display behind the status bar when the view is set to draw behind it.
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     */
-    public static final int statusBarBackground=0x7f0301ff;
+    public static final int state_above_anchor=0x7f0301f6;
     /**
      * Drawable for the arrow icon indicating a particular item is a submenu.
      * <p>May be a reference to another resource, in the form
@@ -4444,7 +4322,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subMenuArrow=0x7f030200;
+    public static final int subMenuArrow=0x7f0301f7;
     /**
      * Background for the section containing the action (e.g. voice search)
      * <p>May be a reference to another resource, in the form
@@ -4452,27 +4330,27 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int submitBackground=0x7f030201;
+    public static final int submitBackground=0x7f0301f8;
     /**
      * Specifies subtitle text used for navigationMode="normal"
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int subtitle=0x7f030202;
+    public static final int subtitle=0x7f0301f9;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextAppearance=0x7f030203;
+    public static final int subtitleTextAppearance=0x7f0301fa;
     /**
      * A color to apply to the subtitle string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int subtitleTextColor=0x7f030204;
+    public static final int subtitleTextColor=0x7f0301fb;
     /**
      * Specifies a style to use for subtitle text.
      * <p>May be a reference to another resource, in the form
@@ -4480,7 +4358,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int subtitleTextStyle=0x7f030205;
+    public static final int subtitleTextStyle=0x7f0301fc;
     /**
      * Layout for query suggestion rows
      * <p>May be a reference to another resource, in the form
@@ -4488,7 +4366,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int suggestionRowLayout=0x7f030206;
+    public static final int suggestionRowLayout=0x7f0301fd;
     /**
      * Minimum width for the switch component
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4497,7 +4375,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchMinWidth=0x7f030207;
+    public static final int switchMinWidth=0x7f0301fe;
     /**
      * Minimum space between the switch and caption text
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4506,7 +4384,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int switchPadding=0x7f030208;
+    public static final int switchPadding=0x7f0301ff;
     /**
      * Default style for the Switch widget.
      * <p>May be a reference to another resource, in the form
@@ -4514,7 +4392,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchStyle=0x7f030209;
+    public static final int switchStyle=0x7f030200;
     /**
      * TextAppearance style for text displayed on the switch thumb.
      * <p>May be a reference to another resource, in the form
@@ -4522,24 +4400,24 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int switchTextAppearance=0x7f03020a;
+    public static final int switchTextAppearance=0x7f030201;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int targetId=0x7f03020b;
+    public static final int targetId=0x7f030202;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int telltales_tailColor=0x7f03020c;
+    public static final int telltales_tailColor=0x7f030203;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int telltales_tailScale=0x7f03020d;
+    public static final int telltales_tailScale=0x7f030204;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -4553,7 +4431,7 @@ public final class R {
      * <tr><td>staticPostLayout</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int telltales_velocityMode=0x7f03020e;
+    public static final int telltales_velocityMode=0x7f030205;
     /**
      * Present the text in ALL CAPS. This may use a small-caps form when available.
      * <p>May be a reference to another resource, in the form
@@ -4563,7 +4441,7 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int textAllCaps=0x7f03020f;
+    public static final int textAllCaps=0x7f030206;
     /**
      * Text color, typeface, size, and style for the text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4571,7 +4449,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceLargePopupMenu=0x7f030210;
+    public static final int textAppearanceLargePopupMenu=0x7f030207;
     /**
      * The preferred TextAppearance for the primary text of list items.
      * <p>May be a reference to another resource, in the form
@@ -4579,7 +4457,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItem=0x7f030211;
+    public static final int textAppearanceListItem=0x7f030208;
     /**
      * The preferred TextAppearance for the secondary text of list items.
      * <p>May be a reference to another resource, in the form
@@ -4587,7 +4465,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSecondary=0x7f030212;
+    public static final int textAppearanceListItemSecondary=0x7f030209;
     /**
      * The preferred TextAppearance for the primary text of small list items.
      * <p>May be a reference to another resource, in the form
@@ -4595,7 +4473,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceListItemSmall=0x7f030213;
+    public static final int textAppearanceListItemSmall=0x7f03020a;
     /**
      * Text color, typeface, size, and style for header text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4603,7 +4481,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearancePopupMenuHeader=0x7f030214;
+    public static final int textAppearancePopupMenuHeader=0x7f03020b;
     /**
      * Text color, typeface, size, and style for system search result subtitle. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
@@ -4611,7 +4489,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultSubtitle=0x7f030215;
+    public static final int textAppearanceSearchResultSubtitle=0x7f03020c;
     /**
      * Text color, typeface, size, and style for system search result title. Defaults to primary inverse text color.
      * <p>May be a reference to another resource, in the form
@@ -4619,7 +4497,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSearchResultTitle=0x7f030216;
+    public static final int textAppearanceSearchResultTitle=0x7f03020d;
     /**
      * Text color, typeface, size, and style for small text inside of a popup menu.
      * <p>May be a reference to another resource, in the form
@@ -4627,13 +4505,13 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int textAppearanceSmallPopupMenu=0x7f030217;
+    public static final int textAppearanceSmallPopupMenu=0x7f03020e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColor=0x7f030218;
+    public static final int textColor=0x7f03020f;
     /**
      * Color of list item text in alert dialogs.
      * <p>May be a reference to another resource, in the form
@@ -4644,7 +4522,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorAlertDialogListItem=0x7f030219;
+    public static final int textColorAlertDialogListItem=0x7f030210;
     /**
      * Text color for urls in search suggestions, used by things like global search
      * <p>May be a reference to another resource, in the form
@@ -4655,7 +4533,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int textColorSearchUrl=0x7f03021a;
+    public static final int textColorSearchUrl=0x7f030211;
     /**
      * Set the textLocale by a comma-separated language tag string,
      * for example "ja-JP,zh-CN". This attribute only takes effect on API 21 and above.
@@ -4665,7 +4543,7 @@ public final class R {
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int textLocale=0x7f03021b;
+    public static final int textLocale=0x7f030212;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -4673,7 +4551,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int textSize=0x7f03021c;
+    public static final int textSize=0x7f030213;
     /**
      * Deprecated.
      * <p>May be a reference to another resource, in the form
@@ -4681,7 +4559,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int theme=0x7f03021d;
+    public static final int theme=0x7f030214;
     /**
      * The thickness (stroke size) for the bar paint
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4690,7 +4568,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thickness=0x7f03021e;
+    public static final int thickness=0x7f030215;
     /**
      * Amount of padding on either side of text within the switch thumb.
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4699,14 +4577,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int thumbTextPadding=0x7f03021f;
+    public static final int thumbTextPadding=0x7f030216;
     /**
      * Tint to apply to the thumb drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int thumbTint=0x7f030220;
+    public static final int thumbTint=0x7f030217;
     /**
      * Blending mode used to apply the thumb tint.
      * <p>Must be one of the following constant values.</p>
@@ -4728,7 +4606,7 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int thumbTintMode=0x7f030221;
+    public static final int thumbTintMode=0x7f030218;
     /**
      * Drawable displayed at each progress position on a seekbar.
      * <p>May be a reference to another resource, in the form
@@ -4736,14 +4614,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tickMark=0x7f030222;
+    public static final int tickMark=0x7f030219;
     /**
      * Tint to apply to the tick mark drawable.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tickMarkTint=0x7f030223;
+    public static final int tickMarkTint=0x7f03021a;
     /**
      * Blending mode used to apply the tick mark tint.
      * <p>Must be one of the following constant values.</p>
@@ -4765,14 +4643,14 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int tickMarkTintMode=0x7f030224;
+    public static final int tickMarkTintMode=0x7f03021b;
     /**
      * Tint to apply to the image source.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tint=0x7f030225;
+    public static final int tint=0x7f03021c;
     /**
      * Blending mode used to apply the image source tint.
      * <p>Must be one of the following constant values.</p>
@@ -4794,12 +4672,12 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int tintMode=0x7f030226;
+    public static final int tintMode=0x7f03021d;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int title=0x7f030227;
+    public static final int title=0x7f03021e;
     /**
      * Specifies extra space on the left, start, right and end sides
      * of the toolbar's title. Margin values should be positive.
@@ -4809,7 +4687,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMargin=0x7f030228;
+    public static final int titleMargin=0x7f03021f;
     /**
      * Specifies extra space on the bottom side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4820,7 +4698,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginBottom=0x7f030229;
+    public static final int titleMarginBottom=0x7f030220;
     /**
      * Specifies extra space on the end side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4831,7 +4709,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginEnd=0x7f03022a;
+    public static final int titleMarginEnd=0x7f030221;
     /**
      * Specifies extra space on the start side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4842,7 +4720,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginStart=0x7f03022b;
+    public static final int titleMarginStart=0x7f030222;
     /**
      * Specifies extra space on the top side of the toolbar's title.
      * If both this attribute and titleMargin are specified, then this
@@ -4853,7 +4731,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int titleMarginTop=0x7f03022c;
+    public static final int titleMarginTop=0x7f030223;
     /**
      * {@deprecated Use titleMargin}
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -4863,21 +4741,21 @@ public final class R {
      * mm (millimeters).
      */
     @Deprecated
-    public static final int titleMargins=0x7f03022d;
+    public static final int titleMargins=0x7f030224;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextAppearance=0x7f03022e;
+    public static final int titleTextAppearance=0x7f030225;
     /**
      * A color to apply to the title string.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int titleTextColor=0x7f03022f;
+    public static final int titleTextColor=0x7f030226;
     /**
      * Specifies a style to use for title text.
      * <p>May be a reference to another resource, in the form
@@ -4885,7 +4763,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int titleTextStyle=0x7f030230;
+    public static final int titleTextStyle=0x7f030227;
     /**
      * Default Toolar NavigationButtonStyle
      * <p>May be a reference to another resource, in the form
@@ -4893,7 +4771,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarNavigationButtonStyle=0x7f030231;
+    public static final int toolbarNavigationButtonStyle=0x7f030228;
     /**
      * Default Toolbar style.
      * <p>May be a reference to another resource, in the form
@@ -4901,7 +4779,7 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int toolbarStyle=0x7f030232;
+    public static final int toolbarStyle=0x7f030229;
     /**
      * Foreground color to use for tooltips
      * <p>May be a reference to another resource, in the form
@@ -4912,7 +4790,7 @@ public final class R {
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int tooltipForegroundColor=0x7f030233;
+    public static final int tooltipForegroundColor=0x7f03022a;
     /**
      * Background to use for tooltips
      * <p>May be a reference to another resource, in the form
@@ -4920,20 +4798,20 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int tooltipFrameBackground=0x7f030234;
+    public static final int tooltipFrameBackground=0x7f03022b;
     /**
      * The tooltip text associated with the item.
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int tooltipText=0x7f030235;
+    public static final int tooltipText=0x7f03022c;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int touchAnchorId=0x7f030236;
+    public static final int touchAnchorId=0x7f03022d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -4950,14 +4828,14 @@ public final class R {
      * <tr><td>top</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int touchAnchorSide=0x7f030237;
+    public static final int touchAnchorSide=0x7f03022e;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int touchRegionId=0x7f030238;
+    public static final int touchRegionId=0x7f03022f;
     /**
      * Drawable to use as the "track" that the switch thumb slides within.
      * <p>May be a reference to another resource, in the form
@@ -4965,14 +4843,14 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int track=0x7f030239;
+    public static final int track=0x7f030230;
     /**
      * Tint to apply to the track.
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int trackTint=0x7f03023a;
+    public static final int trackTint=0x7f030231;
     /**
      * Blending mode used to apply the track tint.
      * <p>Must be one of the following constant values.</p>
@@ -4994,12 +4872,12 @@ public final class R {
      * [Sa + (1 - Sa)*Da, Rc = Sc + (1 - Sa)*Dc]</td></tr>
      * </table>
      */
-    public static final int trackTintMode=0x7f03023b;
+    public static final int trackTintMode=0x7f030232;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int transitionDisable=0x7f03023c;
+    public static final int transitionDisable=0x7f030233;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
@@ -5015,7 +4893,7 @@ public final class R {
      * <tr><td>standard</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int transitionEasing=0x7f03023d;
+    public static final int transitionEasing=0x7f030234;
     /**
      * <p>Must be one or more (separated by '|') of the following constant values.</p>
      * <table>
@@ -5027,75 +4905,75 @@ public final class R {
      * <tr><td>none</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int transitionFlags=0x7f03023e;
+    public static final int transitionFlags=0x7f030235;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int transitionPathRotate=0x7f03023f;
+    public static final int transitionPathRotate=0x7f030236;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int triggerId=0x7f030240;
+    public static final int triggerId=0x7f030237;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int triggerReceiver=0x7f030241;
+    public static final int triggerReceiver=0x7f030238;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int triggerSlack=0x7f030242;
+    public static final int triggerSlack=0x7f030239;
     /**
      * The index of the font in the tcc font file. If the font file referenced is not in the
      * tcc format, this attribute needs not be specified.
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int ttcIndex=0x7f030243;
+    public static final int ttcIndex=0x7f03023a;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiCompass=0x7f030244;
+    public static final int uiCompass=0x7f03023b;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiMapToolbar=0x7f030245;
+    public static final int uiMapToolbar=0x7f03023c;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiRotateGestures=0x7f030246;
+    public static final int uiRotateGestures=0x7f03023d;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiScrollGestures=0x7f030247;
+    public static final int uiScrollGestures=0x7f03023e;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiTiltGestures=0x7f030248;
+    public static final int uiTiltGestures=0x7f03023f;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomControls=0x7f030249;
+    public static final int uiZoomControls=0x7f030240;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int uiZoomGestures=0x7f03024a;
+    public static final int uiZoomGestures=0x7f030241;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int useViewLifecycle=0x7f03024b;
+    public static final int useViewLifecycle=0x7f030242;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5108,12 +4986,12 @@ public final class R {
      * <tr><td>secondary</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int videoSource=0x7f03024c;
+    public static final int videoSource=0x7f030243;
     /**
      * <p>May be a string value, using '\\;' to escape characters such as
      * '\\n' or '\\uxxxx' for a unicode character;
      */
-    public static final int viewInflaterClass=0x7f03024d;
+    public static final int viewInflaterClass=0x7f030244;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5125,11 +5003,11 @@ public final class R {
      * <tr><td>normal</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int visibilityMode=0x7f03024e;
+    public static final int visibilityMode=0x7f030245;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int visibleItems=0x7f03024f;
+    public static final int visibleItems=0x7f030246;
     /**
      * Voice button icon
      * <p>May be a reference to another resource, in the form
@@ -5137,15 +5015,15 @@ public final class R {
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int voiceIcon=0x7f030250;
+    public static final int voiceIcon=0x7f030247;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int warmth=0x7f030251;
+    public static final int warmth=0x7f030248;
     /**
      * <p>May be an integer value, such as "<code>100</code>".
      */
-    public static final int waveDecay=0x7f030252;
+    public static final int waveDecay=0x7f030249;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      * <p>May be a dimension value, which is a floating point number appended with a
@@ -5154,11 +5032,11 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int waveOffset=0x7f030253;
+    public static final int waveOffset=0x7f03024a;
     /**
      * <p>May be a floating point value, such as "<code>1.2</code>".
      */
-    public static final int wavePeriod=0x7f030254;
+    public static final int wavePeriod=0x7f03024b;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5175,7 +5053,7 @@ public final class R {
      * <tr><td>triangle</td><td>2</td><td></td></tr>
      * </table>
      */
-    public static final int waveShape=0x7f030255;
+    public static final int waveShape=0x7f03024c;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5187,7 +5065,7 @@ public final class R {
      * <tr><td>position</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int waveVariesBy=0x7f030256;
+    public static final int waveVariesBy=0x7f03024d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5201,7 +5079,7 @@ public final class R {
      * <tr><td>start</td><td>0</td><td></td></tr>
      * </table>
      */
-    public static final int widgetArrangement=0x7f030257;
+    public static final int widgetArrangement=0x7f03024e;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5209,14 +5087,14 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int widgetSpacing=0x7f030258;
+    public static final int widgetSpacing=0x7f03024f;
     /**
      * Flag indicating whether this window should have an Action Bar
      * in place of the usual title bar.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBar=0x7f030259;
+    public static final int windowActionBar=0x7f030250;
     /**
      * Flag indicating whether this window's Action Bar should overlay
      * application content. Does nothing if the window would not
@@ -5224,14 +5102,14 @@ public final class R {
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionBarOverlay=0x7f03025a;
+    public static final int windowActionBarOverlay=0x7f030251;
     /**
      * Flag indicating whether action modes should overlay window content
      * when there is not reserved space for their UI (such as an Action Bar).
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowActionModeOverlay=0x7f03025b;
+    public static final int windowActionModeOverlay=0x7f030252;
     /**
      * A fixed height for the window along the major axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -5246,7 +5124,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMajor=0x7f03025c;
+    public static final int windowFixedHeightMajor=0x7f030253;
     /**
      * A fixed height for the window along the minor axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -5261,7 +5139,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedHeightMinor=0x7f03025d;
+    public static final int windowFixedHeightMinor=0x7f030254;
     /**
      * A fixed width for the window along the major axis of the screen,
      * that is, when in landscape. Can be either an absolute dimension
@@ -5276,7 +5154,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMajor=0x7f03025e;
+    public static final int windowFixedWidthMajor=0x7f030255;
     /**
      * A fixed width for the window along the minor axis of the screen,
      * that is, when in portrait. Can be either an absolute dimension
@@ -5291,7 +5169,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowFixedWidthMinor=0x7f03025f;
+    public static final int windowFixedWidthMinor=0x7f030256;
     /**
      * The minimum width the window is allowed to be, along the major
      * axis of the screen.  That is, when in landscape.  Can be either
@@ -5307,7 +5185,7 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMajor=0x7f030260;
+    public static final int windowMinWidthMajor=0x7f030257;
     /**
      * The minimum width the window is allowed to be, along the minor
      * axis of the screen.  That is, when in portrait.  Can be either
@@ -5323,18 +5201,18 @@ public final class R {
      * The % suffix always means a percentage of the base size;
      * the optional %p suffix provides a size relative to some parent container.
      */
-    public static final int windowMinWidthMinor=0x7f030261;
+    public static final int windowMinWidthMinor=0x7f030258;
     /**
      * Flag indicating whether there should be no title on this window.
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int windowNoTitle=0x7f030262;
+    public static final int windowNoTitle=0x7f030259;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zOrderOnTop=0x7f030263;
+    public static final int zOrderOnTop=0x7f03025a;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5342,7 +5220,7 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int zxing_framing_rect_height=0x7f030264;
+    public static final int zxing_framing_rect_height=0x7f03025b;
     /**
      * <p>May be a dimension value, which is a floating point number appended with a
      * unit such as "<code>14.5sp</code>".
@@ -5350,13 +5228,13 @@ public final class R {
      * sp (scaled pixels based on preferred font size), in (inches), and
      * mm (millimeters).
      */
-    public static final int zxing_framing_rect_width=0x7f030265;
+    public static final int zxing_framing_rect_width=0x7f03025c;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_possible_result_points=0x7f030266;
+    public static final int zxing_possible_result_points=0x7f03025d;
     /**
      * <p>Must be one of the following constant values.</p>
      * <table>
@@ -5369,37 +5247,37 @@ public final class R {
      * <tr><td>fitXY</td><td>3</td><td></td></tr>
      * </table>
      */
-    public static final int zxing_preview_scaling_strategy=0x7f030267;
+    public static final int zxing_preview_scaling_strategy=0x7f03025e;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_result_view=0x7f030268;
+    public static final int zxing_result_view=0x7f03025f;
     /**
      * <p>May be a reference to another resource, in the form
      * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
      * attribute in the form
      * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
      */
-    public static final int zxing_scanner_layout=0x7f030269;
+    public static final int zxing_scanner_layout=0x7f030260;
     /**
      * <p>May be a boolean value, such as "<code>true</code>" or
      * "<code>false</code>".
      */
-    public static final int zxing_use_texture_view=0x7f03026a;
+    public static final int zxing_use_texture_view=0x7f030261;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_viewfinder_laser=0x7f03026b;
+    public static final int zxing_viewfinder_laser=0x7f030262;
     /**
      * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
      * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
      * "<code>#<i>aarrggbb</i></code>".
      */
-    public static final int zxing_viewfinder_mask=0x7f03026c;
+    public static final int zxing_viewfinder_mask=0x7f030263;
   }
   public static final class bool {
     public static final int abc_action_bar_embed_tabs=0x7f040000;
@@ -5531,67 +5409,66 @@ public final class R {
     public static final int midware_white_half=0x7f050079;
     public static final int notification_action_color_filter=0x7f05007a;
     public static final int notification_icon_bg_color=0x7f05007b;
-    public static final int notification_material_background_media_default_color=0x7f05007c;
-    public static final int place_autocomplete_prediction_primary_text=0x7f05007d;
-    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f05007e;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f05007f;
-    public static final int place_autocomplete_search_hint=0x7f050080;
-    public static final int place_autocomplete_search_text=0x7f050081;
-    public static final int place_autocomplete_separator=0x7f050082;
-    public static final int primary_dark_material_dark=0x7f050083;
-    public static final int primary_dark_material_light=0x7f050084;
-    public static final int primary_material_dark=0x7f050085;
-    public static final int primary_material_light=0x7f050086;
-    public static final int primary_text_default_material_dark=0x7f050087;
-    public static final int primary_text_default_material_light=0x7f050088;
-    public static final int primary_text_disabled_material_dark=0x7f050089;
-    public static final int primary_text_disabled_material_light=0x7f05008a;
-    public static final int red=0x7f05008b;
-    public static final int red_dark=0x7f05008c;
-    public static final int red_light=0x7f05008d;
-    public static final int ripple_material_dark=0x7f05008e;
-    public static final int ripple_material_light=0x7f05008f;
-    public static final int secondary_text_default_material_dark=0x7f050090;
-    public static final int secondary_text_default_material_light=0x7f050091;
-    public static final int secondary_text_disabled_material_dark=0x7f050092;
-    public static final int secondary_text_disabled_material_light=0x7f050093;
-    public static final int selector_default_segmented_color=0x7f050094;
-    public static final int switch_thumb_disabled_material_dark=0x7f050095;
-    public static final int switch_thumb_disabled_material_light=0x7f050096;
-    public static final int switch_thumb_material_dark=0x7f050097;
-    public static final int switch_thumb_material_light=0x7f050098;
-    public static final int switch_thumb_normal_material_dark=0x7f050099;
-    public static final int switch_thumb_normal_material_light=0x7f05009a;
-    public static final int title_dark=0x7f05009b;
-    public static final int tooltip_background_dark=0x7f05009c;
-    public static final int tooltip_background_light=0x7f05009d;
-    public static final int transparent=0x7f05009e;
-    public static final int unlocked_border=0x7f05009f;
-    public static final int white=0x7f0500a0;
-    public static final int white_40_percent=0x7f0500a1;
-    public static final int white_60=0x7f0500a2;
-    public static final int white_80_percent=0x7f0500a3;
-    public static final int white_af=0x7f0500a4;
-    public static final int white_half=0x7f0500a5;
-    public static final int white_medium_transparent=0x7f0500a6;
-    public static final int white_transparent=0x7f0500a7;
-    public static final int yellow=0x7f0500a8;
-    public static final int yellow_medium=0x7f0500a9;
-    public static final int zone_altitude=0x7f0500aa;
-    public static final int zone_authorization=0x7f0500ab;
-    public static final int zone_restricted=0x7f0500ac;
-    public static final int zone_warning=0x7f0500ad;
-    public static final int zone_warning_enhanced=0x7f0500ae;
-    public static final int zxing_custom_possible_result_points=0x7f0500af;
-    public static final int zxing_custom_result_view=0x7f0500b0;
-    public static final int zxing_custom_viewfinder_laser=0x7f0500b1;
-    public static final int zxing_custom_viewfinder_mask=0x7f0500b2;
-    public static final int zxing_possible_result_points=0x7f0500b3;
-    public static final int zxing_result_view=0x7f0500b4;
-    public static final int zxing_status_text=0x7f0500b5;
-    public static final int zxing_transparent=0x7f0500b6;
-    public static final int zxing_viewfinder_laser=0x7f0500b7;
-    public static final int zxing_viewfinder_mask=0x7f0500b8;
+    public static final int place_autocomplete_prediction_primary_text=0x7f05007c;
+    public static final int place_autocomplete_prediction_primary_text_highlight=0x7f05007d;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f05007e;
+    public static final int place_autocomplete_search_hint=0x7f05007f;
+    public static final int place_autocomplete_search_text=0x7f050080;
+    public static final int place_autocomplete_separator=0x7f050081;
+    public static final int primary_dark_material_dark=0x7f050082;
+    public static final int primary_dark_material_light=0x7f050083;
+    public static final int primary_material_dark=0x7f050084;
+    public static final int primary_material_light=0x7f050085;
+    public static final int primary_text_default_material_dark=0x7f050086;
+    public static final int primary_text_default_material_light=0x7f050087;
+    public static final int primary_text_disabled_material_dark=0x7f050088;
+    public static final int primary_text_disabled_material_light=0x7f050089;
+    public static final int red=0x7f05008a;
+    public static final int red_dark=0x7f05008b;
+    public static final int red_light=0x7f05008c;
+    public static final int ripple_material_dark=0x7f05008d;
+    public static final int ripple_material_light=0x7f05008e;
+    public static final int secondary_text_default_material_dark=0x7f05008f;
+    public static final int secondary_text_default_material_light=0x7f050090;
+    public static final int secondary_text_disabled_material_dark=0x7f050091;
+    public static final int secondary_text_disabled_material_light=0x7f050092;
+    public static final int selector_default_segmented_color=0x7f050093;
+    public static final int switch_thumb_disabled_material_dark=0x7f050094;
+    public static final int switch_thumb_disabled_material_light=0x7f050095;
+    public static final int switch_thumb_material_dark=0x7f050096;
+    public static final int switch_thumb_material_light=0x7f050097;
+    public static final int switch_thumb_normal_material_dark=0x7f050098;
+    public static final int switch_thumb_normal_material_light=0x7f050099;
+    public static final int title_dark=0x7f05009a;
+    public static final int tooltip_background_dark=0x7f05009b;
+    public static final int tooltip_background_light=0x7f05009c;
+    public static final int transparent=0x7f05009d;
+    public static final int unlocked_border=0x7f05009e;
+    public static final int white=0x7f05009f;
+    public static final int white_40_percent=0x7f0500a0;
+    public static final int white_60=0x7f0500a1;
+    public static final int white_80_percent=0x7f0500a2;
+    public static final int white_af=0x7f0500a3;
+    public static final int white_half=0x7f0500a4;
+    public static final int white_medium_transparent=0x7f0500a5;
+    public static final int white_transparent=0x7f0500a6;
+    public static final int yellow=0x7f0500a7;
+    public static final int yellow_medium=0x7f0500a8;
+    public static final int zone_altitude=0x7f0500a9;
+    public static final int zone_authorization=0x7f0500aa;
+    public static final int zone_restricted=0x7f0500ab;
+    public static final int zone_warning=0x7f0500ac;
+    public static final int zone_warning_enhanced=0x7f0500ad;
+    public static final int zxing_custom_possible_result_points=0x7f0500ae;
+    public static final int zxing_custom_result_view=0x7f0500af;
+    public static final int zxing_custom_viewfinder_laser=0x7f0500b0;
+    public static final int zxing_custom_viewfinder_mask=0x7f0500b1;
+    public static final int zxing_possible_result_points=0x7f0500b2;
+    public static final int zxing_result_view=0x7f0500b3;
+    public static final int zxing_status_text=0x7f0500b4;
+    public static final int zxing_transparent=0x7f0500b5;
+    public static final int zxing_viewfinder_laser=0x7f0500b6;
+    public static final int zxing_viewfinder_mask=0x7f0500b7;
   }
   public static final class dimen {
     public static final int abc_action_bar_content_inset_material=0x7f060000;
@@ -5757,29 +5634,25 @@ public final class R {
     public static final int seekbar_radius=0x7f0600a2;
     public static final int simulator_textview_height=0x7f0600a3;
     public static final int sliding_dialog_width=0x7f0600a4;
-    public static final int subtitle_corner_radius=0x7f0600a5;
-    public static final int subtitle_outline_width=0x7f0600a6;
-    public static final int subtitle_shadow_offset=0x7f0600a7;
-    public static final int subtitle_shadow_radius=0x7f0600a8;
-    public static final int text_size_between_small_tiny=0x7f0600a9;
-    public static final int text_size_medium=0x7f0600aa;
-    public static final int text_size_normal=0x7f0600ab;
-    public static final int text_size_normal_medium=0x7f0600ac;
-    public static final int text_size_small=0x7f0600ad;
-    public static final int text_size_tiny=0x7f0600ae;
-    public static final int tooltip_corner_radius=0x7f0600af;
-    public static final int tooltip_horizontal_padding=0x7f0600b0;
-    public static final int tooltip_margin=0x7f0600b1;
-    public static final int tooltip_precise_anchor_extra_offset=0x7f0600b2;
-    public static final int tooltip_precise_anchor_threshold=0x7f0600b3;
-    public static final int tooltip_vertical_padding=0x7f0600b4;
-    public static final int tooltip_y_offset_non_touch=0x7f0600b5;
-    public static final int tooltip_y_offset_touch=0x7f0600b6;
-    public static final int view_simple_marginleft=0x7f0600b7;
-    public static final int view_simple_marginright=0x7f0600b8;
-    public static final int view_top_max_margin=0x7f0600b9;
-    public static final int view_top_mid_margin=0x7f0600ba;
-    public static final int view_top_min_margin=0x7f0600bb;
+    public static final int text_size_between_small_tiny=0x7f0600a5;
+    public static final int text_size_medium=0x7f0600a6;
+    public static final int text_size_normal=0x7f0600a7;
+    public static final int text_size_normal_medium=0x7f0600a8;
+    public static final int text_size_small=0x7f0600a9;
+    public static final int text_size_tiny=0x7f0600aa;
+    public static final int tooltip_corner_radius=0x7f0600ab;
+    public static final int tooltip_horizontal_padding=0x7f0600ac;
+    public static final int tooltip_margin=0x7f0600ad;
+    public static final int tooltip_precise_anchor_extra_offset=0x7f0600ae;
+    public static final int tooltip_precise_anchor_threshold=0x7f0600af;
+    public static final int tooltip_vertical_padding=0x7f0600b0;
+    public static final int tooltip_y_offset_non_touch=0x7f0600b1;
+    public static final int tooltip_y_offset_touch=0x7f0600b2;
+    public static final int view_simple_marginleft=0x7f0600b3;
+    public static final int view_simple_marginright=0x7f0600b4;
+    public static final int view_top_max_margin=0x7f0600b5;
+    public static final int view_top_mid_margin=0x7f0600b6;
+    public static final int view_top_min_margin=0x7f0600b7;
   }
   public static final class drawable {
     public static final int abc_ab_share_pack_mtrl_alpha=0x7f070000;
@@ -6526,789 +6399,782 @@ public final class R {
     public static final int accessibility_custom_action_7=0x7f08003a;
     public static final int accessibility_custom_action_8=0x7f08003b;
     public static final int accessibility_custom_action_9=0x7f08003c;
-    public static final int action0=0x7f08003d;
-    public static final int action_bar=0x7f08003e;
-    public static final int action_bar_activity_content=0x7f08003f;
-    public static final int action_bar_container=0x7f080040;
-    public static final int action_bar_root=0x7f080041;
-    public static final int action_bar_spinner=0x7f080042;
-    public static final int action_bar_subtitle=0x7f080043;
-    public static final int action_bar_title=0x7f080044;
-    public static final int action_button=0x7f080045;
-    public static final int action_container=0x7f080046;
-    public static final int action_context_bar=0x7f080047;
-    public static final int action_divider=0x7f080048;
-    public static final int action_image=0x7f080049;
-    public static final int action_menu_divider=0x7f08004a;
-    public static final int action_menu_presenter=0x7f08004b;
-    public static final int action_mode_bar=0x7f08004c;
-    public static final int action_mode_bar_stub=0x7f08004d;
-    public static final int action_mode_close_button=0x7f08004e;
-    public static final int action_text=0x7f08004f;
-    public static final int actions=0x7f080050;
-    public static final int activity_chooser_view_content=0x7f080051;
-    public static final int activity_main_save_path=0x7f080052;
-    public static final int add=0x7f080053;
-    public static final int adjust_height=0x7f080054;
-    public static final int adjust_width=0x7f080055;
-    public static final int adsb_icon=0x7f080056;
-    public static final int aircraftBattery=0x7f080057;
-    public static final int aircraftBatteryTemperature=0x7f080058;
-    public static final int alertTitle=0x7f080059;
-    public static final int aligned=0x7f08005a;
-    public static final int all=0x7f08005b;
-    public static final int always=0x7f08005c;
-    public static final int animateToEnd=0x7f08005d;
-    public static final int animateToStart=0x7f08005e;
-    public static final int asConfigured=0x7f08005f;
-    public static final int async=0x7f080060;
-    public static final int attitude_section_header_text=0x7f080061;
-    public static final int attributionView=0x7f080062;
-    public static final int audio_file_delete_image_view=0x7f080063;
-    public static final int audio_file_listview=0x7f080064;
-    public static final int audio_file_name_text_view=0x7f080065;
-    public static final int audio_file_play_image_view=0x7f080066;
-    public static final int audio_file_row_linear_layout=0x7f080067;
-    public static final int audio_record_status_text_view=0x7f080068;
-    public static final int audio_temporary_switch=0x7f080069;
-    public static final int auto=0x7f08006a;
-    public static final int autoComplete=0x7f08006b;
-    public static final int autoCompleteToEnd=0x7f08006c;
-    public static final int autoCompleteToStart=0x7f08006d;
-    public static final int avoid_up=0x7f08006e;
-    public static final int background_exposure_setting=0x7f08006f;
-    public static final int background_imageview=0x7f080070;
-    public static final int backward_arrow=0x7f080071;
-    public static final int backward_distance=0x7f080072;
-    public static final int barrier=0x7f080073;
-    public static final int baseline=0x7f080074;
-    public static final int batteryIcon=0x7f080075;
-    public static final int beginOnFirstDraw=0x7f080076;
-    public static final int beginning=0x7f080077;
-    public static final int blocking=0x7f080078;
-    public static final int bot_line_camera_panel=0x7f080079;
-    public static final int bottom=0x7f08007a;
-    public static final int bounce=0x7f08007b;
-    public static final int btn_open=0x7f08007c;
-    public static final int buttonPanel=0x7f08007d;
-    public static final int button_container=0x7f08007e;
-    public static final int button_iso_auto=0x7f08007f;
-    public static final int button_user_log_in=0x7f080080;
-    public static final int cache_measures=0x7f080081;
-    public static final int camera=0x7f080082;
-    public static final int camera_advsetting_tab=0x7f080083;
-    public static final int camera_contrast_icon=0x7f080084;
-    public static final int camera_other_setting_content=0x7f080085;
-    public static final int camera_photo_setting_content=0x7f080086;
-    public static final int camera_photo_setting_photo_format=0x7f080087;
-    public static final int camera_photo_setting_photo_mode=0x7f080088;
-    public static final int camera_saturation_icon=0x7f080089;
-    public static final int camera_setting_content=0x7f08008a;
-    public static final int camera_setting_content_other=0x7f08008b;
-    public static final int camera_setting_content_photo=0x7f08008c;
-    public static final int camera_setting_content_video=0x7f08008d;
-    public static final int camera_setting_title_bar=0x7f08008e;
-    public static final int camera_settings_wheel_text=0x7f08008f;
-    public static final int camera_sharpness_icon=0x7f080090;
-    public static final int camera_style_custom=0x7f080091;
-    public static final int camera_style_custom_contrast=0x7f080092;
-    public static final int camera_style_custom_item_contrast=0x7f080093;
-    public static final int camera_style_custom_item_desc=0x7f080094;
-    public static final int camera_style_custom_item_saturation=0x7f080095;
-    public static final int camera_style_custom_item_sharpness=0x7f080096;
-    public static final int camera_style_custom_layout=0x7f080097;
-    public static final int camera_style_custom_saturation=0x7f080098;
-    public static final int camera_style_custom_sharpness=0x7f080099;
-    public static final int camera_style_landscape=0x7f08009a;
-    public static final int camera_style_landscape_item_contrast=0x7f08009b;
-    public static final int camera_style_landscape_item_desc=0x7f08009c;
-    public static final int camera_style_landscape_item_saturation=0x7f08009d;
-    public static final int camera_style_landscape_item_sharpness=0x7f08009e;
-    public static final int camera_style_soft=0x7f08009f;
-    public static final int camera_style_soft_item_contrast=0x7f0800a0;
-    public static final int camera_style_soft_item_desc=0x7f0800a1;
-    public static final int camera_style_soft_item_saturation=0x7f0800a2;
-    public static final int camera_style_soft_item_sharpness=0x7f0800a3;
-    public static final int camera_style_standard=0x7f0800a4;
-    public static final int camera_style_standard_item_contrast=0x7f0800a5;
-    public static final int camera_style_standard_item_desc=0x7f0800a6;
-    public static final int camera_style_standard_item_saturation=0x7f0800a7;
-    public static final int camera_style_standard_item_sharpness=0x7f0800a8;
-    public static final int camera_tab_indicator=0x7f0800a9;
-    public static final int camera_tab_other=0x7f0800aa;
-    public static final int camera_tab_photo=0x7f0800ab;
-    public static final int camera_tab_video=0x7f0800ac;
-    public static final int camera_video_setting_content=0x7f0800ad;
-    public static final int camera_video_setting_standard=0x7f0800ae;
-    public static final int cancel_action=0x7f0800af;
-    public static final int center=0x7f0800b0;
-    public static final int centerCrop=0x7f0800b1;
-    public static final int center_horizontal=0x7f0800b2;
-    public static final int center_point=0x7f0800b3;
-    public static final int center_vertical=0x7f0800b4;
-    public static final int chain=0x7f0800b5;
-    public static final int chains=0x7f0800b6;
-    public static final int change_password_header=0x7f0800b7;
-    public static final int change_password_item=0x7f0800b8;
-    public static final int change_password_message=0x7f0800b9;
-    public static final int checkbox=0x7f0800ba;
-    public static final int checked=0x7f0800bb;
-    public static final int child_button1=0x7f0800bc;
-    public static final int child_button2=0x7f0800bd;
-    public static final int child_button3=0x7f0800be;
-    public static final int child_image1=0x7f0800bf;
-    public static final int child_image2=0x7f0800c0;
-    public static final int child_image3=0x7f0800c1;
-    public static final int child_tag1=0x7f0800c2;
-    public static final int child_tag2=0x7f0800c3;
-    public static final int child_tag3=0x7f0800c4;
-    public static final int child_value1=0x7f0800c5;
-    public static final int child_value2=0x7f0800c6;
-    public static final int child_value3=0x7f0800c7;
-    public static final int chronometer=0x7f0800c8;
-    public static final int clip_horizontal=0x7f0800c9;
-    public static final int clip_vertical=0x7f0800ca;
-    public static final int close_btn=0x7f0800cb;
-    public static final int collapseActionView=0x7f0800cc;
-    public static final int color_waveform_background=0x7f0800cd;
-    public static final int color_waveform_close_btn=0x7f0800ce;
-    public static final int color_waveform_p_switch=0x7f0800cf;
-    public static final int color_waveform_view=0x7f0800d0;
-    public static final int color_waveform_w_switch=0x7f0800d1;
-    public static final int compass=0x7f0800d2;
-    public static final int compassView=0x7f0800d3;
-    public static final int compass_home_img=0x7f0800d4;
-    public static final int confirm_new_password=0x7f0800d5;
-    public static final int confirm_password=0x7f0800d6;
-    public static final int confirmation_message=0x7f0800d7;
-    public static final int content=0x7f0800d8;
-    public static final int contentPanel=0x7f0800d9;
-    public static final int cos=0x7f0800da;
-    public static final int custom=0x7f0800db;
-    public static final int customPanel=0x7f0800dc;
-    public static final int custom_max_img=0x7f0800dd;
-    public static final int custom_min_img=0x7f0800de;
-    public static final int custom_row_separator=0x7f0800df;
-    public static final int dark=0x7f0800e0;
-    public static final int dbg_region=0x7f0800e1;
-    public static final int decelerate=0x7f0800e2;
-    public static final int decelerateAndComplete=0x7f0800e3;
-    public static final int decor_content_parent=0x7f0800e4;
-    public static final int default_activity_button=0x7f0800e5;
-    public static final int deltaRelative=0x7f0800e6;
-    public static final int dependency_ordering=0x7f0800e7;
-    public static final int desc_below_image=0x7f0800e8;
-    public static final int dialog_button=0x7f0800e9;
-    public static final int dimensions=0x7f0800ea;
-    public static final int direct=0x7f0800eb;
-    public static final int disableHome=0x7f0800ec;
-    public static final int disablePostScroll=0x7f0800ed;
-    public static final int disableScroll=0x7f0800ee;
-    public static final int divider=0x7f0800ef;
-    public static final int divider_title=0x7f0800f0;
-    public static final int doubleVoltage=0x7f0800f1;
-    public static final int dragDown=0x7f0800f2;
-    public static final int dragEnd=0x7f0800f3;
-    public static final int dragLeft=0x7f0800f4;
-    public static final int dragRight=0x7f0800f5;
-    public static final int dragStart=0x7f0800f6;
-    public static final int dragUp=0x7f0800f7;
-    public static final int easeIn=0x7f0800f8;
-    public static final int easeInOut=0x7f0800f9;
-    public static final int easeOut=0x7f0800fa;
-    public static final int edit_query=0x7f0800fb;
-    public static final int edit_text_frequency=0x7f0800fc;
-    public static final int edit_text_satellite_count=0x7f0800fd;
-    public static final int edit_text_simulator_lat=0x7f0800fe;
-    public static final int edit_text_simulator_lng=0x7f0800ff;
-    public static final int edittext_value=0x7f080100;
-    public static final int end=0x7f080101;
-    public static final int end_padder=0x7f080102;
-    public static final int enter_aircraft_password=0x7f080103;
-    public static final int enter_current_password=0x7f080104;
-    public static final int enter_new_password=0x7f080105;
-    public static final int enter_password=0x7f080106;
-    public static final int expand_activities_button=0x7f080107;
-    public static final int expandable_child_button_layout=0x7f080108;
-    public static final int expandable_child_image_layout=0x7f080109;
-    public static final int expandable_child_layout=0x7f08010a;
-    public static final int expandable_child_sb=0x7f08010b;
-    public static final int expandable_group_icon=0x7f08010c;
-    public static final int expandable_group_name=0x7f08010d;
-    public static final int expandable_group_switch_button=0x7f08010e;
-    public static final int expandable_group_value=0x7f08010f;
-    public static final int expandable_group_value_bg=0x7f080110;
-    public static final int expandable_list_view_content=0x7f080111;
-    public static final int expanded_menu=0x7f080112;
-    public static final int expendable_group_layout=0x7f080113;
-    public static final int fill=0x7f080114;
-    public static final int fill_horizontal=0x7f080115;
-    public static final int fill_vertical=0x7f080116;
-    public static final int fitCenter=0x7f080117;
-    public static final int fitXY=0x7f080118;
-    public static final int flightMode=0x7f080119;
-    public static final int flip=0x7f08011a;
-    public static final int forever=0x7f08011b;
-    public static final int format_aircraft=0x7f08011c;
-    public static final int format_aircraft_header=0x7f08011d;
-    public static final int forward_arrow=0x7f08011e;
-    public static final int forward_distance=0x7f08011f;
-    public static final int fpv_camera_chart_line=0x7f080120;
-    public static final int fpv_rtk_antenna_angle=0x7f080121;
-    public static final int fpv_rtk_base_station_height=0x7f080122;
-    public static final int fpv_rtk_base_station_lat=0x7f080123;
-    public static final int fpv_rtk_base_station_lng=0x7f080124;
-    public static final int fpv_rtk_fusion_altitude=0x7f080125;
-    public static final int fpv_rtk_gps_num_antenna_m=0x7f080126;
-    public static final int fpv_rtk_gps_num_antenna_s=0x7f080127;
-    public static final int fpv_rtk_gps_num_base_station=0x7f080128;
-    public static final int fpv_rtk_north_num_antenna_m=0x7f080129;
-    public static final int fpv_rtk_north_num_antenna_s=0x7f08012a;
-    public static final int fpv_rtk_north_num_base_station=0x7f08012b;
-    public static final int fpv_rtk_pilot_height=0x7f08012c;
-    public static final int fpv_rtk_pilot_lat=0x7f08012d;
-    public static final int fpv_rtk_pilot_lng=0x7f08012e;
-    public static final int fragment_container_view_tag=0x7f08012f;
-    public static final int gimbalStatus=0x7f080130;
-    public static final int gimbal_control_arrow=0x7f080131;
-    public static final int gimbal_control_move=0x7f080132;
-    public static final int gimbal_control_point=0x7f080133;
-    public static final int gimbalyawview_compass=0x7f080134;
-    public static final int gone=0x7f080135;
-    public static final int graph=0x7f080136;
-    public static final int graph_wrap=0x7f080137;
-    public static final int group_divider=0x7f080138;
-    public static final int grouping=0x7f080139;
-    public static final int groups=0x7f08013a;
-    public static final int header_separator=0x7f08013b;
-    public static final int home=0x7f08013c;
-    public static final int homeAsUp=0x7f08013d;
-    public static final int honorRequest=0x7f08013e;
-    public static final int hybrid=0x7f08013f;
-    public static final int icon=0x7f080140;
-    public static final int icon_group=0x7f080141;
-    public static final int icon_only=0x7f080142;
-    public static final int ifRoom=0x7f080143;
-    public static final int ignore=0x7f080144;
-    public static final int ignoreRequest=0x7f080145;
-    public static final int image=0x7f080146;
-    public static final int image_button_background=0x7f080147;
-    public static final int image_button_close=0x7f080148;
-    public static final int image_button_foreground=0x7f080149;
-    public static final int image_button_foreground_top=0x7f08014a;
-    public static final int image_legend_authorized_zone=0x7f08014b;
-    public static final int image_legend_custom_unlock_aircraft_zone=0x7f08014c;
-    public static final int image_legend_custom_unlock_enabled_zone=0x7f08014d;
-    public static final int image_legend_custom_unlock_zone=0x7f08014e;
-    public static final int image_legend_enhanced_warning_zone=0x7f08014f;
-    public static final int image_legend_restricted_zone=0x7f080150;
-    public static final int image_legend_self_unlock_zone=0x7f080151;
-    public static final int image_legend_warning_zone=0x7f080152;
-    public static final int image_preset_delete=0x7f080153;
-    public static final int imagebutton_ev_setting_minus=0x7f080154;
-    public static final int imagebutton_ev_setting_plus=0x7f080155;
-    public static final int imageview_apas_state=0x7f080156;
-    public static final int imageview_aperture_wheel_position=0x7f080157;
-    public static final int imageview_back=0x7f080158;
-    public static final int imageview_battery_icon=0x7f080159;
-    public static final int imageview_btn_minus_x=0x7f08015a;
-    public static final int imageview_btn_minus_y=0x7f08015b;
-    public static final int imageview_btn_minus_z=0x7f08015c;
-    public static final int imageview_btn_plus_x=0x7f08015d;
-    public static final int imageview_btn_plus_y=0x7f08015e;
-    public static final int imageview_btn_plus_z=0x7f08015f;
-    public static final int imageview_button_left=0x7f080160;
-    public static final int imageview_button_right=0x7f080161;
-    public static final int imageview_camera_settings_aperture_background=0x7f080162;
-    public static final int imageview_camera_settings_ev_background=0x7f080163;
-    public static final int imageview_camera_settings_shutter_background=0x7f080164;
-    public static final int imageview_compass_aircraft=0x7f080165;
-    public static final int imageview_compass_rc=0x7f080166;
-    public static final int imageview_connection_icon=0x7f080167;
-    public static final int imageview_divider=0x7f080168;
-    public static final int imageview_dlg_btn_ly=0x7f080169;
-    public static final int imageview_dlg_desc=0x7f08016a;
-    public static final int imageview_dlg_divider_img=0x7f08016b;
-    public static final int imageview_dlg_img=0x7f08016c;
-    public static final int imageview_dlg_title=0x7f08016d;
-    public static final int imageview_dlg_title_icon=0x7f08016e;
-    public static final int imageview_exposure_automode_icon=0x7f08016f;
-    public static final int imageview_flight_mode_icon=0x7f080170;
-    public static final int imageview_gimbal_heading=0x7f080171;
-    public static final int imageview_gps_icon=0x7f080172;
-    public static final int imageview_gps_signal=0x7f080173;
-    public static final int imageview_info_bar_background=0x7f080174;
-    public static final int imageview_inner_circles=0x7f080175;
-    public static final int imageview_left=0x7f080176;
-    public static final int imageview_lock=0x7f080177;
-    public static final int imageview_metrics_icon=0x7f080178;
-    public static final int imageview_minus=0x7f080179;
-    public static final int imageview_multi_battery_icon=0x7f08017a;
-    public static final int imageview_picture_icon=0x7f08017b;
-    public static final int imageview_plus=0x7f08017c;
-    public static final int imageview_preflight_color_indicator=0x7f08017d;
-    public static final int imageview_rc_video_icon=0x7f08017e;
-    public static final int imageview_rc_video_signal=0x7f08017f;
-    public static final int imageview_recommended_bar=0x7f080180;
-    public static final int imageview_shutter_wheel_position=0x7f080181;
-    public static final int imageview_signal_icon=0x7f080182;
-    public static final int imageview_simulator_icon=0x7f080183;
-    public static final int imageview_speaker_icon=0x7f080184;
-    public static final int imageview_thumb=0x7f080185;
-    public static final int imageview_thumb_disable=0x7f080186;
-    public static final int imageview_title_bar=0x7f080187;
-    public static final int imageview_track=0x7f080188;
-    public static final int imageview_video_icon=0x7f080189;
-    public static final int info=0x7f08018a;
-    public static final int infowindow_description=0x7f08018b;
-    public static final int infowindow_title=0x7f08018c;
-    public static final int instant_play_switch=0x7f08018d;
-    public static final int instant_play_text_view=0x7f08018e;
-    public static final int internalStorage=0x7f08018f;
-    public static final int invisible=0x7f080190;
-    public static final int italic=0x7f080191;
-    public static final int item_separator=0x7f080192;
-    public static final int item_touch_helper_previous_elevation=0x7f080193;
-    public static final int jumpToEnd=0x7f080194;
-    public static final int jumpToStart=0x7f080195;
-    public static final int landscape_row_separator=0x7f080196;
-    public static final int layout=0x7f080197;
-    public static final int layout_camera_mode_a=0x7f080198;
-    public static final int layout_camera_mode_m=0x7f080199;
-    public static final int layout_camera_mode_p=0x7f08019a;
-    public static final int layout_camera_mode_s=0x7f08019b;
-    public static final int layout_parent_dialog=0x7f08019c;
-    public static final int layout_track=0x7f08019d;
-    public static final int lbl_simulator_aircraft_flying=0x7f08019e;
-    public static final int lbl_simulator_frequency=0x7f08019f;
-    public static final int lbl_simulator_lat=0x7f0801a0;
-    public static final int lbl_simulator_lng=0x7f0801a1;
-    public static final int lbl_simulator_motors=0x7f0801a2;
-    public static final int lbl_simulator_pitch=0x7f0801a3;
-    public static final int lbl_simulator_roll=0x7f0801a4;
-    public static final int lbl_simulator_sat=0x7f0801a5;
-    public static final int lbl_simulator_world_X=0x7f0801a6;
-    public static final int lbl_simulator_world_Y=0x7f0801a7;
-    public static final int lbl_simulator_world_Z=0x7f0801a8;
-    public static final int lbl_simulator_yaw=0x7f0801a9;
-    public static final int left=0x7f0801aa;
-    public static final int left_arrow=0x7f0801ab;
-    public static final int left_distance=0x7f0801ac;
-    public static final int legend_left=0x7f0801ad;
-    public static final int legend_relativeLayout=0x7f0801ae;
-    public static final int legend_right=0x7f0801af;
-    public static final int light=0x7f0801b0;
-    public static final int line1=0x7f0801b1;
-    public static final int line3=0x7f0801b2;
-    public static final int linear=0x7f0801b3;
-    public static final int linear_layout_local_file=0x7f0801b4;
-    public static final int linearlayout_dlg_edit_text=0x7f0801b5;
-    public static final int listMode=0x7f0801b6;
-    public static final int list_item=0x7f0801b7;
-    public static final int list_item_arrow=0x7f0801b8;
-    public static final int list_item_black=0x7f0801b9;
-    public static final int list_item_blue=0x7f0801ba;
-    public static final int list_item_divider=0x7f0801bb;
-    public static final int list_item_edittext=0x7f0801bc;
-    public static final int list_item_full_button=0x7f0801bd;
-    public static final int list_item_green=0x7f0801be;
-    public static final int list_item_layout=0x7f0801bf;
-    public static final int list_item_range=0x7f0801c0;
-    public static final int list_item_range_big=0x7f0801c1;
-    public static final int list_item_red=0x7f0801c2;
-    public static final int list_item_seek_bar=0x7f0801c3;
-    public static final int list_item_segmented=0x7f0801c4;
-    public static final int list_item_title=0x7f0801c5;
-    public static final int list_item_title_icon=0x7f0801c6;
-    public static final int list_item_unit=0x7f0801c7;
-    public static final int list_item_value=0x7f0801c8;
-    public static final int list_item_value_editable=0x7f0801c9;
-    public static final int list_item_value_icon=0x7f0801ca;
-    public static final int list_item_value_switch_button=0x7f0801cb;
-    public static final int list_item_white=0x7f0801cc;
-    public static final int list_item_yellow=0x7f0801cd;
-    public static final int listview_camera_other=0x7f0801ce;
-    public static final int listview_camera_photo=0x7f0801cf;
-    public static final int listview_camera_video=0x7f0801d0;
-    public static final int livestream_preview_sf=0x7f0801d1;
-    public static final int livestream_preview_ttv=0x7f0801d2;
-    public static final int location_section_footer=0x7f0801d3;
-    public static final int location_section_header_text=0x7f0801d4;
-    public static final int log_dlg_content=0x7f0801d5;
-    public static final int log_dlg_control=0x7f0801d6;
-    public static final int log_dlg_lock=0x7f0801d7;
-    public static final int log_dlg_rg=0x7f0801d8;
-    public static final int log_dlg_scroll=0x7f0801d9;
-    public static final int logoView=0x7f0801da;
-    public static final int loop_mode_text=0x7f0801db;
-    public static final int loop_play_switch=0x7f0801dc;
-    public static final int mapParent=0x7f0801dd;
-    public static final int markerViewContainer=0x7f0801de;
-    public static final int maxAltitude=0x7f0801df;
-    public static final int maxFlightDistance=0x7f0801e0;
-    public static final int media_actions=0x7f0801e1;
-    public static final int message=0x7f0801e2;
-    public static final int message_separator=0x7f0801e3;
-    public static final int middle=0x7f0801e4;
-    public static final int motion_base=0x7f0801e5;
-    public static final int multiply=0x7f0801e6;
-    public static final int never=0x7f0801e7;
-    public static final int never_show_box=0x7f0801e8;
-    public static final int none=0x7f0801e9;
-    public static final int normal=0x7f0801ea;
-    public static final int north_imageview=0x7f0801eb;
-    public static final int notification_background=0x7f0801ec;
-    public static final int notification_main_column=0x7f0801ed;
-    public static final int notification_main_column_container=0x7f0801ee;
-    public static final int numberPicker1=0x7f0801ef;
-    public static final int off=0x7f0801f0;
-    public static final int on=0x7f0801f1;
-    public static final int overall=0x7f0801f2;
-    public static final int packed=0x7f0801f3;
-    public static final int parent=0x7f0801f4;
-    public static final int parentPanel=0x7f0801f5;
-    public static final int parentRelative=0x7f0801f6;
-    public static final int path=0x7f0801f7;
-    public static final int pathRelative=0x7f0801f8;
-    public static final int percent=0x7f0801f9;
-    public static final int percentage=0x7f0801fa;
-    public static final int persist_text_view=0x7f0801fb;
-    public static final int place_autocomplete_clear_button=0x7f0801fc;
-    public static final int place_autocomplete_powered_by_google=0x7f0801fd;
-    public static final int place_autocomplete_prediction_primary_text=0x7f0801fe;
-    public static final int place_autocomplete_prediction_secondary_text=0x7f0801ff;
-    public static final int place_autocomplete_progress=0x7f080200;
-    public static final int place_autocomplete_search_button=0x7f080201;
-    public static final int place_autocomplete_search_input=0x7f080202;
-    public static final int place_autocomplete_separator=0x7f080203;
-    public static final int position=0x7f080204;
-    public static final int postLayout=0x7f080205;
-    public static final int preset_header_separator=0x7f080206;
-    public static final int preset_list_empty=0x7f080207;
-    public static final int preset_list_header=0x7f080208;
-    public static final int primary=0x7f080209;
-    public static final int progress_circular=0x7f08020a;
-    public static final int progress_horizontal=0x7f08020b;
-    public static final int progressbar_compass_sea=0x7f08020c;
-    public static final int radar_backward_0=0x7f08020d;
-    public static final int radar_backward_1=0x7f08020e;
-    public static final int radar_backward_2=0x7f08020f;
-    public static final int radar_backward_3=0x7f080210;
-    public static final int radar_backward_disabled=0x7f080211;
-    public static final int radar_forward_0=0x7f080212;
-    public static final int radar_forward_1=0x7f080213;
-    public static final int radar_forward_2=0x7f080214;
-    public static final int radar_forward_3=0x7f080215;
-    public static final int radar_forward_disabled=0x7f080216;
-    public static final int radar_left=0x7f080217;
-    public static final int radar_right=0x7f080218;
-    public static final int radio=0x7f080219;
-    public static final int radioChannelQuality=0x7f08021a;
-    public static final int ratio=0x7f08021b;
-    public static final int real_world_position_container=0x7f08021c;
-    public static final int record_button_container=0x7f08021d;
-    public static final int rectangles=0x7f08021e;
-    public static final int recycle_list_view_content=0x7f08021f;
-    public static final int region_item_delete=0x7f080220;
-    public static final int region_item_rename=0x7f080221;
-    public static final int relativelayout_slidebar=0x7f080222;
-    public static final int remainingStorageCapacity=0x7f080223;
-    public static final int remoteControllerBattery=0x7f080224;
-    public static final int remoteControllerMode=0x7f080225;
-    public static final int remove_password_header=0x7f080226;
-    public static final int remove_password_item=0x7f080227;
-    public static final int remove_password_warning=0x7f080228;
-    public static final int reverseSawtooth=0x7f080229;
-    public static final int right=0x7f08022a;
-    public static final int right_arrow=0x7f08022b;
-    public static final int right_distance=0x7f08022c;
-    public static final int right_icon=0x7f08022d;
-    public static final int right_side=0x7f08022e;
-    public static final int ring_wheel=0x7f08022f;
-    public static final int rl_aircraft_state_container=0x7f080230;
-    public static final int rl_position_container=0x7f080231;
-    public static final int rl_simulator_attitude_container=0x7f080232;
-    public static final int rl_simulator_wind_container=0x7f080233;
-    public static final int root_view=0x7f080234;
-    public static final int rtk_content_ly=0x7f080235;
-    public static final int rtk_desc_ly=0x7f080236;
-    public static final int rtk_dialog_ok=0x7f080237;
-    public static final int rtk_dialog_separator=0x7f080238;
-    public static final int rtk_direction_status_img=0x7f080239;
-    public static final int rtk_error=0x7f08023a;
-    public static final int rtk_location_status_img=0x7f08023b;
-    public static final int rtk_open_switch=0x7f08023c;
-    public static final int rtk_second_satellite_title=0x7f08023d;
-    public static final int rtk_title=0x7f08023e;
-    public static final int satellite=0x7f08023f;
-    public static final int sawtooth=0x7f080240;
-    public static final int screen=0x7f080241;
-    public static final int scrollIndicatorDown=0x7f080242;
-    public static final int scrollIndicatorUp=0x7f080243;
-    public static final int scrollView=0x7f080244;
-    public static final int search_badge=0x7f080245;
-    public static final int search_bar=0x7f080246;
-    public static final int search_button=0x7f080247;
-    public static final int search_close_btn=0x7f080248;
-    public static final int search_edit_frame=0x7f080249;
-    public static final int search_go_btn=0x7f08024a;
-    public static final int search_mag_icon=0x7f08024b;
-    public static final int search_plate=0x7f08024c;
-    public static final int search_src_text=0x7f08024d;
-    public static final int search_voice_btn=0x7f08024e;
-    public static final int secondary=0x7f08024f;
-    public static final int seekbar_background=0x7f080250;
-    public static final int seekbar_ei=0x7f080251;
-    public static final int seekbar_iso=0x7f080252;
-    public static final int seekbar_layout=0x7f080253;
-    public static final int seekbar_slider=0x7f080254;
-    public static final int select_action_header=0x7f080255;
-    public static final int select_action_message=0x7f080256;
-    public static final int select_dialog_listview=0x7f080257;
-    public static final int set_password_header=0x7f080258;
-    public static final int set_password_warning=0x7f080259;
-    public static final int set_sre_button=0x7f08025a;
-    public static final int shortcut=0x7f08025b;
-    public static final int showCustom=0x7f08025c;
-    public static final int showHome=0x7f08025d;
-    public static final int showTitle=0x7f08025e;
-    public static final int signal=0x7f08025f;
-    public static final int simulator_background=0x7f080260;
-    public static final int simulator_content=0x7f080261;
-    public static final int simulator_preset_container=0x7f080262;
-    public static final int simulator_preset_list=0x7f080263;
-    public static final int simulator_switch=0x7f080264;
-    public static final int simulator_title=0x7f080265;
-    public static final int sin=0x7f080266;
-    public static final int singleVoltage=0x7f080267;
-    public static final int soft_row_separator=0x7f080268;
-    public static final int spacer=0x7f080269;
-    public static final int spinner=0x7f08026a;
-    public static final int spline=0x7f08026b;
-    public static final int split_action_bar=0x7f08026c;
-    public static final int spotlight_brightness_container=0x7f08026d;
-    public static final int spotlight_brightness_seekbar=0x7f08026e;
-    public static final int spotlight_brightness_title=0x7f08026f;
-    public static final int spotlight_brightness_value=0x7f080270;
-    public static final int spotlight_brightness_warning=0x7f080271;
-    public static final int spotlight_switch=0x7f080272;
-    public static final int spotlight_switch_container=0x7f080273;
-    public static final int spotlight_switch_title=0x7f080274;
-    public static final int spotlight_temperature_container=0x7f080275;
-    public static final int spotlight_temperature_title=0x7f080276;
-    public static final int spotlight_temperature_value=0x7f080277;
-    public static final int spotlight_title=0x7f080278;
-    public static final int spread=0x7f080279;
-    public static final int spread_inside=0x7f08027a;
-    public static final int square=0x7f08027b;
-    public static final int src_atop=0x7f08027c;
-    public static final int src_in=0x7f08027d;
-    public static final int src_over=0x7f08027e;
-    public static final int ssd_capacity_title=0x7f08027f;
-    public static final int ssd_capacity_value=0x7f080280;
-    public static final int ssd_clip_info_tv=0x7f080281;
-    public static final int ssd_format_info=0x7f080282;
-    public static final int ssd_icon=0x7f080283;
-    public static final int ssd_status_icon=0x7f080284;
-    public static final int ssd_status_info=0x7f080285;
-    public static final int standard=0x7f080286;
-    public static final int standard_row_separator=0x7f080287;
-    public static final int start=0x7f080288;
-    public static final int startHorizontal=0x7f080289;
-    public static final int startVertical=0x7f08028a;
-    public static final int start_broadcast_button=0x7f08028b;
-    public static final int staticLayout=0x7f08028c;
-    public static final int staticPostLayout=0x7f08028d;
-    public static final int status_bar_latest_event_content=0x7f08028e;
-    public static final int status_section_footer=0x7f08028f;
-    public static final int status_section_header_text=0x7f080290;
-    public static final int stop=0x7f080291;
-    public static final int stripeview_setting_ev_status=0x7f080292;
-    public static final int submenuarrow=0x7f080293;
-    public static final int submit_area=0x7f080294;
-    public static final int switch_button=0x7f080295;
-    public static final int tabMode=0x7f080296;
-    public static final int tab_instant_broadcast=0x7f080297;
-    public static final int tab_local_file=0x7f080298;
-    public static final int tag_accessibility_actions=0x7f080299;
-    public static final int tag_accessibility_clickable_spans=0x7f08029a;
-    public static final int tag_accessibility_heading=0x7f08029b;
-    public static final int tag_accessibility_pane_title=0x7f08029c;
-    public static final int tag_screen_reader_focusable=0x7f08029d;
-    public static final int tag_transition_group=0x7f08029e;
-    public static final int tag_unhandled_key_event_manager=0x7f08029f;
-    public static final int tag_unhandled_key_listeners=0x7f0802a0;
-    public static final int terrain=0x7f0802a1;
-    public static final int text=0x7f0802a2;
-    public static final int text2=0x7f0802a3;
-    public static final int textSpacerNoButtons=0x7f0802a4;
-    public static final int textSpacerNoTitle=0x7f0802a5;
-    public static final int textView=0x7f0802a6;
-    public static final int textView2=0x7f0802a7;
-    public static final int text_connection_status=0x7f0802a8;
-    public static final int text_custom_unlock_enabled_zone=0x7f0802a9;
-    public static final int text_legend_authorized_zone=0x7f0802aa;
-    public static final int text_legend_custom_unlock_aircraft_zone=0x7f0802ab;
-    public static final int text_legend_custom_unlock_zone=0x7f0802ac;
-    public static final int text_legend_enhanced_warning_zone=0x7f0802ad;
-    public static final int text_legend_restricted_zone=0x7f0802ae;
-    public static final int text_legend_self_unlock_zone=0x7f0802af;
-    public static final int text_legend_warning_zone=0x7f0802b0;
-    public static final int text_model_available=0x7f0802b1;
-    public static final int text_product_info=0x7f0802b2;
-    public static final int text_view_speaker_title=0x7f0802b3;
-    public static final int text_view_speaker_volume=0x7f0802b4;
-    public static final int textview_ace_title=0x7f0802b5;
-    public static final int textview_ace_value=0x7f0802b6;
-    public static final int textview_aperture_title=0x7f0802b7;
-    public static final int textview_battery1_value=0x7f0802b8;
-    public static final int textview_battery1_voltage=0x7f0802b9;
-    public static final int textview_battery2_value=0x7f0802ba;
-    public static final int textview_battery2_voltage=0x7f0802bb;
-    public static final int textview_battery_value=0x7f0802bc;
-    public static final int textview_battery_voltage=0x7f0802bd;
-    public static final int textview_brightness_title=0x7f0802be;
-    public static final int textview_brightness_value=0x7f0802bf;
-    public static final int textview_button_cancel=0x7f0802c0;
-    public static final int textview_button_negative=0x7f0802c1;
-    public static final int textview_button_ok=0x7f0802c2;
-    public static final int textview_button_positive=0x7f0802c3;
-    public static final int textview_camera_control_af=0x7f0802c4;
-    public static final int textview_camera_control_mf=0x7f0802c5;
-    public static final int textview_camera_control_separator=0x7f0802c6;
-    public static final int textview_camera_controll_videotime=0x7f0802c7;
-    public static final int textview_camera_mode_a=0x7f0802c8;
-    public static final int textview_camera_mode_m=0x7f0802c9;
-    public static final int textview_camera_mode_p=0x7f0802ca;
-    public static final int textview_camera_mode_s=0x7f0802cb;
-    public static final int textview_contrast_title=0x7f0802cc;
-    public static final int textview_contrast_value=0x7f0802cd;
-    public static final int textview_dde_title=0x7f0802ce;
-    public static final int textview_dde_value=0x7f0802cf;
-    public static final int textview_dlg_desc=0x7f0802d0;
-    public static final int textview_dlg_little_title=0x7f0802d1;
-    public static final int textview_dlg_title=0x7f0802d2;
-    public static final int textview_ev_title=0x7f0802d3;
-    public static final int textview_flight_mode_string=0x7f0802d4;
-    public static final int textview_gps_type=0x7f0802d5;
-    public static final int textview_iso_title=0x7f0802d6;
-    public static final int textview_lock_title=0x7f0802d7;
-    public static final int textview_max_value=0x7f0802d8;
-    public static final int textview_metrics_title=0x7f0802d9;
-    public static final int textview_metrics_unit=0x7f0802da;
-    public static final int textview_metrics_value=0x7f0802db;
-    public static final int textview_min_value=0x7f0802dc;
-    public static final int textview_preflight_status=0x7f0802dd;
-    public static final int textview_rc_type=0x7f0802de;
-    public static final int textview_satellite_number=0x7f0802df;
-    public static final int textview_setting_ev_status_value=0x7f0802e0;
-    public static final int textview_setting_ev_value=0x7f0802e1;
-    public static final int textview_shutter_title=0x7f0802e2;
-    public static final int textview_slidertitle=0x7f0802e3;
-    public static final int textview_sso_title=0x7f0802e4;
-    public static final int textview_sso_value=0x7f0802e5;
-    public static final int textview_title=0x7f0802e6;
-    public static final int textview_value=0x7f0802e7;
-    public static final int textview_value_unit=0x7f0802e8;
-    public static final int textview_wind_x=0x7f0802e9;
-    public static final int textview_wind_y=0x7f0802ea;
-    public static final int textview_wind_z=0x7f0802eb;
-    public static final int thermal_camera_ffc_mode=0x7f0802ec;
-    public static final int thermal_camera_gain_mode=0x7f0802ed;
-    public static final int thermal_camera_palette=0x7f0802ee;
-    public static final int thermal_camera_roi=0x7f0802ef;
-    public static final int thermal_camera_scene=0x7f0802f0;
-    public static final int time=0x7f0802f1;
-    public static final int title=0x7f0802f2;
-    public static final int titleDividerNoCustom=0x7f0802f3;
-    public static final int title_template=0x7f0802f4;
-    public static final int toggle=0x7f0802f5;
-    public static final int top=0x7f0802f6;
-    public static final int topPanel=0x7f0802f7;
-    public static final int top_line_camera_panel=0x7f0802f8;
-    public static final int transitionToEnd=0x7f0802f9;
-    public static final int transitionToStart=0x7f0802fa;
-    public static final int triangle=0x7f0802fb;
-    public static final int tv_load_Preset=0x7f0802fc;
-    public static final int tv_preset_name=0x7f0802fd;
-    public static final int tv_save_Preset=0x7f0802fe;
-    public static final int unchecked=0x7f0802ff;
-    public static final int uniform=0x7f080300;
-    public static final int unlock_aircraft=0x7f080301;
-    public static final int unlock_aircraft_header=0x7f080302;
-    public static final int unlock_aircraft_warning=0x7f080303;
-    public static final int up=0x7f080304;
-    public static final int useLogo=0x7f080305;
-    public static final int userLocationView=0x7f080306;
-    public static final int val_simulator_aircraft_flying=0x7f080307;
-    public static final int val_simulator_aircraft_pitch=0x7f080308;
-    public static final int val_simulator_aircraft_roll=0x7f080309;
-    public static final int val_simulator_aircraft_yaw=0x7f08030a;
-    public static final int val_simulator_frequency=0x7f08030b;
-    public static final int val_simulator_lat=0x7f08030c;
-    public static final int val_simulator_lng=0x7f08030d;
-    public static final int val_simulator_motors=0x7f08030e;
-    public static final int val_simulator_sat=0x7f08030f;
-    public static final int val_simulator_world_X=0x7f080310;
-    public static final int val_simulator_world_Y=0x7f080311;
-    public static final int val_simulator_world_Z=0x7f080312;
-    public static final int vertical_wheel_max=0x7f080313;
-    public static final int vertical_wheel_min=0x7f080314;
-    public static final int view_back_background=0x7f080315;
-    public static final int view_header_divider=0x7f080316;
-    public static final int visible=0x7f080317;
-    public static final int visible_removing_fragment_view_tag=0x7f080318;
-    public static final int visionSensors=0x7f080319;
-    public static final int visual_compass_view=0x7f08031a;
-    public static final int volume_seek_bar=0x7f08031b;
-    public static final int w_section_footer=0x7f08031c;
-    public static final int warning_icon=0x7f08031d;
-    public static final int warning_text=0x7f08031e;
-    public static final int warning_view=0x7f08031f;
-    public static final int webview=0x7f080320;
-    public static final int wheelview_camera_settings_aperture=0x7f080321;
-    public static final int wheelview_camera_settings_shutter=0x7f080322;
-    public static final int wide=0x7f080323;
-    public static final int widget_altitude=0x7f080324;
-    public static final int widget_camera_aperture_setting=0x7f080325;
-    public static final int widget_camera_capture=0x7f080326;
-    public static final int widget_camera_capture_switch=0x7f080327;
-    public static final int widget_camera_ev_setting=0x7f080328;
-    public static final int widget_camera_exposure_mode=0x7f080329;
-    public static final int widget_camera_exposure_status=0x7f08032a;
-    public static final int widget_camera_exposure_status_background=0x7f08032b;
-    public static final int widget_camera_iso_ei_setting=0x7f08032c;
-    public static final int widget_camera_menu=0x7f08032d;
-    public static final int widget_camera_menu_background=0x7f08032e;
-    public static final int widget_camera_shutter_setting=0x7f08032f;
-    public static final int widget_compass=0x7f080330;
-    public static final int widget_distance=0x7f080331;
-    public static final int widget_h_speed=0x7f080332;
-    public static final int widget_thermal_camera_scene_ace=0x7f080333;
-    public static final int widget_thermal_camera_scene_brightness=0x7f080334;
-    public static final int widget_thermal_camera_scene_contrast=0x7f080335;
-    public static final int widget_thermal_camera_scene_dde=0x7f080336;
-    public static final int widget_thermal_camera_scene_sso=0x7f080337;
-    public static final int widget_v_speed=0x7f080338;
-    public static final int widget_vision_positioning_system=0x7f080339;
-    public static final int wifi_band=0x7f08033a;
-    public static final int wind_section_header_text=0x7f08033b;
-    public static final int withText=0x7f08033c;
-    public static final int wrap=0x7f08033d;
-    public static final int wrap_content=0x7f08033e;
-    public static final int zxing_back_button=0x7f08033f;
-    public static final int zxing_barcode_scanner=0x7f080340;
-    public static final int zxing_barcode_surface=0x7f080341;
-    public static final int zxing_camera_closed=0x7f080342;
-    public static final int zxing_camera_error=0x7f080343;
-    public static final int zxing_decode=0x7f080344;
-    public static final int zxing_decode_failed=0x7f080345;
-    public static final int zxing_decode_succeeded=0x7f080346;
-    public static final int zxing_possible_result_points=0x7f080347;
-    public static final int zxing_preview_failed=0x7f080348;
-    public static final int zxing_prewiew_size_ready=0x7f080349;
-    public static final int zxing_status_view=0x7f08034a;
-    public static final int zxing_viewfinder_view=0x7f08034b;
+    public static final int action_bar=0x7f08003d;
+    public static final int action_bar_activity_content=0x7f08003e;
+    public static final int action_bar_container=0x7f08003f;
+    public static final int action_bar_root=0x7f080040;
+    public static final int action_bar_spinner=0x7f080041;
+    public static final int action_bar_subtitle=0x7f080042;
+    public static final int action_bar_title=0x7f080043;
+    public static final int action_button=0x7f080044;
+    public static final int action_container=0x7f080045;
+    public static final int action_context_bar=0x7f080046;
+    public static final int action_divider=0x7f080047;
+    public static final int action_image=0x7f080048;
+    public static final int action_menu_divider=0x7f080049;
+    public static final int action_menu_presenter=0x7f08004a;
+    public static final int action_mode_bar=0x7f08004b;
+    public static final int action_mode_bar_stub=0x7f08004c;
+    public static final int action_mode_close_button=0x7f08004d;
+    public static final int action_text=0x7f08004e;
+    public static final int actions=0x7f08004f;
+    public static final int activity_chooser_view_content=0x7f080050;
+    public static final int activity_main_save_path=0x7f080051;
+    public static final int add=0x7f080052;
+    public static final int adjust_height=0x7f080053;
+    public static final int adjust_width=0x7f080054;
+    public static final int adsb_icon=0x7f080055;
+    public static final int aircraftBattery=0x7f080056;
+    public static final int aircraftBatteryTemperature=0x7f080057;
+    public static final int alertTitle=0x7f080058;
+    public static final int aligned=0x7f080059;
+    public static final int always=0x7f08005a;
+    public static final int animateToEnd=0x7f08005b;
+    public static final int animateToStart=0x7f08005c;
+    public static final int asConfigured=0x7f08005d;
+    public static final int async=0x7f08005e;
+    public static final int attitude_section_header_text=0x7f08005f;
+    public static final int attributionView=0x7f080060;
+    public static final int audio_file_delete_image_view=0x7f080061;
+    public static final int audio_file_listview=0x7f080062;
+    public static final int audio_file_name_text_view=0x7f080063;
+    public static final int audio_file_play_image_view=0x7f080064;
+    public static final int audio_file_row_linear_layout=0x7f080065;
+    public static final int audio_record_status_text_view=0x7f080066;
+    public static final int audio_temporary_switch=0x7f080067;
+    public static final int auto=0x7f080068;
+    public static final int autoComplete=0x7f080069;
+    public static final int autoCompleteToEnd=0x7f08006a;
+    public static final int autoCompleteToStart=0x7f08006b;
+    public static final int avoid_up=0x7f08006c;
+    public static final int background_exposure_setting=0x7f08006d;
+    public static final int background_imageview=0x7f08006e;
+    public static final int backward_arrow=0x7f08006f;
+    public static final int backward_distance=0x7f080070;
+    public static final int barrier=0x7f080071;
+    public static final int baseline=0x7f080072;
+    public static final int batteryIcon=0x7f080073;
+    public static final int beginOnFirstDraw=0x7f080074;
+    public static final int beginning=0x7f080075;
+    public static final int blocking=0x7f080076;
+    public static final int bot_line_camera_panel=0x7f080077;
+    public static final int bottom=0x7f080078;
+    public static final int bounce=0x7f080079;
+    public static final int btn_open=0x7f08007a;
+    public static final int buttonPanel=0x7f08007b;
+    public static final int button_container=0x7f08007c;
+    public static final int button_iso_auto=0x7f08007d;
+    public static final int button_user_log_in=0x7f08007e;
+    public static final int cache_measures=0x7f08007f;
+    public static final int camera=0x7f080080;
+    public static final int camera_advsetting_tab=0x7f080081;
+    public static final int camera_contrast_icon=0x7f080082;
+    public static final int camera_other_setting_content=0x7f080083;
+    public static final int camera_photo_setting_content=0x7f080084;
+    public static final int camera_photo_setting_photo_format=0x7f080085;
+    public static final int camera_photo_setting_photo_mode=0x7f080086;
+    public static final int camera_saturation_icon=0x7f080087;
+    public static final int camera_setting_content=0x7f080088;
+    public static final int camera_setting_content_other=0x7f080089;
+    public static final int camera_setting_content_photo=0x7f08008a;
+    public static final int camera_setting_content_video=0x7f08008b;
+    public static final int camera_setting_title_bar=0x7f08008c;
+    public static final int camera_settings_wheel_text=0x7f08008d;
+    public static final int camera_sharpness_icon=0x7f08008e;
+    public static final int camera_style_custom=0x7f08008f;
+    public static final int camera_style_custom_contrast=0x7f080090;
+    public static final int camera_style_custom_item_contrast=0x7f080091;
+    public static final int camera_style_custom_item_desc=0x7f080092;
+    public static final int camera_style_custom_item_saturation=0x7f080093;
+    public static final int camera_style_custom_item_sharpness=0x7f080094;
+    public static final int camera_style_custom_layout=0x7f080095;
+    public static final int camera_style_custom_saturation=0x7f080096;
+    public static final int camera_style_custom_sharpness=0x7f080097;
+    public static final int camera_style_landscape=0x7f080098;
+    public static final int camera_style_landscape_item_contrast=0x7f080099;
+    public static final int camera_style_landscape_item_desc=0x7f08009a;
+    public static final int camera_style_landscape_item_saturation=0x7f08009b;
+    public static final int camera_style_landscape_item_sharpness=0x7f08009c;
+    public static final int camera_style_soft=0x7f08009d;
+    public static final int camera_style_soft_item_contrast=0x7f08009e;
+    public static final int camera_style_soft_item_desc=0x7f08009f;
+    public static final int camera_style_soft_item_saturation=0x7f0800a0;
+    public static final int camera_style_soft_item_sharpness=0x7f0800a1;
+    public static final int camera_style_standard=0x7f0800a2;
+    public static final int camera_style_standard_item_contrast=0x7f0800a3;
+    public static final int camera_style_standard_item_desc=0x7f0800a4;
+    public static final int camera_style_standard_item_saturation=0x7f0800a5;
+    public static final int camera_style_standard_item_sharpness=0x7f0800a6;
+    public static final int camera_tab_indicator=0x7f0800a7;
+    public static final int camera_tab_other=0x7f0800a8;
+    public static final int camera_tab_photo=0x7f0800a9;
+    public static final int camera_tab_video=0x7f0800aa;
+    public static final int camera_video_setting_content=0x7f0800ab;
+    public static final int camera_video_setting_standard=0x7f0800ac;
+    public static final int center=0x7f0800ad;
+    public static final int centerCrop=0x7f0800ae;
+    public static final int center_horizontal=0x7f0800af;
+    public static final int center_point=0x7f0800b0;
+    public static final int center_vertical=0x7f0800b1;
+    public static final int chain=0x7f0800b2;
+    public static final int chains=0x7f0800b3;
+    public static final int change_password_header=0x7f0800b4;
+    public static final int change_password_item=0x7f0800b5;
+    public static final int change_password_message=0x7f0800b6;
+    public static final int checkbox=0x7f0800b7;
+    public static final int checked=0x7f0800b8;
+    public static final int child_button1=0x7f0800b9;
+    public static final int child_button2=0x7f0800ba;
+    public static final int child_button3=0x7f0800bb;
+    public static final int child_image1=0x7f0800bc;
+    public static final int child_image2=0x7f0800bd;
+    public static final int child_image3=0x7f0800be;
+    public static final int child_tag1=0x7f0800bf;
+    public static final int child_tag2=0x7f0800c0;
+    public static final int child_tag3=0x7f0800c1;
+    public static final int child_value1=0x7f0800c2;
+    public static final int child_value2=0x7f0800c3;
+    public static final int child_value3=0x7f0800c4;
+    public static final int chronometer=0x7f0800c5;
+    public static final int clip_horizontal=0x7f0800c6;
+    public static final int clip_vertical=0x7f0800c7;
+    public static final int close_btn=0x7f0800c8;
+    public static final int collapseActionView=0x7f0800c9;
+    public static final int color_waveform_background=0x7f0800ca;
+    public static final int color_waveform_close_btn=0x7f0800cb;
+    public static final int color_waveform_p_switch=0x7f0800cc;
+    public static final int color_waveform_view=0x7f0800cd;
+    public static final int color_waveform_w_switch=0x7f0800ce;
+    public static final int compass=0x7f0800cf;
+    public static final int compassView=0x7f0800d0;
+    public static final int compass_home_img=0x7f0800d1;
+    public static final int confirm_new_password=0x7f0800d2;
+    public static final int confirm_password=0x7f0800d3;
+    public static final int confirmation_message=0x7f0800d4;
+    public static final int content=0x7f0800d5;
+    public static final int contentPanel=0x7f0800d6;
+    public static final int cos=0x7f0800d7;
+    public static final int custom=0x7f0800d8;
+    public static final int customPanel=0x7f0800d9;
+    public static final int custom_max_img=0x7f0800da;
+    public static final int custom_min_img=0x7f0800db;
+    public static final int custom_row_separator=0x7f0800dc;
+    public static final int dark=0x7f0800dd;
+    public static final int dbg_region=0x7f0800de;
+    public static final int decelerate=0x7f0800df;
+    public static final int decelerateAndComplete=0x7f0800e0;
+    public static final int decor_content_parent=0x7f0800e1;
+    public static final int default_activity_button=0x7f0800e2;
+    public static final int deltaRelative=0x7f0800e3;
+    public static final int dependency_ordering=0x7f0800e4;
+    public static final int desc_below_image=0x7f0800e5;
+    public static final int dialog_button=0x7f0800e6;
+    public static final int dimensions=0x7f0800e7;
+    public static final int direct=0x7f0800e8;
+    public static final int disableHome=0x7f0800e9;
+    public static final int disablePostScroll=0x7f0800ea;
+    public static final int disableScroll=0x7f0800eb;
+    public static final int divider=0x7f0800ec;
+    public static final int divider_title=0x7f0800ed;
+    public static final int doubleVoltage=0x7f0800ee;
+    public static final int dragDown=0x7f0800ef;
+    public static final int dragEnd=0x7f0800f0;
+    public static final int dragLeft=0x7f0800f1;
+    public static final int dragRight=0x7f0800f2;
+    public static final int dragStart=0x7f0800f3;
+    public static final int dragUp=0x7f0800f4;
+    public static final int easeIn=0x7f0800f5;
+    public static final int easeInOut=0x7f0800f6;
+    public static final int easeOut=0x7f0800f7;
+    public static final int edit_query=0x7f0800f8;
+    public static final int edit_text_frequency=0x7f0800f9;
+    public static final int edit_text_satellite_count=0x7f0800fa;
+    public static final int edit_text_simulator_lat=0x7f0800fb;
+    public static final int edit_text_simulator_lng=0x7f0800fc;
+    public static final int edittext_value=0x7f0800fd;
+    public static final int end=0x7f0800fe;
+    public static final int enter_aircraft_password=0x7f0800ff;
+    public static final int enter_current_password=0x7f080100;
+    public static final int enter_new_password=0x7f080101;
+    public static final int enter_password=0x7f080102;
+    public static final int expand_activities_button=0x7f080103;
+    public static final int expandable_child_button_layout=0x7f080104;
+    public static final int expandable_child_image_layout=0x7f080105;
+    public static final int expandable_child_layout=0x7f080106;
+    public static final int expandable_child_sb=0x7f080107;
+    public static final int expandable_group_icon=0x7f080108;
+    public static final int expandable_group_name=0x7f080109;
+    public static final int expandable_group_switch_button=0x7f08010a;
+    public static final int expandable_group_value=0x7f08010b;
+    public static final int expandable_group_value_bg=0x7f08010c;
+    public static final int expandable_list_view_content=0x7f08010d;
+    public static final int expanded_menu=0x7f08010e;
+    public static final int expendable_group_layout=0x7f08010f;
+    public static final int fill=0x7f080110;
+    public static final int fill_horizontal=0x7f080111;
+    public static final int fill_vertical=0x7f080112;
+    public static final int fitCenter=0x7f080113;
+    public static final int fitXY=0x7f080114;
+    public static final int flightMode=0x7f080115;
+    public static final int flip=0x7f080116;
+    public static final int forever=0x7f080117;
+    public static final int format_aircraft=0x7f080118;
+    public static final int format_aircraft_header=0x7f080119;
+    public static final int forward_arrow=0x7f08011a;
+    public static final int forward_distance=0x7f08011b;
+    public static final int fpv_camera_chart_line=0x7f08011c;
+    public static final int fpv_rtk_antenna_angle=0x7f08011d;
+    public static final int fpv_rtk_base_station_height=0x7f08011e;
+    public static final int fpv_rtk_base_station_lat=0x7f08011f;
+    public static final int fpv_rtk_base_station_lng=0x7f080120;
+    public static final int fpv_rtk_fusion_altitude=0x7f080121;
+    public static final int fpv_rtk_gps_num_antenna_m=0x7f080122;
+    public static final int fpv_rtk_gps_num_antenna_s=0x7f080123;
+    public static final int fpv_rtk_gps_num_base_station=0x7f080124;
+    public static final int fpv_rtk_north_num_antenna_m=0x7f080125;
+    public static final int fpv_rtk_north_num_antenna_s=0x7f080126;
+    public static final int fpv_rtk_north_num_base_station=0x7f080127;
+    public static final int fpv_rtk_pilot_height=0x7f080128;
+    public static final int fpv_rtk_pilot_lat=0x7f080129;
+    public static final int fpv_rtk_pilot_lng=0x7f08012a;
+    public static final int fragment_container_view_tag=0x7f08012b;
+    public static final int gimbalStatus=0x7f08012c;
+    public static final int gimbal_control_arrow=0x7f08012d;
+    public static final int gimbal_control_move=0x7f08012e;
+    public static final int gimbal_control_point=0x7f08012f;
+    public static final int gimbalyawview_compass=0x7f080130;
+    public static final int gone=0x7f080131;
+    public static final int graph=0x7f080132;
+    public static final int graph_wrap=0x7f080133;
+    public static final int group_divider=0x7f080134;
+    public static final int grouping=0x7f080135;
+    public static final int groups=0x7f080136;
+    public static final int header_separator=0x7f080137;
+    public static final int home=0x7f080138;
+    public static final int homeAsUp=0x7f080139;
+    public static final int honorRequest=0x7f08013a;
+    public static final int hybrid=0x7f08013b;
+    public static final int icon=0x7f08013c;
+    public static final int icon_group=0x7f08013d;
+    public static final int icon_only=0x7f08013e;
+    public static final int ifRoom=0x7f08013f;
+    public static final int ignore=0x7f080140;
+    public static final int ignoreRequest=0x7f080141;
+    public static final int image=0x7f080142;
+    public static final int image_button_background=0x7f080143;
+    public static final int image_button_close=0x7f080144;
+    public static final int image_button_foreground=0x7f080145;
+    public static final int image_button_foreground_top=0x7f080146;
+    public static final int image_legend_authorized_zone=0x7f080147;
+    public static final int image_legend_custom_unlock_aircraft_zone=0x7f080148;
+    public static final int image_legend_custom_unlock_enabled_zone=0x7f080149;
+    public static final int image_legend_custom_unlock_zone=0x7f08014a;
+    public static final int image_legend_enhanced_warning_zone=0x7f08014b;
+    public static final int image_legend_restricted_zone=0x7f08014c;
+    public static final int image_legend_self_unlock_zone=0x7f08014d;
+    public static final int image_legend_warning_zone=0x7f08014e;
+    public static final int image_preset_delete=0x7f08014f;
+    public static final int imagebutton_ev_setting_minus=0x7f080150;
+    public static final int imagebutton_ev_setting_plus=0x7f080151;
+    public static final int imageview_apas_state=0x7f080152;
+    public static final int imageview_aperture_wheel_position=0x7f080153;
+    public static final int imageview_back=0x7f080154;
+    public static final int imageview_battery_icon=0x7f080155;
+    public static final int imageview_btn_minus_x=0x7f080156;
+    public static final int imageview_btn_minus_y=0x7f080157;
+    public static final int imageview_btn_minus_z=0x7f080158;
+    public static final int imageview_btn_plus_x=0x7f080159;
+    public static final int imageview_btn_plus_y=0x7f08015a;
+    public static final int imageview_btn_plus_z=0x7f08015b;
+    public static final int imageview_button_left=0x7f08015c;
+    public static final int imageview_button_right=0x7f08015d;
+    public static final int imageview_camera_settings_aperture_background=0x7f08015e;
+    public static final int imageview_camera_settings_ev_background=0x7f08015f;
+    public static final int imageview_camera_settings_shutter_background=0x7f080160;
+    public static final int imageview_compass_aircraft=0x7f080161;
+    public static final int imageview_compass_rc=0x7f080162;
+    public static final int imageview_connection_icon=0x7f080163;
+    public static final int imageview_divider=0x7f080164;
+    public static final int imageview_dlg_btn_ly=0x7f080165;
+    public static final int imageview_dlg_desc=0x7f080166;
+    public static final int imageview_dlg_divider_img=0x7f080167;
+    public static final int imageview_dlg_img=0x7f080168;
+    public static final int imageview_dlg_title=0x7f080169;
+    public static final int imageview_dlg_title_icon=0x7f08016a;
+    public static final int imageview_exposure_automode_icon=0x7f08016b;
+    public static final int imageview_flight_mode_icon=0x7f08016c;
+    public static final int imageview_gimbal_heading=0x7f08016d;
+    public static final int imageview_gps_icon=0x7f08016e;
+    public static final int imageview_gps_signal=0x7f08016f;
+    public static final int imageview_info_bar_background=0x7f080170;
+    public static final int imageview_inner_circles=0x7f080171;
+    public static final int imageview_left=0x7f080172;
+    public static final int imageview_lock=0x7f080173;
+    public static final int imageview_metrics_icon=0x7f080174;
+    public static final int imageview_minus=0x7f080175;
+    public static final int imageview_multi_battery_icon=0x7f080176;
+    public static final int imageview_picture_icon=0x7f080177;
+    public static final int imageview_plus=0x7f080178;
+    public static final int imageview_preflight_color_indicator=0x7f080179;
+    public static final int imageview_rc_video_icon=0x7f08017a;
+    public static final int imageview_rc_video_signal=0x7f08017b;
+    public static final int imageview_recommended_bar=0x7f08017c;
+    public static final int imageview_shutter_wheel_position=0x7f08017d;
+    public static final int imageview_signal_icon=0x7f08017e;
+    public static final int imageview_simulator_icon=0x7f08017f;
+    public static final int imageview_speaker_icon=0x7f080180;
+    public static final int imageview_thumb=0x7f080181;
+    public static final int imageview_thumb_disable=0x7f080182;
+    public static final int imageview_title_bar=0x7f080183;
+    public static final int imageview_track=0x7f080184;
+    public static final int imageview_video_icon=0x7f080185;
+    public static final int info=0x7f080186;
+    public static final int infowindow_description=0x7f080187;
+    public static final int infowindow_title=0x7f080188;
+    public static final int instant_play_switch=0x7f080189;
+    public static final int instant_play_text_view=0x7f08018a;
+    public static final int internalStorage=0x7f08018b;
+    public static final int invisible=0x7f08018c;
+    public static final int italic=0x7f08018d;
+    public static final int item_separator=0x7f08018e;
+    public static final int item_touch_helper_previous_elevation=0x7f08018f;
+    public static final int jumpToEnd=0x7f080190;
+    public static final int jumpToStart=0x7f080191;
+    public static final int landscape_row_separator=0x7f080192;
+    public static final int layout=0x7f080193;
+    public static final int layout_camera_mode_a=0x7f080194;
+    public static final int layout_camera_mode_m=0x7f080195;
+    public static final int layout_camera_mode_p=0x7f080196;
+    public static final int layout_camera_mode_s=0x7f080197;
+    public static final int layout_parent_dialog=0x7f080198;
+    public static final int layout_track=0x7f080199;
+    public static final int lbl_simulator_aircraft_flying=0x7f08019a;
+    public static final int lbl_simulator_frequency=0x7f08019b;
+    public static final int lbl_simulator_lat=0x7f08019c;
+    public static final int lbl_simulator_lng=0x7f08019d;
+    public static final int lbl_simulator_motors=0x7f08019e;
+    public static final int lbl_simulator_pitch=0x7f08019f;
+    public static final int lbl_simulator_roll=0x7f0801a0;
+    public static final int lbl_simulator_sat=0x7f0801a1;
+    public static final int lbl_simulator_world_X=0x7f0801a2;
+    public static final int lbl_simulator_world_Y=0x7f0801a3;
+    public static final int lbl_simulator_world_Z=0x7f0801a4;
+    public static final int lbl_simulator_yaw=0x7f0801a5;
+    public static final int left=0x7f0801a6;
+    public static final int left_arrow=0x7f0801a7;
+    public static final int left_distance=0x7f0801a8;
+    public static final int legend_left=0x7f0801a9;
+    public static final int legend_relativeLayout=0x7f0801aa;
+    public static final int legend_right=0x7f0801ab;
+    public static final int light=0x7f0801ac;
+    public static final int line1=0x7f0801ad;
+    public static final int line3=0x7f0801ae;
+    public static final int linear=0x7f0801af;
+    public static final int linear_layout_local_file=0x7f0801b0;
+    public static final int linearlayout_dlg_edit_text=0x7f0801b1;
+    public static final int listMode=0x7f0801b2;
+    public static final int list_item=0x7f0801b3;
+    public static final int list_item_arrow=0x7f0801b4;
+    public static final int list_item_black=0x7f0801b5;
+    public static final int list_item_blue=0x7f0801b6;
+    public static final int list_item_divider=0x7f0801b7;
+    public static final int list_item_edittext=0x7f0801b8;
+    public static final int list_item_full_button=0x7f0801b9;
+    public static final int list_item_green=0x7f0801ba;
+    public static final int list_item_layout=0x7f0801bb;
+    public static final int list_item_range=0x7f0801bc;
+    public static final int list_item_range_big=0x7f0801bd;
+    public static final int list_item_red=0x7f0801be;
+    public static final int list_item_seek_bar=0x7f0801bf;
+    public static final int list_item_segmented=0x7f0801c0;
+    public static final int list_item_title=0x7f0801c1;
+    public static final int list_item_title_icon=0x7f0801c2;
+    public static final int list_item_unit=0x7f0801c3;
+    public static final int list_item_value=0x7f0801c4;
+    public static final int list_item_value_editable=0x7f0801c5;
+    public static final int list_item_value_icon=0x7f0801c6;
+    public static final int list_item_value_switch_button=0x7f0801c7;
+    public static final int list_item_white=0x7f0801c8;
+    public static final int list_item_yellow=0x7f0801c9;
+    public static final int listview_camera_other=0x7f0801ca;
+    public static final int listview_camera_photo=0x7f0801cb;
+    public static final int listview_camera_video=0x7f0801cc;
+    public static final int livestream_preview_sf=0x7f0801cd;
+    public static final int livestream_preview_ttv=0x7f0801ce;
+    public static final int location_section_footer=0x7f0801cf;
+    public static final int location_section_header_text=0x7f0801d0;
+    public static final int log_dlg_content=0x7f0801d1;
+    public static final int log_dlg_control=0x7f0801d2;
+    public static final int log_dlg_lock=0x7f0801d3;
+    public static final int log_dlg_rg=0x7f0801d4;
+    public static final int log_dlg_scroll=0x7f0801d5;
+    public static final int logoView=0x7f0801d6;
+    public static final int loop_mode_text=0x7f0801d7;
+    public static final int loop_play_switch=0x7f0801d8;
+    public static final int mapParent=0x7f0801d9;
+    public static final int markerViewContainer=0x7f0801da;
+    public static final int maxAltitude=0x7f0801db;
+    public static final int maxFlightDistance=0x7f0801dc;
+    public static final int message=0x7f0801dd;
+    public static final int message_separator=0x7f0801de;
+    public static final int middle=0x7f0801df;
+    public static final int motion_base=0x7f0801e0;
+    public static final int multiply=0x7f0801e1;
+    public static final int never=0x7f0801e2;
+    public static final int never_show_box=0x7f0801e3;
+    public static final int none=0x7f0801e4;
+    public static final int normal=0x7f0801e5;
+    public static final int north_imageview=0x7f0801e6;
+    public static final int notification_background=0x7f0801e7;
+    public static final int notification_main_column=0x7f0801e8;
+    public static final int notification_main_column_container=0x7f0801e9;
+    public static final int numberPicker1=0x7f0801ea;
+    public static final int off=0x7f0801eb;
+    public static final int on=0x7f0801ec;
+    public static final int overall=0x7f0801ed;
+    public static final int packed=0x7f0801ee;
+    public static final int parent=0x7f0801ef;
+    public static final int parentPanel=0x7f0801f0;
+    public static final int parentRelative=0x7f0801f1;
+    public static final int path=0x7f0801f2;
+    public static final int pathRelative=0x7f0801f3;
+    public static final int percent=0x7f0801f4;
+    public static final int percentage=0x7f0801f5;
+    public static final int persist_text_view=0x7f0801f6;
+    public static final int place_autocomplete_clear_button=0x7f0801f7;
+    public static final int place_autocomplete_powered_by_google=0x7f0801f8;
+    public static final int place_autocomplete_prediction_primary_text=0x7f0801f9;
+    public static final int place_autocomplete_prediction_secondary_text=0x7f0801fa;
+    public static final int place_autocomplete_progress=0x7f0801fb;
+    public static final int place_autocomplete_search_button=0x7f0801fc;
+    public static final int place_autocomplete_search_input=0x7f0801fd;
+    public static final int place_autocomplete_separator=0x7f0801fe;
+    public static final int position=0x7f0801ff;
+    public static final int postLayout=0x7f080200;
+    public static final int preset_header_separator=0x7f080201;
+    public static final int preset_list_empty=0x7f080202;
+    public static final int preset_list_header=0x7f080203;
+    public static final int primary=0x7f080204;
+    public static final int progress_circular=0x7f080205;
+    public static final int progress_horizontal=0x7f080206;
+    public static final int progressbar_compass_sea=0x7f080207;
+    public static final int radar_backward_0=0x7f080208;
+    public static final int radar_backward_1=0x7f080209;
+    public static final int radar_backward_2=0x7f08020a;
+    public static final int radar_backward_3=0x7f08020b;
+    public static final int radar_backward_disabled=0x7f08020c;
+    public static final int radar_forward_0=0x7f08020d;
+    public static final int radar_forward_1=0x7f08020e;
+    public static final int radar_forward_2=0x7f08020f;
+    public static final int radar_forward_3=0x7f080210;
+    public static final int radar_forward_disabled=0x7f080211;
+    public static final int radar_left=0x7f080212;
+    public static final int radar_right=0x7f080213;
+    public static final int radio=0x7f080214;
+    public static final int radioChannelQuality=0x7f080215;
+    public static final int ratio=0x7f080216;
+    public static final int real_world_position_container=0x7f080217;
+    public static final int record_button_container=0x7f080218;
+    public static final int rectangles=0x7f080219;
+    public static final int recycle_list_view_content=0x7f08021a;
+    public static final int region_item_delete=0x7f08021b;
+    public static final int region_item_rename=0x7f08021c;
+    public static final int relativelayout_slidebar=0x7f08021d;
+    public static final int remainingStorageCapacity=0x7f08021e;
+    public static final int remoteControllerBattery=0x7f08021f;
+    public static final int remoteControllerMode=0x7f080220;
+    public static final int remove_password_header=0x7f080221;
+    public static final int remove_password_item=0x7f080222;
+    public static final int remove_password_warning=0x7f080223;
+    public static final int reverseSawtooth=0x7f080224;
+    public static final int right=0x7f080225;
+    public static final int right_arrow=0x7f080226;
+    public static final int right_distance=0x7f080227;
+    public static final int right_icon=0x7f080228;
+    public static final int right_side=0x7f080229;
+    public static final int ring_wheel=0x7f08022a;
+    public static final int rl_aircraft_state_container=0x7f08022b;
+    public static final int rl_position_container=0x7f08022c;
+    public static final int rl_simulator_attitude_container=0x7f08022d;
+    public static final int rl_simulator_wind_container=0x7f08022e;
+    public static final int root_view=0x7f08022f;
+    public static final int rtk_content_ly=0x7f080230;
+    public static final int rtk_desc_ly=0x7f080231;
+    public static final int rtk_dialog_ok=0x7f080232;
+    public static final int rtk_dialog_separator=0x7f080233;
+    public static final int rtk_direction_status_img=0x7f080234;
+    public static final int rtk_error=0x7f080235;
+    public static final int rtk_location_status_img=0x7f080236;
+    public static final int rtk_open_switch=0x7f080237;
+    public static final int rtk_second_satellite_title=0x7f080238;
+    public static final int rtk_title=0x7f080239;
+    public static final int satellite=0x7f08023a;
+    public static final int sawtooth=0x7f08023b;
+    public static final int screen=0x7f08023c;
+    public static final int scrollIndicatorDown=0x7f08023d;
+    public static final int scrollIndicatorUp=0x7f08023e;
+    public static final int scrollView=0x7f08023f;
+    public static final int search_badge=0x7f080240;
+    public static final int search_bar=0x7f080241;
+    public static final int search_button=0x7f080242;
+    public static final int search_close_btn=0x7f080243;
+    public static final int search_edit_frame=0x7f080244;
+    public static final int search_go_btn=0x7f080245;
+    public static final int search_mag_icon=0x7f080246;
+    public static final int search_plate=0x7f080247;
+    public static final int search_src_text=0x7f080248;
+    public static final int search_voice_btn=0x7f080249;
+    public static final int secondary=0x7f08024a;
+    public static final int seekbar_background=0x7f08024b;
+    public static final int seekbar_ei=0x7f08024c;
+    public static final int seekbar_iso=0x7f08024d;
+    public static final int seekbar_layout=0x7f08024e;
+    public static final int seekbar_slider=0x7f08024f;
+    public static final int select_action_header=0x7f080250;
+    public static final int select_action_message=0x7f080251;
+    public static final int select_dialog_listview=0x7f080252;
+    public static final int set_password_header=0x7f080253;
+    public static final int set_password_warning=0x7f080254;
+    public static final int set_sre_button=0x7f080255;
+    public static final int shortcut=0x7f080256;
+    public static final int showCustom=0x7f080257;
+    public static final int showHome=0x7f080258;
+    public static final int showTitle=0x7f080259;
+    public static final int signal=0x7f08025a;
+    public static final int simulator_background=0x7f08025b;
+    public static final int simulator_content=0x7f08025c;
+    public static final int simulator_preset_container=0x7f08025d;
+    public static final int simulator_preset_list=0x7f08025e;
+    public static final int simulator_switch=0x7f08025f;
+    public static final int simulator_title=0x7f080260;
+    public static final int sin=0x7f080261;
+    public static final int singleVoltage=0x7f080262;
+    public static final int soft_row_separator=0x7f080263;
+    public static final int spacer=0x7f080264;
+    public static final int spline=0x7f080265;
+    public static final int split_action_bar=0x7f080266;
+    public static final int spotlight_brightness_container=0x7f080267;
+    public static final int spotlight_brightness_seekbar=0x7f080268;
+    public static final int spotlight_brightness_title=0x7f080269;
+    public static final int spotlight_brightness_value=0x7f08026a;
+    public static final int spotlight_brightness_warning=0x7f08026b;
+    public static final int spotlight_switch=0x7f08026c;
+    public static final int spotlight_switch_container=0x7f08026d;
+    public static final int spotlight_switch_title=0x7f08026e;
+    public static final int spotlight_temperature_container=0x7f08026f;
+    public static final int spotlight_temperature_title=0x7f080270;
+    public static final int spotlight_temperature_value=0x7f080271;
+    public static final int spotlight_title=0x7f080272;
+    public static final int spread=0x7f080273;
+    public static final int spread_inside=0x7f080274;
+    public static final int square=0x7f080275;
+    public static final int src_atop=0x7f080276;
+    public static final int src_in=0x7f080277;
+    public static final int src_over=0x7f080278;
+    public static final int ssd_capacity_title=0x7f080279;
+    public static final int ssd_capacity_value=0x7f08027a;
+    public static final int ssd_clip_info_tv=0x7f08027b;
+    public static final int ssd_format_info=0x7f08027c;
+    public static final int ssd_icon=0x7f08027d;
+    public static final int ssd_status_icon=0x7f08027e;
+    public static final int ssd_status_info=0x7f08027f;
+    public static final int standard=0x7f080280;
+    public static final int standard_row_separator=0x7f080281;
+    public static final int start=0x7f080282;
+    public static final int startHorizontal=0x7f080283;
+    public static final int startVertical=0x7f080284;
+    public static final int start_broadcast_button=0x7f080285;
+    public static final int staticLayout=0x7f080286;
+    public static final int staticPostLayout=0x7f080287;
+    public static final int status_section_footer=0x7f080288;
+    public static final int status_section_header_text=0x7f080289;
+    public static final int stop=0x7f08028a;
+    public static final int stripeview_setting_ev_status=0x7f08028b;
+    public static final int submenuarrow=0x7f08028c;
+    public static final int submit_area=0x7f08028d;
+    public static final int switch_button=0x7f08028e;
+    public static final int tabMode=0x7f08028f;
+    public static final int tab_instant_broadcast=0x7f080290;
+    public static final int tab_local_file=0x7f080291;
+    public static final int tag_accessibility_actions=0x7f080292;
+    public static final int tag_accessibility_clickable_spans=0x7f080293;
+    public static final int tag_accessibility_heading=0x7f080294;
+    public static final int tag_accessibility_pane_title=0x7f080295;
+    public static final int tag_screen_reader_focusable=0x7f080296;
+    public static final int tag_transition_group=0x7f080297;
+    public static final int tag_unhandled_key_event_manager=0x7f080298;
+    public static final int tag_unhandled_key_listeners=0x7f080299;
+    public static final int terrain=0x7f08029a;
+    public static final int text=0x7f08029b;
+    public static final int text2=0x7f08029c;
+    public static final int textSpacerNoButtons=0x7f08029d;
+    public static final int textSpacerNoTitle=0x7f08029e;
+    public static final int textView=0x7f08029f;
+    public static final int textView2=0x7f0802a0;
+    public static final int text_connection_status=0x7f0802a1;
+    public static final int text_custom_unlock_enabled_zone=0x7f0802a2;
+    public static final int text_legend_authorized_zone=0x7f0802a3;
+    public static final int text_legend_custom_unlock_aircraft_zone=0x7f0802a4;
+    public static final int text_legend_custom_unlock_zone=0x7f0802a5;
+    public static final int text_legend_enhanced_warning_zone=0x7f0802a6;
+    public static final int text_legend_restricted_zone=0x7f0802a7;
+    public static final int text_legend_self_unlock_zone=0x7f0802a8;
+    public static final int text_legend_warning_zone=0x7f0802a9;
+    public static final int text_model_available=0x7f0802aa;
+    public static final int text_product_info=0x7f0802ab;
+    public static final int text_view_speaker_title=0x7f0802ac;
+    public static final int text_view_speaker_volume=0x7f0802ad;
+    public static final int textview_ace_title=0x7f0802ae;
+    public static final int textview_ace_value=0x7f0802af;
+    public static final int textview_aperture_title=0x7f0802b0;
+    public static final int textview_battery1_value=0x7f0802b1;
+    public static final int textview_battery1_voltage=0x7f0802b2;
+    public static final int textview_battery2_value=0x7f0802b3;
+    public static final int textview_battery2_voltage=0x7f0802b4;
+    public static final int textview_battery_value=0x7f0802b5;
+    public static final int textview_battery_voltage=0x7f0802b6;
+    public static final int textview_brightness_title=0x7f0802b7;
+    public static final int textview_brightness_value=0x7f0802b8;
+    public static final int textview_button_cancel=0x7f0802b9;
+    public static final int textview_button_negative=0x7f0802ba;
+    public static final int textview_button_ok=0x7f0802bb;
+    public static final int textview_button_positive=0x7f0802bc;
+    public static final int textview_camera_control_af=0x7f0802bd;
+    public static final int textview_camera_control_mf=0x7f0802be;
+    public static final int textview_camera_control_separator=0x7f0802bf;
+    public static final int textview_camera_controll_videotime=0x7f0802c0;
+    public static final int textview_camera_mode_a=0x7f0802c1;
+    public static final int textview_camera_mode_m=0x7f0802c2;
+    public static final int textview_camera_mode_p=0x7f0802c3;
+    public static final int textview_camera_mode_s=0x7f0802c4;
+    public static final int textview_contrast_title=0x7f0802c5;
+    public static final int textview_contrast_value=0x7f0802c6;
+    public static final int textview_dde_title=0x7f0802c7;
+    public static final int textview_dde_value=0x7f0802c8;
+    public static final int textview_dlg_desc=0x7f0802c9;
+    public static final int textview_dlg_little_title=0x7f0802ca;
+    public static final int textview_dlg_title=0x7f0802cb;
+    public static final int textview_ev_title=0x7f0802cc;
+    public static final int textview_flight_mode_string=0x7f0802cd;
+    public static final int textview_gps_type=0x7f0802ce;
+    public static final int textview_iso_title=0x7f0802cf;
+    public static final int textview_lock_title=0x7f0802d0;
+    public static final int textview_max_value=0x7f0802d1;
+    public static final int textview_metrics_title=0x7f0802d2;
+    public static final int textview_metrics_unit=0x7f0802d3;
+    public static final int textview_metrics_value=0x7f0802d4;
+    public static final int textview_min_value=0x7f0802d5;
+    public static final int textview_preflight_status=0x7f0802d6;
+    public static final int textview_rc_type=0x7f0802d7;
+    public static final int textview_satellite_number=0x7f0802d8;
+    public static final int textview_setting_ev_status_value=0x7f0802d9;
+    public static final int textview_setting_ev_value=0x7f0802da;
+    public static final int textview_shutter_title=0x7f0802db;
+    public static final int textview_slidertitle=0x7f0802dc;
+    public static final int textview_sso_title=0x7f0802dd;
+    public static final int textview_sso_value=0x7f0802de;
+    public static final int textview_title=0x7f0802df;
+    public static final int textview_value=0x7f0802e0;
+    public static final int textview_value_unit=0x7f0802e1;
+    public static final int textview_wind_x=0x7f0802e2;
+    public static final int textview_wind_y=0x7f0802e3;
+    public static final int textview_wind_z=0x7f0802e4;
+    public static final int thermal_camera_ffc_mode=0x7f0802e5;
+    public static final int thermal_camera_gain_mode=0x7f0802e6;
+    public static final int thermal_camera_palette=0x7f0802e7;
+    public static final int thermal_camera_roi=0x7f0802e8;
+    public static final int thermal_camera_scene=0x7f0802e9;
+    public static final int time=0x7f0802ea;
+    public static final int title=0x7f0802eb;
+    public static final int titleDividerNoCustom=0x7f0802ec;
+    public static final int title_template=0x7f0802ed;
+    public static final int toggle=0x7f0802ee;
+    public static final int top=0x7f0802ef;
+    public static final int topPanel=0x7f0802f0;
+    public static final int top_line_camera_panel=0x7f0802f1;
+    public static final int transitionToEnd=0x7f0802f2;
+    public static final int transitionToStart=0x7f0802f3;
+    public static final int triangle=0x7f0802f4;
+    public static final int tv_load_Preset=0x7f0802f5;
+    public static final int tv_preset_name=0x7f0802f6;
+    public static final int tv_save_Preset=0x7f0802f7;
+    public static final int unchecked=0x7f0802f8;
+    public static final int uniform=0x7f0802f9;
+    public static final int unlock_aircraft=0x7f0802fa;
+    public static final int unlock_aircraft_header=0x7f0802fb;
+    public static final int unlock_aircraft_warning=0x7f0802fc;
+    public static final int up=0x7f0802fd;
+    public static final int useLogo=0x7f0802fe;
+    public static final int userLocationView=0x7f0802ff;
+    public static final int val_simulator_aircraft_flying=0x7f080300;
+    public static final int val_simulator_aircraft_pitch=0x7f080301;
+    public static final int val_simulator_aircraft_roll=0x7f080302;
+    public static final int val_simulator_aircraft_yaw=0x7f080303;
+    public static final int val_simulator_frequency=0x7f080304;
+    public static final int val_simulator_lat=0x7f080305;
+    public static final int val_simulator_lng=0x7f080306;
+    public static final int val_simulator_motors=0x7f080307;
+    public static final int val_simulator_sat=0x7f080308;
+    public static final int val_simulator_world_X=0x7f080309;
+    public static final int val_simulator_world_Y=0x7f08030a;
+    public static final int val_simulator_world_Z=0x7f08030b;
+    public static final int vertical_wheel_max=0x7f08030c;
+    public static final int vertical_wheel_min=0x7f08030d;
+    public static final int view_back_background=0x7f08030e;
+    public static final int view_header_divider=0x7f08030f;
+    public static final int visible=0x7f080310;
+    public static final int visible_removing_fragment_view_tag=0x7f080311;
+    public static final int visionSensors=0x7f080312;
+    public static final int visual_compass_view=0x7f080313;
+    public static final int volume_seek_bar=0x7f080314;
+    public static final int w_section_footer=0x7f080315;
+    public static final int warning_icon=0x7f080316;
+    public static final int warning_text=0x7f080317;
+    public static final int warning_view=0x7f080318;
+    public static final int webview=0x7f080319;
+    public static final int wheelview_camera_settings_aperture=0x7f08031a;
+    public static final int wheelview_camera_settings_shutter=0x7f08031b;
+    public static final int wide=0x7f08031c;
+    public static final int widget_altitude=0x7f08031d;
+    public static final int widget_camera_aperture_setting=0x7f08031e;
+    public static final int widget_camera_capture=0x7f08031f;
+    public static final int widget_camera_capture_switch=0x7f080320;
+    public static final int widget_camera_ev_setting=0x7f080321;
+    public static final int widget_camera_exposure_mode=0x7f080322;
+    public static final int widget_camera_exposure_status=0x7f080323;
+    public static final int widget_camera_exposure_status_background=0x7f080324;
+    public static final int widget_camera_iso_ei_setting=0x7f080325;
+    public static final int widget_camera_menu=0x7f080326;
+    public static final int widget_camera_menu_background=0x7f080327;
+    public static final int widget_camera_shutter_setting=0x7f080328;
+    public static final int widget_compass=0x7f080329;
+    public static final int widget_distance=0x7f08032a;
+    public static final int widget_h_speed=0x7f08032b;
+    public static final int widget_thermal_camera_scene_ace=0x7f08032c;
+    public static final int widget_thermal_camera_scene_brightness=0x7f08032d;
+    public static final int widget_thermal_camera_scene_contrast=0x7f08032e;
+    public static final int widget_thermal_camera_scene_dde=0x7f08032f;
+    public static final int widget_thermal_camera_scene_sso=0x7f080330;
+    public static final int widget_v_speed=0x7f080331;
+    public static final int widget_vision_positioning_system=0x7f080332;
+    public static final int wifi_band=0x7f080333;
+    public static final int wind_section_header_text=0x7f080334;
+    public static final int withText=0x7f080335;
+    public static final int wrap=0x7f080336;
+    public static final int wrap_content=0x7f080337;
+    public static final int zxing_back_button=0x7f080338;
+    public static final int zxing_barcode_scanner=0x7f080339;
+    public static final int zxing_barcode_surface=0x7f08033a;
+    public static final int zxing_camera_closed=0x7f08033b;
+    public static final int zxing_camera_error=0x7f08033c;
+    public static final int zxing_decode=0x7f08033d;
+    public static final int zxing_decode_failed=0x7f08033e;
+    public static final int zxing_decode_succeeded=0x7f08033f;
+    public static final int zxing_possible_result_points=0x7f080340;
+    public static final int zxing_preview_failed=0x7f080341;
+    public static final int zxing_prewiew_size_ready=0x7f080342;
+    public static final int zxing_status_view=0x7f080343;
+    public static final int zxing_viewfinder_view=0x7f080344;
   }
   public static final class integer {
     public static final int abc_config_activityDefaultDur=0x7f090000;
@@ -7392,89 +7258,80 @@ public final class R {
     public static final int mapbox_view_image_marker=0x7f0b003c;
     public static final int notification_action=0x7f0b003d;
     public static final int notification_action_tombstone=0x7f0b003e;
-    public static final int notification_media_action=0x7f0b003f;
-    public static final int notification_media_cancel_action=0x7f0b0040;
-    public static final int notification_template_big_media=0x7f0b0041;
-    public static final int notification_template_big_media_custom=0x7f0b0042;
-    public static final int notification_template_big_media_narrow=0x7f0b0043;
-    public static final int notification_template_big_media_narrow_custom=0x7f0b0044;
-    public static final int notification_template_custom_big=0x7f0b0045;
-    public static final int notification_template_icon_group=0x7f0b0046;
-    public static final int notification_template_lines_media=0x7f0b0047;
-    public static final int notification_template_media=0x7f0b0048;
-    public static final int notification_template_media_custom=0x7f0b0049;
-    public static final int notification_template_part_chronometer=0x7f0b004a;
-    public static final int notification_template_part_time=0x7f0b004b;
-    public static final int panel_simulator=0x7f0b004c;
-    public static final int panel_speaker=0x7f0b004d;
-    public static final int panel_spotlight=0x7f0b004e;
-    public static final int place_autocomplete_fragment=0x7f0b004f;
-    public static final int place_autocomplete_item_powered_by_google=0x7f0b0050;
-    public static final int place_autocomplete_item_prediction=0x7f0b0051;
-    public static final int place_autocomplete_progress=0x7f0b0052;
-    public static final int precheck_list_item_view=0x7f0b0053;
-    public static final int rtk_status_panel=0x7f0b0054;
-    public static final int seek_bar=0x7f0b0055;
-    public static final int select_dialog_item_material=0x7f0b0056;
-    public static final int select_dialog_multichoice_material=0x7f0b0057;
-    public static final int select_dialog_singlechoice_material=0x7f0b0058;
-    public static final int simulator_load_preset_row=0x7f0b0059;
-    public static final int simulator_load_preset_view=0x7f0b005a;
-    public static final int support_simple_spinner_dropdown_item=0x7f0b005b;
-    public static final int switch_button=0x7f0b005c;
-    public static final int wheel_item_camera_set_aperture=0x7f0b005d;
-    public static final int wheel_item_camera_set_shutter=0x7f0b005e;
-    public static final int widget_access_locker=0x7f0b005f;
-    public static final int widget_adsb=0x7f0b0060;
-    public static final int widget_aelock=0x7f0b0061;
-    public static final int widget_af_mf_switch=0x7f0b0062;
-    public static final int widget_apas=0x7f0b0063;
-    public static final int widget_aperture_setting=0x7f0b0064;
-    public static final int widget_battery=0x7f0b0065;
-    public static final int widget_beacon=0x7f0b0066;
-    public static final int widget_camera_action=0x7f0b0067;
-    public static final int widget_camera_advanced_setting=0x7f0b0068;
-    public static final int widget_camera_advanced_setting_for_payload=0x7f0b0069;
-    public static final int widget_camera_exposure_setting=0x7f0b006a;
-    public static final int widget_camera_info=0x7f0b006b;
-    public static final int widget_capture=0x7f0b006c;
-    public static final int widget_capture_switch=0x7f0b006d;
-    public static final int widget_color_waveform=0x7f0b006e;
-    public static final int widget_compass=0x7f0b006f;
-    public static final int widget_connection=0x7f0b0070;
-    public static final int widget_ev_setting=0x7f0b0071;
-    public static final int widget_expandable_list_view=0x7f0b0072;
-    public static final int widget_exposure_mode_setting=0x7f0b0073;
-    public static final int widget_exposuresetting=0x7f0b0074;
-    public static final int widget_flightmode=0x7f0b0075;
-    public static final int widget_focus_exposure_switch=0x7f0b0076;
-    public static final int widget_format_and_storage=0x7f0b0077;
-    public static final int widget_gps_signal=0x7f0b0078;
-    public static final int widget_histogram=0x7f0b0079;
-    public static final int widget_image_dlg=0x7f0b007a;
-    public static final int widget_iso_ei_setting=0x7f0b007b;
-    public static final int widget_list_view=0x7f0b007c;
-    public static final int widget_map=0x7f0b007d;
-    public static final int widget_metric=0x7f0b007e;
-    public static final int widget_multiple_page_dialog=0x7f0b007f;
-    public static final int widget_playback=0x7f0b0080;
-    public static final int widget_preflight_status=0x7f0b0081;
-    public static final int widget_radar=0x7f0b0082;
-    public static final int widget_rc_video_signal=0x7f0b0083;
-    public static final int widget_shutter_setting=0x7f0b0084;
-    public static final int widget_signal=0x7f0b0085;
-    public static final int widget_simulator=0x7f0b0086;
-    public static final int widget_sliding_dlg=0x7f0b0087;
-    public static final int widget_speaker=0x7f0b0088;
-    public static final int widget_spotlight=0x7f0b0089;
-    public static final int widget_ssd_format=0x7f0b008a;
-    public static final int widget_style_view=0x7f0b008b;
-    public static final int widget_takeoff=0x7f0b008c;
-    public static final int widget_thermal2_camera_advanced_setting=0x7f0b008d;
-    public static final int widget_thermal_camera_advanced_setting=0x7f0b008e;
-    public static final int widget_thermal_camera_scene_setting=0x7f0b008f;
-    public static final int zxing_barcode_scanner=0x7f0b0090;
-    public static final int zxing_capture=0x7f0b0091;
+    public static final int notification_template_custom_big=0x7f0b003f;
+    public static final int notification_template_icon_group=0x7f0b0040;
+    public static final int notification_template_part_chronometer=0x7f0b0041;
+    public static final int notification_template_part_time=0x7f0b0042;
+    public static final int panel_simulator=0x7f0b0043;
+    public static final int panel_speaker=0x7f0b0044;
+    public static final int panel_spotlight=0x7f0b0045;
+    public static final int place_autocomplete_fragment=0x7f0b0046;
+    public static final int place_autocomplete_item_powered_by_google=0x7f0b0047;
+    public static final int place_autocomplete_item_prediction=0x7f0b0048;
+    public static final int place_autocomplete_progress=0x7f0b0049;
+    public static final int precheck_list_item_view=0x7f0b004a;
+    public static final int rtk_status_panel=0x7f0b004b;
+    public static final int seek_bar=0x7f0b004c;
+    public static final int select_dialog_item_material=0x7f0b004d;
+    public static final int select_dialog_multichoice_material=0x7f0b004e;
+    public static final int select_dialog_singlechoice_material=0x7f0b004f;
+    public static final int simulator_load_preset_row=0x7f0b0050;
+    public static final int simulator_load_preset_view=0x7f0b0051;
+    public static final int support_simple_spinner_dropdown_item=0x7f0b0052;
+    public static final int switch_button=0x7f0b0053;
+    public static final int wheel_item_camera_set_aperture=0x7f0b0054;
+    public static final int wheel_item_camera_set_shutter=0x7f0b0055;
+    public static final int widget_access_locker=0x7f0b0056;
+    public static final int widget_adsb=0x7f0b0057;
+    public static final int widget_aelock=0x7f0b0058;
+    public static final int widget_af_mf_switch=0x7f0b0059;
+    public static final int widget_apas=0x7f0b005a;
+    public static final int widget_aperture_setting=0x7f0b005b;
+    public static final int widget_battery=0x7f0b005c;
+    public static final int widget_beacon=0x7f0b005d;
+    public static final int widget_camera_action=0x7f0b005e;
+    public static final int widget_camera_advanced_setting=0x7f0b005f;
+    public static final int widget_camera_advanced_setting_for_payload=0x7f0b0060;
+    public static final int widget_camera_exposure_setting=0x7f0b0061;
+    public static final int widget_camera_info=0x7f0b0062;
+    public static final int widget_capture=0x7f0b0063;
+    public static final int widget_capture_switch=0x7f0b0064;
+    public static final int widget_color_waveform=0x7f0b0065;
+    public static final int widget_compass=0x7f0b0066;
+    public static final int widget_connection=0x7f0b0067;
+    public static final int widget_ev_setting=0x7f0b0068;
+    public static final int widget_expandable_list_view=0x7f0b0069;
+    public static final int widget_exposure_mode_setting=0x7f0b006a;
+    public static final int widget_exposuresetting=0x7f0b006b;
+    public static final int widget_flightmode=0x7f0b006c;
+    public static final int widget_focus_exposure_switch=0x7f0b006d;
+    public static final int widget_format_and_storage=0x7f0b006e;
+    public static final int widget_gps_signal=0x7f0b006f;
+    public static final int widget_histogram=0x7f0b0070;
+    public static final int widget_image_dlg=0x7f0b0071;
+    public static final int widget_iso_ei_setting=0x7f0b0072;
+    public static final int widget_list_view=0x7f0b0073;
+    public static final int widget_map=0x7f0b0074;
+    public static final int widget_metric=0x7f0b0075;
+    public static final int widget_multiple_page_dialog=0x7f0b0076;
+    public static final int widget_playback=0x7f0b0077;
+    public static final int widget_preflight_status=0x7f0b0078;
+    public static final int widget_radar=0x7f0b0079;
+    public static final int widget_rc_video_signal=0x7f0b007a;
+    public static final int widget_shutter_setting=0x7f0b007b;
+    public static final int widget_signal=0x7f0b007c;
+    public static final int widget_simulator=0x7f0b007d;
+    public static final int widget_sliding_dlg=0x7f0b007e;
+    public static final int widget_speaker=0x7f0b007f;
+    public static final int widget_spotlight=0x7f0b0080;
+    public static final int widget_ssd_format=0x7f0b0081;
+    public static final int widget_style_view=0x7f0b0082;
+    public static final int widget_takeoff=0x7f0b0083;
+    public static final int widget_thermal2_camera_advanced_setting=0x7f0b0084;
+    public static final int widget_thermal_camera_advanced_setting=0x7f0b0085;
+    public static final int widget_thermal_camera_scene_setting=0x7f0b0086;
+    public static final int zxing_barcode_scanner=0x7f0b0087;
+    public static final int zxing_capture=0x7f0b0088;
   }
   public static final class menu {
     public static final int menu_region_item=0x7f0c0000;
@@ -7601,1720 +7458,1721 @@ public final class R {
     public static final int alert_select_home_point=0x7f0f0028;
     public static final int alert_select_home_point_msg=0x7f0f0029;
     public static final int altitude_title=0x7f0f002a;
-    public static final int apas_widget_disabled=0x7f0f002b;
-    public static final int apas_widget_enabled=0x7f0f002c;
-    public static final int apas_widget_temp_disabled=0x7f0f002d;
-    public static final int aperture_title=0x7f0f002e;
-    public static final int app_agree=0x7f0f002f;
-    public static final int app_alert=0x7f0f0030;
-    public static final int app_cancel=0x7f0f0031;
-    public static final int app_disable=0x7f0f0032;
-    public static final int app_enable=0x7f0f0033;
-    public static final int app_name=0x7f0f0034;
-    public static final int app_name_distortion=0x7f0f0035;
-    public static final int app_name_flySafeDataBase=0x7f0f0036;
-    public static final int app_name_fly_forbid=0x7f0f0037;
-    public static final int app_no=0x7f0f0038;
-    public static final int app_ok=0x7f0f0039;
-    public static final int app_refuse=0x7f0f003a;
-    public static final int app_retry=0x7f0f003b;
-    public static final int app_save=0x7f0f003c;
-    public static final int app_set_value_failed=0x7f0f003d;
-    public static final int app_set_value_successful=0x7f0f003e;
-    public static final int app_tip=0x7f0f003f;
-    public static final int app_warning=0x7f0f0040;
-    public static final int app_yes=0x7f0f0041;
-    public static final int auto_gimbal_lock=0x7f0f0042;
-    public static final int battery_percent=0x7f0f0043;
-    public static final int battery_voltage_unit=0x7f0f0044;
-    public static final int camera_anti_flick_name=0x7f0f0045;
-    public static final int camera_anti_flick_trigger_tip=0x7f0f0046;
-    public static final int camera_anti_flick_trigger_title=0x7f0f0047;
-    public static final int camera_anti_flicker_reset=0x7f0f0048;
-    public static final int camera_anti_flicker_reset_desc=0x7f0f0049;
-    public static final int camera_antiblink_50=0x7f0f004a;
-    public static final int camera_antiblink_60=0x7f0f004b;
-    public static final int camera_antiblink_auto=0x7f0f004c;
-    public static final int camera_center_point=0x7f0f004d;
-    public static final int camera_color_waveform=0x7f0f004e;
-    public static final int camera_contrast=0x7f0f004f;
-    public static final int camera_control_ae=0x7f0f0050;
-    public static final int camera_control_af=0x7f0f0051;
-    public static final int camera_control_afc=0x7f0f0052;
-    public static final int camera_control_mf=0x7f0f0053;
-    public static final int camera_dewarp=0x7f0f0054;
-    public static final int camera_dust_reduction_cancel=0x7f0f0055;
-    public static final int camera_dust_reduction_done=0x7f0f0056;
-    public static final int camera_dust_reduction_start=0x7f0f0057;
-    public static final int camera_dust_reduction_title=0x7f0f0058;
-    public static final int camera_dust_reduction_tutorial_1=0x7f0f0059;
-    public static final int camera_dust_reduction_tutorial_2=0x7f0f005a;
-    public static final int camera_dust_reduction_tutorial_3=0x7f0f005b;
-    public static final int camera_dust_reduction_tutorial_4=0x7f0f005c;
-    public static final int camera_dust_reduction_tutorial_5=0x7f0f005d;
-    public static final int camera_ei=0x7f0f005e;
-    public static final int camera_ei_color_dlog=0x7f0f005f;
-    public static final int camera_ei_color_rec709=0x7f0f0060;
-    public static final int camera_encode_type=0x7f0f0061;
-    public static final int camera_exposure_aperture_title=0x7f0f0062;
-    public static final int camera_exposure_ev_title=0x7f0f0063;
-    public static final int camera_exposure_iso_title=0x7f0f0064;
-    public static final int camera_exposure_locked_iso_title=0x7f0f0065;
-    public static final int camera_exposure_mm_title=0x7f0f0066;
-    public static final int camera_exposure_mode_a=0x7f0f0067;
-    public static final int camera_exposure_mode_m=0x7f0f0068;
-    public static final int camera_exposure_mode_p=0x7f0f0069;
-    public static final int camera_exposure_mode_s=0x7f0f006a;
-    public static final int camera_exposure_shutter_overexposed_title=0x7f0f006b;
-    public static final int camera_exposure_shutter_title=0x7f0f006c;
-    public static final int camera_exposure_shutter_underexposed_title=0x7f0f006d;
-    public static final int camera_file_index=0x7f0f006e;
-    public static final int camera_file_index_name=0x7f0f006f;
-    public static final int camera_file_index_reset=0x7f0f0070;
-    public static final int camera_file_index_sequence=0x7f0f0071;
-    public static final int camera_filter=0x7f0f0072;
-    public static final int camera_filter_M31=0x7f0f0073;
-    public static final int camera_filter_Portrait=0x7f0f0074;
-    public static final int camera_filter_aqua=0x7f0f0075;
-    public static final int camera_filter_art=0x7f0f0076;
-    public static final int camera_filter_blackandwhite=0x7f0f0077;
-    public static final int camera_filter_blackboard=0x7f0f0078;
-    public static final int camera_filter_bright=0x7f0f0079;
-    public static final int camera_filter_dcinelike=0x7f0f007a;
-    public static final int camera_filter_delta=0x7f0f007b;
-    public static final int camera_filter_dk79=0x7f0f007c;
-    public static final int camera_filter_dlog=0x7f0f007d;
-    public static final int camera_filter_film_a=0x7f0f007e;
-    public static final int camera_filter_film_b=0x7f0f007f;
-    public static final int camera_filter_film_c=0x7f0f0080;
-    public static final int camera_filter_film_d=0x7f0f0081;
-    public static final int camera_filter_film_e=0x7f0f0082;
-    public static final int camera_filter_film_f=0x7f0f0083;
-    public static final int camera_filter_film_g=0x7f0f0084;
-    public static final int camera_filter_film_h=0x7f0f0085;
-    public static final int camera_filter_film_i=0x7f0f0086;
-    public static final int camera_filter_hlg=0x7f0f0087;
-    public static final int camera_filter_inverse=0x7f0f0088;
-    public static final int camera_filter_jugo=0x7f0f0089;
-    public static final int camera_filter_kdx=0x7f0f008a;
-    public static final int camera_filter_name=0x7f0f008b;
-    public static final int camera_filter_none=0x7f0f008c;
-    public static final int camera_filter_posterize=0x7f0f008d;
-    public static final int camera_filter_prismo=0x7f0f008e;
-    public static final int camera_filter_rec_709=0x7f0f008f;
-    public static final int camera_filter_reminiscence=0x7f0f0090;
-    public static final int camera_filter_solarize=0x7f0f0091;
-    public static final int camera_filter_truecolor=0x7f0f0092;
-    public static final int camera_filter_truecolor_ext=0x7f0f0093;
-    public static final int camera_filter_vision4=0x7f0f0094;
-    public static final int camera_filter_vision6=0x7f0f0095;
-    public static final int camera_filter_whiteboard=0x7f0f0096;
-    public static final int camera_format_internal_storage=0x7f0f0097;
-    public static final int camera_format_internal_storage_busy_title=0x7f0f0098;
-    public static final int camera_format_internal_storage_success=0x7f0f0099;
-    public static final int camera_format_sd_card=0x7f0f009a;
-    public static final int camera_format_sd_card1=0x7f0f009b;
-    public static final int camera_format_sd_card2=0x7f0f009c;
-    public static final int camera_format_sd_card_busy_title=0x7f0f009d;
-    public static final int camera_format_sd_card_success=0x7f0f009e;
-    public static final int camera_format_sd_card_success_format=0x7f0f009f;
-    public static final int camera_format_sd_usb_connect=0x7f0f00a0;
-    public static final int camera_formatting_sd_card=0x7f0f00a1;
-    public static final int camera_gamma=0x7f0f00a2;
-    public static final int camera_grid_name=0x7f0f00a3;
-    public static final int camera_histogram=0x7f0f00a4;
-    public static final int camera_image_format_name=0x7f0f00a5;
-    public static final int camera_image_ratio_name=0x7f0f00a6;
-    public static final int camera_internal_storage_not_inserted=0x7f0f00a7;
-    public static final int camera_ir_cut=0x7f0f00a8;
-    public static final int camera_looks=0x7f0f00a9;
-    public static final int camera_menu=0x7f0f00aa;
-    public static final int camera_overexposure=0x7f0f00ab;
-    public static final int camera_peak_focus_threshold=0x7f0f00ac;
-    public static final int camera_peak_focus_threshold_close=0x7f0f00ad;
-    public static final int camera_peak_focus_threshold_high=0x7f0f00ae;
-    public static final int camera_peak_focus_threshold_low=0x7f0f00af;
-    public static final int camera_peak_focus_threshold_standard=0x7f0f00b0;
-    public static final int camera_photo_format=0x7f0f00b1;
-    public static final int camera_photo_mode=0x7f0f00b2;
-    public static final int camera_photo_name=0x7f0f00b3;
-    public static final int camera_photomode_aeb=0x7f0f00b4;
-    public static final int camera_photomode_burst=0x7f0f00b5;
-    public static final int camera_photomode_e_hdr=0x7f0f00b6;
-    public static final int camera_photomode_hdr=0x7f0f00b7;
-    public static final int camera_photomode_hyper_light=0x7f0f00b8;
-    public static final int camera_photomode_panorama=0x7f0f00b9;
-    public static final int camera_photomode_panorama_180=0x7f0f00ba;
-    public static final int camera_photomode_panorama_1x3=0x7f0f00bb;
-    public static final int camera_photomode_panorama_3x1=0x7f0f00bc;
-    public static final int camera_photomode_panorama_3x3=0x7f0f00bd;
-    public static final int camera_photomode_panorama_sphere=0x7f0f00be;
-    public static final int camera_photomode_panorama_super_resolution=0x7f0f00bf;
-    public static final int camera_photomode_raw_burst=0x7f0f00c0;
-    public static final int camera_photomode_raw_burst_infinity=0x7f0f00c1;
-    public static final int camera_photomode_shallow_focus=0x7f0f00c2;
-    public static final int camera_photomode_single=0x7f0f00c3;
-    public static final int camera_photomode_time=0x7f0f00c4;
-    public static final int camera_photomode_timelapse=0x7f0f00c5;
-    public static final int camera_picture_format_high_tiff=0x7f0f00c6;
-    public static final int camera_picture_format_jpeg=0x7f0f00c7;
-    public static final int camera_picture_format_jpegraw=0x7f0f00c8;
-    public static final int camera_picture_format_jr=0x7f0f00c9;
-    public static final int camera_picture_format_low_tiff=0x7f0f00ca;
-    public static final int camera_picture_format_radiometic_jpeg=0x7f0f00cb;
-    public static final int camera_picture_format_raw=0x7f0f00cc;
-    public static final int camera_picture_format_tiff=0x7f0f00cd;
-    public static final int camera_picture_size=0x7f0f00ce;
-    public static final int camera_picture_style=0x7f0f00cf;
-    public static final int camera_picture_style_custom=0x7f0f00d0;
-    public static final int camera_picture_style_scenery=0x7f0f00d1;
-    public static final int camera_picture_style_soft=0x7f0f00d2;
-    public static final int camera_picture_style_standard=0x7f0f00d3;
-    public static final int camera_picturesize_169=0x7f0f00d4;
-    public static final int camera_picturesize_32=0x7f0f00d5;
-    public static final int camera_picturesize_43=0x7f0f00d6;
-    public static final int camera_portrait_mode=0x7f0f00d7;
-    public static final int camera_saturation=0x7f0f00d8;
-    public static final int camera_save_original=0x7f0f00d9;
-    public static final int camera_save_original_list_hyperlapse=0x7f0f00da;
-    public static final int camera_save_original_list_pano=0x7f0f00db;
-    public static final int camera_save_original_pano=0x7f0f00dc;
-    public static final int camera_sd_card_not_inserted=0x7f0f00dd;
-    public static final int camera_setting_format_internal_storage_confirm=0x7f0f00de;
-    public static final int camera_setting_format_sdcard_confirm=0x7f0f00df;
-    public static final int camera_setting_reset=0x7f0f00e0;
-    public static final int camera_setting_reset_busy_tip=0x7f0f00e1;
-    public static final int camera_setting_reset_busy_title=0x7f0f00e2;
-    public static final int camera_setting_reset_camera_setting_confirm=0x7f0f00e3;
-    public static final int camera_setting_reset_success=0x7f0f00e4;
-    public static final int camera_setting_reset_timeout_title=0x7f0f00e5;
-    public static final int camera_setting_trigger_ffc_confirm=0x7f0f00e6;
-    public static final int camera_sharpness=0x7f0f00e7;
-    public static final int camera_ssd_color_cine_like=0x7f0f00e8;
-    public static final int camera_ssd_color_dlog=0x7f0f00e9;
-    public static final int camera_ssd_color_raw_color=0x7f0f00ea;
-    public static final int camera_ssd_color_rec709=0x7f0f00eb;
-    public static final int camera_ssd_color_standard=0x7f0f00ec;
-    public static final int camera_ssd_color_title=0x7f0f00ed;
-    public static final int camera_ssd_color_unknown=0x7f0f00ee;
-    public static final int camera_ssd_looks=0x7f0f00ef;
-    public static final int camera_ssd_raw_mode_draw=0x7f0f00f0;
-    public static final int camera_ssd_saving=0x7f0f00f1;
-    public static final int camera_ssd_video_license=0x7f0f00f2;
-    public static final int camera_ssd_video_license_422hq=0x7f0f00f3;
-    public static final int camera_ssd_video_license_4444xq=0x7f0f00f4;
-    public static final int camera_ssd_video_license_cdng=0x7f0f00f5;
-    public static final int camera_ssd_video_size=0x7f0f00f6;
-    public static final int camera_storage_location=0x7f0f00f7;
-    public static final int camera_storage_location_internal_storage=0x7f0f00f8;
-    public static final int camera_storage_location_sd_card=0x7f0f00f9;
-    public static final int camera_style_name=0x7f0f00fa;
-    public static final int camera_trigger_ffc_busy_title=0x7f0f00fb;
-    public static final int camera_video_caption=0x7f0f00fc;
-    public static final int camera_video_compression_standard=0x7f0f00fd;
-    public static final int camera_video_compression_standard_h264=0x7f0f00fe;
-    public static final int camera_video_compression_standard_h265=0x7f0f00ff;
-    public static final int camera_video_compression_standard_label=0x7f0f0100;
-    public static final int camera_video_ei=0x7f0f0101;
-    public static final int camera_video_format=0x7f0f0102;
-    public static final int camera_video_format_mov=0x7f0f0103;
-    public static final int camera_video_format_mp4=0x7f0f0104;
-    public static final int camera_video_format_name=0x7f0f0105;
-    public static final int camera_video_format_seq=0x7f0f0106;
-    public static final int camera_video_format_tiff_seq=0x7f0f0107;
-    public static final int camera_video_frame_rate_value_100=0x7f0f0108;
-    public static final int camera_video_frame_rate_value_120=0x7f0f0109;
-    public static final int camera_video_frame_rate_value_24=0x7f0f010a;
-    public static final int camera_video_frame_rate_value_240=0x7f0f010b;
-    public static final int camera_video_frame_rate_value_25=0x7f0f010c;
-    public static final int camera_video_frame_rate_value_30=0x7f0f010d;
-    public static final int camera_video_frame_rate_value_48=0x7f0f010e;
-    public static final int camera_video_frame_rate_value_50=0x7f0f010f;
-    public static final int camera_video_frame_rate_value_60=0x7f0f0110;
-    public static final int camera_video_frame_rate_value_96=0x7f0f0111;
-    public static final int camera_video_frame_rate_value_true_24=0x7f0f0112;
-    public static final int camera_video_frame_rate_value_true_30=0x7f0f0113;
-    public static final int camera_video_frame_rate_value_true_48=0x7f0f0114;
-    public static final int camera_video_frame_rate_value_true_60=0x7f0f0115;
-    public static final int camera_video_resolution=0x7f0f0116;
-    public static final int camera_video_resolution_1280_720p=0x7f0f0117;
-    public static final int camera_video_resolution_1920_1080p=0x7f0f0118;
-    public static final int camera_video_resolution_2048x1080p=0x7f0f0119;
-    public static final int camera_video_resolution_2688x1512p=0x7f0f011a;
-    public static final int camera_video_resolution_2704_1520p=0x7f0f011b;
-    public static final int camera_video_resolution_2720_1530p=0x7f0f011c;
-    public static final int camera_video_resolution_336x256p=0x7f0f011d;
-    public static final int camera_video_resolution_3712x2088p=0x7f0f011e;
-    public static final int camera_video_resolution_3840_2160p=0x7f0f011f;
-    public static final int camera_video_resolution_3840x1572p=0x7f0f0120;
-    public static final int camera_video_resolution_3944x2088p=0x7f0f0121;
-    public static final int camera_video_resolution_4096_2160p=0x7f0f0122;
-    public static final int camera_video_resolution_4608x2160p=0x7f0f0123;
-    public static final int camera_video_resolution_4608x2592p=0x7f0f0124;
-    public static final int camera_video_resolution_5280x2160p=0x7f0f0125;
-    public static final int camera_video_resolution_5280x2972p=0x7f0f0126;
-    public static final int camera_video_resolution_5760x3240p=0x7f0f0127;
-    public static final int camera_video_resolution_6016x3200p=0x7f0f0128;
-    public static final int camera_video_resolution_640_480p=0x7f0f0129;
-    public static final int camera_video_resolution_640_512p=0x7f0f012a;
-    public static final int camera_video_resolution_MaxResolution=0x7f0f012b;
-    public static final int camera_video_resolution_None=0x7f0f012c;
-    public static final int camera_video_resolution_full_fov=0x7f0f012d;
-    public static final int camera_video_resolution_hq=0x7f0f012e;
-    public static final int camera_video_size_name=0x7f0f012f;
-    public static final int camera_video_ssd=0x7f0f0130;
-    public static final int camera_video_standard_name=0x7f0f0131;
-    public static final int camera_video_standard_ntsc=0x7f0f0132;
-    public static final int camera_video_standard_pal=0x7f0f0133;
-    public static final int camera_video_standard_setting_tip=0x7f0f0134;
-    public static final int camera_video_standard_setting_tip_desc=0x7f0f0135;
-    public static final int camera_wb_auto=0x7f0f0136;
-    public static final int camera_wb_custom=0x7f0f0137;
-    public static final int camera_wb_dusk=0x7f0f0138;
-    public static final int camera_wb_format=0x7f0f0139;
-    public static final int camera_wb_indoor=0x7f0f013a;
-    public static final int camera_wb_neon=0x7f0f013b;
-    public static final int camera_wb_neutral=0x7f0f013c;
-    public static final int camera_wb_outdoor=0x7f0f013d;
-    public static final int camera_wb_shadow=0x7f0f013e;
-    public static final int camera_wb_tungsten=0x7f0f013f;
-    public static final int camera_wb_warmneon=0x7f0f0140;
-    public static final int camera_wb_water=0x7f0f0141;
-    public static final int camera_white_balance=0x7f0f0142;
-    public static final int camera_white_balance_name=0x7f0f0143;
-    public static final int cancel=0x7f0f0144;
-    public static final int center_point_color=0x7f0f0145;
-    public static final int center_point_cross=0x7f0f0146;
-    public static final int center_point_frame=0x7f0f0147;
-    public static final int center_point_frame_and_cross=0x7f0f0148;
-    public static final int center_point_narrow_cross=0x7f0f0149;
-    public static final int center_point_square=0x7f0f014a;
-    public static final int center_point_square_and_cross=0x7f0f014b;
-    public static final int center_point_standard=0x7f0f014c;
-    public static final int change_password=0x7f0f014d;
-    public static final int change_password_failed=0x7f0f014e;
-    public static final int change_password_message=0x7f0f014f;
-    public static final int common_google_play_services_enable_button=0x7f0f0150;
-    public static final int common_google_play_services_enable_text=0x7f0f0151;
-    public static final int common_google_play_services_enable_title=0x7f0f0152;
-    public static final int common_google_play_services_install_button=0x7f0f0153;
-    public static final int common_google_play_services_install_text=0x7f0f0154;
-    public static final int common_google_play_services_install_title=0x7f0f0155;
-    public static final int common_google_play_services_notification_channel_name=0x7f0f0156;
-    public static final int common_google_play_services_notification_ticker=0x7f0f0157;
-    public static final int common_google_play_services_unknown_issue=0x7f0f0158;
-    public static final int common_google_play_services_unsupported_text=0x7f0f0159;
-    public static final int common_google_play_services_update_button=0x7f0f015a;
-    public static final int common_google_play_services_update_text=0x7f0f015b;
-    public static final int common_google_play_services_update_title=0x7f0f015c;
-    public static final int common_google_play_services_updating_text=0x7f0f015d;
-    public static final int common_google_play_services_wear_update_text=0x7f0f015e;
-    public static final int common_open_on_phone=0x7f0f015f;
-    public static final int common_signin_button_text=0x7f0f0160;
-    public static final int common_signin_button_text_long=0x7f0f0161;
-    public static final int compass=0x7f0f0162;
-    public static final int compass_calibrate=0x7f0f0163;
-    public static final int compass_calibration_cancel=0x7f0f0164;
-    public static final int compass_calibration_confirm=0x7f0f0165;
-    public static final int compass_calibration_fail=0x7f0f0166;
-    public static final int compass_calibration_fail_desc=0x7f0f0167;
-    public static final int compass_calibration_success=0x7f0f0168;
-    public static final int compass_calibration_tip_1=0x7f0f0169;
-    public static final int compass_calibration_tip_1_desc=0x7f0f016a;
-    public static final int compass_calibration_tip_2=0x7f0f016b;
-    public static final int compass_calibration_tip_2_desc=0x7f0f016c;
-    public static final int confirm_land_desc=0x7f0f016d;
-    public static final int confirm_land_title=0x7f0f016e;
-    public static final int confirm_new_password=0x7f0f016f;
-    public static final int confirm_password=0x7f0f0170;
-    public static final int connection_loose=0x7f0f0171;
-    public static final int ctrl_mode_atti=0x7f0f0172;
-    public static final int ctrl_mode_clickgo=0x7f0f0173;
-    public static final int ctrl_mode_fpointing=0x7f0f0174;
-    public static final int ctrl_mode_ftracking=0x7f0f0175;
-    public static final int ctrl_mode_gohome=0x7f0f0176;
-    public static final int ctrl_mode_gps=0x7f0f0177;
-    public static final int ctrl_mode_joystick=0x7f0f0178;
-    public static final int ctrl_mode_landing=0x7f0f0179;
-    public static final int ctrl_mode_manual=0x7f0f017a;
-    public static final int ctrl_mode_navi=0x7f0f017b;
-    public static final int ctrl_mode_novice=0x7f0f017c;
-    public static final int ctrl_mode_opti=0x7f0f017d;
-    public static final int ctrl_mode_patti=0x7f0f017e;
-    public static final int ctrl_mode_pgps=0x7f0f017f;
-    public static final int ctrl_mode_popti=0x7f0f0180;
-    public static final int ctrl_mode_sport=0x7f0f0181;
-    public static final int ctrl_mode_takeoff=0x7f0f0182;
-    public static final int custom_fly_zone_disable_failed=0x7f0f0183;
-    public static final int custom_fly_zone_duplicate=0x7f0f0184;
-    public static final int custom_fly_zone_enable_failed=0x7f0f0185;
-    public static final int custom_fly_zone_enabled_confirmation=0x7f0f0186;
-    public static final int custom_fly_zone_login_requirement=0x7f0f0187;
-    public static final int custom_fly_zone_unauthorized_msg=0x7f0f0188;
-    public static final int direct_lock_cl=0x7f0f0189;
-    public static final int direct_lock_hl=0x7f0f018a;
-    public static final int direct_lock_pl=0x7f0f018b;
-    public static final int disabled=0x7f0f018c;
-    public static final int distance_to_home_title=0x7f0f018d;
-    public static final int distance_to_rc_title=0x7f0f018e;
-    public static final int dji_area_code_asia_pacific=0x7f0f018f;
-    public static final int dji_area_code_chn=0x7f0f0190;
-    public static final int dji_area_code_chn_main_land=0x7f0f0191;
-    public static final int dji_area_code_global=0x7f0f0192;
-    public static final int dji_area_code_jpn=0x7f0f0193;
-    public static final int dji_area_code_kor=0x7f0f0194;
-    public static final int dji_area_code_prk=0x7f0f0195;
-    public static final int dji_area_code_twn=0x7f0f0196;
-    public static final int dji_check_air_encoder_error_reason=0x7f0f0197;
-    public static final int dji_check_air_encoder_restart_solution=0x7f0f0198;
-    public static final int dji_check_air_encoder_return_solution=0x7f0f0199;
-    public static final int dji_check_air_encoder_upgrade_reason=0x7f0f019a;
-    public static final int dji_check_air_encoder_upgrade_solution=0x7f0f019b;
-    public static final int dji_check_air_low_radio_reason=0x7f0f019c;
-    public static final int dji_check_air_low_radio_solution=0x7f0f019d;
-    public static final int dji_check_air_low_rc_signal_reason=0x7f0f019e;
-    public static final int dji_check_air_low_rc_signal_solution=0x7f0f019f;
-    public static final int dji_check_air_no_signal_reason=0x7f0f01a0;
-    public static final int dji_check_air_radio_signal_nose_reason=0x7f0f01a1;
-    public static final int dji_check_air_radio_signal_nose_solution=0x7f0f01a2;
-    public static final int dji_check_air_rc_radio_signal_noise_reason=0x7f0f01a3;
-    public static final int dji_check_air_rc_radio_signal_noise_solution=0x7f0f01a4;
-    public static final int dji_check_air_wifi_manager_interference_high_reason=0x7f0f01a5;
-    public static final int dji_check_air_wifi_manager_interference_high_solution=0x7f0f01a6;
-    public static final int dji_check_aircraft_in_flight=0x7f0f01a7;
-    public static final int dji_check_battery_broken_reason=0x7f0f01a8;
-    public static final int dji_check_battery_broken_solution=0x7f0f01a9;
-    public static final int dji_check_battery_communication_fail_reason=0x7f0f01aa;
-    public static final int dji_check_battery_communication_fail_solution=0x7f0f01ab;
-    public static final int dji_check_battery_dangerous_warning_reason=0x7f0f01ac;
-    public static final int dji_check_battery_discharge_current_reason=0x7f0f01ad;
-    public static final int dji_check_battery_discharge_current_solution=0x7f0f01ae;
-    public static final int dji_check_battery_illegal_reason=0x7f0f01af;
-    public static final int dji_check_battery_illegal_solution=0x7f0f01b0;
-    public static final int dji_check_battery_low_temperature_reason=0x7f0f01b1;
-    public static final int dji_check_battery_low_temperature_solution=0x7f0f01b2;
-    public static final int dji_check_battery_low_voltage_reason=0x7f0f01b3;
-    public static final int dji_check_battery_need_learn_reason=0x7f0f01b4;
-    public static final int dji_check_battery_need_learn_solution=0x7f0f01b5;
-    public static final int dji_check_battery_not_match_reason=0x7f0f01b6;
-    public static final int dji_check_battery_not_match_solution=0x7f0f01b7;
-    public static final int dji_check_battery_over_aging_reason=0x7f0f01b8;
-    public static final int dji_check_battery_over_load_reason=0x7f0f01b9;
-    public static final int dji_check_battery_over_temperature_reason=0x7f0f01ba;
-    public static final int dji_check_battery_over_temperature_solution=0x7f0f01bb;
-    public static final int dji_check_battery_short_cut_reason=0x7f0f01bc;
-    public static final int dji_check_camera_chip_over_heat_reason=0x7f0f01bd;
-    public static final int dji_check_camera_chip_over_heat_solution=0x7f0f01be;
-    public static final int dji_check_camera_encrypt_error_reason=0x7f0f01bf;
-    public static final int dji_check_camera_encrypt_error_solution=0x7f0f01c0;
-    public static final int dji_check_camera_no_sd_card_reason=0x7f0f01c1;
-    public static final int dji_check_camera_no_sd_card_solution=0x7f0f01c2;
-    public static final int dji_check_camera_over_heat_reason=0x7f0f01c3;
-    public static final int dji_check_camera_over_heat_solution=0x7f0f01c4;
-    public static final int dji_check_camera_sd_card_error_reason=0x7f0f01c5;
-    public static final int dji_check_camera_sd_card_error_solution=0x7f0f01c6;
-    public static final int dji_check_camera_sd_card_full_reason=0x7f0f01c7;
-    public static final int dji_check_camera_sd_card_full_solution=0x7f0f01c8;
-    public static final int dji_check_camera_sd_card_index_full_reason=0x7f0f01c9;
-    public static final int dji_check_camera_sd_card_index_full_solution=0x7f0f01ca;
-    public static final int dji_check_camera_sd_card_initializing_reason=0x7f0f01cb;
-    public static final int dji_check_camera_sd_card_initializing_solution=0x7f0f01cc;
-    public static final int dji_check_camera_sd_card_is_busy_reason=0x7f0f01cd;
-    public static final int dji_check_camera_sd_card_is_busy_solution=0x7f0f01ce;
-    public static final int dji_check_camera_sd_card_is_formatting_reason=0x7f0f01cf;
-    public static final int dji_check_camera_sd_card_is_formatting_solution=0x7f0f01d0;
-    public static final int dji_check_camera_sd_card_no_space_reason=0x7f0f01d1;
-    public static final int dji_check_camera_sd_card_no_space_solution=0x7f0f01d2;
-    public static final int dji_check_camera_sd_card_not_format_reason=0x7f0f01d3;
-    public static final int dji_check_camera_sd_card_not_format_solution=0x7f0f01d4;
-    public static final int dji_check_camera_sd_card_read_only_reason=0x7f0f01d5;
-    public static final int dji_check_camera_sd_card_read_only_solution=0x7f0f01d6;
-    public static final int dji_check_camera_sd_card_recommend_formatting_reason=0x7f0f01d7;
-    public static final int dji_check_camera_sd_card_recommend_formatting_solution=0x7f0f01d8;
-    public static final int dji_check_camera_sd_card_spec_slow_reason=0x7f0f01d9;
-    public static final int dji_check_camera_sd_card_spec_slow_solution=0x7f0f01da;
-    public static final int dji_check_camera_sensor_reason=0x7f0f01db;
-    public static final int dji_check_camera_sensor_solution=0x7f0f01dc;
-    public static final int dji_check_camera_temperatures_too_high_to_stop_record_reason=0x7f0f01dd;
-    public static final int dji_check_camera_temperatures_too_high_to_stop_record_solution=0x7f0f01de;
-    public static final int dji_check_camera_upgrade_reason=0x7f0f01df;
-    public static final int dji_check_camera_upgrade_solution=0x7f0f01e0;
-    public static final int dji_check_center_battery_connection_reason=0x7f0f01e1;
-    public static final int dji_check_center_battery_connection_solution=0x7f0f01e2;
-    public static final int dji_check_center_gps_connection_reason=0x7f0f01e3;
-    public static final int dji_check_center_gps_connection_solution=0x7f0f01e4;
-    public static final int dji_check_center_mc_connection_reason=0x7f0f01e5;
-    public static final int dji_check_center_mc_connection_solution=0x7f0f01e6;
-    public static final int dji_check_fc_accelarate_data_error_reason=0x7f0f01e7;
-    public static final int dji_check_fc_accelarate_data_error_solution=0x7f0f01e8;
-    public static final int dji_check_fc_accelerate_reason=0x7f0f01e9;
-    public static final int dji_check_fc_accelerate_solution=0x7f0f01ea;
-    public static final int dji_check_fc_aircraft_stationary_reason=0x7f0f01eb;
-    public static final int dji_check_fc_aircraft_stationary_solution=0x7f0f01ec;
-    public static final int dji_check_fc_aircraft_vibration_abnormal_reason=0x7f0f01ed;
-    public static final int dji_check_fc_aircraft_warming_up_reason=0x7f0f01ee;
-    public static final int dji_check_fc_aircraft_warming_up_solution=0x7f0f01ef;
-    public static final int dji_check_fc_atti_angle_error_reason=0x7f0f01f0;
-    public static final int dji_check_fc_atti_angle_error_solution=0x7f0f01f1;
-    public static final int dji_check_fc_barometer_data_error_reason=0x7f0f01f2;
-    public static final int dji_check_fc_barometer_data_error_solution=0x7f0f01f3;
-    public static final int dji_check_fc_barometer_init_error_reason=0x7f0f01f4;
-    public static final int dji_check_fc_barometer_init_error_solution=0x7f0f01f5;
-    public static final int dji_check_fc_barometer_reason=0x7f0f01f6;
-    public static final int dji_check_fc_barometer_solution=0x7f0f01f7;
-    public static final int dji_check_fc_battery_not_in_position_reason=0x7f0f01f8;
-    public static final int dji_check_fc_battery_not_in_position_solution=0x7f0f01f9;
-    public static final int dji_check_fc_calibrate_version_mismatch_reason=0x7f0f01fa;
-    public static final int dji_check_fc_calibrate_version_mismatch_solution=0x7f0f01fb;
-    public static final int dji_check_fc_compass_abnormal_reason=0x7f0f01fc;
-    public static final int dji_check_fc_compass_abnormal_solution=0x7f0f01fd;
-    public static final int dji_check_fc_compass_error_reason=0x7f0f01fe;
-    public static final int dji_check_fc_compass_error_solution=0x7f0f01ff;
-    public static final int dji_check_fc_compass_install_direction_error_reason=0x7f0f0200;
-    public static final int dji_check_fc_compass_install_direction_error_solution=0x7f0f0201;
-    public static final int dji_check_fc_compass_install_error_reason=0x7f0f0202;
-    public static final int dji_check_fc_compass_install_error_solution=0x7f0f0203;
-    public static final int dji_check_fc_compass_interfered_reason=0x7f0f0204;
-    public static final int dji_check_fc_compass_interfered_solution=0x7f0f0205;
-    public static final int dji_check_fc_compass_need_restart_reason=0x7f0f0206;
-    public static final int dji_check_fc_compass_need_restart_solution=0x7f0f0207;
-    public static final int dji_check_fc_compass_reason=0x7f0f0208;
-    public static final int dji_check_fc_compass_solution=0x7f0f0209;
-    public static final int dji_check_fc_conver_flight_enable_limit_reason=0x7f0f020a;
-    public static final int dji_check_fc_data_record_error_reason=0x7f0f020b;
-    public static final int dji_check_fc_data_record_error_solution=0x7f0f020c;
-    public static final int dji_check_fc_enable_near_ground_reason=0x7f0f020d;
-    public static final int dji_check_fc_env_state_temp_too_high_reason=0x7f0f020e;
-    public static final int dji_check_fc_env_state_temp_too_low_reason=0x7f0f020f;
-    public static final int dji_check_fc_gps_error_reason=0x7f0f0210;
-    public static final int dji_check_fc_gps_error_solution=0x7f0f0211;
-    public static final int dji_check_fc_gps_signal_blocked_by_gimbal_reason=0x7f0f0212;
-    public static final int dji_check_fc_gyroscope_data_error_reason=0x7f0f0213;
-    public static final int dji_check_fc_gyroscope_data_error_solution=0x7f0f0214;
-    public static final int dji_check_fc_gyroscope_reason=0x7f0f0215;
-    public static final int dji_check_fc_gyroscope_solution=0x7f0f0216;
-    public static final int dji_check_fc_heading_control_abnormal_reason=0x7f0f0217;
-    public static final int dji_check_fc_height_limit_compass_interrupt_reason=0x7f0f0218;
-    public static final int dji_check_fc_height_limit_no_gps_reason=0x7f0f0219;
-    public static final int dji_check_fc_horizontal_calibrate_reason=0x7f0f021a;
-    public static final int dji_check_fc_horizontal_calibrate_solution=0x7f0f021b;
-    public static final int dji_check_fc_imu_cali_error_reason=0x7f0f021c;
-    public static final int dji_check_fc_imu_cali_error_solution=0x7f0f021d;
-    public static final int dji_check_fc_imu_cali_not_finished_reason=0x7f0f021e;
-    public static final int dji_check_fc_imu_cali_not_finished_solution=0x7f0f021f;
-    public static final int dji_check_fc_imu_data_error_reason=0x7f0f0220;
-    public static final int dji_check_fc_imu_data_error_solution=0x7f0f0221;
-    public static final int dji_check_fc_imu_direction_param_erro_reason=0x7f0f0222;
-    public static final int dji_check_fc_imu_direction_param_erro_solution=0x7f0f0223;
-    public static final int dji_check_fc_imu_init_error_reason=0x7f0f0224;
-    public static final int dji_check_fc_imu_init_error_solution=0x7f0f0225;
-    public static final int dji_check_fc_imu_install_direction_error_reason=0x7f0f0226;
-    public static final int dji_check_fc_imu_install_direction_error_solution=0x7f0f0227;
-    public static final int dji_check_fc_imu_interfered_reason=0x7f0f0228;
-    public static final int dji_check_fc_imu_interfered_solution=0x7f0f0229;
-    public static final int dji_check_fc_kernel_board_high_temperature_reason=0x7f0f022a;
-    public static final int dji_check_fc_kernel_board_high_temperature_solution=0x7f0f022b;
-    public static final int dji_check_fc_low_voltage_going_home_reason=0x7f0f022c;
-    public static final int dji_check_fc_low_voltage_landing_reason=0x7f0f022d;
-    public static final int dji_check_fc_mc_data_error_reason=0x7f0f022e;
-    public static final int dji_check_fc_mc_reading_data_reason=0x7f0f022f;
-    public static final int dji_check_fc_motor_blocked_reason=0x7f0f0230;
-    public static final int dji_check_fc_motor_blocked_solution=0x7f0f0231;
-    public static final int dji_check_fc_motor_stop_for_esc_short_circuit_reason=0x7f0f0232;
-    public static final int dji_check_fc_motor_stop_for_esc_short_circuit_solution=0x7f0f0233;
-    public static final int dji_check_fc_need_imu_calibrate_reason=0x7f0f0234;
-    public static final int dji_check_fc_need_imu_calibrate_solution=0x7f0f0235;
-    public static final int dji_check_fc_no_real_name_height_limit_reason=0x7f0f0236;
-    public static final int dji_check_fc_not_enough_force_reason=0x7f0f0237;
-    public static final int dji_check_fc_only_support_atti_mode_reason=0x7f0f0238;
-    public static final int dji_check_fc_out_of_control_going_home_reason=0x7f0f0239;
-    public static final int dji_check_fc_out_of_flight_radius_limit_reason=0x7f0f023a;
-    public static final int dji_check_fc_over_heat_go_home_reason=0x7f0f023b;
-    public static final int dji_check_fc_paddle_has_ice_on_it_reason=0x7f0f023c;
-    public static final int dji_check_fc_plain_propeller_on_plateau_solution=0x7f0f023d;
-    public static final int dji_check_fc_plateau_propeller_on_plain_solution=0x7f0f023e;
-    public static final int dji_check_fc_smart_low_power_go_home_reason=0x7f0f023f;
-    public static final int dji_check_fc_strong_gale_warning_reason=0x7f0f0240;
-    public static final int dji_check_fc_system_normal=0x7f0f0241;
-    public static final int dji_check_fc_system_unknow_error=0x7f0f0242;
-    public static final int dji_check_fc_takeoff_failed_GPS_disconnect=0x7f0f0243;
-    public static final int dji_check_fc_takeoff_failed_IMU_cali_success=0x7f0f0244;
-    public static final int dji_check_fc_takeoff_failed_IMU_disconnect=0x7f0f0245;
-    public static final int dji_check_fc_takeoff_failed_RC_calibration_exception=0x7f0f0246;
-    public static final int dji_check_fc_takeoff_failed_RC_calibration_unfinished=0x7f0f0247;
-    public static final int dji_check_fc_takeoff_failed_RC_center_out_range=0x7f0f0248;
-    public static final int dji_check_fc_takeoff_failed_RC_is_in_calibration=0x7f0f0249;
-    public static final int dji_check_fc_takeoff_failed_RC_mapping_exception=0x7f0f024a;
-    public static final int dji_check_fc_takeoff_failed_SD_card_exception=0x7f0f024b;
-    public static final int dji_check_fc_takeoff_failed_accelerometer_bias_too_large=0x7f0f024c;
-    public static final int dji_check_fc_takeoff_failed_accelerometer_dead=0x7f0f024d;
-    public static final int dji_check_fc_takeoff_failed_aircraft_type_mismatch=0x7f0f024e;
-    public static final int dji_check_fc_takeoff_failed_aircraft_usb_connected=0x7f0f024f;
-    public static final int dji_check_fc_takeoff_failed_assistant_protected=0x7f0f0250;
-    public static final int dji_check_fc_takeoff_failed_atti_error=0x7f0f0251;
-    public static final int dji_check_fc_takeoff_failed_attitude_limit=0x7f0f0252;
-    public static final int dji_check_fc_takeoff_failed_baro_abnormal=0x7f0f0253;
-    public static final int dji_check_fc_takeoff_failed_barometer_dead=0x7f0f0254;
-    public static final int dji_check_fc_takeoff_failed_barometer_negative=0x7f0f0255;
-    public static final int dji_check_fc_takeoff_failed_barometer_noise_too_large=0x7f0f0256;
-    public static final int dji_check_fc_takeoff_failed_battery_authentication_exception=0x7f0f0257;
-    public static final int dji_check_fc_takeoff_failed_battery_cell_error=0x7f0f0258;
-    public static final int dji_check_fc_takeoff_failed_battery_communication_exception=0x7f0f0259;
-    public static final int dji_check_fc_takeoff_failed_battery_communite_error=0x7f0f025a;
-    public static final int dji_check_fc_takeoff_failed_battery_communite_error_motorOn=0x7f0f025b;
-    public static final int dji_check_fc_takeoff_failed_battery_embed_error=0x7f0f025c;
-    public static final int dji_check_fc_takeoff_failed_battery_install_error=0x7f0f025d;
-    public static final int dji_check_fc_takeoff_failed_battery_not_ready=0x7f0f025e;
-    public static final int dji_check_fc_takeoff_failed_battery_number_is_not_engouh=0x7f0f025f;
-    public static final int dji_check_fc_takeoff_failed_battery_output_insufficient=0x7f0f0260;
-    public static final int dji_check_fc_takeoff_failed_battery_voltage_difference_large=0x7f0f0261;
-    public static final int dji_check_fc_takeoff_failed_battery_voltage_difference_very_large=0x7f0f0262;
-    public static final int dji_check_fc_takeoff_failed_bias_limit=0x7f0f0263;
-    public static final int dji_check_fc_takeoff_failed_compass_abnormal=0x7f0f0264;
-    public static final int dji_check_fc_takeoff_failed_compass_calibrating=0x7f0f0265;
-    public static final int dji_check_fc_takeoff_failed_compass_dead=0x7f0f0266;
-    public static final int dji_check_fc_takeoff_failed_compass_error=0x7f0f0267;
-    public static final int dji_check_fc_takeoff_failed_compass_mod_too_large=0x7f0f0268;
-    public static final int dji_check_fc_takeoff_failed_compass_noise_too_large=0x7f0f0269;
-    public static final int dji_check_fc_takeoff_failed_device_locked=0x7f0f026a;
-    public static final int dji_check_fc_takeoff_failed_device_topology_exception=0x7f0f026b;
-    public static final int dji_check_fc_takeoff_failed_distance_limit=0x7f0f026c;
-    public static final int dji_check_fc_takeoff_failed_eagle_temp_too_high=0x7f0f026d;
-    public static final int dji_check_fc_takeoff_failed_error_battery_version_error=0x7f0f026e;
-    public static final int dji_check_fc_takeoff_failed_error_compass_imu_ori_not_match_desc=0x7f0f026f;
-    public static final int dji_check_fc_takeoff_failed_error_esc_calibrating_desc=0x7f0f0270;
-    public static final int dji_check_fc_takeoff_failed_error_esc_echoing=0x7f0f0271;
-    public static final int dji_check_fc_takeoff_failed_error_esc_version_not_match_desc=0x7f0f0272;
-    public static final int dji_check_fc_takeoff_failed_error_gimbal_is_calibrating=0x7f0f0273;
-    public static final int dji_check_fc_takeoff_failed_error_gps_sign_invalid_desc=0x7f0f0274;
-    public static final int dji_check_fc_takeoff_failed_error_imu_ori_not_match_desc=0x7f0f0275;
-    public static final int dji_check_fc_takeoff_failed_error_lock_by_app_desc=0x7f0f0276;
-    public static final int dji_check_fc_takeoff_failed_error_rtk_bad_signal=0x7f0f0277;
-    public static final int dji_check_fc_takeoff_failed_error_rtk_deviation=0x7f0f0278;
-    public static final int dji_check_fc_takeoff_failed_error_start_fly_height_error_desc=0x7f0f0279;
-    public static final int dji_check_fc_takeoff_failed_error_stop_by_app_desc=0x7f0f027a;
-    public static final int dji_check_fc_takeoff_failed_esc_error=0x7f0f027b;
-    public static final int dji_check_fc_takeoff_failed_fail_invalid_SN=0x7f0f027c;
-    public static final int dji_check_fc_takeoff_failed_flash_operation=0x7f0f027d;
-    public static final int dji_check_fc_takeoff_failed_flight_restriction_strategy_error=0x7f0f027e;
-    public static final int dji_check_fc_takeoff_failed_gimbal_disorder=0x7f0f027f;
-    public static final int dji_check_fc_takeoff_failed_gimbal_firm_is_updata=0x7f0f0280;
-    public static final int dji_check_fc_takeoff_failed_gimbal_gyro_abnormal=0x7f0f0281;
-    public static final int dji_check_fc_takeoff_failed_gimbal_pitch_no_data=0x7f0f0282;
-    public static final int dji_check_fc_takeoff_failed_gimbal_pitch_shock=0x7f0f0283;
-    public static final int dji_check_fc_takeoff_failed_gimbal_roll_no_data=0x7f0f0284;
-    public static final int dji_check_fc_takeoff_failed_gimbal_roll_shock=0x7f0f0285;
-    public static final int dji_check_fc_takeoff_failed_gimbal_yaw_no_data=0x7f0f0286;
-    public static final int dji_check_fc_takeoff_failed_gimbal_yaw_shock=0x7f0f0287;
-    public static final int dji_check_fc_takeoff_failed_gps_abnormal=0x7f0f0288;
-    public static final int dji_check_fc_takeoff_failed_gyro_acc_abnormal=0x7f0f0289;
-    public static final int dji_check_fc_takeoff_failed_gyro_bias_too_large=0x7f0f028a;
-    public static final int dji_check_fc_takeoff_failed_gyro_dead=0x7f0f028b;
-    public static final int dji_check_fc_takeoff_failed_imu_calibrating=0x7f0f028c;
-    public static final int dji_check_fc_takeoff_failed_imu_initing=0x7f0f028d;
-    public static final int dji_check_fc_takeoff_failed_imu_need_calibration=0x7f0f028e;
-    public static final int dji_check_fc_takeoff_failed_imu_sn_error=0x7f0f028f;
-    public static final int dji_check_fc_takeoff_failed_imu_warming=0x7f0f0290;
-    public static final int dji_check_fc_takeoff_failed_in_fly_limit_zone=0x7f0f0291;
-    public static final int dji_check_fc_takeoff_failed_large_tilt=0x7f0f0292;
-    public static final int dji_check_fc_takeoff_failed_low_voltage=0x7f0f0293;
-    public static final int dji_check_fc_takeoff_failed_major_acc_gyro_change=0x7f0f0294;
-    public static final int dji_check_fc_takeoff_failed_motor_auto_takeoff_fail=0x7f0f0295;
-    public static final int dji_check_fc_takeoff_failed_motor_less_paddle=0x7f0f0296;
-    public static final int dji_check_fc_takeoff_failed_motor_start_error=0x7f0f0297;
-    public static final int dji_check_fc_takeoff_failed_motor_stuck=0x7f0f0298;
-    public static final int dji_check_fc_takeoff_failed_motor_unbalanced=0x7f0f0299;
-    public static final int dji_check_fc_takeoff_failed_navigation_system_exception=0x7f0f029a;
-    public static final int dji_check_fc_takeoff_failed_not_activated=0x7f0f029b;
-    public static final int dji_check_fc_takeoff_failed_novice_protected=0x7f0f029c;
-    public static final int dji_check_fc_takeoff_failed_pack_mode=0x7f0f029d;
-    public static final int dji_check_fc_takeoff_failed_rollover=0x7f0f029e;
-    public static final int dji_check_fc_takeoff_failed_rtk_yaw_not_fix=0x7f0f029f;
-    public static final int dji_check_fc_takeoff_failed_seriou_low_power=0x7f0f02a0;
-    public static final int dji_check_fc_takeoff_failed_seriou_low_voltage=0x7f0f02a1;
-    public static final int dji_check_fc_takeoff_failed_simulator_mode=0x7f0f02a2;
-    public static final int dji_check_fc_takeoff_failed_simulator_run=0x7f0f02a3;
-    public static final int dji_check_fc_takeoff_failed_smart_low_to_land=0x7f0f02a4;
-    public static final int dji_check_fc_takeoff_failed_software_data_invalid=0x7f0f02a5;
-    public static final int dji_check_fc_takeoff_failed_some_module_not_configured=0x7f0f02a6;
-    public static final int dji_check_fc_takeoff_failed_throttle_rocker_not_middle=0x7f0f02a7;
-    public static final int dji_check_fc_takeoff_failed_tips_battery_ico_error=0x7f0f02a8;
-    public static final int dji_check_fc_takeoff_failed_tips_battery_ico_error_motorOn=0x7f0f02a9;
-    public static final int dji_check_fc_takeoff_failed_unknown_error=0x7f0f02aa;
-    public static final int dji_check_fc_takeoff_failed_upgrading=0x7f0f02ab;
-    public static final int dji_check_fc_takeoff_failed_version_mismatch=0x7f0f02ac;
-    public static final int dji_check_fc_takeoff_flightaction_propeller_catapult=0x7f0f02ad;
-    public static final int dji_check_fc_three_propeller=0x7f0f02ae;
-    public static final int dji_check_fc_three_propeller_cannot_takeoff=0x7f0f02af;
-    public static final int dji_check_fc_three_propeller_force_landing=0x7f0f02b0;
-    public static final int dji_check_fc_tilt_control_abnormal_reason=0x7f0f02b1;
-    public static final int dji_check_fc_water_surface_warning_reason=0x7f0f02b2;
-    public static final int dji_check_fc_wrong_propeller_reason=0x7f0f02b3;
-    public static final int dji_check_gimbal_gyroscope_reason=0x7f0f02b4;
-    public static final int dji_check_gimbal_gyroscope_solution=0x7f0f02b5;
-    public static final int dji_check_gimbal_mc_conn_reason=0x7f0f02b6;
-    public static final int dji_check_gimbal_mc_conn_solution=0x7f0f02b7;
-    public static final int dji_check_gimbal_pitch_reason=0x7f0f02b8;
-    public static final int dji_check_gimbal_pitch_solution=0x7f0f02b9;
-    public static final int dji_check_gimbal_roll_reason=0x7f0f02ba;
-    public static final int dji_check_gimbal_roll_solution=0x7f0f02bb;
-    public static final int dji_check_gimbal_yaw_reason=0x7f0f02bc;
-    public static final int dji_check_gimbal_yaw_solution=0x7f0f02bd;
-    public static final int dji_check_rc_battery_reason=0x7f0f02be;
-    public static final int dji_check_rc_battery_solution=0x7f0f02bf;
-    public static final int dji_check_rc_encryption_reason=0x7f0f02c0;
-    public static final int dji_check_rc_encryption_solution=0x7f0f02c1;
-    public static final int dji_check_rc_fpga_reason=0x7f0f02c2;
-    public static final int dji_check_rc_fpga_solution=0x7f0f02c3;
-    public static final int dji_check_rc_go_home_fail_reason=0x7f0f02c4;
-    public static final int dji_check_rc_go_home_fail_solution=0x7f0f02c5;
-    public static final int dji_check_rc_gps_reason=0x7f0f02c6;
-    public static final int dji_check_rc_gps_solution=0x7f0f02c7;
-    public static final int dji_check_rc_power_reason=0x7f0f02c8;
-    public static final int dji_check_rc_power_solution=0x7f0f02c9;
-    public static final int dji_check_rc_reset_reason=0x7f0f02ca;
-    public static final int dji_check_rc_reset_solution=0x7f0f02cb;
-    public static final int dji_check_rc_stick_reason=0x7f0f02cc;
-    public static final int dji_check_rc_stick_solution=0x7f0f02cd;
-    public static final int dji_check_rc_timeout_reason=0x7f0f02ce;
-    public static final int dji_check_rc_timeout_solution=0x7f0f02cf;
-    public static final int dji_check_rc_too_hot_reason=0x7f0f02d0;
-    public static final int dji_check_rc_too_hot_solution=0x7f0f02d1;
-    public static final int dji_check_rc_transmitter_reason=0x7f0f02d2;
-    public static final int dji_check_rc_transmitter_solution=0x7f0f02d3;
-    public static final int dji_check_rtk_base_station_fell=0x7f0f02d4;
-    public static final int dji_check_rtk_base_station_moving=0x7f0f02d5;
-    public static final int dji_check_rtk_base_station_source_changed=0x7f0f02d6;
-    public static final int dji_check_rtk_course_not_matched=0x7f0f02d7;
-    public static final int dji_check_rtk_data_invalid=0x7f0f02d8;
-    public static final int dji_check_rtk_disconnect=0x7f0f02d9;
-    public static final int dji_check_rtk_disconnect_abandon=0x7f0f02da;
-    public static final int dji_check_rtk_disconnected=0x7f0f02db;
-    public static final int dji_check_rtk_has_big_difference_with_gps=0x7f0f02dc;
-    public static final int dji_check_rtk_height_different=0x7f0f02dd;
-    public static final int dji_check_rtk_height_invalid=0x7f0f02de;
-    public static final int dji_check_rtk_horizontal_position_invalid=0x7f0f02df;
-    public static final int dji_check_rtk_horizontal_velocity_invalid=0x7f0f02e0;
-    public static final int dji_check_rtk_is_no_yaw_in_air=0x7f0f02e1;
-    public static final int dji_check_rtk_position_change_rapidly=0x7f0f02e2;
-    public static final int dji_check_rtk_position_changed_slowly_when_still=0x7f0f02e3;
-    public static final int dji_check_rtk_result_exceeds_limitation=0x7f0f02e4;
-    public static final int dji_check_rtk_single_position_different_with_fix_position=0x7f0f02e5;
-    public static final int dji_check_rtk_solution_fly_with_cautious=0x7f0f02e6;
-    public static final int dji_check_rtk_solution_restart=0x7f0f02e7;
-    public static final int dji_check_rtk_speed_and_position_not_matched=0x7f0f02e8;
-    public static final int dji_check_rtk_speed_change_rapidly=0x7f0f02e9;
-    public static final int dji_check_rtk_speed_changed_slowly_when_still=0x7f0f02ea;
-    public static final int dji_check_rtk_stuck=0x7f0f02eb;
-    public static final int dji_check_rtk_version_error=0x7f0f02ec;
-    public static final int dji_check_rtk_yaw_invalid=0x7f0f02ed;
-    public static final int dji_check_video_decoder_deserializer_connection_reason=0x7f0f02ee;
-    public static final int dji_check_video_decoder_deserializer_connection_solution=0x7f0f02ef;
-    public static final int dji_check_video_decoder_encrypt_reason=0x7f0f02f0;
-    public static final int dji_check_video_decoder_encrypt_solution=0x7f0f02f1;
-    public static final int dji_check_vision_calibrate_solution=0x7f0f02f2;
-    public static final int dji_check_vision_connect_reason=0x7f0f02f3;
-    public static final int dji_check_vision_down_calibrate_reason=0x7f0f02f4;
-    public static final int dji_check_vision_front_calibrate_reason=0x7f0f02f5;
-    public static final int dji_check_vision_pc_calibrate_reason=0x7f0f02f6;
-    public static final int dji_check_vision_pc_calibrate_solution=0x7f0f02f7;
-    public static final int dji_check_vision_propeller_guard_reason=0x7f0f02f8;
-    public static final int dji_check_vision_propeller_guard_solution=0x7f0f02f9;
-    public static final int dji_check_vision_restart_solution=0x7f0f02fa;
-    public static final int dji_check_vision_return_solution=0x7f0f02fb;
-    public static final int dji_check_vision_sensor_reason_down_left=0x7f0f02fc;
-    public static final int dji_check_vision_sensor_reason_down_right=0x7f0f02fd;
-    public static final int dji_check_vision_sensor_reason_front_left=0x7f0f02fe;
-    public static final int dji_check_vision_sensor_reason_front_right=0x7f0f02ff;
-    public static final int dji_check_vision_vision_reason=0x7f0f0300;
-    public static final int dji_check_vision_weak_ambient_light_reason=0x7f0f0301;
-    public static final int dji_logic_abnormal=0x7f0f0302;
-    public static final int dji_logic_calibrate=0x7f0f0303;
-    public static final int dji_logic_check_install_direction=0x7f0f0304;
-    public static final int dji_logic_compass_calibrate=0x7f0f0305;
-    public static final int dji_logic_compass_keep_away_from_magnetic=0x7f0f0306;
-    public static final int dji_logic_detail=0x7f0f0307;
-    public static final int dji_logic_gps_unknown=0x7f0f0308;
-    public static final int dji_logic_imu_calibrate=0x7f0f0309;
-    public static final int dji_logic_imu_installation_error=0x7f0f030a;
-    public static final int dji_logic_imu_unknown=0x7f0f030b;
-    public static final int dji_logic_imu_warming_up=0x7f0f030c;
-    public static final int dji_logic_normal=0x7f0f030d;
-    public static final int dji_logic_restart_aircraft=0x7f0f030e;
-    public static final int empty_field_error=0x7f0f030f;
-    public static final int enabled=0x7f0f0310;
-    public static final int enter_current_password=0x7f0f0311;
-    public static final int enter_new_password=0x7f0f0312;
-    public static final int enter_password=0x7f0f0313;
-    public static final int enter_password_to_remove=0x7f0f0314;
-    public static final int enter_security_password=0x7f0f0315;
-    public static final int enter_travel_mode=0x7f0f0316;
-    public static final int enter_travel_mode_message=0x7f0f0317;
-    public static final int error=0x7f0f0318;
-    public static final int esc_status=0x7f0f0319;
-    public static final int exceed_max_message=0x7f0f031a;
-    public static final int exceed_min_message=0x7f0f031b;
-    public static final int exit_travel_mode=0x7f0f031c;
-    public static final int flight_forbid_warn_alert_txt=0x7f0f031d;
-    public static final int flight_forbid_warn_edge_alert_txt=0x7f0f031e;
-    public static final int flight_frb_new_around_frb=0x7f0f031f;
-    public static final int flight_frb_new_around_limit=0x7f0f0320;
-    public static final int flight_frb_new_around_limit_height=0x7f0f0321;
-    public static final int flight_frb_new_around_to_open_license=0x7f0f0322;
-    public static final int flight_frb_new_around_to_unlock=0x7f0f0323;
-    public static final int flight_frb_new_below_limit_height=0x7f0f0324;
-    public static final int flight_frb_new_enhance_warning=0x7f0f0325;
-    public static final int flight_frb_new_in_auth_no_license=0x7f0f0326;
-    public static final int flight_frb_new_in_auth_with_license=0x7f0f0327;
-    public static final int flight_frb_new_limit_height_lose_gps=0x7f0f0328;
-    public static final int flight_frb_new_seem_in_auth_no_license=0x7f0f0329;
-    public static final int flight_frb_new_touch_to_open_license=0x7f0f032a;
-    public static final int flight_mode=0x7f0f032b;
-    public static final int flight_record_sync_del_result=0x7f0f032c;
-    public static final int flight_record_sync_download_result=0x7f0f032d;
-    public static final int flight_record_sync_fail=0x7f0f032e;
-    public static final int flight_record_sync_upload_result=0x7f0f032f;
-    public static final int fly_zone_authorized=0x7f0f0330;
-    public static final int fly_zone_custom_unlock=0x7f0f0331;
-    public static final int fly_zone_custom_unlock_aircraft=0x7f0f0332;
-    public static final int fly_zone_custom_unlock_enabled=0x7f0f0333;
-    public static final int fly_zone_enhanced_warning=0x7f0f0334;
-    public static final int fly_zone_error_unidentified=0x7f0f0335;
-    public static final int fly_zone_login_failed=0x7f0f0336;
-    public static final int fly_zone_login_failed_error=0x7f0f0337;
-    public static final int fly_zone_restricted=0x7f0f0338;
-    public static final int fly_zone_self_unlock=0x7f0f0339;
-    public static final int fly_zone_unlock=0x7f0f033a;
-    public static final int fly_zone_unlock_confirmation=0x7f0f033b;
-    public static final int fly_zone_unlock_end_time=0x7f0f033c;
-    public static final int fly_zone_unlock_failed_unauthorized=0x7f0f033d;
-    public static final int fly_zone_unlock_zone=0x7f0f033e;
-    public static final int fly_zone_warning=0x7f0f033f;
-    public static final int flyfrb_map_click_pop_end_at=0x7f0f0340;
-    public static final int flyfrb_map_click_pop_in_auth_zone=0x7f0f0341;
-    public static final int flyfrb_map_click_pop_in_enhance_warning_zone=0x7f0f0342;
-    public static final int flyfrb_map_click_pop_in_height_zone=0x7f0f0343;
-    public static final int flyfrb_map_click_pop_in_limit_zone=0x7f0f0344;
-    public static final int flyfrb_map_click_pop_in_warning_zone=0x7f0f0345;
-    public static final int flyfrb_map_click_pop_start_at=0x7f0f0346;
-    public static final int flyfrb_map_click_pop_title=0x7f0f0347;
-    public static final int flysafe_collision_with_limit_area_in_go_home_or_smart_mode=0x7f0f0348;
-    public static final int flysafe_collision_with_limit_height_area=0x7f0f0349;
-    public static final int flysafe_collision_with_special_unlock_area=0x7f0f034a;
-    public static final int flysafe_takeoff_failed_outside_white_list_area=0x7f0f034b;
-    public static final int format=0x7f0f034c;
-    public static final int format_aircraft=0x7f0f034d;
-    public static final int format_aircraft_confirmation=0x7f0f034e;
-    public static final int format_button=0x7f0f034f;
-    public static final int fpv_check_redundancy_failed_when_motor_up=0x7f0f0350;
-    public static final int fpv_checklist_compass_tip_show_arm=0x7f0f0351;
-    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_authorization_zone_result_content=0x7f0f0352;
-    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_authorized_zone_result_content=0x7f0f0353;
-    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_height_limit_zone_result_content=0x7f0f0354;
-    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_nfz_result_content=0x7f0f0355;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_authorized_zone_check_result_content=0x7f0f0356;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_authorized_zone_result_content=0x7f0f0357;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_drone_in_nfz_result_content=0x7f0f0358;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_in_authorization_zone_result_content=0x7f0f0359;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_in_strengthen_warning_area_result_content=0x7f0f035a;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_mobile_device_in_nfz_result_content=0x7f0f035b;
-    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_title=0x7f0f035c;
-    public static final int fpv_nfz_before_takeoff_in_nfz_in_height_limit_zone_tips=0x7f0f035d;
-    public static final int fpv_nfz_before_takeoff_in_nfz_in_warning_area_tips=0x7f0f035e;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_future_temporary_nfz_result_content=0x7f0f035f;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_all_authorized_zone_result_content=0x7f0f0360;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_but_authorization_zone_description_content=0x7f0f0361;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_but_authorization_zone_result_content=0x7f0f0362;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_include_authorization_zone_description_content=0x7f0f0363;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_include_authorization_zone_result_content=0x7f0f0364;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_authorization_zone_description_content=0x7f0f0365;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_authorization_zone_result_content=0x7f0f0366;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_height_limit_zone_description_content=0x7f0f0367;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_height_limit_zone_result_content=0x7f0f0368;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_nfz_description_content=0x7f0f0369;
-    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_nfz_result_content=0x7f0f036a;
-    public static final int fpv_nfz_flying_contact_authorization_zone_tips=0x7f0f036b;
-    public static final int fpv_nfz_flying_contact_height_limit_zone_tips=0x7f0f036c;
-    public static final int fpv_nfz_flying_contact_nfz_tips=0x7f0f036d;
-    public static final int fpv_tip_atti_in_the_air_single_battery=0x7f0f036e;
-    public static final int fpv_tip_atti_state=0x7f0f036f;
-    public static final int fpv_tip_atti_state_in_the_air=0x7f0f0370;
-    public static final int fpv_tip_back_vision_cali=0x7f0f0371;
-    public static final int fpv_tip_bad_channel_quality=0x7f0f0372;
-    public static final int fpv_tip_barometer_dead=0x7f0f0373;
-    public static final int fpv_tip_battery_broken=0x7f0f0374;
-    public static final int fpv_tip_battery_damaged=0x7f0f0375;
-    public static final int fpv_tip_battery_exception=0x7f0f0376;
-    public static final int fpv_tip_battery_low_temp=0x7f0f0377;
-    public static final int fpv_tip_battery_over_current=0x7f0f0378;
-    public static final int fpv_tip_battery_over_temp=0x7f0f0379;
-    public static final int fpv_tip_battery_status_error=0x7f0f037a;
-    public static final int fpv_tip_camera_encrypt_error=0x7f0f037b;
-    public static final int fpv_tip_cant_takeoff=0x7f0f037c;
-    public static final int fpv_tip_cant_takeoff_locked=0x7f0f037d;
-    public static final int fpv_tip_cant_takeoff_novice=0x7f0f037e;
-    public static final int fpv_tip_check_gimbal_vibration_detail=0x7f0f037f;
-    public static final int fpv_tip_chlstatus_poor=0x7f0f0380;
-    public static final int fpv_tip_compass_error=0x7f0f0381;
-    public static final int fpv_tip_disconnect=0x7f0f0382;
-    public static final int fpv_tip_down_vision_cali=0x7f0f0383;
-    public static final int fpv_tip_esc_error=0x7f0f0384;
-    public static final int fpv_tip_esc_error_sky=0x7f0f0385;
-    public static final int fpv_tip_failsafe=0x7f0f0386;
-    public static final int fpv_tip_failsafe_gohome=0x7f0f0387;
-    public static final int fpv_tip_failsafe_wifi_no_rc=0x7f0f0388;
-    public static final int fpv_tip_firmware_no_match=0x7f0f0389;
-    public static final int fpv_tip_firmware_update_required=0x7f0f038a;
-    public static final int fpv_tip_flyc_data_error=0x7f0f038b;
-    public static final int fpv_tip_front_vision_cali=0x7f0f038c;
-    public static final int fpv_tip_gale_warning=0x7f0f038d;
-    public static final int fpv_tip_gimbal_broken_state=0x7f0f038e;
-    public static final int fpv_tip_gimbal_locate_err=0x7f0f038f;
-    public static final int fpv_tip_gimbal_motor_protection_enabled=0x7f0f0390;
-    public static final int fpv_tip_gimbal_reached_mechanical_limit=0x7f0f0391;
-    public static final int fpv_tip_gimbal_rotation_error=0x7f0f0392;
-    public static final int fpv_tip_gimbal_startup_block=0x7f0f0393;
-    public static final int fpv_tip_gimbal_stuck=0x7f0f0394;
-    public static final int fpv_tip_gimbal_wait_restart=0x7f0f0395;
-    public static final int fpv_tip_gimbal_wait_restart_detail=0x7f0f0396;
-    public static final int fpv_tip_gohome=0x7f0f0397;
-    public static final int fpv_tip_gohome_align=0x7f0f0398;
-    public static final int fpv_tip_gohome_ascending=0x7f0f0399;
-    public static final int fpv_tip_gohome_cruise=0x7f0f039a;
-    public static final int fpv_tip_gohome_failed=0x7f0f039b;
-    public static final int fpv_tip_gohome_preascending=0x7f0f039c;
-    public static final int fpv_tip_imu_cali=0x7f0f039d;
-    public static final int fpv_tip_imu_error=0x7f0f039e;
-    public static final int fpv_tip_imu_heating=0x7f0f039f;
-    public static final int fpv_tip_imu_initializing=0x7f0f03a0;
-    public static final int fpv_tip_in_limit_space=0x7f0f03a1;
-    public static final int fpv_tip_in_nfz_max_height=0x7f0f03a2;
-    public static final int fpv_tip_in_nfz_max_height_special_unlock=0x7f0f03a3;
-    public static final int fpv_tip_low_power=0x7f0f03a4;
-    public static final int fpv_tip_low_power_gohome=0x7f0f03a5;
-    public static final int fpv_tip_low_radio_signal=0x7f0f03a6;
-    public static final int fpv_tip_low_rc_power=0x7f0f03a7;
-    public static final int fpv_tip_low_rc_signal=0x7f0f03a8;
-    public static final int fpv_tip_low_voltage=0x7f0f03a9;
-    public static final int fpv_tip_mc_error=0x7f0f03aa;
-    public static final int fpv_tip_mc_sd_mode=0x7f0f03ab;
-    public static final int fpv_tip_motor_stop_landing=0x7f0f03ac;
-    public static final int fpv_tip_nfz_flying=0x7f0f03ad;
-    public static final int fpv_tip_no_video_signal=0x7f0f03ae;
-    public static final int fpv_tip_non_gps=0x7f0f03af;
-    public static final int fpv_tip_non_gps_in_the_air=0x7f0f03b0;
-    public static final int fpv_tip_non_gps_in_the_air_nonvision=0x7f0f03b1;
-    public static final int fpv_tip_non_gps_in_the_air_single_battery=0x7f0f03b2;
-    public static final int fpv_tip_non_gps_nonvision=0x7f0f03b3;
-    public static final int fpv_tip_non_gps_nonvision_in_the_air_single_battery=0x7f0f03b4;
-    public static final int fpv_tip_normal=0x7f0f03b5;
-    public static final int fpv_tip_normal_in_the_air=0x7f0f03b6;
-    public static final int fpv_tip_normal_in_the_air_rtk=0x7f0f03b7;
-    public static final int fpv_tip_normal_in_the_air_single_battery=0x7f0f03b8;
-    public static final int fpv_tip_normal_lb2=0x7f0f03b9;
-    public static final int fpv_tip_normal_rtk=0x7f0f03ba;
-    public static final int fpv_tip_not_enough_force=0x7f0f03bb;
-    public static final int fpv_tip_patti_error=0x7f0f03bc;
-    public static final int fpv_tip_radio_signal_disturb=0x7f0f03bd;
-    public static final int fpv_tip_rc_disturbance=0x7f0f03be;
-    public static final int fpv_tip_rc_megnetic_low=0x7f0f03bf;
-    public static final int fpv_tip_rc_megnetic_medium=0x7f0f03c0;
-    public static final int fpv_tip_rc_megnetic_strong=0x7f0f03c1;
-    public static final int fpv_tip_rc_signal_disturb=0x7f0f03c2;
-    public static final int fpv_tip_remote_disconnect=0x7f0f03c3;
-    public static final int fpv_tip_self_release=0x7f0f03c4;
-    public static final int fpv_tip_sensor_error=0x7f0f03c5;
-    public static final int fpv_tip_serious_low_power=0x7f0f03c6;
-    public static final int fpv_tip_serious_low_power_landing=0x7f0f03c7;
-    public static final int fpv_tip_serious_low_voltage=0x7f0f03c8;
-    public static final int fpv_tip_serious_low_voltage_landing=0x7f0f03c9;
-    public static final int fpv_tip_smart_low_power=0x7f0f03ca;
-    public static final int fpv_tip_smart_low_power_landing=0x7f0f03cb;
-    public static final int fpv_tip_smart_number_less=0x7f0f03cc;
-    public static final int fpv_tip_takeoff_with_compass_error=0x7f0f03cd;
-    public static final int fpv_tip_video_disturbance=0x7f0f03ce;
-    public static final int fpv_tip_vision_3d_tof_error=0x7f0f03cf;
-    public static final int fpv_tip_vision_error=0x7f0f03d0;
-    public static final int fpv_tip_vision_tof_error=0x7f0f03d1;
-    public static final int fpv_tip_vision_ultrasonic_error=0x7f0f03d2;
-    public static final int fpv_tip_warning_rc_connection_error=0x7f0f03d3;
-    public static final int fr_sync_result_canceled=0x7f0f03d4;
-    public static final int fr_sync_result_del_completed=0x7f0f03d5;
-    public static final int fr_sync_result_del_failed=0x7f0f03d6;
-    public static final int fr_sync_result_del_start=0x7f0f03d7;
-    public static final int fr_sync_result_downloadfile_failed=0x7f0f03d8;
-    public static final int fr_sync_result_failed=0x7f0f03d9;
-    public static final int fr_sync_result_finished=0x7f0f03da;
-    public static final int fr_sync_result_getlist_failed=0x7f0f03db;
-    public static final int fr_sync_result_getlist_success=0x7f0f03dc;
-    public static final int fr_sync_result_opt_param=0x7f0f03dd;
-    public static final int fr_sync_result_overview_failed=0x7f0f03de;
-    public static final int fr_sync_result_start=0x7f0f03df;
-    public static final int fr_sync_result_uploadfile_failed=0x7f0f03e0;
-    public static final int geo_zones=0x7f0f03e1;
-    public static final int gohome_user_farfromhome=0x7f0f03e2;
-    public static final int gps_permission=0x7f0f03e3;
-    public static final int gps_rtk_enable=0x7f0f03e4;
-    public static final int grid_none=0x7f0f03e5;
-    public static final int head_led_auto_turn_off=0x7f0f03e6;
-    public static final int horizontal_speed_title=0x7f0f03e7;
-    public static final int icon=0x7f0f03e8;
-    public static final int imperial=0x7f0f03e9;
-    public static final int imu=0x7f0f03ea;
-    public static final int internal_storage_busy=0x7f0f03eb;
-    public static final int internal_storage_capacity=0x7f0f03ec;
-    public static final int internal_storage_formatting=0x7f0f03ed;
-    public static final int internal_storage_full=0x7f0f03ee;
-    public static final int internal_storage_initial=0x7f0f03ef;
-    public static final int internal_storage_invalid=0x7f0f03f0;
-    public static final int internal_storage_missing=0x7f0f03f1;
-    public static final int internal_storage_not_formatted=0x7f0f03f2;
-    public static final int internal_storage_remaining_space=0x7f0f03f3;
-    public static final int internal_storage_slow=0x7f0f03f4;
-    public static final int internal_storage_title_capacity=0x7f0f03f5;
-    public static final int internal_storage_title_time=0x7f0f03f6;
-    public static final int internal_storage_unknown_error=0x7f0f03f7;
-    public static final int internal_storage_write_protect=0x7f0f03f8;
-    public static final int land_desc=0x7f0f03f9;
-    public static final int left_menu_cancel_gohome=0x7f0f03fa;
-    public static final int left_menu_cancel_gohome_desc=0x7f0f03fb;
-    public static final int left_menu_cancel_gohome_failed=0x7f0f03fc;
-    public static final int left_menu_cancel_gohome_success=0x7f0f03fd;
-    public static final int left_menu_cgh_tip=0x7f0f03fe;
-    public static final int left_menu_cl_tip=0x7f0f03ff;
-    public static final int left_menu_drop_land_failed=0x7f0f0400;
-    public static final int left_menu_drop_land_success=0x7f0f0401;
-    public static final int left_menu_gohome=0x7f0f0402;
-    public static final int left_menu_gohome_below_desc=0x7f0f0403;
-    public static final int left_menu_gohome_failed=0x7f0f0404;
-    public static final int left_menu_gohome_inner_desc=0x7f0f0405;
-    public static final int left_menu_gohome_success=0x7f0f0406;
-    public static final int left_menu_gohome_switch=0x7f0f0407;
-    public static final int left_menu_homefollow=0x7f0f0408;
-    public static final int left_menu_homefollow_desc=0x7f0f0409;
-    public static final int left_menu_homepoint_norecord=0x7f0f040a;
-    public static final int left_menu_land=0x7f0f040b;
-    public static final int left_menu_land_desc=0x7f0f040c;
-    public static final int left_menu_land_failed=0x7f0f040d;
-    public static final int left_menu_land_success=0x7f0f040e;
-    public static final int left_menu_takeoff=0x7f0f040f;
-    public static final int left_menu_takeoff_desc=0x7f0f0410;
-    public static final int left_menu_takeoff_failed=0x7f0f0411;
-    public static final int left_menu_takeoff_success=0x7f0f0412;
-    public static final int left_menu_takeoff_switch=0x7f0f0413;
-    public static final int left_menu_tip_gohome=0x7f0f0414;
-    public static final int limit_tips_touch=0x7f0f0415;
-    public static final int limit_tips_touch_auth=0x7f0f0416;
-    public static final int limit_tips_touch_limit_height=0x7f0f0417;
-    public static final int limit_tips_touch_special_unlock=0x7f0f0418;
-    public static final int live_stream_panel_header=0x7f0f0419;
-    public static final int long_exposure_auto_preview=0x7f0f041a;
-    public static final int mapbox_attributionErrorNoBrowser=0x7f0f041b;
-    public static final int mapbox_attributionTelemetryMessage=0x7f0f041c;
-    public static final int mapbox_attributionTelemetryNegative=0x7f0f041d;
-    public static final int mapbox_attributionTelemetryNeutral=0x7f0f041e;
-    public static final int mapbox_attributionTelemetryPositive=0x7f0f041f;
-    public static final int mapbox_attributionTelemetryTitle=0x7f0f0420;
-    public static final int mapbox_attributionsDialogTitle=0x7f0f0421;
-    public static final int mapbox_attributionsIconContentDescription=0x7f0f0422;
-    public static final int mapbox_compassContentDescription=0x7f0f0423;
-    public static final int mapbox_mapActionDescription=0x7f0f0424;
-    public static final int mapbox_myLocationViewContentDescription=0x7f0f0425;
-    public static final int mapbox_offline_error_region_definition_invalid=0x7f0f0426;
-    public static final int mapbox_style_dark=0x7f0f0427;
-    public static final int mapbox_style_light=0x7f0f0428;
-    public static final int mapbox_style_mapbox_streets=0x7f0f0429;
-    public static final int mapbox_style_outdoors=0x7f0f042a;
-    public static final int mapbox_style_satellite=0x7f0f042b;
-    public static final int mapbox_style_satellite_streets=0x7f0f042c;
-    public static final int mapbox_style_traffic_day=0x7f0f042d;
-    public static final int mapbox_style_traffic_night=0x7f0f042e;
-    public static final int mapbox_telemetryLink=0x7f0f042f;
-    public static final int mapbox_telemetrySettings=0x7f0f0430;
-    public static final int max_altitude=0x7f0f0431;
-    public static final int max_altitude_faa_message=0x7f0f0432;
-    public static final int max_altitude_warning_zone_message=0x7f0f0433;
-    public static final int max_flight_distance=0x7f0f0434;
-    public static final int metric=0x7f0f0435;
-    public static final int miles_h=0x7f0f0436;
-    public static final int model_not_available=0x7f0f0437;
-    public static final int motor_stop_reason_auto_takeoff_lanch_faile=0x7f0f0438;
-    public static final int motor_stop_reason_engine_start_failed=0x7f0f0439;
-    public static final int motor_stop_reason_esc_part_empty_on_grd=0x7f0f043a;
-    public static final int motor_stop_reason_esc_stall_near_gound=0x7f0f043b;
-    public static final int motor_stop_reason_esc_unbalance_on_grd=0x7f0f043c;
-    public static final int motor_stop_reason_roll_over_on_grd=0x7f0f043d;
-    public static final int motor_stop_reason_takeoff_exception=0x7f0f043e;
-    public static final int navigation_system_component_accelerometer=0x7f0f043f;
-    public static final int navigation_system_component_app=0x7f0f0440;
-    public static final int navigation_system_component_barometer=0x7f0f0441;
-    public static final int navigation_system_component_battery=0x7f0f0442;
-    public static final int navigation_system_component_bs=0x7f0f0443;
-    public static final int navigation_system_component_camera=0x7f0f0444;
-    public static final int navigation_system_component_compass=0x7f0f0445;
-    public static final int navigation_system_component_dropsafe=0x7f0f0446;
-    public static final int navigation_system_component_esc=0x7f0f0447;
-    public static final int navigation_system_component_fmu=0x7f0f0448;
-    public static final int navigation_system_component_gimbal=0x7f0f0449;
-    public static final int navigation_system_component_gps=0x7f0f044a;
-    public static final int navigation_system_component_gyroscope=0x7f0f044b;
-    public static final int navigation_system_component_imu=0x7f0f044c;
-    public static final int navigation_system_component_led=0x7f0f044d;
-    public static final int navigation_system_component_mc=0x7f0f044e;
-    public static final int navigation_system_component_pc=0x7f0f044f;
-    public static final int navigation_system_component_pitot=0x7f0f0450;
-    public static final int navigation_system_component_pmu=0x7f0f0451;
-    public static final int navigation_system_component_radar=0x7f0f0452;
-    public static final int navigation_system_component_rc=0x7f0f0453;
-    public static final int navigation_system_component_rtk=0x7f0f0454;
-    public static final int navigation_system_component_sdk=0x7f0f0455;
-    public static final int navigation_system_component_spray=0x7f0f0456;
-    public static final int navigation_system_component_system=0x7f0f0457;
-    public static final int navigation_system_component_tof=0x7f0f0458;
-    public static final int navigation_system_component_transformers=0x7f0f0459;
-    public static final int navigation_system_component_ultrasonic=0x7f0f045a;
-    public static final int navigation_system_component_unknown=0x7f0f045b;
-    public static final int navigation_system_component_vision=0x7f0f045c;
-    public static final int navigation_system_tip_accelerometer_bias_error=0x7f0f045d;
-    public static final int navigation_system_tip_accelerometer_cali_error_advanced=0x7f0f045e;
-    public static final int navigation_system_tip_accelerometer_cali_error_basic=0x7f0f045f;
-    public static final int navigation_system_tip_accelerometer_cali_error_direction_rong=0x7f0f0460;
-    public static final int navigation_system_tip_accelerometer_cali_error_horizontal=0x7f0f0461;
-    public static final int navigation_system_tip_accelerometer_cali_error_not_finished=0x7f0f0462;
-    public static final int navigation_system_tip_accelerometer_cali_error_not_in_stanndard_temp=0x7f0f0463;
-    public static final int navigation_system_tip_accelerometer_cali_error_temp_exceeds=0x7f0f0464;
-    public static final int navigation_system_tip_accelerometer_cali_error_temp_not_ready=0x7f0f0465;
-    public static final int navigation_system_tip_accelerometer_cali_falied=0x7f0f0466;
-    public static final int navigation_system_tip_accelerometer_data_error_data_synchronization=0x7f0f0467;
-    public static final int navigation_system_tip_accelerometer_data_error_exceeds_range=0x7f0f0468;
-    public static final int navigation_system_tip_accelerometer_data_error_invalid_data=0x7f0f0469;
-    public static final int navigation_system_tip_accelerometer_data_error_invalid_internal_param=0x7f0f046a;
-    public static final int navigation_system_tip_accelerometer_data_error_measurement_not_matched=0x7f0f046b;
-    public static final int navigation_system_tip_accelerometer_data_error_noise=0x7f0f046c;
-    public static final int navigation_system_tip_accelerometer_data_error_stuck=0x7f0f046d;
-    public static final int navigation_system_tip_accelerometer_disconnect_reset_check=0x7f0f046e;
-    public static final int navigation_system_tip_accelerometer_error_moved=0x7f0f046f;
-    public static final int navigation_system_tip_accelerometer_error_preheat=0x7f0f0470;
-    public static final int navigation_system_tip_accelerometer_flash_error=0x7f0f0471;
-    public static final int navigation_system_tip_accelerometer_install_error=0x7f0f0472;
-    public static final int navigation_system_tip_accelerometer_internal_offset=0x7f0f0473;
-    public static final int navigation_system_tip_accelerometer_mount_error_offeset_incomplete=0x7f0f0474;
-    public static final int navigation_system_tip_accelerometer_mount_error_offset_error=0x7f0f0475;
-    public static final int navigation_system_tip_accelerometer_preheat_error=0x7f0f0476;
-    public static final int navigation_system_tip_accelerometer_temp_error_too_high=0x7f0f0477;
-    public static final int navigation_system_tip_accelerometer_temp_error_too_low=0x7f0f0478;
-    public static final int navigation_system_tip_accelerometer_temp_error_will_too_high=0x7f0f0479;
-    public static final int navigation_system_tip_accelerometer_version_error=0x7f0f047a;
-    public static final int navigation_system_tip_baro_data_error_chage=0x7f0f047b;
-    public static final int navigation_system_tip_baro_data_error_contact_assist=0x7f0f047c;
-    public static final int navigation_system_tip_baro_data_error_drift=0x7f0f047d;
-    public static final int navigation_system_tip_baro_data_error_exceeds_range=0x7f0f047e;
-    public static final int navigation_system_tip_baro_data_error_measurement_not_matched=0x7f0f047f;
-    public static final int navigation_system_tip_baro_data_error_noise=0x7f0f0480;
-    public static final int navigation_system_tip_baro_data_error_stuck=0x7f0f0481;
-    public static final int navigation_system_tip_baro_disconnect_reset_check=0x7f0f0482;
-    public static final int navigation_system_tip_baro_temp_error_keep_cool=0x7f0f0483;
-    public static final int navigation_system_tip_bat_auth_error_contact_assist=0x7f0f0484;
-    public static final int navigation_system_tip_bat_cell_error=0x7f0f0485;
-    public static final int navigation_system_tip_bat_comm_error=0x7f0f0486;
-    public static final int navigation_system_tip_bat_num_low_insert_more=0x7f0f0487;
-    public static final int navigation_system_tip_bat_vol_diff_large_check_status=0x7f0f0488;
-    public static final int navigation_system_tip_bat_vol_diff_very_large_check_status=0x7f0f0489;
-    public static final int navigation_system_tip_bat_vol_low_need_charge=0x7f0f048a;
-    public static final int navigation_system_tip_compass_bias_error=0x7f0f048b;
-    public static final int navigation_system_tip_compass_cali_error_no_param=0x7f0f048c;
-    public static final int navigation_system_tip_compass_cali_falied=0x7f0f048d;
-    public static final int navigation_system_tip_compass_comm_error=0x7f0f048e;
-    public static final int navigation_system_tip_compass_data_error_change=0x7f0f048f;
-    public static final int navigation_system_tip_compass_data_error_exceeds_range=0x7f0f0490;
-    public static final int navigation_system_tip_compass_data_error_noise=0x7f0f0491;
-    public static final int navigation_system_tip_compass_data_error_non_orthogonal_differences=0x7f0f0492;
-    public static final int navigation_system_tip_compass_data_error_not_matched=0x7f0f0493;
-    public static final int navigation_system_tip_compass_data_error_stuck=0x7f0f0494;
-    public static final int navigation_system_tip_compass_disconnect_reset_check=0x7f0f0495;
-    public static final int navigation_system_tip_compass_error_dip_disturbance=0x7f0f0496;
-    public static final int navigation_system_tip_compass_error_ground_disturbance=0x7f0f0497;
-    public static final int navigation_system_tip_compass_mount_error=0x7f0f0498;
-    public static final int navigation_system_tip_compass_mount_error_heading=0x7f0f0499;
-    public static final int navigation_system_tip_compass_scale_error=0x7f0f049a;
-    public static final int navigation_system_tip_esc_error_contact_assist=0x7f0f049b;
-    public static final int navigation_system_tip_gps_data_error_change=0x7f0f049c;
-    public static final int navigation_system_tip_gps_data_error_exceeds_range=0x7f0f049d;
-    public static final int navigation_system_tip_gps_data_error_invalid_data=0x7f0f049e;
-    public static final int navigation_system_tip_gps_data_error_position_not_matched=0x7f0f049f;
-    public static final int navigation_system_tip_gps_data_error_speed_not_matched=0x7f0f04a0;
-    public static final int navigation_system_tip_gps_disconnect_reset_check=0x7f0f04a1;
-    public static final int navigation_system_tip_gps_hdop_error_not_matched=0x7f0f04a2;
-    public static final int navigation_system_tip_gps_low_accuracy_error=0x7f0f04a3;
-    public static final int navigation_system_tip_gps_mount_error_offeset_incomplete=0x7f0f04a4;
-    public static final int navigation_system_tip_gps_mount_error_offset_error=0x7f0f04a5;
-    public static final int navigation_system_tip_gps_update_error_frequency=0x7f0f04a6;
-    public static final int navigation_system_tip_gps_version_error_contact_assist=0x7f0f04a7;
-    public static final int navigation_system_tip_gyroscope_bias_error=0x7f0f04a8;
-    public static final int navigation_system_tip_gyroscope_cali_error_advanced=0x7f0f04a9;
-    public static final int navigation_system_tip_gyroscope_cali_error_basic=0x7f0f04aa;
-    public static final int navigation_system_tip_gyroscope_cali_error_direction_rong=0x7f0f04ab;
-    public static final int navigation_system_tip_gyroscope_cali_error_horizontal=0x7f0f04ac;
-    public static final int navigation_system_tip_gyroscope_cali_error_not_finished=0x7f0f04ad;
-    public static final int navigation_system_tip_gyroscope_cali_error_not_in_stanndard_temp=0x7f0f04ae;
-    public static final int navigation_system_tip_gyroscope_cali_error_temp_exceeds=0x7f0f04af;
-    public static final int navigation_system_tip_gyroscope_cali_error_temp_not_ready=0x7f0f04b0;
-    public static final int navigation_system_tip_gyroscope_cali_falied=0x7f0f04b1;
-    public static final int navigation_system_tip_gyroscope_data_error_data_synchronization=0x7f0f04b2;
-    public static final int navigation_system_tip_gyroscope_data_error_exceeds_range=0x7f0f04b3;
-    public static final int navigation_system_tip_gyroscope_data_error_invalid_data=0x7f0f04b4;
-    public static final int navigation_system_tip_gyroscope_data_error_invalid_internal_param=0x7f0f04b5;
-    public static final int navigation_system_tip_gyroscope_data_error_measurement_not_matched=0x7f0f04b6;
-    public static final int navigation_system_tip_gyroscope_data_error_noise=0x7f0f04b7;
-    public static final int navigation_system_tip_gyroscope_data_error_stuck=0x7f0f04b8;
-    public static final int navigation_system_tip_gyroscope_disconnect_reset_check=0x7f0f04b9;
-    public static final int navigation_system_tip_gyroscope_error_moved=0x7f0f04ba;
-    public static final int navigation_system_tip_gyroscope_error_preheat=0x7f0f04bb;
-    public static final int navigation_system_tip_gyroscope_flash_error=0x7f0f04bc;
-    public static final int navigation_system_tip_gyroscope_install_error=0x7f0f04bd;
-    public static final int navigation_system_tip_gyroscope_preheat_error=0x7f0f04be;
-    public static final int navigation_system_tip_gyroscope_temp_error_too_high=0x7f0f04bf;
-    public static final int navigation_system_tip_gyroscope_temp_error_too_low=0x7f0f04c0;
-    public static final int navigation_system_tip_gyroscope_temp_error_will_too_high=0x7f0f04c1;
-    public static final int navigation_system_tip_gyroscope_version_error=0x7f0f04c2;
-    public static final int navigation_system_tip_imu_acceleration_not_matched=0x7f0f04c3;
-    public static final int navigation_system_tip_imu_angular_velocity_not_matched=0x7f0f04c4;
-    public static final int navigation_system_tip_imu_attitude_not_matched=0x7f0f04c5;
-    public static final int navigation_system_tip_imu_compass_course_measure_difference=0x7f0f04c6;
-    public static final int navigation_system_tip_imu_course_not_matched=0x7f0f04c7;
-    public static final int navigation_system_tip_imu_data_error_height_difference=0x7f0f04c8;
-    public static final int navigation_system_tip_imu_data_error_invalid_data=0x7f0f04c9;
-    public static final int navigation_system_tip_imu_error_disconnected=0x7f0f04ca;
-    public static final int navigation_system_tip_imu_filters_course_not_matched=0x7f0f04cb;
-    public static final int navigation_system_tip_imu_filters_horizontal_attitude_not_matched=0x7f0f04cc;
-    public static final int navigation_system_tip_imu_filters_vertical_velocity_not_matched=0x7f0f04cd;
-    public static final int navigation_system_tip_imu_gps_course_measure_difference=0x7f0f04ce;
-    public static final int navigation_system_tip_imu_gyroscope_bias_estimation_error=0x7f0f04cf;
-    public static final int navigation_system_tip_imu_height_change_rapidly=0x7f0f04d0;
-    public static final int navigation_system_tip_imu_height_drift=0x7f0f04d1;
-    public static final int navigation_system_tip_imu_height_not_matched=0x7f0f04d2;
-    public static final int navigation_system_tip_imu_horizontal_velocity_measure_difference=0x7f0f04d3;
-    public static final int navigation_system_tip_imu_horizontal_velocity_not_matched=0x7f0f04d4;
-    public static final int navigation_system_tip_imu_init_error=0x7f0f04d5;
-    public static final int navigation_system_tip_imu_initializing=0x7f0f04d6;
-    public static final int navigation_system_tip_imu_not_divergence=0x7f0f04d7;
-    public static final int navigation_system_tip_imu_position_velocity_not_matched=0x7f0f04d8;
-    public static final int navigation_system_tip_imu_settle_attitude_difference=0x7f0f04d9;
-    public static final int navigation_system_tip_imu_settle_big_acceleration=0x7f0f04da;
-    public static final int navigation_system_tip_imu_small_filters_course_not_matched=0x7f0f04db;
-    public static final int navigation_system_tip_imu_small_filters_horizontal_attitude_not_matched=0x7f0f04dc;
-    public static final int navigation_system_tip_imu_small_filters_vertical_velocity_not_matched=0x7f0f04dd;
-    public static final int navigation_system_tip_imu_version_error=0x7f0f04de;
-    public static final int navigation_system_tip_imu_vertical_velocity_not_matched=0x7f0f04df;
-    public static final int navigation_system_tip_radar_comm_error_contact_assist=0x7f0f04e0;
-    public static final int navigation_system_tip_radar_data_error=0x7f0f04e1;
-    public static final int navigation_system_tip_radar_data_error_lock_dead=0x7f0f04e2;
-    public static final int navigation_system_tip_radar_disconnect_reset_check=0x7f0f04e3;
-    public static final int navigation_system_tip_radar_mount_error_contact_assist=0x7f0f04e4;
-    public static final int navigation_system_tip_radar_version_error_contact_assist=0x7f0f04e5;
-    public static final int navigation_system_tip_rc_cali_error_center_out_range=0x7f0f04e6;
-    public static final int navigation_system_tip_rc_cali_error_failed_rc_calibration_unfinished=0x7f0f04e7;
-    public static final int navigation_system_tip_rc_cali_error_invalid_params=0x7f0f04e8;
-    public static final int navigation_system_tip_rc_cali_error_mapping=0x7f0f04e9;
-    public static final int navigation_system_tip_rc_cali_error_need_cali=0x7f0f04ea;
-    public static final int navigation_system_tip_rtk_comm_error_adapter_plate=0x7f0f04eb;
-    public static final int navigation_system_tip_rtk_comm_error_contact_assist=0x7f0f04ec;
-    public static final int navigation_system_tip_rtk_comm_error_frequency=0x7f0f04ed;
-    public static final int navigation_system_tip_rtk_data_error_invalid_data=0x7f0f04ee;
-    public static final int navigation_system_tip_rtk_data_error_position_change=0x7f0f04ef;
-    public static final int navigation_system_tip_rtk_data_error_reset_check=0x7f0f04f0;
-    public static final int navigation_system_tip_rtk_data_error_speed_change=0x7f0f04f1;
-    public static final int navigation_system_tip_rtk_disconnect_reset_check=0x7f0f04f2;
-    public static final int navigation_system_tip_rtk_gs_antenna_error_contact_assist=0x7f0f04f3;
-    public static final int navigation_system_tip_rtk_heading_error_check_info=0x7f0f04f4;
-    public static final int navigation_system_tip_rtk_master_antenna_error_contact_assist=0x7f0f04f5;
-    public static final int navigation_system_tip_rtk_mount_error_offeset_incomplete=0x7f0f04f6;
-    public static final int navigation_system_tip_rtk_mount_error_offset_error=0x7f0f04f7;
-    public static final int navigation_system_tip_rtk_slave_antenna_error_contact_assist=0x7f0f04f8;
-    public static final int navigation_system_tip_rtk_unfixed_contact_assist=0x7f0f04f9;
-    public static final int navigation_system_tip_rtk_version_error_contact_assist=0x7f0f04fa;
-    public static final int navigation_system_tip_sys_locked_contact_assist=0x7f0f04fb;
-    public static final int navigation_system_tip_sys_not_activated_activate_fc=0x7f0f04fc;
-    public static final int navigation_system_tip_sys_sd_card_error_repair=0x7f0f04fd;
-    public static final int navigation_system_tip_sys_serial_num_invalid_contact_assist=0x7f0f04fe;
-    public static final int navigation_system_tip_sys_thrust_ratio_large_contact_assist=0x7f0f04ff;
-    public static final int navigation_system_tip_us_comm_error_contact_assist=0x7f0f0500;
-    public static final int navigation_system_tip_us_data_error_contact_assist=0x7f0f0501;
-    public static final int navigation_system_tip_us_data_error_stuck=0x7f0f0502;
-    public static final int navigation_system_tip_us_disconnect_reset_check=0x7f0f0503;
-    public static final int navigation_system_tip_us_mount_error_contact_assist=0x7f0f0504;
-    public static final int navigation_system_tip_us_version_error_contact_assist=0x7f0f0505;
-    public static final int navigation_system_tip_vps_comm_error_contact_assist=0x7f0f0506;
-    public static final int navigation_system_tip_vps_data_error_contact_assist=0x7f0f0507;
-    public static final int navigation_system_tip_vps_data_error_position_change=0x7f0f0508;
-    public static final int navigation_system_tip_vps_data_error_speed_change=0x7f0f0509;
-    public static final int navigation_system_tip_vps_data_error_stuck=0x7f0f050a;
-    public static final int navigation_system_tip_vps_disconnect_reset_check=0x7f0f050b;
-    public static final int navigation_system_tip_vps_mount_error_contact_assist=0x7f0f050c;
-    public static final int navigation_system_tip_vps_version_error_contact_assist=0x7f0f050d;
-    public static final int never_show=0x7f0f050e;
-    public static final int nfz_fly_zone_airport=0x7f0f050f;
-    public static final int nfz_fly_zone_airports_commercial=0x7f0f0510;
-    public static final int nfz_fly_zone_airports_commercial_private=0x7f0f0511;
-    public static final int nfz_fly_zone_airports_recreational=0x7f0f0512;
-    public static final int nfz_fly_zone_airports_recreational_private=0x7f0f0513;
-    public static final int nfz_fly_zone_class_b=0x7f0f0514;
-    public static final int nfz_fly_zone_class_c=0x7f0f0515;
-    public static final int nfz_fly_zone_class_d=0x7f0f0516;
-    public static final int nfz_fly_zone_class_e0=0x7f0f0517;
-    public static final int nfz_fly_zone_heliports=0x7f0f0518;
-    public static final int nfz_fly_zone_military=0x7f0f0519;
-    public static final int nfz_fly_zone_national_parks=0x7f0f051a;
-    public static final int nfz_fly_zone_noaa=0x7f0f051b;
-    public static final int nfz_fly_zone_nuclear_power_plant=0x7f0f051c;
-    public static final int nfz_fly_zone_parcels=0x7f0f051d;
-    public static final int nfz_fly_zone_power_plants=0x7f0f051e;
-    public static final int nfz_fly_zone_prisons=0x7f0f051f;
-    public static final int nfz_fly_zone_schools=0x7f0f0520;
-    public static final int nfz_fly_zone_stadiums=0x7f0f0521;
-    public static final int nfz_fly_zone_sua_prhobited=0x7f0f0522;
-    public static final int nfz_fly_zone_sua_restricted=0x7f0f0523;
-    public static final int nfz_fly_zone_tfrs=0x7f0f0524;
-    public static final int nfz_fly_zone_unpaved_airports=0x7f0f0525;
-    public static final int nfz_fly_zone_warning=0x7f0f0526;
-    public static final int nfz_http_request_area_cannot_unlock_error_prompt=0x7f0f0527;
-    public static final int nfz_http_request_error_common_prompt=0x7f0f0528;
-    public static final int nfz_http_request_token_error_prompt=0x7f0f0529;
-    public static final int nfz_http_request_too_more_license_error_prompt=0x7f0f052a;
-    public static final int nfz_http_request_too_more_unlock_error_prompt=0x7f0f052b;
-    public static final int nfz_http_request_verify_error_prompt=0x7f0f052c;
-    public static final int nfz_limit_tips_rth_cross=0x7f0f052d;
-    public static final int nfz_limit_tips_rth_near=0x7f0f052e;
-    public static final int nfz_no_network=0x7f0f052f;
-    public static final int nfz_not_verified=0x7f0f0530;
-    public static final int nfz_server_error_account_format=0x7f0f0531;
-    public static final int nfz_server_error_format=0x7f0f0532;
-    public static final int nfz_server_error_not_allow_unlimit=0x7f0f0533;
-    public static final int nfz_server_error_not_login=0x7f0f0534;
-    public static final int nfz_server_error_parameter=0x7f0f0535;
-    public static final int nfz_server_error_signature=0x7f0f0536;
-    public static final int nfz_server_error_sn_empty=0x7f0f0537;
-    public static final int nfz_server_error_system_busy=0x7f0f0538;
-    public static final int nfz_server_error_too_frequent=0x7f0f0539;
-    public static final int nfz_server_error_too_more_unlimit=0x7f0f053a;
-    public static final int nfz_server_error_user_not_verify=0x7f0f053b;
-    public static final int nfz_system_busy=0x7f0f053c;
-    public static final int nfz_unlimit_fail_toast_txt=0x7f0f053d;
-    public static final int nfz_unlock_desc_radius=0x7f0f053e;
-    public static final int nfz_unlock_new_unlock_type_country=0x7f0f053f;
-    public static final int nfz_unlock_new_unlock_type_geo=0x7f0f0540;
-    public static final int nfz_unlock_new_unlock_type_height=0x7f0f0541;
-    public static final int nfz_unlock_new_unlock_type_polygon=0x7f0f0542;
-    public static final int nfz_unlock_new_unlock_type_whitelist=0x7f0f0543;
-    public static final int nfz_unlock_special_polygon_desc=0x7f0f0544;
-    public static final int nfz_unlock_v3_app_license_too_old=0x7f0f0545;
-    public static final int nfz_unlock_v3_app_license_too_old_dynamic=0x7f0f0546;
-    public static final int nfz_unlock_v3_error_code=0x7f0f0547;
-    public static final int nfz_unlock_v3_error_keyversion_not_got=0x7f0f0548;
-    public static final int nfz_unlock_v3_error_keyversion_not_got_importing=0x7f0f0549;
-    public static final int nfz_unlock_v3_license_open_fail_user_not_match=0x7f0f054a;
-    public static final int nfz_unlock_v3_uav_license_too_old=0x7f0f054b;
-    public static final int nfz_unlock_view_map=0x7f0f054c;
-    public static final int normal=0x7f0f054d;
-    public static final int null_string=0x7f0f054e;
-    public static final int off=0x7f0f054f;
-    public static final int offline_map_all_pausing_text=0x7f0f0550;
-    public static final int offline_map_all_upgrade=0x7f0f0551;
-    public static final int offline_map_cancel_text=0x7f0f0552;
-    public static final int offline_map_cancelled_text=0x7f0f0553;
-    public static final int offline_map_confirm_text=0x7f0f0554;
-    public static final int offline_map_delete_failing_info=0x7f0f0555;
-    public static final int offline_map_delete_text=0x7f0f0556;
-    public static final int offline_map_download_all_cities=0x7f0f0557;
-    public static final int offline_map_download_all_countries=0x7f0f0558;
-    public static final int offline_map_download_all_regions=0x7f0f0559;
-    public static final int offline_map_download_invalid=0x7f0f055a;
-    public static final int offline_map_download_pause=0x7f0f055b;
-    public static final int offline_map_download_stop=0x7f0f055c;
-    public static final int offline_map_download_successfully=0x7f0f055d;
-    public static final int offline_map_download_text=0x7f0f055e;
-    public static final int offline_map_downloaded=0x7f0f055f;
-    public static final int offline_map_downloaded_text=0x7f0f0560;
-    public static final int offline_map_downloading=0x7f0f0561;
-    public static final int offline_map_downloading_text=0x7f0f0562;
-    public static final int offline_map_get_offlinecity_list=0x7f0f0563;
-    public static final int offline_map_gps_location_off=0x7f0f0564;
-    public static final int offline_map_header_bar_management_title=0x7f0f0565;
-    public static final int offline_map_header_bar_title=0x7f0f0566;
-    public static final int offline_map_hint_no_satellite_map=0x7f0f0567;
-    public static final int offline_map_manager_all_download=0x7f0f0568;
-    public static final int offline_map_manager_all_pause=0x7f0f0569;
-    public static final int offline_map_manager_all_upgrade=0x7f0f056a;
-    public static final int offline_map_manager_download=0x7f0f056b;
-    public static final int offline_map_manager_empty_message=0x7f0f056c;
-    public static final int offline_map_mapbox_downloading_region=0x7f0f056d;
-    public static final int offline_map_mapbox_select_region_download=0x7f0f056e;
-    public static final int offline_map_multiple_region_downloading_warning=0x7f0f056f;
-    public static final int offline_map_multiple_region_downloading_warning_content=0x7f0f0570;
-    public static final int offline_map_name_new_region_title=0x7f0f0571;
-    public static final int offline_map_network_disconnected=0x7f0f0572;
-    public static final int offline_map_network_disconnected_hint=0x7f0f0573;
-    public static final int offline_map_network_exception=0x7f0f0574;
-    public static final int offline_map_network_type_in_mobile=0x7f0f0575;
-    public static final int offline_map_network_type_in_mobile_hint=0x7f0f0576;
-    public static final int offline_map_pause_text=0x7f0f0577;
-    public static final int offline_map_pausing_text=0x7f0f0578;
-    public static final int offline_map_region_default_name=0x7f0f0579;
-    public static final int offline_map_region_list_item_menu_cancel=0x7f0f057a;
-    public static final int offline_map_region_list_item_menu_delete=0x7f0f057b;
-    public static final int offline_map_region_list_item_menu_delete_failed=0x7f0f057c;
-    public static final int offline_map_region_list_item_menu_pause=0x7f0f057d;
-    public static final int offline_map_region_list_item_menu_rename=0x7f0f057e;
-    public static final int offline_map_region_list_item_menu_resume=0x7f0f057f;
-    public static final int offline_map_region_name=0x7f0f0580;
-    public static final int offline_map_region_name_cannot_be_empty=0x7f0f0581;
-    public static final int offline_map_region_name_input_hint=0x7f0f0582;
-    public static final int offline_map_search_hint_text=0x7f0f0583;
-    public static final int offline_map_search_no_data_hint=0x7f0f0584;
-    public static final int offline_map_server_no_response=0x7f0f0585;
-    public static final int offline_map_setting=0x7f0f0586;
-    public static final int offline_map_storage_space=0x7f0f0587;
-    public static final int offline_map_storage_space_no_enough=0x7f0f0588;
-    public static final int offline_map_storage_space_no_enough_hint=0x7f0f0589;
-    public static final int offline_map_storage_space_no_enough_resume_download=0x7f0f058a;
-    public static final int offline_map_tips=0x7f0f058b;
-    public static final int offline_map_unzip_text=0x7f0f058c;
-    public static final int offline_map_upgrade_text=0x7f0f058d;
-    public static final int offline_map_waitting_text=0x7f0f058e;
-    public static final int ok=0x7f0f058f;
-    public static final int overall_status=0x7f0f0590;
-    public static final int parallel=0x7f0f0591;
-    public static final int parallel_diagonal=0x7f0f0592;
-    public static final int password_changed_successfully=0x7f0f0593;
-    public static final int password_removed_successfully=0x7f0f0594;
-    public static final int password_set_failed=0x7f0f0595;
-    public static final int password_set_successfully=0x7f0f0596;
-    public static final int passwords_do_not_match_error=0x7f0f0597;
-    public static final int pip_mode=0x7f0f0598;
-    public static final int pip_mode_center=0x7f0f0599;
-    public static final int pip_mode_center_bottom=0x7f0f059a;
-    public static final int pip_mode_center_top=0x7f0f059b;
-    public static final int pip_mode_left_bottom=0x7f0f059c;
-    public static final int pip_mode_left_center=0x7f0f059d;
-    public static final int pip_mode_left_top=0x7f0f059e;
-    public static final int pip_mode_link_up=0x7f0f059f;
-    public static final int pip_mode_right_bottom=0x7f0f05a0;
-    public static final int pip_mode_right_center=0x7f0f05a1;
-    public static final int pip_mode_right_top=0x7f0f05a2;
-    public static final int pip_mode_side_by_side=0x7f0f05a3;
-    public static final int place_autocomplete_clear_button=0x7f0f05a4;
-    public static final int place_autocomplete_search_hint=0x7f0f05a5;
-    public static final int port_side=0x7f0f05a6;
-    public static final int preflight_checklist_gimbal_status=0x7f0f05a7;
-    public static final int preflight_range=0x7f0f05a8;
-    public static final int product_information=0x7f0f05a9;
-    public static final int provider_init_failed=0x7f0f05aa;
-    public static final int radio_quality=0x7f0f05ab;
-    public static final int remote_controller_battery=0x7f0f05ac;
-    public static final int remote_controller_mode=0x7f0f05ad;
-    public static final int remove=0x7f0f05ae;
-    public static final int remove_password=0x7f0f05af;
-    public static final int remove_password_failed=0x7f0f05b0;
-    public static final int remove_password_warning=0x7f0f05b1;
-    public static final int rtk_introduction_txt=0x7f0f05b2;
-    public static final int rtk_panel_aircraft_altitude_wrt=0x7f0f05b3;
-    public static final int rtk_panel_aircraft_location=0x7f0f05b4;
-    public static final int rtk_panel_antenna_1=0x7f0f05b5;
-    public static final int rtk_panel_antenna_2=0x7f0f05b6;
-    public static final int rtk_panel_antenna_angle=0x7f0f05b7;
-    public static final int rtk_panel_base_station=0x7f0f05b8;
-    public static final int rtk_panel_base_station_location=0x7f0f05b9;
-    public static final int rtk_panel_glonass_num=0x7f0f05ba;
-    public static final int rtk_panel_gps_num=0x7f0f05bb;
-    public static final int rtk_panel_height=0x7f0f05bc;
-    public static final int rtk_panel_lat=0x7f0f05bd;
-    public static final int rtk_panel_lng=0x7f0f05be;
-    public static final int rtk_panel_north_num=0x7f0f05bf;
-    public static final int rtk_panel_orientation_status_text=0x7f0f05c0;
-    public static final int rtk_panel_positioning_status_text=0x7f0f05c1;
-    public static final int rtk_panel_satellite_num=0x7f0f05c2;
-    public static final int rtk_panel_title=0x7f0f05c3;
-    public static final int save_original_warning_message=0x7f0f05c4;
-    public static final int save_original_warning_title=0x7f0f05c5;
-    public static final int scan_qr_bar_tip=0x7f0f05c6;
-    public static final int sd_card_busy=0x7f0f05c7;
-    public static final int sd_card_capacity=0x7f0f05c8;
-    public static final int sd_card_formatting=0x7f0f05c9;
-    public static final int sd_card_full=0x7f0f05ca;
-    public static final int sd_card_initial=0x7f0f05cb;
-    public static final int sd_card_invalid=0x7f0f05cc;
-    public static final int sd_card_missing=0x7f0f05cd;
-    public static final int sd_card_needs_formatting=0x7f0f05ce;
-    public static final int sd_card_not_formatted=0x7f0f05cf;
-    public static final int sd_card_recover_file=0x7f0f05d0;
-    public static final int sd_card_remaining_space=0x7f0f05d1;
-    public static final int sd_card_slow=0x7f0f05d2;
-    public static final int sd_card_unknown_error=0x7f0f05d3;
-    public static final int sd_card_usb_connected=0x7f0f05d4;
-    public static final int sd_card_write_protect=0x7f0f05d5;
-    public static final int sd_card_write_slow=0x7f0f05d6;
-    public static final int sdk_version=0x7f0f05d7;
-    public static final int sdk_wifi_permission_description=0x7f0f05d8;
-    public static final int sdk_wifi_permission_label=0x7f0f05d9;
-    public static final int search_menu_title=0x7f0f05da;
-    public static final int security_password_warning=0x7f0f05db;
-    public static final int select_action_header=0x7f0f05dc;
-    public static final int select_action_message=0x7f0f05dd;
-    public static final int self_fly_zone_login_requirement=0x7f0f05de;
-    public static final int sensor_system_tip_ultrasonic_data_error_stuck=0x7f0f05df;
-    public static final int set_password=0x7f0f05e0;
-    public static final int set_password_warning=0x7f0f05e1;
-    public static final int setting_foot=0x7f0f05e2;
-    public static final int setting_metric=0x7f0f05e3;
-    public static final int setting_ui_flyfrb_unlock_refresh_empty=0x7f0f05e4;
-    public static final int setting_ui_flyfrb_unlock_refresh_fail=0x7f0f05e5;
-    public static final int setting_ui_flyfrb_unlock_refresh_success=0x7f0f05e6;
-    public static final int settings_alert_title=0x7f0f05e7;
-    public static final int simulator_aircraft_status_title=0x7f0f05e8;
-    public static final int simulator_aircraft_wind_title=0x7f0f05e9;
-    public static final int simulator_attitude_title=0x7f0f05ea;
-    public static final int simulator_input_val_error=0x7f0f05eb;
-    public static final int simulator_null_string=0x7f0f05ec;
-    public static final int simulator_position_title=0x7f0f05ed;
-    public static final int simulator_preset=0x7f0f05ee;
-    public static final int simulator_save_preset=0x7f0f05ef;
-    public static final int simulator_save_preset_delete=0x7f0f05f0;
-    public static final int simulator_save_preset_list=0x7f0f05f1;
-    public static final int simulator_save_preset_list_empty=0x7f0f05f2;
-    public static final int simulator_save_preset_message=0x7f0f05f3;
-    public static final int simulator_widget_flying_state=0x7f0f05f4;
-    public static final int simulator_widget_frequency=0x7f0f05f5;
-    public static final int simulator_widget_lat=0x7f0f05f6;
-    public static final int simulator_widget_lng=0x7f0f05f7;
-    public static final int simulator_widget_motor_started=0x7f0f05f8;
-    public static final int simulator_widget_pitch=0x7f0f05f9;
-    public static final int simulator_widget_roll=0x7f0f05fa;
-    public static final int simulator_widget_satellite=0x7f0f05fb;
-    public static final int simulator_widget_title=0x7f0f05fc;
-    public static final int simulator_widget_world_x=0x7f0f05fd;
-    public static final int simulator_widget_world_y=0x7f0f05fe;
-    public static final int simulator_widget_world_z=0x7f0f05ff;
-    public static final int simulator_widget_yaw=0x7f0f0600;
-    public static final int simulator_zero_string=0x7f0f0601;
-    public static final int slow_tag=0x7f0f0602;
-    public static final int solution_insert_second_sdcard=0x7f0f0603;
-    public static final int speaker_panel_broadcast=0x7f0f0604;
-    public static final int speaker_panel_header=0x7f0f0605;
-    public static final int speaker_panel_list_prefix=0x7f0f0606;
-    public static final int speaker_panel_local_audio=0x7f0f0607;
-    public static final int speaker_panel_play_instant_switch=0x7f0f0608;
-    public static final int speaker_panel_play_repeat_mode=0x7f0f0609;
-    public static final int speaker_panel_tap_to_record=0x7f0f060a;
-    public static final int speaker_panel_temporary_switch=0x7f0f060b;
-    public static final int speaker_panel_volume=0x7f0f060c;
-    public static final int speaker_record_permission_required=0x7f0f060d;
-    public static final int speed_unit=0x7f0f060e;
-    public static final int spotlight=0x7f0f060f;
-    public static final int spotlight_brightness=0x7f0f0610;
-    public static final int spotlight_brightness_value=0x7f0f0611;
-    public static final int spotlight_brightness_warning=0x7f0f0612;
-    public static final int spotlight_settings=0x7f0f0613;
-    public static final int spotlight_temperature=0x7f0f0614;
-    public static final int spotlight_temperature_value=0x7f0f0615;
-    public static final int ssd_status_error_nossd=0x7f0f0616;
-    public static final int ssd_status_formatting=0x7f0f0617;
-    public static final int ssd_status_full=0x7f0f0618;
-    public static final int ssd_status_init=0x7f0f0619;
-    public static final int ssd_status_need_format=0x7f0f061a;
-    public static final int ssd_status_poor_connection=0x7f0f061b;
-    public static final int ssd_status_recognize_failed=0x7f0f061c;
-    public static final int ssd_status_switching_mode=0x7f0f061d;
-    public static final int ssd_status_verify_failed=0x7f0f061e;
-    public static final int starboard_side=0x7f0f061f;
-    public static final int status_bar_notification_info_overflow=0x7f0f0620;
-    public static final int storage_title_capacity=0x7f0f0621;
-    public static final int storage_title_time=0x7f0f0622;
-    public static final int storage_value_full=0x7f0f0623;
-    public static final int stream_observer_desc_aoa_get_body=0x7f0f0624;
-    public static final int stream_observer_desc_aoa_get_stream=0x7f0f0625;
-    public static final int stream_observer_desc_aoa_get_stream_47=0x7f0f0626;
-    public static final int stream_observer_desc_aoa_get_stream_52=0x7f0f0627;
-    public static final int stream_observer_desc_aoa_get_stream_default=0x7f0f0628;
-    public static final int stream_observer_desc_aoa_get_stream_dual=0x7f0f0629;
-    public static final int stream_observer_desc_aoa_get_stream_single=0x7f0f062a;
-    public static final int stream_observer_desc_aoa_handle_new_method=0x7f0f062b;
-    public static final int stream_observer_desc_aoa_handle_old_method=0x7f0f062c;
-    public static final int stream_observer_desc_aoa_put_video_buffer=0x7f0f062d;
-    public static final int stream_observer_desc_aoa_put_video_not_buffer=0x7f0f062e;
-    public static final int stream_observer_desc_aoa_trans_video_data_need_pack=0x7f0f062f;
-    public static final int stream_observer_desc_aoa_trans_video_data_no_need_pack=0x7f0f0630;
-    public static final int stream_observer_desc_audio_record=0x7f0f0631;
-    public static final int stream_observer_desc_decoder_queue_in=0x7f0f0632;
-    public static final int stream_observer_desc_decoder_queue_to_codec=0x7f0f0633;
-    public static final int stream_observer_desc_dpad_cmd_service_parse=0x7f0f0634;
-    public static final int stream_observer_desc_dpad_udp_service_parse=0x7f0f0635;
-    public static final int stream_observer_desc_dpad_udp_service_parse1=0x7f0f0636;
-    public static final int stream_observer_desc_dpad_udp_service_parse2=0x7f0f0637;
-    public static final int stream_observer_desc_dpad_udp_service_parse_ip0=0x7f0f0638;
-    public static final int stream_observer_desc_dpad_udp_service_parse_ip1=0x7f0f0639;
-    public static final int stream_observer_desc_dpad_udp_service_parse_lte=0x7f0f063a;
-    public static final int stream_observer_desc_full_frame_transcodr_enc_data=0x7f0f063b;
-    public static final int stream_observer_desc_glyuv_surface_display=0x7f0f063c;
-    public static final int stream_observer_desc_mammoth_service=0x7f0f063d;
-    public static final int stream_observer_desc_online_transcoder_frame_input=0x7f0f063e;
-    public static final int stream_observer_desc_online_transcoder_run=0x7f0f063f;
-    public static final int stream_observer_desc_p3c_service=0x7f0f0640;
-    public static final int stream_observer_desc_recorder_audio_full_frame_input=0x7f0f0641;
-    public static final int stream_observer_desc_recorder_audio_mp4_input=0x7f0f0642;
-    public static final int stream_observer_desc_recorder_full_frame_input=0x7f0f0643;
-    public static final int stream_observer_desc_recorder_mp4_input=0x7f0f0644;
-    public static final int stream_observer_desc_recorder_quick_movie_normal=0x7f0f0645;
-    public static final int stream_observer_desc_recorder_quick_movie_quick=0x7f0f0646;
-    public static final int stream_observer_desc_recorder_speed_adjust_input=0x7f0f0647;
-    public static final int stream_observer_desc_send_message=0x7f0f0648;
-    public static final int stream_observer_desc_sw_udp_service_parse=0x7f0f0649;
-    public static final int stream_observer_desc_udt_runnable=0x7f0f064a;
-    public static final int stream_observer_desc_video_data_recver_not_raw=0x7f0f064b;
-    public static final int stream_observer_stream_source=0x7f0f064c;
-    public static final int string_default_value=0x7f0f064d;
-    public static final int takeoff_inatti=0x7f0f064e;
-    public static final int thermal_Camera_temp_alert_tips=0x7f0f064f;
-    public static final int thermal_camera_atmosphere_temperature=0x7f0f0650;
-    public static final int thermal_camera_atmosphere_transmission_coefficient=0x7f0f0651;
-    public static final int thermal_camera_background_temperature=0x7f0f0652;
-    public static final int thermal_camera_external_parameter=0x7f0f0653;
-    public static final int thermal_camera_ffc_mode=0x7f0f0654;
-    public static final int thermal_camera_ffc_mode_auto=0x7f0f0655;
-    public static final int thermal_camera_ffc_mode_manual=0x7f0f0656;
-    public static final int thermal_camera_gain_mode=0x7f0f0657;
-    public static final int thermal_camera_gain_mode_auto=0x7f0f0658;
-    public static final int thermal_camera_gain_mode_high=0x7f0f0659;
-    public static final int thermal_camera_gain_mode_low=0x7f0f065a;
-    public static final int thermal_camera_isotherm=0x7f0f065b;
-    public static final int thermal_camera_isotherm_close=0x7f0f065c;
-    public static final int thermal_camera_isotherm_lower=0x7f0f065d;
-    public static final int thermal_camera_isotherm_middle=0x7f0f065e;
-    public static final int thermal_camera_isotherm_open=0x7f0f065f;
-    public static final int thermal_camera_isotherm_search_custom=0x7f0f0660;
-    public static final int thermal_camera_isotherm_search_fire=0x7f0f0661;
-    public static final int thermal_camera_isotherm_search_people=0x7f0f0662;
-    public static final int thermal_camera_isotherm_unit=0x7f0f0663;
-    public static final int thermal_camera_isotherm_unit_percentage=0x7f0f0664;
-    public static final int thermal_camera_isotherm_unit_temperature=0x7f0f0665;
-    public static final int thermal_camera_isotherm_upper=0x7f0f0666;
-    public static final int thermal_camera_msx_offset=0x7f0f0667;
-    public static final int thermal_camera_msx_offset_reset=0x7f0f0668;
-    public static final int thermal_camera_palette=0x7f0f0669;
-    public static final int thermal_camera_palette_arctic=0x7f0f066a;
-    public static final int thermal_camera_palette_arcticblackhot_iso=0x7f0f066b;
-    public static final int thermal_camera_palette_black_hot=0x7f0f066c;
-    public static final int thermal_camera_palette_blackhot_iso=0x7f0f066d;
-    public static final int thermal_camera_palette_color1_iso=0x7f0f066e;
-    public static final int thermal_camera_palette_color2_iso=0x7f0f066f;
-    public static final int thermal_camera_palette_color_1=0x7f0f0670;
-    public static final int thermal_camera_palette_color_2=0x7f0f0671;
-    public static final int thermal_camera_palette_fusion=0x7f0f0672;
-    public static final int thermal_camera_palette_fusion_iso=0x7f0f0673;
-    public static final int thermal_camera_palette_globow_iso=0x7f0f0674;
-    public static final int thermal_camera_palette_glow_bow=0x7f0f0675;
-    public static final int thermal_camera_palette_green_hot=0x7f0f0676;
-    public static final int thermal_camera_palette_greenhot_iso=0x7f0f0677;
-    public static final int thermal_camera_palette_ice_fire=0x7f0f0678;
-    public static final int thermal_camera_palette_icefire_iso=0x7f0f0679;
-    public static final int thermal_camera_palette_iron_bow_1=0x7f0f067a;
-    public static final int thermal_camera_palette_iron_bow_2=0x7f0f067b;
-    public static final int thermal_camera_palette_ironbow2_iso=0x7f0f067c;
-    public static final int thermal_camera_palette_ironbow_iso=0x7f0f067d;
-    public static final int thermal_camera_palette_rain=0x7f0f067e;
-    public static final int thermal_camera_palette_rain_iso=0x7f0f067f;
-    public static final int thermal_camera_palette_rainbow=0x7f0f0680;
-    public static final int thermal_camera_palette_rainbow_iso=0x7f0f0681;
-    public static final int thermal_camera_palette_red_hot=0x7f0f0682;
-    public static final int thermal_camera_palette_redhot_iso=0x7f0f0683;
-    public static final int thermal_camera_palette_sepia=0x7f0f0684;
-    public static final int thermal_camera_palette_sepia_iso=0x7f0f0685;
-    public static final int thermal_camera_palette_white_hot=0x7f0f0686;
-    public static final int thermal_camera_palette_whitehot_iso=0x7f0f0687;
-    public static final int thermal_camera_profile=0x7f0f0688;
-    public static final int thermal_camera_roi=0x7f0f0689;
-    public static final int thermal_camera_roi_full=0x7f0f068a;
-    public static final int thermal_camera_roi_sky_excluded_33=0x7f0f068b;
-    public static final int thermal_camera_roi_sky_excluded_50=0x7f0f068c;
-    public static final int thermal_camera_scene=0x7f0f068d;
-    public static final int thermal_camera_scene_default=0x7f0f068e;
-    public static final int thermal_camera_scene_emissivity=0x7f0f068f;
-    public static final int thermal_camera_scene_indoor=0x7f0f0690;
-    public static final int thermal_camera_scene_linear=0x7f0f0691;
-    public static final int thermal_camera_scene_manual=0x7f0f0692;
-    public static final int thermal_camera_scene_outdoor=0x7f0f0693;
-    public static final int thermal_camera_scene_profile_1=0x7f0f0694;
-    public static final int thermal_camera_scene_profile_2=0x7f0f0695;
-    public static final int thermal_camera_scene_profile_3=0x7f0f0696;
-    public static final int thermal_camera_scene_sea_sky=0x7f0f0697;
-    public static final int thermal_camera_temp_alert=0x7f0f0698;
-    public static final int thermal_camera_temp_alert_close=0x7f0f0699;
-    public static final int thermal_camera_temp_alert_open=0x7f0f069a;
-    public static final int thermal_camera_temp_threshold=0x7f0f069b;
-    public static final int thermal_camera_title=0x7f0f069c;
-    public static final int thermal_camera_trigger_ffc=0x7f0f069d;
-    public static final int thermal_camera_version_advanced=0x7f0f069e;
-    public static final int thermal_camera_version_standard=0x7f0f069f;
-    public static final int thermal_camera_window_reflected_temperature=0x7f0f06a0;
-    public static final int thermal_camera_window_reflection=0x7f0f06a1;
-    public static final int thermal_camera_window_temperature=0x7f0f06a2;
-    public static final int thermal_camera_window_transmission_coefficient=0x7f0f06a3;
-    public static final int thermal_camera_x_offset_title=0x7f0f06a4;
-    public static final int thermal_camera_y_offset_title=0x7f0f06a5;
-    public static final int time_hours_mins_secs=0x7f0f06a6;
-    public static final int time_mins_secs=0x7f0f06a7;
-    public static final int tips_adsb_dangerous_content=0x7f0f06a8;
-    public static final int tips_adsb_warning_content=0x7f0f06a9;
-    public static final int tips_adsb_warning_title=0x7f0f06aa;
-    public static final int title_main_activity=0x7f0f06ab;
-    public static final int unlimit_type_airport=0x7f0f06ac;
-    public static final int unlimit_type_class_b=0x7f0f06ad;
-    public static final int unlimit_type_class_c=0x7f0f06ae;
-    public static final int unlimit_type_class_d=0x7f0f06af;
-    public static final int unlimit_type_class_e=0x7f0f06b0;
-    public static final int unlimit_type_commerial_airport=0x7f0f06b1;
-    public static final int unlimit_type_heliport=0x7f0f06b2;
-    public static final int unlimit_type_military=0x7f0f06b3;
-    public static final int unlimit_type_national_park=0x7f0f06b4;
-    public static final int unlimit_type_noaa=0x7f0f06b5;
-    public static final int unlimit_type_nuclear_power_plant=0x7f0f06b6;
-    public static final int unlimit_type_parcel=0x7f0f06b7;
-    public static final int unlimit_type_power_plant=0x7f0f06b8;
-    public static final int unlimit_type_prison=0x7f0f06b9;
-    public static final int unlimit_type_private_commerial_airport=0x7f0f06ba;
-    public static final int unlimit_type_private_recreational_airport=0x7f0f06bb;
-    public static final int unlimit_type_recreational_airport=0x7f0f06bc;
-    public static final int unlimit_type_school=0x7f0f06bd;
-    public static final int unlimit_type_seaplane=0x7f0f06be;
-    public static final int unlimit_type_special=0x7f0f06bf;
-    public static final int unlimit_type_stadium=0x7f0f06c0;
-    public static final int unlimit_type_sua_prohibited=0x7f0f06c1;
-    public static final int unlimit_type_sub_restricte=0x7f0f06c2;
-    public static final int unlimit_type_tfrs=0x7f0f06c3;
-    public static final int unlimit_type_unknown=0x7f0f06c4;
-    public static final int unlimit_type_unpaved_airports=0x7f0f06c5;
-    public static final int unlock=0x7f0f06c6;
-    public static final int unrecognized_notice_event=0x7f0f06c7;
-    public static final int unrecognized_rth_event=0x7f0f06c8;
-    public static final int unrecognized_serious_warning_event=0x7f0f06c9;
-    public static final int unrecognized_warning_event=0x7f0f06ca;
-    public static final int user_log_action_failed=0x7f0f06cb;
-    public static final int user_log_in_button=0x7f0f06cc;
-    public static final int user_log_in_successful=0x7f0f06cd;
-    public static final int user_log_out_button=0x7f0f06ce;
-    public static final int user_log_out_confirmation=0x7f0f06cf;
-    public static final int user_log_out_successful=0x7f0f06d0;
-    public static final int v2_nfz_unlock_geo_type=0x7f0f06d1;
-    public static final int v2_nfz_unlock_white_list_type=0x7f0f06d2;
-    public static final int value_unknown=0x7f0f06d3;
-    public static final int vertical=0x7f0f06d4;
-    public static final int vertical_speed_title=0x7f0f06d5;
-    public static final int visible_camera_title=0x7f0f06d6;
-    public static final int vision_positioning_system_title=0x7f0f06d7;
-    public static final int vision_status=0x7f0f06d8;
-    public static final int zxing_app_name=0x7f0f06d9;
-    public static final int zxing_button_ok=0x7f0f06da;
-    public static final int zxing_msg_camera_framework_bug=0x7f0f06db;
-    public static final int zxing_msg_default_status=0x7f0f06dc;
+    public static final int androidx_camera_default_config_provider=0x7f0f002b;
+    public static final int apas_widget_disabled=0x7f0f002c;
+    public static final int apas_widget_enabled=0x7f0f002d;
+    public static final int apas_widget_temp_disabled=0x7f0f002e;
+    public static final int aperture_title=0x7f0f002f;
+    public static final int app_agree=0x7f0f0030;
+    public static final int app_alert=0x7f0f0031;
+    public static final int app_cancel=0x7f0f0032;
+    public static final int app_disable=0x7f0f0033;
+    public static final int app_enable=0x7f0f0034;
+    public static final int app_name=0x7f0f0035;
+    public static final int app_name_distortion=0x7f0f0036;
+    public static final int app_name_flySafeDataBase=0x7f0f0037;
+    public static final int app_name_fly_forbid=0x7f0f0038;
+    public static final int app_no=0x7f0f0039;
+    public static final int app_ok=0x7f0f003a;
+    public static final int app_refuse=0x7f0f003b;
+    public static final int app_retry=0x7f0f003c;
+    public static final int app_save=0x7f0f003d;
+    public static final int app_set_value_failed=0x7f0f003e;
+    public static final int app_set_value_successful=0x7f0f003f;
+    public static final int app_tip=0x7f0f0040;
+    public static final int app_warning=0x7f0f0041;
+    public static final int app_yes=0x7f0f0042;
+    public static final int auto_gimbal_lock=0x7f0f0043;
+    public static final int battery_percent=0x7f0f0044;
+    public static final int battery_voltage_unit=0x7f0f0045;
+    public static final int camera_anti_flick_name=0x7f0f0046;
+    public static final int camera_anti_flick_trigger_tip=0x7f0f0047;
+    public static final int camera_anti_flick_trigger_title=0x7f0f0048;
+    public static final int camera_anti_flicker_reset=0x7f0f0049;
+    public static final int camera_anti_flicker_reset_desc=0x7f0f004a;
+    public static final int camera_antiblink_50=0x7f0f004b;
+    public static final int camera_antiblink_60=0x7f0f004c;
+    public static final int camera_antiblink_auto=0x7f0f004d;
+    public static final int camera_center_point=0x7f0f004e;
+    public static final int camera_color_waveform=0x7f0f004f;
+    public static final int camera_contrast=0x7f0f0050;
+    public static final int camera_control_ae=0x7f0f0051;
+    public static final int camera_control_af=0x7f0f0052;
+    public static final int camera_control_afc=0x7f0f0053;
+    public static final int camera_control_mf=0x7f0f0054;
+    public static final int camera_dewarp=0x7f0f0055;
+    public static final int camera_dust_reduction_cancel=0x7f0f0056;
+    public static final int camera_dust_reduction_done=0x7f0f0057;
+    public static final int camera_dust_reduction_start=0x7f0f0058;
+    public static final int camera_dust_reduction_title=0x7f0f0059;
+    public static final int camera_dust_reduction_tutorial_1=0x7f0f005a;
+    public static final int camera_dust_reduction_tutorial_2=0x7f0f005b;
+    public static final int camera_dust_reduction_tutorial_3=0x7f0f005c;
+    public static final int camera_dust_reduction_tutorial_4=0x7f0f005d;
+    public static final int camera_dust_reduction_tutorial_5=0x7f0f005e;
+    public static final int camera_ei=0x7f0f005f;
+    public static final int camera_ei_color_dlog=0x7f0f0060;
+    public static final int camera_ei_color_rec709=0x7f0f0061;
+    public static final int camera_encode_type=0x7f0f0062;
+    public static final int camera_exposure_aperture_title=0x7f0f0063;
+    public static final int camera_exposure_ev_title=0x7f0f0064;
+    public static final int camera_exposure_iso_title=0x7f0f0065;
+    public static final int camera_exposure_locked_iso_title=0x7f0f0066;
+    public static final int camera_exposure_mm_title=0x7f0f0067;
+    public static final int camera_exposure_mode_a=0x7f0f0068;
+    public static final int camera_exposure_mode_m=0x7f0f0069;
+    public static final int camera_exposure_mode_p=0x7f0f006a;
+    public static final int camera_exposure_mode_s=0x7f0f006b;
+    public static final int camera_exposure_shutter_overexposed_title=0x7f0f006c;
+    public static final int camera_exposure_shutter_title=0x7f0f006d;
+    public static final int camera_exposure_shutter_underexposed_title=0x7f0f006e;
+    public static final int camera_file_index=0x7f0f006f;
+    public static final int camera_file_index_name=0x7f0f0070;
+    public static final int camera_file_index_reset=0x7f0f0071;
+    public static final int camera_file_index_sequence=0x7f0f0072;
+    public static final int camera_filter=0x7f0f0073;
+    public static final int camera_filter_M31=0x7f0f0074;
+    public static final int camera_filter_Portrait=0x7f0f0075;
+    public static final int camera_filter_aqua=0x7f0f0076;
+    public static final int camera_filter_art=0x7f0f0077;
+    public static final int camera_filter_blackandwhite=0x7f0f0078;
+    public static final int camera_filter_blackboard=0x7f0f0079;
+    public static final int camera_filter_bright=0x7f0f007a;
+    public static final int camera_filter_dcinelike=0x7f0f007b;
+    public static final int camera_filter_delta=0x7f0f007c;
+    public static final int camera_filter_dk79=0x7f0f007d;
+    public static final int camera_filter_dlog=0x7f0f007e;
+    public static final int camera_filter_film_a=0x7f0f007f;
+    public static final int camera_filter_film_b=0x7f0f0080;
+    public static final int camera_filter_film_c=0x7f0f0081;
+    public static final int camera_filter_film_d=0x7f0f0082;
+    public static final int camera_filter_film_e=0x7f0f0083;
+    public static final int camera_filter_film_f=0x7f0f0084;
+    public static final int camera_filter_film_g=0x7f0f0085;
+    public static final int camera_filter_film_h=0x7f0f0086;
+    public static final int camera_filter_film_i=0x7f0f0087;
+    public static final int camera_filter_hlg=0x7f0f0088;
+    public static final int camera_filter_inverse=0x7f0f0089;
+    public static final int camera_filter_jugo=0x7f0f008a;
+    public static final int camera_filter_kdx=0x7f0f008b;
+    public static final int camera_filter_name=0x7f0f008c;
+    public static final int camera_filter_none=0x7f0f008d;
+    public static final int camera_filter_posterize=0x7f0f008e;
+    public static final int camera_filter_prismo=0x7f0f008f;
+    public static final int camera_filter_rec_709=0x7f0f0090;
+    public static final int camera_filter_reminiscence=0x7f0f0091;
+    public static final int camera_filter_solarize=0x7f0f0092;
+    public static final int camera_filter_truecolor=0x7f0f0093;
+    public static final int camera_filter_truecolor_ext=0x7f0f0094;
+    public static final int camera_filter_vision4=0x7f0f0095;
+    public static final int camera_filter_vision6=0x7f0f0096;
+    public static final int camera_filter_whiteboard=0x7f0f0097;
+    public static final int camera_format_internal_storage=0x7f0f0098;
+    public static final int camera_format_internal_storage_busy_title=0x7f0f0099;
+    public static final int camera_format_internal_storage_success=0x7f0f009a;
+    public static final int camera_format_sd_card=0x7f0f009b;
+    public static final int camera_format_sd_card1=0x7f0f009c;
+    public static final int camera_format_sd_card2=0x7f0f009d;
+    public static final int camera_format_sd_card_busy_title=0x7f0f009e;
+    public static final int camera_format_sd_card_success=0x7f0f009f;
+    public static final int camera_format_sd_card_success_format=0x7f0f00a0;
+    public static final int camera_format_sd_usb_connect=0x7f0f00a1;
+    public static final int camera_formatting_sd_card=0x7f0f00a2;
+    public static final int camera_gamma=0x7f0f00a3;
+    public static final int camera_grid_name=0x7f0f00a4;
+    public static final int camera_histogram=0x7f0f00a5;
+    public static final int camera_image_format_name=0x7f0f00a6;
+    public static final int camera_image_ratio_name=0x7f0f00a7;
+    public static final int camera_internal_storage_not_inserted=0x7f0f00a8;
+    public static final int camera_ir_cut=0x7f0f00a9;
+    public static final int camera_looks=0x7f0f00aa;
+    public static final int camera_menu=0x7f0f00ab;
+    public static final int camera_overexposure=0x7f0f00ac;
+    public static final int camera_peak_focus_threshold=0x7f0f00ad;
+    public static final int camera_peak_focus_threshold_close=0x7f0f00ae;
+    public static final int camera_peak_focus_threshold_high=0x7f0f00af;
+    public static final int camera_peak_focus_threshold_low=0x7f0f00b0;
+    public static final int camera_peak_focus_threshold_standard=0x7f0f00b1;
+    public static final int camera_photo_format=0x7f0f00b2;
+    public static final int camera_photo_mode=0x7f0f00b3;
+    public static final int camera_photo_name=0x7f0f00b4;
+    public static final int camera_photomode_aeb=0x7f0f00b5;
+    public static final int camera_photomode_burst=0x7f0f00b6;
+    public static final int camera_photomode_e_hdr=0x7f0f00b7;
+    public static final int camera_photomode_hdr=0x7f0f00b8;
+    public static final int camera_photomode_hyper_light=0x7f0f00b9;
+    public static final int camera_photomode_panorama=0x7f0f00ba;
+    public static final int camera_photomode_panorama_180=0x7f0f00bb;
+    public static final int camera_photomode_panorama_1x3=0x7f0f00bc;
+    public static final int camera_photomode_panorama_3x1=0x7f0f00bd;
+    public static final int camera_photomode_panorama_3x3=0x7f0f00be;
+    public static final int camera_photomode_panorama_sphere=0x7f0f00bf;
+    public static final int camera_photomode_panorama_super_resolution=0x7f0f00c0;
+    public static final int camera_photomode_raw_burst=0x7f0f00c1;
+    public static final int camera_photomode_raw_burst_infinity=0x7f0f00c2;
+    public static final int camera_photomode_shallow_focus=0x7f0f00c3;
+    public static final int camera_photomode_single=0x7f0f00c4;
+    public static final int camera_photomode_time=0x7f0f00c5;
+    public static final int camera_photomode_timelapse=0x7f0f00c6;
+    public static final int camera_picture_format_high_tiff=0x7f0f00c7;
+    public static final int camera_picture_format_jpeg=0x7f0f00c8;
+    public static final int camera_picture_format_jpegraw=0x7f0f00c9;
+    public static final int camera_picture_format_jr=0x7f0f00ca;
+    public static final int camera_picture_format_low_tiff=0x7f0f00cb;
+    public static final int camera_picture_format_radiometic_jpeg=0x7f0f00cc;
+    public static final int camera_picture_format_raw=0x7f0f00cd;
+    public static final int camera_picture_format_tiff=0x7f0f00ce;
+    public static final int camera_picture_size=0x7f0f00cf;
+    public static final int camera_picture_style=0x7f0f00d0;
+    public static final int camera_picture_style_custom=0x7f0f00d1;
+    public static final int camera_picture_style_scenery=0x7f0f00d2;
+    public static final int camera_picture_style_soft=0x7f0f00d3;
+    public static final int camera_picture_style_standard=0x7f0f00d4;
+    public static final int camera_picturesize_169=0x7f0f00d5;
+    public static final int camera_picturesize_32=0x7f0f00d6;
+    public static final int camera_picturesize_43=0x7f0f00d7;
+    public static final int camera_portrait_mode=0x7f0f00d8;
+    public static final int camera_saturation=0x7f0f00d9;
+    public static final int camera_save_original=0x7f0f00da;
+    public static final int camera_save_original_list_hyperlapse=0x7f0f00db;
+    public static final int camera_save_original_list_pano=0x7f0f00dc;
+    public static final int camera_save_original_pano=0x7f0f00dd;
+    public static final int camera_sd_card_not_inserted=0x7f0f00de;
+    public static final int camera_setting_format_internal_storage_confirm=0x7f0f00df;
+    public static final int camera_setting_format_sdcard_confirm=0x7f0f00e0;
+    public static final int camera_setting_reset=0x7f0f00e1;
+    public static final int camera_setting_reset_busy_tip=0x7f0f00e2;
+    public static final int camera_setting_reset_busy_title=0x7f0f00e3;
+    public static final int camera_setting_reset_camera_setting_confirm=0x7f0f00e4;
+    public static final int camera_setting_reset_success=0x7f0f00e5;
+    public static final int camera_setting_reset_timeout_title=0x7f0f00e6;
+    public static final int camera_setting_trigger_ffc_confirm=0x7f0f00e7;
+    public static final int camera_sharpness=0x7f0f00e8;
+    public static final int camera_ssd_color_cine_like=0x7f0f00e9;
+    public static final int camera_ssd_color_dlog=0x7f0f00ea;
+    public static final int camera_ssd_color_raw_color=0x7f0f00eb;
+    public static final int camera_ssd_color_rec709=0x7f0f00ec;
+    public static final int camera_ssd_color_standard=0x7f0f00ed;
+    public static final int camera_ssd_color_title=0x7f0f00ee;
+    public static final int camera_ssd_color_unknown=0x7f0f00ef;
+    public static final int camera_ssd_looks=0x7f0f00f0;
+    public static final int camera_ssd_raw_mode_draw=0x7f0f00f1;
+    public static final int camera_ssd_saving=0x7f0f00f2;
+    public static final int camera_ssd_video_license=0x7f0f00f3;
+    public static final int camera_ssd_video_license_422hq=0x7f0f00f4;
+    public static final int camera_ssd_video_license_4444xq=0x7f0f00f5;
+    public static final int camera_ssd_video_license_cdng=0x7f0f00f6;
+    public static final int camera_ssd_video_size=0x7f0f00f7;
+    public static final int camera_storage_location=0x7f0f00f8;
+    public static final int camera_storage_location_internal_storage=0x7f0f00f9;
+    public static final int camera_storage_location_sd_card=0x7f0f00fa;
+    public static final int camera_style_name=0x7f0f00fb;
+    public static final int camera_trigger_ffc_busy_title=0x7f0f00fc;
+    public static final int camera_video_caption=0x7f0f00fd;
+    public static final int camera_video_compression_standard=0x7f0f00fe;
+    public static final int camera_video_compression_standard_h264=0x7f0f00ff;
+    public static final int camera_video_compression_standard_h265=0x7f0f0100;
+    public static final int camera_video_compression_standard_label=0x7f0f0101;
+    public static final int camera_video_ei=0x7f0f0102;
+    public static final int camera_video_format=0x7f0f0103;
+    public static final int camera_video_format_mov=0x7f0f0104;
+    public static final int camera_video_format_mp4=0x7f0f0105;
+    public static final int camera_video_format_name=0x7f0f0106;
+    public static final int camera_video_format_seq=0x7f0f0107;
+    public static final int camera_video_format_tiff_seq=0x7f0f0108;
+    public static final int camera_video_frame_rate_value_100=0x7f0f0109;
+    public static final int camera_video_frame_rate_value_120=0x7f0f010a;
+    public static final int camera_video_frame_rate_value_24=0x7f0f010b;
+    public static final int camera_video_frame_rate_value_240=0x7f0f010c;
+    public static final int camera_video_frame_rate_value_25=0x7f0f010d;
+    public static final int camera_video_frame_rate_value_30=0x7f0f010e;
+    public static final int camera_video_frame_rate_value_48=0x7f0f010f;
+    public static final int camera_video_frame_rate_value_50=0x7f0f0110;
+    public static final int camera_video_frame_rate_value_60=0x7f0f0111;
+    public static final int camera_video_frame_rate_value_96=0x7f0f0112;
+    public static final int camera_video_frame_rate_value_true_24=0x7f0f0113;
+    public static final int camera_video_frame_rate_value_true_30=0x7f0f0114;
+    public static final int camera_video_frame_rate_value_true_48=0x7f0f0115;
+    public static final int camera_video_frame_rate_value_true_60=0x7f0f0116;
+    public static final int camera_video_resolution=0x7f0f0117;
+    public static final int camera_video_resolution_1280_720p=0x7f0f0118;
+    public static final int camera_video_resolution_1920_1080p=0x7f0f0119;
+    public static final int camera_video_resolution_2048x1080p=0x7f0f011a;
+    public static final int camera_video_resolution_2688x1512p=0x7f0f011b;
+    public static final int camera_video_resolution_2704_1520p=0x7f0f011c;
+    public static final int camera_video_resolution_2720_1530p=0x7f0f011d;
+    public static final int camera_video_resolution_336x256p=0x7f0f011e;
+    public static final int camera_video_resolution_3712x2088p=0x7f0f011f;
+    public static final int camera_video_resolution_3840_2160p=0x7f0f0120;
+    public static final int camera_video_resolution_3840x1572p=0x7f0f0121;
+    public static final int camera_video_resolution_3944x2088p=0x7f0f0122;
+    public static final int camera_video_resolution_4096_2160p=0x7f0f0123;
+    public static final int camera_video_resolution_4608x2160p=0x7f0f0124;
+    public static final int camera_video_resolution_4608x2592p=0x7f0f0125;
+    public static final int camera_video_resolution_5280x2160p=0x7f0f0126;
+    public static final int camera_video_resolution_5280x2972p=0x7f0f0127;
+    public static final int camera_video_resolution_5760x3240p=0x7f0f0128;
+    public static final int camera_video_resolution_6016x3200p=0x7f0f0129;
+    public static final int camera_video_resolution_640_480p=0x7f0f012a;
+    public static final int camera_video_resolution_640_512p=0x7f0f012b;
+    public static final int camera_video_resolution_MaxResolution=0x7f0f012c;
+    public static final int camera_video_resolution_None=0x7f0f012d;
+    public static final int camera_video_resolution_full_fov=0x7f0f012e;
+    public static final int camera_video_resolution_hq=0x7f0f012f;
+    public static final int camera_video_size_name=0x7f0f0130;
+    public static final int camera_video_ssd=0x7f0f0131;
+    public static final int camera_video_standard_name=0x7f0f0132;
+    public static final int camera_video_standard_ntsc=0x7f0f0133;
+    public static final int camera_video_standard_pal=0x7f0f0134;
+    public static final int camera_video_standard_setting_tip=0x7f0f0135;
+    public static final int camera_video_standard_setting_tip_desc=0x7f0f0136;
+    public static final int camera_wb_auto=0x7f0f0137;
+    public static final int camera_wb_custom=0x7f0f0138;
+    public static final int camera_wb_dusk=0x7f0f0139;
+    public static final int camera_wb_format=0x7f0f013a;
+    public static final int camera_wb_indoor=0x7f0f013b;
+    public static final int camera_wb_neon=0x7f0f013c;
+    public static final int camera_wb_neutral=0x7f0f013d;
+    public static final int camera_wb_outdoor=0x7f0f013e;
+    public static final int camera_wb_shadow=0x7f0f013f;
+    public static final int camera_wb_tungsten=0x7f0f0140;
+    public static final int camera_wb_warmneon=0x7f0f0141;
+    public static final int camera_wb_water=0x7f0f0142;
+    public static final int camera_white_balance=0x7f0f0143;
+    public static final int camera_white_balance_name=0x7f0f0144;
+    public static final int cancel=0x7f0f0145;
+    public static final int center_point_color=0x7f0f0146;
+    public static final int center_point_cross=0x7f0f0147;
+    public static final int center_point_frame=0x7f0f0148;
+    public static final int center_point_frame_and_cross=0x7f0f0149;
+    public static final int center_point_narrow_cross=0x7f0f014a;
+    public static final int center_point_square=0x7f0f014b;
+    public static final int center_point_square_and_cross=0x7f0f014c;
+    public static final int center_point_standard=0x7f0f014d;
+    public static final int change_password=0x7f0f014e;
+    public static final int change_password_failed=0x7f0f014f;
+    public static final int change_password_message=0x7f0f0150;
+    public static final int common_google_play_services_enable_button=0x7f0f0151;
+    public static final int common_google_play_services_enable_text=0x7f0f0152;
+    public static final int common_google_play_services_enable_title=0x7f0f0153;
+    public static final int common_google_play_services_install_button=0x7f0f0154;
+    public static final int common_google_play_services_install_text=0x7f0f0155;
+    public static final int common_google_play_services_install_title=0x7f0f0156;
+    public static final int common_google_play_services_notification_channel_name=0x7f0f0157;
+    public static final int common_google_play_services_notification_ticker=0x7f0f0158;
+    public static final int common_google_play_services_unknown_issue=0x7f0f0159;
+    public static final int common_google_play_services_unsupported_text=0x7f0f015a;
+    public static final int common_google_play_services_update_button=0x7f0f015b;
+    public static final int common_google_play_services_update_text=0x7f0f015c;
+    public static final int common_google_play_services_update_title=0x7f0f015d;
+    public static final int common_google_play_services_updating_text=0x7f0f015e;
+    public static final int common_google_play_services_wear_update_text=0x7f0f015f;
+    public static final int common_open_on_phone=0x7f0f0160;
+    public static final int common_signin_button_text=0x7f0f0161;
+    public static final int common_signin_button_text_long=0x7f0f0162;
+    public static final int compass=0x7f0f0163;
+    public static final int compass_calibrate=0x7f0f0164;
+    public static final int compass_calibration_cancel=0x7f0f0165;
+    public static final int compass_calibration_confirm=0x7f0f0166;
+    public static final int compass_calibration_fail=0x7f0f0167;
+    public static final int compass_calibration_fail_desc=0x7f0f0168;
+    public static final int compass_calibration_success=0x7f0f0169;
+    public static final int compass_calibration_tip_1=0x7f0f016a;
+    public static final int compass_calibration_tip_1_desc=0x7f0f016b;
+    public static final int compass_calibration_tip_2=0x7f0f016c;
+    public static final int compass_calibration_tip_2_desc=0x7f0f016d;
+    public static final int confirm_land_desc=0x7f0f016e;
+    public static final int confirm_land_title=0x7f0f016f;
+    public static final int confirm_new_password=0x7f0f0170;
+    public static final int confirm_password=0x7f0f0171;
+    public static final int connection_loose=0x7f0f0172;
+    public static final int ctrl_mode_atti=0x7f0f0173;
+    public static final int ctrl_mode_clickgo=0x7f0f0174;
+    public static final int ctrl_mode_fpointing=0x7f0f0175;
+    public static final int ctrl_mode_ftracking=0x7f0f0176;
+    public static final int ctrl_mode_gohome=0x7f0f0177;
+    public static final int ctrl_mode_gps=0x7f0f0178;
+    public static final int ctrl_mode_joystick=0x7f0f0179;
+    public static final int ctrl_mode_landing=0x7f0f017a;
+    public static final int ctrl_mode_manual=0x7f0f017b;
+    public static final int ctrl_mode_navi=0x7f0f017c;
+    public static final int ctrl_mode_novice=0x7f0f017d;
+    public static final int ctrl_mode_opti=0x7f0f017e;
+    public static final int ctrl_mode_patti=0x7f0f017f;
+    public static final int ctrl_mode_pgps=0x7f0f0180;
+    public static final int ctrl_mode_popti=0x7f0f0181;
+    public static final int ctrl_mode_sport=0x7f0f0182;
+    public static final int ctrl_mode_takeoff=0x7f0f0183;
+    public static final int custom_fly_zone_disable_failed=0x7f0f0184;
+    public static final int custom_fly_zone_duplicate=0x7f0f0185;
+    public static final int custom_fly_zone_enable_failed=0x7f0f0186;
+    public static final int custom_fly_zone_enabled_confirmation=0x7f0f0187;
+    public static final int custom_fly_zone_login_requirement=0x7f0f0188;
+    public static final int custom_fly_zone_unauthorized_msg=0x7f0f0189;
+    public static final int direct_lock_cl=0x7f0f018a;
+    public static final int direct_lock_hl=0x7f0f018b;
+    public static final int direct_lock_pl=0x7f0f018c;
+    public static final int disabled=0x7f0f018d;
+    public static final int distance_to_home_title=0x7f0f018e;
+    public static final int distance_to_rc_title=0x7f0f018f;
+    public static final int dji_area_code_asia_pacific=0x7f0f0190;
+    public static final int dji_area_code_chn=0x7f0f0191;
+    public static final int dji_area_code_chn_main_land=0x7f0f0192;
+    public static final int dji_area_code_global=0x7f0f0193;
+    public static final int dji_area_code_jpn=0x7f0f0194;
+    public static final int dji_area_code_kor=0x7f0f0195;
+    public static final int dji_area_code_prk=0x7f0f0196;
+    public static final int dji_area_code_twn=0x7f0f0197;
+    public static final int dji_check_air_encoder_error_reason=0x7f0f0198;
+    public static final int dji_check_air_encoder_restart_solution=0x7f0f0199;
+    public static final int dji_check_air_encoder_return_solution=0x7f0f019a;
+    public static final int dji_check_air_encoder_upgrade_reason=0x7f0f019b;
+    public static final int dji_check_air_encoder_upgrade_solution=0x7f0f019c;
+    public static final int dji_check_air_low_radio_reason=0x7f0f019d;
+    public static final int dji_check_air_low_radio_solution=0x7f0f019e;
+    public static final int dji_check_air_low_rc_signal_reason=0x7f0f019f;
+    public static final int dji_check_air_low_rc_signal_solution=0x7f0f01a0;
+    public static final int dji_check_air_no_signal_reason=0x7f0f01a1;
+    public static final int dji_check_air_radio_signal_nose_reason=0x7f0f01a2;
+    public static final int dji_check_air_radio_signal_nose_solution=0x7f0f01a3;
+    public static final int dji_check_air_rc_radio_signal_noise_reason=0x7f0f01a4;
+    public static final int dji_check_air_rc_radio_signal_noise_solution=0x7f0f01a5;
+    public static final int dji_check_air_wifi_manager_interference_high_reason=0x7f0f01a6;
+    public static final int dji_check_air_wifi_manager_interference_high_solution=0x7f0f01a7;
+    public static final int dji_check_aircraft_in_flight=0x7f0f01a8;
+    public static final int dji_check_battery_broken_reason=0x7f0f01a9;
+    public static final int dji_check_battery_broken_solution=0x7f0f01aa;
+    public static final int dji_check_battery_communication_fail_reason=0x7f0f01ab;
+    public static final int dji_check_battery_communication_fail_solution=0x7f0f01ac;
+    public static final int dji_check_battery_dangerous_warning_reason=0x7f0f01ad;
+    public static final int dji_check_battery_discharge_current_reason=0x7f0f01ae;
+    public static final int dji_check_battery_discharge_current_solution=0x7f0f01af;
+    public static final int dji_check_battery_illegal_reason=0x7f0f01b0;
+    public static final int dji_check_battery_illegal_solution=0x7f0f01b1;
+    public static final int dji_check_battery_low_temperature_reason=0x7f0f01b2;
+    public static final int dji_check_battery_low_temperature_solution=0x7f0f01b3;
+    public static final int dji_check_battery_low_voltage_reason=0x7f0f01b4;
+    public static final int dji_check_battery_need_learn_reason=0x7f0f01b5;
+    public static final int dji_check_battery_need_learn_solution=0x7f0f01b6;
+    public static final int dji_check_battery_not_match_reason=0x7f0f01b7;
+    public static final int dji_check_battery_not_match_solution=0x7f0f01b8;
+    public static final int dji_check_battery_over_aging_reason=0x7f0f01b9;
+    public static final int dji_check_battery_over_load_reason=0x7f0f01ba;
+    public static final int dji_check_battery_over_temperature_reason=0x7f0f01bb;
+    public static final int dji_check_battery_over_temperature_solution=0x7f0f01bc;
+    public static final int dji_check_battery_short_cut_reason=0x7f0f01bd;
+    public static final int dji_check_camera_chip_over_heat_reason=0x7f0f01be;
+    public static final int dji_check_camera_chip_over_heat_solution=0x7f0f01bf;
+    public static final int dji_check_camera_encrypt_error_reason=0x7f0f01c0;
+    public static final int dji_check_camera_encrypt_error_solution=0x7f0f01c1;
+    public static final int dji_check_camera_no_sd_card_reason=0x7f0f01c2;
+    public static final int dji_check_camera_no_sd_card_solution=0x7f0f01c3;
+    public static final int dji_check_camera_over_heat_reason=0x7f0f01c4;
+    public static final int dji_check_camera_over_heat_solution=0x7f0f01c5;
+    public static final int dji_check_camera_sd_card_error_reason=0x7f0f01c6;
+    public static final int dji_check_camera_sd_card_error_solution=0x7f0f01c7;
+    public static final int dji_check_camera_sd_card_full_reason=0x7f0f01c8;
+    public static final int dji_check_camera_sd_card_full_solution=0x7f0f01c9;
+    public static final int dji_check_camera_sd_card_index_full_reason=0x7f0f01ca;
+    public static final int dji_check_camera_sd_card_index_full_solution=0x7f0f01cb;
+    public static final int dji_check_camera_sd_card_initializing_reason=0x7f0f01cc;
+    public static final int dji_check_camera_sd_card_initializing_solution=0x7f0f01cd;
+    public static final int dji_check_camera_sd_card_is_busy_reason=0x7f0f01ce;
+    public static final int dji_check_camera_sd_card_is_busy_solution=0x7f0f01cf;
+    public static final int dji_check_camera_sd_card_is_formatting_reason=0x7f0f01d0;
+    public static final int dji_check_camera_sd_card_is_formatting_solution=0x7f0f01d1;
+    public static final int dji_check_camera_sd_card_no_space_reason=0x7f0f01d2;
+    public static final int dji_check_camera_sd_card_no_space_solution=0x7f0f01d3;
+    public static final int dji_check_camera_sd_card_not_format_reason=0x7f0f01d4;
+    public static final int dji_check_camera_sd_card_not_format_solution=0x7f0f01d5;
+    public static final int dji_check_camera_sd_card_read_only_reason=0x7f0f01d6;
+    public static final int dji_check_camera_sd_card_read_only_solution=0x7f0f01d7;
+    public static final int dji_check_camera_sd_card_recommend_formatting_reason=0x7f0f01d8;
+    public static final int dji_check_camera_sd_card_recommend_formatting_solution=0x7f0f01d9;
+    public static final int dji_check_camera_sd_card_spec_slow_reason=0x7f0f01da;
+    public static final int dji_check_camera_sd_card_spec_slow_solution=0x7f0f01db;
+    public static final int dji_check_camera_sensor_reason=0x7f0f01dc;
+    public static final int dji_check_camera_sensor_solution=0x7f0f01dd;
+    public static final int dji_check_camera_temperatures_too_high_to_stop_record_reason=0x7f0f01de;
+    public static final int dji_check_camera_temperatures_too_high_to_stop_record_solution=0x7f0f01df;
+    public static final int dji_check_camera_upgrade_reason=0x7f0f01e0;
+    public static final int dji_check_camera_upgrade_solution=0x7f0f01e1;
+    public static final int dji_check_center_battery_connection_reason=0x7f0f01e2;
+    public static final int dji_check_center_battery_connection_solution=0x7f0f01e3;
+    public static final int dji_check_center_gps_connection_reason=0x7f0f01e4;
+    public static final int dji_check_center_gps_connection_solution=0x7f0f01e5;
+    public static final int dji_check_center_mc_connection_reason=0x7f0f01e6;
+    public static final int dji_check_center_mc_connection_solution=0x7f0f01e7;
+    public static final int dji_check_fc_accelarate_data_error_reason=0x7f0f01e8;
+    public static final int dji_check_fc_accelarate_data_error_solution=0x7f0f01e9;
+    public static final int dji_check_fc_accelerate_reason=0x7f0f01ea;
+    public static final int dji_check_fc_accelerate_solution=0x7f0f01eb;
+    public static final int dji_check_fc_aircraft_stationary_reason=0x7f0f01ec;
+    public static final int dji_check_fc_aircraft_stationary_solution=0x7f0f01ed;
+    public static final int dji_check_fc_aircraft_vibration_abnormal_reason=0x7f0f01ee;
+    public static final int dji_check_fc_aircraft_warming_up_reason=0x7f0f01ef;
+    public static final int dji_check_fc_aircraft_warming_up_solution=0x7f0f01f0;
+    public static final int dji_check_fc_atti_angle_error_reason=0x7f0f01f1;
+    public static final int dji_check_fc_atti_angle_error_solution=0x7f0f01f2;
+    public static final int dji_check_fc_barometer_data_error_reason=0x7f0f01f3;
+    public static final int dji_check_fc_barometer_data_error_solution=0x7f0f01f4;
+    public static final int dji_check_fc_barometer_init_error_reason=0x7f0f01f5;
+    public static final int dji_check_fc_barometer_init_error_solution=0x7f0f01f6;
+    public static final int dji_check_fc_barometer_reason=0x7f0f01f7;
+    public static final int dji_check_fc_barometer_solution=0x7f0f01f8;
+    public static final int dji_check_fc_battery_not_in_position_reason=0x7f0f01f9;
+    public static final int dji_check_fc_battery_not_in_position_solution=0x7f0f01fa;
+    public static final int dji_check_fc_calibrate_version_mismatch_reason=0x7f0f01fb;
+    public static final int dji_check_fc_calibrate_version_mismatch_solution=0x7f0f01fc;
+    public static final int dji_check_fc_compass_abnormal_reason=0x7f0f01fd;
+    public static final int dji_check_fc_compass_abnormal_solution=0x7f0f01fe;
+    public static final int dji_check_fc_compass_error_reason=0x7f0f01ff;
+    public static final int dji_check_fc_compass_error_solution=0x7f0f0200;
+    public static final int dji_check_fc_compass_install_direction_error_reason=0x7f0f0201;
+    public static final int dji_check_fc_compass_install_direction_error_solution=0x7f0f0202;
+    public static final int dji_check_fc_compass_install_error_reason=0x7f0f0203;
+    public static final int dji_check_fc_compass_install_error_solution=0x7f0f0204;
+    public static final int dji_check_fc_compass_interfered_reason=0x7f0f0205;
+    public static final int dji_check_fc_compass_interfered_solution=0x7f0f0206;
+    public static final int dji_check_fc_compass_need_restart_reason=0x7f0f0207;
+    public static final int dji_check_fc_compass_need_restart_solution=0x7f0f0208;
+    public static final int dji_check_fc_compass_reason=0x7f0f0209;
+    public static final int dji_check_fc_compass_solution=0x7f0f020a;
+    public static final int dji_check_fc_conver_flight_enable_limit_reason=0x7f0f020b;
+    public static final int dji_check_fc_data_record_error_reason=0x7f0f020c;
+    public static final int dji_check_fc_data_record_error_solution=0x7f0f020d;
+    public static final int dji_check_fc_enable_near_ground_reason=0x7f0f020e;
+    public static final int dji_check_fc_env_state_temp_too_high_reason=0x7f0f020f;
+    public static final int dji_check_fc_env_state_temp_too_low_reason=0x7f0f0210;
+    public static final int dji_check_fc_gps_error_reason=0x7f0f0211;
+    public static final int dji_check_fc_gps_error_solution=0x7f0f0212;
+    public static final int dji_check_fc_gps_signal_blocked_by_gimbal_reason=0x7f0f0213;
+    public static final int dji_check_fc_gyroscope_data_error_reason=0x7f0f0214;
+    public static final int dji_check_fc_gyroscope_data_error_solution=0x7f0f0215;
+    public static final int dji_check_fc_gyroscope_reason=0x7f0f0216;
+    public static final int dji_check_fc_gyroscope_solution=0x7f0f0217;
+    public static final int dji_check_fc_heading_control_abnormal_reason=0x7f0f0218;
+    public static final int dji_check_fc_height_limit_compass_interrupt_reason=0x7f0f0219;
+    public static final int dji_check_fc_height_limit_no_gps_reason=0x7f0f021a;
+    public static final int dji_check_fc_horizontal_calibrate_reason=0x7f0f021b;
+    public static final int dji_check_fc_horizontal_calibrate_solution=0x7f0f021c;
+    public static final int dji_check_fc_imu_cali_error_reason=0x7f0f021d;
+    public static final int dji_check_fc_imu_cali_error_solution=0x7f0f021e;
+    public static final int dji_check_fc_imu_cali_not_finished_reason=0x7f0f021f;
+    public static final int dji_check_fc_imu_cali_not_finished_solution=0x7f0f0220;
+    public static final int dji_check_fc_imu_data_error_reason=0x7f0f0221;
+    public static final int dji_check_fc_imu_data_error_solution=0x7f0f0222;
+    public static final int dji_check_fc_imu_direction_param_erro_reason=0x7f0f0223;
+    public static final int dji_check_fc_imu_direction_param_erro_solution=0x7f0f0224;
+    public static final int dji_check_fc_imu_init_error_reason=0x7f0f0225;
+    public static final int dji_check_fc_imu_init_error_solution=0x7f0f0226;
+    public static final int dji_check_fc_imu_install_direction_error_reason=0x7f0f0227;
+    public static final int dji_check_fc_imu_install_direction_error_solution=0x7f0f0228;
+    public static final int dji_check_fc_imu_interfered_reason=0x7f0f0229;
+    public static final int dji_check_fc_imu_interfered_solution=0x7f0f022a;
+    public static final int dji_check_fc_kernel_board_high_temperature_reason=0x7f0f022b;
+    public static final int dji_check_fc_kernel_board_high_temperature_solution=0x7f0f022c;
+    public static final int dji_check_fc_low_voltage_going_home_reason=0x7f0f022d;
+    public static final int dji_check_fc_low_voltage_landing_reason=0x7f0f022e;
+    public static final int dji_check_fc_mc_data_error_reason=0x7f0f022f;
+    public static final int dji_check_fc_mc_reading_data_reason=0x7f0f0230;
+    public static final int dji_check_fc_motor_blocked_reason=0x7f0f0231;
+    public static final int dji_check_fc_motor_blocked_solution=0x7f0f0232;
+    public static final int dji_check_fc_motor_stop_for_esc_short_circuit_reason=0x7f0f0233;
+    public static final int dji_check_fc_motor_stop_for_esc_short_circuit_solution=0x7f0f0234;
+    public static final int dji_check_fc_need_imu_calibrate_reason=0x7f0f0235;
+    public static final int dji_check_fc_need_imu_calibrate_solution=0x7f0f0236;
+    public static final int dji_check_fc_no_real_name_height_limit_reason=0x7f0f0237;
+    public static final int dji_check_fc_not_enough_force_reason=0x7f0f0238;
+    public static final int dji_check_fc_only_support_atti_mode_reason=0x7f0f0239;
+    public static final int dji_check_fc_out_of_control_going_home_reason=0x7f0f023a;
+    public static final int dji_check_fc_out_of_flight_radius_limit_reason=0x7f0f023b;
+    public static final int dji_check_fc_over_heat_go_home_reason=0x7f0f023c;
+    public static final int dji_check_fc_paddle_has_ice_on_it_reason=0x7f0f023d;
+    public static final int dji_check_fc_plain_propeller_on_plateau_solution=0x7f0f023e;
+    public static final int dji_check_fc_plateau_propeller_on_plain_solution=0x7f0f023f;
+    public static final int dji_check_fc_smart_low_power_go_home_reason=0x7f0f0240;
+    public static final int dji_check_fc_strong_gale_warning_reason=0x7f0f0241;
+    public static final int dji_check_fc_system_normal=0x7f0f0242;
+    public static final int dji_check_fc_system_unknow_error=0x7f0f0243;
+    public static final int dji_check_fc_takeoff_failed_GPS_disconnect=0x7f0f0244;
+    public static final int dji_check_fc_takeoff_failed_IMU_cali_success=0x7f0f0245;
+    public static final int dji_check_fc_takeoff_failed_IMU_disconnect=0x7f0f0246;
+    public static final int dji_check_fc_takeoff_failed_RC_calibration_exception=0x7f0f0247;
+    public static final int dji_check_fc_takeoff_failed_RC_calibration_unfinished=0x7f0f0248;
+    public static final int dji_check_fc_takeoff_failed_RC_center_out_range=0x7f0f0249;
+    public static final int dji_check_fc_takeoff_failed_RC_is_in_calibration=0x7f0f024a;
+    public static final int dji_check_fc_takeoff_failed_RC_mapping_exception=0x7f0f024b;
+    public static final int dji_check_fc_takeoff_failed_SD_card_exception=0x7f0f024c;
+    public static final int dji_check_fc_takeoff_failed_accelerometer_bias_too_large=0x7f0f024d;
+    public static final int dji_check_fc_takeoff_failed_accelerometer_dead=0x7f0f024e;
+    public static final int dji_check_fc_takeoff_failed_aircraft_type_mismatch=0x7f0f024f;
+    public static final int dji_check_fc_takeoff_failed_aircraft_usb_connected=0x7f0f0250;
+    public static final int dji_check_fc_takeoff_failed_assistant_protected=0x7f0f0251;
+    public static final int dji_check_fc_takeoff_failed_atti_error=0x7f0f0252;
+    public static final int dji_check_fc_takeoff_failed_attitude_limit=0x7f0f0253;
+    public static final int dji_check_fc_takeoff_failed_baro_abnormal=0x7f0f0254;
+    public static final int dji_check_fc_takeoff_failed_barometer_dead=0x7f0f0255;
+    public static final int dji_check_fc_takeoff_failed_barometer_negative=0x7f0f0256;
+    public static final int dji_check_fc_takeoff_failed_barometer_noise_too_large=0x7f0f0257;
+    public static final int dji_check_fc_takeoff_failed_battery_authentication_exception=0x7f0f0258;
+    public static final int dji_check_fc_takeoff_failed_battery_cell_error=0x7f0f0259;
+    public static final int dji_check_fc_takeoff_failed_battery_communication_exception=0x7f0f025a;
+    public static final int dji_check_fc_takeoff_failed_battery_communite_error=0x7f0f025b;
+    public static final int dji_check_fc_takeoff_failed_battery_communite_error_motorOn=0x7f0f025c;
+    public static final int dji_check_fc_takeoff_failed_battery_embed_error=0x7f0f025d;
+    public static final int dji_check_fc_takeoff_failed_battery_install_error=0x7f0f025e;
+    public static final int dji_check_fc_takeoff_failed_battery_not_ready=0x7f0f025f;
+    public static final int dji_check_fc_takeoff_failed_battery_number_is_not_engouh=0x7f0f0260;
+    public static final int dji_check_fc_takeoff_failed_battery_output_insufficient=0x7f0f0261;
+    public static final int dji_check_fc_takeoff_failed_battery_voltage_difference_large=0x7f0f0262;
+    public static final int dji_check_fc_takeoff_failed_battery_voltage_difference_very_large=0x7f0f0263;
+    public static final int dji_check_fc_takeoff_failed_bias_limit=0x7f0f0264;
+    public static final int dji_check_fc_takeoff_failed_compass_abnormal=0x7f0f0265;
+    public static final int dji_check_fc_takeoff_failed_compass_calibrating=0x7f0f0266;
+    public static final int dji_check_fc_takeoff_failed_compass_dead=0x7f0f0267;
+    public static final int dji_check_fc_takeoff_failed_compass_error=0x7f0f0268;
+    public static final int dji_check_fc_takeoff_failed_compass_mod_too_large=0x7f0f0269;
+    public static final int dji_check_fc_takeoff_failed_compass_noise_too_large=0x7f0f026a;
+    public static final int dji_check_fc_takeoff_failed_device_locked=0x7f0f026b;
+    public static final int dji_check_fc_takeoff_failed_device_topology_exception=0x7f0f026c;
+    public static final int dji_check_fc_takeoff_failed_distance_limit=0x7f0f026d;
+    public static final int dji_check_fc_takeoff_failed_eagle_temp_too_high=0x7f0f026e;
+    public static final int dji_check_fc_takeoff_failed_error_battery_version_error=0x7f0f026f;
+    public static final int dji_check_fc_takeoff_failed_error_compass_imu_ori_not_match_desc=0x7f0f0270;
+    public static final int dji_check_fc_takeoff_failed_error_esc_calibrating_desc=0x7f0f0271;
+    public static final int dji_check_fc_takeoff_failed_error_esc_echoing=0x7f0f0272;
+    public static final int dji_check_fc_takeoff_failed_error_esc_version_not_match_desc=0x7f0f0273;
+    public static final int dji_check_fc_takeoff_failed_error_gimbal_is_calibrating=0x7f0f0274;
+    public static final int dji_check_fc_takeoff_failed_error_gps_sign_invalid_desc=0x7f0f0275;
+    public static final int dji_check_fc_takeoff_failed_error_imu_ori_not_match_desc=0x7f0f0276;
+    public static final int dji_check_fc_takeoff_failed_error_lock_by_app_desc=0x7f0f0277;
+    public static final int dji_check_fc_takeoff_failed_error_rtk_bad_signal=0x7f0f0278;
+    public static final int dji_check_fc_takeoff_failed_error_rtk_deviation=0x7f0f0279;
+    public static final int dji_check_fc_takeoff_failed_error_start_fly_height_error_desc=0x7f0f027a;
+    public static final int dji_check_fc_takeoff_failed_error_stop_by_app_desc=0x7f0f027b;
+    public static final int dji_check_fc_takeoff_failed_esc_error=0x7f0f027c;
+    public static final int dji_check_fc_takeoff_failed_fail_invalid_SN=0x7f0f027d;
+    public static final int dji_check_fc_takeoff_failed_flash_operation=0x7f0f027e;
+    public static final int dji_check_fc_takeoff_failed_flight_restriction_strategy_error=0x7f0f027f;
+    public static final int dji_check_fc_takeoff_failed_gimbal_disorder=0x7f0f0280;
+    public static final int dji_check_fc_takeoff_failed_gimbal_firm_is_updata=0x7f0f0281;
+    public static final int dji_check_fc_takeoff_failed_gimbal_gyro_abnormal=0x7f0f0282;
+    public static final int dji_check_fc_takeoff_failed_gimbal_pitch_no_data=0x7f0f0283;
+    public static final int dji_check_fc_takeoff_failed_gimbal_pitch_shock=0x7f0f0284;
+    public static final int dji_check_fc_takeoff_failed_gimbal_roll_no_data=0x7f0f0285;
+    public static final int dji_check_fc_takeoff_failed_gimbal_roll_shock=0x7f0f0286;
+    public static final int dji_check_fc_takeoff_failed_gimbal_yaw_no_data=0x7f0f0287;
+    public static final int dji_check_fc_takeoff_failed_gimbal_yaw_shock=0x7f0f0288;
+    public static final int dji_check_fc_takeoff_failed_gps_abnormal=0x7f0f0289;
+    public static final int dji_check_fc_takeoff_failed_gyro_acc_abnormal=0x7f0f028a;
+    public static final int dji_check_fc_takeoff_failed_gyro_bias_too_large=0x7f0f028b;
+    public static final int dji_check_fc_takeoff_failed_gyro_dead=0x7f0f028c;
+    public static final int dji_check_fc_takeoff_failed_imu_calibrating=0x7f0f028d;
+    public static final int dji_check_fc_takeoff_failed_imu_initing=0x7f0f028e;
+    public static final int dji_check_fc_takeoff_failed_imu_need_calibration=0x7f0f028f;
+    public static final int dji_check_fc_takeoff_failed_imu_sn_error=0x7f0f0290;
+    public static final int dji_check_fc_takeoff_failed_imu_warming=0x7f0f0291;
+    public static final int dji_check_fc_takeoff_failed_in_fly_limit_zone=0x7f0f0292;
+    public static final int dji_check_fc_takeoff_failed_large_tilt=0x7f0f0293;
+    public static final int dji_check_fc_takeoff_failed_low_voltage=0x7f0f0294;
+    public static final int dji_check_fc_takeoff_failed_major_acc_gyro_change=0x7f0f0295;
+    public static final int dji_check_fc_takeoff_failed_motor_auto_takeoff_fail=0x7f0f0296;
+    public static final int dji_check_fc_takeoff_failed_motor_less_paddle=0x7f0f0297;
+    public static final int dji_check_fc_takeoff_failed_motor_start_error=0x7f0f0298;
+    public static final int dji_check_fc_takeoff_failed_motor_stuck=0x7f0f0299;
+    public static final int dji_check_fc_takeoff_failed_motor_unbalanced=0x7f0f029a;
+    public static final int dji_check_fc_takeoff_failed_navigation_system_exception=0x7f0f029b;
+    public static final int dji_check_fc_takeoff_failed_not_activated=0x7f0f029c;
+    public static final int dji_check_fc_takeoff_failed_novice_protected=0x7f0f029d;
+    public static final int dji_check_fc_takeoff_failed_pack_mode=0x7f0f029e;
+    public static final int dji_check_fc_takeoff_failed_rollover=0x7f0f029f;
+    public static final int dji_check_fc_takeoff_failed_rtk_yaw_not_fix=0x7f0f02a0;
+    public static final int dji_check_fc_takeoff_failed_seriou_low_power=0x7f0f02a1;
+    public static final int dji_check_fc_takeoff_failed_seriou_low_voltage=0x7f0f02a2;
+    public static final int dji_check_fc_takeoff_failed_simulator_mode=0x7f0f02a3;
+    public static final int dji_check_fc_takeoff_failed_simulator_run=0x7f0f02a4;
+    public static final int dji_check_fc_takeoff_failed_smart_low_to_land=0x7f0f02a5;
+    public static final int dji_check_fc_takeoff_failed_software_data_invalid=0x7f0f02a6;
+    public static final int dji_check_fc_takeoff_failed_some_module_not_configured=0x7f0f02a7;
+    public static final int dji_check_fc_takeoff_failed_throttle_rocker_not_middle=0x7f0f02a8;
+    public static final int dji_check_fc_takeoff_failed_tips_battery_ico_error=0x7f0f02a9;
+    public static final int dji_check_fc_takeoff_failed_tips_battery_ico_error_motorOn=0x7f0f02aa;
+    public static final int dji_check_fc_takeoff_failed_unknown_error=0x7f0f02ab;
+    public static final int dji_check_fc_takeoff_failed_upgrading=0x7f0f02ac;
+    public static final int dji_check_fc_takeoff_failed_version_mismatch=0x7f0f02ad;
+    public static final int dji_check_fc_takeoff_flightaction_propeller_catapult=0x7f0f02ae;
+    public static final int dji_check_fc_three_propeller=0x7f0f02af;
+    public static final int dji_check_fc_three_propeller_cannot_takeoff=0x7f0f02b0;
+    public static final int dji_check_fc_three_propeller_force_landing=0x7f0f02b1;
+    public static final int dji_check_fc_tilt_control_abnormal_reason=0x7f0f02b2;
+    public static final int dji_check_fc_water_surface_warning_reason=0x7f0f02b3;
+    public static final int dji_check_fc_wrong_propeller_reason=0x7f0f02b4;
+    public static final int dji_check_gimbal_gyroscope_reason=0x7f0f02b5;
+    public static final int dji_check_gimbal_gyroscope_solution=0x7f0f02b6;
+    public static final int dji_check_gimbal_mc_conn_reason=0x7f0f02b7;
+    public static final int dji_check_gimbal_mc_conn_solution=0x7f0f02b8;
+    public static final int dji_check_gimbal_pitch_reason=0x7f0f02b9;
+    public static final int dji_check_gimbal_pitch_solution=0x7f0f02ba;
+    public static final int dji_check_gimbal_roll_reason=0x7f0f02bb;
+    public static final int dji_check_gimbal_roll_solution=0x7f0f02bc;
+    public static final int dji_check_gimbal_yaw_reason=0x7f0f02bd;
+    public static final int dji_check_gimbal_yaw_solution=0x7f0f02be;
+    public static final int dji_check_rc_battery_reason=0x7f0f02bf;
+    public static final int dji_check_rc_battery_solution=0x7f0f02c0;
+    public static final int dji_check_rc_encryption_reason=0x7f0f02c1;
+    public static final int dji_check_rc_encryption_solution=0x7f0f02c2;
+    public static final int dji_check_rc_fpga_reason=0x7f0f02c3;
+    public static final int dji_check_rc_fpga_solution=0x7f0f02c4;
+    public static final int dji_check_rc_go_home_fail_reason=0x7f0f02c5;
+    public static final int dji_check_rc_go_home_fail_solution=0x7f0f02c6;
+    public static final int dji_check_rc_gps_reason=0x7f0f02c7;
+    public static final int dji_check_rc_gps_solution=0x7f0f02c8;
+    public static final int dji_check_rc_power_reason=0x7f0f02c9;
+    public static final int dji_check_rc_power_solution=0x7f0f02ca;
+    public static final int dji_check_rc_reset_reason=0x7f0f02cb;
+    public static final int dji_check_rc_reset_solution=0x7f0f02cc;
+    public static final int dji_check_rc_stick_reason=0x7f0f02cd;
+    public static final int dji_check_rc_stick_solution=0x7f0f02ce;
+    public static final int dji_check_rc_timeout_reason=0x7f0f02cf;
+    public static final int dji_check_rc_timeout_solution=0x7f0f02d0;
+    public static final int dji_check_rc_too_hot_reason=0x7f0f02d1;
+    public static final int dji_check_rc_too_hot_solution=0x7f0f02d2;
+    public static final int dji_check_rc_transmitter_reason=0x7f0f02d3;
+    public static final int dji_check_rc_transmitter_solution=0x7f0f02d4;
+    public static final int dji_check_rtk_base_station_fell=0x7f0f02d5;
+    public static final int dji_check_rtk_base_station_moving=0x7f0f02d6;
+    public static final int dji_check_rtk_base_station_source_changed=0x7f0f02d7;
+    public static final int dji_check_rtk_course_not_matched=0x7f0f02d8;
+    public static final int dji_check_rtk_data_invalid=0x7f0f02d9;
+    public static final int dji_check_rtk_disconnect=0x7f0f02da;
+    public static final int dji_check_rtk_disconnect_abandon=0x7f0f02db;
+    public static final int dji_check_rtk_disconnected=0x7f0f02dc;
+    public static final int dji_check_rtk_has_big_difference_with_gps=0x7f0f02dd;
+    public static final int dji_check_rtk_height_different=0x7f0f02de;
+    public static final int dji_check_rtk_height_invalid=0x7f0f02df;
+    public static final int dji_check_rtk_horizontal_position_invalid=0x7f0f02e0;
+    public static final int dji_check_rtk_horizontal_velocity_invalid=0x7f0f02e1;
+    public static final int dji_check_rtk_is_no_yaw_in_air=0x7f0f02e2;
+    public static final int dji_check_rtk_position_change_rapidly=0x7f0f02e3;
+    public static final int dji_check_rtk_position_changed_slowly_when_still=0x7f0f02e4;
+    public static final int dji_check_rtk_result_exceeds_limitation=0x7f0f02e5;
+    public static final int dji_check_rtk_single_position_different_with_fix_position=0x7f0f02e6;
+    public static final int dji_check_rtk_solution_fly_with_cautious=0x7f0f02e7;
+    public static final int dji_check_rtk_solution_restart=0x7f0f02e8;
+    public static final int dji_check_rtk_speed_and_position_not_matched=0x7f0f02e9;
+    public static final int dji_check_rtk_speed_change_rapidly=0x7f0f02ea;
+    public static final int dji_check_rtk_speed_changed_slowly_when_still=0x7f0f02eb;
+    public static final int dji_check_rtk_stuck=0x7f0f02ec;
+    public static final int dji_check_rtk_version_error=0x7f0f02ed;
+    public static final int dji_check_rtk_yaw_invalid=0x7f0f02ee;
+    public static final int dji_check_video_decoder_deserializer_connection_reason=0x7f0f02ef;
+    public static final int dji_check_video_decoder_deserializer_connection_solution=0x7f0f02f0;
+    public static final int dji_check_video_decoder_encrypt_reason=0x7f0f02f1;
+    public static final int dji_check_video_decoder_encrypt_solution=0x7f0f02f2;
+    public static final int dji_check_vision_calibrate_solution=0x7f0f02f3;
+    public static final int dji_check_vision_connect_reason=0x7f0f02f4;
+    public static final int dji_check_vision_down_calibrate_reason=0x7f0f02f5;
+    public static final int dji_check_vision_front_calibrate_reason=0x7f0f02f6;
+    public static final int dji_check_vision_pc_calibrate_reason=0x7f0f02f7;
+    public static final int dji_check_vision_pc_calibrate_solution=0x7f0f02f8;
+    public static final int dji_check_vision_propeller_guard_reason=0x7f0f02f9;
+    public static final int dji_check_vision_propeller_guard_solution=0x7f0f02fa;
+    public static final int dji_check_vision_restart_solution=0x7f0f02fb;
+    public static final int dji_check_vision_return_solution=0x7f0f02fc;
+    public static final int dji_check_vision_sensor_reason_down_left=0x7f0f02fd;
+    public static final int dji_check_vision_sensor_reason_down_right=0x7f0f02fe;
+    public static final int dji_check_vision_sensor_reason_front_left=0x7f0f02ff;
+    public static final int dji_check_vision_sensor_reason_front_right=0x7f0f0300;
+    public static final int dji_check_vision_vision_reason=0x7f0f0301;
+    public static final int dji_check_vision_weak_ambient_light_reason=0x7f0f0302;
+    public static final int dji_logic_abnormal=0x7f0f0303;
+    public static final int dji_logic_calibrate=0x7f0f0304;
+    public static final int dji_logic_check_install_direction=0x7f0f0305;
+    public static final int dji_logic_compass_calibrate=0x7f0f0306;
+    public static final int dji_logic_compass_keep_away_from_magnetic=0x7f0f0307;
+    public static final int dji_logic_detail=0x7f0f0308;
+    public static final int dji_logic_gps_unknown=0x7f0f0309;
+    public static final int dji_logic_imu_calibrate=0x7f0f030a;
+    public static final int dji_logic_imu_installation_error=0x7f0f030b;
+    public static final int dji_logic_imu_unknown=0x7f0f030c;
+    public static final int dji_logic_imu_warming_up=0x7f0f030d;
+    public static final int dji_logic_normal=0x7f0f030e;
+    public static final int dji_logic_restart_aircraft=0x7f0f030f;
+    public static final int empty_field_error=0x7f0f0310;
+    public static final int enabled=0x7f0f0311;
+    public static final int enter_current_password=0x7f0f0312;
+    public static final int enter_new_password=0x7f0f0313;
+    public static final int enter_password=0x7f0f0314;
+    public static final int enter_password_to_remove=0x7f0f0315;
+    public static final int enter_security_password=0x7f0f0316;
+    public static final int enter_travel_mode=0x7f0f0317;
+    public static final int enter_travel_mode_message=0x7f0f0318;
+    public static final int error=0x7f0f0319;
+    public static final int esc_status=0x7f0f031a;
+    public static final int exceed_max_message=0x7f0f031b;
+    public static final int exceed_min_message=0x7f0f031c;
+    public static final int exit_travel_mode=0x7f0f031d;
+    public static final int flight_forbid_warn_alert_txt=0x7f0f031e;
+    public static final int flight_forbid_warn_edge_alert_txt=0x7f0f031f;
+    public static final int flight_frb_new_around_frb=0x7f0f0320;
+    public static final int flight_frb_new_around_limit=0x7f0f0321;
+    public static final int flight_frb_new_around_limit_height=0x7f0f0322;
+    public static final int flight_frb_new_around_to_open_license=0x7f0f0323;
+    public static final int flight_frb_new_around_to_unlock=0x7f0f0324;
+    public static final int flight_frb_new_below_limit_height=0x7f0f0325;
+    public static final int flight_frb_new_enhance_warning=0x7f0f0326;
+    public static final int flight_frb_new_in_auth_no_license=0x7f0f0327;
+    public static final int flight_frb_new_in_auth_with_license=0x7f0f0328;
+    public static final int flight_frb_new_limit_height_lose_gps=0x7f0f0329;
+    public static final int flight_frb_new_seem_in_auth_no_license=0x7f0f032a;
+    public static final int flight_frb_new_touch_to_open_license=0x7f0f032b;
+    public static final int flight_mode=0x7f0f032c;
+    public static final int flight_record_sync_del_result=0x7f0f032d;
+    public static final int flight_record_sync_download_result=0x7f0f032e;
+    public static final int flight_record_sync_fail=0x7f0f032f;
+    public static final int flight_record_sync_upload_result=0x7f0f0330;
+    public static final int fly_zone_authorized=0x7f0f0331;
+    public static final int fly_zone_custom_unlock=0x7f0f0332;
+    public static final int fly_zone_custom_unlock_aircraft=0x7f0f0333;
+    public static final int fly_zone_custom_unlock_enabled=0x7f0f0334;
+    public static final int fly_zone_enhanced_warning=0x7f0f0335;
+    public static final int fly_zone_error_unidentified=0x7f0f0336;
+    public static final int fly_zone_login_failed=0x7f0f0337;
+    public static final int fly_zone_login_failed_error=0x7f0f0338;
+    public static final int fly_zone_restricted=0x7f0f0339;
+    public static final int fly_zone_self_unlock=0x7f0f033a;
+    public static final int fly_zone_unlock=0x7f0f033b;
+    public static final int fly_zone_unlock_confirmation=0x7f0f033c;
+    public static final int fly_zone_unlock_end_time=0x7f0f033d;
+    public static final int fly_zone_unlock_failed_unauthorized=0x7f0f033e;
+    public static final int fly_zone_unlock_zone=0x7f0f033f;
+    public static final int fly_zone_warning=0x7f0f0340;
+    public static final int flyfrb_map_click_pop_end_at=0x7f0f0341;
+    public static final int flyfrb_map_click_pop_in_auth_zone=0x7f0f0342;
+    public static final int flyfrb_map_click_pop_in_enhance_warning_zone=0x7f0f0343;
+    public static final int flyfrb_map_click_pop_in_height_zone=0x7f0f0344;
+    public static final int flyfrb_map_click_pop_in_limit_zone=0x7f0f0345;
+    public static final int flyfrb_map_click_pop_in_warning_zone=0x7f0f0346;
+    public static final int flyfrb_map_click_pop_start_at=0x7f0f0347;
+    public static final int flyfrb_map_click_pop_title=0x7f0f0348;
+    public static final int flysafe_collision_with_limit_area_in_go_home_or_smart_mode=0x7f0f0349;
+    public static final int flysafe_collision_with_limit_height_area=0x7f0f034a;
+    public static final int flysafe_collision_with_special_unlock_area=0x7f0f034b;
+    public static final int flysafe_takeoff_failed_outside_white_list_area=0x7f0f034c;
+    public static final int format=0x7f0f034d;
+    public static final int format_aircraft=0x7f0f034e;
+    public static final int format_aircraft_confirmation=0x7f0f034f;
+    public static final int format_button=0x7f0f0350;
+    public static final int fpv_check_redundancy_failed_when_motor_up=0x7f0f0351;
+    public static final int fpv_checklist_compass_tip_show_arm=0x7f0f0352;
+    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_authorization_zone_result_content=0x7f0f0353;
+    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_authorized_zone_result_content=0x7f0f0354;
+    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_height_limit_zone_result_content=0x7f0f0355;
+    public static final int fpv_nfz_before_takeoff_auto_landing_dialogue_drone_in_nfz_result_content=0x7f0f0356;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_authorized_zone_check_result_content=0x7f0f0357;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_authorized_zone_result_content=0x7f0f0358;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_drone_in_nfz_result_content=0x7f0f0359;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_in_authorization_zone_result_content=0x7f0f035a;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_in_strengthen_warning_area_result_content=0x7f0f035b;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_mobile_device_in_nfz_result_content=0x7f0f035c;
+    public static final int fpv_nfz_before_takeoff_in_nfz_dialogue_title=0x7f0f035d;
+    public static final int fpv_nfz_before_takeoff_in_nfz_in_height_limit_zone_tips=0x7f0f035e;
+    public static final int fpv_nfz_before_takeoff_in_nfz_in_warning_area_tips=0x7f0f035f;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_future_temporary_nfz_result_content=0x7f0f0360;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_all_authorized_zone_result_content=0x7f0f0361;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_but_authorization_zone_description_content=0x7f0f0362;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_but_authorization_zone_result_content=0x7f0f0363;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_include_authorization_zone_description_content=0x7f0f0364;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_nfz_include_authorization_zone_result_content=0x7f0f0365;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_authorization_zone_description_content=0x7f0f0366;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_authorization_zone_result_content=0x7f0f0367;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_height_limit_zone_description_content=0x7f0f0368;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_height_limit_zone_result_content=0x7f0f0369;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_nfz_description_content=0x7f0f036a;
+    public static final int fpv_nfz_before_takeoff_near_nfz_dialogue_only_nfz_result_content=0x7f0f036b;
+    public static final int fpv_nfz_flying_contact_authorization_zone_tips=0x7f0f036c;
+    public static final int fpv_nfz_flying_contact_height_limit_zone_tips=0x7f0f036d;
+    public static final int fpv_nfz_flying_contact_nfz_tips=0x7f0f036e;
+    public static final int fpv_tip_atti_in_the_air_single_battery=0x7f0f036f;
+    public static final int fpv_tip_atti_state=0x7f0f0370;
+    public static final int fpv_tip_atti_state_in_the_air=0x7f0f0371;
+    public static final int fpv_tip_back_vision_cali=0x7f0f0372;
+    public static final int fpv_tip_bad_channel_quality=0x7f0f0373;
+    public static final int fpv_tip_barometer_dead=0x7f0f0374;
+    public static final int fpv_tip_battery_broken=0x7f0f0375;
+    public static final int fpv_tip_battery_damaged=0x7f0f0376;
+    public static final int fpv_tip_battery_exception=0x7f0f0377;
+    public static final int fpv_tip_battery_low_temp=0x7f0f0378;
+    public static final int fpv_tip_battery_over_current=0x7f0f0379;
+    public static final int fpv_tip_battery_over_temp=0x7f0f037a;
+    public static final int fpv_tip_battery_status_error=0x7f0f037b;
+    public static final int fpv_tip_camera_encrypt_error=0x7f0f037c;
+    public static final int fpv_tip_cant_takeoff=0x7f0f037d;
+    public static final int fpv_tip_cant_takeoff_locked=0x7f0f037e;
+    public static final int fpv_tip_cant_takeoff_novice=0x7f0f037f;
+    public static final int fpv_tip_check_gimbal_vibration_detail=0x7f0f0380;
+    public static final int fpv_tip_chlstatus_poor=0x7f0f0381;
+    public static final int fpv_tip_compass_error=0x7f0f0382;
+    public static final int fpv_tip_disconnect=0x7f0f0383;
+    public static final int fpv_tip_down_vision_cali=0x7f0f0384;
+    public static final int fpv_tip_esc_error=0x7f0f0385;
+    public static final int fpv_tip_esc_error_sky=0x7f0f0386;
+    public static final int fpv_tip_failsafe=0x7f0f0387;
+    public static final int fpv_tip_failsafe_gohome=0x7f0f0388;
+    public static final int fpv_tip_failsafe_wifi_no_rc=0x7f0f0389;
+    public static final int fpv_tip_firmware_no_match=0x7f0f038a;
+    public static final int fpv_tip_firmware_update_required=0x7f0f038b;
+    public static final int fpv_tip_flyc_data_error=0x7f0f038c;
+    public static final int fpv_tip_front_vision_cali=0x7f0f038d;
+    public static final int fpv_tip_gale_warning=0x7f0f038e;
+    public static final int fpv_tip_gimbal_broken_state=0x7f0f038f;
+    public static final int fpv_tip_gimbal_locate_err=0x7f0f0390;
+    public static final int fpv_tip_gimbal_motor_protection_enabled=0x7f0f0391;
+    public static final int fpv_tip_gimbal_reached_mechanical_limit=0x7f0f0392;
+    public static final int fpv_tip_gimbal_rotation_error=0x7f0f0393;
+    public static final int fpv_tip_gimbal_startup_block=0x7f0f0394;
+    public static final int fpv_tip_gimbal_stuck=0x7f0f0395;
+    public static final int fpv_tip_gimbal_wait_restart=0x7f0f0396;
+    public static final int fpv_tip_gimbal_wait_restart_detail=0x7f0f0397;
+    public static final int fpv_tip_gohome=0x7f0f0398;
+    public static final int fpv_tip_gohome_align=0x7f0f0399;
+    public static final int fpv_tip_gohome_ascending=0x7f0f039a;
+    public static final int fpv_tip_gohome_cruise=0x7f0f039b;
+    public static final int fpv_tip_gohome_failed=0x7f0f039c;
+    public static final int fpv_tip_gohome_preascending=0x7f0f039d;
+    public static final int fpv_tip_imu_cali=0x7f0f039e;
+    public static final int fpv_tip_imu_error=0x7f0f039f;
+    public static final int fpv_tip_imu_heating=0x7f0f03a0;
+    public static final int fpv_tip_imu_initializing=0x7f0f03a1;
+    public static final int fpv_tip_in_limit_space=0x7f0f03a2;
+    public static final int fpv_tip_in_nfz_max_height=0x7f0f03a3;
+    public static final int fpv_tip_in_nfz_max_height_special_unlock=0x7f0f03a4;
+    public static final int fpv_tip_low_power=0x7f0f03a5;
+    public static final int fpv_tip_low_power_gohome=0x7f0f03a6;
+    public static final int fpv_tip_low_radio_signal=0x7f0f03a7;
+    public static final int fpv_tip_low_rc_power=0x7f0f03a8;
+    public static final int fpv_tip_low_rc_signal=0x7f0f03a9;
+    public static final int fpv_tip_low_voltage=0x7f0f03aa;
+    public static final int fpv_tip_mc_error=0x7f0f03ab;
+    public static final int fpv_tip_mc_sd_mode=0x7f0f03ac;
+    public static final int fpv_tip_motor_stop_landing=0x7f0f03ad;
+    public static final int fpv_tip_nfz_flying=0x7f0f03ae;
+    public static final int fpv_tip_no_video_signal=0x7f0f03af;
+    public static final int fpv_tip_non_gps=0x7f0f03b0;
+    public static final int fpv_tip_non_gps_in_the_air=0x7f0f03b1;
+    public static final int fpv_tip_non_gps_in_the_air_nonvision=0x7f0f03b2;
+    public static final int fpv_tip_non_gps_in_the_air_single_battery=0x7f0f03b3;
+    public static final int fpv_tip_non_gps_nonvision=0x7f0f03b4;
+    public static final int fpv_tip_non_gps_nonvision_in_the_air_single_battery=0x7f0f03b5;
+    public static final int fpv_tip_normal=0x7f0f03b6;
+    public static final int fpv_tip_normal_in_the_air=0x7f0f03b7;
+    public static final int fpv_tip_normal_in_the_air_rtk=0x7f0f03b8;
+    public static final int fpv_tip_normal_in_the_air_single_battery=0x7f0f03b9;
+    public static final int fpv_tip_normal_lb2=0x7f0f03ba;
+    public static final int fpv_tip_normal_rtk=0x7f0f03bb;
+    public static final int fpv_tip_not_enough_force=0x7f0f03bc;
+    public static final int fpv_tip_patti_error=0x7f0f03bd;
+    public static final int fpv_tip_radio_signal_disturb=0x7f0f03be;
+    public static final int fpv_tip_rc_disturbance=0x7f0f03bf;
+    public static final int fpv_tip_rc_megnetic_low=0x7f0f03c0;
+    public static final int fpv_tip_rc_megnetic_medium=0x7f0f03c1;
+    public static final int fpv_tip_rc_megnetic_strong=0x7f0f03c2;
+    public static final int fpv_tip_rc_signal_disturb=0x7f0f03c3;
+    public static final int fpv_tip_remote_disconnect=0x7f0f03c4;
+    public static final int fpv_tip_self_release=0x7f0f03c5;
+    public static final int fpv_tip_sensor_error=0x7f0f03c6;
+    public static final int fpv_tip_serious_low_power=0x7f0f03c7;
+    public static final int fpv_tip_serious_low_power_landing=0x7f0f03c8;
+    public static final int fpv_tip_serious_low_voltage=0x7f0f03c9;
+    public static final int fpv_tip_serious_low_voltage_landing=0x7f0f03ca;
+    public static final int fpv_tip_smart_low_power=0x7f0f03cb;
+    public static final int fpv_tip_smart_low_power_landing=0x7f0f03cc;
+    public static final int fpv_tip_smart_number_less=0x7f0f03cd;
+    public static final int fpv_tip_takeoff_with_compass_error=0x7f0f03ce;
+    public static final int fpv_tip_video_disturbance=0x7f0f03cf;
+    public static final int fpv_tip_vision_3d_tof_error=0x7f0f03d0;
+    public static final int fpv_tip_vision_error=0x7f0f03d1;
+    public static final int fpv_tip_vision_tof_error=0x7f0f03d2;
+    public static final int fpv_tip_vision_ultrasonic_error=0x7f0f03d3;
+    public static final int fpv_tip_warning_rc_connection_error=0x7f0f03d4;
+    public static final int fr_sync_result_canceled=0x7f0f03d5;
+    public static final int fr_sync_result_del_completed=0x7f0f03d6;
+    public static final int fr_sync_result_del_failed=0x7f0f03d7;
+    public static final int fr_sync_result_del_start=0x7f0f03d8;
+    public static final int fr_sync_result_downloadfile_failed=0x7f0f03d9;
+    public static final int fr_sync_result_failed=0x7f0f03da;
+    public static final int fr_sync_result_finished=0x7f0f03db;
+    public static final int fr_sync_result_getlist_failed=0x7f0f03dc;
+    public static final int fr_sync_result_getlist_success=0x7f0f03dd;
+    public static final int fr_sync_result_opt_param=0x7f0f03de;
+    public static final int fr_sync_result_overview_failed=0x7f0f03df;
+    public static final int fr_sync_result_start=0x7f0f03e0;
+    public static final int fr_sync_result_uploadfile_failed=0x7f0f03e1;
+    public static final int geo_zones=0x7f0f03e2;
+    public static final int gohome_user_farfromhome=0x7f0f03e3;
+    public static final int gps_permission=0x7f0f03e4;
+    public static final int gps_rtk_enable=0x7f0f03e5;
+    public static final int grid_none=0x7f0f03e6;
+    public static final int head_led_auto_turn_off=0x7f0f03e7;
+    public static final int horizontal_speed_title=0x7f0f03e8;
+    public static final int icon=0x7f0f03e9;
+    public static final int imperial=0x7f0f03ea;
+    public static final int imu=0x7f0f03eb;
+    public static final int internal_storage_busy=0x7f0f03ec;
+    public static final int internal_storage_capacity=0x7f0f03ed;
+    public static final int internal_storage_formatting=0x7f0f03ee;
+    public static final int internal_storage_full=0x7f0f03ef;
+    public static final int internal_storage_initial=0x7f0f03f0;
+    public static final int internal_storage_invalid=0x7f0f03f1;
+    public static final int internal_storage_missing=0x7f0f03f2;
+    public static final int internal_storage_not_formatted=0x7f0f03f3;
+    public static final int internal_storage_remaining_space=0x7f0f03f4;
+    public static final int internal_storage_slow=0x7f0f03f5;
+    public static final int internal_storage_title_capacity=0x7f0f03f6;
+    public static final int internal_storage_title_time=0x7f0f03f7;
+    public static final int internal_storage_unknown_error=0x7f0f03f8;
+    public static final int internal_storage_write_protect=0x7f0f03f9;
+    public static final int land_desc=0x7f0f03fa;
+    public static final int left_menu_cancel_gohome=0x7f0f03fb;
+    public static final int left_menu_cancel_gohome_desc=0x7f0f03fc;
+    public static final int left_menu_cancel_gohome_failed=0x7f0f03fd;
+    public static final int left_menu_cancel_gohome_success=0x7f0f03fe;
+    public static final int left_menu_cgh_tip=0x7f0f03ff;
+    public static final int left_menu_cl_tip=0x7f0f0400;
+    public static final int left_menu_drop_land_failed=0x7f0f0401;
+    public static final int left_menu_drop_land_success=0x7f0f0402;
+    public static final int left_menu_gohome=0x7f0f0403;
+    public static final int left_menu_gohome_below_desc=0x7f0f0404;
+    public static final int left_menu_gohome_failed=0x7f0f0405;
+    public static final int left_menu_gohome_inner_desc=0x7f0f0406;
+    public static final int left_menu_gohome_success=0x7f0f0407;
+    public static final int left_menu_gohome_switch=0x7f0f0408;
+    public static final int left_menu_homefollow=0x7f0f0409;
+    public static final int left_menu_homefollow_desc=0x7f0f040a;
+    public static final int left_menu_homepoint_norecord=0x7f0f040b;
+    public static final int left_menu_land=0x7f0f040c;
+    public static final int left_menu_land_desc=0x7f0f040d;
+    public static final int left_menu_land_failed=0x7f0f040e;
+    public static final int left_menu_land_success=0x7f0f040f;
+    public static final int left_menu_takeoff=0x7f0f0410;
+    public static final int left_menu_takeoff_desc=0x7f0f0411;
+    public static final int left_menu_takeoff_failed=0x7f0f0412;
+    public static final int left_menu_takeoff_success=0x7f0f0413;
+    public static final int left_menu_takeoff_switch=0x7f0f0414;
+    public static final int left_menu_tip_gohome=0x7f0f0415;
+    public static final int limit_tips_touch=0x7f0f0416;
+    public static final int limit_tips_touch_auth=0x7f0f0417;
+    public static final int limit_tips_touch_limit_height=0x7f0f0418;
+    public static final int limit_tips_touch_special_unlock=0x7f0f0419;
+    public static final int live_stream_panel_header=0x7f0f041a;
+    public static final int long_exposure_auto_preview=0x7f0f041b;
+    public static final int mapbox_attributionErrorNoBrowser=0x7f0f041c;
+    public static final int mapbox_attributionTelemetryMessage=0x7f0f041d;
+    public static final int mapbox_attributionTelemetryNegative=0x7f0f041e;
+    public static final int mapbox_attributionTelemetryNeutral=0x7f0f041f;
+    public static final int mapbox_attributionTelemetryPositive=0x7f0f0420;
+    public static final int mapbox_attributionTelemetryTitle=0x7f0f0421;
+    public static final int mapbox_attributionsDialogTitle=0x7f0f0422;
+    public static final int mapbox_attributionsIconContentDescription=0x7f0f0423;
+    public static final int mapbox_compassContentDescription=0x7f0f0424;
+    public static final int mapbox_mapActionDescription=0x7f0f0425;
+    public static final int mapbox_myLocationViewContentDescription=0x7f0f0426;
+    public static final int mapbox_offline_error_region_definition_invalid=0x7f0f0427;
+    public static final int mapbox_style_dark=0x7f0f0428;
+    public static final int mapbox_style_light=0x7f0f0429;
+    public static final int mapbox_style_mapbox_streets=0x7f0f042a;
+    public static final int mapbox_style_outdoors=0x7f0f042b;
+    public static final int mapbox_style_satellite=0x7f0f042c;
+    public static final int mapbox_style_satellite_streets=0x7f0f042d;
+    public static final int mapbox_style_traffic_day=0x7f0f042e;
+    public static final int mapbox_style_traffic_night=0x7f0f042f;
+    public static final int mapbox_telemetryLink=0x7f0f0430;
+    public static final int mapbox_telemetrySettings=0x7f0f0431;
+    public static final int max_altitude=0x7f0f0432;
+    public static final int max_altitude_faa_message=0x7f0f0433;
+    public static final int max_altitude_warning_zone_message=0x7f0f0434;
+    public static final int max_flight_distance=0x7f0f0435;
+    public static final int metric=0x7f0f0436;
+    public static final int miles_h=0x7f0f0437;
+    public static final int model_not_available=0x7f0f0438;
+    public static final int motor_stop_reason_auto_takeoff_lanch_faile=0x7f0f0439;
+    public static final int motor_stop_reason_engine_start_failed=0x7f0f043a;
+    public static final int motor_stop_reason_esc_part_empty_on_grd=0x7f0f043b;
+    public static final int motor_stop_reason_esc_stall_near_gound=0x7f0f043c;
+    public static final int motor_stop_reason_esc_unbalance_on_grd=0x7f0f043d;
+    public static final int motor_stop_reason_roll_over_on_grd=0x7f0f043e;
+    public static final int motor_stop_reason_takeoff_exception=0x7f0f043f;
+    public static final int navigation_system_component_accelerometer=0x7f0f0440;
+    public static final int navigation_system_component_app=0x7f0f0441;
+    public static final int navigation_system_component_barometer=0x7f0f0442;
+    public static final int navigation_system_component_battery=0x7f0f0443;
+    public static final int navigation_system_component_bs=0x7f0f0444;
+    public static final int navigation_system_component_camera=0x7f0f0445;
+    public static final int navigation_system_component_compass=0x7f0f0446;
+    public static final int navigation_system_component_dropsafe=0x7f0f0447;
+    public static final int navigation_system_component_esc=0x7f0f0448;
+    public static final int navigation_system_component_fmu=0x7f0f0449;
+    public static final int navigation_system_component_gimbal=0x7f0f044a;
+    public static final int navigation_system_component_gps=0x7f0f044b;
+    public static final int navigation_system_component_gyroscope=0x7f0f044c;
+    public static final int navigation_system_component_imu=0x7f0f044d;
+    public static final int navigation_system_component_led=0x7f0f044e;
+    public static final int navigation_system_component_mc=0x7f0f044f;
+    public static final int navigation_system_component_pc=0x7f0f0450;
+    public static final int navigation_system_component_pitot=0x7f0f0451;
+    public static final int navigation_system_component_pmu=0x7f0f0452;
+    public static final int navigation_system_component_radar=0x7f0f0453;
+    public static final int navigation_system_component_rc=0x7f0f0454;
+    public static final int navigation_system_component_rtk=0x7f0f0455;
+    public static final int navigation_system_component_sdk=0x7f0f0456;
+    public static final int navigation_system_component_spray=0x7f0f0457;
+    public static final int navigation_system_component_system=0x7f0f0458;
+    public static final int navigation_system_component_tof=0x7f0f0459;
+    public static final int navigation_system_component_transformers=0x7f0f045a;
+    public static final int navigation_system_component_ultrasonic=0x7f0f045b;
+    public static final int navigation_system_component_unknown=0x7f0f045c;
+    public static final int navigation_system_component_vision=0x7f0f045d;
+    public static final int navigation_system_tip_accelerometer_bias_error=0x7f0f045e;
+    public static final int navigation_system_tip_accelerometer_cali_error_advanced=0x7f0f045f;
+    public static final int navigation_system_tip_accelerometer_cali_error_basic=0x7f0f0460;
+    public static final int navigation_system_tip_accelerometer_cali_error_direction_rong=0x7f0f0461;
+    public static final int navigation_system_tip_accelerometer_cali_error_horizontal=0x7f0f0462;
+    public static final int navigation_system_tip_accelerometer_cali_error_not_finished=0x7f0f0463;
+    public static final int navigation_system_tip_accelerometer_cali_error_not_in_stanndard_temp=0x7f0f0464;
+    public static final int navigation_system_tip_accelerometer_cali_error_temp_exceeds=0x7f0f0465;
+    public static final int navigation_system_tip_accelerometer_cali_error_temp_not_ready=0x7f0f0466;
+    public static final int navigation_system_tip_accelerometer_cali_falied=0x7f0f0467;
+    public static final int navigation_system_tip_accelerometer_data_error_data_synchronization=0x7f0f0468;
+    public static final int navigation_system_tip_accelerometer_data_error_exceeds_range=0x7f0f0469;
+    public static final int navigation_system_tip_accelerometer_data_error_invalid_data=0x7f0f046a;
+    public static final int navigation_system_tip_accelerometer_data_error_invalid_internal_param=0x7f0f046b;
+    public static final int navigation_system_tip_accelerometer_data_error_measurement_not_matched=0x7f0f046c;
+    public static final int navigation_system_tip_accelerometer_data_error_noise=0x7f0f046d;
+    public static final int navigation_system_tip_accelerometer_data_error_stuck=0x7f0f046e;
+    public static final int navigation_system_tip_accelerometer_disconnect_reset_check=0x7f0f046f;
+    public static final int navigation_system_tip_accelerometer_error_moved=0x7f0f0470;
+    public static final int navigation_system_tip_accelerometer_error_preheat=0x7f0f0471;
+    public static final int navigation_system_tip_accelerometer_flash_error=0x7f0f0472;
+    public static final int navigation_system_tip_accelerometer_install_error=0x7f0f0473;
+    public static final int navigation_system_tip_accelerometer_internal_offset=0x7f0f0474;
+    public static final int navigation_system_tip_accelerometer_mount_error_offeset_incomplete=0x7f0f0475;
+    public static final int navigation_system_tip_accelerometer_mount_error_offset_error=0x7f0f0476;
+    public static final int navigation_system_tip_accelerometer_preheat_error=0x7f0f0477;
+    public static final int navigation_system_tip_accelerometer_temp_error_too_high=0x7f0f0478;
+    public static final int navigation_system_tip_accelerometer_temp_error_too_low=0x7f0f0479;
+    public static final int navigation_system_tip_accelerometer_temp_error_will_too_high=0x7f0f047a;
+    public static final int navigation_system_tip_accelerometer_version_error=0x7f0f047b;
+    public static final int navigation_system_tip_baro_data_error_chage=0x7f0f047c;
+    public static final int navigation_system_tip_baro_data_error_contact_assist=0x7f0f047d;
+    public static final int navigation_system_tip_baro_data_error_drift=0x7f0f047e;
+    public static final int navigation_system_tip_baro_data_error_exceeds_range=0x7f0f047f;
+    public static final int navigation_system_tip_baro_data_error_measurement_not_matched=0x7f0f0480;
+    public static final int navigation_system_tip_baro_data_error_noise=0x7f0f0481;
+    public static final int navigation_system_tip_baro_data_error_stuck=0x7f0f0482;
+    public static final int navigation_system_tip_baro_disconnect_reset_check=0x7f0f0483;
+    public static final int navigation_system_tip_baro_temp_error_keep_cool=0x7f0f0484;
+    public static final int navigation_system_tip_bat_auth_error_contact_assist=0x7f0f0485;
+    public static final int navigation_system_tip_bat_cell_error=0x7f0f0486;
+    public static final int navigation_system_tip_bat_comm_error=0x7f0f0487;
+    public static final int navigation_system_tip_bat_num_low_insert_more=0x7f0f0488;
+    public static final int navigation_system_tip_bat_vol_diff_large_check_status=0x7f0f0489;
+    public static final int navigation_system_tip_bat_vol_diff_very_large_check_status=0x7f0f048a;
+    public static final int navigation_system_tip_bat_vol_low_need_charge=0x7f0f048b;
+    public static final int navigation_system_tip_compass_bias_error=0x7f0f048c;
+    public static final int navigation_system_tip_compass_cali_error_no_param=0x7f0f048d;
+    public static final int navigation_system_tip_compass_cali_falied=0x7f0f048e;
+    public static final int navigation_system_tip_compass_comm_error=0x7f0f048f;
+    public static final int navigation_system_tip_compass_data_error_change=0x7f0f0490;
+    public static final int navigation_system_tip_compass_data_error_exceeds_range=0x7f0f0491;
+    public static final int navigation_system_tip_compass_data_error_noise=0x7f0f0492;
+    public static final int navigation_system_tip_compass_data_error_non_orthogonal_differences=0x7f0f0493;
+    public static final int navigation_system_tip_compass_data_error_not_matched=0x7f0f0494;
+    public static final int navigation_system_tip_compass_data_error_stuck=0x7f0f0495;
+    public static final int navigation_system_tip_compass_disconnect_reset_check=0x7f0f0496;
+    public static final int navigation_system_tip_compass_error_dip_disturbance=0x7f0f0497;
+    public static final int navigation_system_tip_compass_error_ground_disturbance=0x7f0f0498;
+    public static final int navigation_system_tip_compass_mount_error=0x7f0f0499;
+    public static final int navigation_system_tip_compass_mount_error_heading=0x7f0f049a;
+    public static final int navigation_system_tip_compass_scale_error=0x7f0f049b;
+    public static final int navigation_system_tip_esc_error_contact_assist=0x7f0f049c;
+    public static final int navigation_system_tip_gps_data_error_change=0x7f0f049d;
+    public static final int navigation_system_tip_gps_data_error_exceeds_range=0x7f0f049e;
+    public static final int navigation_system_tip_gps_data_error_invalid_data=0x7f0f049f;
+    public static final int navigation_system_tip_gps_data_error_position_not_matched=0x7f0f04a0;
+    public static final int navigation_system_tip_gps_data_error_speed_not_matched=0x7f0f04a1;
+    public static final int navigation_system_tip_gps_disconnect_reset_check=0x7f0f04a2;
+    public static final int navigation_system_tip_gps_hdop_error_not_matched=0x7f0f04a3;
+    public static final int navigation_system_tip_gps_low_accuracy_error=0x7f0f04a4;
+    public static final int navigation_system_tip_gps_mount_error_offeset_incomplete=0x7f0f04a5;
+    public static final int navigation_system_tip_gps_mount_error_offset_error=0x7f0f04a6;
+    public static final int navigation_system_tip_gps_update_error_frequency=0x7f0f04a7;
+    public static final int navigation_system_tip_gps_version_error_contact_assist=0x7f0f04a8;
+    public static final int navigation_system_tip_gyroscope_bias_error=0x7f0f04a9;
+    public static final int navigation_system_tip_gyroscope_cali_error_advanced=0x7f0f04aa;
+    public static final int navigation_system_tip_gyroscope_cali_error_basic=0x7f0f04ab;
+    public static final int navigation_system_tip_gyroscope_cali_error_direction_rong=0x7f0f04ac;
+    public static final int navigation_system_tip_gyroscope_cali_error_horizontal=0x7f0f04ad;
+    public static final int navigation_system_tip_gyroscope_cali_error_not_finished=0x7f0f04ae;
+    public static final int navigation_system_tip_gyroscope_cali_error_not_in_stanndard_temp=0x7f0f04af;
+    public static final int navigation_system_tip_gyroscope_cali_error_temp_exceeds=0x7f0f04b0;
+    public static final int navigation_system_tip_gyroscope_cali_error_temp_not_ready=0x7f0f04b1;
+    public static final int navigation_system_tip_gyroscope_cali_falied=0x7f0f04b2;
+    public static final int navigation_system_tip_gyroscope_data_error_data_synchronization=0x7f0f04b3;
+    public static final int navigation_system_tip_gyroscope_data_error_exceeds_range=0x7f0f04b4;
+    public static final int navigation_system_tip_gyroscope_data_error_invalid_data=0x7f0f04b5;
+    public static final int navigation_system_tip_gyroscope_data_error_invalid_internal_param=0x7f0f04b6;
+    public static final int navigation_system_tip_gyroscope_data_error_measurement_not_matched=0x7f0f04b7;
+    public static final int navigation_system_tip_gyroscope_data_error_noise=0x7f0f04b8;
+    public static final int navigation_system_tip_gyroscope_data_error_stuck=0x7f0f04b9;
+    public static final int navigation_system_tip_gyroscope_disconnect_reset_check=0x7f0f04ba;
+    public static final int navigation_system_tip_gyroscope_error_moved=0x7f0f04bb;
+    public static final int navigation_system_tip_gyroscope_error_preheat=0x7f0f04bc;
+    public static final int navigation_system_tip_gyroscope_flash_error=0x7f0f04bd;
+    public static final int navigation_system_tip_gyroscope_install_error=0x7f0f04be;
+    public static final int navigation_system_tip_gyroscope_preheat_error=0x7f0f04bf;
+    public static final int navigation_system_tip_gyroscope_temp_error_too_high=0x7f0f04c0;
+    public static final int navigation_system_tip_gyroscope_temp_error_too_low=0x7f0f04c1;
+    public static final int navigation_system_tip_gyroscope_temp_error_will_too_high=0x7f0f04c2;
+    public static final int navigation_system_tip_gyroscope_version_error=0x7f0f04c3;
+    public static final int navigation_system_tip_imu_acceleration_not_matched=0x7f0f04c4;
+    public static final int navigation_system_tip_imu_angular_velocity_not_matched=0x7f0f04c5;
+    public static final int navigation_system_tip_imu_attitude_not_matched=0x7f0f04c6;
+    public static final int navigation_system_tip_imu_compass_course_measure_difference=0x7f0f04c7;
+    public static final int navigation_system_tip_imu_course_not_matched=0x7f0f04c8;
+    public static final int navigation_system_tip_imu_data_error_height_difference=0x7f0f04c9;
+    public static final int navigation_system_tip_imu_data_error_invalid_data=0x7f0f04ca;
+    public static final int navigation_system_tip_imu_error_disconnected=0x7f0f04cb;
+    public static final int navigation_system_tip_imu_filters_course_not_matched=0x7f0f04cc;
+    public static final int navigation_system_tip_imu_filters_horizontal_attitude_not_matched=0x7f0f04cd;
+    public static final int navigation_system_tip_imu_filters_vertical_velocity_not_matched=0x7f0f04ce;
+    public static final int navigation_system_tip_imu_gps_course_measure_difference=0x7f0f04cf;
+    public static final int navigation_system_tip_imu_gyroscope_bias_estimation_error=0x7f0f04d0;
+    public static final int navigation_system_tip_imu_height_change_rapidly=0x7f0f04d1;
+    public static final int navigation_system_tip_imu_height_drift=0x7f0f04d2;
+    public static final int navigation_system_tip_imu_height_not_matched=0x7f0f04d3;
+    public static final int navigation_system_tip_imu_horizontal_velocity_measure_difference=0x7f0f04d4;
+    public static final int navigation_system_tip_imu_horizontal_velocity_not_matched=0x7f0f04d5;
+    public static final int navigation_system_tip_imu_init_error=0x7f0f04d6;
+    public static final int navigation_system_tip_imu_initializing=0x7f0f04d7;
+    public static final int navigation_system_tip_imu_not_divergence=0x7f0f04d8;
+    public static final int navigation_system_tip_imu_position_velocity_not_matched=0x7f0f04d9;
+    public static final int navigation_system_tip_imu_settle_attitude_difference=0x7f0f04da;
+    public static final int navigation_system_tip_imu_settle_big_acceleration=0x7f0f04db;
+    public static final int navigation_system_tip_imu_small_filters_course_not_matched=0x7f0f04dc;
+    public static final int navigation_system_tip_imu_small_filters_horizontal_attitude_not_matched=0x7f0f04dd;
+    public static final int navigation_system_tip_imu_small_filters_vertical_velocity_not_matched=0x7f0f04de;
+    public static final int navigation_system_tip_imu_version_error=0x7f0f04df;
+    public static final int navigation_system_tip_imu_vertical_velocity_not_matched=0x7f0f04e0;
+    public static final int navigation_system_tip_radar_comm_error_contact_assist=0x7f0f04e1;
+    public static final int navigation_system_tip_radar_data_error=0x7f0f04e2;
+    public static final int navigation_system_tip_radar_data_error_lock_dead=0x7f0f04e3;
+    public static final int navigation_system_tip_radar_disconnect_reset_check=0x7f0f04e4;
+    public static final int navigation_system_tip_radar_mount_error_contact_assist=0x7f0f04e5;
+    public static final int navigation_system_tip_radar_version_error_contact_assist=0x7f0f04e6;
+    public static final int navigation_system_tip_rc_cali_error_center_out_range=0x7f0f04e7;
+    public static final int navigation_system_tip_rc_cali_error_failed_rc_calibration_unfinished=0x7f0f04e8;
+    public static final int navigation_system_tip_rc_cali_error_invalid_params=0x7f0f04e9;
+    public static final int navigation_system_tip_rc_cali_error_mapping=0x7f0f04ea;
+    public static final int navigation_system_tip_rc_cali_error_need_cali=0x7f0f04eb;
+    public static final int navigation_system_tip_rtk_comm_error_adapter_plate=0x7f0f04ec;
+    public static final int navigation_system_tip_rtk_comm_error_contact_assist=0x7f0f04ed;
+    public static final int navigation_system_tip_rtk_comm_error_frequency=0x7f0f04ee;
+    public static final int navigation_system_tip_rtk_data_error_invalid_data=0x7f0f04ef;
+    public static final int navigation_system_tip_rtk_data_error_position_change=0x7f0f04f0;
+    public static final int navigation_system_tip_rtk_data_error_reset_check=0x7f0f04f1;
+    public static final int navigation_system_tip_rtk_data_error_speed_change=0x7f0f04f2;
+    public static final int navigation_system_tip_rtk_disconnect_reset_check=0x7f0f04f3;
+    public static final int navigation_system_tip_rtk_gs_antenna_error_contact_assist=0x7f0f04f4;
+    public static final int navigation_system_tip_rtk_heading_error_check_info=0x7f0f04f5;
+    public static final int navigation_system_tip_rtk_master_antenna_error_contact_assist=0x7f0f04f6;
+    public static final int navigation_system_tip_rtk_mount_error_offeset_incomplete=0x7f0f04f7;
+    public static final int navigation_system_tip_rtk_mount_error_offset_error=0x7f0f04f8;
+    public static final int navigation_system_tip_rtk_slave_antenna_error_contact_assist=0x7f0f04f9;
+    public static final int navigation_system_tip_rtk_unfixed_contact_assist=0x7f0f04fa;
+    public static final int navigation_system_tip_rtk_version_error_contact_assist=0x7f0f04fb;
+    public static final int navigation_system_tip_sys_locked_contact_assist=0x7f0f04fc;
+    public static final int navigation_system_tip_sys_not_activated_activate_fc=0x7f0f04fd;
+    public static final int navigation_system_tip_sys_sd_card_error_repair=0x7f0f04fe;
+    public static final int navigation_system_tip_sys_serial_num_invalid_contact_assist=0x7f0f04ff;
+    public static final int navigation_system_tip_sys_thrust_ratio_large_contact_assist=0x7f0f0500;
+    public static final int navigation_system_tip_us_comm_error_contact_assist=0x7f0f0501;
+    public static final int navigation_system_tip_us_data_error_contact_assist=0x7f0f0502;
+    public static final int navigation_system_tip_us_data_error_stuck=0x7f0f0503;
+    public static final int navigation_system_tip_us_disconnect_reset_check=0x7f0f0504;
+    public static final int navigation_system_tip_us_mount_error_contact_assist=0x7f0f0505;
+    public static final int navigation_system_tip_us_version_error_contact_assist=0x7f0f0506;
+    public static final int navigation_system_tip_vps_comm_error_contact_assist=0x7f0f0507;
+    public static final int navigation_system_tip_vps_data_error_contact_assist=0x7f0f0508;
+    public static final int navigation_system_tip_vps_data_error_position_change=0x7f0f0509;
+    public static final int navigation_system_tip_vps_data_error_speed_change=0x7f0f050a;
+    public static final int navigation_system_tip_vps_data_error_stuck=0x7f0f050b;
+    public static final int navigation_system_tip_vps_disconnect_reset_check=0x7f0f050c;
+    public static final int navigation_system_tip_vps_mount_error_contact_assist=0x7f0f050d;
+    public static final int navigation_system_tip_vps_version_error_contact_assist=0x7f0f050e;
+    public static final int never_show=0x7f0f050f;
+    public static final int nfz_fly_zone_airport=0x7f0f0510;
+    public static final int nfz_fly_zone_airports_commercial=0x7f0f0511;
+    public static final int nfz_fly_zone_airports_commercial_private=0x7f0f0512;
+    public static final int nfz_fly_zone_airports_recreational=0x7f0f0513;
+    public static final int nfz_fly_zone_airports_recreational_private=0x7f0f0514;
+    public static final int nfz_fly_zone_class_b=0x7f0f0515;
+    public static final int nfz_fly_zone_class_c=0x7f0f0516;
+    public static final int nfz_fly_zone_class_d=0x7f0f0517;
+    public static final int nfz_fly_zone_class_e0=0x7f0f0518;
+    public static final int nfz_fly_zone_heliports=0x7f0f0519;
+    public static final int nfz_fly_zone_military=0x7f0f051a;
+    public static final int nfz_fly_zone_national_parks=0x7f0f051b;
+    public static final int nfz_fly_zone_noaa=0x7f0f051c;
+    public static final int nfz_fly_zone_nuclear_power_plant=0x7f0f051d;
+    public static final int nfz_fly_zone_parcels=0x7f0f051e;
+    public static final int nfz_fly_zone_power_plants=0x7f0f051f;
+    public static final int nfz_fly_zone_prisons=0x7f0f0520;
+    public static final int nfz_fly_zone_schools=0x7f0f0521;
+    public static final int nfz_fly_zone_stadiums=0x7f0f0522;
+    public static final int nfz_fly_zone_sua_prhobited=0x7f0f0523;
+    public static final int nfz_fly_zone_sua_restricted=0x7f0f0524;
+    public static final int nfz_fly_zone_tfrs=0x7f0f0525;
+    public static final int nfz_fly_zone_unpaved_airports=0x7f0f0526;
+    public static final int nfz_fly_zone_warning=0x7f0f0527;
+    public static final int nfz_http_request_area_cannot_unlock_error_prompt=0x7f0f0528;
+    public static final int nfz_http_request_error_common_prompt=0x7f0f0529;
+    public static final int nfz_http_request_token_error_prompt=0x7f0f052a;
+    public static final int nfz_http_request_too_more_license_error_prompt=0x7f0f052b;
+    public static final int nfz_http_request_too_more_unlock_error_prompt=0x7f0f052c;
+    public static final int nfz_http_request_verify_error_prompt=0x7f0f052d;
+    public static final int nfz_limit_tips_rth_cross=0x7f0f052e;
+    public static final int nfz_limit_tips_rth_near=0x7f0f052f;
+    public static final int nfz_no_network=0x7f0f0530;
+    public static final int nfz_not_verified=0x7f0f0531;
+    public static final int nfz_server_error_account_format=0x7f0f0532;
+    public static final int nfz_server_error_format=0x7f0f0533;
+    public static final int nfz_server_error_not_allow_unlimit=0x7f0f0534;
+    public static final int nfz_server_error_not_login=0x7f0f0535;
+    public static final int nfz_server_error_parameter=0x7f0f0536;
+    public static final int nfz_server_error_signature=0x7f0f0537;
+    public static final int nfz_server_error_sn_empty=0x7f0f0538;
+    public static final int nfz_server_error_system_busy=0x7f0f0539;
+    public static final int nfz_server_error_too_frequent=0x7f0f053a;
+    public static final int nfz_server_error_too_more_unlimit=0x7f0f053b;
+    public static final int nfz_server_error_user_not_verify=0x7f0f053c;
+    public static final int nfz_system_busy=0x7f0f053d;
+    public static final int nfz_unlimit_fail_toast_txt=0x7f0f053e;
+    public static final int nfz_unlock_desc_radius=0x7f0f053f;
+    public static final int nfz_unlock_new_unlock_type_country=0x7f0f0540;
+    public static final int nfz_unlock_new_unlock_type_geo=0x7f0f0541;
+    public static final int nfz_unlock_new_unlock_type_height=0x7f0f0542;
+    public static final int nfz_unlock_new_unlock_type_polygon=0x7f0f0543;
+    public static final int nfz_unlock_new_unlock_type_whitelist=0x7f0f0544;
+    public static final int nfz_unlock_special_polygon_desc=0x7f0f0545;
+    public static final int nfz_unlock_v3_app_license_too_old=0x7f0f0546;
+    public static final int nfz_unlock_v3_app_license_too_old_dynamic=0x7f0f0547;
+    public static final int nfz_unlock_v3_error_code=0x7f0f0548;
+    public static final int nfz_unlock_v3_error_keyversion_not_got=0x7f0f0549;
+    public static final int nfz_unlock_v3_error_keyversion_not_got_importing=0x7f0f054a;
+    public static final int nfz_unlock_v3_license_open_fail_user_not_match=0x7f0f054b;
+    public static final int nfz_unlock_v3_uav_license_too_old=0x7f0f054c;
+    public static final int nfz_unlock_view_map=0x7f0f054d;
+    public static final int normal=0x7f0f054e;
+    public static final int null_string=0x7f0f054f;
+    public static final int off=0x7f0f0550;
+    public static final int offline_map_all_pausing_text=0x7f0f0551;
+    public static final int offline_map_all_upgrade=0x7f0f0552;
+    public static final int offline_map_cancel_text=0x7f0f0553;
+    public static final int offline_map_cancelled_text=0x7f0f0554;
+    public static final int offline_map_confirm_text=0x7f0f0555;
+    public static final int offline_map_delete_failing_info=0x7f0f0556;
+    public static final int offline_map_delete_text=0x7f0f0557;
+    public static final int offline_map_download_all_cities=0x7f0f0558;
+    public static final int offline_map_download_all_countries=0x7f0f0559;
+    public static final int offline_map_download_all_regions=0x7f0f055a;
+    public static final int offline_map_download_invalid=0x7f0f055b;
+    public static final int offline_map_download_pause=0x7f0f055c;
+    public static final int offline_map_download_stop=0x7f0f055d;
+    public static final int offline_map_download_successfully=0x7f0f055e;
+    public static final int offline_map_download_text=0x7f0f055f;
+    public static final int offline_map_downloaded=0x7f0f0560;
+    public static final int offline_map_downloaded_text=0x7f0f0561;
+    public static final int offline_map_downloading=0x7f0f0562;
+    public static final int offline_map_downloading_text=0x7f0f0563;
+    public static final int offline_map_get_offlinecity_list=0x7f0f0564;
+    public static final int offline_map_gps_location_off=0x7f0f0565;
+    public static final int offline_map_header_bar_management_title=0x7f0f0566;
+    public static final int offline_map_header_bar_title=0x7f0f0567;
+    public static final int offline_map_hint_no_satellite_map=0x7f0f0568;
+    public static final int offline_map_manager_all_download=0x7f0f0569;
+    public static final int offline_map_manager_all_pause=0x7f0f056a;
+    public static final int offline_map_manager_all_upgrade=0x7f0f056b;
+    public static final int offline_map_manager_download=0x7f0f056c;
+    public static final int offline_map_manager_empty_message=0x7f0f056d;
+    public static final int offline_map_mapbox_downloading_region=0x7f0f056e;
+    public static final int offline_map_mapbox_select_region_download=0x7f0f056f;
+    public static final int offline_map_multiple_region_downloading_warning=0x7f0f0570;
+    public static final int offline_map_multiple_region_downloading_warning_content=0x7f0f0571;
+    public static final int offline_map_name_new_region_title=0x7f0f0572;
+    public static final int offline_map_network_disconnected=0x7f0f0573;
+    public static final int offline_map_network_disconnected_hint=0x7f0f0574;
+    public static final int offline_map_network_exception=0x7f0f0575;
+    public static final int offline_map_network_type_in_mobile=0x7f0f0576;
+    public static final int offline_map_network_type_in_mobile_hint=0x7f0f0577;
+    public static final int offline_map_pause_text=0x7f0f0578;
+    public static final int offline_map_pausing_text=0x7f0f0579;
+    public static final int offline_map_region_default_name=0x7f0f057a;
+    public static final int offline_map_region_list_item_menu_cancel=0x7f0f057b;
+    public static final int offline_map_region_list_item_menu_delete=0x7f0f057c;
+    public static final int offline_map_region_list_item_menu_delete_failed=0x7f0f057d;
+    public static final int offline_map_region_list_item_menu_pause=0x7f0f057e;
+    public static final int offline_map_region_list_item_menu_rename=0x7f0f057f;
+    public static final int offline_map_region_list_item_menu_resume=0x7f0f0580;
+    public static final int offline_map_region_name=0x7f0f0581;
+    public static final int offline_map_region_name_cannot_be_empty=0x7f0f0582;
+    public static final int offline_map_region_name_input_hint=0x7f0f0583;
+    public static final int offline_map_search_hint_text=0x7f0f0584;
+    public static final int offline_map_search_no_data_hint=0x7f0f0585;
+    public static final int offline_map_server_no_response=0x7f0f0586;
+    public static final int offline_map_setting=0x7f0f0587;
+    public static final int offline_map_storage_space=0x7f0f0588;
+    public static final int offline_map_storage_space_no_enough=0x7f0f0589;
+    public static final int offline_map_storage_space_no_enough_hint=0x7f0f058a;
+    public static final int offline_map_storage_space_no_enough_resume_download=0x7f0f058b;
+    public static final int offline_map_tips=0x7f0f058c;
+    public static final int offline_map_unzip_text=0x7f0f058d;
+    public static final int offline_map_upgrade_text=0x7f0f058e;
+    public static final int offline_map_waitting_text=0x7f0f058f;
+    public static final int ok=0x7f0f0590;
+    public static final int overall_status=0x7f0f0591;
+    public static final int parallel=0x7f0f0592;
+    public static final int parallel_diagonal=0x7f0f0593;
+    public static final int password_changed_successfully=0x7f0f0594;
+    public static final int password_removed_successfully=0x7f0f0595;
+    public static final int password_set_failed=0x7f0f0596;
+    public static final int password_set_successfully=0x7f0f0597;
+    public static final int passwords_do_not_match_error=0x7f0f0598;
+    public static final int pip_mode=0x7f0f0599;
+    public static final int pip_mode_center=0x7f0f059a;
+    public static final int pip_mode_center_bottom=0x7f0f059b;
+    public static final int pip_mode_center_top=0x7f0f059c;
+    public static final int pip_mode_left_bottom=0x7f0f059d;
+    public static final int pip_mode_left_center=0x7f0f059e;
+    public static final int pip_mode_left_top=0x7f0f059f;
+    public static final int pip_mode_link_up=0x7f0f05a0;
+    public static final int pip_mode_right_bottom=0x7f0f05a1;
+    public static final int pip_mode_right_center=0x7f0f05a2;
+    public static final int pip_mode_right_top=0x7f0f05a3;
+    public static final int pip_mode_side_by_side=0x7f0f05a4;
+    public static final int place_autocomplete_clear_button=0x7f0f05a5;
+    public static final int place_autocomplete_search_hint=0x7f0f05a6;
+    public static final int port_side=0x7f0f05a7;
+    public static final int preflight_checklist_gimbal_status=0x7f0f05a8;
+    public static final int preflight_range=0x7f0f05a9;
+    public static final int product_information=0x7f0f05aa;
+    public static final int provider_init_failed=0x7f0f05ab;
+    public static final int radio_quality=0x7f0f05ac;
+    public static final int remote_controller_battery=0x7f0f05ad;
+    public static final int remote_controller_mode=0x7f0f05ae;
+    public static final int remove=0x7f0f05af;
+    public static final int remove_password=0x7f0f05b0;
+    public static final int remove_password_failed=0x7f0f05b1;
+    public static final int remove_password_warning=0x7f0f05b2;
+    public static final int rtk_introduction_txt=0x7f0f05b3;
+    public static final int rtk_panel_aircraft_altitude_wrt=0x7f0f05b4;
+    public static final int rtk_panel_aircraft_location=0x7f0f05b5;
+    public static final int rtk_panel_antenna_1=0x7f0f05b6;
+    public static final int rtk_panel_antenna_2=0x7f0f05b7;
+    public static final int rtk_panel_antenna_angle=0x7f0f05b8;
+    public static final int rtk_panel_base_station=0x7f0f05b9;
+    public static final int rtk_panel_base_station_location=0x7f0f05ba;
+    public static final int rtk_panel_glonass_num=0x7f0f05bb;
+    public static final int rtk_panel_gps_num=0x7f0f05bc;
+    public static final int rtk_panel_height=0x7f0f05bd;
+    public static final int rtk_panel_lat=0x7f0f05be;
+    public static final int rtk_panel_lng=0x7f0f05bf;
+    public static final int rtk_panel_north_num=0x7f0f05c0;
+    public static final int rtk_panel_orientation_status_text=0x7f0f05c1;
+    public static final int rtk_panel_positioning_status_text=0x7f0f05c2;
+    public static final int rtk_panel_satellite_num=0x7f0f05c3;
+    public static final int rtk_panel_title=0x7f0f05c4;
+    public static final int save_original_warning_message=0x7f0f05c5;
+    public static final int save_original_warning_title=0x7f0f05c6;
+    public static final int scan_qr_bar_tip=0x7f0f05c7;
+    public static final int sd_card_busy=0x7f0f05c8;
+    public static final int sd_card_capacity=0x7f0f05c9;
+    public static final int sd_card_formatting=0x7f0f05ca;
+    public static final int sd_card_full=0x7f0f05cb;
+    public static final int sd_card_initial=0x7f0f05cc;
+    public static final int sd_card_invalid=0x7f0f05cd;
+    public static final int sd_card_missing=0x7f0f05ce;
+    public static final int sd_card_needs_formatting=0x7f0f05cf;
+    public static final int sd_card_not_formatted=0x7f0f05d0;
+    public static final int sd_card_recover_file=0x7f0f05d1;
+    public static final int sd_card_remaining_space=0x7f0f05d2;
+    public static final int sd_card_slow=0x7f0f05d3;
+    public static final int sd_card_unknown_error=0x7f0f05d4;
+    public static final int sd_card_usb_connected=0x7f0f05d5;
+    public static final int sd_card_write_protect=0x7f0f05d6;
+    public static final int sd_card_write_slow=0x7f0f05d7;
+    public static final int sdk_version=0x7f0f05d8;
+    public static final int sdk_wifi_permission_description=0x7f0f05d9;
+    public static final int sdk_wifi_permission_label=0x7f0f05da;
+    public static final int search_menu_title=0x7f0f05db;
+    public static final int security_password_warning=0x7f0f05dc;
+    public static final int select_action_header=0x7f0f05dd;
+    public static final int select_action_message=0x7f0f05de;
+    public static final int self_fly_zone_login_requirement=0x7f0f05df;
+    public static final int sensor_system_tip_ultrasonic_data_error_stuck=0x7f0f05e0;
+    public static final int set_password=0x7f0f05e1;
+    public static final int set_password_warning=0x7f0f05e2;
+    public static final int setting_foot=0x7f0f05e3;
+    public static final int setting_metric=0x7f0f05e4;
+    public static final int setting_ui_flyfrb_unlock_refresh_empty=0x7f0f05e5;
+    public static final int setting_ui_flyfrb_unlock_refresh_fail=0x7f0f05e6;
+    public static final int setting_ui_flyfrb_unlock_refresh_success=0x7f0f05e7;
+    public static final int settings_alert_title=0x7f0f05e8;
+    public static final int simulator_aircraft_status_title=0x7f0f05e9;
+    public static final int simulator_aircraft_wind_title=0x7f0f05ea;
+    public static final int simulator_attitude_title=0x7f0f05eb;
+    public static final int simulator_input_val_error=0x7f0f05ec;
+    public static final int simulator_null_string=0x7f0f05ed;
+    public static final int simulator_position_title=0x7f0f05ee;
+    public static final int simulator_preset=0x7f0f05ef;
+    public static final int simulator_save_preset=0x7f0f05f0;
+    public static final int simulator_save_preset_delete=0x7f0f05f1;
+    public static final int simulator_save_preset_list=0x7f0f05f2;
+    public static final int simulator_save_preset_list_empty=0x7f0f05f3;
+    public static final int simulator_save_preset_message=0x7f0f05f4;
+    public static final int simulator_widget_flying_state=0x7f0f05f5;
+    public static final int simulator_widget_frequency=0x7f0f05f6;
+    public static final int simulator_widget_lat=0x7f0f05f7;
+    public static final int simulator_widget_lng=0x7f0f05f8;
+    public static final int simulator_widget_motor_started=0x7f0f05f9;
+    public static final int simulator_widget_pitch=0x7f0f05fa;
+    public static final int simulator_widget_roll=0x7f0f05fb;
+    public static final int simulator_widget_satellite=0x7f0f05fc;
+    public static final int simulator_widget_title=0x7f0f05fd;
+    public static final int simulator_widget_world_x=0x7f0f05fe;
+    public static final int simulator_widget_world_y=0x7f0f05ff;
+    public static final int simulator_widget_world_z=0x7f0f0600;
+    public static final int simulator_widget_yaw=0x7f0f0601;
+    public static final int simulator_zero_string=0x7f0f0602;
+    public static final int slow_tag=0x7f0f0603;
+    public static final int solution_insert_second_sdcard=0x7f0f0604;
+    public static final int speaker_panel_broadcast=0x7f0f0605;
+    public static final int speaker_panel_header=0x7f0f0606;
+    public static final int speaker_panel_list_prefix=0x7f0f0607;
+    public static final int speaker_panel_local_audio=0x7f0f0608;
+    public static final int speaker_panel_play_instant_switch=0x7f0f0609;
+    public static final int speaker_panel_play_repeat_mode=0x7f0f060a;
+    public static final int speaker_panel_tap_to_record=0x7f0f060b;
+    public static final int speaker_panel_temporary_switch=0x7f0f060c;
+    public static final int speaker_panel_volume=0x7f0f060d;
+    public static final int speaker_record_permission_required=0x7f0f060e;
+    public static final int speed_unit=0x7f0f060f;
+    public static final int spotlight=0x7f0f0610;
+    public static final int spotlight_brightness=0x7f0f0611;
+    public static final int spotlight_brightness_value=0x7f0f0612;
+    public static final int spotlight_brightness_warning=0x7f0f0613;
+    public static final int spotlight_settings=0x7f0f0614;
+    public static final int spotlight_temperature=0x7f0f0615;
+    public static final int spotlight_temperature_value=0x7f0f0616;
+    public static final int ssd_status_error_nossd=0x7f0f0617;
+    public static final int ssd_status_formatting=0x7f0f0618;
+    public static final int ssd_status_full=0x7f0f0619;
+    public static final int ssd_status_init=0x7f0f061a;
+    public static final int ssd_status_need_format=0x7f0f061b;
+    public static final int ssd_status_poor_connection=0x7f0f061c;
+    public static final int ssd_status_recognize_failed=0x7f0f061d;
+    public static final int ssd_status_switching_mode=0x7f0f061e;
+    public static final int ssd_status_verify_failed=0x7f0f061f;
+    public static final int starboard_side=0x7f0f0620;
+    public static final int status_bar_notification_info_overflow=0x7f0f0621;
+    public static final int storage_title_capacity=0x7f0f0622;
+    public static final int storage_title_time=0x7f0f0623;
+    public static final int storage_value_full=0x7f0f0624;
+    public static final int stream_observer_desc_aoa_get_body=0x7f0f0625;
+    public static final int stream_observer_desc_aoa_get_stream=0x7f0f0626;
+    public static final int stream_observer_desc_aoa_get_stream_47=0x7f0f0627;
+    public static final int stream_observer_desc_aoa_get_stream_52=0x7f0f0628;
+    public static final int stream_observer_desc_aoa_get_stream_default=0x7f0f0629;
+    public static final int stream_observer_desc_aoa_get_stream_dual=0x7f0f062a;
+    public static final int stream_observer_desc_aoa_get_stream_single=0x7f0f062b;
+    public static final int stream_observer_desc_aoa_handle_new_method=0x7f0f062c;
+    public static final int stream_observer_desc_aoa_handle_old_method=0x7f0f062d;
+    public static final int stream_observer_desc_aoa_put_video_buffer=0x7f0f062e;
+    public static final int stream_observer_desc_aoa_put_video_not_buffer=0x7f0f062f;
+    public static final int stream_observer_desc_aoa_trans_video_data_need_pack=0x7f0f0630;
+    public static final int stream_observer_desc_aoa_trans_video_data_no_need_pack=0x7f0f0631;
+    public static final int stream_observer_desc_audio_record=0x7f0f0632;
+    public static final int stream_observer_desc_decoder_queue_in=0x7f0f0633;
+    public static final int stream_observer_desc_decoder_queue_to_codec=0x7f0f0634;
+    public static final int stream_observer_desc_dpad_cmd_service_parse=0x7f0f0635;
+    public static final int stream_observer_desc_dpad_udp_service_parse=0x7f0f0636;
+    public static final int stream_observer_desc_dpad_udp_service_parse1=0x7f0f0637;
+    public static final int stream_observer_desc_dpad_udp_service_parse2=0x7f0f0638;
+    public static final int stream_observer_desc_dpad_udp_service_parse_ip0=0x7f0f0639;
+    public static final int stream_observer_desc_dpad_udp_service_parse_ip1=0x7f0f063a;
+    public static final int stream_observer_desc_dpad_udp_service_parse_lte=0x7f0f063b;
+    public static final int stream_observer_desc_full_frame_transcodr_enc_data=0x7f0f063c;
+    public static final int stream_observer_desc_glyuv_surface_display=0x7f0f063d;
+    public static final int stream_observer_desc_mammoth_service=0x7f0f063e;
+    public static final int stream_observer_desc_online_transcoder_frame_input=0x7f0f063f;
+    public static final int stream_observer_desc_online_transcoder_run=0x7f0f0640;
+    public static final int stream_observer_desc_p3c_service=0x7f0f0641;
+    public static final int stream_observer_desc_recorder_audio_full_frame_input=0x7f0f0642;
+    public static final int stream_observer_desc_recorder_audio_mp4_input=0x7f0f0643;
+    public static final int stream_observer_desc_recorder_full_frame_input=0x7f0f0644;
+    public static final int stream_observer_desc_recorder_mp4_input=0x7f0f0645;
+    public static final int stream_observer_desc_recorder_quick_movie_normal=0x7f0f0646;
+    public static final int stream_observer_desc_recorder_quick_movie_quick=0x7f0f0647;
+    public static final int stream_observer_desc_recorder_speed_adjust_input=0x7f0f0648;
+    public static final int stream_observer_desc_send_message=0x7f0f0649;
+    public static final int stream_observer_desc_sw_udp_service_parse=0x7f0f064a;
+    public static final int stream_observer_desc_udt_runnable=0x7f0f064b;
+    public static final int stream_observer_desc_video_data_recver_not_raw=0x7f0f064c;
+    public static final int stream_observer_stream_source=0x7f0f064d;
+    public static final int string_default_value=0x7f0f064e;
+    public static final int takeoff_inatti=0x7f0f064f;
+    public static final int thermal_Camera_temp_alert_tips=0x7f0f0650;
+    public static final int thermal_camera_atmosphere_temperature=0x7f0f0651;
+    public static final int thermal_camera_atmosphere_transmission_coefficient=0x7f0f0652;
+    public static final int thermal_camera_background_temperature=0x7f0f0653;
+    public static final int thermal_camera_external_parameter=0x7f0f0654;
+    public static final int thermal_camera_ffc_mode=0x7f0f0655;
+    public static final int thermal_camera_ffc_mode_auto=0x7f0f0656;
+    public static final int thermal_camera_ffc_mode_manual=0x7f0f0657;
+    public static final int thermal_camera_gain_mode=0x7f0f0658;
+    public static final int thermal_camera_gain_mode_auto=0x7f0f0659;
+    public static final int thermal_camera_gain_mode_high=0x7f0f065a;
+    public static final int thermal_camera_gain_mode_low=0x7f0f065b;
+    public static final int thermal_camera_isotherm=0x7f0f065c;
+    public static final int thermal_camera_isotherm_close=0x7f0f065d;
+    public static final int thermal_camera_isotherm_lower=0x7f0f065e;
+    public static final int thermal_camera_isotherm_middle=0x7f0f065f;
+    public static final int thermal_camera_isotherm_open=0x7f0f0660;
+    public static final int thermal_camera_isotherm_search_custom=0x7f0f0661;
+    public static final int thermal_camera_isotherm_search_fire=0x7f0f0662;
+    public static final int thermal_camera_isotherm_search_people=0x7f0f0663;
+    public static final int thermal_camera_isotherm_unit=0x7f0f0664;
+    public static final int thermal_camera_isotherm_unit_percentage=0x7f0f0665;
+    public static final int thermal_camera_isotherm_unit_temperature=0x7f0f0666;
+    public static final int thermal_camera_isotherm_upper=0x7f0f0667;
+    public static final int thermal_camera_msx_offset=0x7f0f0668;
+    public static final int thermal_camera_msx_offset_reset=0x7f0f0669;
+    public static final int thermal_camera_palette=0x7f0f066a;
+    public static final int thermal_camera_palette_arctic=0x7f0f066b;
+    public static final int thermal_camera_palette_arcticblackhot_iso=0x7f0f066c;
+    public static final int thermal_camera_palette_black_hot=0x7f0f066d;
+    public static final int thermal_camera_palette_blackhot_iso=0x7f0f066e;
+    public static final int thermal_camera_palette_color1_iso=0x7f0f066f;
+    public static final int thermal_camera_palette_color2_iso=0x7f0f0670;
+    public static final int thermal_camera_palette_color_1=0x7f0f0671;
+    public static final int thermal_camera_palette_color_2=0x7f0f0672;
+    public static final int thermal_camera_palette_fusion=0x7f0f0673;
+    public static final int thermal_camera_palette_fusion_iso=0x7f0f0674;
+    public static final int thermal_camera_palette_globow_iso=0x7f0f0675;
+    public static final int thermal_camera_palette_glow_bow=0x7f0f0676;
+    public static final int thermal_camera_palette_green_hot=0x7f0f0677;
+    public static final int thermal_camera_palette_greenhot_iso=0x7f0f0678;
+    public static final int thermal_camera_palette_ice_fire=0x7f0f0679;
+    public static final int thermal_camera_palette_icefire_iso=0x7f0f067a;
+    public static final int thermal_camera_palette_iron_bow_1=0x7f0f067b;
+    public static final int thermal_camera_palette_iron_bow_2=0x7f0f067c;
+    public static final int thermal_camera_palette_ironbow2_iso=0x7f0f067d;
+    public static final int thermal_camera_palette_ironbow_iso=0x7f0f067e;
+    public static final int thermal_camera_palette_rain=0x7f0f067f;
+    public static final int thermal_camera_palette_rain_iso=0x7f0f0680;
+    public static final int thermal_camera_palette_rainbow=0x7f0f0681;
+    public static final int thermal_camera_palette_rainbow_iso=0x7f0f0682;
+    public static final int thermal_camera_palette_red_hot=0x7f0f0683;
+    public static final int thermal_camera_palette_redhot_iso=0x7f0f0684;
+    public static final int thermal_camera_palette_sepia=0x7f0f0685;
+    public static final int thermal_camera_palette_sepia_iso=0x7f0f0686;
+    public static final int thermal_camera_palette_white_hot=0x7f0f0687;
+    public static final int thermal_camera_palette_whitehot_iso=0x7f0f0688;
+    public static final int thermal_camera_profile=0x7f0f0689;
+    public static final int thermal_camera_roi=0x7f0f068a;
+    public static final int thermal_camera_roi_full=0x7f0f068b;
+    public static final int thermal_camera_roi_sky_excluded_33=0x7f0f068c;
+    public static final int thermal_camera_roi_sky_excluded_50=0x7f0f068d;
+    public static final int thermal_camera_scene=0x7f0f068e;
+    public static final int thermal_camera_scene_default=0x7f0f068f;
+    public static final int thermal_camera_scene_emissivity=0x7f0f0690;
+    public static final int thermal_camera_scene_indoor=0x7f0f0691;
+    public static final int thermal_camera_scene_linear=0x7f0f0692;
+    public static final int thermal_camera_scene_manual=0x7f0f0693;
+    public static final int thermal_camera_scene_outdoor=0x7f0f0694;
+    public static final int thermal_camera_scene_profile_1=0x7f0f0695;
+    public static final int thermal_camera_scene_profile_2=0x7f0f0696;
+    public static final int thermal_camera_scene_profile_3=0x7f0f0697;
+    public static final int thermal_camera_scene_sea_sky=0x7f0f0698;
+    public static final int thermal_camera_temp_alert=0x7f0f0699;
+    public static final int thermal_camera_temp_alert_close=0x7f0f069a;
+    public static final int thermal_camera_temp_alert_open=0x7f0f069b;
+    public static final int thermal_camera_temp_threshold=0x7f0f069c;
+    public static final int thermal_camera_title=0x7f0f069d;
+    public static final int thermal_camera_trigger_ffc=0x7f0f069e;
+    public static final int thermal_camera_version_advanced=0x7f0f069f;
+    public static final int thermal_camera_version_standard=0x7f0f06a0;
+    public static final int thermal_camera_window_reflected_temperature=0x7f0f06a1;
+    public static final int thermal_camera_window_reflection=0x7f0f06a2;
+    public static final int thermal_camera_window_temperature=0x7f0f06a3;
+    public static final int thermal_camera_window_transmission_coefficient=0x7f0f06a4;
+    public static final int thermal_camera_x_offset_title=0x7f0f06a5;
+    public static final int thermal_camera_y_offset_title=0x7f0f06a6;
+    public static final int time_hours_mins_secs=0x7f0f06a7;
+    public static final int time_mins_secs=0x7f0f06a8;
+    public static final int tips_adsb_dangerous_content=0x7f0f06a9;
+    public static final int tips_adsb_warning_content=0x7f0f06aa;
+    public static final int tips_adsb_warning_title=0x7f0f06ab;
+    public static final int title_main_activity=0x7f0f06ac;
+    public static final int unlimit_type_airport=0x7f0f06ad;
+    public static final int unlimit_type_class_b=0x7f0f06ae;
+    public static final int unlimit_type_class_c=0x7f0f06af;
+    public static final int unlimit_type_class_d=0x7f0f06b0;
+    public static final int unlimit_type_class_e=0x7f0f06b1;
+    public static final int unlimit_type_commerial_airport=0x7f0f06b2;
+    public static final int unlimit_type_heliport=0x7f0f06b3;
+    public static final int unlimit_type_military=0x7f0f06b4;
+    public static final int unlimit_type_national_park=0x7f0f06b5;
+    public static final int unlimit_type_noaa=0x7f0f06b6;
+    public static final int unlimit_type_nuclear_power_plant=0x7f0f06b7;
+    public static final int unlimit_type_parcel=0x7f0f06b8;
+    public static final int unlimit_type_power_plant=0x7f0f06b9;
+    public static final int unlimit_type_prison=0x7f0f06ba;
+    public static final int unlimit_type_private_commerial_airport=0x7f0f06bb;
+    public static final int unlimit_type_private_recreational_airport=0x7f0f06bc;
+    public static final int unlimit_type_recreational_airport=0x7f0f06bd;
+    public static final int unlimit_type_school=0x7f0f06be;
+    public static final int unlimit_type_seaplane=0x7f0f06bf;
+    public static final int unlimit_type_special=0x7f0f06c0;
+    public static final int unlimit_type_stadium=0x7f0f06c1;
+    public static final int unlimit_type_sua_prohibited=0x7f0f06c2;
+    public static final int unlimit_type_sub_restricte=0x7f0f06c3;
+    public static final int unlimit_type_tfrs=0x7f0f06c4;
+    public static final int unlimit_type_unknown=0x7f0f06c5;
+    public static final int unlimit_type_unpaved_airports=0x7f0f06c6;
+    public static final int unlock=0x7f0f06c7;
+    public static final int unrecognized_notice_event=0x7f0f06c8;
+    public static final int unrecognized_rth_event=0x7f0f06c9;
+    public static final int unrecognized_serious_warning_event=0x7f0f06ca;
+    public static final int unrecognized_warning_event=0x7f0f06cb;
+    public static final int user_log_action_failed=0x7f0f06cc;
+    public static final int user_log_in_button=0x7f0f06cd;
+    public static final int user_log_in_successful=0x7f0f06ce;
+    public static final int user_log_out_button=0x7f0f06cf;
+    public static final int user_log_out_confirmation=0x7f0f06d0;
+    public static final int user_log_out_successful=0x7f0f06d1;
+    public static final int v2_nfz_unlock_geo_type=0x7f0f06d2;
+    public static final int v2_nfz_unlock_white_list_type=0x7f0f06d3;
+    public static final int value_unknown=0x7f0f06d4;
+    public static final int vertical=0x7f0f06d5;
+    public static final int vertical_speed_title=0x7f0f06d6;
+    public static final int visible_camera_title=0x7f0f06d7;
+    public static final int vision_positioning_system_title=0x7f0f06d8;
+    public static final int vision_status=0x7f0f06d9;
+    public static final int zxing_app_name=0x7f0f06da;
+    public static final int zxing_button_ok=0x7f0f06db;
+    public static final int zxing_msg_camera_framework_bug=0x7f0f06dc;
+    public static final int zxing_msg_default_status=0x7f0f06dd;
   }
   public static final class style {
     public static final int AlertDialog_AppCompat=0x7f100000;
@@ -9566,132 +9424,126 @@ public final class R {
     public static final int TextAppearance_AppCompat_Widget_TextView_SpinnerItem=0x7f1000f6;
     public static final int TextAppearance_Compat_Notification=0x7f1000f7;
     public static final int TextAppearance_Compat_Notification_Info=0x7f1000f8;
-    public static final int TextAppearance_Compat_Notification_Info_Media=0x7f1000f9;
-    public static final int TextAppearance_Compat_Notification_Line2=0x7f1000fa;
-    public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f1000fb;
-    public static final int TextAppearance_Compat_Notification_Media=0x7f1000fc;
-    public static final int TextAppearance_Compat_Notification_Time=0x7f1000fd;
-    public static final int TextAppearance_Compat_Notification_Time_Media=0x7f1000fe;
-    public static final int TextAppearance_Compat_Notification_Title=0x7f1000ff;
-    public static final int TextAppearance_Compat_Notification_Title_Media=0x7f100100;
-    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f100101;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f100102;
-    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f100103;
-    public static final int Theme_AppCompat=0x7f100104;
-    public static final int Theme_AppCompat_CompactMenu=0x7f100105;
-    public static final int Theme_AppCompat_DayNight=0x7f100106;
-    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f100107;
-    public static final int Theme_AppCompat_DayNight_Dialog=0x7f100108;
-    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f100109;
-    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f10010a;
-    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f10010b;
-    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f10010c;
-    public static final int Theme_AppCompat_Dialog=0x7f10010d;
-    public static final int Theme_AppCompat_Dialog_Alert=0x7f10010e;
-    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f10010f;
-    public static final int Theme_AppCompat_DialogWhenLarge=0x7f100110;
-    public static final int Theme_AppCompat_Empty=0x7f100111;
-    public static final int Theme_AppCompat_Light=0x7f100112;
-    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f100113;
-    public static final int Theme_AppCompat_Light_Dialog=0x7f100114;
-    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100115;
-    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f100116;
-    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f100117;
-    public static final int Theme_AppCompat_Light_NoActionBar=0x7f100118;
-    public static final int Theme_AppCompat_NoActionBar=0x7f100119;
-    public static final int ThemeOverlay_AppCompat=0x7f10011a;
-    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f10011b;
-    public static final int ThemeOverlay_AppCompat_Dark=0x7f10011c;
-    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f10011d;
-    public static final int ThemeOverlay_AppCompat_DayNight=0x7f10011e;
-    public static final int ThemeOverlay_AppCompat_DayNight_ActionBar=0x7f10011f;
-    public static final int ThemeOverlay_AppCompat_Dialog=0x7f100120;
-    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f100121;
-    public static final int ThemeOverlay_AppCompat_Light=0x7f100122;
-    public static final int Widget_AppCompat_ActionBar=0x7f100123;
-    public static final int Widget_AppCompat_ActionBar_Solid=0x7f100124;
-    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f100125;
-    public static final int Widget_AppCompat_ActionBar_TabText=0x7f100126;
-    public static final int Widget_AppCompat_ActionBar_TabView=0x7f100127;
-    public static final int Widget_AppCompat_ActionButton=0x7f100128;
-    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f100129;
-    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f10012a;
-    public static final int Widget_AppCompat_ActionMode=0x7f10012b;
-    public static final int Widget_AppCompat_ActivityChooserView=0x7f10012c;
-    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f10012d;
-    public static final int Widget_AppCompat_Button=0x7f10012e;
-    public static final int Widget_AppCompat_Button_Borderless=0x7f10012f;
-    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f100130;
-    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f100131;
-    public static final int Widget_AppCompat_Button_Colored=0x7f100132;
-    public static final int Widget_AppCompat_Button_Small=0x7f100133;
-    public static final int Widget_AppCompat_ButtonBar=0x7f100134;
-    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100135;
-    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f100136;
-    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f100137;
-    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f100138;
-    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f100139;
-    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f10013a;
-    public static final int Widget_AppCompat_EditText=0x7f10013b;
-    public static final int Widget_AppCompat_ImageButton=0x7f10013c;
-    public static final int Widget_AppCompat_Light_ActionBar=0x7f10013d;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f10013e;
-    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f10013f;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f100140;
-    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f100141;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f100142;
-    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f100143;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f100144;
-    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f100145;
-    public static final int Widget_AppCompat_Light_ActionButton=0x7f100146;
-    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f100147;
-    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f100148;
-    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f100149;
-    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f10014a;
-    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f10014b;
-    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f10014c;
-    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f10014d;
-    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f10014e;
-    public static final int Widget_AppCompat_Light_PopupMenu=0x7f10014f;
-    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f100150;
-    public static final int Widget_AppCompat_Light_SearchView=0x7f100151;
-    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f100152;
-    public static final int Widget_AppCompat_ListMenuView=0x7f100153;
-    public static final int Widget_AppCompat_ListPopupWindow=0x7f100154;
-    public static final int Widget_AppCompat_ListView=0x7f100155;
-    public static final int Widget_AppCompat_ListView_DropDown=0x7f100156;
-    public static final int Widget_AppCompat_ListView_Menu=0x7f100157;
-    public static final int Widget_AppCompat_PopupMenu=0x7f100158;
-    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f100159;
-    public static final int Widget_AppCompat_PopupWindow=0x7f10015a;
-    public static final int Widget_AppCompat_ProgressBar=0x7f10015b;
-    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f10015c;
-    public static final int Widget_AppCompat_RatingBar=0x7f10015d;
-    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f10015e;
-    public static final int Widget_AppCompat_RatingBar_Small=0x7f10015f;
-    public static final int Widget_AppCompat_SearchView=0x7f100160;
-    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f100161;
-    public static final int Widget_AppCompat_SeekBar=0x7f100162;
-    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f100163;
-    public static final int Widget_AppCompat_Spinner=0x7f100164;
-    public static final int Widget_AppCompat_Spinner_DropDown=0x7f100165;
-    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f100166;
-    public static final int Widget_AppCompat_Spinner_Underlined=0x7f100167;
-    public static final int Widget_AppCompat_TextView=0x7f100168;
-    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f100169;
-    public static final int Widget_AppCompat_Toolbar=0x7f10016a;
-    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f10016b;
-    public static final int Widget_Compat_NotificationActionContainer=0x7f10016c;
-    public static final int Widget_Compat_NotificationActionText=0x7f10016d;
-    public static final int Widget_Support_CoordinatorLayout=0x7f10016e;
-    public static final int camera_exposure_settings_title=0x7f10016f;
-    public static final int dialog=0x7f100170;
-    public static final int dialogFullscreen=0x7f100171;
-    public static final int dialogWindowAnim=0x7f100172;
-    public static final int thermal_camera_scene_settings_value=0x7f100173;
-    public static final int widget_battery_voltage_bg=0x7f100174;
-    public static final int widget_radar_distance_txt=0x7f100175;
-    public static final int zxing_CaptureTheme=0x7f100176;
+    public static final int TextAppearance_Compat_Notification_Line2=0x7f1000f9;
+    public static final int TextAppearance_Compat_Notification_Time=0x7f1000fa;
+    public static final int TextAppearance_Compat_Notification_Title=0x7f1000fb;
+    public static final int TextAppearance_Widget_AppCompat_ExpandedMenu_Item=0x7f1000fc;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Subtitle=0x7f1000fd;
+    public static final int TextAppearance_Widget_AppCompat_Toolbar_Title=0x7f1000fe;
+    public static final int Theme_AppCompat=0x7f1000ff;
+    public static final int Theme_AppCompat_CompactMenu=0x7f100100;
+    public static final int Theme_AppCompat_DayNight=0x7f100101;
+    public static final int Theme_AppCompat_DayNight_DarkActionBar=0x7f100102;
+    public static final int Theme_AppCompat_DayNight_Dialog=0x7f100103;
+    public static final int Theme_AppCompat_DayNight_Dialog_Alert=0x7f100104;
+    public static final int Theme_AppCompat_DayNight_Dialog_MinWidth=0x7f100105;
+    public static final int Theme_AppCompat_DayNight_DialogWhenLarge=0x7f100106;
+    public static final int Theme_AppCompat_DayNight_NoActionBar=0x7f100107;
+    public static final int Theme_AppCompat_Dialog=0x7f100108;
+    public static final int Theme_AppCompat_Dialog_Alert=0x7f100109;
+    public static final int Theme_AppCompat_Dialog_MinWidth=0x7f10010a;
+    public static final int Theme_AppCompat_DialogWhenLarge=0x7f10010b;
+    public static final int Theme_AppCompat_Empty=0x7f10010c;
+    public static final int Theme_AppCompat_Light=0x7f10010d;
+    public static final int Theme_AppCompat_Light_DarkActionBar=0x7f10010e;
+    public static final int Theme_AppCompat_Light_Dialog=0x7f10010f;
+    public static final int Theme_AppCompat_Light_Dialog_Alert=0x7f100110;
+    public static final int Theme_AppCompat_Light_Dialog_MinWidth=0x7f100111;
+    public static final int Theme_AppCompat_Light_DialogWhenLarge=0x7f100112;
+    public static final int Theme_AppCompat_Light_NoActionBar=0x7f100113;
+    public static final int Theme_AppCompat_NoActionBar=0x7f100114;
+    public static final int ThemeOverlay_AppCompat=0x7f100115;
+    public static final int ThemeOverlay_AppCompat_ActionBar=0x7f100116;
+    public static final int ThemeOverlay_AppCompat_Dark=0x7f100117;
+    public static final int ThemeOverlay_AppCompat_Dark_ActionBar=0x7f100118;
+    public static final int ThemeOverlay_AppCompat_DayNight=0x7f100119;
+    public static final int ThemeOverlay_AppCompat_DayNight_ActionBar=0x7f10011a;
+    public static final int ThemeOverlay_AppCompat_Dialog=0x7f10011b;
+    public static final int ThemeOverlay_AppCompat_Dialog_Alert=0x7f10011c;
+    public static final int ThemeOverlay_AppCompat_Light=0x7f10011d;
+    public static final int Widget_AppCompat_ActionBar=0x7f10011e;
+    public static final int Widget_AppCompat_ActionBar_Solid=0x7f10011f;
+    public static final int Widget_AppCompat_ActionBar_TabBar=0x7f100120;
+    public static final int Widget_AppCompat_ActionBar_TabText=0x7f100121;
+    public static final int Widget_AppCompat_ActionBar_TabView=0x7f100122;
+    public static final int Widget_AppCompat_ActionButton=0x7f100123;
+    public static final int Widget_AppCompat_ActionButton_CloseMode=0x7f100124;
+    public static final int Widget_AppCompat_ActionButton_Overflow=0x7f100125;
+    public static final int Widget_AppCompat_ActionMode=0x7f100126;
+    public static final int Widget_AppCompat_ActivityChooserView=0x7f100127;
+    public static final int Widget_AppCompat_AutoCompleteTextView=0x7f100128;
+    public static final int Widget_AppCompat_Button=0x7f100129;
+    public static final int Widget_AppCompat_Button_Borderless=0x7f10012a;
+    public static final int Widget_AppCompat_Button_Borderless_Colored=0x7f10012b;
+    public static final int Widget_AppCompat_Button_ButtonBar_AlertDialog=0x7f10012c;
+    public static final int Widget_AppCompat_Button_Colored=0x7f10012d;
+    public static final int Widget_AppCompat_Button_Small=0x7f10012e;
+    public static final int Widget_AppCompat_ButtonBar=0x7f10012f;
+    public static final int Widget_AppCompat_ButtonBar_AlertDialog=0x7f100130;
+    public static final int Widget_AppCompat_CompoundButton_CheckBox=0x7f100131;
+    public static final int Widget_AppCompat_CompoundButton_RadioButton=0x7f100132;
+    public static final int Widget_AppCompat_CompoundButton_Switch=0x7f100133;
+    public static final int Widget_AppCompat_DrawerArrowToggle=0x7f100134;
+    public static final int Widget_AppCompat_DropDownItem_Spinner=0x7f100135;
+    public static final int Widget_AppCompat_EditText=0x7f100136;
+    public static final int Widget_AppCompat_ImageButton=0x7f100137;
+    public static final int Widget_AppCompat_Light_ActionBar=0x7f100138;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid=0x7f100139;
+    public static final int Widget_AppCompat_Light_ActionBar_Solid_Inverse=0x7f10013a;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar=0x7f10013b;
+    public static final int Widget_AppCompat_Light_ActionBar_TabBar_Inverse=0x7f10013c;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText=0x7f10013d;
+    public static final int Widget_AppCompat_Light_ActionBar_TabText_Inverse=0x7f10013e;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView=0x7f10013f;
+    public static final int Widget_AppCompat_Light_ActionBar_TabView_Inverse=0x7f100140;
+    public static final int Widget_AppCompat_Light_ActionButton=0x7f100141;
+    public static final int Widget_AppCompat_Light_ActionButton_CloseMode=0x7f100142;
+    public static final int Widget_AppCompat_Light_ActionButton_Overflow=0x7f100143;
+    public static final int Widget_AppCompat_Light_ActionMode_Inverse=0x7f100144;
+    public static final int Widget_AppCompat_Light_ActivityChooserView=0x7f100145;
+    public static final int Widget_AppCompat_Light_AutoCompleteTextView=0x7f100146;
+    public static final int Widget_AppCompat_Light_DropDownItem_Spinner=0x7f100147;
+    public static final int Widget_AppCompat_Light_ListPopupWindow=0x7f100148;
+    public static final int Widget_AppCompat_Light_ListView_DropDown=0x7f100149;
+    public static final int Widget_AppCompat_Light_PopupMenu=0x7f10014a;
+    public static final int Widget_AppCompat_Light_PopupMenu_Overflow=0x7f10014b;
+    public static final int Widget_AppCompat_Light_SearchView=0x7f10014c;
+    public static final int Widget_AppCompat_Light_Spinner_DropDown_ActionBar=0x7f10014d;
+    public static final int Widget_AppCompat_ListMenuView=0x7f10014e;
+    public static final int Widget_AppCompat_ListPopupWindow=0x7f10014f;
+    public static final int Widget_AppCompat_ListView=0x7f100150;
+    public static final int Widget_AppCompat_ListView_DropDown=0x7f100151;
+    public static final int Widget_AppCompat_ListView_Menu=0x7f100152;
+    public static final int Widget_AppCompat_PopupMenu=0x7f100153;
+    public static final int Widget_AppCompat_PopupMenu_Overflow=0x7f100154;
+    public static final int Widget_AppCompat_PopupWindow=0x7f100155;
+    public static final int Widget_AppCompat_ProgressBar=0x7f100156;
+    public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f100157;
+    public static final int Widget_AppCompat_RatingBar=0x7f100158;
+    public static final int Widget_AppCompat_RatingBar_Indicator=0x7f100159;
+    public static final int Widget_AppCompat_RatingBar_Small=0x7f10015a;
+    public static final int Widget_AppCompat_SearchView=0x7f10015b;
+    public static final int Widget_AppCompat_SearchView_ActionBar=0x7f10015c;
+    public static final int Widget_AppCompat_SeekBar=0x7f10015d;
+    public static final int Widget_AppCompat_SeekBar_Discrete=0x7f10015e;
+    public static final int Widget_AppCompat_Spinner=0x7f10015f;
+    public static final int Widget_AppCompat_Spinner_DropDown=0x7f100160;
+    public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f100161;
+    public static final int Widget_AppCompat_Spinner_Underlined=0x7f100162;
+    public static final int Widget_AppCompat_TextView=0x7f100163;
+    public static final int Widget_AppCompat_TextView_SpinnerItem=0x7f100164;
+    public static final int Widget_AppCompat_Toolbar=0x7f100165;
+    public static final int Widget_AppCompat_Toolbar_Button_Navigation=0x7f100166;
+    public static final int Widget_Compat_NotificationActionContainer=0x7f100167;
+    public static final int Widget_Compat_NotificationActionText=0x7f100168;
+    public static final int camera_exposure_settings_title=0x7f100169;
+    public static final int dialog=0x7f10016a;
+    public static final int dialogFullscreen=0x7f10016b;
+    public static final int dialogWindowAnim=0x7f10016c;
+    public static final int thermal_camera_scene_settings_value=0x7f10016d;
+    public static final int widget_battery_voltage_bg=0x7f10016e;
+    public static final int widget_radar_distance_txt=0x7f10016f;
+    public static final int zxing_CaptureTheme=0x7f100170;
   }
   public static final class styleable {
     /**
@@ -9722,9 +9574,9 @@ public final class R {
      * @see #AbstractWheelView_visibleItems
      */
     public static final int[] AbstractWheelView={
-      0x7f0300f0, 0x7f0300f1, 0x7f0300f3, 0x7f0300f5, 
-      0x7f0300f6, 0x7f0301e8, 0x7f0301e9, 0x7f0301ea, 
-      0x7f03024f
+      0x7f0300ef, 0x7f0300f0, 0x7f0300f2, 0x7f0300f4, 
+      0x7f0300f5, 0x7f0301e0, 0x7f0301e1, 0x7f0301e2, 
+      0x7f030246
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#isAllVisible}
@@ -9890,12 +9742,12 @@ public final class R {
     public static final int[] ActionBar={
       0x7f03003a, 0x7f03003b, 0x7f03003c, 0x7f03007b, 
       0x7f03007c, 0x7f03007d, 0x7f03007e, 0x7f03007f, 
-      0x7f030080, 0x7f03008d, 0x7f03009a, 0x7f03009b, 
-      0x7f0300b3, 0x7f0300e3, 0x7f0300e4, 0x7f0300e5, 
-      0x7f0300e6, 0x7f0300e7, 0x7f0300ee, 0x7f0300f4, 
-      0x7f03014d, 0x7f0301a8, 0x7f0301c6, 0x7f0301c9, 
-      0x7f0301ca, 0x7f030202, 0x7f030205, 0x7f030227, 
-      0x7f030230
+      0x7f030080, 0x7f03008c, 0x7f030099, 0x7f03009a, 
+      0x7f0300b2, 0x7f0300e2, 0x7f0300e3, 0x7f0300e4, 
+      0x7f0300e5, 0x7f0300e6, 0x7f0300ed, 0x7f0300f3, 
+      0x7f030145, 0x7f0301a0, 0x7f0301be, 0x7f0301c1, 
+      0x7f0301c2, 0x7f0301f9, 0x7f0301fc, 0x7f03021e, 
+      0x7f030227
     };
     /**
      * <p>
@@ -10402,8 +10254,8 @@ public final class R {
      * @see #ActionMode_titleTextStyle
      */
     public static final int[] ActionMode={
-      0x7f03003a, 0x7f03003b, 0x7f030063, 0x7f0300e3, 
-      0x7f030205, 0x7f030230
+      0x7f03003a, 0x7f03003b, 0x7f030063, 0x7f0300e2, 
+      0x7f0301fc, 0x7f030227
     };
     /**
      * <p>
@@ -10501,7 +10353,7 @@ public final class R {
      * @see #ActivityChooserView_initialActivityCount
      */
     public static final int[] ActivityChooserView={
-      0x7f0300ba, 0x7f0300ef
+      0x7f0300b9, 0x7f0300ee
     };
     /**
      * <p>
@@ -10557,8 +10409,8 @@ public final class R {
      * @see #AlertDialog_singleChoiceItemLayout
      */
     public static final int[] AlertDialog={
-      0x010100f2, 0x7f03004e, 0x7f03004f, 0x7f030141, 
-      0x7f030142, 0x7f0301a5, 0x7f0301f1, 0x7f0301f2
+      0x010100f2, 0x7f03004e, 0x7f03004f, 0x7f030139, 
+      0x7f03013a, 0x7f03019d, 0x7f0301e9, 0x7f0301ea
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#layout}
@@ -10886,7 +10738,7 @@ public final class R {
      * @see #AppCompatImageView_tintMode
      */
     public static final int[] AppCompatImageView={
-      0x01010119, 0x7f0301fb, 0x7f030225, 0x7f030226
+      0x01010119, 0x7f0301f3, 0x7f03021c, 0x7f03021d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#src}
@@ -10974,7 +10826,7 @@ public final class R {
      * @see #AppCompatSeekBar_tickMarkTintMode
      */
     public static final int[] AppCompatSeekBar={
-      0x01010142, 0x7f030222, 0x7f030223, 0x7f030224
+      0x01010142, 0x7f030219, 0x7f03021a, 0x7f03021b
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#thumb}
@@ -11226,11 +11078,11 @@ public final class R {
      */
     public static final int[] AppCompatTextView={
       0x01010034, 0x7f030033, 0x7f030034, 0x7f030035, 
-      0x7f030036, 0x7f030037, 0x7f0300a3, 0x7f0300a4, 
-      0x7f0300a5, 0x7f0300a6, 0x7f0300a8, 0x7f0300a9, 
-      0x7f0300aa, 0x7f0300ab, 0x7f0300c1, 0x7f0300d6, 
-      0x7f0300de, 0x7f0300f9, 0x7f03013c, 0x7f03020f, 
-      0x7f03021b
+      0x7f030036, 0x7f030037, 0x7f0300a2, 0x7f0300a3, 
+      0x7f0300a4, 0x7f0300a5, 0x7f0300a7, 0x7f0300a8, 
+      0x7f0300a9, 0x7f0300aa, 0x7f0300c0, 0x7f0300d5, 
+      0x7f0300dd, 0x7f0300f7, 0x7f030134, 0x7f030206, 
+      0x7f030212
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textAppearance}
@@ -11824,24 +11676,24 @@ public final class R {
       0x7f030051, 0x7f030052, 0x7f03005d, 0x7f03005e, 
       0x7f030067, 0x7f030068, 0x7f030069, 0x7f03006a, 
       0x7f03006b, 0x7f03006c, 0x7f03006d, 0x7f03006e, 
-      0x7f03006f, 0x7f030071, 0x7f030082, 0x7f030097, 
-      0x7f030098, 0x7f030099, 0x7f03009c, 0x7f03009e, 
-      0x7f0300ad, 0x7f0300ae, 0x7f0300b0, 0x7f0300b1, 
-      0x7f0300b2, 0x7f0300e5, 0x7f0300ed, 0x7f03013d, 
-      0x7f03013e, 0x7f03013f, 0x7f030140, 0x7f030143, 
-      0x7f030144, 0x7f030145, 0x7f030146, 0x7f030147, 
-      0x7f030148, 0x7f030149, 0x7f03014a, 0x7f03014b, 
-      0x7f0301b9, 0x7f0301ba, 0x7f0301bb, 0x7f0301c5, 
-      0x7f0301c7, 0x7f0301cd, 0x7f0301ce, 0x7f0301cf, 
-      0x7f0301d0, 0x7f0301de, 0x7f0301df, 0x7f0301e6, 
-      0x7f0301e7, 0x7f0301f8, 0x7f0301f9, 0x7f030209, 
-      0x7f030210, 0x7f030211, 0x7f030212, 0x7f030213, 
-      0x7f030214, 0x7f030215, 0x7f030216, 0x7f030217, 
-      0x7f030219, 0x7f03021a, 0x7f030231, 0x7f030232, 
-      0x7f030233, 0x7f030234, 0x7f03024d, 0x7f030259, 
-      0x7f03025a, 0x7f03025b, 0x7f03025c, 0x7f03025d, 
-      0x7f03025e, 0x7f03025f, 0x7f030260, 0x7f030261, 
-      0x7f030262
+      0x7f03006f, 0x7f030071, 0x7f030082, 0x7f030096, 
+      0x7f030097, 0x7f030098, 0x7f03009b, 0x7f03009d, 
+      0x7f0300ac, 0x7f0300ad, 0x7f0300af, 0x7f0300b0, 
+      0x7f0300b1, 0x7f0300e4, 0x7f0300ec, 0x7f030135, 
+      0x7f030136, 0x7f030137, 0x7f030138, 0x7f03013b, 
+      0x7f03013c, 0x7f03013d, 0x7f03013e, 0x7f03013f, 
+      0x7f030140, 0x7f030141, 0x7f030142, 0x7f030143, 
+      0x7f0301b1, 0x7f0301b2, 0x7f0301b3, 0x7f0301bd, 
+      0x7f0301bf, 0x7f0301c5, 0x7f0301c6, 0x7f0301c7, 
+      0x7f0301c8, 0x7f0301d6, 0x7f0301d7, 0x7f0301de, 
+      0x7f0301df, 0x7f0301f0, 0x7f0301f1, 0x7f030200, 
+      0x7f030207, 0x7f030208, 0x7f030209, 0x7f03020a, 
+      0x7f03020b, 0x7f03020c, 0x7f03020d, 0x7f03020e, 
+      0x7f030210, 0x7f030211, 0x7f030228, 0x7f030229, 
+      0x7f03022a, 0x7f03022b, 0x7f030244, 0x7f030250, 
+      0x7f030251, 0x7f030252, 0x7f030253, 0x7f030254, 
+      0x7f030255, 0x7f030256, 0x7f030257, 0x7f030258, 
+      0x7f030259
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#windowIsFloating}
@@ -13550,7 +13402,7 @@ public final class R {
      * @see #BatteryWidget_excludeView
      */
     public static final int[] BatteryWidget={
-      0x7f0300b9
+      0x7f0300b8
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#excludeView}
@@ -13622,8 +13474,8 @@ public final class R {
      * @see #Collection_widgetSpacing
      */
     public static final int[] Collection={
-      0x7f030039, 0x7f030043, 0x7f030044, 0x7f0300c0, 
-      0x7f0301d9, 0x7f030257, 0x7f030258
+      0x7f030039, 0x7f030043, 0x7f030044, 0x7f0300bf, 
+      0x7f0301d1, 0x7f03024e, 0x7f03024f
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#autosize}
@@ -14083,26 +13935,26 @@ public final class R {
       0x01010326, 0x01010327, 0x01010328, 0x010103b5, 
       0x010103b6, 0x010103fa, 0x01010440, 0x7f03002c, 
       0x7f030040, 0x7f030041, 0x7f030042, 0x7f03005c, 
-      0x7f030076, 0x7f030077, 0x7f0300a2, 0x7f0300c2, 
-      0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
-      0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
-      0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 
-      0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 
-      0x7f0300d4, 0x7f030105, 0x7f030106, 0x7f030107, 
-      0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b, 
-      0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f, 
-      0x7f030110, 0x7f030111, 0x7f030112, 0x7f030113, 
-      0x7f030114, 0x7f030115, 0x7f030116, 0x7f030117, 
-      0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
-      0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
-      0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
-      0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
-      0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
-      0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f030130, 
-      0x7f030131, 0x7f030132, 0x7f030133, 0x7f030134, 
-      0x7f030135, 0x7f030136, 0x7f030137, 0x7f03019f, 
-      0x7f0301a0, 0x7f0301bc, 0x7f0301c3, 0x7f03023d, 
-      0x7f03023f, 0x7f03024e
+      0x7f030076, 0x7f030077, 0x7f0300a1, 0x7f0300c1, 
+      0x7f0300c2, 0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 
+      0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 
+      0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 
+      0x7f0300cf, 0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 
+      0x7f0300d3, 0x7f030100, 0x7f030101, 0x7f030102, 
+      0x7f030103, 0x7f030104, 0x7f030105, 0x7f030106, 
+      0x7f030107, 0x7f030108, 0x7f030109, 0x7f03010a, 
+      0x7f03010b, 0x7f03010c, 0x7f03010d, 0x7f03010e, 
+      0x7f03010f, 0x7f030110, 0x7f030111, 0x7f030112, 
+      0x7f030113, 0x7f030114, 0x7f030115, 0x7f030116, 
+      0x7f030117, 0x7f030118, 0x7f030119, 0x7f03011a, 
+      0x7f03011b, 0x7f03011c, 0x7f03011d, 0x7f03011e, 
+      0x7f03011f, 0x7f030120, 0x7f030121, 0x7f030122, 
+      0x7f030123, 0x7f030124, 0x7f030125, 0x7f030126, 
+      0x7f030127, 0x7f030128, 0x7f030129, 0x7f03012a, 
+      0x7f03012b, 0x7f03012c, 0x7f03012d, 0x7f03012e, 
+      0x7f03012f, 0x7f030130, 0x7f030131, 0x7f030197, 
+      0x7f030198, 0x7f0301b4, 0x7f0301bb, 0x7f030234, 
+      0x7f030236, 0x7f030245
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -15847,24 +15699,24 @@ public final class R {
       0x01010120, 0x0101013f, 0x01010140, 0x010103b3, 
       0x010103b4, 0x01010440, 0x7f030040, 0x7f030041, 
       0x7f030042, 0x7f03005c, 0x7f030073, 0x7f030076, 
-      0x7f030077, 0x7f0300c2, 0x7f0300c3, 0x7f0300c4, 
-      0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 
-      0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 0x7f0300cc, 
-      0x7f0300cd, 0x7f0300ce, 0x7f0300d0, 0x7f0300d1, 
-      0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 0x7f0300ff, 
-      0x7f030105, 0x7f030106, 0x7f030107, 0x7f030108, 
-      0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
-      0x7f03010d, 0x7f03010e, 0x7f03010f, 0x7f030110, 
-      0x7f030111, 0x7f030112, 0x7f030113, 0x7f030114, 
-      0x7f030115, 0x7f030116, 0x7f030117, 0x7f030118, 
-      0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
-      0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
-      0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
-      0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
-      0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
-      0x7f03012d, 0x7f03012e, 0x7f030130, 0x7f030131, 
-      0x7f030132, 0x7f030133, 0x7f030134, 0x7f030135, 
-      0x7f030136, 0x7f030137, 0x7f03013a
+      0x7f030077, 0x7f0300c1, 0x7f0300c2, 0x7f0300c3, 
+      0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
+      0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
+      0x7f0300cc, 0x7f0300cd, 0x7f0300cf, 0x7f0300d0, 
+      0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300fd, 
+      0x7f030100, 0x7f030101, 0x7f030102, 0x7f030103, 
+      0x7f030104, 0x7f030105, 0x7f030106, 0x7f030107, 
+      0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b, 
+      0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f, 
+      0x7f030110, 0x7f030111, 0x7f030112, 0x7f030113, 
+      0x7f030114, 0x7f030115, 0x7f030116, 0x7f030117, 
+      0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
+      0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
+      0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
+      0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
+      0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
+      0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
+      0x7f030130, 0x7f030131, 0x7f030132
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -17177,7 +17029,7 @@ public final class R {
      * @see #ConstraintLayout_placeholder_placeholder_emptyVisibility
      */
     public static final int[] ConstraintLayout_placeholder={
-      0x7f030079, 0x7f0301c4
+      0x7f030079, 0x7f0301bc
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#content}
@@ -17452,25 +17304,25 @@ public final class R {
       0x01010328, 0x010103b5, 0x010103b6, 0x010103fa, 
       0x01010440, 0x7f03002c, 0x7f030040, 0x7f030041, 
       0x7f030042, 0x7f03005c, 0x7f030076, 0x7f030077, 
-      0x7f030096, 0x7f0300a2, 0x7f0300c2, 0x7f0300c3, 
-      0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 
-      0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 0x7f0300cb, 
-      0x7f0300cc, 0x7f0300cd, 0x7f0300ce, 0x7f0300d0, 
-      0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 0x7f0300d4, 
-      0x7f030105, 0x7f030106, 0x7f030107, 0x7f030108, 
-      0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
-      0x7f03010d, 0x7f03010e, 0x7f03010f, 0x7f030110, 
-      0x7f030111, 0x7f030112, 0x7f030113, 0x7f030114, 
-      0x7f030115, 0x7f030116, 0x7f030117, 0x7f030118, 
-      0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
-      0x7f03011d, 0x7f03011e, 0x7f03011f, 0x7f030120, 
-      0x7f030121, 0x7f030122, 0x7f030123, 0x7f030124, 
-      0x7f030125, 0x7f030126, 0x7f030127, 0x7f030128, 
-      0x7f030129, 0x7f03012a, 0x7f03012b, 0x7f03012c, 
-      0x7f03012d, 0x7f03012e, 0x7f030130, 0x7f030131, 
-      0x7f030132, 0x7f030133, 0x7f030134, 0x7f030135, 
-      0x7f030136, 0x7f030137, 0x7f03019f, 0x7f0301a0, 
-      0x7f0301bc, 0x7f0301c3, 0x7f03023d, 0x7f03023f
+      0x7f030095, 0x7f0300a1, 0x7f0300c1, 0x7f0300c2, 
+      0x7f0300c3, 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 
+      0x7f0300c7, 0x7f0300c8, 0x7f0300c9, 0x7f0300ca, 
+      0x7f0300cb, 0x7f0300cc, 0x7f0300cd, 0x7f0300cf, 
+      0x7f0300d0, 0x7f0300d1, 0x7f0300d2, 0x7f0300d3, 
+      0x7f030100, 0x7f030101, 0x7f030102, 0x7f030103, 
+      0x7f030104, 0x7f030105, 0x7f030106, 0x7f030107, 
+      0x7f030108, 0x7f030109, 0x7f03010a, 0x7f03010b, 
+      0x7f03010c, 0x7f03010d, 0x7f03010e, 0x7f03010f, 
+      0x7f030110, 0x7f030111, 0x7f030112, 0x7f030113, 
+      0x7f030114, 0x7f030115, 0x7f030116, 0x7f030117, 
+      0x7f030118, 0x7f030119, 0x7f03011a, 0x7f03011b, 
+      0x7f03011c, 0x7f03011d, 0x7f03011e, 0x7f03011f, 
+      0x7f030120, 0x7f030121, 0x7f030122, 0x7f030123, 
+      0x7f030124, 0x7f030125, 0x7f030126, 0x7f030127, 
+      0x7f030128, 0x7f030129, 0x7f03012a, 0x7f03012b, 
+      0x7f03012c, 0x7f03012d, 0x7f03012e, 0x7f03012f, 
+      0x7f030130, 0x7f030131, 0x7f030197, 0x7f030198, 
+      0x7f0301b4, 0x7f0301bb, 0x7f030234, 0x7f030236
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -19040,237 +18892,6 @@ public final class R {
      */
     public static final int ConstraintSet_transitionPathRotate=111;
     /**
-     * Attributes that can be used with a CoordinatorLayout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_keylines jcg.mini_dji_go_app:keylines}</code></td><td>A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_statusBarBackground jcg.mini_dji_go_app:statusBarBackground}</code></td><td>Drawable to display behind the status bar when the view is set to draw behind it.</td></tr>
-     * </table>
-     * @see #CoordinatorLayout_keylines
-     * @see #CoordinatorLayout_statusBarBackground
-     */
-    public static final int[] CoordinatorLayout={
-      0x7f0300f8, 0x7f0301ff
-    };
-    /**
-     * <p>
-     * @attr description
-     * A reference to an array of integers representing the
-     * locations of horizontal keylines in dp from the starting edge.
-     * Child views can refer to these keylines for alignment using
-     * layout_keyline="index" where index is a 0-based index into
-     * this array.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jcg.mini_dji_go_app:keylines
-     */
-    public static final int CoordinatorLayout_keylines=0;
-    /**
-     * <p>
-     * @attr description
-     * Drawable to display behind the status bar when the view is set to draw behind it.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     * <p>May be a color value, in the form of "<code>#<i>rgb</i></code>",
-     * "<code>#<i>argb</i></code>", "<code>#<i>rrggbb</i></code>", or
-     * "<code>#<i>aarrggbb</i></code>".
-     *
-     * @attr name jcg.mini_dji_go_app:statusBarBackground
-     */
-    public static final int CoordinatorLayout_statusBarBackground=1;
-    /**
-     * Attributes that can be used with a CoordinatorLayout_Layout.
-     * <p>Includes the following attributes:</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Attribute</th><th>Description</th></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_android_layout_gravity android:layout_gravity}</code></td><td></td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchor jcg.mini_dji_go_app:layout_anchor}</code></td><td>The id of an anchor view that this view should position relative to.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_anchorGravity jcg.mini_dji_go_app:layout_anchorGravity}</code></td><td>Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_behavior jcg.mini_dji_go_app:layout_behavior}</code></td><td>The class name of a Behavior class defining special runtime behavior
-     * for this child view.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_dodgeInsetEdges jcg.mini_dji_go_app:layout_dodgeInsetEdges}</code></td><td>Specifies how this view dodges the inset edges of the CoordinatorLayout.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_insetEdge jcg.mini_dji_go_app:layout_insetEdge}</code></td><td>Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.</td></tr>
-     * <tr><td><code>{@link #CoordinatorLayout_Layout_layout_keyline jcg.mini_dji_go_app:layout_keyline}</code></td><td>The index of a keyline this view should position relative to.</td></tr>
-     * </table>
-     * @see #CoordinatorLayout_Layout_android_layout_gravity
-     * @see #CoordinatorLayout_Layout_layout_anchor
-     * @see #CoordinatorLayout_Layout_layout_anchorGravity
-     * @see #CoordinatorLayout_Layout_layout_behavior
-     * @see #CoordinatorLayout_Layout_layout_dodgeInsetEdges
-     * @see #CoordinatorLayout_Layout_layout_insetEdge
-     * @see #CoordinatorLayout_Layout_layout_keyline
-     */
-    public static final int[] CoordinatorLayout_Layout={
-      0x010100b3, 0x7f030102, 0x7f030103, 0x7f030104, 
-      0x7f03012f, 0x7f030138, 0x7f030139
-    };
-    /**
-     * <p>This symbol is the offset where the {@link android.R.attr#layout_gravity}
-     * attribute's value can be found in the {@link #CoordinatorLayout_Layout} array.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td></td></tr>
-     * <tr><td>center</td><td>11</td><td></td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td></td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td></td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td></td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td></td></tr>
-     * <tr><td>end</td><td>800005</td><td></td></tr>
-     * <tr><td>fill</td><td>77</td><td></td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td></td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td></td></tr>
-     * <tr><td>left</td><td>3</td><td></td></tr>
-     * <tr><td>right</td><td>5</td><td></td></tr>
-     * <tr><td>start</td><td>800003</td><td></td></tr>
-     * <tr><td>top</td><td>30</td><td></td></tr>
-     * </table>
-     *
-     * @attr name android:layout_gravity
-     */
-    public static final int CoordinatorLayout_Layout_android_layout_gravity=0;
-    /**
-     * <p>
-     * @attr description
-     * The id of an anchor view that this view should position relative to.
-     *
-     * <p>May be a reference to another resource, in the form
-     * "<code>@[+][<i>package</i>:]<i>type</i>/<i>name</i></code>" or a theme
-     * attribute in the form
-     * "<code>?[<i>package</i>:]<i>type</i>/<i>name</i></code>".
-     *
-     * @attr name jcg.mini_dji_go_app:layout_anchor
-     */
-    public static final int CoordinatorLayout_Layout_layout_anchor=1;
-    /**
-     * <p>
-     * @attr description
-     * Specifies how an object should position relative to an anchor, on both the X and Y axes,
-     * within its parent's bounds.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Push object to the bottom of its container, not changing its size.</td></tr>
-     * <tr><td>center</td><td>11</td><td>Place the object in the center of its container in both the vertical and horizontal axis, not changing its size.</td></tr>
-     * <tr><td>center_horizontal</td><td>1</td><td>Place object in the horizontal center of its container, not changing its size.</td></tr>
-     * <tr><td>center_vertical</td><td>10</td><td>Place object in the vertical center of its container, not changing its size.</td></tr>
-     * <tr><td>clip_horizontal</td><td>8</td><td>Additional option that can be set to have the left and/or right edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the horizontal gravity: a left gravity will clip the right
-     * edge, a right gravity will clip the left edge, and neither will clip both edges.</td></tr>
-     * <tr><td>clip_vertical</td><td>80</td><td>Additional option that can be set to have the top and/or bottom edges of
-     * the child clipped to its container's bounds.
-     * The clip will be based on the vertical gravity: a top gravity will clip the bottom
-     * edge, a bottom gravity will clip the top edge, and neither will clip both edges.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Push object to the end of its container, not changing its size.</td></tr>
-     * <tr><td>fill</td><td>77</td><td>Grow the horizontal and vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_horizontal</td><td>7</td><td>Grow the horizontal size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>fill_vertical</td><td>70</td><td>Grow the vertical size of the object if needed so it completely fills its container.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Push object to the left of its container, not changing its size.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Push object to the right of its container, not changing its size.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Push object to the beginning of its container, not changing its size.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Push object to the top of its container, not changing its size.</td></tr>
-     * </table>
-     *
-     * @attr name jcg.mini_dji_go_app:layout_anchorGravity
-     */
-    public static final int CoordinatorLayout_Layout_layout_anchorGravity=2;
-    /**
-     * <p>
-     * @attr description
-     * The class name of a Behavior class defining special runtime behavior
-     * for this child view.
-     *
-     * <p>May be a string value, using '\\;' to escape characters such as
-     * '\\n' or '\\uxxxx' for a unicode character;
-     *
-     * @attr name jcg.mini_dji_go_app:layout_behavior
-     */
-    public static final int CoordinatorLayout_Layout_layout_behavior=3;
-    /**
-     * <p>
-     * @attr description
-     * Specifies how this view dodges the inset edges of the CoordinatorLayout.
-     *
-     * <p>Must be one or more (separated by '|') of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>all</td><td>77</td><td>Dodge all the inset edges.</td></tr>
-     * <tr><td>bottom</td><td>50</td><td>Dodge the bottom inset edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Dodge the end inset edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Dodge the left inset edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't dodge any edges</td></tr>
-     * <tr><td>right</td><td>5</td><td>Dodge the right inset edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Dodge the start inset edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Dodge the top inset edge.</td></tr>
-     * </table>
-     *
-     * @attr name jcg.mini_dji_go_app:layout_dodgeInsetEdges
-     */
-    public static final int CoordinatorLayout_Layout_layout_dodgeInsetEdges=4;
-    /**
-     * <p>
-     * @attr description
-     * Specifies how this view insets the CoordinatorLayout and make some other views
-     * dodge it.
-     *
-     * <p>Must be one of the following constant values.</p>
-     * <table>
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <colgroup align="left" />
-     * <tr><th>Constant</th><th>Value</th><th>Description</th></tr>
-     * <tr><td>bottom</td><td>50</td><td>Inset the bottom edge.</td></tr>
-     * <tr><td>end</td><td>800005</td><td>Inset the end edge.</td></tr>
-     * <tr><td>left</td><td>3</td><td>Inset the left edge.</td></tr>
-     * <tr><td>none</td><td>0</td><td>Don't inset.</td></tr>
-     * <tr><td>right</td><td>5</td><td>Inset the right edge.</td></tr>
-     * <tr><td>start</td><td>800003</td><td>Inset the start edge.</td></tr>
-     * <tr><td>top</td><td>30</td><td>Inset the top edge.</td></tr>
-     * </table>
-     *
-     * @attr name jcg.mini_dji_go_app:layout_insetEdge
-     */
-    public static final int CoordinatorLayout_Layout_layout_insetEdge=5;
-    /**
-     * <p>
-     * @attr description
-     * The index of a keyline this view should position relative to.
-     * android:layout_gravity will affect how the view aligns to the
-     * specified keyline.
-     *
-     * <p>May be an integer value, such as "<code>100</code>".
-     *
-     * @attr name jcg.mini_dji_go_app:layout_keyline
-     */
-    public static final int CoordinatorLayout_Layout_layout_keyline=6;
-    /**
      * Attributes that can be used with a CustomAttribute.
      * <p>Includes the following attributes:</p>
      * <table>
@@ -19298,9 +18919,9 @@ public final class R {
      * @see #CustomAttribute_customStringValue
      */
     public static final int[] CustomAttribute={
-      0x7f030031, 0x7f030087, 0x7f030088, 0x7f030089, 
-      0x7f03008a, 0x7f03008b, 0x7f03008c, 0x7f03008e, 
-      0x7f03008f
+      0x7f030031, 0x7f030086, 0x7f030087, 0x7f030088, 
+      0x7f030089, 0x7f03008a, 0x7f03008b, 0x7f03008d, 
+      0x7f03008e
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#attributeName}
@@ -19416,7 +19037,7 @@ public final class R {
      * @see #DJIMapView_optionProvider
      */
     public static final int[] DJIMapView={
-      0x7f030058, 0x7f030059, 0x7f030091, 0x7f0301b1
+      0x7f030058, 0x7f030059, 0x7f030090, 0x7f0301a9
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#cameraTargetLat}
@@ -19499,7 +19120,7 @@ public final class R {
      */
     public static final int[] DrawerArrowToggle={
       0x7f03002f, 0x7f030030, 0x7f03003f, 0x7f030066, 
-      0x7f0300a7, 0x7f0300e1, 0x7f0301f7, 0x7f03021e
+      0x7f0300a6, 0x7f0300e0, 0x7f0301ef, 0x7f030215
     };
     /**
      * <p>
@@ -19620,7 +19241,7 @@ public final class R {
      * @see #FPVOverlayWidget_overlayVideoSource
      */
     public static final int[] FPVOverlayWidget={
-      0x7f0301b4
+      0x7f0301ac
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#overlayVideoSource}
@@ -19656,7 +19277,7 @@ public final class R {
      * @see #FPVWidget_videoSource
      */
     public static final int[] FPVWidget={
-      0x7f0301f4, 0x7f0301f5, 0x7f03024c
+      0x7f0301ec, 0x7f0301ed, 0x7f030243
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#sourceCameraNameVisibility}
@@ -19718,8 +19339,8 @@ public final class R {
      * @see #FontFamily_fontProviderQuery
      */
     public static final int[] FontFamily={
-      0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 0x7f0300da, 
-      0x7f0300db, 0x7f0300dc
+      0x7f0300d6, 0x7f0300d7, 0x7f0300d8, 0x7f0300d9, 
+      0x7f0300da, 0x7f0300db
     };
     /**
      * <p>
@@ -19855,8 +19476,8 @@ public final class R {
      */
     public static final int[] FontFamilyFont={
       0x01010532, 0x01010533, 0x0101053f, 0x0101056f, 
-      0x01010570, 0x7f0300d5, 0x7f0300dd, 0x7f0300de, 
-      0x7f0300df, 0x7f030243
+      0x01010570, 0x7f0300d4, 0x7f0300dc, 0x7f0300dd, 
+      0x7f0300de, 0x7f03023a
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#font}
@@ -20346,9 +19967,9 @@ public final class R {
      * @see #ImageFilterView_warmth
      */
     public static final int[] ImageFilterView={
-      0x7f03002a, 0x7f030046, 0x7f030081, 0x7f030084, 
-      0x7f0301b3, 0x7f0301d7, 0x7f0301d8, 0x7f0301da, 
-      0x7f030251
+      0x7f03002a, 0x7f030046, 0x7f030081, 0x7f030083, 
+      0x7f0301ab, 0x7f0301cf, 0x7f0301d0, 0x7f0301d2, 
+      0x7f030248
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#altSrc}
@@ -20488,8 +20109,8 @@ public final class R {
       0x0101031f, 0x01010320, 0x01010321, 0x01010322, 
       0x01010323, 0x01010324, 0x01010325, 0x01010326, 
       0x01010327, 0x01010328, 0x010103fa, 0x01010440, 
-      0x7f030086, 0x7f0300e0, 0x7f03019f, 0x7f0301a1, 
-      0x7f03023d, 0x7f03023f
+      0x7f030085, 0x7f0300df, 0x7f030197, 0x7f030199, 
+      0x7f030234, 0x7f030236
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
@@ -20754,9 +20375,9 @@ public final class R {
     public static final int[] KeyCycle={
       0x0101031f, 0x01010322, 0x01010323, 0x01010324, 
       0x01010325, 0x01010326, 0x01010327, 0x01010328, 
-      0x010103fa, 0x01010440, 0x7f030086, 0x7f0300e0, 
-      0x7f03019f, 0x7f0301a1, 0x7f03023d, 0x7f03023f, 
-      0x7f030253, 0x7f030254, 0x7f030255, 0x7f030256
+      0x010103fa, 0x01010440, 0x7f030085, 0x7f0300df, 
+      0x7f030197, 0x7f030199, 0x7f030234, 0x7f030236, 
+      0x7f03024a, 0x7f03024b, 0x7f03024c, 0x7f03024d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
@@ -21045,9 +20666,9 @@ public final class R {
      * @see #KeyPosition_transitionEasing
      */
     public static final int[] KeyPosition={
-      0x7f030086, 0x7f0300a2, 0x7f0300e0, 0x7f0300f7, 
-      0x7f0301a1, 0x7f0301bc, 0x7f0301be, 0x7f0301bf, 
-      0x7f0301c0, 0x7f0301c1, 0x7f0301f3, 0x7f03023d
+      0x7f030085, 0x7f0300a1, 0x7f0300df, 0x7f0300f6, 
+      0x7f030199, 0x7f0301b4, 0x7f0301b6, 0x7f0301b7, 
+      0x7f0301b8, 0x7f0301b9, 0x7f0301eb, 0x7f030234
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#curveFit}
@@ -21265,9 +20886,9 @@ public final class R {
     public static final int[] KeyTimeCycle={
       0x0101031f, 0x01010322, 0x01010323, 0x01010324, 
       0x01010325, 0x01010326, 0x01010327, 0x01010328, 
-      0x010103fa, 0x01010440, 0x7f030086, 0x7f0300e0, 
-      0x7f03019f, 0x7f0301a1, 0x7f03023d, 0x7f03023f, 
-      0x7f030252, 0x7f030253, 0x7f030254, 0x7f030255
+      0x010103fa, 0x01010440, 0x7f030085, 0x7f0300df, 
+      0x7f030197, 0x7f030199, 0x7f030234, 0x7f030236, 
+      0x7f030249, 0x7f03024a, 0x7f03024b, 0x7f03024c
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#alpha}
@@ -21538,9 +21159,9 @@ public final class R {
      * @see #KeyTrigger_triggerSlack
      */
     public static final int[] KeyTrigger={
-      0x7f0300e0, 0x7f0301a1, 0x7f0301a2, 0x7f0301a3, 
-      0x7f0301ab, 0x7f0301ad, 0x7f0301ae, 0x7f030240, 
-      0x7f030241, 0x7f030242
+      0x7f0300df, 0x7f030199, 0x7f03019a, 0x7f03019b, 
+      0x7f0301a3, 0x7f0301a5, 0x7f0301a6, 0x7f030237, 
+      0x7f030238, 0x7f030239
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#framePosition}
@@ -21799,20 +21420,20 @@ public final class R {
       0x010100c4, 0x010100f4, 0x010100f5, 0x010100f7, 
       0x010100f8, 0x010100f9, 0x010100fa, 0x010103b5, 
       0x010103b6, 0x7f030040, 0x7f030041, 0x7f030042, 
-      0x7f03005c, 0x7f030076, 0x7f030077, 0x7f030105, 
-      0x7f030106, 0x7f030107, 0x7f030108, 0x7f030109, 
-      0x7f03010a, 0x7f03010b, 0x7f03010c, 0x7f03010d, 
-      0x7f03010e, 0x7f03010f, 0x7f030110, 0x7f030111, 
-      0x7f030112, 0x7f030113, 0x7f030114, 0x7f030115, 
-      0x7f030116, 0x7f030117, 0x7f030118, 0x7f030119, 
-      0x7f03011a, 0x7f03011b, 0x7f03011c, 0x7f03011d, 
-      0x7f03011e, 0x7f03011f, 0x7f030120, 0x7f030121, 
-      0x7f030122, 0x7f030123, 0x7f030125, 0x7f030126, 
-      0x7f030127, 0x7f030128, 0x7f030129, 0x7f03012a, 
-      0x7f03012b, 0x7f03012c, 0x7f03012d, 0x7f03012e, 
-      0x7f030130, 0x7f030131, 0x7f030132, 0x7f030133, 
-      0x7f030134, 0x7f030135, 0x7f030136, 0x7f030137, 
-      0x7f03018f, 0x7f030191, 0x7f030194, 0x7f030195
+      0x7f03005c, 0x7f030076, 0x7f030077, 0x7f030100, 
+      0x7f030101, 0x7f030102, 0x7f030103, 0x7f030104, 
+      0x7f030105, 0x7f030106, 0x7f030107, 0x7f030108, 
+      0x7f030109, 0x7f03010a, 0x7f03010b, 0x7f03010c, 
+      0x7f03010d, 0x7f03010e, 0x7f03010f, 0x7f030110, 
+      0x7f030111, 0x7f030112, 0x7f030113, 0x7f030114, 
+      0x7f030115, 0x7f030116, 0x7f030117, 0x7f030118, 
+      0x7f030119, 0x7f03011a, 0x7f03011b, 0x7f03011c, 
+      0x7f03011d, 0x7f03011e, 0x7f030120, 0x7f030121, 
+      0x7f030122, 0x7f030123, 0x7f030124, 0x7f030125, 
+      0x7f030126, 0x7f030127, 0x7f030128, 0x7f030129, 
+      0x7f03012a, 0x7f03012b, 0x7f03012c, 0x7f03012d, 
+      0x7f03012e, 0x7f03012f, 0x7f030130, 0x7f030131, 
+      0x7f030187, 0x7f030189, 0x7f03018c, 0x7f03018d
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -22829,8 +22450,8 @@ public final class R {
      */
     public static final int[] LinearLayoutCompat={
       0x010100af, 0x010100c4, 0x01010126, 0x01010127, 
-      0x01010128, 0x7f03009b, 0x7f03009d, 0x7f030192, 
-      0x7f0301ee
+      0x01010128, 0x7f03009a, 0x7f03009c, 0x7f03018a, 
+      0x7f0301e6
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -23144,7 +22765,7 @@ public final class R {
      * @see #LoadingImageView_imageAspectRatioAdjust
      */
     public static final int[] LoadingImageView={
-      0x7f03005f, 0x7f0300eb, 0x7f0300ec
+      0x7f03005f, 0x7f0300ea, 0x7f0300eb
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#circleCrop}
@@ -23241,10 +22862,10 @@ public final class R {
     public static final int[] MapAttrs={
       0x7f03002b, 0x7f030055, 0x7f030056, 0x7f030057, 
       0x7f030058, 0x7f030059, 0x7f03005a, 0x7f03005b, 
-      0x7f0300fa, 0x7f0300fb, 0x7f0300fc, 0x7f0300fd, 
-      0x7f03014c, 0x7f03014f, 0x7f030244, 0x7f030245, 
-      0x7f030246, 0x7f030247, 0x7f030248, 0x7f030249, 
-      0x7f03024a, 0x7f03024b, 0x7f030263
+      0x7f0300f8, 0x7f0300f9, 0x7f0300fa, 0x7f0300fb, 
+      0x7f030144, 0x7f030147, 0x7f03023b, 0x7f03023c, 
+      0x7f03023d, 0x7f03023e, 0x7f03023f, 0x7f030240, 
+      0x7f030241, 0x7f030242, 0x7f03025a
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#ambientEnabled}
@@ -23648,8 +23269,8 @@ public final class R {
       0x01010194, 0x010101de, 0x010101df, 0x010101e1, 
       0x010101e2, 0x010101e3, 0x010101e4, 0x010101e5, 
       0x0101026f, 0x7f03000e, 0x7f030020, 0x7f030021, 
-      0x7f030029, 0x7f03007a, 0x7f0300e8, 0x7f0300e9, 
-      0x7f0301aa, 0x7f0301ed, 0x7f030235
+      0x7f030029, 0x7f03007a, 0x7f0300e7, 0x7f0300e8, 
+      0x7f0301a2, 0x7f0301e5, 0x7f03022c
     };
     /**
      * <p>
@@ -24022,8 +23643,8 @@ public final class R {
      */
     public static final int[] MenuView={
       0x010100ae, 0x0101012c, 0x0101012d, 0x0101012e, 
-      0x0101012f, 0x01010130, 0x01010131, 0x7f0301c8, 
-      0x7f030200
+      0x0101012f, 0x01010130, 0x01010131, 0x7f0301c0, 
+      0x7f0301f7
     };
     /**
      * <p>
@@ -24165,8 +23786,8 @@ public final class R {
      * @see #MockView_mock_showLabel
      */
     public static final int[] MockView={
-      0x7f030196, 0x7f030197, 0x7f030198, 0x7f030199, 
-      0x7f03019a, 0x7f03019b
+      0x7f03018e, 0x7f03018f, 0x7f030190, 0x7f030191, 
+      0x7f030192, 0x7f030193
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#mock_diagonalsColor}
@@ -24253,8 +23874,8 @@ public final class R {
      * @see #Motion_transitionEasing
      */
     public static final int[] Motion={
-      0x7f03002c, 0x7f0300a2, 0x7f03019e, 0x7f0301a0, 
-      0x7f0301bc, 0x7f03023d
+      0x7f03002c, 0x7f0300a1, 0x7f030196, 0x7f030198, 
+      0x7f0301b4, 0x7f030234
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#animate_relativeTo}
@@ -24361,7 +23982,7 @@ public final class R {
      * @see #MotionHelper_onShow
      */
     public static final int[] MotionHelper={
-      0x7f0301ac, 0x7f0301af
+      0x7f0301a4, 0x7f0301a7
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#onHide}
@@ -24405,8 +24026,8 @@ public final class R {
      * @see #MotionLayout_showPaths
      */
     public static final int[] MotionLayout={
-      0x7f03002d, 0x7f030085, 0x7f0300ff, 0x7f03019c, 
-      0x7f03019f, 0x7f0301ef
+      0x7f03002d, 0x7f030084, 0x7f0300fd, 0x7f030194, 
+      0x7f030197, 0x7f0301e7
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#applyMotionScene}
@@ -24494,7 +24115,7 @@ public final class R {
      * @see #MotionScene_layoutDuringTransition
      */
     public static final int[] MotionScene={
-      0x7f030090, 0x7f030100
+      0x7f03008f, 0x7f0300fe
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#defaultDuration}
@@ -24538,7 +24159,7 @@ public final class R {
      * @see #MotionTelltales_telltales_velocityMode
      */
     public static final int[] MotionTelltales={
-      0x7f03020c, 0x7f03020d, 0x7f03020e
+      0x7f030203, 0x7f030204, 0x7f030205
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#telltales_tailColor}
@@ -24593,7 +24214,7 @@ public final class R {
      * @see #OnClick_targetId
      */
     public static final int[] OnClick={
-      0x7f030061, 0x7f03020b
+      0x7f030061, 0x7f030202
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#clickAction}
@@ -24661,9 +24282,9 @@ public final class R {
      * @see #OnSwipe_touchRegionId
      */
     public static final int[] OnSwipe={
-      0x7f03009f, 0x7f0300a0, 0x7f0300a1, 0x7f03013b, 
-      0x7f03018d, 0x7f030190, 0x7f0301a4, 0x7f0301a9, 
-      0x7f0301b0, 0x7f030236, 0x7f030237, 0x7f030238
+      0x7f03009e, 0x7f03009f, 0x7f0300a0, 0x7f030133, 
+      0x7f030185, 0x7f030188, 0x7f03019c, 0x7f0301a1, 
+      0x7f0301a8, 0x7f03022d, 0x7f03022e, 0x7f03022f
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#dragDirection}
@@ -24845,7 +24466,7 @@ public final class R {
      * @see #PopupWindow_overlapAnchor
      */
     public static final int[] PopupWindow={
-      0x01010176, 0x010102c9, 0x7f0301b2
+      0x01010176, 0x010102c9, 0x7f0301aa
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#popupBackground}
@@ -24897,7 +24518,7 @@ public final class R {
      * @see #PopupWindowBackgroundState_state_above_anchor
      */
     public static final int[] PopupWindowBackgroundState={
-      0x7f0301fe
+      0x7f0301f6
     };
     /**
      * <p>
@@ -24922,7 +24543,7 @@ public final class R {
      * @see #PreFlightCheckListPanel_excludeItem
      */
     public static final int[] PreFlightCheckListPanel={
-      0x7f0300b8
+      0x7f0300b7
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#excludeItem}
@@ -24975,8 +24596,8 @@ public final class R {
      * @see #PropertySet_visibilityMode
      */
     public static final int[] PropertySet={
-      0x010100dc, 0x0101031f, 0x7f030124, 0x7f03019f, 
-      0x7f03024e
+      0x010100dc, 0x0101031f, 0x7f03011f, 0x7f030197, 
+      0x7f030245
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#visibility}
@@ -25055,7 +24676,7 @@ public final class R {
      * @see #RecycleListView_paddingTopNoTitle
      */
     public static final int[] RecycleListView={
-      0x7f0301b5, 0x7f0301b8
+      0x7f0301ad, 0x7f0301b0
     };
     /**
      * <p>
@@ -25119,9 +24740,9 @@ public final class R {
      * @see #RecyclerView_stackFromEnd
      */
     public static final int[] RecyclerView={
-      0x010100c4, 0x010100eb, 0x010100f1, 0x7f0300bb, 
-      0x7f0300bc, 0x7f0300bd, 0x7f0300be, 0x7f0300bf, 
-      0x7f030101, 0x7f0301d6, 0x7f0301f6, 0x7f0301fc
+      0x010100c4, 0x010100eb, 0x010100f1, 0x7f0300ba, 
+      0x7f0300bb, 0x7f0300bc, 0x7f0300bd, 0x7f0300be, 
+      0x7f0300ff, 0x7f0301ce, 0x7f0301ee, 0x7f0301f4
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#orientation}
@@ -25320,10 +24941,10 @@ public final class R {
      */
     public static final int[] SearchView={
       0x010100da, 0x0101011f, 0x01010220, 0x01010264, 
-      0x7f030062, 0x7f030072, 0x7f030092, 0x7f0300e2, 
-      0x7f0300ea, 0x7f0300fe, 0x7f0301cb, 0x7f0301cc, 
-      0x7f0301dc, 0x7f0301dd, 0x7f030201, 0x7f030206, 
-      0x7f030250
+      0x7f030062, 0x7f030072, 0x7f030091, 0x7f0300e1, 
+      0x7f0300e9, 0x7f0300fc, 0x7f0301c3, 0x7f0301c4, 
+      0x7f0301d4, 0x7f0301d5, 0x7f0301f8, 0x7f0301fd, 
+      0x7f030247
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#focusable}
@@ -25629,8 +25250,8 @@ public final class R {
      * @see #SegmentedView_textSize
      */
     public static final int[] SegmentedView={
-      0x7f0301e0, 0x7f0301e1, 0x7f0301e2, 0x7f0301e3, 
-      0x7f0301e4, 0x7f0301e5, 0x7f030218, 0x7f03021c
+      0x7f0301d8, 0x7f0301d9, 0x7f0301da, 0x7f0301db, 
+      0x7f0301dc, 0x7f0301dd, 0x7f03020f, 0x7f030213
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#segmentedBackground}
@@ -25742,7 +25363,7 @@ public final class R {
      * @see #SignInButton_scopeUris
      */
     public static final int[] SignInButton={
-      0x7f030050, 0x7f030070, 0x7f0301db
+      0x7f030050, 0x7f030070, 0x7f0301d3
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#buttonSize}
@@ -25824,7 +25445,7 @@ public final class R {
      */
     public static final int[] Spinner={
       0x010100b2, 0x01010176, 0x0101017b, 0x01010262, 
-      0x7f0301c6
+      0x7f0301be
     };
     /**
      * <p>
@@ -26084,7 +25705,7 @@ public final class R {
      * @see #StateSet_defaultState
      */
     public static final int[] StateSet={
-      0x7f030093
+      0x7f030092
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#defaultState}
@@ -26136,10 +25757,10 @@ public final class R {
      * @see #SwitchCompat_trackTintMode
      */
     public static final int[] SwitchCompat={
-      0x01010124, 0x01010125, 0x01010142, 0x7f0301f0, 
-      0x7f0301fa, 0x7f030207, 0x7f030208, 0x7f03020a, 
-      0x7f03021f, 0x7f030220, 0x7f030221, 0x7f030239, 
-      0x7f03023a, 0x7f03023b
+      0x01010124, 0x01010125, 0x01010142, 0x7f0301e8, 
+      0x7f0301f2, 0x7f0301fe, 0x7f0301ff, 0x7f030201, 
+      0x7f030216, 0x7f030217, 0x7f030218, 0x7f030230, 
+      0x7f030231, 0x7f030232
     };
     /**
      * <p>
@@ -26390,7 +26011,7 @@ public final class R {
       0x01010095, 0x01010096, 0x01010097, 0x01010098, 
       0x0101009a, 0x0101009b, 0x01010161, 0x01010162, 
       0x01010163, 0x01010164, 0x010103ac, 0x01010585, 
-      0x7f0300d6, 0x7f0300de, 0x7f03020f, 0x7f03021b
+      0x7f0300d5, 0x7f0300dd, 0x7f030206, 0x7f030212
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#textSize}
@@ -26676,12 +26297,12 @@ public final class R {
     public static final int[] Toolbar={
       0x010100af, 0x01010140, 0x7f03004d, 0x7f030064, 
       0x7f030065, 0x7f03007b, 0x7f03007c, 0x7f03007d, 
-      0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f03014d, 
-      0x7f03014e, 0x7f03018e, 0x7f030193, 0x7f0301a6, 
-      0x7f0301a7, 0x7f0301c6, 0x7f030202, 0x7f030203, 
-      0x7f030204, 0x7f030227, 0x7f030228, 0x7f030229, 
-      0x7f03022a, 0x7f03022b, 0x7f03022c, 0x7f03022d, 
-      0x7f03022e, 0x7f03022f
+      0x7f03007e, 0x7f03007f, 0x7f030080, 0x7f030145, 
+      0x7f030146, 0x7f030186, 0x7f03018b, 0x7f03019e, 
+      0x7f03019f, 0x7f0301be, 0x7f0301f9, 0x7f0301fa, 
+      0x7f0301fb, 0x7f03021e, 0x7f03021f, 0x7f030220, 
+      0x7f030221, 0x7f030222, 0x7f030223, 0x7f030224, 
+      0x7f030225, 0x7f030226
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#gravity}
@@ -27130,7 +26751,7 @@ public final class R {
      * @see #TopBar_exampleString
      */
     public static final int[] TopBar={
-      0x7f0300b4, 0x7f0300b5, 0x7f0300b6, 0x7f0300b7
+      0x7f0300b3, 0x7f0300b4, 0x7f0300b5, 0x7f0300b6
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#exampleColor}
@@ -27373,8 +26994,8 @@ public final class R {
      */
     public static final int[] Transition={
       0x010100d0, 0x7f030038, 0x7f030074, 0x7f030075, 
-      0x7f0300af, 0x7f030100, 0x7f03019d, 0x7f0301bc, 
-      0x7f0301fd, 0x7f03023c, 0x7f03023e
+      0x7f0300ae, 0x7f0300fe, 0x7f030195, 0x7f0301b4, 
+      0x7f0301f5, 0x7f030233, 0x7f030235
     };
     /**
      * <p>This symbol is the offset where the {@link android.R.attr#id}
@@ -27559,8 +27180,8 @@ public final class R {
      * @see #Variant_region_widthMoreThan
      */
     public static final int[] Variant={
-      0x7f030078, 0x7f0301d2, 0x7f0301d3, 0x7f0301d4, 
-      0x7f0301d5
+      0x7f030078, 0x7f0301ca, 0x7f0301cb, 0x7f0301cc, 
+      0x7f0301cd
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#constraints}
@@ -27646,8 +27267,8 @@ public final class R {
      * @see #View_theme
      */
     public static final int[] View={
-      0x01010000, 0x010100da, 0x7f0301b6, 0x7f0301b7, 
-      0x7f03021d
+      0x01010000, 0x010100da, 0x7f0301ae, 0x7f0301af, 
+      0x7f030214
     };
     /**
      * <p>
@@ -27871,7 +27492,7 @@ public final class R {
      * @see #WheelHorizontalView_selectionDividerWidth
      */
     public static final int[] WheelHorizontalView={
-      0x7f0301ec
+      0x7f0301e4
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#selectionDividerWidth}
@@ -27898,7 +27519,7 @@ public final class R {
      * @see #WheelVerticalView_selectionDividerHeight
      */
     public static final int[] WheelVerticalView={
-      0x7f0301eb
+      0x7f0301e3
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#selectionDividerHeight}
@@ -27939,8 +27560,8 @@ public final class R {
      * @see #mapbox_BubbleLayout_mapbox_bl_strokeWidth
      */
     public static final int[] mapbox_BubbleLayout={
-      0x7f030151, 0x7f030152, 0x7f030153, 0x7f030154, 
-      0x7f030155, 0x7f030156, 0x7f030157, 0x7f030158
+      0x7f030149, 0x7f03014a, 0x7f03014b, 0x7f03014c, 
+      0x7f03014d, 0x7f03014e, 0x7f03014f, 0x7f030150
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#mapbox_bl_arrowDirection}
@@ -28192,7 +27813,9 @@ public final class R {
      * @see #mapbox_MapView_mapbox_uiZoomGestures
      */
     public static final int[] mapbox_MapView={
-      0x7f030150, 0x7f030159, 0x7f03015a, 0x7f03015b, 
+      0x7f030148, 0x7f030151, 0x7f030152, 0x7f030153, 
+      0x7f030154, 0x7f030155, 0x7f030156, 0x7f030157, 
+      0x7f030158, 0x7f030159, 0x7f03015a, 0x7f03015b, 
       0x7f03015c, 0x7f03015d, 0x7f03015e, 0x7f03015f, 
       0x7f030160, 0x7f030161, 0x7f030162, 0x7f030163, 
       0x7f030164, 0x7f030165, 0x7f030166, 0x7f030167, 
@@ -28203,9 +27826,7 @@ public final class R {
       0x7f030178, 0x7f030179, 0x7f03017a, 0x7f03017b, 
       0x7f03017c, 0x7f03017d, 0x7f03017e, 0x7f03017f, 
       0x7f030180, 0x7f030181, 0x7f030182, 0x7f030183, 
-      0x7f030184, 0x7f030185, 0x7f030186, 0x7f030187, 
-      0x7f030188, 0x7f030189, 0x7f03018a, 0x7f03018b, 
-      0x7f03018c
+      0x7f030184
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#mapbox_apiBaseUrl}
@@ -28863,7 +28484,7 @@ public final class R {
      * @see #zxing_camera_preview_zxing_use_texture_view
      */
     public static final int[] zxing_camera_preview={
-      0x7f030264, 0x7f030265, 0x7f030267, 0x7f03026a
+      0x7f03025b, 0x7f03025c, 0x7f03025e, 0x7f030261
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#zxing_framing_rect_height}
@@ -28937,7 +28558,7 @@ public final class R {
      * @see #zxing_finder_zxing_viewfinder_mask
      */
     public static final int[] zxing_finder={
-      0x7f030266, 0x7f030268, 0x7f03026b, 0x7f03026c
+      0x7f03025d, 0x7f03025f, 0x7f030262, 0x7f030263
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#zxing_possible_result_points}
@@ -28995,7 +28616,7 @@ public final class R {
      * @see #zxing_view_zxing_scanner_layout
      */
     public static final int[] zxing_view={
-      0x7f030269
+      0x7f030260
     };
     /**
      * <p>This symbol is the offset where the {@link jcg.mini_dji_go_app.R.attr#zxing_scanner_layout}
