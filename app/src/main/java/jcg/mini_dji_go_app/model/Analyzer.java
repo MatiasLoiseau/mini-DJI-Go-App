@@ -27,7 +27,7 @@ public class Analyzer implements ImageAnalysis.Analyzer {
 
     public Analyzer(Context context) {
         this.context = context;
-        rawValue = null;
+        rawValue = "NO CODE DETECTED";
         options = new BarcodeScannerOptions.Builder()
                         .setBarcodeFormats(
                                 Barcode.FORMAT_QR_CODE,
@@ -35,12 +35,7 @@ public class Analyzer implements ImageAnalysis.Analyzer {
                         .build();
     }
 
-    public String getRawValue(){
-
-        return rawValue;
-    }
-
-    public void start(Bitmap bitmap) {
+    public String analyze(Bitmap bitmap) {
 
         InputImage image = InputImage.fromBitmap(bitmap, 0);
         //InputImage image = InputImage.fromBitmap(bitmap, rotationDegree);
@@ -52,6 +47,7 @@ public class Analyzer implements ImageAnalysis.Analyzer {
 
         processImage(scanner, image);
 
+        return rawValue;
     }
 
 

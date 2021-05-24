@@ -581,7 +581,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
 
-
     private BluetoothAdapter mBluetoothAdapter = null;
 
     //public void onCreate(Bundle savedInstanceState) {
@@ -651,16 +650,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         public void run() {
 
             Analyzer analyzer = new Analyzer(context);
+            Bitmap frame;
+            String code;
 
             while (true) {
                 try {
 
-                    Bitmap frame = videostreamPreviewTtView.getBitmap();
+                    frame = videostreamPreviewTtView.getBitmap();
+                    code = analyzer.analyze(frame);
 
-                    analyzer.start(frame);
-                    String rawValue = analyzer.getRawValue();
-
-                    outStream.write(rawValue.getBytes());
+                    outStream.write(code.getBytes());
                     outStream.flush();
 
                 } catch (IOException e) {
