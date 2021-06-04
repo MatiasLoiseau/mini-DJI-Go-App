@@ -103,6 +103,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private int videoViewHeight;
     private int count;
     private Context context = this;
+    private Bitmap frame;
+    private String code;
 
     @Override
     protected void onResume() {
@@ -163,6 +165,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         setContentView(R.layout.activity_main);
         initUi();
         setBluetooth();
+
+        //Get Code
+        Button addButton = findViewById(R.id.button);
+        addButton.setOnClickListener(view -> {
+
+            Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
+
+        });
+
+
     }
 
     private void showToast(String s) {
@@ -650,8 +662,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         public void run() {
 
             Analyzer analyzer = new Analyzer(context);
-            Bitmap frame;
-            String code;
 
             while (true) {
                 try {
