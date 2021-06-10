@@ -35,7 +35,14 @@ public class Analyzer implements ImageAnalysis.Analyzer {
                         .build();
     }
 
-    public String analyze(Bitmap bitmap) {
+    public String getRawValue(){
+
+        return rawValue;
+    }
+
+
+
+    public void analyze(Bitmap bitmap) {
 
         InputImage image = InputImage.fromBitmap(bitmap, 0);
         //InputImage image = InputImage.fromBitmap(bitmap, rotationDegree);
@@ -46,8 +53,6 @@ public class Analyzer implements ImageAnalysis.Analyzer {
         BarcodeScanner scanner = BarcodeScanning.getClient();
 
         processImage(scanner, image);
-
-        return rawValue;
     }
 
 

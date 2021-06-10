@@ -7,7 +7,6 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -25,20 +24,18 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+import dji.common.camera.SettingsDefinitions.FocusMode;
+import dji.common.error.DJIError;
+import dji.common.util.CommonCallbacks;
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -48,9 +45,7 @@ import java.nio.ByteBuffer;
 import java.util.Set;
 
 import dji.common.camera.SettingsDefinitions;
-import dji.common.error.DJIError;
 import dji.common.product.Model;
-import dji.common.util.CommonCallbacks;
 import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
@@ -59,8 +54,6 @@ import dji.thirdparty.afinal.core.AsyncTask;
 import jcg.mini_dji_go_app.model.Analyzer;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
-import static jcg.mini_dji_go_app.BluetoothConstants.A;
-import static jcg.mini_dji_go_app.BluetoothConstants.B;
 
 public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
     private static final String TAG = MainActivity.class.getSimpleName();
@@ -70,7 +63,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
-    private int FRAME_COMPRESS_COUNTER = 1;
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -170,6 +162,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         Button addButton = findViewById(R.id.button);
         addButton.setOnClickListener(view -> {
 
+            mCamera.setFocusMode(FocusMode.AUTO, djiError -> {
+                if (djiError != null) {
+                    showToast("can't change focus mode of camera, error:"+djiError.getDescription());
+                }
+            });
             Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
 
         });
@@ -667,7 +664,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                 try {
 
                     frame = videostreamPreviewTtView.getBitmap();
-                    code = analyzer.analyze(frame);
+                    analyzer.analyze(frame);
+                    code = analyzer.getRawValue();
 
                     outStream.write(code.getBytes());
                     outStream.flush();
