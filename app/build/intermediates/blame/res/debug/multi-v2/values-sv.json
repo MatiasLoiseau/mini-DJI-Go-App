@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\5e523ec2570eeb4f9f61720b49886f61\\res\\values-sv\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\080564217609dc4a2efbca71ce1d2d7c\\res\\values-sv\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\e947eed688f319b9bce7b431c5bb0a87\\res\\values-sv\\values-sv.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d4cd4b2f656f7bd780b40331e8904f65\\res\\values-sv\\values.xml",
                     "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,238,308,392,464,550,628,762,887,1054,1171",
-                        "endColumns": "182,69,83,71,85,77,133,124,166,116,139",
-                        "endOffsets": "233,303,387,459,545,623,757,882,1049,1166,1306"
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,293",
+                        "endColumns": "99,89",
+                        "endOffsets": "292,382"
                     },
                     "to": {
-                        "startLines": "47,48,49,50,51,52,53,54,55,56,57",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "5473,5656,5726,5810,5882,5968,6046,6180,6305,6472,6589",
-                        "endColumns": "182,69,83,71,85,77,133,124,166,116,139",
-                        "endOffsets": "5651,5721,5805,5877,5963,6041,6175,6300,6467,6584,6724"
+                        "startLines": "58,59",
+                        "startColumns": "4,4",
+                        "startOffsets": "6729,6833",
+                        "endColumns": "103,93",
+                        "endOffsets": "6828,6922"
                     }
                 },
                 {
@@ -89,20 +89,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\a2be38534b670d0645a049861a4bebec\\res\\values-sv\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\3e1b555687ac9e69085c837d27f2b9f4\\res\\values-sv\\values-sv.xml",
                     "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,293",
-                        "endColumns": "99,89",
-                        "endOffsets": "292,382"
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,238,308,392,464,550,628,762,887,1054,1171",
+                        "endColumns": "182,69,83,71,85,77,133,124,166,116,139",
+                        "endOffsets": "233,303,387,459,545,623,757,882,1049,1166,1306"
                     },
                     "to": {
-                        "startLines": "58,59",
-                        "startColumns": "4,4",
-                        "startOffsets": "6729,6833",
-                        "endColumns": "103,93",
-                        "endOffsets": "6828,6922"
+                        "startLines": "47,48,49,50,51,52,53,54,55,56,57",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "5473,5656,5726,5810,5882,5968,6046,6180,6305,6472,6589",
+                        "endColumns": "182,69,83,71,85,77,133,124,166,116,139",
+                        "endOffsets": "5651,5721,5805,5877,5963,6041,6175,6300,6467,6584,6724"
                     }
                 }
             ]

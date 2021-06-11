@@ -175,6 +175,16 @@
                 android:layout_marginRight="12dp"
                 tools:ignore="RtlHardcoded"/>
 
+            <Button
+                android:id="@+id/button"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
+                android:text="Get Code"
+                android:textSize="17sp"
+                />
+
         </LinearLayout>
 
         <!--Take off and return home buttons on left -->
@@ -234,6 +244,10 @@
             android:visibility="gone"/>
 
     </RelativeLayout>
+
+
+
+
 
 
 </RelativeLayout>

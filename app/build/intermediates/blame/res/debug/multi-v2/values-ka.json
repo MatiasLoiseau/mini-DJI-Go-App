@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-ka\\values-ka.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\a2be38534b670d0645a049861a4bebec\\res\\values-ka\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,298",
-                        "endColumns": "104,90",
-                        "endOffsets": "297,388"
-                    },
-                    "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5517,5626",
-                        "endColumns": "108,94",
-                        "endOffsets": "5621,5716"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d28fa9a499a8ce8a9d7823225520c773\\res\\values-ka\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -72,7 +55,24 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\5e523ec2570eeb4f9f61720b49886f61\\res\\values-ka\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d4cd4b2f656f7bd780b40331e8904f65\\res\\values-ka\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,298",
+                        "endColumns": "104,90",
+                        "endOffsets": "297,388"
+                    },
+                    "to": {
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5517,5626",
+                        "endColumns": "108,94",
+                        "endOffsets": "5621,5716"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\080564217609dc4a2efbca71ce1d2d7c\\res\\values-ka\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

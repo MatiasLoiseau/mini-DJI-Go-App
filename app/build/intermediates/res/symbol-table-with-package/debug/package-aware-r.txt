@@ -1913,6 +1913,7 @@ id bot_line_camera_panel
 id bottom
 id bounce
 id btn_open
+id button
 id buttonPanel
 id button_container
 id button_iso_auto

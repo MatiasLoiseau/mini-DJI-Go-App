@@ -4,23 +4,6 @@
             "outputFile": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-iw\\values-iw.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\a2be38534b670d0645a049861a4bebec\\res\\values-iw\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,293",
-                        "endColumns": "99,90",
-                        "endOffsets": "292,383"
-                    },
-                    "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5320,5424",
-                        "endColumns": "103,94",
-                        "endOffsets": "5419,5514"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d28fa9a499a8ce8a9d7823225520c773\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -35,6 +18,23 @@
                         "startOffsets": "2761,2866,3052,3179,3285,3483,3610,3752,4061,4256,4361,4537,4662,4855,5030,5120,5210",
                         "endColumns": "104,185,126,105,197,126,141,131,194,104,175,124,192,174,89,89,109",
                         "endOffsets": "2861,3047,3174,3280,3478,3605,3747,3879,4251,4356,4532,4657,4850,5025,5115,5205,5315"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d4cd4b2f656f7bd780b40331e8904f65\\res\\values-iw\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,293",
+                        "endColumns": "99,90",
+                        "endOffsets": "292,383"
+                    },
+                    "to": {
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5320,5424",
+                        "endColumns": "103,94",
+                        "endOffsets": "5419,5514"
                     }
                 },
                 {
@@ -72,7 +72,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\5e523ec2570eeb4f9f61720b49886f61\\res\\values-iw\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\080564217609dc4a2efbca71ce1d2d7c\\res\\values-iw\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

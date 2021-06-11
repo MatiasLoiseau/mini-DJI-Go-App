@@ -156,7 +156,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         setContentView(R.layout.activity_main);
         initUi();
-        setBluetooth();
+        //setBluetooth();
+
+        Analyzer analyzer = new Analyzer(context);
 
         //Get Code
         Button addButton = findViewById(R.id.button);
@@ -167,6 +169,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                     showToast("can't change focus mode of camera, error:"+djiError.getDescription());
                 }
             });
+
+            frame = videostreamPreviewTtView.getBitmap();
+            analyzer.analyze(frame);
+            code = analyzer.getRawValue();
             Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
 
         });

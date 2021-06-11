@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\5e523ec2570eeb4f9f61720b49886f61\\res\\values-sq\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\080564217609dc4a2efbca71ce1d2d7c\\res\\values-sq\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -35,23 +35,6 @@
                         "startOffsets": "4020",
                         "endColumns": "187",
                         "endOffsets": "4203"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\a2be38534b670d0645a049861a4bebec\\res\\values-sq\\values.xml",
-                    "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,295",
-                        "endColumns": "101,90",
-                        "endOffsets": "294,385"
-                    },
-                    "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5638,5744",
-                        "endColumns": "105,94",
-                        "endOffsets": "5739,5834"
                     }
                 },
                 {
@@ -86,6 +69,23 @@
                         "startOffsets": "2801,2910,3115,3254,3363,3583,3719,3875,4208,4437,4547,4753,4893,5121,5335,5430,5527",
                         "endColumns": "108,204,138,108,219,135,155,144,228,109,205,139,227,213,94,96,110",
                         "endOffsets": "2905,3110,3249,3358,3578,3714,3870,4015,4432,4542,4748,4888,5116,5330,5425,5522,5633"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d4cd4b2f656f7bd780b40331e8904f65\\res\\values-sq\\values.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,295",
+                        "endColumns": "101,90",
+                        "endOffsets": "294,385"
+                    },
+                    "to": {
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5638,5744",
+                        "endColumns": "105,94",
+                        "endOffsets": "5739,5834"
                     }
                 }
             ]
