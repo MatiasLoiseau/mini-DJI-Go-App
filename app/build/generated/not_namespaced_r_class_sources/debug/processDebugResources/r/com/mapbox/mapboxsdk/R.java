@@ -113,26 +113,26 @@ public final class R {
 
         public static final int attributionView = 0x7f080060;
         public static final int bottom = 0x7f080078;
-        public static final int center = 0x7f0800ae;
-        public static final int center_horizontal = 0x7f0800b0;
-        public static final int center_vertical = 0x7f0800b2;
-        public static final int clip_horizontal = 0x7f0800c7;
-        public static final int clip_vertical = 0x7f0800c8;
-        public static final int compassView = 0x7f0800d1;
-        public static final int end = 0x7f0800ff;
-        public static final int fill = 0x7f080111;
-        public static final int fill_horizontal = 0x7f080112;
-        public static final int fill_vertical = 0x7f080113;
-        public static final int image = 0x7f080143;
-        public static final int infowindow_description = 0x7f080188;
-        public static final int infowindow_title = 0x7f080189;
-        public static final int left = 0x7f0801a7;
-        public static final int logoView = 0x7f0801d7;
-        public static final int markerViewContainer = 0x7f0801db;
-        public static final int right = 0x7f080226;
-        public static final int start = 0x7f080283;
-        public static final int top = 0x7f0802f0;
-        public static final int userLocationView = 0x7f080300;
+        public static final int center = 0x7f0800b0;
+        public static final int center_horizontal = 0x7f0800b2;
+        public static final int center_vertical = 0x7f0800b4;
+        public static final int clip_horizontal = 0x7f0800c9;
+        public static final int clip_vertical = 0x7f0800ca;
+        public static final int compassView = 0x7f0800d3;
+        public static final int end = 0x7f080101;
+        public static final int fill = 0x7f080113;
+        public static final int fill_horizontal = 0x7f080114;
+        public static final int fill_vertical = 0x7f080115;
+        public static final int image = 0x7f080145;
+        public static final int infowindow_description = 0x7f08018a;
+        public static final int infowindow_title = 0x7f08018b;
+        public static final int left = 0x7f0801a9;
+        public static final int logoView = 0x7f0801d9;
+        public static final int markerViewContainer = 0x7f0801dd;
+        public static final int right = 0x7f080228;
+        public static final int start = 0x7f080285;
+        public static final int top = 0x7f0802f2;
+        public static final int userLocationView = 0x7f080302;
     }
     public static final class layout {
         private layout() {}

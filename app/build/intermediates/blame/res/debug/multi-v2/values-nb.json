@@ -4,20 +4,20 @@
             "outputFile": "C:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-nb\\values-nb.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\d4cd4b2f656f7bd780b40331e8904f65\\res\\values-nb\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\441781cb9d0654bc3dd3bfae0fca889c\\res\\values-nb\\values.xml",
                     "from": {
-                        "startLines": "4,5",
-                        "startColumns": "0,0",
-                        "startOffsets": "193,291",
-                        "endColumns": "97,88",
-                        "endOffsets": "290,379"
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "188",
+                        "endOffsets": "435"
                     },
                     "to": {
-                        "startLines": "47,48",
-                        "startColumns": "4,4",
-                        "startOffsets": "5439,5541",
-                        "endColumns": "101,92",
-                        "endOffsets": "5536,5629"
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "3903",
+                        "endColumns": "188",
+                        "endOffsets": "4087"
                     }
                 },
                 {
@@ -38,20 +38,20 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\080564217609dc4a2efbca71ce1d2d7c\\res\\values-nb\\values.xml",
+                    "source": "C:\\Users\\Joaquin\\.gradle\\caches\\transforms-2\\files-2.1\\1c8f36628cccff052953a585455ec8b8\\res\\values-nb\\values.xml",
                     "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "247",
-                        "endColumns": "188",
-                        "endOffsets": "435"
+                        "startLines": "4,5",
+                        "startColumns": "0,0",
+                        "startOffsets": "193,291",
+                        "endColumns": "97,88",
+                        "endOffsets": "290,379"
                     },
                     "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "3903",
-                        "endColumns": "188",
-                        "endOffsets": "4087"
+                        "startLines": "47,48",
+                        "startColumns": "4,4",
+                        "startOffsets": "5439,5541",
+                        "endColumns": "101,92",
+                        "endOffsets": "5536,5629"
                     }
                 },
                 {

@@ -33,6 +33,7 @@ import androidx.annotation.Nullable;
 import dji.common.camera.SettingsDefinitions.FocusMode;
 import dji.common.error.DJIError;
 import dji.common.util.CommonCallbacks;
+import dji.sdk.accessory.spotlight.Spotlight;
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
 
@@ -88,6 +89,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private SurfaceView videostreamPreviewSf;
     private SurfaceHolder videostreamPreviewSh;
     private Camera mCamera;
+    private Spotlight mSpotlight;
     private DJICodecManager mCodecManager;
     private TextView savePath;
     private StringBuilder stringBuilder;
@@ -160,20 +162,39 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         Analyzer analyzer = new Analyzer(context);
 
-        //Get Code
-        Button addButton = findViewById(R.id.button);
-        addButton.setOnClickListener(view -> {
+        //Code
+        Button buttonCode = findViewById(R.id.buttonCode);
+        buttonCode.setOnClickListener(view -> {
 
-            mCamera.setFocusMode(FocusMode.AUTO, djiError -> {
+            frame = videostreamPreviewTtView.getBitmap();
+            analyzer.analyze(frame);
+            analyzer.analyze(frame);
+            code = analyzer.getRawValue();
+            Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
+
+        });
+
+        //Flash
+        Button buttonFlash = findViewById(R.id.buttonFlash);
+        buttonFlash.setOnClickListener(view -> {
+
+            mSpotlight.setEnabled(true, djiError -> {
+                if (djiError != null) {
+                    showToast("can't active flash:"+djiError.getDescription());
+                }
+            });
+        });
+
+
+        //Foco
+        Button buttonFoco = findViewById(R.id.buttonFoco);
+        buttonFoco.setOnClickListener(view -> {
+
+            mCamera.setFocusMode(FocusMode.AFC, djiError -> {
                 if (djiError != null) {
                     showToast("can't change focus mode of camera, error:"+djiError.getDescription());
                 }
             });
-
-            frame = videostreamPreviewTtView.getBitmap();
-            analyzer.analyze(frame);
-            code = analyzer.getRawValue();
-            Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
 
         });
 

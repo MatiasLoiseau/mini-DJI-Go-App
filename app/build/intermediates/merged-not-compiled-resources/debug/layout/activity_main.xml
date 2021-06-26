@@ -176,16 +176,35 @@
                 tools:ignore="RtlHardcoded"/>
 
             <Button
-                android:id="@+id/button"
-                android:layout_width="150dp"
+                android:id="@+id/buttonFlash"
+                android:layout_width="100dp"
                 android:layout_height="50dp"
                 android:layout_gravity="center"
                 android:layout_marginLeft="70dp"
-                android:text="Get Code"
+                android:text="Flash"
                 android:textSize="17sp"
                 />
 
+            <Button
+                android:id="@+id/buttonFoco"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:text="Foco"
+                android:textSize="17sp"
+                />
         </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonCode"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginVertical="230dp"
+            android:layout_marginLeft="500dp"
+            android:text="Code"
+            android:textSize="17sp"
+            />
+
 
         <!--Take off and return home buttons on left -->
 
