@@ -63,18 +63,18 @@ public final class R {
         private drawable() {}
 
         public static final int abc_vector_test = 0x7f070055;
-        public static final int notification_action_background = 0x7f0701ee;
-        public static final int notification_bg = 0x7f0701ef;
-        public static final int notification_bg_low = 0x7f0701f0;
-        public static final int notification_bg_low_normal = 0x7f0701f1;
-        public static final int notification_bg_low_pressed = 0x7f0701f2;
-        public static final int notification_bg_normal = 0x7f0701f3;
-        public static final int notification_bg_normal_pressed = 0x7f0701f4;
-        public static final int notification_icon_background = 0x7f0701f5;
-        public static final int notification_template_icon_bg = 0x7f0701f6;
-        public static final int notification_template_icon_low_bg = 0x7f0701f7;
-        public static final int notification_tile_bg = 0x7f0701f8;
-        public static final int notify_panel_notification_icon_bg = 0x7f0701f9;
+        public static final int notification_action_background = 0x7f0701f2;
+        public static final int notification_bg = 0x7f0701f3;
+        public static final int notification_bg_low = 0x7f0701f4;
+        public static final int notification_bg_low_normal = 0x7f0701f5;
+        public static final int notification_bg_low_pressed = 0x7f0701f6;
+        public static final int notification_bg_normal = 0x7f0701f7;
+        public static final int notification_bg_normal_pressed = 0x7f0701f8;
+        public static final int notification_icon_background = 0x7f0701f9;
+        public static final int notification_template_icon_bg = 0x7f0701fa;
+        public static final int notification_template_icon_low_bg = 0x7f0701fb;
+        public static final int notification_tile_bg = 0x7f0701fc;
+        public static final int notify_panel_notification_icon_bg = 0x7f0701fd;
     }
     public static final class id {
         private id() {}
@@ -150,7 +150,7 @@ public final class R {
     public static final class integer {
         private integer() {}
 
-        public static final int status_bar_notification_info_maxnum = 0x7f090005;
+        public static final int status_bar_notification_info_maxnum = 0x7f090006;
     }
     public static final class layout {
         private layout() {}

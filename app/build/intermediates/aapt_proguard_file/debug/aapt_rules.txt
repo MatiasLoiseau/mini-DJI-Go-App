@@ -1,0 +1,226 @@
+-keep class androidx.core.app.CoreComponentFactory { <init>(); }
+-keep class androidx.lifecycle.ProcessLifecycleOwnerInitializer { <init>(); }
+-keep class com.google.android.gms.common.api.GoogleApiActivity { <init>(); }
+-keep class com.google.mlkit.common.internal.MlKitComponentDiscoveryService { <init>(); }
+-keep class com.google.mlkit.common.internal.MlKitInitProvider { <init>(); }
+-keep class com.mapbox.services.android.telemetry.service.TelemetryService { <init>(); }
+-keep class com.mapzen.android.lost.internal.DwellIntentService { <init>(); }
+-keep class com.mapzen.android.lost.internal.FusedLocationProviderService { <init>(); }
+-keep class com.mapzen.android.lost.internal.GeofencingIntentService { <init>(); }
+-keep class com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider { <init>(); }
+-keep class com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider { <init>(); }
+-keep class dji.logic.receiver.DJIPilotStartupReceiver { <init>(); }
+-keep class dji.sdk.sdkmanager.DJIGlobalService { <init>(); }
+-keep class jcg.mini_dji_go_app.ConnectionActivity { <init>(); }
+-keep class jcg.mini_dji_go_app.MainActivity { <init>(); }
+-keep class jcg.mini_dji_go_app.VideoDecodingApplication { <init>(); }
+-keep class android.widget.Space { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.app.AlertController$RecycleListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ActionMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ExpandedMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.view.menu.ListMenuItemView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContainer { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarContextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionBarOverlayLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActionMenuView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ActivityChooserView$InnerLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.AlertDialogLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ButtonBarLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ContentFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.DialogTitle { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsFrameLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.FitWindowsLinearLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.SearchView$SearchAutoComplete { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.Toolbar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.appcompat.widget.ViewStubCompat { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.constraintlayout.widget.ConstraintLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.core.widget.NestedScrollView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class androidx.recyclerview.widget.RecyclerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.dji.scan.qr.BarcodeView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.dji.scan.qr.DecoratedBarcodeView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.dji.scan.qr.ViewfinderView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mapbox.mapboxsdk.annotations.BubbleLayout { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mapbox.mapboxsdk.maps.widgets.CompassView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class com.mapbox.mapboxsdk.maps.widgets.MyLocationView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.internal.useraccount.view.LollipopFixedWebView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.midware.media.colors.ColorOscilloscopeDisplayView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.thirdparty.spinnerwheel.WheelHorizontalView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.base.MarqueeTextView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.DJIRulerView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.LineChartView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.ParentChildrenViewAnimator { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.RecyclerListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.SeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.SegmentedView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.SlideAndFillSeekBar { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.StripeView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.SwitchButton { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.TabBarView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.CameraImageFormatListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.CameraPhotoModeListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.CameraVideoStandardListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.ThermalFFCModeListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.ThermalGainModeListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.ThermalPaletteListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.ThermalROIListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.advance.ThermalSceneListWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraOtherSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraOtherSettingListViewForPayload { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraPhotoSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraPhotoSettingListViewForPayload { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraVideoSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.CameraVideoSettingListViewForPayload { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraOtherSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraOtherSettingListViewForXT2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraPhotoSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraPhotoSettingListViewForXT2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraVideoSettingListView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.camera.ThermalCameraVideoSettingListViewForXT2 { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.compass.GimbalYawView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.compass.VisualCompassView { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.exposure.CameraApertureSettingWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.exposure.CameraEVSettingWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.exposure.CameraExposureModeSettingWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.exposure.CameraISOAndEISettingWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.internal.exposure.CameraShutterSettingWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.panel.CameraSettingAdvancedPanel { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.panel.CameraSettingExposurePanel { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.panel.PreFlightCheckListPanel { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.AutoExposureLockWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.BatteryWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.ConnectionWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.FlightModeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.FocusExposureSwitchWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.FocusModeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.GPSSignalWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.ManualFocusWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.PreFlightStatusWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.RemainingFlightTimeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.RemoteControlSignalWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.ReturnHomeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.TakeOffWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.VideoSignalWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.VisionWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.WiFiSignalWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigApertureWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigEVWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigISOAndEIWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigShutterWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigStorageWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.config.CameraConfigWBWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.controls.CameraCaptureWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.controls.CameraControlsWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.controls.ExposureSettingsMenu { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.controls.PictureVideoSwitch { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.AltitudeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.CompassWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.DashboardWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.DistanceHomeWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.HorizontalVelocityWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.VPSWidget { <init>(android.content.Context, android.util.AttributeSet); }
+
+-keep class dji.ux.widget.dashboard.VerticalVelocityWidget { <init>(android.content.Context, android.util.AttributeSet); }
+

@@ -30,9 +30,8 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+
 import dji.common.camera.SettingsDefinitions.FocusMode;
-import dji.common.error.DJIError;
-import dji.common.util.CommonCallbacks;
 import dji.sdk.accessory.spotlight.Spotlight;
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
@@ -53,6 +52,7 @@ import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
 import jcg.mini_dji_go_app.model.Analyzer;
+import jcg.mini_dji_go_app.model.BarcodeScanActivity;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
@@ -166,11 +166,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         Button buttonCode = findViewById(R.id.buttonCode);
         buttonCode.setOnClickListener(view -> {
 
-            frame = videostreamPreviewTtView.getBitmap();
-            analyzer.analyze(frame);
-            analyzer.analyze(frame);
-            code = analyzer.getRawValue();
-            Toast.makeText(this, code, Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(this, BarcodeScanActivity.class);
+            startActivity(intent);
 
         });
 

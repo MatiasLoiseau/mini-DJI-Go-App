@@ -1,0 +1,363 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="jcg.mini_dji_go_app" >
+4
+5    <uses-sdk
+6        android:minSdkVersion="21"
+6-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml
+7        android:targetSdkVersion="29" />
+7-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml
+8
+9    <uses-permission android:name="android.permission.VIBRATE" />
+9-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:5:5-65
+9-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:5:22-63
+10    <uses-permission android:name="android.permission.INTERNET" />
+10-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:6:5-66
+10-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:6:22-64
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:7:5-75
+11-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:7:22-73
+12    <uses-permission android:name="android.permission.WAKE_LOCK" />
+12-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:8:5-67
+12-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:8:22-65
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:9:5-80
+13-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:10:5-78
+14-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:10:22-76
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:11:5-78
+15-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:11:22-76
+16    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+16-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:12:5-75
+16-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:12:22-73
+17    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+17-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:13:5-83
+17-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:13:22-81
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:14:5-80
+18-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+19-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:15:5-79
+19-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:15:22-77
+20    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+20-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:16:5-77
+20-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:16:22-75
+21    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+21-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:17:5-74
+21-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:17:22-72
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:18:5-67
+22-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:18:22-65
+23    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+23-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:19:5-74
+23-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:19:22-71
+24
+25    <uses-feature android:name="android.hardware.camera" />
+25-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:21:5-59
+25-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:21:19-57
+26    <uses-feature android:name="android.hardware.camera.autofocus" />
+26-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:22:5-69
+26-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:22:19-67
+27    <uses-feature
+27-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:23:5-25:35
+28        android:name="android.hardware.usb.host"
+28-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:24:9-49
+29        android:required="false" />
+29-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:25:9-33
+30    <uses-feature
+30-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:26:5-28:34
+31        android:name="android.hardware.usb.accessory"
+31-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:27:9-54
+32        android:required="true" />
+32-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:28:9-32
+33
+34    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+34-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:14:5-98
+34-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:14:22-95
+35    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY" />
+35-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:16:5-80
+35-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:16:22-77
+36    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+36-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:19:5-79
+36-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:19:22-76
+37    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+37-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:22:5-79
+37-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:22:22-76
+38    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+38-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:24:5-71
+38-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:24:22-68
+39    <uses-permission android:name="android.permission.CAMERA" /> <!-- video editor -->
+39-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:25:5-65
+39-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:25:22-62
+40    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+40-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:29:5-81
+40-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:29:22-78
+41    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+41-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:30:5-75
+41-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:30:22-72
+42    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+42-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:31:5-73
+42-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:31:22-70
+43    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+43-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:32:5-79
+43-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:32:22-76
+44    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES" />
+44-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:33:5-84
+44-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:33:22-81
+45    <uses-permission android:name="android.permission.READ_LOGS" /> <!-- share permission start -->
+45-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:34:5-68
+45-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:34:22-65
+46    <uses-permission android:name="android.permission.GET_TASKS" />
+46-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:38:5-68
+46-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:38:22-65
+47    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+47-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:41:5-74
+47-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:41:22-71
+48    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+48-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:42:5-71
+48-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:42:22-68
+49    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY" />
+49-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:43:5-81
+49-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:43:22-78
+50    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" /> <!-- share permission end -->
+50-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:44:5-85
+50-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:44:22-82
+51    <!-- livestreaming permission start -->
+52    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+52-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:50:5-74
+52-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:50:22-71
+53
+54    <uses-feature
+54-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:9:5-11:36
+55        android:name="android.hardware.sensor.accelerometer"
+55-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:10:9-61
+56        android:required="false" />
+56-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:11:9-33
+57    <uses-feature android:name="android.hardware.location" />
+57-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:12:5-62
+57-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:12:19-59
+58    <uses-feature
+58-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:13:5-15:36
+59        android:name="android.hardware.location.gps"
+59-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:14:9-53
+60        android:required="false" />
+60-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:15:9-33
+61    <uses-feature
+61-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:16:5-18:36
+62        android:name="android.hardware.telephony"
+62-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:17:9-50
+63        android:required="false" />
+63-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:18:9-33
+64    <uses-feature android:name="android.hardware.wifi" />
+64-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:19:5-58
+64-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:19:19-55
+65    <uses-feature
+65-->[com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\886846d46cfe48ecace6de2f3f7ae843\jetified-mapbox-android-sdk-5.5.1\AndroidManifest.xml:11:5-13:35
+66        android:glEsVersion="0x00020000"
+66-->[com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\886846d46cfe48ecace6de2f3f7ae843\jetified-mapbox-android-sdk-5.5.1\AndroidManifest.xml:12:9-41
+67        android:required="true" />
+67-->[com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\886846d46cfe48ecace6de2f3f7ae843\jetified-mapbox-android-sdk-5.5.1\AndroidManifest.xml:13:9-32
+68
+69    <application
+69-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:30:5-61:19
+70        android:name="jcg.mini_dji_go_app.VideoDecodingApplication"
+70-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:31:9-68
+71        android:allowBackup="true"
+71-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:32:9-35
+72        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+72-->[androidx.core:core:1.3.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fcde0508ec0e6903676c41a5eb6a8dd\core-1.3.2\AndroidManifest.xml:24:18-86
+73        android:debuggable="true"
+74        android:label="@string/app_name"
+74-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:33:9-41
+75        android:supportsRtl="true"
+75-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:34:9-35
+76        android:theme="@style/AppTheme" >
+76-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:35:9-40
+77        <uses-library
+77-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:37:9-88
+78            android:name="org.apache.http.legacy"
+78-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:37:23-60
+79            android:required="false" />
+79-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:37:61-85
+80
+81        <meta-data
+81-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:39:9-41:55
+82            android:name="com.dji.sdk.API_KEY"
+82-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:40:13-47
+83            android:value="b6d0c26c05e708f7007a254c" />
+83-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:41:13-53
+84
+85        <activity
+85-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:43:9-55:20
+86            android:name="jcg.mini_dji_go_app.ConnectionActivity"
+86-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:44:13-66
+87            android:launchMode="singleTop"
+87-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:45:13-43
+88            android:screenOrientation="portrait" >
+88-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:46:13-49
+89            <intent-filter>
+89-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:47:13-51:29
+90                <action android:name="android.intent.action.MAIN" />
+90-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:48:17-68
+90-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:48:25-66
+91
+92                <category android:name="android.intent.category.LAUNCHER" />
+92-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:49:17-76
+92-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:49:27-74
+93
+94                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+94-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:50:17-92
+94-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:50:25-90
+95            </intent-filter>
+96
+97            <meta-data
+97-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:52:13-54:59
+98                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+98-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:53:17-82
+99                android:resource="@xml/accessory_filter" />
+99-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:54:17-57
+100        </activity>
+101        <activity
+101-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:56:9-60:74
+102            android:name="jcg.mini_dji_go_app.MainActivity"
+102-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:57:13-60
+103            android:configChanges="orientation|screenSize"
+103-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:59:13-59
+104            android:screenOrientation="landscape"
+104-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:58:13-50
+105            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+105-->C:\Users\Joaquin\Desktop\ACTUAL\mini-DJI-Go-App 29.7\app\src\main\AndroidManifest.xml:60:13-71
+106
+107        <service
+107-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:61:9-63:43
+108            android:name="dji.sdk.sdkmanager.DJIGlobalService"
+108-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:62:13-63
+109            android:stopWithTask="true" />
+109-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:63:13-40
+110
+111        <receiver
+111-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:65:9-72:20
+112            android:name="dji.logic.receiver.DJIPilotStartupReceiver"
+112-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:66:13-70
+113            android:exported="true" >
+113-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:67:13-36
+114            <intent-filter>
+114-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:68:13-71:29
+115                <action android:name="dji.go3.STARTUP" />
+115-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:69:17-58
+115-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:69:25-55
+116                <action android:name="dji.go4.STARTUP" />
+116-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:70:17-58
+116-->[com.dji:dji-sdk:4.13] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\06e5bdcb129ea5316802cdd52a743769\jetified-dji-sdk-4.13\AndroidManifest.xml:70:25-55
+117            </intent-filter>
+118        </receiver>
+119
+120        <service
+120-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:22:9-24:39
+121            android:name="com.mapzen.android.lost.internal.FusedLocationProviderService"
+121-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:23:13-89
+122            android:process=":lost" />
+122-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:24:13-36
+123        <service android:name="com.mapzen.android.lost.internal.GeofencingIntentService" >
+123-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:25:9-29:19
+123-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:25:18-89
+124            <intent-filter>
+124-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:26:13-28:29
+125                <action android:name="com.mapzen.lost.action.ACTION_GEOFENCING_SERVICE" />
+125-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:27:17-91
+125-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:27:25-88
+126            </intent-filter>
+127        </service>
+128        <service android:name="com.mapzen.android.lost.internal.DwellIntentService" >
+128-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:30:9-31:19
+128-->[com.mapzen.android:lost:3.0.4] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b70f6943831d3fd4d2f6c2499bd4ebfb\jetified-lost-3.0.4\AndroidManifest.xml:30:18-84
+129        </service> <!-- Include the telemetry service to simplify set up (https://www.mapbox.com/telemetry) -->
+130        <service android:name="com.mapbox.services.android.telemetry.service.TelemetryService" />
+130-->[com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\886846d46cfe48ecace6de2f3f7ae843\jetified-mapbox-android-sdk-5.5.1\AndroidManifest.xml:28:9-98
+130-->[com.mapbox.mapboxsdk:mapbox-android-sdk:5.5.1] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\886846d46cfe48ecace6de2f3f7ae843\jetified-mapbox-android-sdk-5.5.1\AndroidManifest.xml:28:18-95
+131        <service
+131-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:9:9-15:19
+132            android:name="com.google.mlkit.common.internal.MlKitComponentDiscoveryService"
+132-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:10:13-91
+133            android:directBootAware="true"
+133-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:17:13-43
+134            android:exported="false" >
+134-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:11:13-37
+135            <meta-data
+135-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:12:13-14:85
+136                android:name="com.google.firebase.components:com.google.mlkit.vision.barcode.internal.BarcodeRegistrar"
+136-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:13:17-120
+137                android:value="com.google.firebase.components.ComponentRegistrar" />
+137-->[com.google.android.gms:play-services-mlkit-barcode-scanning:16.1.2] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0cfb1fe66231c1816e03af27b15d22f1\jetified-play-services-mlkit-barcode-scanning-16.1.2\AndroidManifest.xml:14:17-82
+138            <meta-data
+138-->[com.google.mlkit:vision-common:16.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0265efec26bbacc53d8109e79056ab56\jetified-vision-common-16.1.0\AndroidManifest.xml:12:13-14:85
+139                android:name="com.google.firebase.components:com.google.mlkit.vision.common.internal.VisionCommonRegistrar"
+139-->[com.google.mlkit:vision-common:16.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0265efec26bbacc53d8109e79056ab56\jetified-vision-common-16.1.0\AndroidManifest.xml:13:17-124
+140                android:value="com.google.firebase.components.ComponentRegistrar" />
+140-->[com.google.mlkit:vision-common:16.1.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0265efec26bbacc53d8109e79056ab56\jetified-vision-common-16.1.0\AndroidManifest.xml:14:17-82
+141            <meta-data
+141-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:20:13-22:85
+142                android:name="com.google.firebase.components:com.google.mlkit.common.internal.CommonComponentRegistrar"
+142-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:21:17-120
+143                android:value="com.google.firebase.components.ComponentRegistrar" />
+143-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:22:17-82
+144        </service>
+145
+146        <provider
+146-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:9:9-13:38
+147            android:name="com.google.mlkit.common.internal.MlKitInitProvider"
+147-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:10:13-78
+148            android:authorities="jcg.mini_dji_go_app.mlkitinitprovider"
+148-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:11:13-69
+149            android:exported="false"
+149-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:12:13-37
+150            android:initOrder="99" />
+150-->[com.google.mlkit:common:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\0fe350d72d20ee71561f2dd3096619a9\jetified-common-17.0.0\AndroidManifest.xml:13:13-35
+151
+152        <activity
+152-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7552fbf5e6a48133f0b37cb05ec34c1f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+153            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+153-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7552fbf5e6a48133f0b37cb05ec34c1f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+154            android:exported="false"
+154-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7552fbf5e6a48133f0b37cb05ec34c1f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+155            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+155-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\7552fbf5e6a48133f0b37cb05ec34c1f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+156
+157        <meta-data
+157-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\dd1e3e814d50fa33e2a3a76723eba36a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+158            android:name="com.google.android.gms.version"
+158-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\dd1e3e814d50fa33e2a3a76723eba36a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+159            android:value="@integer/google_play_services_version" />
+159-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\dd1e3e814d50fa33e2a3a76723eba36a\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+160
+161        <provider
+161-->[com.scandit.datacapture:core:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\aa2e0cce0b87e85307fa5cd2a172da47\jetified-core-6.8.0\AndroidManifest.xml:19:9-22:40
+162            android:name="com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoaderContentProvider"
+162-->[com.scandit.datacapture:core:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\aa2e0cce0b87e85307fa5cd2a172da47\jetified-core-6.8.0\AndroidManifest.xml:20:13-107
+163            android:authorities="jcg.mini_dji_go_app.corelibraryloadercontentprovider"
+163-->[com.scandit.datacapture:core:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\aa2e0cce0b87e85307fa5cd2a172da47\jetified-core-6.8.0\AndroidManifest.xml:21:13-84
+164            android:exported="false" />
+164-->[com.scandit.datacapture:core:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\aa2e0cce0b87e85307fa5cd2a172da47\jetified-core-6.8.0\AndroidManifest.xml:22:13-37
+165        <provider
+165-->[com.scandit.datacapture:barcode:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3793c97c702826e4fbb978702a6c2975\jetified-barcode-6.8.0\AndroidManifest.xml:17:9-20:40
+166            android:name="com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoaderContentProvider"
+166-->[com.scandit.datacapture:barcode:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3793c97c702826e4fbb978702a6c2975\jetified-barcode-6.8.0\AndroidManifest.xml:18:13-113
+167            android:authorities="jcg.mini_dji_go_app.barcodelibraryloadercontentprovider"
+167-->[com.scandit.datacapture:barcode:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3793c97c702826e4fbb978702a6c2975\jetified-barcode-6.8.0\AndroidManifest.xml:19:13-87
+168            android:exported="false" />
+168-->[com.scandit.datacapture:barcode:6.8.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\3793c97c702826e4fbb978702a6c2975\jetified-barcode-6.8.0\AndroidManifest.xml:20:13-37
+169        <provider
+169-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+170            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+170-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+171            android:authorities="jcg.mini_dji_go_app.lifecycle-process"
+171-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+172            android:exported="false"
+172-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+173            android:multiprocess="true" />
+173-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Joaquin\.gradle\caches\transforms-2\files-2.1\b9c43d96e85ae92cb4d6a82112e73a94\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+174    </application>
+175
+176</manifest>

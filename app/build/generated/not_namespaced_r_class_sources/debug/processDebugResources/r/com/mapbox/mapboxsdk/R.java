@@ -94,19 +94,19 @@ public final class R {
     public static final class drawable {
         private drawable() {}
 
-        public static final int mapbox_compass_icon = 0x7f0701dc;
-        public static final int mapbox_info_bg_selector = 0x7f0701dd;
-        public static final int mapbox_info_icon_default = 0x7f0701de;
-        public static final int mapbox_info_icon_selected = 0x7f0701df;
-        public static final int mapbox_logo_helmet = 0x7f0701e0;
-        public static final int mapbox_logo_icon = 0x7f0701e1;
-        public static final int mapbox_marker_icon_default = 0x7f0701e2;
-        public static final int mapbox_markerview_icon_default = 0x7f0701e3;
-        public static final int mapbox_mylocation_bg_shape = 0x7f0701e4;
-        public static final int mapbox_mylocation_icon_bearing = 0x7f0701e5;
-        public static final int mapbox_mylocation_icon_default = 0x7f0701e6;
-        public static final int mapbox_popup_window_transparent = 0x7f0701e7;
-        public static final int mapbox_rounded_corner = 0x7f0701e8;
+        public static final int mapbox_compass_icon = 0x7f0701e0;
+        public static final int mapbox_info_bg_selector = 0x7f0701e1;
+        public static final int mapbox_info_icon_default = 0x7f0701e2;
+        public static final int mapbox_info_icon_selected = 0x7f0701e3;
+        public static final int mapbox_logo_helmet = 0x7f0701e4;
+        public static final int mapbox_logo_icon = 0x7f0701e5;
+        public static final int mapbox_marker_icon_default = 0x7f0701e6;
+        public static final int mapbox_markerview_icon_default = 0x7f0701e7;
+        public static final int mapbox_mylocation_bg_shape = 0x7f0701e8;
+        public static final int mapbox_mylocation_icon_bearing = 0x7f0701e9;
+        public static final int mapbox_mylocation_icon_default = 0x7f0701ea;
+        public static final int mapbox_popup_window_transparent = 0x7f0701eb;
+        public static final int mapbox_rounded_corner = 0x7f0701ec;
     }
     public static final class id {
         private id() {}

@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 
 repositories {
     mavenLocal()
+    mavenCentral()
 }
 
 android {
@@ -101,6 +102,9 @@ dependencies {
     implementation 'com.dji:dji-uxsdk:4.13'
     implementation 'com.google.mlkit:barcode-scanning:16.0.3'
     implementation 'androidx.camera:camera-camera2:1.1.0-alpha04'
+
+    implementation "com.scandit.datacapture:core:6.8.0"
+    implementation "com.scandit.datacapture:barcode:6.8.0"
 
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     testImplementation 'junit:junit:4.13'
