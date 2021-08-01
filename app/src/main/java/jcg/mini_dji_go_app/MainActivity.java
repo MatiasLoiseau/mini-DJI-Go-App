@@ -5,6 +5,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
 import android.graphics.ImageFormat;
@@ -28,8 +29,23 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 
+
+import com.scandit.datacapture.barcode.capture.BarcodeCapture;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureListener;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureSession;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings;
+import com.scandit.datacapture.barcode.data.Barcode;
+import com.scandit.datacapture.barcode.data.Symbology;
+import com.scandit.datacapture.barcode.data.SymbologyDescription;
+import com.scandit.datacapture.core.capture.DataCaptureContext;
+import com.scandit.datacapture.core.data.FrameData;
+import com.scandit.datacapture.core.ui.DataCaptureView;
+
+import org.jetbrains.annotations.NotNull;
 
 import dji.common.camera.SettingsDefinitions.FocusMode;
 import dji.sdk.accessory.spotlight.Spotlight;
@@ -52,18 +68,19 @@ import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
 import jcg.mini_dji_go_app.model.Analyzer;
-import jcg.mini_dji_go_app.model.BarcodeScanActivity;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
-public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback {
+public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback, BarcodeCaptureListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
     private SurfaceHolder.Callback surfaceCallback;
+
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
+    public static final String SCANDIT_LICENSE_KEY = "AV2g3zzMHDewJ3BYQgopAUoYipFtFY1Ms0VD10Am53f7SFRQ9U3U+YFUKxt+ajB4y2jcix1D/UYWFif8Bk9lhf4S8UlOXSksajpl/Yx/qRUfd1UXbV7k2ahhnRs8bzZk8HRHhkx/DdgEY+mgallDoJERhWlmVDNCNmhOtRp1iQtMet9M533kpwxgDoXlR/f8xFiz/vBG/9suV+8xOll2vGRWWWXRe9WqcWw2ltdYRd+6J2Y1xl2C/A9z/59PS/pQ4C0+wyBiVXSIQVRnDn3ce1NvtNzTa4xCx304FpNv1OGpQ2Mh90EKCdR3qp09e/2VISzz7oReBjkcQtAbf3XCK89y2TSMe2fOwnpKA8ZjYSzgfgAwBXw7y+d/Nru9dZbjWUfj2/9F8zT4fVUFhVrBcRdyEJq5ZVDoWyf9Mrl1+rrAdUWgeVpDrANZ54ZYVdXT+mzc5BhcQ0rgCvlsCXNvR8RoCPVsR7E/ymdOugh/UgzCWa8yQncWHl9MTxi5cUx5LyD/YgQWtL8wG3E7pzSnZ3PEzgFrlMGRLkIZvHcdXNGTx9bbqS6RauhWAk4iKqDm4xbkCb/Jzyv8kGlTp2A8ONsXQGKAcD8Giniz9ea2vEuztOkvI5aUX9Cea10o+j6B0l766hNtE8lNfc+0jsm8uO4S+3/uaXW4h8swgbJjptbIYoy7bUQHgIFB2weAuL5E1O83ZNCPbN6jZ67fZnFDdtegQWG3BJ6e6ybZDJCw2ehdHNzqjZNE3rjGMBDAX0SwlW+KuT0IleJmGlI2MCe6TFIp79qqBs9xflv/5rwJIzVbnET+YvOo07EIMJRCeH3rGYXOmZwUdQqgTyP58N/oOB5wgNlYMKMkdAiKsjeqkhd+y01vt8gQbUonAVwpAdhpM7sPXwGo0ZoE1f2aKZzGIBZ+KXgCjh1d3SwbtHsO6Z+i9hqTwDW8jZOyy1iHsUwmGnS0J0Q4esxioLdtOEK+3+8bkyxPMRIY2JV1NwoT9gegMnC7R2DvKXXeyP4jlS2dXdfzlMiTkAOthaaKSe4ImhzKMCUQxi6UHa1WNmo1bB3aaSFcfjlJkTQWsMxqgxY7dF3YHwRg0A5MaDOtctculMbUZiaTkVZGNQc1w9hEMJPR1qVo3TqAnUeoiAuzELhU08zM/1tgrZBJmr6rESO5jCT+n3XhLYz5Gic5aBKjhlnmKQPv2mDcuoCZhl5ol3XG";
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -99,6 +116,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private Context context = this;
     private Bitmap frame;
     private String code;
+
+    private DataCaptureContext dataCaptureContext;
+    private BarcodeCapture barcodeCapture;
+    private com.scandit.datacapture.core.source.Camera camera;
+    private DataCaptureView dataCaptureView;
 
     @Override
     protected void onResume() {
@@ -162,12 +184,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         Analyzer analyzer = new Analyzer(context);
 
-        //Code
-        Button buttonCode = findViewById(R.id.buttonCode);
-        buttonCode.setOnClickListener(view -> {
+        //Scann
+        Button buttonScann = findViewById(R.id.buttonScann);
+        buttonScann.setOnClickListener(view -> {
 
-            Intent intent = new Intent(this, BarcodeScanActivity.class);
-            startActivity(intent);
+            barcodeScann();
 
         });
 
@@ -609,6 +630,64 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         return VideoFeeder.getInstance().isFetchKeyFrameNeeded() || VideoFeeder.getInstance()
                                                                                .isLensDistortionCalibrationNeeded();
+    }
+
+
+    //----------------------------------- Scann Methods ----------------------------------//
+
+
+    public void barcodeScann(){
+
+        DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
+
+        camera = com.scandit.datacapture.core.source.Camera.getDefaultCamera(BarcodeCapture.createRecommendedCameraSettings());
+        if (camera != null) {
+            dataCaptureContext.setFrameSource(camera);
+        } else {
+            throw new IllegalStateException("Sample depends on a camera, which failed to initialize.");
+        }
+
+        BarcodeCaptureSettings settings = new BarcodeCaptureSettings();
+        settings.enableSymbology(Symbology.CODE128, true);
+        settings.enableSymbology(Symbology.CODE39, true);
+        settings.enableSymbology(Symbology.QR, true);
+        settings.enableSymbology(Symbology.EAN8, true);
+        settings.enableSymbology(Symbology.UPCE, true);
+        settings.enableSymbology(Symbology.EAN13_UPCA, true);
+
+        barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
+        barcodeCapture.addListener(this);
+
+    }
+
+    @Override
+    public void onBarcodeScanned(@NonNull BarcodeCapture barcodeCapture,
+                                 @NonNull BarcodeCaptureSession session, @NonNull FrameData frameData) {
+
+        Barcode barcode = session.getNewlyRecognizedBarcodes().get(0);
+
+        barcodeCapture.setEnabled(false);
+
+        String symbology = SymbologyDescription.create(barcode.getSymbology()).getReadableName();
+        final String result = "Scanned: " + barcode.getData() + " (" + symbology + ")";
+
+        Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
+    }
+
+
+    @Override
+    public void onObservationStarted(@NotNull BarcodeCapture barcodeCapture) {
+
+    }
+
+    @Override
+    public void onObservationStopped(@NotNull BarcodeCapture barcodeCapture) {
+
+    }
+
+    @Override
+    public void onSessionUpdated(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
+
     }
 
 

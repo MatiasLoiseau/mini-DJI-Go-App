@@ -1916,10 +1916,10 @@ int id bot_line_camera_panel 0x7f080077
 int id bottom 0x7f080078
 int id bounce 0x7f080079
 int id btn_open 0x7f08007a
-int id buttonCode 0x7f08007b
-int id buttonFlash 0x7f08007c
-int id buttonFoco 0x7f08007d
-int id buttonPanel 0x7f08007e
+int id buttonFlash 0x7f08007b
+int id buttonFoco 0x7f08007c
+int id buttonPanel 0x7f08007d
+int id buttonScann 0x7f08007e
 int id button_container 0x7f08007f
 int id button_iso_auto 0x7f080080
 int id button_user_log_in 0x7f080081

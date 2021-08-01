@@ -196,12 +196,12 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/buttonCode"
+            android:id="@+id/buttonScann"
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginVertical="230dp"
             android:layout_marginLeft="500dp"
-            android:text="Code"
+            android:text="Scann"
             android:textSize="17sp"
             />
 
