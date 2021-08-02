@@ -43,6 +43,8 @@ import com.scandit.datacapture.barcode.data.Symbology;
 import com.scandit.datacapture.barcode.data.SymbologyDescription;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
+import com.scandit.datacapture.core.source.CameraSettings;
+import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
 
 import org.jetbrains.annotations.NotNull;
@@ -640,12 +642,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
 
-        camera = com.scandit.datacapture.core.source.Camera.getDefaultCamera(BarcodeCapture.createRecommendedCameraSettings());
-        if (camera != null) {
-            dataCaptureContext.setFrameSource(camera);
-        } else {
-            throw new IllegalStateException("Sample depends on a camera, which failed to initialize.");
-        }
+        CameraSettings cameraSettings = BarcodeCapture.createRecommendedCameraSettings();
 
         BarcodeCaptureSettings settings = new BarcodeCaptureSettings();
         settings.enableSymbology(Symbology.CODE128, true);
@@ -658,6 +655,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
         barcodeCapture.addListener(this);
 
+        camera = com.scandit.datacapture.core.source.Camera.getDefaultCamera();
+
+        if (camera != null) {
+            camera.applySettings(cameraSettings);
+        }
+
+        dataCaptureContext.setFrameSource(camera);
+
+        camera.switchToDesiredState(FrameSourceState.ON);
+        
     }
 
     @Override
