@@ -43,6 +43,7 @@ import com.scandit.datacapture.barcode.data.Symbology;
 import com.scandit.datacapture.barcode.data.SymbologyDescription;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
+import com.scandit.datacapture.core.source.BitmapFrameSource;
 import com.scandit.datacapture.core.source.CameraSettings;
 import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
@@ -655,19 +656,17 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
         barcodeCapture.addListener(this);
 
-        camera = com.scandit.datacapture.core.source.Camera.getDefaultCamera();
+        BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
+        //Bitmap ARGB_8888?
 
-        if (camera != null) {
-            camera.applySettings(cameraSettings);
-        }
+        dataCaptureContext.setFrameSource(bitmapFrameSource);
 
-        dataCaptureContext.setFrameSource(camera);
-
-        camera.switchToDesiredState(FrameSourceState.ON);
+        bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
 
         dataCaptureView = DataCaptureView.newInstance(this, dataCaptureContext);
 
         setContentView(dataCaptureView);
+
     }
 
     @Override
