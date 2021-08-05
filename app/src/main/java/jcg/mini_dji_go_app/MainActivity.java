@@ -42,7 +42,6 @@ import com.scandit.datacapture.barcode.data.SymbologyDescription;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
 import com.scandit.datacapture.core.source.BitmapFrameSource;
-import com.scandit.datacapture.core.source.CameraSettings;
 import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
 
@@ -81,7 +80,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
-    public static final String SCANDIT_LICENSE_KEY = "AVlgEjvMG9vAIDDLmjTxm843juR2OtZ6jFzsUPsSrBMtblKqVVVUd+wQhobxTd2HxwSGV7p6DPv4X+6k+WQ60Kdy3QvuQUUBaS14OmB1wbS7f24bI2b9HmwL3FphHiGr9BhEmQEvQKwYKg4YaaC4EE7jjlGQTpYoc4aoyD3tMnX803Mr9LMNSYEdzhNYECUMR8GHaZAGP2CXro6fyrcOOJr5cK4GuEzeTU0JKCBi/WwgKO1MkkD0P+XGf00Re7zYiBMn7NuooXWPg288skifB+bvj+ealHoubeaf198NHc59kSgQQGJvLvlDKY6KSpQ/NbOnXHzQOUNfHZPhKbctr0lwweFpM3j7DhoMjVeEQVqcR+HSbTCNWGnEy/j4BLlvPX49SQtohhDRvYGLX/aXGtWPU7xz7b9Be3rJ3Gz0FKTAR8Ct/gFO3Gr4aJE/PY5qm/jD5eXcwcREkRbF2yOh0yal035tkoHXV689RAu7eku1XmN7lSZ/lhm5Ispno+VOtbRZHu41sr7pbtoPRWkVRK9MSAwhUEwa7PKv+f2Bu3IU6M0tv5j4Cw8i7J0EZCPxeni2+8/wxZk8VdBUzfcbF8PpO/pdMRg5NJgsebbtcLVQdiGzWH+5qZQPqZYsJdx2vt2MYI6Ew4jhhGZxzc7ef7TRWvzh5QI9h4y2CiTEVivNG0dj6X0jTp+WfnE8nF5smVtiU/jyX68AOCANmgX5fVxGAREF+lqAkOZDLQsKRf9GcWNsrrpEj2+0HHr2od35ooXE+vslu7wiZlOMSY+2OINqxdpAE4/ZKtKS2psgLDtWNPeBlXeHPKL+";
+    public static final String SCANDIT_LICENSE_KEY = "AW7wXgHMIZBtEL1wgybBX/cet/ClBNVHVyDnh/wg+23dJvK+ME6xniIV2E2Dc2RWJ19d+X965+4kXbkgiXoUbrVY1VDHauyDdTi09ahXyfx+Qqu6h3ZJToYVdpkSEfJJJirGcU4UXJRIXq6mL359OfpXdoBfcynYeiRD59hugeMrQ5wHFBp4k+lIiGD7UP3+UEHtpd0Dmvq5Wwo6s0AiPIZ6HnGXdkRrrjntvFZYnyXCN6V2mldatvRNHPafcUj8gmcuB4RD8/jBZQCyLES98ixL5KdSdQ4afVVfirEjmJVJS5RNVFrTeRRIBtr4bDo9/UQZEMsQOKkrX65RT25hjXR5qx+STyKmPG6RQRpcHV3hSQv6fWlUvSt8UA66dQ0KSnr4Lk1kSCFyVeWHln7+OTZRbTsRUpCCz3gvxF5X6JdDSb2QqCB1SA904VO9Nrvzu3wbmgdu3abgftzBmnQziGBiC0WbWI+hT3ynJ41wks3le5eRgVESjO0GTkeiILTH3VpLNX5/SLwHGxT5C2UWkc4avy35IuRnk20a8fgAh0vOw1yhH6CbmxYi2Tg/m8Vxdh7MSLTgIRc9vPXN4b+D8l4ocD9wnDuvQ/eP0/mvMISz9O/f2NCL1x4PCpXanIW54lpA7+uDuxiY8kC6MNy/sORERjbR0pIW0rMPZwnetzjZhzCxLQgM534sDYgWokjnTwnQgtm16+KRmtr5+N94AFeq1UQEcmrMdfiWhM1BA3qijLIdkPQXFQUg87G8YH1GKWa8soWdgPFLPTOzNj7spYhXCSfZw60kctK8RsEhMvIykgHD8Myh2NZ7jIPPQBxZiyIU30mHRLwd4x3dTixZX7HqRUowl0Kzi7q2N6S3cF4MU0jYcxmY+uiWfW+CkYMgxPpFuEV3oISZJ72w0Eb2N/oOiQ+cKv9d5iYiaYGxKC6v4x/K7QHs1q1YastxT7qeN3U5KPBJWp6+xWe+6mbhxTauLdmikW1G5yEGNAxRZTWPO//OSejEnX7iblv4k2171HTZm5sigpdmZhCoj4CGdWrBsluj6lbQZeVOVMgrAtJjdxvS6HMKDon/r6V2LApF1bOEF5KgZgSXyEmL7q+9+yQ9ojkR8mFDkez8pDqpFw22nL9IZaFFOaOsXbbQBq8oO9P1OR13oDBx82DLL5YADnbzr3a6xKqXh/6a/IHu/GNsK4QCrnKC2T6Y2/X6xRggEPaf9sFoxWX4qMGmnLo=";
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -640,8 +639,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     public void barcodeScann(){
 
         DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
-
-        CameraSettings cameraSettings = BarcodeCapture.createRecommendedCameraSettings();
 
         BarcodeCaptureSettings settings = new BarcodeCaptureSettings();
         settings.enableSymbology(Symbology.CODE128, true);
