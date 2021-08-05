@@ -4,9 +4,10 @@ import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -24,20 +25,36 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import android.view.TextureView;
 import android.view.View;
-import android.widget.AdapterView;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 
+
+import com.scandit.datacapture.barcode.capture.BarcodeCapture;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureListener;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureSession;
+import com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings;
+import com.scandit.datacapture.barcode.data.Barcode;
+import com.scandit.datacapture.barcode.data.Symbology;
+import com.scandit.datacapture.barcode.data.SymbologyDescription;
+import com.scandit.datacapture.core.capture.DataCaptureContext;
+import com.scandit.datacapture.core.data.FrameData;
+import com.scandit.datacapture.core.source.BitmapFrameSource;
+import com.scandit.datacapture.core.source.CameraSettings;
+import com.scandit.datacapture.core.source.FrameSourceState;
+import com.scandit.datacapture.core.ui.DataCaptureView;
+
+import org.jetbrains.annotations.NotNull;
+
+import dji.common.camera.SettingsDefinitions.FocusMode;
+import dji.sdk.accessory.spotlight.Spotlight;
 import jcg.mini_dji_go_app.media.DJIVideoStreamDecoder;
 import jcg.mini_dji_go_app.media.NativeHelper;
 
-import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
@@ -47,26 +64,26 @@ import java.nio.ByteBuffer;
 import java.util.Set;
 
 import dji.common.camera.SettingsDefinitions;
-import dji.common.error.DJIError;
 import dji.common.product.Model;
-import dji.common.util.CommonCallbacks;
 import dji.sdk.base.BaseProduct;
 import dji.sdk.camera.Camera;
 import dji.sdk.camera.VideoFeeder;
 import dji.sdk.codec.DJICodecManager;
 import dji.thirdparty.afinal.core.AsyncTask;
+import jcg.mini_dji_go_app.model.Analyzer;
 
 import static jcg.mini_dji_go_app.BluetoothConstants.*;
 
-public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback ,AdapterView.OnItemSelectedListener {
+public class MainActivity extends Activity implements DJICodecManager.YuvDataCallback, BarcodeCaptureListener {
     private static final String TAG = MainActivity.class.getSimpleName();
     private static final int MSG_WHAT_SHOW_TOAST = 0;
     private static final int MSG_WHAT_UPDATE_TITLE = 1;
     private SurfaceHolder.Callback surfaceCallback;
+
     private enum DemoType { USE_TEXTURE_VIEW, USE_SURFACE_VIEW, USE_SURFACE_VIEW_DEMO_DECODER}
     private static DemoType demoType = DemoType.USE_TEXTURE_VIEW;
     private VideoFeeder.VideoFeed standardVideoFeeder;
-    private int FRAME_COMPRESS_COUNTER = 1;
+    public static final String SCANDIT_LICENSE_KEY = "AV2g3zzMHDewJ3BYQgopAUoYipFtFY1Ms0VD10Am53f7SFRQ9U3U+YFUKxt+ajB4y2jcix1D/UYWFif8Bk9lhf4S8UlOXSksajpl/Yx/qRUfd1UXbV7k2ahhnRs8bzZk8HRHhkx/DdgEY+mgallDoJERhWlmVDNCNmhOtRp1iQtMet9M533kpwxgDoXlR/f8xFiz/vBG/9suV+8xOll2vGRWWWXRe9WqcWw2ltdYRd+6J2Y1xl2C/A9z/59PS/pQ4C0+wyBiVXSIQVRnDn3ce1NvtNzTa4xCx304FpNv1OGpQ2Mh90EKCdR3qp09e/2VISzz7oReBjkcQtAbf3XCK89y2TSMe2fOwnpKA8ZjYSzgfgAwBXw7y+d/Nru9dZbjWUfj2/9F8zT4fVUFhVrBcRdyEJq5ZVDoWyf9Mrl1+rrAdUWgeVpDrANZ54ZYVdXT+mzc5BhcQ0rgCvlsCXNvR8RoCPVsR7E/ymdOugh/UgzCWa8yQncWHl9MTxi5cUx5LyD/YgQWtL8wG3E7pzSnZ3PEzgFrlMGRLkIZvHcdXNGTx9bbqS6RauhWAk4iKqDm4xbkCb/Jzyv8kGlTp2A8ONsXQGKAcD8Giniz9ea2vEuztOkvI5aUX9Cea10o+j6B0l766hNtE8lNfc+0jsm8uO4S+3/uaXW4h8swgbJjptbIYoy7bUQHgIFB2weAuL5E1O83ZNCPbN6jZ67fZnFDdtegQWG3BJ6e6ybZDJCw2ehdHNzqjZNE3rjGMBDAX0SwlW+KuT0IleJmGlI2MCe6TFIp79qqBs9xflv/5rwJIzVbnET+YvOo07EIMJRCeH3rGYXOmZwUdQqgTyP58N/oOB5wgNlYMKMkdAiKsjeqkhd+y01vt8gQbUonAVwpAdhpM7sPXwGo0ZoE1f2aKZzGIBZ+KXgCjh1d3SwbtHsO6Z+i9hqTwDW8jZOyy1iHsUwmGnS0J0Q4esxioLdtOEK+3+8bkyxPMRIY2JV1NwoT9gegMnC7R2DvKXXeyP4jlS2dXdfzlMiTkAOthaaKSe4ImhzKMCUQxi6UHa1WNmo1bB3aaSFcfjlJkTQWsMxqgxY7dF3YHwRg0A5MaDOtctculMbUZiaTkVZGNQc1w9hEMJPR1qVo3TqAnUeoiAuzELhU08zM/1tgrZBJmr6rESO5jCT+n3XhLYz5Gic5aBKjhlnmKQPv2mDcuoCZhl5ol3XG";
 
 
     protected VideoFeeder.VideoDataListener mReceivedVideoDataListener = null;
@@ -92,14 +109,21 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private SurfaceView videostreamPreviewSf;
     private SurfaceHolder videostreamPreviewSh;
     private Camera mCamera;
+    private Spotlight mSpotlight;
     private DJICodecManager mCodecManager;
     private TextView savePath;
-    private Button screenShot;
-    private Spinner spinner;
     private StringBuilder stringBuilder;
     private int videoViewWidth;
     private int videoViewHeight;
     private int count;
+    private Context context = this;
+    private Bitmap frame;
+    private String code;
+
+    private DataCaptureContext dataCaptureContext;
+    private BarcodeCapture barcodeCapture;
+    private com.scandit.datacapture.core.source.Camera camera;
+    private DataCaptureView dataCaptureView;
 
     @Override
     protected void onResume() {
@@ -159,7 +183,43 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         setContentView(R.layout.activity_main);
         initUi();
-        setSpinner();
+        //setBluetooth();
+
+        Analyzer analyzer = new Analyzer(context);
+
+        //Scann
+        Button buttonScann = findViewById(R.id.buttonScann);
+        buttonScann.setOnClickListener(view -> {
+
+            barcodeScann();
+
+        });
+
+        //Flash
+        Button buttonFlash = findViewById(R.id.buttonFlash);
+        buttonFlash.setOnClickListener(view -> {
+
+            mSpotlight.setEnabled(true, djiError -> {
+                if (djiError != null) {
+                    showToast("can't active flash:"+djiError.getDescription());
+                }
+            });
+        });
+
+
+        //Foco
+        Button buttonFoco = findViewById(R.id.buttonFoco);
+        buttonFoco.setOnClickListener(view -> {
+
+            mCamera.setFocusMode(FocusMode.AFC, djiError -> {
+                if (djiError != null) {
+                    showToast("can't change focus mode of camera, error:"+djiError.getDescription());
+                }
+            });
+
+        });
+
+
     }
 
     private void showToast(String s) {
@@ -175,25 +235,20 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     }
 
     private void initUi() {
-        savePath = (TextView) findViewById(R.id.activity_main_save_path);
-        screenShot = (Button) findViewById(R.id.activity_main_screen_shot);
-        screenShot.setSelected(false);
+        savePath = findViewById(R.id.activity_main_save_path);
 
-        videostreamPreviewTtView = (TextureView) findViewById(R.id.livestream_preview_ttv);
-        videostreamPreviewSf = (SurfaceView) findViewById(R.id.livestream_preview_sf);
+        videostreamPreviewTtView = findViewById(R.id.livestream_preview_ttv);
+        videostreamPreviewSf = findViewById(R.id.livestream_preview_sf);
         videostreamPreviewSf.setClickable(true);
-        videostreamPreviewSf.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                float rate = VideoFeeder.getInstance().getTranscodingDataRate();
-                showToast("current rate:" + rate + "Mbps");
-                if (rate < 10) {
-                    VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
-                    showToast("set rate to 10Mbps");
-                } else {
-                    VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
-                    showToast("set rate to 3Mbps");
-                }
+        videostreamPreviewSf.setOnClickListener(v -> {
+            float rate = VideoFeeder.getInstance().getTranscodingDataRate();
+            showToast("current rate:" + rate + "Mbps");
+            if (rate < 10) {
+                VideoFeeder.getInstance().setTranscodingDataRate(10.0f);
+                showToast("set rate to 10Mbps");
+            } else {
+                VideoFeeder.getInstance().setTranscodingDataRate(3.0f);
+                showToast("set rate to 3Mbps");
             }
         });
         updateUIVisibility();
@@ -270,12 +325,9 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         } else {
             if (!product.getModel().equals(Model.UNKNOWN_AIRCRAFT)) {
                 mCamera = product.getCamera();
-                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, new CommonCallbacks.CompletionCallback() {
-                    @Override
-                    public void onResult(DJIError djiError) {
-                        if (djiError != null) {
-                            showToast("can't change mode of camera, error:"+djiError.getDescription());
-                        }
+                mCamera.setMode(SettingsDefinitions.CameraMode.SHOOT_PHOTO, djiError -> {
+                    if (djiError != null) {
+                        showToast("can't change mode of camera, error:"+djiError.getDescription());
                     }
                 });
 
@@ -561,18 +613,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             Log.e(TAG, "test screenShot: compress yuv image error: " + e);
             e.printStackTrace();
         }
-        runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                displayPath(path);
-            }
-        });
-    }
-
-
-    public void onClick(View v) {
-
-        setBluetooth();
+        runOnUiThread(() -> displayPath(path));
     }
 
     private void displayPath(String path) {
@@ -594,34 +635,69 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
                                                                                .isLensDistortionCalibrationNeeded();
     }
 
-    // ------------------- CODIGO PROVISIONAL ------------------- //
 
-    //SPINNER
-    public void  setSpinner(){
-        spinner = findViewById(R.id.spinner);
-        spinner.setOnItemSelectedListener(this);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.QualityArray, android.R.layout.simple_spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spinner.setAdapter(adapter);
+    //----------------------------------- Scann Methods ----------------------------------//
+
+
+    public void barcodeScann(){
+
+        DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
+
+        BarcodeCaptureSettings settings = new BarcodeCaptureSettings();
+        settings.enableSymbology(Symbology.CODE128, true);
+        settings.enableSymbology(Symbology.CODE39, true);
+        settings.enableSymbology(Symbology.QR, true);
+        settings.enableSymbology(Symbology.EAN8, true);
+        settings.enableSymbology(Symbology.UPCE, true);
+        settings.enableSymbology(Symbology.EAN13_UPCA, true);
+
+        barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
+        barcodeCapture.addListener(this);
+
+        BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
+        //Bitmap ARGB_8888?
+
+        dataCaptureContext.setFrameSource(bitmapFrameSource);
+
+        bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
+
+        dataCaptureView = DataCaptureView.newInstance(this, dataCaptureContext);
+
+        setContentView(dataCaptureView);
     }
 
     @Override
-    public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+    public void onBarcodeScanned(@NonNull BarcodeCapture barcodeCapture,
+                                 @NonNull BarcodeCaptureSession session, @NonNull FrameData frameData) {
 
-        FRAME_COMPRESS_COUNTER = position;
+        Barcode barcode = session.getNewlyRecognizedBarcodes().get(0);
+
+        barcodeCapture.setEnabled(false);
+
+        String symbology = SymbologyDescription.create(barcode.getSymbology()).getReadableName();
+        final String result = "Scanned: " + barcode.getData() + " (" + symbology + ")";
+
+        Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
+    }
+
+
+    @Override
+    public void onObservationStarted(@NotNull BarcodeCapture barcodeCapture) {
+
     }
 
     @Override
-    public void onNothingSelected(AdapterView<?> parent) {
+    public void onObservationStopped(@NotNull BarcodeCapture barcodeCapture) {
 
     }
 
-    // ------------------- CODIGO PROVISIONAL ------------------- //
+    @Override
+    public void onSessionUpdated(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
+
+    }
 
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
-
 
     private BluetoothAdapter mBluetoothAdapter = null;
 
@@ -691,13 +767,16 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         public void run() {
 
+            Analyzer analyzer = new Analyzer(context);
+
             while (true) {
                 try {
-                    mBluetoothAdapter = BluetoothAdapter.getDefaultAdapter();
-                    byte[] image = frameToByteArray();
-                    outStream.write(image);
-                    outStream.flush();
-                    outStream.write(KEY.getBytes());
+
+                    frame = videostreamPreviewTtView.getBitmap();
+                    analyzer.analyze(frame);
+                    code = analyzer.getRawValue();
+
+                    outStream.write(code.getBytes());
                     outStream.flush();
 
                 } catch (IOException e) {
@@ -709,33 +788,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
             }
         }
 
-
-        private byte[] frameToByteArray(){
-
-            // IN RUN()
-
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-            int FRAME_COMPRESS_SIZE = B[FRAME_COMPRESS_COUNTER];
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-
-            BitmapFactory.Options options = new BitmapFactory.Options();
-            options.inSampleSize = FRAME_COMPRESS_SIZE;
-
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-            int FRAME_COMPRESS_QUALITY = A[FRAME_COMPRESS_COUNTER];
-            // ------------------- CODIGO PROVISIONAL ------------------- //
-
-            Bitmap frame = videostreamPreviewTtView.getBitmap();
-            Bitmap.createScaledBitmap(frame, frame.getWidth(), frame.getHeight(), false);
-            ByteArrayOutputStream baos = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
-
-            frame = BitmapFactory.decodeByteArray(baos.toByteArray(), 0, baos.size(), options);
-            baos = new ByteArrayOutputStream();
-            frame.compress(Bitmap.CompressFormat.JPEG, FRAME_COMPRESS_QUALITY, baos);
-
-            return baos.toByteArray();
-        }
 
     }
 

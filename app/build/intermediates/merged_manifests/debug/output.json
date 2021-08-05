@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "applicationId": "jcg.mini_dji_go_app",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": -1,
+        "outputFile": "app-debug.apk",
+        "fullName": "debug",
+        "baseName": "debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "jcg.mini_dji_go_app",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}

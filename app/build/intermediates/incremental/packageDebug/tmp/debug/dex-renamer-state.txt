@@ -1,10 +1,7 @@
-#Wed Mar 31 16:39:16 ART 2021
-path.2=classes3.dex
+#Thu Aug 05 11:31:20 ART 2021
+base.0=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App 5.8-development\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 path.1=classes2.dex
-path.0=classes.dex
-renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
-base.2=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-base.1=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-base.0=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App-development\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+base.1=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App 5.8-development\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes2.dex
