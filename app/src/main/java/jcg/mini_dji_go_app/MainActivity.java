@@ -664,7 +664,10 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         dataCaptureContext.setFrameSource(camera);
 
         camera.switchToDesiredState(FrameSourceState.ON);
-        
+
+        dataCaptureView = DataCaptureView.newInstance(this, dataCaptureContext);
+
+        setContentView(dataCaptureView);
     }
 
     @Override
