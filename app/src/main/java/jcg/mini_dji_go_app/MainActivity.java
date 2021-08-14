@@ -39,11 +39,14 @@ import com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings;
 import com.scandit.datacapture.barcode.data.Barcode;
 import com.scandit.datacapture.barcode.data.Symbology;
 import com.scandit.datacapture.barcode.data.SymbologyDescription;
+import com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
 import com.scandit.datacapture.core.source.BitmapFrameSource;
 import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
+import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinder;
+import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderStyle;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -649,7 +652,33 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         settings.enableSymbology(Symbology.EAN13_UPCA, true);
 
         barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
-        barcodeCapture.addListener(this);
+
+
+        BarcodeCaptureListener listener = new BarcodeCaptureListener() {
+            @Override
+            public void onBarcodeScanned(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
+
+                Toast.makeText(context, barcodeCapture.toString(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onSessionUpdated(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
+
+            }
+
+            @Override
+            public void onObservationStarted(@NotNull BarcodeCapture barcodeCapture) {
+
+            }
+
+            @Override
+            public void onObservationStopped(@NotNull BarcodeCapture barcodeCapture) {
+
+            }
+        };
+
+
+        barcodeCapture.addListener(listener);
 
         BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
         //Bitmap ARGB_8888?
@@ -657,10 +686,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         dataCaptureContext.setFrameSource(bitmapFrameSource);
 
         bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
-
-        dataCaptureView = DataCaptureView.newInstance(this, dataCaptureContext);
-
-        setContentView(dataCaptureView);
 
     }
 

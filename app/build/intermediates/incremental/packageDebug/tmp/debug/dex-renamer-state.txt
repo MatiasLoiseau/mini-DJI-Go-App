@@ -1,4 +1,4 @@
-#Mon Aug 02 19:20:23 ART 2021
+#Thu Aug 05 15:34:07 ART 2021
 base.0=C\:\\Users\\Joaquin\\Desktop\\ACTUAL\\mini-DJI-Go-App 29.7\\app\\build\\intermediates\\dex\\debug\\minifyDebugWithR8\\classes.dex
 path.1=classes2.dex
 renamed.1=classes2.dex
