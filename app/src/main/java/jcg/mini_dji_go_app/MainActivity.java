@@ -187,11 +187,22 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         Analyzer analyzer = new Analyzer(context);
 
+        barcodeScannInitialize();
+
         //Scann
         Button buttonScann = findViewById(R.id.buttonScann);
         buttonScann.setOnClickListener(view -> {
 
             barcodeScann();
+
+        });
+
+
+        //Scann2
+        Button buttonScann2 = findViewById(R.id.buttonScann2);
+        buttonScann2.setOnClickListener(view -> {
+
+            barcodeScann2();
 
         });
 
@@ -639,7 +650,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     //----------------------------------- Scann Methods ----------------------------------//
 
 
-    public void barcodeScann(){
+    public void barcodeScannInitialize(){
 
         DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
 
@@ -653,41 +664,33 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
 
+        barcodeCapture.addListener(this);
 
-        BarcodeCaptureListener listener = new BarcodeCaptureListener() {
-            @Override
-            public void onBarcodeScanned(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
+    }
 
-                Toast.makeText(context, barcodeCapture.toString(), Toast.LENGTH_SHORT).show();
-            }
+    private Bitmap ARGBBitmap(Bitmap img) {
+        return img.copy(Bitmap.Config.ARGB_8888,true);
+    }
 
-            @Override
-            public void onSessionUpdated(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
-
-            }
-
-            @Override
-            public void onObservationStarted(@NotNull BarcodeCapture barcodeCapture) {
-
-            }
-
-            @Override
-            public void onObservationStopped(@NotNull BarcodeCapture barcodeCapture) {
-
-            }
-        };
-
-
-        barcodeCapture.addListener(listener);
+    public void barcodeScann(){
 
         BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
-        //Bitmap ARGB_8888?
+        
+        dataCaptureContext.setFrameSource(bitmapFrameSource);
+
+        bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
+    }
+
+    public void barcodeScann2(){
+
+        BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(ARGBBitmap(videostreamPreviewTtView.getBitmap()));
+        //Bitmap ARGB_8888
 
         dataCaptureContext.setFrameSource(bitmapFrameSource);
 
         bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
-
     }
+
 
     @Override
     public void onBarcodeScanned(@NonNull BarcodeCapture barcodeCapture,
