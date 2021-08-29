@@ -39,14 +39,11 @@ import com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings;
 import com.scandit.datacapture.barcode.data.Barcode;
 import com.scandit.datacapture.barcode.data.Symbology;
 import com.scandit.datacapture.barcode.data.SymbologyDescription;
-import com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
 import com.scandit.datacapture.core.source.BitmapFrameSource;
 import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
-import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinder;
-import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderStyle;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -675,7 +672,7 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     public void barcodeScann(){
 
         BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
-        
+
         dataCaptureContext.setFrameSource(bitmapFrameSource);
 
         bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);

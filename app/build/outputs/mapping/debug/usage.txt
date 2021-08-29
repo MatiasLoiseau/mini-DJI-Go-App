@@ -261,7 +261,6 @@ kotlin.LazyThreadSafetyMode
 com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlayProxyAdapter
 jcg.mini_dji_go_app.MainActivity:
     private void setBluetooth()
-    private com.scandit.datacapture.core.capture.DataCaptureContext dataCaptureContext
     private com.scandit.datacapture.core.source.Camera camera
     private com.scandit.datacapture.core.ui.DataCaptureView dataCaptureView
     private static final int MSG_WHAT_SHOW_TOAST
@@ -625,6 +624,7 @@ com.mapbox.api.directions.v5.models.StepManeuver:
 com.autonavi.amap.mapcore.interfaces.IglModel
 kotlin.jvm.functions.Function2:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object)
+jcg.mini_dji_go_app.model.BitmapFrameSourceListener
 kotlin.ranges.CharProgression
 kotlin.text.StringsKt__RegexExtensionsKt:
     private static final kotlin.text.Regex toRegex(java.lang.String)
