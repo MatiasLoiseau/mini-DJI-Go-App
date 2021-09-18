@@ -20,7 +20,6 @@ kotlin.collections.EmptyIterator:
 kotlin.ranges.UIntProgression
 com.amap.api.mapcore.util.ky
 kotlin.sequences.DropSequence
-com.scandit.datacapture.core.internal.module.ui.b$e$1
 com.scandit.datacapture.tools.internal.a.a.a:
     public java.lang.Object setValue(java.lang.Object)
     public boolean equals(java.lang.Object)
@@ -39,7 +38,8 @@ com.autonavi.amap.mapcore.animation.GLAnimation$2
 com.nineoldandroids.util.ReflectiveProperty
 kotlin.jvm.internal.ArrayIntIterator
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingSession
-com.scandit.datacapture.core.internal.module.b.a.a.b.p.b
+com.scandit.datacapture.core.internal.module.b.a.a.b.p.b:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.nineoldandroids.animation.AnimatorSet$Dependency
 com.mapbox.api.directions.v5.DirectionsCriteria$SourceCriteria
 com.autonavi.ae.gmap.glanimation.AbstractAdglAnimationParam
@@ -68,7 +68,8 @@ com.amap.api.services.a.bl:
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerListenerReversedAdapter$p
 com.loc.z
 kotlin.sequences.GeneratorSequence$iterator$1
-com.scandit.datacapture.core.internal.module.b.a.a.b.e.c
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.c:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.loc.ca
 kotlin.reflect.KClassifier
 com.vividsolutions.jts.geom.util.PolygonExtracter
@@ -122,7 +123,6 @@ com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingSettingsKt$WhenM
 com.loc.dd
 com.autonavi.ae.gmap.GLMapEngine
 com.vividsolutions.jts.linearref.LengthLocationMap
-com.scandit.datacapture.core.internal.module.b.a.a.a
 com.amap.api.mapcore.util.eq$c
 com.amap.api.services.a.co
 com.squareup.otto.Bus$EventWithHandler
@@ -132,7 +132,8 @@ com.amap.api.services.route.DistanceSearch
 com.amap.api.mapcore.util.ea$a
 com.vividsolutions.jts.geomgraph.GeometryGraph
 com.amap.api.mapcore.util.gl
-com.scandit.datacapture.core.ui.control.TorchSwitchControl$Companion
+com.scandit.datacapture.core.ui.control.TorchSwitchControl$Companion:
+    public final com.scandit.datacapture.core.ui.control.TorchSwitchControl fromJson(android.content.Context,java.lang.String)
 retrofit2.ParameterHandler$RawPart
 com.vividsolutions.jts.operation.linemerge.LineMergeDirectedEdge
 com.autonavi.amap.mapcore.MsgProcessor
@@ -258,11 +259,16 @@ com.squareup.otto.HandlerFinder
 com.amap.api.mapcore.util.c$27
 retrofit2.BuiltInConverters$ToStringConverter
 kotlin.LazyThreadSafetyMode
-com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlayProxyAdapter
+com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlayProxyAdapter:
+    public final com.scandit.datacapture.core.ui.style.Brush getBrush()
+    public final boolean getShouldShowScanAreaGuides()
+    public final void setShouldShowScanAreaGuides(boolean)
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_barcode_capture()
 jcg.mini_dji_go_app.MainActivity:
+    private void dismissScannedCodesDialog()
     private void setBluetooth()
+    public void barcodeScann()
     private com.scandit.datacapture.core.source.Camera camera
-    private com.scandit.datacapture.core.ui.DataCaptureView dataCaptureView
     private static final int MSG_WHAT_SHOW_TOAST
     private static final int MSG_WHAT_UPDATE_TITLE
     public static final java.lang.String SCANDIT_LICENSE_KEY
@@ -274,7 +280,10 @@ com.mapbox.api.optimization.v1.AutoValue_MapboxOptimization$Builder
 com.autonavi.amap.mapcore.CoordUtil
 com.mapzen.android.lost.internal.IdGenerator:
     public abstract int generateId()
-com.scandit.datacapture.core.internal.module.d.c
+com.scandit.datacapture.core.internal.module.d.c:
+    public static synthetic void a(com.scandit.datacapture.core.internal.module.d.c,kotlin.jvm.functions.Function1,int,int,int,int)
+    public final void a(boolean)
+    public final void a(kotlin.jvm.functions.Function1,int,int,int)
 com.amap.api.mapcore.util.kx
 com.scandit.datacapture.core.internal.sdk.annotations.Mockable
 com.amap.api.mapcore.util.c$14
@@ -291,12 +300,23 @@ com.amap.api.location.AMapLocationQualityReport:
     public static final int GPS_STATUS_OFF
     public static final int GPS_STATUS_MODE_SAVING
     public static final int GPS_STATUS_NOGPSPERMISSION
-kotlin.jvm.internal.CallableReference
+kotlin.jvm.internal.CallableReference:
+    public java.util.List getParameters()
+    public kotlin.reflect.KType getReturnType()
+    public java.util.List getAnnotations()
+    public java.util.List getTypeParameters()
+    public java.lang.Object callBy(java.util.Map)
+    public kotlin.reflect.KVisibility getVisibility()
+    public boolean isFinal()
+    public boolean isOpen()
+    public boolean isAbstract()
+    public boolean isSuspend()
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$2
 com.vividsolutions.jts.geomgraph.TopologyLocation
 kotlin.UIntArray
 kotlin.time.AbstractDoubleTimeSource$DoubleTimeMark
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.h
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.h:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.scandit.datacapture.core.component.serialization.DataCaptureComponentDeserializer
 com.amap.api.mapcore.util.j
 kotlin.coroutines.ContinuationInterceptor$Key
@@ -304,7 +324,6 @@ com.amap.api.mapcore.util.ju
 kotlin.text.StringsKt__StringsKt$splitToSequence$2
 com.amap.api.mapcore.util.hf$a
 com.amap.api.mapcore.util.kz
-com.scandit.datacapture.core.ui.DataCaptureView$contextStatusView$1
 com.scandit.datacapture.core.internal.module.ui.control.TorchButton$1
 com.amap.api.mapcore.util.c$4
 com.mapbox.api.directions.v5.models.$AutoValue_VoiceInstructions$Builder
@@ -316,13 +335,13 @@ kotlin.text.MatcherMatchResult
 com.scandit.datacapture.core.common.feedback.Sound:
     public void <init>(java.lang.String)
     public static final com.scandit.datacapture.core.common.feedback.Sound defaultSound()
-com.scandit.datacapture.core.ui.gesture.FocusGestureListener
 com.nineoldandroids.animation.TimeAnimator$TimeListener
 com.autonavi.amap.mapcore.LinkInfo
 com.amap.api.mapcore.util.ae$a
 com.amap.api.mapcore.util.jw
 com.amap.api.services.a.bb$1
-com.scandit.datacapture.core.internal.module.b.a.a.b.p.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.p.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.loc.j$a$a
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTracking$a
 kotlin.comparisons.ReverseOrderComparator
@@ -333,7 +352,9 @@ kotlin.jvm.internal.IntSpreadBuilder
 com.amap.api.mapcore.util.c$29
 com.mapbox.api.optimization.v1.models.OptimizationAdapterFactory:
     public static com.google.gson.TypeAdapterFactory create()
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.aa
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.aa:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.services.route.BusStep:
     public com.amap.api.services.route.RouteBusWalkItem getWalk()
     public void setWalk(com.amap.api.services.route.RouteBusWalkItem)
@@ -351,7 +372,11 @@ com.amap.api.services.route.BusStep:
     public void setTaxi(com.amap.api.services.route.TaxiItem)
 com.loc.cr$1
 com.vividsolutions.jts.geomgraph.Position
-com.scandit.datacapture.core.ui.gesture.FocusGesture
+com.scandit.datacapture.core.ui.gesture.FocusGesture:
+    public abstract void addListener(com.scandit.datacapture.core.ui.gesture.FocusGestureListener)
+    public abstract void removeListener(com.scandit.datacapture.core.ui.gesture.FocusGestureListener)
+    public abstract void triggerFocus(com.scandit.datacapture.core.common.geometry.PointWithUnit)
+    public abstract java.lang.String toJson()
 com.amap.api.mapcore.util.is$a
 com.amap.api.mapcore.util.q$e
 com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.a$a
@@ -472,7 +497,8 @@ com.nineoldandroids.animation.ObjectAnimator:
     public void setupStartValues()
     public void setupEndValues()
     private static final boolean DBG
-com.scandit.datacapture.core.internal.module.b.a.a.b.e.b
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.b:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.loc.cb
 com.amap.api.maps.TextureSupportMapFragment
 kotlin.sequences.SequencesKt___SequencesKt$flatMap$1
@@ -485,7 +511,11 @@ kotlin.concurrent.ThreadsKt$thread$thread$1
 kotlin.ranges.UIntProgression$Companion
 com.amap.api.services.share.ShareSearch
 com.scandit.datacapture.core.ui.viewfinder.AimerViewfinderProxy
-com.scandit.datacapture.core.internal.module.ui.control.ControlLayout
+com.scandit.datacapture.core.internal.module.ui.control.ControlLayout:
+    private final void c(com.scandit.datacapture.core.ui.control.Control)
+    public final void a(com.scandit.datacapture.core.ui.control.Control)
+    public final void b(com.scandit.datacapture.core.ui.control.Control)
+    public final void b()
 kotlin.io.FilesKt__FilePathComponentsKt
 com.amap.api.mapcore.util.dd
 kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$5
@@ -554,10 +584,11 @@ retrofit2.BuiltInConverters$StreamingResponseBodyConverter
 com.amap.api.mapcore.util.c$15
 com.amap.api.services.a.av$1
 com.amap.api.mapcore.util.hp
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.g
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.g:
+    public final boolean e()
 kotlin.contracts.InvocationKind
-com.scandit.datacapture.core.ui.DataCaptureView$$special$$inlined$distinctObservable$1
-kotlin.jvm.internal.ArrayIterator
+kotlin.jvm.internal.ArrayIterator:
+    public final java.lang.Object[] getArray()
 com.amap.api.services.route.RouteBusLineItem:
     public com.amap.api.services.busline.BusStationItem getDepartureBusStation()
     public void setDepartureBusStation(com.amap.api.services.busline.BusStationItem)
@@ -576,14 +607,12 @@ com.vividsolutions.jts.precision.SimpleGeometryPrecisionReducer$1
 kotlin.time.MeasureTimeKt
 com.amap.api.mapcore.util.k
 com.amap.api.mapcore.util.jv
-com.scandit.datacapture.core.internal.module.d.b
 com.mapbox.api.directions.v5.models.$AutoValue_BannerText:
     public com.mapbox.api.directions.v5.models.BannerText$Builder toBuilder()
 com.scandit.datacapture.core.capture.DataCaptureContextListenerReversedAdapter:
     public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$1
 com.vividsolutions.jts.geom.Envelope
-com.scandit.datacapture.core.internal.module.d.a
 com.amap.api.mapcore.util.l$a
 kotlin.collections.CollectionsKt__CollectionsJVMKt:
     private static final java.util.List buildListInternal(kotlin.jvm.functions.Function1)
@@ -647,29 +676,36 @@ com.mapbox.api.geocoding.v5.AutoValue_MapboxGeocoding$Builder
 com.nineoldandroids.animation.AnimatorSet$Node
 com.scandit.datacapture.core.BuildConfig
 com.amap.api.mapcore.util.c$17
-com.scandit.datacapture.core.ui.gesture.SwipeToZoomProxyAdapter
-com.scandit.datacapture.core.internal.module.b.a.a.b.e.e
+com.scandit.datacapture.core.ui.gesture.SwipeToZoomProxyAdapter:
+    public final void triggerZoomIn()
+    public final void triggerZoomOut()
+    public final java.lang.String toJson()
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.e:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.scandit.datacapture.core.common.ContextStatus:
-    public final java.lang.String getMessage()
-    public final int getCode()
     public final boolean isValid()
     public final com.scandit.datacapture.core.internal.sdk.common.NativeContextStatus _impl$scandit_capture_core()
 com.scandit.datacapture.tools.internal.a.a.c:
     public static boolean a(java.lang.Object,java.lang.Object)
 kotlin.collections.GroupingKt__GroupingKt
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.ab
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.ab:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 kotlin.sequences.USequencesKt
 com.autonavi.ae.gmap.glanimation.AdglAnimationContantValues
-com.scandit.datacapture.core.internal.module.source.c
+com.scandit.datacapture.core.internal.module.source.c:
+    private final android.hardware.Camera$CameraInfo a(com.scandit.datacapture.core.source.CameraPosition)
+    public void <init>()
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraDelegate a(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings,kotlin.jvm.functions.Function1)
 okhttp3.Challenge
 com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.a$b
 kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$4
-com.scandit.datacapture.core.internal.module.b.a.a.d$a
 com.autonavi.amap.mapcore.message.HoverGestureMapMessage
-kotlin.reflect.KProperty1$Getter
 com.amap.api.maps.utils.overlay.MovingPointOverlay$1
 com.amap.api.mapcore.util.eq$a
-com.scandit.datacapture.core.ui.DataCaptureView$onAttachedToWindow$1
 com.scandit.datacapture.core.R$drawable
 kotlin.text.StringsKt__IndentKt$getIndentFunction$1
 com.amap.api.services.a.cm:
@@ -779,7 +815,8 @@ com.scandit.datacapture.barcode.data.BarcodeProxyAdapter:
 com.mapzen.android.lost.api.LocationSettingsStates
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerHelperReversedAdapter$f
 com.mapbox.api.directions.v5.models.BannerComponents$Builder
-com.scandit.datacapture.core.internal.module.b.a.a.b.k.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.k.a:
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
 okhttp3.Cache:
     public void <init>(java.io.File,long)
     void <init>(java.io.File,long,okhttp3.internal.io.FileSystem)
@@ -818,7 +855,8 @@ okhttp3.Cache:
     private static final int ENTRY_BODY
     private static final int ENTRY_COUNT
 com.amap.api.services.a.af
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.j
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.j:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.mapcore.util.eh
 com.loc.df
 com.autonavi.amap.mapcore.AeUtil$1
@@ -843,16 +881,13 @@ kotlin.jvm.internal.Reflection:
     public void <init>()
     public static kotlin.reflect.KClass createKotlinClass(java.lang.Class)
     public static kotlin.reflect.KClass createKotlinClass(java.lang.Class,java.lang.String)
-    public static kotlin.reflect.KDeclarationContainer getOrCreateKotlinPackage(java.lang.Class)
     public static kotlin.reflect.KDeclarationContainer getOrCreateKotlinPackage(java.lang.Class,java.lang.String)
     public static kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class,java.lang.String)
     public static kotlin.reflect.KClass[] getOrCreateKotlinClasses(java.lang.Class[])
     public static java.lang.String renderLambdaToString(kotlin.jvm.internal.FunctionBase)
-    public static kotlin.reflect.KFunction function(kotlin.jvm.internal.FunctionReference)
     public static kotlin.reflect.KProperty0 property0(kotlin.jvm.internal.PropertyReference0)
     public static kotlin.reflect.KMutableProperty0 mutableProperty0(kotlin.jvm.internal.MutablePropertyReference0)
     public static kotlin.reflect.KProperty1 property1(kotlin.jvm.internal.PropertyReference1)
-    public static kotlin.reflect.KMutableProperty1 mutableProperty1(kotlin.jvm.internal.MutablePropertyReference1)
     public static kotlin.reflect.KProperty2 property2(kotlin.jvm.internal.PropertyReference2)
     public static kotlin.reflect.KMutableProperty2 mutableProperty2(kotlin.jvm.internal.MutablePropertyReference2)
     public static kotlin.reflect.KType typeOf(kotlin.reflect.KClassifier)
@@ -923,7 +958,6 @@ com.amap.api.mapcore.util.hq:
     protected java.lang.Thread$UncaughtExceptionHandler b
     protected boolean c
 okhttp3.internal.ws.RealWebSocket$PingRunnable
-com.scandit.datacapture.core.ui.overlay.DataCaptureOverlay
 com.mapbox.geojson.LineString:
     public static com.mapbox.geojson.LineString fromJson(java.lang.String)
     public static com.mapbox.geojson.LineString fromLngLats(com.mapbox.geojson.MultiPoint)
@@ -997,8 +1031,11 @@ com.amap.api.maps.SwipeDismissView
 com.amap.api.mapcore.util.eq$b
 kotlin.collections.MutableMapWithDefaultImpl
 org.intellij.lang.annotations.JdkConstants$FontStyle
-com.scandit.datacapture.core.internal.module.b.a.a.b.e.d
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.ac
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.d:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.ac:
+    public final boolean e()
+    public final boolean d()
 com.scandit.datacapture.tools.internal.sdk.ProxyCache$DefaultImpls
 kotlin.collections.AbstractMap
 com.amap.api.services.a.do:
@@ -1032,7 +1069,6 @@ com.amap.api.services.a.aq$1
 kotlin.text.StringsKt__IndentKt$getIndentFunction$2
 com.scandit.datacapture.core.internal.sdk.extensions.ContextExtensionsKt:
     public static synthetic void getRotation$annotations(android.content.Context)
-    public static final int getRotation(android.content.Context)
     public static final android.graphics.drawable.Drawable getDrawableCompat(android.content.Context,int)
     public static final android.graphics.Bitmap getBitmap(android.content.Context,int)
 com.mapbox.api.matching.v5.models.$AutoValue_MapMatchingMatching:
@@ -1058,7 +1094,8 @@ kotlin.Pair:
 com.vividsolutions.jts.operation.buffer.SubgraphDepthLocater
 kotlin.reflect.WildcardTypeImpl
 com.amap.api.services.a.ae
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.i
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.i:
+    public final boolean e()
 kotlin.sequences.FlatteningSequence$iterator$1
 com.amap.api.mapcore.util.ei
 com.amap.api.services.route.TruckPath:
@@ -1106,7 +1143,13 @@ com.loc.dg
 com.vividsolutions.jts.operation.overlay.validate.FuzzyPointLocator
 com.amap.api.services.a.bh
 kotlin.text.CharDirectionality$Companion$directionalityMap$2
-com.scandit.datacapture.core.internal.module.ui.control.a
+com.scandit.datacapture.core.internal.module.ui.control.a:
+    public void <init>(android.content.Context)
+    public final boolean a()
+    public boolean onTouchEvent(android.view.MotionEvent)
+    public final void a(kotlin.jvm.functions.Function0)
+    private boolean a
+    private kotlin.jvm.functions.Function0 b
 com.amap.api.mapcore.util.fl
 com.autonavi.amap.mapcore.interfaces.IMarker
 kotlin.sequences.SequencesKt___SequencesKt$requireNoNulls$1
@@ -1197,7 +1240,9 @@ com.scandit.datacapture.core.internal.sdk.area.NoLocationSelection
 retrofit2.http.FieldMap
 kotlin.UShortArray$Iterator
 com.vividsolutions.jts.util.Debug
-com.scandit.datacapture.core.internal.module.b.a.a.b.f.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.jr$1
 com.amap.api.services.interfaces.IGeocodeSearch
 com.amap.api.mapcore.util.gh
@@ -1214,7 +1259,9 @@ com.nineoldandroids.animation.PropertyValuesHolder:
     void setupEndValue(java.lang.Object)
     public void setEvaluator(com.nineoldandroids.animation.TypeEvaluator)
 com.nineoldandroids.view.ViewPropertyAnimatorHC$PropertyBundle
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.m
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.m:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.services.route.Path:
     public float getDistance()
     public void setDistance(float)
@@ -1245,7 +1292,11 @@ com.amap.api.services.a.bb$4
 com.mapbox.geojson.$AutoValue_MultiPoint:
     public synthetic bridge java.lang.Object coordinates()
 com.amap.api.mapcore.util.kw$a
-kotlin.sequences.EmptySequence
+kotlin.sequences.EmptySequence:
+    public kotlin.sequences.EmptySequence drop(int)
+    public synthetic bridge kotlin.sequences.Sequence drop(int)
+    public kotlin.sequences.EmptySequence take(int)
+    public synthetic bridge kotlin.sequences.Sequence take(int)
 kotlin.text.StringsKt__StringNumberConversionsJVMKt:
     private static final java.lang.String toString(byte,int)
     private static final java.lang.String toString(short,int)
@@ -1345,7 +1396,8 @@ com.mapbox.api.directions.v5.models.BannerComponents:
     public static com.mapbox.api.directions.v5.models.BannerComponents$Builder builder()
     public static com.mapbox.api.directions.v5.models.BannerComponents fromJson(java.lang.String)
     public abstract com.mapbox.api.directions.v5.models.BannerComponents$Builder toBuilder()
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.l
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.l:
+    public final boolean d()
 com.amap.api.mapcore.util.f
 kotlin.jvm.internal.markers.KMutableListIterator
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListenerReversedAdapter$c
@@ -1369,7 +1421,6 @@ com.amap.api.mapcore.util.iy$a
 com.amap.api.mapcore.util.bz
 com.amap.api.services.a.di$b
 com.loc.bb$b
-com.scandit.datacapture.core.internal.module.ui.f$a
 com.scandit.datacapture.core.common.geometry.AnchorDeserializer
 com.amap.api.services.a.ad
 com.scandit.datacapture.core.source.VideoResolutionDeserializer
@@ -1464,7 +1515,8 @@ com.loc.u
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializerHelperReversedAdapter
 com.mapbox.api.geocoding.v5.AutoValue_MapboxGeocoding
 kotlin.sequences.SequencesKt___SequencesKt$runningFoldIndexed$1
-com.scandit.datacapture.core.internal.sdk.ui.ContextStatusPresenter
+com.scandit.datacapture.core.internal.sdk.ui.ContextStatusPresenter:
+    public abstract com.scandit.datacapture.core.internal.sdk.ui.ContextStatusView getView()
 com.scandit.datacapture.core.area.serialization.LocationSelectionDeserializerProxyAdapter$a
 com.loc.ah$1
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerListener$DefaultImpls
@@ -1484,7 +1536,6 @@ com.amap.api.location.UmidtokenInfo
 kotlin.coroutines.CoroutineContext$DefaultImpls
 com.amap.api.mapcore.util.fo$1
 com.amap.api.services.share.ShareSearch$ShareBusRouteQuery
-kotlin.sequences.Sequence
 com.scandit.datacapture.core.internal.module.source.o$a
 retrofit2.Retrofit
 com.amap.api.maps.model.TileOverlay
@@ -1601,7 +1652,6 @@ kotlin.collections.CollectionsKt___CollectionsKt:
     public static final java.util.Map associateTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1)
     public static final java.util.Map associateWith(java.lang.Iterable,kotlin.jvm.functions.Function1)
     public static final java.util.Map associateWithTo(java.lang.Iterable,java.util.Map,kotlin.jvm.functions.Function1)
-    public static final java.util.HashSet toHashSet(java.lang.Iterable)
     public static final java.util.Set toSet(java.lang.Iterable)
     public static final java.util.List flatMap(java.lang.Iterable,kotlin.jvm.functions.Function1)
     public static final java.util.List flatMapSequence(java.lang.Iterable,kotlin.jvm.functions.Function1)
@@ -1813,7 +1863,10 @@ com.amap.api.services.a.bf:
     public java.lang.String d()
     public void a(int)
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListenerReversedAdapter$d
-kotlin.jvm.internal.MutablePropertyReference1Impl
+kotlin.jvm.internal.MutablePropertyReference1Impl:
+    public void <init>(java.lang.Class,java.lang.String,java.lang.String,int)
+    public void <init>(java.lang.Object,java.lang.Class,java.lang.String,java.lang.String,int)
+    public void set(java.lang.Object,java.lang.Object)
 kotlin.io.FilesKt__FileReadWriteKt$readLines$1
 com.mapbox.api.directions.v5.models.RouteOptions:
     public static com.mapbox.api.directions.v5.models.RouteOptions$Builder builder()
@@ -1838,11 +1891,14 @@ com.amap.api.mapcore.util.c$11
 jcg.mini_dji_go_app.R
 kotlin.jvm.internal.markers.KMutableIterator
 com.amap.api.services.a.dl
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.k
-com.scandit.datacapture.core.ui.DataCaptureView$orientationEventListener$1
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.k:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.mapcore.util.g
 com.vividsolutions.jts.planargraph.DirectedEdge
-kotlin.properties.Delegates
+kotlin.properties.Delegates:
+    public final kotlin.properties.ReadWriteProperty notNull()
+    public final kotlin.properties.ReadWriteProperty observable(java.lang.Object,kotlin.jvm.functions.Function3)
+    public final kotlin.properties.ReadWriteProperty vetoable(java.lang.Object,kotlin.jvm.functions.Function3)
 com.loc.cf
 com.amap.api.mapcore.util.jr
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerResultProxyAdapter
@@ -1854,7 +1910,6 @@ com.amap.api.services.route.DistanceSearch$OnDistanceSearchListener
 com.vividsolutions.jts.geom.GeometryFilter
 kotlin.streams.jdk8.StreamsKt$asStream$1
 com.amap.api.services.a.y
-kotlin.collections.ArraysKt___ArraysKt$asSequence$$inlined$Sequence$1
 com.vividsolutions.jts.algorithm.InteriorPointPoint
 kotlin.coroutines.ContinuationKt$Continuation$1
 com.mapbox.api.matching.v5.models.MapMatchingMatching:
@@ -1883,7 +1938,6 @@ com.loc.di:
     private static boolean a(double,double,double,double,double,double)
     static java.lang.String i
     static java.util.HashMap j
-kotlin.text.Regex$Serialized$Companion
 com.amap.api.mapcore.util.fz$1
 com.mapbox.api.matching.v5.MapboxMapMatching$1
 kotlin.collections.MapsKt:
@@ -1899,7 +1953,6 @@ okhttp3.internal.http2.Http2Connection$Builder:
     public okhttp3.internal.http2.Http2Connection$Builder pushObserver(okhttp3.internal.http2.PushObserver)
 com.amap.api.services.a.di$a
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerResultProxy
-com.scandit.datacapture.core.internal.module.ui.f$b
 com.amap.api.services.a.ac
 okhttp3.internal.cache.DiskLruCache$1
 com.amap.api.maps.utils.overlay.MovingPointOverlay$MoveListener
@@ -1934,7 +1987,9 @@ com.amap.api.mapcore.util.bc$1
 com.autonavi.amap.mapcore.MapProjection
 com.amap.api.mapcore.util.lz
 com.amap.api.services.interfaces.IDistrictSearch
-com.scandit.datacapture.core.internal.module.b.a.a.b.f.c
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.c:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.vividsolutions.jts.index.strtree.STRtree$3
 com.loc.bh$a
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializer
@@ -1946,7 +2001,22 @@ com.mapbox.api.directions.v5.models.DirectionsError$Builder
 com.mapzen.android.lost.internal.IFusedLocationProviderCallback$Stub$Proxy:
     public java.lang.String getInterfaceDescriptor()
 org.intellij.lang.annotations.JdkConstants$TitledBorderTitlePosition
-com.scandit.datacapture.core.source.AndroidCameraProxyAdapter
+com.scandit.datacapture.core.source.AndroidCameraProxyAdapter:
+    public void <init>(com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera,com.scandit.datacapture.tools.internal.sdk.ProxyCache)
+    public synthetic void <init>(com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera,com.scandit.datacapture.tools.internal.sdk.ProxyCache,int,kotlin.jvm.internal.DefaultConstructorMarker)
+    public final com.scandit.datacapture.core.source.FrameSourceState getCurrentState()
+    public final com.scandit.datacapture.core.source.FrameSourceState getDesiredState()
+    public final com.scandit.datacapture.core.source.CameraPosition getPosition()
+    public final boolean isTorchAvailable()
+    public final com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera _impl()
+    public final com.scandit.datacapture.core.internal.sdk.common.async.NativeWrappedFuture _switchToDesiredState(com.scandit.datacapture.core.source.FrameSourceState)
+    public final com.scandit.datacapture.core.internal.sdk.common.async.NativeWrappedFuture _applySettings(com.scandit.datacapture.core.source.CameraSettings)
+    public final void _applyTorchState(com.scandit.datacapture.core.source.TorchState)
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
+    public final void switchToDesiredState(com.scandit.datacapture.core.source.FrameSourceState,com.scandit.datacapture.core.common.async.Callback)
+    private final com.scandit.datacapture.core.internal.module.source.NativeFrameSource a
+    private final com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera b
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
 com.almeros.android.multitouch.gesturedetectors.TwoFingerGestureDetector:
     protected abstract void handleStartProgressEvent(int,android.view.MotionEvent)
     protected abstract void handleInProgressEvent(int,android.view.MotionEvent)
@@ -1992,7 +2062,6 @@ com.amap.api.services.route.Doorway:
     public com.amap.api.services.core.LatLonPoint getLatLonPoint()
     public void setLatLonPoint(com.amap.api.services.core.LatLonPoint)
 com.scandit.datacapture.core.source.serialization.FrameSourceDeserializerHelper
-com.scandit.datacapture.core.ui.DataCaptureViewListener
 com.amap.api.services.a.bb$6
 com.amap.api.maps.LocationSource
 com.amap.api.mapcore.util.kw$c
@@ -2001,7 +2070,8 @@ com.vividsolutions.jts.precision.CommonBitsRemover$Translater
 com.autonavi.amap.mapcore.interfaces.IText
 com.amap.api.mapcore.util.gj
 kotlin.io.FileTreeWalk$FileTreeWalkIterator$TopDownDirectoryState
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.o
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.o:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 okhttp3.internal.ws.RealWebSocket$CancelRunnable
 com.autonavi.ae.gmap.gloverlay.GLOverlay$EAMapOverlayTpye
 com.autonavi.ae.gmap.glanimation.AdglAnimation1V
@@ -2015,7 +2085,6 @@ com.amap.api.services.route.Railway:
     public void setName(java.lang.String)
 com.amap.api.mapcore.util.fg
 com.amap.api.services.share.ShareSearch$ShareWalkRouteQuery
-com.scandit.datacapture.core.internal.sdk.extensions.NativeColorExtensionsKt
 kotlin.text.CharsetsKt
 com.amap.api.services.a.ch:
     public static java.lang.String a(java.util.Map)
@@ -2075,7 +2144,6 @@ kotlin.reflect.KParameter$Kind
 com.amap.api.mapcore.util.kv
 com.vividsolutions.jts.noding.ScaledNoder
 com.autonavi.ae.gmap.gloverlay.GLTextureProperty
-com.scandit.datacapture.core.internal.module.ui.f$c
 com.vividsolutions.jts.index.strtree.STRtree$4
 com.amap.api.mapcore.util.au$a
 com.scandit.datacapture.core.capture.DataCaptureContext:
@@ -2084,12 +2152,9 @@ com.scandit.datacapture.core.capture.DataCaptureContext:
     public static final com.scandit.datacapture.core.capture.DataCaptureContext forLicenseKey(java.lang.String,java.lang.String)
     public static final com.scandit.datacapture.core.capture.DataCaptureContext _forAllProperties$scandit_capture_core(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,com.scandit.datacapture.core.capture.DataCaptureContextSettings)
     public static final com.scandit.datacapture.core.capture.DataCaptureContextBuilder builder(java.lang.String)
-    public final com.scandit.datacapture.core.source.FrameSource getFrameSource()
     public final com.scandit.datacapture.core.source.FrameSource get_frameSource$scandit_capture_core()
     public final java.lang.String getDeviceId()
     public final com.scandit.datacapture.core.license.LicenseInfo getLicenseInfo()
-    public final void addListener(com.scandit.datacapture.core.capture.DataCaptureContextListener)
-    public final void removeListener(com.scandit.datacapture.core.capture.DataCaptureContextListener)
     public final void addFrameListener(com.scandit.datacapture.core.capture.DataCaptureContextFrameListener)
     public final void removeFrameListener(com.scandit.datacapture.core.capture.DataCaptureContextFrameListener)
     public final void removeMode(com.scandit.datacapture.core.capture.DataCaptureMode)
@@ -2101,7 +2166,24 @@ com.scandit.datacapture.core.capture.DataCaptureContext:
     public final void release()
 com.amap.api.services.a.ab
 com.loc.dj
-com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinder
+com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinder:
+    public void <init>()
+    public final com.scandit.datacapture.core.common.geometry.SizeWithUnitAndAspect getSizeWithUnitAndAspect()
+    public final void setSize(com.scandit.datacapture.core.common.geometry.SizeWithUnit)
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderAnimation getAnimation()
+    public final void setAnimation(com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderAnimation)
+    public final int getColor()
+    public final void setColor(int)
+    public final float getDimming()
+    public final void setDimming(float)
+    public final int getDisabledColor()
+    public final void setDisabledColor(int)
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderLineStyle getLineStyle()
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderStyle getStyle()
+    public final com.scandit.datacapture.core.internal.sdk.ui.viewfinder.NativeRectangularViewfinder _impl()
+    public final void setHeightAndAspectRatio(com.scandit.datacapture.core.common.geometry.FloatWithUnit,float)
+    public final void setShorterDimensionAndAspectRatio(float,float)
+    public final void setWidthAndAspectRatio(com.scandit.datacapture.core.common.geometry.FloatWithUnit,float)
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListenerReversedAdapter$a
 com.amap.api.mapcore.util.js
 com.amap.api.mapcore.util.ay
@@ -2149,7 +2231,19 @@ com.amap.api.fence.GeoFenceManagerBase
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTracking$Companion
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerProxyAdapter$e
 com.vividsolutions.jts.operation.overlay.OverlayOp
-com.scandit.datacapture.core.ui.DataCaptureView
+com.scandit.datacapture.core.ui.DataCaptureView:
+    public final void removeOverlay(com.scandit.datacapture.core.ui.overlay.DataCaptureOverlay)
+    public final void addListener(com.scandit.datacapture.core.ui.DataCaptureViewListener)
+    public final void removeListener(com.scandit.datacapture.core.ui.DataCaptureViewListener)
+    public final void addListener(com.scandit.datacapture.core.ui.DataCaptureViewSizeListener)
+    public final void removeListener(com.scandit.datacapture.core.ui.DataCaptureViewSizeListener)
+    public final com.scandit.datacapture.core.common.geometry.Point mapFramePointToView(com.scandit.datacapture.core.common.geometry.Point)
+    public final com.scandit.datacapture.core.common.geometry.Quadrilateral mapFrameQuadrilateralToView(com.scandit.datacapture.core.common.geometry.Quadrilateral)
+    public final void setProperty(java.lang.String,java.lang.Object)
+    public final void addControl(com.scandit.datacapture.core.ui.control.Control)
+    public final void removeControl(com.scandit.datacapture.core.ui.control.Control)
+    public final void removeAllControls$scandit_capture_core()
+    public final void _removeOverlay(com.scandit.datacapture.core.ui.overlay.DataCaptureOverlay)
 kotlin.reflect.KProperty$DefaultImpls
 com.vividsolutions.jts.operation.overlay.OverlayNodeFactory
 com.loc.bu$1
@@ -2184,7 +2278,9 @@ com.mapbox.api.directions.v5.models.$AutoValue_BannerComponents:
 com.scandit.datacapture.core.ui.gesture.SwipeToZoomProxy
 kotlin.contracts.ExperimentalContracts
 kotlin.StandardKt__StandardKt
-com.scandit.datacapture.core.internal.module.b.a.a.b.f.b
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.b:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.mapbox.api.optimization.v1.models.$AutoValue_OptimizationResponse$1
 com.amap.api.mapcore.util.db
 okhttp3.Request$Builder:
@@ -2197,7 +2293,8 @@ okhttp3.Request$Builder:
     public okhttp3.Request$Builder put(okhttp3.RequestBody)
     public okhttp3.Request$Builder patch(okhttp3.RequestBody)
 com.mapbox.api.directions.v5.models.DirectionsResponse$Builder
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.n
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.n:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.qx.wz.dj.rtcm.QxRtcmPlan
 okhttp3.internal.tls.DistinguishedNameParser
 com.amap.api.maps.AMapException:
@@ -2238,7 +2335,39 @@ com.mapbox.api.optimization.v1.models.$AutoValue_OptimizationWaypoint:
     public com.mapbox.api.optimization.v1.models.OptimizationWaypoint$Builder toBuilder()
 com.amap.api.services.a.aw$1
 com.amap.api.mapcore.util.ft$2
-com.scandit.datacapture.core.ui.control.TorchSwitchControl
+com.scandit.datacapture.core.ui.control.TorchSwitchControl:
+    public static synthetic void getDefaultTorchOnImage$scandit_capture_core$annotations()
+    public static synthetic void getDefaultTorchOnPressedImage$scandit_capture_core$annotations()
+    public static synthetic void getDefaultTorchOffImage$scandit_capture_core$annotations()
+    public static synthetic void getDefaultTorchOffPressedImage$scandit_capture_core$annotations()
+    private static android.graphics.Bitmap a(int)
+    public void <init>(android.content.Context)
+    public static final synthetic android.graphics.Bitmap access$getImageForTorchOn(com.scandit.datacapture.core.ui.control.TorchSwitchControl,boolean)
+    public static final synthetic android.graphics.Bitmap access$getImageForTorchOff(com.scandit.datacapture.core.ui.control.TorchSwitchControl,boolean)
+    public static final com.scandit.datacapture.core.ui.control.TorchSwitchControl fromJson(android.content.Context,java.lang.String)
+    public final void updateFromJson(java.lang.String)
+    public final android.graphics.Bitmap getTorchOnImage()
+    public final void setTorchOnImage(android.graphics.Bitmap)
+    public final android.graphics.Bitmap getTorchOnPressedImage()
+    public final void setTorchOnPressedImage(android.graphics.Bitmap)
+    public final android.graphics.Bitmap getTorchOffImage()
+    public final void setTorchOffImage(android.graphics.Bitmap)
+    public final android.graphics.Bitmap getTorchOffPressedImage()
+    public final void setTorchOffPressedImage(android.graphics.Bitmap)
+    public final void setTorchOnImage(int)
+    public final void setTorchOnPressedImage(int)
+    public final void setTorchOffImage(int)
+    public final void setTorchOffPressedImage(int)
+    public final void setImageResource(int)
+    public final android.graphics.Bitmap getDefaultTorchOnImage$scandit_capture_core()
+    public final android.graphics.Bitmap getDefaultTorchOnPressedImage$scandit_capture_core()
+    public final android.graphics.Bitmap getDefaultTorchOffImage$scandit_capture_core()
+    public final android.graphics.Bitmap getDefaultTorchOffPressedImage$scandit_capture_core()
+    private final com.scandit.datacapture.core.ui.control.TorchSwitchControl$torchImageButtonImageProvider$1 a
+    private android.graphics.Bitmap c
+    private android.graphics.Bitmap d
+    private android.graphics.Bitmap e
+    private android.graphics.Bitmap f
 com.amap.api.services.a.dq$1
 com.amap.api.mapcore.util.i
 okhttp3.internal.http1.Http1Codec$ChunkedSource:
@@ -2288,7 +2417,6 @@ com.amap.api.maps.model.BitmapDescriptorFactory:
     public static final float HUE_MAGENTA
     public static final float HUE_ROSE
 com.amap.api.mapcore.util.hn
-com.scandit.datacapture.core.internal.module.ui.f$d
 com.amap.api.services.route.TruckRouteRestult:
     public void setTruckQuery(com.amap.api.services.route.RouteSearch$TruckRouteQuery)
     public void setPaths(java.util.List)
@@ -2309,7 +2437,8 @@ com.autonavi.ae.gmap.gloverlay.GLOverlayBundle
 com.loc.r
 com.amap.api.maps.AMap$ImageInfoWindowAdapter
 retrofit2.DefaultCallAdapterFactory$1
-com.scandit.datacapture.core.internal.module.b.a.a.b.q.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.q.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.loc.ch
 com.amap.api.mapcore.util.jt
 com.amap.api.services.route.TaxiItem:
@@ -2333,7 +2462,6 @@ com.scandit.datacapture.core.source.AndroidCameraProxy$DefaultImpls
 com.amap.api.services.weather.WeatherSearch$OnWeatherSearchListener
 retrofit2.ParameterHandler$2
 com.amap.api.mapcore.util.c$26
-com.scandit.datacapture.core.internal.module.ui.ErrorOverlay
 com.amap.api.maps.model.particle.SinglePointParticleShape
 com.loc.dk
 com.vividsolutions.jts.geom.MultiPolygon
@@ -2376,7 +2504,6 @@ com.amap.api.mapcore.util.lt$a
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerHelper
 com.mapbox.services.BuildConfig
 kotlin.concurrent.ThreadsKt
-com.scandit.datacapture.core.internal.module.c.a
 com.amap.api.maps.MapFragment
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializer
 kotlin.internal.ProgressionUtilKt:
@@ -2390,7 +2517,6 @@ kotlin.ranges.IntProgressionIterator:
 com.scandit.datacapture.core.common.geometry.SizeWithAspectSerializer
 com.amap.api.mapcore.util.gu
 com.scandit.datacapture.core.area.RectangularLocationSelectionProxyAdapter
-com.scandit.datacapture.core.internal.module.ui.f
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializerHelper
 kotlin.random.FallbackThreadLocalRandom
 okhttp3.RealCall$AsyncCall:
@@ -2440,9 +2566,45 @@ com.amap.api.maps.model.particle.VelocityGenerate:
     protected final int TYPE_RANDOMVELOCITYBETWEENTWOCONSTANTS
     protected int type
 kotlin.jvm.internal.unsafe.MonitorKt
-com.scandit.datacapture.core.source.Camera
+com.scandit.datacapture.core.source.Camera:
+    public static synthetic void applySettings$default(com.scandit.datacapture.core.source.Camera,com.scandit.datacapture.core.source.CameraSettings,java.lang.Runnable,int,java.lang.Object)
+    public void <init>(com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera)
+    public static final synthetic java.util.concurrent.CopyOnWriteArraySet access$getListeners$p(com.scandit.datacapture.core.source.Camera)
+    public static final synthetic com.scandit.datacapture.core.internal.module.source.CameraFactory access$getCameraFactory$cp()
+    public static final com.scandit.datacapture.core.source.Camera getDefaultCamera(com.scandit.datacapture.core.source.CameraSettings)
+    public static final com.scandit.datacapture.core.source.Camera getDefaultCamera()
+    public static final com.scandit.datacapture.core.source.Camera getCamera(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings)
+    public static final com.scandit.datacapture.core.source.Camera getCamera(com.scandit.datacapture.core.source.CameraPosition)
+    public static final com.scandit.datacapture.core.source.Camera fromJson(java.lang.String)
+    public final void addListener(com.scandit.datacapture.core.source.FrameSourceListener)
+    public final void removeListener(com.scandit.datacapture.core.source.FrameSourceListener)
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi getApi$scandit_capture_core()
+    public final void applySettings(com.scandit.datacapture.core.source.CameraSettings,java.lang.Runnable)
+    public final void applySettings(com.scandit.datacapture.core.source.CameraSettings)
+    public final void switchToDesiredState(com.scandit.datacapture.core.source.FrameSourceState)
+    public final void updateFromJson(java.lang.String)
+    public final com.scandit.datacapture.core.source.TorchState getDesiredTorchState()
+    public final void setDesiredTorchState(com.scandit.datacapture.core.source.TorchState)
+    public final void addTorchListener(com.scandit.datacapture.core.source.TorchListener)
+    public final void removeTorchListener(com.scandit.datacapture.core.source.TorchListener)
+    public final void _addWeakTorchListener$scandit_capture_core(com.scandit.datacapture.core.source.TorchListener)
+    public final void _removeWeakTorchListener$scandit_capture_core(com.scandit.datacapture.core.source.TorchListener)
+    public final com.scandit.datacapture.core.source.FrameSourceState getCurrentState()
+    public final com.scandit.datacapture.core.source.FrameSourceState getDesiredState()
+    public final boolean isTorchAvailable()
+    public final com.scandit.datacapture.core.source.CameraPosition getPosition()
+    public final com.scandit.datacapture.core.internal.sdk.common.async.NativeWrappedFuture _applySettings(com.scandit.datacapture.core.source.CameraSettings)
+    public final void _applyTorchState(com.scandit.datacapture.core.source.TorchState)
+    public final com.scandit.datacapture.core.internal.sdk.source.NativeAndroidCamera _impl()
+    public final com.scandit.datacapture.core.internal.sdk.common.async.NativeWrappedFuture _switchToDesiredState(com.scandit.datacapture.core.source.FrameSourceState)
+    public final void switchToDesiredState(com.scandit.datacapture.core.source.FrameSourceState,com.scandit.datacapture.core.common.async.Callback)
+    private final java.util.concurrent.CopyOnWriteArraySet a
+    private java.util.concurrent.CopyOnWriteArraySet b
+    private java.util.concurrent.CopyOnWriteArraySet c
+    private com.scandit.datacapture.core.source.TorchState d
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingBasicOverlayKt
-com.scandit.datacapture.core.ui.style.Brush$Companion
+com.scandit.datacapture.core.ui.style.Brush$Companion:
+    public final com.scandit.datacapture.core.ui.style.Brush transparent()
 com.amap.api.services.busline.BusStationSearch
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerProxyAdapter$a
 okhttp3.Headers:
@@ -2459,7 +2621,6 @@ com.autonavi.amap.mapcore.VirtualEarthProjection
 com.loc.m$a$f
 com.amap.api.services.a.bc$2
 com.amap.api.mapcore.util.r
-kotlin.properties.ObservableProperty
 kotlin.jvm.internal.StringCompanionObject
 com.amap.api.services.a.dz
 kotlin.internal.InlineOnly
@@ -2526,7 +2687,8 @@ com.amap.api.services.route.DriveStep:
 com.amap.api.maps.offlinemap.OfflineMapStatus
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerListenerReversedAdapter$g
 kotlin.ranges.CharRange$Companion
-com.scandit.datacapture.core.ui.gesture.ZoomGestureListenerReversedAdapter
+com.scandit.datacapture.core.ui.gesture.ZoomGestureListenerReversedAdapter:
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 kotlin.collections.builders.ListBuilder$Itr
 com.amap.api.mapcore.util.dk
 com.loc.ba$1
@@ -2563,7 +2725,6 @@ com.vividsolutions.jts.operation.buffer.OffsetCurveBuilder
 com.vividsolutions.jts.operation.relate.RelateOp
 com.loc.q
 com.amap.api.services.nearby.UploadInfoCallback
-com.scandit.datacapture.core.internal.module.ui.b$e
 kotlin.sequences.SubSequence$iterator$1
 kotlin.collections.RingBuffer
 com.mapbox.api.directions.v5.models.$AutoValue_IntersectionLanes$1
@@ -2625,7 +2786,6 @@ kotlin.jvm.internal.LocalVariableReferencesKt
 com.amap.api.mapcore.util.c$20
 com.scandit.datacapture.core.capture.DataCaptureContextSettingsProxyAdapter:
     public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
-com.scandit.datacapture.core.internal.module.ui.e
 com.vividsolutions.jts.geom.util.AffineTransformation
 com.amap.api.mapcore.util.hy
 com.scandit.datacapture.core.internal.sdk.AndroidEnvironment
@@ -2644,11 +2804,9 @@ kotlin.internal.PlatformImplementationsKt:
     private static final synthetic java.lang.Object castToBaseType(java.lang.Object)
     public static final boolean apiVersionIsAtLeast(int,int,int)
 com.amap.api.mapcore.util.jh$1
-com.scandit.datacapture.core.ui.gesture.ZoomGestureListenerReversedAdapter$b
 kotlin.math.UMathKt
 kotlin.sequences.SequencesKt___SequencesKt$zipWithNext$2
 kotlin.sequences.SequencesKt__SequencesKt$flatMapIndexed$1
-com.scandit.datacapture.core.ui.gesture.TapToFocus$a
 com.loc.bo$a
 com.loc.m$a$e
 com.mapbox.geojson.utils.PolylineUtils
@@ -2675,7 +2833,6 @@ com.mapbox.api.matrix.v1.models.$AutoValue_MatrixResponse$Builder
 kotlin.jvm.functions.Function7:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)
 com.amap.api.services.a.cs$a
-com.scandit.datacapture.core.ui.gesture.ZoomGestureListenerReversedAdapter$a
 com.mapzen.android.lost.api.FusedLocationProviderApi:
     public abstract com.mapzen.android.lost.api.LocationAvailability getLocationAvailability(com.mapzen.android.lost.api.LostApiClient)
     public abstract com.mapzen.android.lost.api.PendingResult requestLocationUpdates(com.mapzen.android.lost.api.LostApiClient,com.mapzen.android.lost.api.LocationRequest,com.mapzen.android.lost.api.LocationListener,android.os.Looper)
@@ -2763,7 +2920,8 @@ com.amap.api.mapcore.util.c$33
 com.scandit.datacapture.core.json.JsonValueProxyAdapter$e
 com.amap.api.maps.AMap$OnInfoWindowClickListener
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$7
-com.scandit.datacapture.core.internal.sdk.ui.NeedsRedrawListenerReversedAdapter
+com.scandit.datacapture.core.internal.sdk.ui.NeedsRedrawListenerReversedAdapter:
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 com.autonavi.amap.mapcore.AeUtil$UnZipFileBrake
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTracking
 kotlin.collections.builders.MapBuilder$Companion
@@ -2822,7 +2980,6 @@ com.amap.api.services.a.dy
 com.scandit.datacapture.core.area.RectangularLocationSelection$Companion
 kotlin.collections.TypeAliasesKt
 com.amap.api.services.a.u
-com.scandit.datacapture.core.internal.module.b.a.a.b.i.b
 com.amap.api.mapcore.util.dl
 com.amap.api.maps.model.MultiPointOverlay
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializerProxy
@@ -2833,8 +2990,17 @@ com.amap.api.mapcore.util.eq
 kotlin.sequences.DistinctSequence
 com.mapbox.api.matrix.v1.AutoValue_MapboxMatrix$Builder
 com.vividsolutions.jts.operation.valid.SweeplineNestedRingTester$OverlapAction
-kotlin.jvm.internal.FunctionReference
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.b
+kotlin.jvm.internal.FunctionReference:
+    public void <init>(int)
+    public int getArity()
+    public boolean isInline()
+    public boolean isExternal()
+    public boolean isOperator()
+    public boolean isInfix()
+    public boolean isSuspend()
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.b:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final boolean e()
 retrofit2.Response
 kotlin.collections.LongIterator
 kotlin.properties.NotNullVar
@@ -2861,7 +3027,6 @@ com.loc.db$a
 com.amap.api.services.a.ao
 com.vividsolutions.jts.geom.PrecisionModel
 com.amap.api.mapcore.util.ft
-com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay$Companion$a
 com.amap.api.maps.UiSettings
 com.amap.api.services.a.br:
     void <init>()
@@ -2882,7 +3047,6 @@ com.autonavi.ae.gmap.gloverlay.CrossVectorOverlay$1
 com.amap.api.mapcore.util.gw
 com.scandit.datacapture.core.license.LicenseInfo$WhenMappings
 com.amap.api.location.CoordinateConverter$CoordType
-com.scandit.datacapture.core.ui.gesture.ZoomGestureListener
 com.nineoldandroids.animation.AnimatorSet$DependencyListener
 com.loc.bw$2
 kotlin.sequences.FlatteningSequence
@@ -2903,7 +3067,8 @@ com.mapbox.api.directions.v5.models.$AutoValue_LegAnnotation$Builder
 com.amap.api.mapcore.util.hz
 kotlin.UShort$Companion
 kotlin.collections.ArraysKt___ArraysKt$asIterable$$inlined$Iterable$9
-kotlin.reflect.KProperty1
+kotlin.reflect.KProperty1:
+    public abstract java.lang.Object getDelegate(java.lang.Object)
 kotlin.sequences.SequencesKt___SequencesKt$elementAt$1
 com.mapbox.api.directions.v5.models.$AutoValue_DirectionsWaypoint$Builder
 com.mapzen.android.lost.internal.IFusedLocationProviderService$Stub:
@@ -2939,7 +3104,6 @@ com.amap.api.maps.model.PolygonOptions:
     private double[] pointList
 com.amap.api.mapcore.util.c$34
 kotlin.ranges.ClosedFloatingPointRange
-com.scandit.datacapture.core.internal.sdk.ui.NeedsRedrawListener
 com.loc.m$a$d
 com.vividsolutions.jts.noding.Noder
 okhttp3.internal.cache.DiskLruCache$Entry
@@ -3006,7 +3170,6 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerListenerRevers
 com.amap.api.services.a.dx
 com.amap.api.maps.AMap$OnMapLongClickListener
 okhttp3.Cache$CacheRequestImpl
-com.scandit.datacapture.core.internal.module.d.c$d
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializer$a
 com.amap.api.mapcore.util.ge$1
 com.vividsolutions.jts.index.ArrayListVisitor
@@ -3021,7 +3184,8 @@ com.autonavi.amap.mapcore.interfaces.IProjection
 com.amap.api.services.traffic.a:
     public int getLevel()
     public void setLevel(int)
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.a:
+    public final boolean e()
 timber.log.BuildConfig
 kotlin.internal.OnlyInputTypes
 com.amap.api.mapcore.util.do
@@ -3059,11 +3223,11 @@ com.amap.api.services.a.bq:
     public static boolean a(android.content.Context,boolean)
     public static boolean b(android.content.Context)
     private static void f(java.lang.String)
-kotlin.jvm.internal.MutablePropertyReference
+kotlin.jvm.internal.MutablePropertyReference:
+    public void <init>(java.lang.Object)
 com.amap.api.mapcore.util.lt$b
 com.vividsolutions.jts.geomgraph.Label
 com.mapbox.api.directions.v5.models.$AutoValue_RouteLeg$Builder
-com.scandit.datacapture.core.internal.sdk.ui.overlay.OverlayPreconditionsKt
 com.scandit.datacapture.core.ui.viewfinder.AimerViewfinderProxy$DefaultImpls
 com.amap.api.services.a.cp$1
 com.amap.api.mapcore.util.er
@@ -3169,7 +3333,8 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerListenerRevers
 com.autonavi.amap.mapcore.interfaces.IAMap
 com.scandit.datacapture.core.common.geometry.PointWithUnitUtilsKt
 kotlin.internal.LowPriorityInOverloadResolution
-com.scandit.datacapture.core.internal.module.b.a.a.b.d.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.d.a:
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
 com.qx.wz.dj.rtcm.Utils:
     public void <init>()
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializer$b
@@ -3259,10 +3424,8 @@ com.amap.api.mapcore.util.ck:
 retrofit2.ParameterHandler$Body
 kotlin.PropertyReferenceDelegatesKt
 com.amap.api.services.a.dj$a
-com.scandit.datacapture.core.internal.module.d.c$e
 com.amap.api.mapcore.util.fa$a
 com.loc.h$a
-com.scandit.datacapture.core.ui.DataCaptureView$contextStatusView$1$b
 com.mapbox.api.geocoding.v5.models.$AutoValue_CarmenFeature$1
 com.amap.api.mapcore.util.iw
 com.loc.ay
@@ -3311,7 +3474,12 @@ kotlin.collections.unsigned.UArraysKt___UArraysJvmKt$asList$4
 kotlin.text.CharsKt:
     private void <init>()
 com.amap.api.maps.AMap$CancelableCallback
-com.scandit.datacapture.core.internal.module.b.a.a.e
+com.scandit.datacapture.core.internal.module.b.a.a.e:
+    public final boolean a()
+    public final float b()
+    public final boolean c()
+    public final boolean d()
+    public final boolean e()
 com.autonavi.amap.mapcore.interfaces.IGroundOverlay
 com.amap.api.mapcore.util.jz
 com.scandit.datacapture.core.time.TimeInterval:
@@ -3320,7 +3488,8 @@ com.scandit.datacapture.core.time.TimeInterval:
     public final float asSeconds()
 com.amap.api.mapcore.util.gu$1
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerListenerReversedAdapter$n
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.d
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.d:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.mapcore.util.ij$a
 com.amap.api.mapcore.util.n
 com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.a
@@ -3384,7 +3553,6 @@ com.autonavi.ae.gmap.gloverlay.GLOverlay
 com.mapzen.android.lost.api.GeofencingRequest$1
 kotlin.jvm.internal.Ref$LongRef
 com.vividsolutions.jts.noding.snapround.MCIndexSnapRounder
-com.scandit.datacapture.core.internal.module.ui.b$a
 com.mapbox.core.utils.ColorUtils
 kotlin.reflect.KMutableProperty2
 com.amap.api.maps.model.PoiPara
@@ -3412,8 +3580,9 @@ com.amap.api.services.a.dv
 com.amap.api.mapcore.util.ds$a
 com.scandit.datacapture.core.internal.sdk.common.geometry.PointUtilsKt
 retrofit2.RequestBuilder
-com.scandit.datacapture.core.internal.module.b.a.a.b.j.a
-com.scandit.datacapture.core.internal.module.d.c$b
+com.scandit.datacapture.core.internal.module.b.a.a.b.j.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializerListenerReversedAdapter
 com.scandit.datacapture.core.ui.viewfinder.serialization.ViewfinderDeserializer
 okhttp3.internal.Util:
@@ -3432,7 +3601,6 @@ com.amap.api.services.route.TimeInfo:
 kotlin.collections.AbstractMap$keys$1$iterator$1
 com.mapbox.api.staticmap.v1.models.StaticPolylineAnnotation
 com.autonavi.amap.mapcore.animation.GLAnimation
-com.scandit.datacapture.core.ui.DataCaptureView$contextStatusView$1$a
 kotlin.sequences.SequencesKt__SequencesKt$generateSequence$2
 com.amap.api.mapcore.util.as$a
 com.amap.api.services.a.cv$1
@@ -3505,11 +3673,15 @@ com.loc.az
 com.scandit.datacapture.core.capture.DataCaptureContextSettings:
     public final void setProperty(java.lang.String,java.lang.Object)
     public final java.lang.Object getProperty(java.lang.String)
-kotlin.text.Regex$Serialized
+kotlin.text.Regex$Serialized:
+    public final java.lang.String getPattern()
+    public final int getFlags()
 kotlin.jvm.internal.markers.KMutableMap$Entry
 com.almeros.android.multitouch.gesturedetectors.MoveGestureDetector
 com.mapzen.lost.R$styleable
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.c:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.lz$a
 kotlin.text.CharDirectionality
 com.scandit.datacapture.barcode.capture.BarcodeCaptureProxyAdapter:
@@ -3563,7 +3735,14 @@ com.amap.api.services.geocoder.RegeocodeRoad:
     public void setDirection(java.lang.String)
     public com.amap.api.services.core.LatLonPoint getLatLngPoint()
     public void setLatLngPoint(com.amap.api.services.core.LatLonPoint)
-com.scandit.datacapture.core.internal.module.b.a.a.d
+com.scandit.datacapture.core.internal.module.b.a.a.d:
+    protected static void a(android.hardware.Camera$Parameters,float,boolean)
+    protected static void a(android.hardware.Camera$Parameters,float)
+    public void a(android.hardware.Camera$Parameters,float,float)
+    protected final void b(android.hardware.Camera$Parameters,float)
+    public com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
+    public boolean d()
+    public boolean e()
 com.amap.api.services.a.ax$2
 com.mapbox.api.geocoding.v5.models.$AutoValue_CarmenContext:
     public com.mapbox.api.geocoding.v5.models.CarmenContext$Builder toBuilder()
@@ -3597,8 +3776,29 @@ com.mapbox.api.directions.v5.DirectionsAdapterFactory:
     public static com.google.gson.TypeAdapterFactory create()
 com.amap.api.mapcore.util.ce
 org.intellij.lang.annotations.RegExp
-kotlin.text.Regex
-kotlin.jvm.internal.MutablePropertyReference1
+kotlin.text.Regex:
+    public static synthetic kotlin.text.MatchResult find$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
+    public static synthetic kotlin.sequences.Sequence findAll$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
+    public static synthetic java.util.List split$default(kotlin.text.Regex,java.lang.CharSequence,int,int,java.lang.Object)
+    public void <init>(java.lang.String)
+    public void <init>(java.lang.String,java.util.Set)
+    public final java.lang.String getPattern()
+    public final java.util.Set getOptions()
+    public final boolean containsMatchIn(java.lang.CharSequence)
+    public final kotlin.text.MatchResult find(java.lang.CharSequence,int)
+    public final kotlin.sequences.Sequence findAll(java.lang.CharSequence,int)
+    public final kotlin.text.MatchResult matchEntire(java.lang.CharSequence)
+    public final java.lang.String replace(java.lang.CharSequence,java.lang.String)
+    public final java.lang.String replace(java.lang.CharSequence,kotlin.jvm.functions.Function1)
+    public final java.lang.String replaceFirst(java.lang.CharSequence,java.lang.String)
+    public final java.util.List split(java.lang.CharSequence,int)
+    public final java.util.regex.Pattern toPattern()
+kotlin.jvm.internal.MutablePropertyReference1:
+    public void <init>(java.lang.Object)
+    public kotlin.reflect.KMutableProperty1$Setter getSetter()
+    public java.lang.Object getDelegate(java.lang.Object)
+    public synthetic bridge kotlin.reflect.KMutableProperty$Setter getSetter()
+    public synthetic bridge kotlin.reflect.KProperty$Getter getGetter()
 com.mapbox.api.matching.v5.models.MapMatchingResponse:
     public static com.mapbox.api.matching.v5.models.MapMatchingResponse$Builder builder()
     public static com.mapbox.api.matching.v5.models.MapMatchingResponse fromJson(java.lang.String)
@@ -3613,8 +3813,9 @@ okhttp3.TlsVersion:
 kotlin.jvm.JvmSynthetic
 com.loc.l
 com.loc.m$a$a
-kotlin.reflect.KMutableProperty1
-com.scandit.datacapture.core.internal.module.ui.b$b
+kotlin.reflect.KMutableProperty1:
+    public abstract void set(java.lang.Object,java.lang.Object)
+    public abstract kotlin.reflect.KMutableProperty1$Setter getSetter()
 com.scandit.datacapture.core.source.serialization.FrameSourceDeserializerListenerReversedAdapter
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerListenerReversedAdapter$b
 org.intellij.lang.annotations.JdkConstants$TreeSelectionMode
@@ -3646,7 +3847,8 @@ com.amap.api.mapcore.util.fn
 com.autonavi.amap.mapcore.MapConfig
 kotlin.jvm.functions.Function3:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object)
-com.scandit.datacapture.core.internal.module.d.c$c
+com.scandit.datacapture.core.internal.module.d.c$c:
+    public void <init>(kotlin.jvm.functions.Function1,int,int,int)
 com.vividsolutions.jts.index.strtree.AbstractSTRtree$IntersectsOp
 com.mapbox.api.staticmap.v1.AutoValue_MapboxStaticMap$Builder
 com.vividsolutions.jts.noding.SegmentStringDissolver$SegmentStringMerger
@@ -3728,7 +3930,6 @@ kotlin.jvm.functions.Function14:
 kotlin.io.TextStreamsKt$readLines$1
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingBasicOverlayListenerReversedAdapter$b
 com.mapbox.api.matching.v5.models.MapMatchingTracepoint$Builder
-com.scandit.datacapture.core.internal.module.d.c$a$a
 com.scandit.datacapture.core.capture.DataCaptureContext$e
 kotlin.internal.jdk8.JDK8PlatformImplementations:
     public kotlin.text.MatchGroup getMatchResultNamedGroup(java.util.regex.MatchResult,java.lang.String)
@@ -3749,7 +3950,6 @@ okhttp3.CacheControl:
     public boolean immutable()
 com.autonavi.amap.mapcore.interfaces.IInfoWindowManager
 com.mapzen.android.lost.internal.LocationSettingsResultRequest
-com.scandit.datacapture.core.internal.module.b.a.a.c
 com.amap.api.services.a.ax$3
 timber.log.Timber$1:
     public varargs void v(java.lang.Throwable,java.lang.String,java.lang.Object[])
@@ -3771,7 +3971,11 @@ kotlin.ranges.URangesKt___URangesKt
 com.scandit.datacapture.core.internal.sdk.common.geometry.QuadrilateralUtilsKt
 com.autonavi.amap.mapcore.tools.GLConvertUtil
 com.amap.api.mapcore.util.ei$d
-com.scandit.datacapture.core.internal.module.source.CameraFactory
+com.scandit.datacapture.core.internal.module.source.CameraFactory:
+    private final synchronized com.scandit.datacapture.core.source.Camera b(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings)
+    public static final synthetic java.util.Map a(com.scandit.datacapture.core.internal.module.source.CameraFactory)
+    public final com.scandit.datacapture.core.source.Camera a(com.scandit.datacapture.core.source.CameraSettings)
+    public final com.scandit.datacapture.core.source.Camera a(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings)
 kotlin.ThrowsKt
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$9
 com.vividsolutions.jts.simplify.TaggedLineSegment
@@ -3810,7 +4014,9 @@ com.scandit.datacapture.core.ui.viewfinder.SpotlightViewfinderProxy
 com.scandit.datacapture.core.framesave.FrameSaveSessionListenerReversedAdapter$d
 com.mapzen.android.lost.api.GeofencingRequest
 com.vividsolutions.jts.operation.overlay.snap.GeometrySnapper
-com.scandit.datacapture.core.internal.module.b.a.a.b.e.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 kotlin.jvm.internal.PropertyReference2Impl
 com.amap.api.mapcore.util.cf
 kotlin.collections.IndexingIterator
@@ -3879,7 +4085,6 @@ com.amap.api.maps.AMapOptions:
     public static final int LOGO_MARGIN_RIGHT
     public static final int LOGO_MARGIN_BOTTOM
 com.amap.api.services.poisearch.PoiSearch$SearchBound
-com.scandit.datacapture.core.internal.module.ui.b$c
 com.amap.api.services.route.RailwaySpace:
     public void <init>(java.lang.String,float)
     public java.lang.String getCode()
@@ -3889,7 +4094,9 @@ com.amap.api.trace.TraceListener
 jcg.mini_dji_go_app.R$color
 kotlin.internal.HidesMembers
 com.amap.api.services.a.t
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.f
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.f:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.el
 com.vividsolutions.jts.util.CollectionUtil$Function
 com.amap.api.mapcore.util.c$7
@@ -4030,7 +4237,10 @@ kotlin.text.CharsKt__CharJVMKt:
     public static final int checkRadix(int)
     public void <init>()
 kotlin.coroutines.ContinuationInterceptor
-kotlin.jvm.internal.PropertyReference
+kotlin.jvm.internal.PropertyReference:
+    public void <init>(java.lang.Object)
+    public boolean isLateinit()
+    public boolean isConst()
 com.mapzen.android.lost.internal.LostRequestManager:
     public void requestLocationUpdates(com.mapzen.android.lost.api.LostApiClient,com.mapzen.android.lost.api.LocationRequest,com.mapzen.android.lost.api.LocationCallback)
     public void requestLocationUpdates(com.mapzen.android.lost.api.LostApiClient,com.mapzen.android.lost.api.LocationRequest,android.app.PendingIntent)
@@ -4106,16 +4316,21 @@ com.amap.api.maps.model.Marker
 com.amap.api.mapcore.util.aa
 com.loc.bf$1
 com.amap.api.services.a.bm
-com.scandit.datacapture.core.internal.sdk.utils.PixelExtensionsKt
 com.loc.dc
 com.mapbox.api.matching.v5.models.$AutoValue_MapMatchingMatching$Builder
 com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.d
 kotlin.collections.unsigned.UArraysKt___UArraysJvmKt$asList$1
 kotlin.PublishedApi
 com.vividsolutions.jts.io.WKTWriter
-com.scandit.datacapture.core.ui.gesture.FocusGestureListenerReversedAdapter
+com.scandit.datacapture.core.ui.gesture.FocusGestureListenerReversedAdapter:
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 com.amap.api.maps.model.UrlTileProvider
-com.scandit.datacapture.core.internal.module.b.a.a.b
+com.scandit.datacapture.core.internal.module.b.a.a.b:
+    public abstract com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public abstract void a(android.hardware.Camera$Parameters,float,float)
+    public abstract com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
+    public abstract boolean d()
+    public abstract boolean e()
 com.autonavi.ae.gmap.maploader.Pools$SynchronizedPool:
     public boolean release(java.lang.Object)
 com.amap.api.services.a.bm$a
@@ -4127,7 +4342,6 @@ com.autonavi.amap.mapcore.gles.AMapNativeGLShaderManager
 com.amap.api.mapcore.util.md
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializer
 com.vividsolutions.jts.index.strtree.Interval
-com.scandit.datacapture.core.internal.module.b.a.a.c$a
 com.amap.api.mapcore.util.bd
 com.vividsolutions.jts.io.InStream
 okhttp3.internal.ws.WebSocketReader$FrameCallback
@@ -4164,12 +4378,12 @@ okhttp3.Request:
     public java.lang.Object tag()
     public java.lang.Object tag(java.lang.Class)
 com.autonavi.ae.gmap.gloverlay.GLCrossVector$AVectorCrossAttr
-kotlin.text.RegexOption
+kotlin.text.RegexOption:
+    public int getMask()
 kotlin.jvm.internal.ArrayFloatIterator
 kotlin.jvm.internal.Lambda:
     public int getArity()
 com.amap.api.mapcore.util.cg
-com.scandit.datacapture.core.internal.module.d.c$a
 com.scandit.datacapture.core.ui.serialization.DataCaptureViewDeserializer$a
 com.amap.api.services.poisearch.PoiResult
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsJvmKt$createCoroutineUnintercepted$$inlined$createCoroutineFromSuspendFunction$IntrinsicsKt__IntrinsicsJvmKt$4
@@ -4199,7 +4413,9 @@ com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.TrackedBarco
 com.nineoldandroids.animation.PropertyValuesHolder$FloatPropertyValuesHolder:
     public void <init>(java.lang.String,com.nineoldandroids.animation.FloatKeyframeSet)
     public void <init>(com.nineoldandroids.util.Property,com.nineoldandroids.animation.FloatKeyframeSet)
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.e
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.e:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.em
 com.autonavi.amap.mapcore.AMapNativePolyline
 com.amap.api.maps.model.animation.ScaleAnimation
@@ -4216,7 +4432,6 @@ com.amap.api.maps.model.TextOptions:
     public int getFontSize()
     public float getZIndex()
     public boolean isVisible()
-com.scandit.datacapture.core.internal.module.ui.b$d
 com.amap.api.services.route.RouteSearch$WalkRouteQuery:
     public void <init>(com.amap.api.services.route.RouteSearch$FromAndTo,int)
     public com.amap.api.services.route.RouteSearch$FromAndTo getFromAndTo()
@@ -4251,7 +4466,8 @@ com.amap.api.services.a.bj$1
 com.amap.api.services.a.da:
     public synchronized com.amap.api.services.a.da$b a(java.lang.String)
     public java.io.File b()
-com.scandit.datacapture.core.internal.module.b.a.a.b.h.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.h.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 kotlin.jvm.JvmField
 kotlin.jvm.functions.Function12:
     public abstract java.lang.Object invoke(java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object,java.lang.Object)
@@ -4592,7 +4808,113 @@ okhttp3.internal.cache.DiskLruCache
 kotlin.BuilderInference
 com.vividsolutions.jts.algorithm.NotRepresentableException
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerListenerReversedAdapter$j
-kotlin.math.MathKt__MathJVMKt
+kotlin.math.MathKt__MathJVMKt:
+    private static final double sin(double)
+    private static final double cos(double)
+    private static final double tan(double)
+    private static final double asin(double)
+    private static final double acos(double)
+    private static final double atan(double)
+    private static final double atan2(double,double)
+    private static final double sinh(double)
+    private static final double cosh(double)
+    private static final double tanh(double)
+    public static final double asinh(double)
+    public static final double acosh(double)
+    public static final double atanh(double)
+    private static final double hypot(double,double)
+    private static final double sqrt(double)
+    private static final double exp(double)
+    private static final double expm1(double)
+    public static final double log(double,double)
+    private static final double ln(double)
+    private static final double log10(double)
+    public static final double log2(double)
+    private static final double ln1p(double)
+    private static final double ceil(double)
+    private static final double floor(double)
+    public static final double truncate(double)
+    private static final double round(double)
+    private static final double abs(double)
+    private static final double sign(double)
+    private static final double min(double,double)
+    private static final double max(double,double)
+    private static final double pow(double,double)
+    private static final double pow(double,int)
+    private static final double IEEErem(double,double)
+    public static synthetic void getAbsoluteValue$annotations(double)
+    private static final double getAbsoluteValue(double)
+    public static synthetic void getSign$annotations(double)
+    private static final double getSign(double)
+    private static final double withSign(double,double)
+    private static final double withSign(double,int)
+    public static synthetic void getUlp$annotations(double)
+    private static final double getUlp(double)
+    private static final double nextUp(double)
+    private static final double nextDown(double)
+    private static final double nextTowards(double,double)
+    public static final int roundToInt(double)
+    public static final long roundToLong(double)
+    private static final float sin(float)
+    private static final float cos(float)
+    private static final float tan(float)
+    private static final float asin(float)
+    private static final float acos(float)
+    private static final float atan(float)
+    private static final float atan2(float,float)
+    private static final float sinh(float)
+    private static final float cosh(float)
+    private static final float tanh(float)
+    private static final float asinh(float)
+    private static final float acosh(float)
+    private static final float atanh(float)
+    private static final float hypot(float,float)
+    private static final float sqrt(float)
+    private static final float exp(float)
+    private static final float expm1(float)
+    public static final float log(float,float)
+    private static final float ln(float)
+    private static final float log10(float)
+    public static final float log2(float)
+    private static final float ln1p(float)
+    private static final float ceil(float)
+    private static final float floor(float)
+    public static final float truncate(float)
+    private static final float round(float)
+    private static final float abs(float)
+    private static final float sign(float)
+    private static final float min(float,float)
+    private static final float max(float,float)
+    private static final float pow(float,float)
+    private static final float pow(float,int)
+    private static final float IEEErem(float,float)
+    public static synthetic void getAbsoluteValue$annotations(float)
+    private static final float getAbsoluteValue(float)
+    public static synthetic void getSign$annotations(float)
+    private static final float getSign(float)
+    private static final float withSign(float,float)
+    private static final float withSign(float,int)
+    public static synthetic void getUlp$annotations(float)
+    private static final float getUlp(float)
+    private static final float nextUp(float)
+    private static final float nextDown(float)
+    private static final float nextTowards(float,float)
+    public static final long roundToLong(float)
+    private static final int abs(int)
+    private static final int min(int,int)
+    private static final int max(int,int)
+    public static synthetic void getAbsoluteValue$annotations(int)
+    private static final int getAbsoluteValue(int)
+    public static synthetic void getSign$annotations(int)
+    public static final int getSign(int)
+    private static final long abs(long)
+    private static final long min(long,long)
+    private static final long max(long,long)
+    public static synthetic void getAbsoluteValue$annotations(long)
+    private static final long getAbsoluteValue(long)
+    public static synthetic void getSign$annotations(long)
+    public static final int getSign(long)
+    public void <init>()
 com.amap.api.mapcore.util.ei$b
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerProxy
 com.amap.api.mapcore.util.dt
@@ -4620,7 +4942,8 @@ kotlin.PreconditionsKt__PreconditionsKt
 com.loc.l$1
 com.scandit.datacapture.core.internal.module.source.CameraFactory$a
 kotlin.jvm.internal.markers.KMutableCollection
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.y
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.y:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.nineoldandroids.view.ViewPropertyAnimatorICS$1
 com.scandit.datacapture.barcode.data.CompositeTypeDescription
 com.amap.api.mapcore.util.fz
@@ -4645,7 +4968,8 @@ com.vividsolutions.jts.operation.relate.EdgeEndBundleStar
 com.amap.api.mapcore.util.fv$1$3
 com.vividsolutions.jts.index.bintree.Root
 com.amap.api.mapcore.util.o$a
-com.scandit.datacapture.core.internal.sdk.ui.overlay.ViewBasedDataCaptureOverlay
+com.scandit.datacapture.core.internal.sdk.ui.overlay.ViewBasedDataCaptureOverlay:
+    public void <init>(android.content.Context)
 kotlin.time.DurationKt
 com.scandit.datacapture.core.internal.module.source.q
 com.vividsolutions.jts.noding.NodeVertexIterator
@@ -4675,7 +4999,6 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureSessionProxyAdapter:
     public final void reset()
     public final java.lang.String toJson()
     public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_barcode_capture()
-com.scandit.datacapture.core.internal.module.ui.d$a
 com.amap.api.location.CoordinateConverter$1
 com.amap.api.services.route.SearchCity:
     public java.lang.String getSearchCityName()
@@ -4744,13 +5067,13 @@ com.amap.api.mapcore.util.ki
 com.vividsolutions.jts.geomgraph.EdgeIntersectionList
 kotlin.jvm.JvmStatic
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingBasicOverlay$Companion
-kotlin.sequences.SequencesKt
+kotlin.sequences.SequencesKt:
+    private void <init>()
 com.scandit.datacapture.core.area.serialization.LocationSelectionDeserializerHelper
 com.scandit.datacapture.barcode.capture.BarcodeCaptureProxy
 com.mapbox.api.directions.v5.models.$AutoValue_BannerText$Builder
 kotlin.KotlinVersion$Companion
 com.vividsolutions.jts.operation.overlay.LineBuilder
-com.scandit.datacapture.core.ui.DataCaptureView$dataCaptureContextListener$1
 kotlin.text.MatcherMatchResult$groups$1$iterator$1
 com.scandit.datacapture.core.internal.sdk.common.feedback.FeedbackDeserializer
 com.amap.api.maps.model.CircleHoleOptions:
@@ -6556,7 +6879,6 @@ kotlin.collections.ArraysKt___ArraysKt:
     public static final java.lang.Iterable asIterable(double[])
     public static final java.lang.Iterable asIterable(boolean[])
     public static final java.lang.Iterable asIterable(char[])
-    public static final kotlin.sequences.Sequence asSequence(java.lang.Object[])
     public static final kotlin.sequences.Sequence asSequence(byte[])
     public static final kotlin.sequences.Sequence asSequence(short[])
     public static final kotlin.sequences.Sequence asSequence(int[])
@@ -6666,7 +6988,9 @@ com.scandit.datacapture.barcode.data.SymbologyDescription:
     public final com.scandit.datacapture.barcode.data.Symbology getSymbology()
     public final com.scandit.datacapture.barcode.internal.sdk.data.NativeSymbologyDescription _impl()
     public final java.lang.String toJson()
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.x
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.x:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.scandit.datacapture.barcode.data.CompositeTypeDescriptionProxyAdapter
 kotlin.collections.ULongIterator
 com.mapbox.api.optimization.v1.AutoValue_MapboxOptimization
@@ -6684,7 +7008,14 @@ retrofit2.Platform$Android$MainThreadExecutor
 kotlin.jvm.internal.PrimitiveSpreadBuilder
 com.amap.api.mapcore.util.jg
 com.vividsolutions.jts.operation.buffer.BufferSubgraph
-kotlin.sequences.SequencesKt___SequencesJvmKt
+kotlin.sequences.SequencesKt___SequencesJvmKt:
+    public static final kotlin.sequences.Sequence filterIsInstance(kotlin.sequences.Sequence,java.lang.Class)
+    public static final java.util.Collection filterIsInstanceTo(kotlin.sequences.Sequence,java.util.Collection,java.lang.Class)
+    public static final java.util.SortedSet toSortedSet(kotlin.sequences.Sequence)
+    public static final java.util.SortedSet toSortedSet(kotlin.sequences.Sequence,java.util.Comparator)
+    private static final java.math.BigDecimal sumOfBigDecimal(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.math.BigInteger sumOfBigInteger(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public void <init>()
 com.amap.api.services.a.o
 com.scandit.datacapture.core.common.graphic.ImageBufferProxyAdapter
 com.amap.api.mapcore.util.am
@@ -6697,7 +7028,8 @@ com.qx.wz.dj.rtcm.ActiveListenerWrapper:
     private java.lang.String mDeviceId
     private java.lang.String mDeviceType
 com.amap.api.maps.model.LatLngBounds$Builder
-com.scandit.datacapture.core.ui.style.Brush
+com.scandit.datacapture.core.ui.style.Brush:
+    public static final com.scandit.datacapture.core.ui.style.Brush transparent()
 okhttp3.internal.http.RequestLine:
     private void <init>()
 com.amap.api.mapcore.util.kj
@@ -6705,7 +7037,6 @@ kotlin.internal.NoInfer
 com.mapbox.api.speech.v1.AutoValue_MapboxSpeech$Builder
 com.loc.bh$2
 kotlin.jvm.internal.DoubleCompanionObject
-com.scandit.datacapture.core.internal.module.ui.control.ControlLayout$a
 kotlin.io.LineReader$readLine$1
 kotlin.reflect.TypeOfKt
 com.almeros.android.multitouch.gesturedetectors.BaseGestureDetector:
@@ -6724,7 +7055,8 @@ kotlin.collections.builders.MapBuilderKeys
 com.amap.api.mapcore.util.bp
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerListenerReversedAdapter$l
 com.vividsolutions.jts.algorithm.InteriorPointLine
-kotlin.reflect.KDeclarationContainer
+kotlin.reflect.KDeclarationContainer:
+    public abstract java.util.Collection getMembers()
 okhttp3.internal.http.RealResponseBody:
     public okhttp3.MediaType contentType()
 kotlin.collections.AbstractMap$values$1
@@ -6787,7 +7119,6 @@ com.amap.api.maps.model.RouteOverlay
 org.intellij.lang.annotations.JdkConstants$HorizontalAlignment
 com.vividsolutions.jts.geomgraph.EdgeList
 com.autonavi.ae.gmap.glanimation.AbstractAdglAnimationParam2V
-com.scandit.datacapture.core.internal.module.d.b$b
 retrofit2.OkHttpCall
 com.amap.api.maps.utils.overlay.SmoothMoveMarker$b
 com.scandit.datacapture.core.ui.viewfinder.serialization.ViewfinderDeserializerHelper
@@ -6817,7 +7148,9 @@ com.vividsolutions.jts.noding.ScaledNoder$2
 com.amap.api.maps.model.Gradient$1
 kotlin.text.TypeAliasesKt
 com.mapzen.lost.R$integer
-kotlin.sequences.SequencesKt__SequencesJVMKt
+kotlin.sequences.SequencesKt__SequencesJVMKt:
+    private static final kotlin.sequences.Sequence asSequence(java.util.Enumeration)
+    public void <init>()
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingAdvancedOverlay$e
 com.mapbox.api.directions.v5.models.$AutoValue_MaxSpeed$1
 com.autonavi.aps.amapapi.model.AMapLocationServer:
@@ -6876,11 +7209,27 @@ com.mapzen.android.lost.api.PendingResult:
     public abstract void setResultCallback(com.mapzen.android.lost.api.ResultCallback)
     public abstract void setResultCallback(com.mapzen.android.lost.api.ResultCallback,long,java.util.concurrent.TimeUnit)
 com.amap.api.maps.TextureMapFragment
-com.scandit.datacapture.core.internal.module.b.a.a.a.b
+com.scandit.datacapture.core.internal.module.b.a.a.a.b:
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.vividsolutions.jts.operation.GeometryGraphOperation
 com.scandit.datacapture.core.internal.module.source.a$a
 com.amap.api.mapcore.util.f$1
-com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderProxyAdapter
+com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderProxyAdapter:
+    public final int getColor()
+    public final void setColor(int)
+    public final int getDisabledColor()
+    public final void setDisabledColor(int)
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderStyle getStyle()
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderAnimation getAnimation()
+    public final void setAnimation(com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderAnimation)
+    public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderLineStyle getLineStyle()
+    public final float getDimming()
+    public final void setDimming(float)
+    public final com.scandit.datacapture.core.internal.sdk.ui.viewfinder.NativeRectangularViewfinder _impl()
+    public final void setWidthAndAspectRatio(com.scandit.datacapture.core.common.geometry.FloatWithUnit,float)
+    public final void setHeightAndAspectRatio(com.scandit.datacapture.core.common.geometry.FloatWithUnit,float)
+    public final void setShorterDimensionAndAspectRatio(float,float)
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 com.amap.api.mapcore.util.jf
 com.mapbox.api.directions.v5.models.$AutoValue_DirectionsWaypoint:
     public com.mapbox.api.directions.v5.models.DirectionsWaypoint$Builder toBuilder()
@@ -7117,14 +7466,21 @@ com.amap.api.mapcore.util.lp$a
 com.amap.api.mapcore.util.bf$3
 com.vividsolutions.jts.noding.ScaledNoder$1
 com.scandit.datacapture.core.license.Expiration$NotAvailable
-kotlin.math.MathKt
+kotlin.math.MathKt:
+    private void <init>()
+    public static synthetic void getE$annotations()
+    public static synthetic void getPI$annotations()
+    public static final double E
+    public static final double PI
 com.qx.wz.dj.rtcm.QxRtcmManger:
     public com.qx.wz.dj.rtcm.QxAccount getQxAccount()
     public void queryPlan(com.qx.wz.dj.rtcm.QxRtcmPlanQueryListener)
     public void queryPlan(com.qx.wz.dj.rtcm.QxRtcmPlanQueryListener,android.os.Looper)
     public void rtcmResume()
 com.loc.co$1
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.z
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.z:
+    public final boolean e()
+    public final boolean d()
 com.amap.api.maps.utils.overlay.SmoothMoveMarker$c
 kotlin.coroutines.CoroutineContext$plus$1
 com.loc.cu
@@ -7187,7 +7543,8 @@ retrofit2.ParameterHandler$FieldMap
 com.scandit.datacapture.tools.internal.sdk.ProxyCache:
     public abstract java.lang.Object requireByValue(kotlin.reflect.KClass,java.lang.Object)
     public abstract java.lang.Object getByValueOrPut(kotlin.reflect.KClass,java.lang.Object,kotlin.jvm.functions.Function0)
-com.scandit.datacapture.core.internal.module.b.a.a.a.a
+com.scandit.datacapture.core.internal.module.b.a.a.a.a:
+    public void a(android.hardware.Camera$Parameters,float,float)
 com.mapbox.api.matching.v5.AutoValue_MapboxMapMatching$Builder
 com.vividsolutions.jts.operation.relate.RelateNode
 com.amap.api.maps.InfoWindowAnimationManager
@@ -7201,7 +7558,6 @@ com.scandit.datacapture.core.internal.module.source.a$b
 com.scandit.datacapture.barcode.tracking.data.TrackedBarcodeProxyAdapter
 retrofit2.ParameterHandler$PartMap
 com.amap.api.mapcore.util.id
-com.scandit.datacapture.barcode.capture.BarcodeCaptureSettingsProxyAdapter$a
 okhttp3.internal.platform.Jdk9Platform:
     public javax.net.ssl.X509TrustManager trustManager(javax.net.ssl.SSLSocketFactory)
 com.vividsolutions.jts.operation.valid.SweeplineNestedRingTester
@@ -7209,7 +7565,6 @@ com.vividsolutions.jts.geomgraph.index.SimpleSweepLineIntersector
 com.scandit.datacapture.core.capture.DataCaptureMode:
     public abstract boolean isEnabled()
     public abstract void setEnabled(boolean)
-    public abstract com.scandit.datacapture.core.capture.DataCaptureContext getDataCaptureContext()
 com.scandit.datacapture.core.internal.sdk.extensions.ImageExtensionsKt
 com.scandit.datacapture.barcode.feedback.BarcodeCaptureFeedback$Companion:
     public final com.scandit.datacapture.barcode.feedback.BarcodeCaptureFeedback fromJson(java.lang.String)
@@ -7283,12 +7638,27 @@ com.vividsolutions.jts.operation.distance.GeometryLocation
 com.qx.wz.dj.rtcm.RtcmServiceManager:
     public com.qx.wz.dj.rtcm.QxAccount getAccount()
 com.amap.api.mapcore.util.fv
-kotlin.sequences.SequencesKt__SequencesKt
+kotlin.sequences.SequencesKt__SequencesKt:
+    private static final kotlin.sequences.Sequence Sequence(kotlin.jvm.functions.Function0)
+    public static final kotlin.sequences.Sequence asSequence(java.util.Iterator)
+    private static final kotlin.sequences.Sequence orEmpty(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence ifEmpty(kotlin.sequences.Sequence,kotlin.jvm.functions.Function0)
+    public static final kotlin.sequences.Sequence flatten(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence flattenSequenceOfIterable(kotlin.sequences.Sequence)
+    private static final kotlin.sequences.Sequence flatten$SequencesKt__SequencesKt(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.Pair unzip(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence shuffled(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence shuffled(kotlin.sequences.Sequence,kotlin.random.Random)
+    public static final kotlin.sequences.Sequence flatMapIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence constrainOnce(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence generateSequence(kotlin.jvm.functions.Function0)
+    public static final kotlin.sequences.Sequence generateSequence(java.lang.Object,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence generateSequence(kotlin.jvm.functions.Function0,kotlin.jvm.functions.Function1)
+    public void <init>()
 com.scandit.datacapture.barcode.R$drawable
 com.scandit.datacapture.core.internal.sdk.area.NoLocationSelectionProxy
 com.amap.api.maps.utils.overlay.SmoothMoveMarker$MoveListener
 kotlin.sequences.IndexingSequence
-com.scandit.datacapture.core.internal.module.ui.b$c$1
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$4
 com.mapzen.android.lost.internal.SettingsApiImpl:
     public com.mapzen.android.lost.api.PendingResult checkLocationSettings(com.mapzen.android.lost.api.LostApiClient,com.mapzen.android.lost.api.LocationSettingsRequest)
@@ -7299,7 +7669,16 @@ com.amap.api.mapcore.util.dw$a
 com.scandit.datacapture.core.source.FrameSourceStateSerializer
 jcg.mini_dji_go_app.model.BarcodeScanActivity$2
 com.vividsolutions.jts.operation.linemerge.LineMerger$1
-com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay
+com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay:
+    public static final com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay fromJson(com.scandit.datacapture.barcode.capture.BarcodeCapture,java.lang.String)
+    public static final com.scandit.datacapture.core.ui.style.Brush defaultBrush()
+    public final void setProperty(java.lang.String,java.lang.Object)
+    public final java.lang.Object getProperty(java.lang.String)
+    public final com.scandit.datacapture.core.ui.viewfinder.Viewfinder getViewfinder()
+    public final void updateFromJson(java.lang.String)
+    public final com.scandit.datacapture.core.ui.style.Brush getBrush()
+    public final boolean getShouldShowScanAreaGuides()
+    public final void setShouldShowScanAreaGuides(boolean)
 com.vividsolutions.jts.operation.buffer.BufferBuilder
 com.vividsolutions.jts.operation.overlay.validate.OverlayResultValidator
 com.amap.api.mapcore.util.gy
@@ -7308,7 +7687,6 @@ com.mapbox.api.directions.v5.models.BannerInstructions:
     public static com.mapbox.api.directions.v5.models.BannerInstructions$Builder builder()
     public static com.mapbox.api.directions.v5.models.BannerInstructions fromJson(java.lang.String)
     public abstract com.mapbox.api.directions.v5.models.BannerInstructions$Builder toBuilder()
-com.scandit.datacapture.core.internal.module.ui.b
 com.loc.ap
 kotlin.jvm.internal.PropertyReference1
 kotlin.UNumbersKt
@@ -7403,7 +7781,6 @@ com.scandit.datacapture.core.common.feedback.Vibration:
 com.scandit.datacapture.core.ui.DataCaptureView$distinctObservable$$inlined$observable$1
 com.mapzen.android.lost.api.ResultCallback
 com.scandit.datacapture.core.common.geometry.QuadrilateralUtilsKt
-com.scandit.datacapture.core.internal.sdk.extensions.RotationExtensionsKt
 kotlin.reflect.WildcardTypeImpl$Companion
 com.amap.api.mapcore.util.cl:
     public void h()
@@ -7515,7 +7892,6 @@ com.scandit.datacapture.core.source.BitmapFrameSource:
     public final com.scandit.datacapture.core.source.FrameSourceState getCurrentState()
     public final com.scandit.datacapture.core.source.FrameSourceState getDesiredState()
     public final com.scandit.datacapture.core.internal.sdk.source.NativeFrameDataCollectionFrameSource _impl()
-com.scandit.datacapture.core.internal.module.ui.b$c$2
 com.vividsolutions.jts.geomgraph.index.EdgeSetIntersector
 com.mapbox.api.directions.v5.models.LegStep$Builder
 kotlin.sequences.SequencesKt___SequencesKt$onEach$1
@@ -7523,7 +7899,10 @@ kotlin.collections.Grouping
 com.amap.api.mapcore.util.c$b$1
 com.squareup.otto.Bus$1
 com.scandit.datacapture.core.ui.orientation.DeviceOrientationUtilsKt
-kotlin.jvm.KotlinReflectionNotSupportedError
+kotlin.jvm.KotlinReflectionNotSupportedError:
+    public void <init>(java.lang.String)
+    public void <init>(java.lang.String,java.lang.Throwable)
+    public void <init>(java.lang.Throwable)
 kotlin.ranges.ULongProgressionIterator
 com.loc.d
 jcg.mini_dji_go_app.model.BarcodeScanActivity$1
@@ -7534,7 +7913,6 @@ com.vividsolutions.jts.index.quadtree.Quadtree
 kotlin.text.MatchNamedGroupCollection
 okhttp3.internal.tls.BasicCertificateChainCleaner:
     private static final int MAX_SIGNERS
-com.scandit.datacapture.core.internal.sdk.data.Subscription
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$3
 okhttp3.internal.http.StatusLine:
     public static okhttp3.internal.http.StatusLine get(okhttp3.Response)
@@ -7558,7 +7936,6 @@ com.amap.api.maps.offlinemap.City:
     public void setAdcode(java.lang.String)
 com.amap.api.mapcore.util.et
 kotlin.sequences.SequencesKt___SequencesKt$runningReduce$1
-com.scandit.datacapture.core.internal.module.ui.GestureListener
 okhttp3.Cookie$Builder
 com.scandit.datacapture.core.source.FocusGestureStrategyUtilsKt
 com.mapbox.api.matching.v5.models.$AutoValue_MapMatchingResponse$1
@@ -7604,7 +7981,8 @@ com.mapzen.android.lost.internal.FusedLocationProviderApiImpl:
     public com.mapzen.android.lost.api.PendingResult setMockTrace(com.mapzen.android.lost.api.LostApiClient,java.lang.String,java.lang.String)
     public java.util.Map getLocationListeners()
     com.mapzen.android.lost.internal.FusedLocationServiceConnectionManager getServiceConnectionManager()
-com.scandit.datacapture.core.internal.module.b.a.a.b.n.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.n.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.services.a.h
 kotlin.Triple
 retrofit2.converter.gson.GsonConverterFactory
@@ -7613,18 +7991,19 @@ kotlin.collections.AbstractMutableSet
 org.jetbrains.annotations.Nls
 com.amap.api.services.a.bw:
     public void <init>(com.amap.api.services.a.bt)
-com.scandit.datacapture.core.internal.module.ui.a
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerHelperReversedAdapter$c
 com.loc.aq
 kotlin.sequences.SequencesKt___SequencesKt$minus$2$iterator$1
 kotlin.annotation.Retention
 retrofit2.http.PartMap
-kotlin.reflect.KProperty
+kotlin.reflect.KProperty:
+    public abstract boolean isLateinit()
+    public abstract boolean isConst()
+    public abstract kotlin.reflect.KProperty$Getter getGetter()
 retrofit2.http.Field
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$14
 kotlin.text.CharCategory$Companion$categoryMap$2
 kotlin.streams.jdk8.StreamsKt$asSequence$$inlined$Sequence$2
-com.scandit.datacapture.core.internal.module.d.b$a
 com.mapbox.api.staticmap.v1.models.AutoValue_StaticPolylineAnnotation
 com.amap.api.mapcore.util.x
 com.loc.bt
@@ -7639,7 +8018,29 @@ okhttp3.internal.http2.Http2Stream:
 com.amap.api.services.routepoisearch.RoutePOISearch$RoutePOISearchType
 com.amap.api.services.a.cz
 com.vividsolutions.jts.index.bintree.NodeBase
-com.scandit.datacapture.core.internal.module.b.a.a.b$a
+com.scandit.datacapture.core.internal.module.b.a.a.b$a:
+    public static java.lang.String a()
+    public static boolean b(java.lang.String)
+    public static boolean c(java.lang.String)
+    public static boolean d(java.lang.String)
+    public static boolean e(java.lang.String)
+    public static boolean f(java.lang.String)
+    public static boolean g(java.lang.String)
+    public static boolean h(java.lang.String)
+    public static boolean i(java.lang.String)
+    public static boolean j(java.lang.String)
+    public static boolean k(java.lang.String)
+    public static boolean l(java.lang.String)
+    public static boolean m(java.lang.String)
+    public static boolean n(java.lang.String)
+    public static boolean o(java.lang.String)
+    public static boolean p(java.lang.String)
+    public static boolean q(java.lang.String)
+    public static boolean r(java.lang.String)
+    public static boolean s(java.lang.String)
+    public static boolean t(java.lang.String)
+    public static boolean u(java.lang.String)
+    public static boolean v(java.lang.String)
 com.vividsolutions.jts.operation.relate.EdgeEndBuilder
 com.amap.api.mapcore.util.ja
 com.amap.api.mapcore.util.gq$b
@@ -7654,8 +8055,15 @@ com.mapzen.android.lost.api.LocationRequest:
     static final long DEFAULT_INTERVAL_IN_MS
     static final long DEFAULT_FASTEST_INTERVAL_IN_MS
     static final float DEFAULT_SMALLEST_DISPLACEMENT_IN_METERS
-com.scandit.datacapture.core.source.Camera$Companion
-com.scandit.datacapture.core.internal.module.b.a.a.b.c.a
+com.scandit.datacapture.core.source.Camera$Companion:
+    public static synthetic com.scandit.datacapture.core.source.Camera getDefaultCamera$default(com.scandit.datacapture.core.source.Camera$Companion,com.scandit.datacapture.core.source.CameraSettings,int,java.lang.Object)
+    public static synthetic com.scandit.datacapture.core.source.Camera getCamera$default(com.scandit.datacapture.core.source.Camera$Companion,com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings,int,java.lang.Object)
+    public final com.scandit.datacapture.core.source.Camera getDefaultCamera(com.scandit.datacapture.core.source.CameraSettings)
+    public final com.scandit.datacapture.core.source.Camera getDefaultCamera()
+    public final com.scandit.datacapture.core.source.Camera getCamera(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings)
+    public final com.scandit.datacapture.core.source.Camera getCamera(com.scandit.datacapture.core.source.CameraPosition)
+    public final com.scandit.datacapture.core.source.Camera fromJson(java.lang.String)
+    public final com.scandit.datacapture.core.source.Camera create$scandit_capture_core(com.scandit.datacapture.core.internal.module.source.NativeCameraDelegate)
 com.loc.cw
 okhttp3.internal.http.HttpHeaders:
     private void <init>()
@@ -7760,7 +8168,6 @@ com.mapbox.geojson.$AutoValue_MultiLineString:
 com.mapbox.api.matching.v5.MapMatchingService
 com.scandit.datacapture.core.internal.module.source.n
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$3
-com.scandit.datacapture.core.ui.DataCaptureViewSizeListener
 kotlin.coroutines.intrinsics.IntrinsicsKt__IntrinsicsKt
 com.amap.api.maps.offlinemap.OfflineMapManager$1$4
 okhttp3.Interceptor$Chain:
@@ -7914,7 +8321,6 @@ kotlin.collections.CollectionsKt__IteratorsJVMKt:
     public void <init>()
 com.amap.api.maps.CoordinateConverter
 com.amap.api.mapcore.util.fo$c
-com.scandit.datacapture.core.ui.gesture.FocusGestureListenerReversedAdapter$a
 com.scandit.datacapture.barcode.tracking.data.TrackedBarcodeProxyAdapter$a
 com.amap.api.mapcore.util.co:
     public void h()
@@ -8067,7 +8473,6 @@ com.amap.api.services.a.k
 kotlin.jvm.JvmWildcard
 com.loc.bp$b
 com.mapbox.api.speech.v1.AutoValue_MapboxSpeech
-com.scandit.datacapture.core.internal.module.ui.d
 com.qx.wz.dj.rtcm.PlanQueryListenerWrapper:
     public void <init>(com.qx.wz.dj.rtcm.QxRtcmPlanQueryListener,android.os.Looper)
 com.amap.api.mapcore.util.dr
@@ -8190,7 +8595,6 @@ com.loc.ar
 com.vividsolutions.jts.index.ItemVisitor
 com.amap.api.services.a.cy
 com.amap.api.services.nearby.NearbySearch$1
-com.scandit.datacapture.core.ui.gesture.SwipeToZoom$a
 com.amap.api.mapcore.util.jb
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$13
 com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderProxy
@@ -8253,8 +8657,9 @@ com.amap.api.maps.model.animation.RotateAnimation
 com.scandit.datacapture.core.ui.viewfinder.serialization.LaserlineViewfinderUtilsKt
 com.nineoldandroids.view.ViewPropertyAnimatorPreHC
 org.intellij.lang.annotations.JdkConstants$ListSelectionMode
-com.scandit.datacapture.core.internal.module.b.a.a.b.i.a
-com.scandit.datacapture.core.ui.DataCaptureView$Companion
+com.scandit.datacapture.core.internal.module.b.a.a.b.i.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final boolean e()
 com.amap.api.maps.offlinemap.OfflineMapManager$1$3
 com.amap.api.services.a.as
 com.amap.api.mapcore.util.lh
@@ -8375,7 +8780,10 @@ com.mapbox.api.directions.v5.models.LegAnnotation:
     public static com.mapbox.api.directions.v5.models.LegAnnotation fromJson(java.lang.String)
     public abstract com.mapbox.api.directions.v5.models.LegAnnotation$Builder toBuilder()
 com.scandit.datacapture.core.internal.module.source.a$g
-com.scandit.datacapture.core.ui.gesture.TapToFocusProxyAdapter
+com.scandit.datacapture.core.ui.gesture.TapToFocusProxyAdapter:
+    public final void triggerFocus(com.scandit.datacapture.core.common.geometry.PointWithUnit)
+    public final java.lang.String toJson()
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 com.scandit.datacapture.tools.internal.sdk.ProxyFunction
 kotlin.sequences.SequencesKt__SequencesKt$flatten$1
 com.amap.api.mapcore.util.bm
@@ -8394,8 +8802,6 @@ com.mapbox.api.directions.v5.models.StepIntersection:
     public abstract com.mapbox.api.directions.v5.models.StepIntersection$Builder toBuilder()
 com.scandit.datacapture.core.internal.sdk.CoreNativeTypeFactory:
     public final com.scandit.datacapture.core.internal.sdk.area.NativeLocationSelection convert(com.scandit.datacapture.core.area.LocationSelection)
-    public final com.scandit.datacapture.core.internal.sdk.ui.style.NativeBrush convert(com.scandit.datacapture.core.ui.style.Brush)
-    public final com.scandit.datacapture.core.ui.style.Brush convert(com.scandit.datacapture.core.internal.sdk.ui.style.NativeBrush)
     public final com.scandit.datacapture.core.internal.module.source.NativeCameraSettings convert(com.scandit.datacapture.core.source.CameraSettings)
     public final com.scandit.datacapture.core.source.CameraSettings convert(com.scandit.datacapture.core.internal.module.source.NativeCameraSettings)
     public final com.scandit.datacapture.core.internal.sdk.common.NativeContextStatus convert(com.scandit.datacapture.core.common.ContextStatus)
@@ -8406,7 +8812,6 @@ com.scandit.datacapture.core.internal.sdk.CoreNativeTypeFactory:
     public final com.scandit.datacapture.core.internal.sdk.common.graphics.NativeColor convert(int)
     public final com.scandit.datacapture.core.internal.module.source.NativeAbstractCamera convert(com.scandit.datacapture.core.source.Camera)
     public final java.util.List convert(java.util.ArrayList)
-    public final com.scandit.datacapture.core.internal.module.ui.GestureListener convert(com.scandit.datacapture.core.internal.module.ui.NativeGestureListener)
     public final com.scandit.datacapture.core.capture.DataCaptureContextSettings convert(com.scandit.datacapture.core.internal.sdk.capture.NativeDataCaptureContextSettings)
     public final com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderAnimation convert(com.scandit.datacapture.core.internal.sdk.ui.viewfinder.NativeRectangularViewfinderAnimation)
 com.mapzen.lost.R$string
@@ -8467,7 +8872,8 @@ com.amap.api.services.core.PoiItem:
     public void setShopID(java.lang.String)
 com.scandit.datacapture.core.ui.orientation.DeviceOrientationSerializer
 com.amap.api.mapcore.util.i$a$1
-kotlin.math.MathKt__MathHKt
+kotlin.math.MathKt__MathHKt:
+    public void <init>()
 com.amap.api.mapcore.util.ds
 com.loc.ak$1
 kotlin.reflect.KMutableProperty
@@ -8486,10 +8892,8 @@ com.amap.api.maps.utils.overlay.MovingPointOverlay$a
 com.vividsolutions.jts.io.WKBReader
 kotlin.collections.unsigned.UArraysKt___UArraysKt$withIndex$1
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerListenerReversedAdapter$i
-com.scandit.datacapture.core.internal.sdk.data.DisposableResource$a
 com.vividsolutions.jts.geom.Polygon
 kotlin.io.FileTreeWalk$FileTreeWalkIterator
-com.scandit.datacapture.core.internal.module.ui.c
 com.amap.api.services.a.t$k
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingListener$DefaultImpls
 com.amap.api.location.CoordUtil
@@ -8538,7 +8942,6 @@ com.amap.api.services.a.j:
     public static java.util.Date c(java.lang.String)
     public static java.lang.String a(java.util.List)
     public static java.lang.String a(java.util.List,java.lang.String)
-kotlin.properties.ReadWriteProperty
 okhttp3.internal.tls.CertificateChainCleaner:
     public static varargs okhttp3.internal.tls.CertificateChainCleaner get(java.security.cert.X509Certificate[])
 com.loc.as
@@ -8627,7 +9030,6 @@ kotlin.text.StringsKt__StringsKt:
     public static final varargs java.lang.String trimStart(java.lang.String,char[])
     public static final varargs java.lang.CharSequence trimEnd(java.lang.CharSequence,char[])
     public static final varargs java.lang.String trimEnd(java.lang.String,char[])
-    public static final java.lang.CharSequence trim(java.lang.CharSequence)
     private static final java.lang.String trim(java.lang.String)
     public static final java.lang.CharSequence trimStart(java.lang.CharSequence)
     private static final java.lang.String trimStart(java.lang.String)
@@ -8941,11 +9343,12 @@ kotlin.text.StringsKt___StringsKt:
     public void <init>()
 com.amap.api.mapcore.util.gv$a$d
 com.vividsolutions.jts.noding.OrientedCoordinateArray
-com.scandit.datacapture.core.internal.module.b.a.a.b.f.e
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.e:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 okhttp3.internal.cache.FaultHidingSink
 com.amap.api.mapcore.util.iy$2
 com.loc.dm
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.q
 com.scandit.datacapture.core.internal.sdk.area.NoLocationSelectionProxyAdapter
 okhttp3.internal.http2.Http2Codec:
     private static final java.lang.String CONNECTION
@@ -8973,7 +9376,8 @@ com.amap.api.services.route.DistanceResult:
 kotlin.coroutines.jvm.internal.RestrictedContinuationImpl
 com.amap.api.mapcore.util.fa
 com.mapbox.api.directions.v5.models.RouteOptions$Builder
-com.scandit.datacapture.core.internal.module.source.ae
+com.scandit.datacapture.core.internal.module.source.ae:
+    public final java.lang.Iterable a()
 com.amap.api.mapcore.util.o$j
 com.amap.api.mapcore.util.jp$1
 com.mapzen.android.lost.api.GeofencingRequest$Builder
@@ -9082,7 +9486,6 @@ com.vividsolutions.jts.algorithm.RobustLineIntersector
 com.mapbox.geojson.$AutoValue_LineString:
     public synthetic bridge java.lang.Object coordinates()
 com.scandit.datacapture.core.framesave.FrameSaveSessionListener$DefaultImpls
-com.scandit.datacapture.core.internal.module.d.a$a
 com.scandit.datacapture.core.common.graphic.ImageBuffer
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingListener
 com.qx.wz.dj.rtcm.StringUtil:
@@ -9173,7 +9576,8 @@ com.mapbox.services.Constants:
 com.amap.api.mapcore.util.iw$a
 com.amap.api.mapcore.util.bv
 com.almeros.android.multitouch.gesturedetectors.MoveGestureDetector$SimpleOnMoveGestureListener
-kotlin.jvm.internal.PackageReference
+kotlin.jvm.internal.PackageReference:
+    public java.util.Collection getMembers()
 com.loc.ac
 com.amap.api.services.route.DriveRoutePlanResult:
     public java.util.List getPaths()
@@ -9182,7 +9586,9 @@ com.amap.api.services.route.DriveRoutePlanResult:
     public void setTimeInfos(java.util.List)
     public void setDrivePlanQuery(com.amap.api.services.route.RouteSearch$DrivePlanQuery)
 com.amap.api.services.a.bh$a$b
-com.scandit.datacapture.core.internal.module.b.a.a.b.l.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.l.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 kotlin.reflect.KMutableProperty0$Setter
 com.amap.api.services.district.DistrictSearchQuery:
     public void <init>(java.lang.String,java.lang.String,int)
@@ -9327,21 +9733,31 @@ com.scandit.datacapture.core.internal.sdk.AsyncCheckKt
 com.loc.dn
 com.amap.api.services.interfaces.IDistanceSearch
 com.scandit.datacapture.core.internal.sdk.AsyncCheckKt$a
-kotlin.reflect.KCallable
+kotlin.reflect.KCallable:
+    public abstract java.lang.String getName()
+    public abstract java.util.List getParameters()
+    public abstract kotlin.reflect.KType getReturnType()
+    public abstract java.util.List getTypeParameters()
+    public abstract java.lang.Object callBy(java.util.Map)
+    public abstract kotlin.reflect.KVisibility getVisibility()
+    public abstract boolean isFinal()
+    public abstract boolean isOpen()
+    public abstract boolean isAbstract()
+    public abstract boolean isSuspend()
 com.amap.api.services.a.r$1
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerHelperReversedAdapter$a
 com.amap.api.mapcore.util.o$i
 com.vividsolutions.jts.algorithm.ConvexHull$RadialComparator
 com.amap.api.mapcore.util.ge
 kotlin.jvm.internal.markers.KMutableSet
-com.scandit.datacapture.core.internal.module.b.a.a.b.f.d
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.d:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.services.a.dt$2
 com.scandit.datacapture.core.internal.module.source.j
 com.mapbox.api.directions.v5.models.$AutoValue_BannerComponents$1
 com.vividsolutions.jts.simplify.LineSegmentIndex
 com.amap.api.mapcore.util.gv$a
 com.vividsolutions.jts.geom.PrecisionModel$Type
-kotlin.jvm.internal.ArrayIteratorKt
 com.amap.api.mapcore.util.ik
 com.mapbox.geojson.FeatureCollection:
     public static com.mapbox.geojson.FeatureCollection fromJson(java.lang.String)
@@ -9415,7 +9831,9 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerProxyAdapter$c
 com.amap.api.mapcore.util.gk$a
 com.mapbox.api.directions.v5.models.$AutoValue_DirectionsWaypoint$1
 com.amap.api.mapcore.util.il$b
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.p
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.p:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.b
 kotlin.text.CharCategory
 com.vividsolutions.jts.geomgraph.index.MonotoneChainEdge
@@ -9503,7 +9921,8 @@ com.loc.cj
 com.scandit.datacapture.tools.internal.sdk.GuavaMapMakerProxyCache:
     public final java.lang.Object requireByValue(kotlin.reflect.KClass,java.lang.Object)
     public final java.lang.Object getByValueOrPut(kotlin.reflect.KClass,java.lang.Object,kotlin.jvm.functions.Function0)
-com.scandit.datacapture.core.internal.module.b.a.a.b.a.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.a.a:
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.scandit.datacapture.core.internal.module.source.j$c
 com.amap.api.mapcore.util.mj$1
 kotlin.coroutines.intrinsics.IntrinsicsKt
@@ -9550,12 +9969,8 @@ com.mapzen.android.lost.api.LocationResult:
     public java.util.List getLocations()
     public android.location.Location getLastLocation()
     public static final java.lang.String EXTRA_LOCATION_RESULT
-com.scandit.datacapture.core.capture.DataCaptureContextListener$DefaultImpls:
-    public static void onModeAdded(com.scandit.datacapture.core.capture.DataCaptureContextListener,com.scandit.datacapture.core.capture.DataCaptureContext,com.scandit.datacapture.core.capture.DataCaptureMode)
-    public static void onModeRemoved(com.scandit.datacapture.core.capture.DataCaptureContextListener,com.scandit.datacapture.core.capture.DataCaptureContext,com.scandit.datacapture.core.capture.DataCaptureMode)
 com.vividsolutions.jts.operation.polygonize.PolygonizeEdge
 kotlin.collections.CollectionsKt___CollectionsKt$withIndex$1
-com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlayKt
 kotlin.collections.MapsKt__MapsKt:
     public static final varargs java.util.Map mapOf(kotlin.Pair[])
     private static final java.util.Map mapOf()
@@ -9631,10 +10046,14 @@ com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.e$c
 com.amap.api.mapcore.util.gv$a$b
 com.loc.bh$a$a
 com.loc.do
-com.scandit.datacapture.core.internal.module.b.a.a.b.g.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.g.a:
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
 org.intellij.lang.annotations.JdkConstants$TabLayoutPolicy
 kotlin.js.ExperimentalJsExport
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.s
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.s:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final com.scandit.datacapture.core.internal.module.b.a.a.a f()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.amap.api.mapcore.util.ay$2
 kotlin.ExperimentalStdlibApi
 okhttp3.internal.http2.Hpack:
@@ -9686,7 +10105,9 @@ kotlin.time.TimeSource$Monotonic
 com.scandit.datacapture.barcode.data.SymbologyDescriptionProxy
 com.nineoldandroids.view.ViewPropertyAnimatorPreHC$AnimatorEventListener
 com.amap.api.mapcore.util.gf
-com.scandit.datacapture.core.ui.DataCaptureViewProxyAdapter
+com.scandit.datacapture.core.ui.DataCaptureViewProxyAdapter:
+    public final void _removeOverlay(com.scandit.datacapture.core.ui.overlay.DataCaptureOverlay)
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_capture_core()
 kotlin.comparisons.ComparisonsKt__ComparisonsKt$compareByDescending$2
 com.mapbox.api.matching.v5.models.MapMatchingAdapterFactory:
     public static com.google.gson.TypeAdapterFactory create()
@@ -9698,7 +10119,8 @@ com.scandit.datacapture.core.ui.control.TorchSwitchControl$WhenMappings
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListenerReversedAdapter$f
 com.amap.api.mapcore.util.c
 com.scandit.datacapture.core.ui.viewfinder.serialization.RectangularViewfinderStyleSerializer
-com.scandit.datacapture.core.internal.module.source.ac
+com.scandit.datacapture.core.internal.module.source.ac:
+    public final java.lang.Iterable a()
 com.scandit.datacapture.core.source.FocusGestureStrategySerializer
 kotlin.contracts.CallsInPlace
 com.amap.api.mapcore.util.il
@@ -9738,7 +10160,19 @@ com.scandit.datacapture.barcode.data.Barcode:
     public final com.scandit.datacapture.barcode.internal.sdk.data.NativeBarcode _impl()
     public final java.lang.String toJson()
 kotlin.random.KotlinRandom
-com.scandit.datacapture.barcode.capture.SymbologySettingsProxyAdapter
+com.scandit.datacapture.barcode.capture.SymbologySettingsProxyAdapter:
+    public final com.scandit.datacapture.barcode.data.Symbology getSymbology()
+    public final boolean isEnabled()
+    public final void setEnabled(boolean)
+    public final boolean isColorInvertedEnabled()
+    public final void setColorInvertedEnabled(boolean)
+    public final java.util.Set getActiveSymbolCounts()
+    public final java.util.Set getEnabledExtensions()
+    public final com.scandit.datacapture.barcode.internal.module.capture.NativeSymbologySettings _impl()
+    public final void setExtensionEnabled(java.lang.String,boolean)
+    public final boolean isExtensionEnabled(java.lang.String)
+    public final java.lang.String toJson()
+    public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_barcode_capture()
 com.amap.api.mapcore.util.la$c
 com.vividsolutions.jts.index.chain.MonotoneChain
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListenerReversedAdapter$e
@@ -9856,7 +10290,8 @@ com.amap.api.services.route.WalkPath:
     public void setSteps(java.util.List)
 kotlin.internal.jdk7.JDK7PlatformImplementations:
     public java.util.List getSuppressed(java.lang.Throwable)
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.r
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.r:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.autonavi.amap.mapcore.animation.GLScaleAnimation
 com.scandit.datacapture.core.license.Expiration$Perpetual
 com.vividsolutions.jts.geomgraph.index.SimpleEdgeSetIntersector
@@ -9869,7 +10304,6 @@ kotlin.jvm.JvmRecord
 com.mapbox.api.staticmap.v1.models.StaticPolylineAnnotation$Builder
 com.nineoldandroids.animation.AnimatorSet$Builder
 com.scandit.datacapture.barcode.internal.module.tracking.ui.overlay.e$b
-com.scandit.datacapture.core.internal.module.b.a.a.a.b$a
 com.amap.api.mapcore.util.gv$a$a
 kotlin.reflect.KClass$DefaultImpls
 com.amap.api.services.a.cc:
@@ -9927,7 +10361,6 @@ okhttp3.Cookie:
 com.scandit.datacapture.core.area.RectangularLocationSelectionProxy
 com.mapbox.api.directions.v5.DirectionsCriteria$OverviewCriteria
 com.amap.api.mapcore.util.fv$2
-com.scandit.datacapture.core.internal.module.ui.GestureRecognizer
 com.scandit.datacapture.barcode.capture.BarcodeCaptureDeserializerProxyAdapter$a
 com.amap.api.maps.AMap$OnMapLoadedListener
 com.amap.api.mapcore.util.gg
@@ -9943,7 +10376,9 @@ com.amap.api.services.route.RoutePlanResult:
     public void setTargetPos(com.amap.api.services.core.LatLonPoint)
 kotlin.sequences.SequencesKt__SequencesKt$asSequence$$inlined$Sequence$1
 kotlin.internal.UProgressionUtilKt
-com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay$Companion
+com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay$Companion:
+    public final com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay fromJson(com.scandit.datacapture.barcode.capture.BarcodeCapture,java.lang.String)
+    public final com.scandit.datacapture.core.ui.style.Brush defaultBrush()
 com.amap.api.maps.model.RuntimeRemoteException:
     public void <init>(android.os.RemoteException)
 okhttp3.internal.cache2.Relay
@@ -9975,8 +10410,7 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings:
     public final void setEnabledCompositeTypes(java.util.EnumSet)
     public final java.util.Set getEnabledSymbologies()
     public final void enableSymbologies(java.util.EnumSet)
-    public final void enableSymbologies(java.util.Set)
-    public final com.scandit.datacapture.barcode.capture.SymbologySettings getSymbologySettings(com.scandit.datacapture.barcode.data.Symbology)
+    public final void enableSymbology(com.scandit.datacapture.barcode.data.Symbology,boolean)
     private com.scandit.datacapture.core.area.LocationSelection a
 com.amap.api.mapcore.util.ft$a
 okhttp3.internal.platform.AndroidPlatform:
@@ -10023,7 +10457,9 @@ com.amap.api.maps.model.particle.RectParticleShape
 kotlin.collections.EmptySet:
     public boolean add(java.lang.Void)
 com.scandit.datacapture.core.internal.module.source.j$e
-com.scandit.datacapture.core.internal.module.source.l
+com.scandit.datacapture.core.internal.module.source.l:
+    private final com.scandit.datacapture.core.internal.module.source.p a(com.scandit.datacapture.core.source.CameraPosition)
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraDelegate a(com.scandit.datacapture.core.source.CameraPosition,com.scandit.datacapture.core.source.CameraSettings,kotlin.jvm.functions.Function1)
 com.amap.api.services.a.df
 com.amap.api.services.poisearch.PoiSearch
 com.loc.af
@@ -10062,7 +10498,18 @@ kotlin.annotation.Target
 com.amap.api.services.district.DistrictSearch
 kotlin.coroutines.ContinuationInterceptor$DefaultImpls
 kotlin.jvm.Transient
-com.scandit.datacapture.core.internal.module.ui.control.TorchButton
+com.scandit.datacapture.core.internal.module.ui.control.TorchButton:
+    private final void b(com.scandit.datacapture.core.source.Camera)
+    private final void a(com.scandit.datacapture.core.source.TorchState)
+    public void <init>(android.content.Context,com.scandit.datacapture.core.internal.module.ui.control.TorchButton$a)
+    public static final synthetic com.scandit.datacapture.core.internal.module.ui.control.TorchButton$a a(com.scandit.datacapture.core.internal.module.ui.control.TorchButton)
+    public static final synthetic void a(com.scandit.datacapture.core.internal.module.ui.control.TorchButton,com.scandit.datacapture.core.source.Camera)
+    public static final synthetic void b(com.scandit.datacapture.core.internal.module.ui.control.TorchButton,com.scandit.datacapture.core.source.Camera)
+    public final com.scandit.datacapture.core.source.Camera b()
+    public final void c()
+    public final void onTorchStateChanged(com.scandit.datacapture.core.source.TorchState)
+    private com.scandit.datacapture.core.source.Camera a
+    private final com.scandit.datacapture.core.internal.module.ui.control.TorchButton$a b
 com.loc.bk
 com.mapbox.api.tilequery.TilequeryService
 com.amap.api.mapcore.util.c$19
@@ -10073,7 +10520,6 @@ okhttp3.RealCall:
     okhttp3.internal.connection.StreamAllocation streamAllocation()
     public synthetic bridge okhttp3.Call clone()
 com.amap.api.services.a.cb
-com.scandit.datacapture.core.internal.module.ui.ViewSize
 com.vividsolutions.jts.noding.MCIndexNoder$SegmentOverlapAction
 com.amap.api.mapcore.util.kl:
     public static void a(android.content.Context,java.lang.String,java.lang.String,java.lang.String)
@@ -10138,7 +10584,12 @@ com.scandit.datacapture.barcode.tracking.capture.BarcodeTracking$1
 com.loc.dq
 com.mapbox.core.exceptions.ServicesException
 com.amap.api.mapcore.util.ao
-com.scandit.datacapture.core.ui.gesture.ZoomGesture
+com.scandit.datacapture.core.ui.gesture.ZoomGesture:
+    public abstract void addListener(com.scandit.datacapture.core.ui.gesture.ZoomGestureListener)
+    public abstract void removeListener(com.scandit.datacapture.core.ui.gesture.ZoomGestureListener)
+    public abstract void triggerZoomIn()
+    public abstract void triggerZoomOut()
+    public abstract java.lang.String toJson()
 com.amap.api.mapcore.util.lo
 com.amap.api.services.route.RouteSearch$DriveRouteQuery:
     public com.amap.api.services.route.RouteSearch$FromAndTo getFromAndTo()
@@ -10201,7 +10652,12 @@ com.nineoldandroids.animation.PreHoneycombCompat:
 com.amap.api.services.a.dj$1
 com.amap.api.mapcore.util.cu
 com.scandit.datacapture.barcode.data.CompositeTypeDescriptionProxy
-com.scandit.datacapture.core.ui.gesture.SwipeToZoom
+com.scandit.datacapture.core.ui.gesture.SwipeToZoom:
+    public final void addListener(com.scandit.datacapture.core.ui.gesture.ZoomGestureListener)
+    public final void removeListener(com.scandit.datacapture.core.ui.gesture.ZoomGestureListener)
+    public final java.lang.String toJson()
+    public final void triggerZoomIn()
+    public final void triggerZoomOut()
 kotlin.Experimental
 com.mapbox.api.geocoding.v5.models.CarmenFeature:
     public static com.mapbox.api.geocoding.v5.models.CarmenFeature fromJson(java.lang.String)
@@ -10242,7 +10698,8 @@ jcg.mini_dji_go_app.media.DJIVideoStreamDecoder$DJIFrame:
 com.amap.api.services.a.ba$1
 kotlin.sequences.SequencesKt___SequencesKt$flatMapIndexed$1
 com.amap.api.mapcore.util.hv$a
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.u
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.u:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 com.amap.api.services.a.de
 kotlin.text.Typography
 com.amap.api.services.route.TimeInfosElement:
@@ -10331,9 +10788,196 @@ com.amap.api.mapcore.util.ei$4
 kotlin.jvm.JvmInline
 com.amap.api.mapcore.util.jj
 com.mapbox.api.directions.v5.models.LegAnnotation$Builder
-kotlin.sequences.SequencesKt___SequencesKt
+kotlin.sequences.SequencesKt___SequencesKt:
+    public static final boolean contains(kotlin.sequences.Sequence,java.lang.Object)
+    public static final java.lang.Object elementAt(kotlin.sequences.Sequence,int)
+    public static final java.lang.Object elementAtOrElse(kotlin.sequences.Sequence,int,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object elementAtOrNull(kotlin.sequences.Sequence,int)
+    private static final java.lang.Object find(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Object findLast(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object first(kotlin.sequences.Sequence)
+    public static final java.lang.Object first(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object firstOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Object firstOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final int indexOf(kotlin.sequences.Sequence,java.lang.Object)
+    public static final int indexOfFirst(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final int indexOfLast(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object last(kotlin.sequences.Sequence)
+    public static final java.lang.Object last(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final int lastIndexOf(kotlin.sequences.Sequence,java.lang.Object)
+    public static final java.lang.Object lastOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Object lastOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object single(kotlin.sequences.Sequence)
+    public static final java.lang.Object single(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object singleOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Object singleOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence drop(kotlin.sequences.Sequence,int)
+    public static final kotlin.sequences.Sequence dropWhile(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence filter(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence filterIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.util.Collection filterIndexedTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function2)
+    public static final synthetic kotlin.sequences.Sequence filterIsInstance(kotlin.sequences.Sequence)
+    public static final synthetic java.util.Collection filterIsInstanceTo(kotlin.sequences.Sequence,java.util.Collection)
+    public static final kotlin.sequences.Sequence filterNot(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence filterNotNull(kotlin.sequences.Sequence)
+    public static final java.util.Collection filterNotNullTo(kotlin.sequences.Sequence,java.util.Collection)
+    public static final java.util.Collection filterNotTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final java.util.Collection filterTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence take(kotlin.sequences.Sequence,int)
+    public static final kotlin.sequences.Sequence takeWhile(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence sorted(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence sortedBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence sortedByDescending(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence sortedDescending(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence sortedWith(kotlin.sequences.Sequence,java.util.Comparator)
+    public static final java.util.Map associate(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateByTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateByTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateWith(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Map associateWithTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1)
+    public static final java.util.Collection toCollection(kotlin.sequences.Sequence,java.util.Collection)
+    public static final java.util.HashSet toHashSet(kotlin.sequences.Sequence)
+    public static final java.util.List toList(kotlin.sequences.Sequence)
+    public static final java.util.List toMutableList(kotlin.sequences.Sequence)
+    public static final java.util.Set toSet(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence flatMapIterable(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence flatMap(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence flatMapIndexedIterable(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence flatMapIndexedSequence(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    private static final java.util.Collection flatMapIndexedIterableTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function2)
+    private static final java.util.Collection flatMapIndexedSequenceTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function2)
+    public static final java.util.Collection flatMapIterableTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final java.util.Collection flatMapTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final java.util.Map groupBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Map groupBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
+    public static final java.util.Map groupByTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1)
+    public static final java.util.Map groupByTo(kotlin.sequences.Sequence,java.util.Map,kotlin.jvm.functions.Function1,kotlin.jvm.functions.Function1)
+    public static final kotlin.collections.Grouping groupingBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence map(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence mapIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence mapIndexedNotNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.util.Collection mapIndexedNotNullTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function2)
+    public static final java.util.Collection mapIndexedTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence mapNotNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Collection mapNotNullTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final java.util.Collection mapTo(kotlin.sequences.Sequence,java.util.Collection,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence withIndex(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence distinct(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence distinctBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.util.Set toMutableSet(kotlin.sequences.Sequence)
+    public static final boolean all(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final boolean any(kotlin.sequences.Sequence)
+    public static final boolean any(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final int count(kotlin.sequences.Sequence)
+    public static final int count(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object fold(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function2)
+    public static final java.lang.Object foldIndexed(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function3)
+    public static final void forEach(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final void forEachIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.lang.Double max(kotlin.sequences.Sequence)
+    public static final java.lang.Float max(kotlin.sequences.Sequence)
+    public static final java.lang.Comparable max(kotlin.sequences.Sequence)
+    public static final java.lang.Object maxBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object maxByOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final double maxOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final float maxOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Comparable maxOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Double maxOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Float maxOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Comparable maxOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Object maxOfWith(kotlin.sequences.Sequence,java.util.Comparator,kotlin.jvm.functions.Function1)
+    private static final java.lang.Object maxOfWithOrNull(kotlin.sequences.Sequence,java.util.Comparator,kotlin.jvm.functions.Function1)
+    public static final java.lang.Double maxOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Float maxOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Comparable maxOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Object maxWith(kotlin.sequences.Sequence,java.util.Comparator)
+    public static final java.lang.Object maxWithOrNull(kotlin.sequences.Sequence,java.util.Comparator)
+    public static final java.lang.Double min(kotlin.sequences.Sequence)
+    public static final java.lang.Float min(kotlin.sequences.Sequence)
+    public static final java.lang.Comparable min(kotlin.sequences.Sequence)
+    public static final java.lang.Object minBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final java.lang.Object minByOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final double minOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final float minOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Comparable minOf(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Double minOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Float minOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Comparable minOfOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final java.lang.Object minOfWith(kotlin.sequences.Sequence,java.util.Comparator,kotlin.jvm.functions.Function1)
+    private static final java.lang.Object minOfWithOrNull(kotlin.sequences.Sequence,java.util.Comparator,kotlin.jvm.functions.Function1)
+    public static final java.lang.Double minOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Float minOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Comparable minOrNull(kotlin.sequences.Sequence)
+    public static final java.lang.Object minWith(kotlin.sequences.Sequence,java.util.Comparator)
+    public static final java.lang.Object minWithOrNull(kotlin.sequences.Sequence,java.util.Comparator)
+    public static final boolean none(kotlin.sequences.Sequence)
+    public static final boolean none(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence onEach(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence onEachIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.lang.Object reduce(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.lang.Object reduceIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function3)
+    public static final java.lang.Object reduceIndexedOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function3)
+    public static final java.lang.Object reduceOrNull(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence runningFold(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence runningFoldIndexed(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function3)
+    public static final kotlin.sequences.Sequence runningReduce(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence runningReduceIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function3)
+    public static final kotlin.sequences.Sequence scan(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence scanIndexed(kotlin.sequences.Sequence,java.lang.Object,kotlin.jvm.functions.Function3)
+    public static final kotlin.sequences.Sequence scanReduce(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence scanReduceIndexed(kotlin.sequences.Sequence,kotlin.jvm.functions.Function3)
+    public static final int sumBy(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final double sumByDouble(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final double sumOfDouble(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final int sumOfInt(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final long sumOfLong(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final int sumOfUInt(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    private static final long sumOfULong(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence requireNoNulls(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence chunked(kotlin.sequences.Sequence,int)
+    public static final kotlin.sequences.Sequence chunked(kotlin.sequences.Sequence,int,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence minus(kotlin.sequences.Sequence,java.lang.Object)
+    public static final kotlin.sequences.Sequence minus(kotlin.sequences.Sequence,java.lang.Object[])
+    public static final kotlin.sequences.Sequence minus(kotlin.sequences.Sequence,java.lang.Iterable)
+    public static final kotlin.sequences.Sequence minus(kotlin.sequences.Sequence,kotlin.sequences.Sequence)
+    private static final kotlin.sequences.Sequence minusElement(kotlin.sequences.Sequence,java.lang.Object)
+    public static final kotlin.Pair partition(kotlin.sequences.Sequence,kotlin.jvm.functions.Function1)
+    public static final kotlin.sequences.Sequence plus(kotlin.sequences.Sequence,java.lang.Object)
+    public static final kotlin.sequences.Sequence plus(kotlin.sequences.Sequence,java.lang.Object[])
+    public static final kotlin.sequences.Sequence plus(kotlin.sequences.Sequence,java.lang.Iterable)
+    public static final kotlin.sequences.Sequence plus(kotlin.sequences.Sequence,kotlin.sequences.Sequence)
+    private static final kotlin.sequences.Sequence plusElement(kotlin.sequences.Sequence,java.lang.Object)
+    public static final kotlin.sequences.Sequence windowed(kotlin.sequences.Sequence,int,int,boolean)
+    public static synthetic kotlin.sequences.Sequence windowed$default(kotlin.sequences.Sequence,int,int,boolean,int,java.lang.Object)
+    public static final kotlin.sequences.Sequence windowed(kotlin.sequences.Sequence,int,int,boolean,kotlin.jvm.functions.Function1)
+    public static synthetic kotlin.sequences.Sequence windowed$default(kotlin.sequences.Sequence,int,int,boolean,kotlin.jvm.functions.Function1,int,java.lang.Object)
+    public static final kotlin.sequences.Sequence zip(kotlin.sequences.Sequence,kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence zip(kotlin.sequences.Sequence,kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final kotlin.sequences.Sequence zipWithNext(kotlin.sequences.Sequence)
+    public static final kotlin.sequences.Sequence zipWithNext(kotlin.sequences.Sequence,kotlin.jvm.functions.Function2)
+    public static final java.lang.Appendable joinTo(kotlin.sequences.Sequence,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1)
+    public static synthetic java.lang.Appendable joinTo$default(kotlin.sequences.Sequence,java.lang.Appendable,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object)
+    public static final java.lang.String joinToString(kotlin.sequences.Sequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1)
+    public static synthetic java.lang.String joinToString$default(kotlin.sequences.Sequence,java.lang.CharSequence,java.lang.CharSequence,java.lang.CharSequence,int,java.lang.CharSequence,kotlin.jvm.functions.Function1,int,java.lang.Object)
+    public static final java.lang.Iterable asIterable(kotlin.sequences.Sequence)
+    private static final kotlin.sequences.Sequence asSequence(kotlin.sequences.Sequence)
+    public static final double averageOfByte(kotlin.sequences.Sequence)
+    public static final double averageOfShort(kotlin.sequences.Sequence)
+    public static final double averageOfInt(kotlin.sequences.Sequence)
+    public static final double averageOfLong(kotlin.sequences.Sequence)
+    public static final double averageOfFloat(kotlin.sequences.Sequence)
+    public static final double averageOfDouble(kotlin.sequences.Sequence)
+    public static final int sumOfByte(kotlin.sequences.Sequence)
+    public static final int sumOfShort(kotlin.sequences.Sequence)
+    public static final int sumOfInt(kotlin.sequences.Sequence)
+    public static final long sumOfLong(kotlin.sequences.Sequence)
+    public static final float sumOfFloat(kotlin.sequences.Sequence)
+    public static final double sumOfDouble(kotlin.sequences.Sequence)
+    public void <init>()
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingBasicOverlay$Companion$a
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.t
 com.vividsolutions.jts.geomgraph.index.SweepLineSegment
 com.amap.api.mapcore.util.ig
 com.loc.co
@@ -10439,17 +11083,20 @@ com.amap.api.services.route.WalkStep:
     public void setAssistantAction(java.lang.String)
 com.scandit.datacapture.core.ui.animation.DynamicAnimation
 com.vividsolutions.jts.algorithm.BoundaryNodeRule$MultiValentEndPointBoundaryNodeRule
-com.scandit.datacapture.core.ui.DataCaptureView$contextStatusView$1$b$a
 com.amap.api.fence.GeoFenceListener
 okhttp3.internal.http.HttpMethod:
     private void <init>()
 kotlin.random.PlatformRandom
 org.intellij.lang.annotations.Subst
-kotlin.text.Regex$Companion
+kotlin.text.Regex$Companion:
+    public final kotlin.text.Regex fromLiteral(java.lang.String)
+    public final java.lang.String escape(java.lang.String)
+    public final java.lang.String escapeReplacement(java.lang.String)
 retrofit2.BuiltInConverters$BufferingResponseBodyConverter
 com.mapbox.api.matching.v5.models.MapMatchingMatching$Builder
 com.amap.api.mapcore.util.ap
-com.scandit.datacapture.core.internal.module.source.f
+com.scandit.datacapture.core.internal.module.source.f:
+    public abstract java.lang.Iterable a()
 timber.log.Timber$Tree:
     private varargs void prepareLog(int,java.lang.Throwable,java.lang.String,java.lang.Object[])
     private java.lang.String getStackTraceString(java.lang.Throwable)
@@ -10522,7 +11169,6 @@ com.amap.api.mapcore.util.bs
 com.scandit.datacapture.core.common.geometry.AnchorSerializer
 com.scandit.datacapture.core.source.serialization.FrameSourceDeserializer$a
 kotlin.OptIn
-com.scandit.datacapture.core.ui.DataCaptureViewProxyAdapter$a
 com.scandit.datacapture.core.source.FrameSource$DefaultImpls
 kotlin.internal.RequireKotlinVersionKind
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingProxyAdapter
@@ -10634,7 +11280,12 @@ com.amap.api.maps.model.Gradient$a
 com.vividsolutions.jts.precision.CommonBitsRemover
 com.loc.cp$1
 com.amap.api.mapcore.util.he
-kotlin.reflect.KFunction
+kotlin.reflect.KFunction:
+    public abstract boolean isInline()
+    public abstract boolean isExternal()
+    public abstract boolean isOperator()
+    public abstract boolean isInfix()
+    public abstract boolean isSuspend()
 kotlin.collections.SetsKt
 kotlin.collections.AbstractIterator$WhenMappings
 org.intellij.lang.annotations.JdkConstants$CalendarMonth
@@ -10714,7 +11365,6 @@ okhttp3.Response:
     public okhttp3.Response networkResponse()
     public okhttp3.Response cacheResponse()
     public java.util.List challenges()
-com.scandit.datacapture.core.ui.DataCaptureViewProxyAdapter$b
 kotlin.reflect.TypeImpl
 com.loc.u$a
 com.mapbox.geojson.GeometryCollection:
@@ -10735,13 +11385,10 @@ kotlin.sequences.SequencesKt___SequencesKt$flatMap$2
 kotlin.jvm.internal.ReflectionFactory:
     public kotlin.reflect.KClass createKotlinClass(java.lang.Class)
     public kotlin.reflect.KClass createKotlinClass(java.lang.Class,java.lang.String)
-    public kotlin.reflect.KDeclarationContainer getOrCreateKotlinPackage(java.lang.Class,java.lang.String)
     public kotlin.reflect.KClass getOrCreateKotlinClass(java.lang.Class,java.lang.String)
-    public kotlin.reflect.KFunction function(kotlin.jvm.internal.FunctionReference)
     public kotlin.reflect.KProperty0 property0(kotlin.jvm.internal.PropertyReference0)
     public kotlin.reflect.KMutableProperty0 mutableProperty0(kotlin.jvm.internal.MutablePropertyReference0)
     public kotlin.reflect.KProperty1 property1(kotlin.jvm.internal.PropertyReference1)
-    public kotlin.reflect.KMutableProperty1 mutableProperty1(kotlin.jvm.internal.MutablePropertyReference1)
     public kotlin.reflect.KProperty2 property2(kotlin.jvm.internal.PropertyReference2)
     public kotlin.reflect.KMutableProperty2 mutableProperty2(kotlin.jvm.internal.MutablePropertyReference2)
     public kotlin.reflect.KType typeOf(kotlin.reflect.KClassifier,java.util.List,boolean)
@@ -10764,7 +11411,6 @@ retrofit2.Call
 com.scandit.datacapture.core.common.geometry.PointSerializer
 okhttp3.CertificatePinner$Pin:
     private static final java.lang.String WILDCARD
-com.scandit.datacapture.core.internal.sdk.extensions.NativeColorExtensionsKt$b
 com.amap.api.mapcore.util.o$c
 com.amap.api.mapcore.util.bt
 com.amap.api.services.nearby.NearbySearchResult
@@ -10772,7 +11418,6 @@ com.scandit.datacapture.barcode.capture.BarcodeCapture:
     public static synthetic void applySettings$default(com.scandit.datacapture.barcode.capture.BarcodeCapture,com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings,java.lang.Runnable,int,java.lang.Object)
     public static final com.scandit.datacapture.barcode.capture.BarcodeCapture fromJson(com.scandit.datacapture.core.capture.DataCaptureContext,java.lang.String)
     public static final com.scandit.datacapture.core.source.CameraSettings createRecommendedCameraSettings()
-    public final com.scandit.datacapture.core.capture.DataCaptureContext getDataCaptureContext()
     public final com.scandit.datacapture.barcode.feedback.BarcodeCaptureFeedback getFeedback()
     public final void setFeedback(com.scandit.datacapture.barcode.feedback.BarcodeCaptureFeedback)
     public final void updateFromJson(java.lang.String)
@@ -10785,12 +11430,9 @@ com.scandit.datacapture.barcode.capture.BarcodeCapture:
 okhttp3.internal.annotations.EverythingIsNonNull
 com.mapbox.api.optimization.v1.OptimizationService
 com.scandit.datacapture.barcode.tracking.ui.overlay.BarcodeTrackingAdvancedOverlay$a
-com.scandit.datacapture.core.internal.sdk.extensions.NativeColorExtensionsKt$a
 com.scandit.datacapture.core.ui.viewfinder.SpotlightViewfinderProxy$DefaultImpls
 com.amap.api.services.a.bh$a$d
-com.scandit.datacapture.core.internal.sdk.data.DisposableResource
 kotlin.Result$Failure
-kotlin.jvm.internal.CallableReference$NoReceiver
 com.vividsolutions.jts.index.sweepline.SweepLineOverlapAction
 com.loc.by$2
 com.scandit.datacapture.core.data.FrameData:
@@ -10814,18 +11456,33 @@ com.amap.api.services.a.cy$1
 com.amap.api.mapcore.util.cw
 com.vividsolutions.jts.index.strtree.AbstractSTRtree
 kotlin.text.StringsKt___StringsKt$asSequence$$inlined$Sequence$1
-com.scandit.datacapture.core.ui.gesture.TapToFocus
+com.scandit.datacapture.core.ui.gesture.TapToFocus:
+    public final void addListener(com.scandit.datacapture.core.ui.gesture.FocusGestureListener)
+    public final void removeListener(com.scandit.datacapture.core.ui.gesture.FocusGestureListener)
+    public final java.lang.String toJson()
+    public final void triggerFocus(com.scandit.datacapture.core.common.geometry.PointWithUnit)
 com.vividsolutions.jts.noding.IntersectionFinderAdder
 kotlin.SinceKotlin
 com.amap.api.maps.offlinemap.OfflineMapManager$1
 com.mapbox.api.directions.v5.DirectionsCriteria$DestinationCriteria
-kotlin.sequences.SequencesKt__SequenceBuilderKt
+kotlin.sequences.SequencesKt__SequenceBuilderKt:
+    public static final kotlin.sequences.Sequence sequence(kotlin.jvm.functions.Function2)
+    private static final kotlin.sequences.Sequence buildSequence(kotlin.jvm.functions.Function2)
+    public static final java.util.Iterator iterator(kotlin.jvm.functions.Function2)
+    private static final java.util.Iterator buildIterator(kotlin.jvm.functions.Function2)
+    public static synthetic void SequenceBuilder$annotations()
+    public void <init>()
+    private static final int State_NotReady
+    private static final int State_ManyNotReady
+    private static final int State_ManyReady
+    private static final int State_Ready
+    private static final int State_Done
+    private static final int State_Failed
 com.amap.api.mapcore.util.ft$1$1
 okhttp3.internal.ws.RealWebSocket$Close
 com.scandit.datacapture.core.common.DirectionSerializer
 kotlin.io.FileTreeWalk$FileTreeWalkIterator$BottomUpDirectoryState
 kotlin.DslMarker
-com.scandit.datacapture.core.internal.sdk.ui.ContextStatusView
 com.mapbox.api.staticmap.v1.models.AutoValue_StaticMarkerAnnotation
 com.vividsolutions.jts.io.ParseException
 com.amap.api.services.a.c
@@ -10847,14 +11504,12 @@ kotlin.contracts.SimpleEffect
 com.scandit.datacapture.core.capture.serialization.DataCaptureContextDeserializerListener$DefaultImpls
 com.amap.api.maps.model.BuildingOverlay$BuildingOverlayTotalOptions
 kotlin.jvm.JvmPackageName
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.w
 org.jetbrains.annotations.PropertyKey
 com.amap.api.mapcore.util.ga
 com.amap.api.maps.model.GL3DModelOptions
 com.mapbox.api.geocoding.v5.models.GeocodingAdapterFactory:
     public static com.google.gson.TypeAdapterFactory create()
 kotlin.ArrayIntrinsicsKt
-com.scandit.datacapture.core.internal.module.ui.e$a
 com.amap.api.mapcore.util.ew$a
 kotlin.internal.PureReifiable
 com.amap.api.services.a.t$d
@@ -10875,7 +11530,6 @@ com.autonavi.amap.mapcore.tools.GLMapStaticValue
 com.vividsolutions.jts.io.OutStream
 com.amap.api.services.a.ee
 com.amap.api.mapcore.util.ii
-com.scandit.datacapture.core.ui.viewfinder.Viewfinder
 kotlin.math.Constants
 kotlin.jvm.internal.ArrayDoubleIterator
 com.amap.api.services.route.RouteSearch$OnTruckRouteSearchListener
@@ -10912,7 +11566,20 @@ com.amap.api.mapcore.util.hf:
     private java.lang.String j
     private java.lang.String k
     private java.lang.String[] l
-com.scandit.datacapture.barcode.capture.SymbologySettings
+com.scandit.datacapture.barcode.capture.SymbologySettings:
+    public final java.util.EnumSet getChecksums()
+    public final void setChecksums(java.util.EnumSet)
+    public final java.util.Set getActiveSymbolCounts()
+    public final java.util.Set getEnabledExtensions()
+    public final boolean isColorInvertedEnabled()
+    public final void setColorInvertedEnabled(boolean)
+    public final boolean isEnabled()
+    public final void setEnabled(boolean)
+    public final com.scandit.datacapture.barcode.data.Symbology getSymbology()
+    public final com.scandit.datacapture.barcode.internal.module.capture.NativeSymbologySettings _impl()
+    public final boolean isExtensionEnabled(java.lang.String)
+    public final void setExtensionEnabled(java.lang.String,boolean)
+    public final java.lang.String toJson()
 com.amap.api.services.a.a
 kotlin.properties.ReadOnlyProperty
 com.amap.api.services.a.dh$a
@@ -10934,14 +11601,15 @@ kotlin.jvm.internal.ClassReference$Companion:
     public final boolean isInstance(java.lang.Object,java.lang.Class)
 kotlin.sequences.SequencesKt___SequencesKt$filterNotNull$1
 com.scandit.datacapture.core.ui.animation.DynamicAnimation$OnAnimationEndListener
-com.scandit.datacapture.core.internal.module.b.a.a.b.m.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.m.a:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
+    public final void a(android.hardware.Camera$Parameters,float,float)
 com.loc.cq
 com.scandit.datacapture.barcode.capture.BarcodeCaptureSettingsProxyAdapter:
     public final java.util.Set getEnabledSymbologies()
     public final java.util.EnumSet getEnabledCompositeTypes()
     public final void setEnabledCompositeTypes(java.util.EnumSet)
-    public final com.scandit.datacapture.barcode.capture.SymbologySettings getSymbologySettings(com.scandit.datacapture.barcode.data.Symbology)
-    public final void enableSymbologies(java.util.Set)
+    public final void enableSymbology(com.scandit.datacapture.barcode.data.Symbology,boolean)
     public final void enableSymbologies(java.util.EnumSet)
     public final com.scandit.datacapture.tools.internal.sdk.ProxyCache getProxyCache$scandit_barcode_capture()
 com.amap.api.maps.model.AMapPara
@@ -10950,7 +11618,6 @@ kotlin.UByteKt
 com.amap.api.maps.model.TileProjectionCreator
 com.autonavi.amap.mapcore.interfaces.IAMapListener
 com.vividsolutions.jts.index.strtree.SIRtree
-com.scandit.datacapture.core.internal.sdk.extensions.NativeColorExtensionsKt$c
 com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingSessionProxy
 kotlin.comparisons.ComparisonsKt__ComparisonsKt
 com.amap.api.mapcore.util.ko
@@ -11032,7 +11699,8 @@ com.amap.api.maps.model.particle.SizeOverLife:
 com.amap.api.mapcore.util.ft$1$2
 com.mapbox.api.geocoding.v5.models.$AutoValue_GeocodingResponse:
     public com.mapbox.api.geocoding.v5.models.GeocodingResponse$Builder toBuilder()
-com.scandit.datacapture.core.internal.module.b.a.a.b.b.a
+com.scandit.datacapture.core.internal.module.b.a.a.b.b.a:
+    public final com.scandit.datacapture.core.internal.module.source.NativeCameraApi c()
 com.scandit.datacapture.barcode.capture.BarcodeCaptureSession:
     public final void reset()
     public final java.util.List getNewlyLocalizedBarcodes()
@@ -11040,7 +11708,8 @@ com.scandit.datacapture.barcode.capture.BarcodeCaptureSession:
     public final java.lang.String toJson()
 com.amap.api.services.busline.BusStationQuery
 jcg.mini_dji_go_app.R$id
-com.scandit.datacapture.core.internal.module.b.a.a.b.o.v
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.v:
+    public final com.scandit.datacapture.core.internal.module.b.a.a.e b()
 kotlin.collections.ReversedList
 com.vividsolutions.jts.geom.impl.PackedCoordinateSequence
 com.amap.api.services.a.bh$a$e
@@ -11050,7 +11719,6 @@ com.scandit.datacapture.barcode.tracking.capture.BarcodeTrackingDeserializerList
 com.scandit.datacapture.barcode.internal.sdk.BarcodeNativeTypeFactory:
     public final java.util.List convertNativeLocalizedOnlyBarcode(java.util.ArrayList)
     public final java.util.List convertNativeTrackedBarcode(java.util.ArrayList)
-    public final java.util.HashSet convertSymbologySetToHashSet(java.util.Set)
     public final com.scandit.datacapture.barcode.data.Barcode convert(com.scandit.datacapture.barcode.internal.sdk.data.NativeBarcode)
     public final com.scandit.datacapture.barcode.data.LocalizedOnlyBarcode convert(com.scandit.datacapture.barcode.internal.sdk.data.NativeLocalizedOnlyBarcode)
     public final com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings convert(com.scandit.datacapture.barcode.internal.module.capture.NativeBarcodeCaptureSettings)
@@ -11058,8 +11726,6 @@ com.scandit.datacapture.barcode.internal.sdk.BarcodeNativeTypeFactory:
     public final java.util.Map convert(java.util.HashMap)
     public final com.scandit.datacapture.barcode.tracking.internal.module.data.NativeTrackedBarcode convert(com.scandit.datacapture.barcode.tracking.data.TrackedBarcode)
     public final com.scandit.datacapture.barcode.tracking.data.TrackedBarcode convert(com.scandit.datacapture.barcode.tracking.internal.module.data.NativeTrackedBarcode)
-    public final com.scandit.datacapture.barcode.capture.SymbologySettings convert(com.scandit.datacapture.barcode.internal.module.capture.NativeSymbologySettings)
-    public final java.util.HashSet convert(java.util.Set)
 kotlin.text.StringsKt:
     private void <init>()
 com.amap.api.services.a.t$c
@@ -11071,6 +11737,10 @@ com.amap.api.mapcore.util.jd$a
 kotlin.Result
 com.amap.api.maps.AMap$OnMultiPointClickListener
 com.mapzen.android.lost.api.GeofencingEvent
+com.scandit.datacapture.core.internal.module.b.a.a.b.p.b:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.c:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.maps.model.MarkerOptions:
     private boolean perspective
 com.amap.api.services.route.DistanceItem:
@@ -11080,8 +11750,16 @@ com.amap.api.services.route.DistanceItem:
 com.amap.api.mapcore.util.fi:
     private static java.util.List b
     private static java.util.List c
+com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlayProxyAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.h:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.maps.model.TileProjection:
     public final int minY
+com.scandit.datacapture.core.internal.module.b.a.a.b.p.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.aa:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.services.a.bk:
     static java.lang.String a
     static java.lang.String b
@@ -11100,8 +11778,13 @@ com.amap.api.services.a.bk:
     static int f
     static java.lang.String g
     static java.lang.String h
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.b:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoader:
     public static final com.scandit.datacapture.barcode.internal.sdk.init.BarcodeLibraryLoader INSTANCE
+com.scandit.datacapture.core.internal.module.ui.control.ControlLayout:
+    private com.scandit.datacapture.core.source.FrameSource c
+    private static final android.widget.LinearLayout$LayoutParams e
 com.qx.wz.dj.rtcm.Options:
     private android.content.Context mContext
 com.scandit.datacapture.core.internal.module.https.l$a$a:
@@ -11109,13 +11792,22 @@ com.scandit.datacapture.core.internal.module.https.l$a$a:
     private synthetic com.scandit.datacapture.core.internal.module.https.i e
 okhttp3.internal.http2.Http2Stream$FramingSink:
     static final synthetic boolean $assertionsDisabled
-com.scandit.datacapture.core.common.ContextStatus:
-    private final java.lang.String a
-    private final int b
+com.scandit.datacapture.core.ui.gesture.SwipeToZoomProxyAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.e:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.ab:
+    private static final float c
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e d
+com.scandit.datacapture.core.internal.module.source.c:
+    private final com.scandit.datacapture.core.internal.module.b.a.a.b a
+    private final com.scandit.datacapture.core.internal.module.source.f b
 okhttp3.internal.http2.Http2Stream$FramingSource:
     static final synthetic boolean $assertionsDisabled
 com.scandit.datacapture.barcode.data.BarcodeProxyAdapter:
     private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.j:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 kotlin.internal.PlatformImplementations$ReflectThrowable:
     public static final java.lang.reflect.Method getSuppressed
     public static final kotlin.internal.PlatformImplementations$ReflectThrowable INSTANCE
@@ -11123,6 +11815,8 @@ com.amap.api.maps.model.Tile:
     private static final com.autonavi.ae.gmap.maploader.Pools$SynchronizedPool M_POOL
 kotlin.jvm.internal.Reflection:
     private static final kotlin.reflect.KClass[] EMPTY_K_CLASS_ARRAY
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.d:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.services.district.DistrictResult:
     public android.os.Parcelable$Creator CREATOR
 com.scandit.datacapture.core.source.BitmapFrameSourceProxyAdapter:
@@ -11131,6 +11825,11 @@ com.amap.api.services.a.ck:
     private static boolean b
     private static boolean c
 com.loc.v
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.m:
+    private static final float b
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e d
 com.amap.api.services.a.bg:
     private static java.lang.String c
     private static java.lang.String d
@@ -11142,6 +11841,10 @@ com.scandit.datacapture.barcode.data.SymbologyDescriptionProxyAdapter:
 jcg.mini_dji_go_app.media.NativeHelper:
     private jcg.mini_dji_go_app.media.NativeHelper$NativeDataListener dataListener
     public static final java.lang.String TAG
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.k:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.ui.DataCaptureView$orientationEventListener$1:
+    private synthetic android.content.Context b
 com.loc.di:
     static java.lang.String a
     static java.lang.String b
@@ -11156,6 +11859,8 @@ com.loc.di:
     private static boolean p
     static boolean k
     static boolean l
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.c:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.mapzen.android.lost.internal.LostClientManager$5:
     final synthetic com.mapzen.android.lost.internal.LostClientManager this$0
 com.almeros.android.multitouch.gesturedetectors.TwoFingerGestureDetector:
@@ -11165,20 +11870,32 @@ com.scandit.datacapture.tools.internal.a.a.d$r:
     private synthetic com.scandit.datacapture.tools.internal.a.a.d a
 okhttp3.internal.http1.Http1Codec$FixedLengthSource:
     final synthetic okhttp3.internal.http1.Http1Codec this$0
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.o:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.scandit.datacapture.core.capture.DataCaptureContext:
-    private com.scandit.datacapture.core.source.FrameSource a
     public static final java.lang.String DEVICE_ID
 okhttp3.MediaType:
     private final java.lang.String type
     private final java.lang.String subtype
 com.mapzen.android.lost.internal.LostClientManager$4:
     final synthetic com.mapzen.android.lost.internal.LostClientManager this$0
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.b:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.n:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.ui.control.TorchSwitchControl:
+    public static final com.scandit.datacapture.core.ui.control.TorchSwitchControl$Companion Companion
 okhttp3.internal.http2.Hpack$Writer:
     int headerTableSizeSetting
+com.scandit.datacapture.core.internal.module.b.a.a.b.q.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 okhttp3.RealCall$AsyncCall:
     static final synthetic boolean $assertionsDisabled
 com.nineoldandroids.animation.Keyframe:
     java.lang.Class mValueType
+com.scandit.datacapture.core.source.Camera:
+    private static final com.scandit.datacapture.core.internal.module.source.CameraFactory e
+    public static final com.scandit.datacapture.core.source.Camera$Companion Companion
 com.amap.api.maps.model.GroundOverlayOptions:
     private final double NF_PI
     private final double R
@@ -11201,8 +11918,12 @@ com.amap.api.mapcore.util.bf:
     private java.lang.String p
     boolean n
     private long r
+com.scandit.datacapture.core.internal.sdk.ui.NeedsRedrawListenerReversedAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
 okhttp3.HttpUrl:
     private final java.util.List pathSegments
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.b:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.maps.model.PolygonOptions:
     private final java.lang.String type
     private boolean isPointsUpdated
@@ -11244,6 +11965,10 @@ com.amap.api.mapcore.util.ht:
     private static java.util.Set f
     private static final java.util.concurrent.ThreadFactory h
 kotlin.text.CharsKt
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.d:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.j.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 okhttp3.internal.Util:
     public static final okhttp3.RequestBody EMPTY_REQUEST
     private static final okio.ByteString UTF_8_BOM
@@ -11258,8 +11983,14 @@ okhttp3.internal.Util:
     private static final java.nio.charset.Charset UTF_32_LE
 com.scandit.datacapture.core.capture.DataCaptureContextSettings:
     public static final com.scandit.datacapture.core.capture.DataCaptureContextSettings$Companion Companion
+kotlin.text.Regex$Serialized:
+    public static final kotlin.text.Regex$Serialized$Companion Companion
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.c:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.scandit.datacapture.barcode.capture.BarcodeCaptureProxyAdapter:
     private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
+com.scandit.datacapture.core.internal.module.b.a.a.d:
+    public java.lang.String a()
 okhttp3.Dispatcher:
     static final synthetic boolean $assertionsDisabled
 com.mapzen.android.lost.internal.GeofencingApiImpl:
@@ -11270,20 +12001,41 @@ okhttp3.CacheControl:
     public static final okhttp3.CacheControl FORCE_NETWORK
     public static final okhttp3.CacheControl FORCE_CACHE
 okhttp3.internal.http.UnrepeatableRequestBody
+com.scandit.datacapture.core.internal.module.source.CameraFactory:
+    private final java.util.Map a
+    private final com.scandit.datacapture.core.internal.module.b.a.a.b b
+    private final java.util.Map c
+com.scandit.datacapture.core.internal.module.b.a.a.b.e.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 jcg.mini_dji_go_app.BluetoothConstants:
     public static final java.lang.Integer REQUEST_ENABLE_BT
     public static final java.lang.Integer[] A
     public static final java.lang.Integer[] B
 com.amap.api.maps.AMapOptions:
     private int k
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.f:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+kotlin.text.RegexOption:
+    public static final enum kotlin.text.RegexOption MULTILINE
+    public static final enum kotlin.text.RegexOption LITERAL
+    public static final enum kotlin.text.RegexOption UNIX_LINES
+    public static final enum kotlin.text.RegexOption COMMENTS
+    public static final enum kotlin.text.RegexOption DOT_MATCHES_ALL
+    public static final enum kotlin.text.RegexOption CANON_EQ
 com.scandit.datacapture.core.internal.module.source.SingleBitmapFrameDataCollection:
     private final synthetic com.scandit.datacapture.core.internal.module.source.ah c
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.e:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.b.a.a.b.h.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.qx.wz.dj.rtcm.Ndk:
     private com.qx.wz.dj.rtcm.QxRtcmListener mRtcmListener
     private com.qx.wz.dj.rtcm.QxActiveAccountListener mActiveListener
     private com.qx.wz.dj.rtcm.QxRtcmPlanQueryListener mPlanQueryListener
 com.nineoldandroids.animation.KeyframeSet:
     com.nineoldandroids.animation.Keyframe mFirstKeyframe
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.y:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.scandit.datacapture.barcode.capture.BarcodeCaptureSessionProxyAdapter:
     private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
 okhttp3.CipherSuite:
@@ -11393,12 +12145,16 @@ com.mapzen.android.lost.internal.SimplePendingResult:
     private com.mapzen.android.lost.internal.SettingsDialogDisplayer dialogDisplayer
 com.scandit.datacapture.core.capture.DataCaptureContextProxyAdapter:
     private com.scandit.datacapture.core.capture.DataCaptureContext a
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.x:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.almeros.android.multitouch.gesturedetectors.BaseGestureDetector:
     protected long timeDelta
 okhttp3.ConnectionPool:
     static final synthetic boolean $assertionsDisabled
 okhttp3.internal.http.RealResponseBody:
     private final java.lang.String contentTypeString
+com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderProxyAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
 com.amap.api.maps.model.ArcOptions:
     private final java.lang.String type
 com.amap.api.maps.model.PolylineOptions:
@@ -11423,6 +12179,10 @@ com.scandit.datacapture.core.internal.sdk.init.CoreLibraryLoader:
 com.qx.wz.dj.rtcm.RtcmServiceManager:
     private final java.lang.String TAG
     private final long DEBUGWARNING
+com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay:
+    private final java.util.HashMap a
+    private com.scandit.datacapture.core.ui.viewfinder.Viewfinder b
+    public static final com.scandit.datacapture.core.ui.style.Brush DEFAULT_BRUSH
 com.scandit.datacapture.tools.internal.a.a.d$c:
     private synthetic com.scandit.datacapture.tools.internal.a.a.d a
 com.amap.api.services.a.bx:
@@ -11452,6 +12212,8 @@ com.scandit.datacapture.core.source.BitmapFrameSource:
     private final com.scandit.datacapture.core.internal.module.source.SingleBitmapFrameDataCollection b
 com.amap.api.maps.model.BaseHoleOptions:
     protected boolean isPolygonHoleOptions
+com.scandit.datacapture.core.internal.module.b.a.a.b.n.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 okhttp3.internal.http2.Http2Stream:
     static final synthetic boolean $assertionsDisabled
 okhttp3.internal.connection.StreamAllocation:
@@ -11478,20 +12240,38 @@ com.amap.api.maps.model.NavigateArrowOptions:
     private int arrowLineInnerResId
     private int arrowLineOuterResId
     private int arrowLineShadowResId
+com.scandit.datacapture.core.internal.module.b.a.a.b.i.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.ui.gesture.TapToFocusProxyAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache c
+com.scandit.datacapture.core.internal.module.ui.c:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
 jcg.mini_dji_go_app.media.DJIVideoStreamDecoder:
     private final boolean DEBUG
     private long createTime
 com.nineoldandroids.util.Property:
     private final java.lang.Class mType
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.e:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+com.scandit.datacapture.core.internal.module.source.ae:
+    private final android.hardware.camera2.CameraManager a
 com.scandit.datacapture.tools.internal.a.a.e$a:
     private boolean d
 com.mapbox.services.Constants:
     public static final java.lang.String HEADER_USER_AGENT
+kotlin.jvm.internal.PackageReference:
+    private final java.lang.String moduleName
+com.scandit.datacapture.core.internal.module.b.a.a.b.l.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 okhttp3.internal.http1.Http1Codec$UnknownLengthSource:
     final synthetic okhttp3.internal.http1.Http1Codec this$0
+com.scandit.datacapture.core.internal.module.b.a.a.b.f.d:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 kotlin.jvm.internal.ClassReference:
     private static final java.util.Map simpleNames
     public static final kotlin.jvm.internal.ClassReference$Companion Companion
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.p:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.maps.model.particle.ParticleOverlayOptions:
     private com.amap.api.maps.model.particle.VelocityGenerate startSpeed
     private boolean isParticleEmissionModuleUpdate
@@ -11501,8 +12281,13 @@ com.amap.api.maps.model.particle.ParticleOverlayOptions:
     private boolean isParticleOverLifeModuleUpdate
     private final java.lang.String type
     private java.lang.String bitmapSymbol
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.s:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.a d
 com.mapzen.android.lost.internal.LostClientManager$1:
     final synthetic com.mapzen.android.lost.internal.LostClientManager this$0
+com.scandit.datacapture.barcode.capture.SymbologySettingsProxyAdapter:
+    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
 jcg.mini_dji_go_app.media.DJIVideoStreamDecoder$1:
     final synthetic jcg.mini_dji_go_app.media.DJIVideoStreamDecoder this$0
 com.amap.api.services.a.cd:
@@ -11513,6 +12298,8 @@ com.amap.api.services.a.cd:
     private static int h
 com.scandit.datacapture.core.internal.module.https.b$b:
     private static final synthetic int[] d
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.r:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.services.a.cc:
     private static java.util.Set f
     private static final java.util.concurrent.ThreadFactory h
@@ -11522,8 +12309,14 @@ okhttp3.internal.platform.AndroidPlatform:
     private final java.lang.Class sslParametersClass
 okhttp3.internal.cache.CacheInterceptor$1:
     final synthetic okhttp3.internal.cache.CacheInterceptor this$0
+com.scandit.datacapture.core.internal.module.source.l:
+    private final android.hardware.camera2.CameraManager a
+    private final com.scandit.datacapture.core.internal.module.b.a.a.b b
+    private final com.scandit.datacapture.core.internal.module.source.f c
 com.mapzen.android.lost.internal.ParcelableGeofence:
     private long durationMillis
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.u:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.amap.api.services.a.ca:
     static final java.lang.String e
     public static final java.lang.String f
@@ -11557,10 +12350,11 @@ com.loc.aj:
     private static java.util.Set f
     private static final java.util.concurrent.ThreadFactory h
 com.scandit.datacapture.barcode.capture.BarcodeCapture:
-    private com.scandit.datacapture.core.capture.DataCaptureContext a
     private com.scandit.datacapture.barcode.feedback.BarcodeCaptureFeedback b
 com.amap.api.mapcore.util.hf
-com.scandit.datacapture.barcode.capture.BarcodeCaptureSettingsProxyAdapter:
-    private final com.scandit.datacapture.tools.internal.sdk.ProxyCache b
+com.scandit.datacapture.core.internal.module.b.a.a.b.m.a:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c
 com.scandit.datacapture.tools.internal.a.a.d$h:
     private synthetic com.scandit.datacapture.tools.internal.a.a.d a
+com.scandit.datacapture.core.internal.module.b.a.a.b.o.v:
+    private static final com.scandit.datacapture.core.internal.module.b.a.a.e c

@@ -7,6 +7,7 @@ import android.bluetooth.BluetoothSocket;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.graphics.Color;
 import android.graphics.ImageFormat;
 import android.graphics.Rect;
 import android.graphics.SurfaceTexture;
@@ -30,20 +31,26 @@ import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
 
 
 import com.scandit.datacapture.barcode.capture.BarcodeCapture;
 import com.scandit.datacapture.barcode.capture.BarcodeCaptureListener;
 import com.scandit.datacapture.barcode.capture.BarcodeCaptureSession;
 import com.scandit.datacapture.barcode.capture.BarcodeCaptureSettings;
+import com.scandit.datacapture.barcode.capture.SymbologySettings;
 import com.scandit.datacapture.barcode.data.Barcode;
 import com.scandit.datacapture.barcode.data.Symbology;
 import com.scandit.datacapture.barcode.data.SymbologyDescription;
+import com.scandit.datacapture.barcode.ui.overlay.BarcodeCaptureOverlay;
 import com.scandit.datacapture.core.capture.DataCaptureContext;
 import com.scandit.datacapture.core.data.FrameData;
 import com.scandit.datacapture.core.source.BitmapFrameSource;
 import com.scandit.datacapture.core.source.FrameSourceState;
 import com.scandit.datacapture.core.ui.DataCaptureView;
+import com.scandit.datacapture.core.ui.style.Brush;
+import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinder;
+import com.scandit.datacapture.core.ui.viewfinder.RectangularViewfinderStyle;
 
 import org.jetbrains.annotations.NotNull;
 
@@ -58,6 +65,8 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.nio.ByteBuffer;
+import java.util.Arrays;
+import java.util.HashSet;
 import java.util.Set;
 
 import dji.common.camera.SettingsDefinitions;
@@ -121,6 +130,8 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
     private BarcodeCapture barcodeCapture;
     private com.scandit.datacapture.core.source.Camera camera;
     private DataCaptureView dataCaptureView;
+    private AlertDialog dialog;
+
 
     @Override
     protected void onResume() {
@@ -184,13 +195,11 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         Analyzer analyzer = new Analyzer(context);
 
-        barcodeScannInitialize();
-
         //Scann
         Button buttonScann = findViewById(R.id.buttonScann);
         buttonScann.setOnClickListener(view -> {
 
-            barcodeScann();
+            barcodeScannInitialize();
 
         });
 
@@ -651,19 +660,125 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
 
         DataCaptureContext dataCaptureContext = DataCaptureContext.forLicenseKey(SCANDIT_LICENSE_KEY);
 
-        BarcodeCaptureSettings settings = new BarcodeCaptureSettings();
-        settings.enableSymbology(Symbology.CODE128, true);
-        settings.enableSymbology(Symbology.CODE39, true);
-        settings.enableSymbology(Symbology.QR, true);
-        settings.enableSymbology(Symbology.EAN8, true);
-        settings.enableSymbology(Symbology.UPCE, true);
-        settings.enableSymbology(Symbology.EAN13_UPCA, true);
+        Toast.makeText(this, "Starting barcode scan", Toast.LENGTH_SHORT).show();
 
-        barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, settings);
+        BitmapFrameSource bitmapFrameSource = BitmapFrameSource.of(videostreamPreviewTtView.getBitmap());
 
+        dataCaptureContext.setFrameSource(bitmapFrameSource);
+        // The barcode capturing process is configured through barcode capture settings
+        // which are then applied to the barcode capture instance that manages barcode recognition.
+        BarcodeCaptureSettings barcodeCaptureSettings = new BarcodeCaptureSettings();
+
+        // The settings instance initially has all types of barcodes (symbologies) disabled.
+        // For the purpose of this sample we enable a very generous set of symbologies.
+        // In your own app ensure that you only enable the symbologies that your app requires as
+        // every additional enabled symbology has an impact on processing times.
+        HashSet<Symbology> symbologies = new HashSet<>();
+        symbologies.add(Symbology.EAN13_UPCA);
+        symbologies.add(Symbology.EAN8);
+        symbologies.add(Symbology.UPCE);
+        symbologies.add(Symbology.QR);
+        symbologies.add(Symbology.DATA_MATRIX);
+        symbologies.add(Symbology.CODE39);
+        symbologies.add(Symbology.CODE128);
+        symbologies.add(Symbology.INTERLEAVED_TWO_OF_FIVE);
+
+        barcodeCaptureSettings.enableSymbologies(symbologies);
+
+        // Some linear/1d barcode symbologies allow you to encode variable-length data.
+        // By default, the Scandit Data Capture SDK only scans barcodes in a certain length range.
+        // If your application requires scanning of one of these symbologies, and the length is
+        // falling outside the default range, you may need to adjust the "active symbol counts"
+        // for this symbology. This is shown in the following few lines of code for one of the
+        // variable-length symbologies.
+        SymbologySettings symbologySettings =
+                barcodeCaptureSettings.getSymbologySettings(Symbology.CODE39);
+
+        HashSet<Short> activeSymbolCounts = new HashSet<>(
+                Arrays.asList(new Short[] { 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20 }));
+
+        symbologySettings.setActiveSymbolCounts(activeSymbolCounts);
+
+        // Create new barcode capture mode with the settings from above.
+        barcodeCapture = BarcodeCapture.forDataCaptureContext(dataCaptureContext, barcodeCaptureSettings);
+
+        // Register self as a listener to get informed whenever a new barcode got recognized.
         barcodeCapture.addListener(this);
 
+        // To visualize the on-going barcode capturing process on screen, setup a data capture view
+        // that renders the camera preview. The view must be connected to the data capture context.
+        dataCaptureView = DataCaptureView.newInstance(this, dataCaptureContext);
+
+        // Add a barcode capture overlay to the data capture view to render the location of captured
+        // barcodes on top of the video preview.
+        // This is optional, but recommended for better visual feedback.
+        BarcodeCaptureOverlay overlay = BarcodeCaptureOverlay.newInstance(barcodeCapture, dataCaptureView);
+        overlay.setViewfinder(new RectangularViewfinder(RectangularViewfinderStyle.SQUARE));
+
+        // Adjust the overlay's barcode highlighting to match the new viewfinder styles and improve
+        // the visibility of feedback. With 6.10 we will introduce this visual treatment as a new
+        // style for the overlay.
+        Brush brush = new Brush(Color.TRANSPARENT, Color.WHITE, 3f);
+        overlay.setBrush(brush);
+
+        setContentView(dataCaptureView);
+
     }
+
+    private void dismissScannedCodesDialog() {
+        if (dialog != null) {
+            dialog.dismiss();
+            dialog = null;
+        }
+    }
+
+    private void showResult(String result) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        dialog = builder.setCancelable(false)
+                .setTitle(result)
+                .setPositiveButton(android.R.string.ok,
+                        (dialog, which) -> barcodeCapture.setEnabled(true))
+                .create();
+        dialog.show();
+    }
+
+    @Override
+    public void onBarcodeScanned(
+            @NonNull BarcodeCapture barcodeCapture,
+            @NonNull BarcodeCaptureSession session,
+            @NonNull FrameData frameData
+    ) {
+        if (session.getNewlyRecognizedBarcodes().isEmpty()) return;
+
+        Barcode barcode = session.getNewlyRecognizedBarcodes().get(0);
+
+        // Stop recognizing barcodes for as long as we are displaying the result. There won't be any
+        // new results until the capture mode is enabled again. Note that disabling the capture mode
+        // does not stop the camera, the camera continues to stream frames until it is turned off.
+        barcodeCapture.setEnabled(false);
+
+        // If you are not disabling barcode capture here and want to continue scanning, consider
+        // setting the codeDuplicateFilter when creating the barcode capture settings to around 500
+        // or even -1 if you do not want codes to be scanned more than once.
+
+        // Get the human readable name of the symbology and assemble the result to be shown.
+        String symbology = SymbologyDescription.create(barcode.getSymbology()).getReadableName();
+        final String result = "Scanned: " + barcode.getData() + " (" + symbology + ")";
+
+        runOnUiThread(() -> showResult(result));
+    }
+
+    @Override
+    public void onSessionUpdated(@NonNull BarcodeCapture barcodeCapture,
+                                 @NonNull BarcodeCaptureSession session, @NonNull FrameData data) {}
+
+    @Override
+    public void onObservationStarted(@NonNull BarcodeCapture barcodeCapture) {}
+
+    @Override
+    public void onObservationStopped(@NonNull BarcodeCapture barcodeCapture) {}
+
+
 
     private Bitmap ARGBBitmap(Bitmap img) {
         return img.copy(Bitmap.Config.ARGB_8888,true);
@@ -688,36 +803,6 @@ public class MainActivity extends Activity implements DJICodecManager.YuvDataCal
         bitmapFrameSource.switchToDesiredState(FrameSourceState.ON, null);
     }
 
-
-    @Override
-    public void onBarcodeScanned(@NonNull BarcodeCapture barcodeCapture,
-                                 @NonNull BarcodeCaptureSession session, @NonNull FrameData frameData) {
-
-        Barcode barcode = session.getNewlyRecognizedBarcodes().get(0);
-
-        barcodeCapture.setEnabled(false);
-
-        String symbology = SymbologyDescription.create(barcode.getSymbology()).getReadableName();
-        final String result = "Scanned: " + barcode.getData() + " (" + symbology + ")";
-
-        Toast.makeText(context, result, Toast.LENGTH_SHORT).show();
-    }
-
-
-    @Override
-    public void onObservationStarted(@NotNull BarcodeCapture barcodeCapture) {
-
-    }
-
-    @Override
-    public void onObservationStopped(@NotNull BarcodeCapture barcodeCapture) {
-
-    }
-
-    @Override
-    public void onSessionUpdated(@NotNull BarcodeCapture barcodeCapture, @NotNull BarcodeCaptureSession barcodeCaptureSession, @NotNull FrameData frameData) {
-
-    }
 
 
     //----------------------------------- Bluetooth Methods ----------------------------------//
